@@ -1,0 +1,47 @@
+[2023-08-06 00:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189540]
+[2023-08-06 00:03:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolibri-ml
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suggestscraper
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openrpc
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lares
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scReadSim
+[2023-08-06 00:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrunch
+[2023-08-06 00:03:45] WARNING root fetch - processPackages [suggestscraper]: Skipping, unable to determine old version
+[2023-08-06 00:03:45] INFO root fetch - main [MainThread]: End processing [suggestscraper] error
+[2023-08-06 00:03:45] INFO root fetch - processPackages [openrpc]: New version: [7.2.0] Old Version: [7.0.2]
+[2023-08-06 00:03:45] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.82] Old Version: [1.1.81]
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scrunch]: New version: [6.5.2038.post1691195849] Old Version: [6.5.2037.post1691184100]
+[2023-08-06 00:03:45] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/4a/d6/12abf7e05334a6e1398a3945c522c96c386ea46f74d7553f5a96bf0a3da6/openrpc-7.0.2.tar.gz
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scReadSim]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-06 00:03:45] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/fe/5b/f6503b736a13d7f5c089f71ef33bfe43329a9b8a05bc855a94832d36130f/kolibri_ml-1.1.81-py3-none-any.whl
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/85/32e2065cf451bd33e1082bf848d09a83514ca723eaf120018b137b55d354/scrunch-6.5.2037.post1691184100.tar.gz
+[2023-08-06 00:03:45] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 00:03:45] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/10/ad/92482581efbb73fc20dbd1b0abb8acdbe042cbd2c939603741f9bc9bc6ef/openrpc-7.2.0.tar.gz
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scReadSim]: Downloading https://files.pythonhosted.org/packages/c6/e3/f63a9c7830b4107d7cf2c77b15737e17edfc60aa944cac9b34a80b5c7c6d/scReadSim-1.4.0.tar.gz
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/0c/c5/4b0998b225dca01836de2d57f20acb6e0a80c8a8a65c1fd2dce8338316f4/scrunch-6.5.2038.post1691195849.tar.gz
+[2023-08-06 00:03:45] WARNING root fetch - processPackages [scReadSim]: Skipping package: exceeds size limit 24456231>=10485760
+[2023-08-06 00:03:45] INFO root fetch - main [MainThread]: End processing [scReadSim] error
+[2023-08-06 00:03:45] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/4c/1b/755aaf1c9b8a0ddf73fd7cff5977dd5309f60fb36fc5d6983bf4fee9d4f6/kolibri_ml-1.1.82-py3-none-any.whl
+[2023-08-06 00:03:45] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-06 00:03:45] INFO root fetch - processPackages [openrpc]: executing diffoscope
+[2023-08-06 00:03:45] INFO root fetch - processPackages [openrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrpc-7.0.2.tar.gz tmp/openrpc-7.2.0.tar.gz --markdown 20230806/o/openrpc/7.0.2-7.2.0/diff.md --exclude *.pyd
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-06 00:03:45] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2037.post1691184100.tar.gz tmp/scrunch-6.5.2038.post1691195849.tar.gz --markdown 20230806/s/scrunch/6.5.2037.post1691184100-6.5.2038.post1691195849/diff.md --exclude *.pyd
+[2023-08-06 00:03:46] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-06 00:03:46] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.81-py3-none-any.whl.zip tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip --markdown 20230806/k/kolibri-ml/1.1.81-1.1.82/diff.md --exclude *.pyd
+[2023-08-06 00:03:46] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-06 00:03:46] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-06 00:03:46] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230806/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 00:03:46] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-7.0.2.tar.gz]
+[2023-08-06 00:03:46] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-7.2.0.tar.gz]
+[2023-08-06 00:03:46] INFO root fetch - main [MainThread]: End processing [openrpc]: success
+[2023-08-06 00:03:47] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2037.post1691184100.tar.gz]
+[2023-08-06 00:03:47] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2038.post1691195849.tar.gz]
+[2023-08-06 00:03:47] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-06 00:03:47] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-06 00:03:47] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-06 00:03:47] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-06 00:03:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.81-py3-none-any.whl.zip]
+[2023-08-06 00:03:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip]
+[2023-08-06 00:03:49] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-06 00:03:49] INFO root fetch - main [MainThread]: Store serial: [19189556]
