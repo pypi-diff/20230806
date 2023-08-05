@@ -911,3 +911,33 @@
 [2023-08-06 01:53:30] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.9.2b0.tar.gz]
 [2023-08-06 01:53:30] INFO root fetch - main [MainThread]: End processing [openc3]: success
 [2023-08-06 01:53:30] INFO root fetch - main [MainThread]: Store serial: [19189951]
+[2023-08-06 01:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189951]
+[2023-08-06 01:58:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 01:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wicked-expressions
+[2023-08-06 01:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-08-06 01:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-ie
+[2023-08-06 01:58:38] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 01:58:38] INFO root fetch - processPackages [wicked-expressions]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-06 01:58:38] INFO root fetch - processPackages [pytorch-ie]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 01:58:39] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/93/66/0ad24435522df74cd14235cca64f07cd93d97c6b18088d5ba5ec9ef90154/pytorch-ie-0.8.0.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/17/b9/82f0c2c6a104ae3e1455af93e3b57fd8029d228035822194f29b34d3e92d/wicked_expressions-0.8.2.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 01:58:39] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 01:58:39] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/a7/47/2468a0ff5eca32b51862fb4ecf504d7454d03a9d7911228fed6a86f262b1/wicked_expressions-0.8.3.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/49/00/5b3e07da58ca82e645505922702bfb2045fe789aa0007c7322f90b20b320/pytorch-ie-0.9.0.tar.gz
+[2023-08-06 01:58:39] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-08-06 01:58:39] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.8.2.tar.gz tmp/wicked_expressions-0.8.3.tar.gz --markdown 20230806/w/wicked-expressions/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-06 01:58:39] INFO root fetch - processPackages [pytorch-ie]: executing diffoscope
+[2023-08-06 01:58:39] INFO root fetch - processPackages [pytorch-ie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ie-0.8.0.tar.gz tmp/pytorch-ie-0.9.0.tar.gz --markdown 20230806/p/pytorch-ie/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 01:58:40] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 01:58:40] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.8.2.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.8.3.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-08-06 01:58:40] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.8.0.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.9.0.tar.gz]
+[2023-08-06 01:58:40] INFO root fetch - main [MainThread]: End processing [pytorch-ie]: success
+[2023-08-06 01:58:40] INFO root fetch - main [MainThread]: Store serial: [19189960]
