@@ -881,3 +881,33 @@
 [2023-08-06 01:48:20] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230804.tar.gz]
 [2023-08-06 01:48:20] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-08-06 01:48:20] INFO root fetch - main [MainThread]: Store serial: [19189942]
+[2023-08-06 01:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189942]
+[2023-08-06 01:53:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openc3
+[2023-08-06 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyFlyt
+[2023-08-06 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BeyotekTools
+[2023-08-06 01:53:28] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 01:53:28] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-06 01:53:28] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/9c/17/4d75733ee29934e497513f67671ffd79aaf6bc2e014e7bcbce780fded20a/BeyotekTools-0.0.2.tar.gz
+[2023-08-06 01:53:28] INFO root fetch - processPackages [openc3]: New version: [5.9.2b0] Old Version: [5.10.0]
+[2023-08-06 01:53:28] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/da/65/a58ac237bdbaff01181226c942507222037c9492128850a96aa8e0e87afe/PyFlyt-0.9.4.tar.gz
+[2023-08-06 01:53:28] INFO root fetch - processPackages [openc3]: Downloading https://files.pythonhosted.org/packages/c8/e1/920641923ae483f85b0d6005a124144331c3527da8ea44cd424ad8cec49a/openc3-5.10.0.tar.gz
+[2023-08-06 01:53:29] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/b4/57/8a1fbdbd9df0426eecb1b94bd4f4c3ff235fadbeac9f621bd46cc3b31607/PyFlyt-0.9.5.tar.gz
+[2023-08-06 01:53:29] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b1/5a/350419fcc4934eb7b76f3957a52f5777cb1e7c7e1fd8efc88084c7b85ba8/BeyotekTools-0.0.3.tar.gz
+[2023-08-06 01:53:29] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-08-06 01:53:29] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.9.4.tar.gz tmp/PyFlyt-0.9.5.tar.gz --markdown 20230806/P/PyFlyt/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-06 01:53:29] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 01:53:29] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.2.tar.gz tmp/BeyotekTools-0.0.3.tar.gz --markdown 20230806/B/BeyotekTools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 01:53:29] INFO root fetch - processPackages [openc3]: Downloading https://files.pythonhosted.org/packages/26/a7/1e2b188ad9d1677d8d52f680bf95a1823d70072c6ddd19eb06f9c3f68eb4/openc3-5.9.2b0.tar.gz
+[2023-08-06 01:53:29] INFO root fetch - processPackages [openc3]: executing diffoscope
+[2023-08-06 01:53:29] INFO root fetch - processPackages [openc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openc3-5.10.0.tar.gz tmp/openc3-5.9.2b0.tar.gz --markdown 20230806/o/openc3/5.10.0-5.9.2b0/diff.md --exclude *.pyd
+[2023-08-06 01:53:30] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.2.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.3.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 01:53:30] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.4.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.5.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-08-06 01:53:30] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.10.0.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.9.2b0.tar.gz]
+[2023-08-06 01:53:30] INFO root fetch - main [MainThread]: End processing [openc3]: success
+[2023-08-06 01:53:30] INFO root fetch - main [MainThread]: Store serial: [19189951]
