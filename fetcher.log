@@ -478,3 +478,69 @@
 [2023-08-06 01:00:55] INFO root fetch - processPackages [pysigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.9.tar.gz]
 [2023-08-06 01:00:55] INFO root fetch - main [MainThread]: End processing [pysigma]: success
 [2023-08-06 01:00:55] INFO root fetch - main [MainThread]: Store serial: [19189813]
+[2023-08-06 01:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189813]
+[2023-08-06 01:06:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veilid
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyprland-autocompile
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SQLAlchemyExample
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-error-report-2
+[2023-08-06 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wtlike
+[2023-08-06 01:06:04] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230804] Old Version: [0.7.0b20230803]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230804] Old Version: [0.7.0b20230803]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [hyprland-autocompile]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [veilid]: New version: [0.1.7] Old Version: [0.1.0]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [wtlike]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [django-error-report-2]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-06 01:06:04] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/58/ed/12e406be1d91f3855f189db96f2bb545fc98e73d0341a828070f93aa9869/tmnt-cu101-0.7.0b20230803.tar.gz
+[2023-08-06 01:06:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1c/e8/611c0ed6c5d6c6123c1017fcaa8fde4337ea00ea8ae3b02172efaa0b9bd2/tmnt-0.7.0b20230803.tar.gz
+[2023-08-06 01:06:04] INFO root fetch - processPackages [hyprland-autocompile]: Downloading https://files.pythonhosted.org/packages/99/fd/bd7b9bdf54ddf935bbab65ecc0093cb6c5e871156bce4786a69b56fa9d76/hyprland_autocompile-0.0.1a0.tar.gz
+[2023-08-06 01:06:04] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/5b/60/1e8b17cf48f7e7b0399dafc1b6f6aaa748fc1e54659c7b76faf9b674fc7c/SQLAlchemyExample-0.1.4.tar.gz
+[2023-08-06 01:06:04] INFO root fetch - processPackages [veilid]: Downloading https://files.pythonhosted.org/packages/8e/46/2789d95daf82854b2a7864d1933eb1599c30f6aac8213a565f77edd8e1a6/veilid-0.1.0.tar.gz
+[2023-08-06 01:06:04] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/f2/89/a62f7e5b4a06e7cc31b8f2ffca193e59bc2b42340a45c45efe09ee05ac0a/django-error-report-2-0.4.1.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/05/b0/fb6fdf0ac1a637bc567ce0b107db24287741371e39ce6a865fa5f8cf2ee3/wtlike-0.9.7.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d3/6b/0c97cdb7a93d96ba1abc603572691e30c31ffa6696d82473362d13908432/tmnt-cu101-0.7.0b20230804.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [hyprland-autocompile]: Downloading https://files.pythonhosted.org/packages/44/d1/fdb58366573436cee0968dbe7125e923bec215d67f7e685be7db8c1dc756/hyprland_autocompile-0.0.2a0.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/e7/7f/fbd5ae948e719e87ff6ab72eed81cf2433cd7b662edf756018e2faf30228/tmnt-0.7.0b20230804.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/db/c9/0463d4ebf5ab5dafe7c76a4ffc5ce838aa84e69c7474c20dcf0e00983976/SQLAlchemyExample-0.1.5.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230803.tar.gz tmp/tmnt-cu101-0.7.0b20230804.tar.gz --markdown 20230806/t/tmnt-cu101/0.7.0b20230803-0.7.0b20230804/diff.md --exclude *.pyd
+[2023-08-06 01:06:05] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.1.4.tar.gz tmp/SQLAlchemyExample-0.1.5.tar.gz --markdown 20230806/S/SQLAlchemyExample/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230803.tar.gz tmp/tmnt-0.7.0b20230804.tar.gz --markdown 20230806/t/tmnt/0.7.0b20230803-0.7.0b20230804/diff.md --exclude *.pyd
+[2023-08-06 01:06:05] INFO root fetch - processPackages [veilid]: Downloading https://files.pythonhosted.org/packages/66/ee/aa2a9319303626fadf30239443ad8a56926c45a66b27c4b74c32df5f54cb/veilid-0.1.7.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/37/56/20a47d27df687238ff58c2ad74fc3856756de61d5d6dc2924270fe8b7d05/django-error-report-2-0.4.2.tar.gz
+[2023-08-06 01:06:05] INFO root fetch - processPackages [hyprland-autocompile]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [hyprland-autocompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyprland_autocompile-0.0.1a0.tar.gz tmp/hyprland_autocompile-0.0.2a0.tar.gz --markdown 20230806/h/hyprland-autocompile/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-08-06 01:06:05] INFO root fetch - processPackages [veilid]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [veilid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veilid-0.1.0.tar.gz tmp/veilid-0.1.7.tar.gz --markdown 20230806/v/veilid/0.1.0-0.1.7/diff.md --exclude *.pyd
+[2023-08-06 01:06:05] INFO root fetch - processPackages [django-error-report-2]: executing diffoscope
+[2023-08-06 01:06:05] INFO root fetch - processPackages [django-error-report-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-error-report-2-0.4.1.tar.gz tmp/django-error-report-2-0.4.2.tar.gz --markdown 20230806/d/django-error-report-2/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-06 01:06:06] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.4.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.5.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-06 01:06:06] INFO root fetch - processPackages [veilid]: Remove: archive file [/home/abi/fetcher/tmp/veilid-0.1.0.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [veilid]: Remove: archive file [/home/abi/fetcher/tmp/veilid-0.1.7.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [veilid]: success
+[2023-08-06 01:06:06] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230803.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230804.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-06 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230803.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230804.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-06 01:06:06] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/ea/26/89c7e92dbbb1265e219e6e213236722a3bcdbea7eb3d803a81e1c77dcb60/wtlike-0.9.8.tar.gz
+[2023-08-06 01:06:06] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.1.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.2.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [django-error-report-2]: success
+[2023-08-06 01:06:06] INFO root fetch - processPackages [hyprland-autocompile]: Remove: archive file [/home/abi/fetcher/tmp/hyprland_autocompile-0.0.1a0.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - processPackages [hyprland-autocompile]: Remove: archive file [/home/abi/fetcher/tmp/hyprland_autocompile-0.0.2a0.tar.gz]
+[2023-08-06 01:06:06] INFO root fetch - main [MainThread]: End processing [hyprland-autocompile]: success
+[2023-08-06 01:06:07] INFO root fetch - processPackages [wtlike]: executing diffoscope
+[2023-08-06 01:06:07] INFO root fetch - processPackages [wtlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtlike-0.9.7.tar.gz tmp/wtlike-0.9.8.tar.gz --markdown 20230806/w/wtlike/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-08-06 01:06:08] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.7.tar.gz]
+[2023-08-06 01:06:08] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.8.tar.gz]
+[2023-08-06 01:06:08] INFO root fetch - main [MainThread]: End processing [wtlike]: success
+[2023-08-06 01:06:08] INFO root fetch - main [MainThread]: Store serial: [19189834]
