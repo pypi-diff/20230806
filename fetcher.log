@@ -45,3 +45,70 @@
 [2023-08-06 00:03:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip]
 [2023-08-06 00:03:49] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-06 00:03:49] INFO root fetch - main [MainThread]: Store serial: [19189556]
+[2023-08-06 00:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189556]
+[2023-08-06 00:08:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyschlage
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nice65
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: felupe
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CaptchaGenerator
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syct
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rethink
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: not1mm
+[2023-08-06 00:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nice65
+[2023-08-06 00:08:58] INFO root fetch - processPackages [nice65]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 00:08:58] INFO root fetch - processPackages [nice65]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 00:08:58] WARNING root fetch - processPackages [rethink]: Skipping, unable to determine old version
+[2023-08-06 00:08:58] INFO root fetch - main [MainThread]: End processing [rethink] error
+[2023-08-06 00:08:58] INFO root fetch - processPackages [felupe]: New version: [7.5.1] Old Version: [7.5.0]
+[2023-08-06 00:08:58] INFO root fetch - processPackages [pyschlage]: New version: [2023.8.0] Old Version: [2023.7.0]
+[2023-08-06 00:08:58] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/34/f7/b8b17e6c929f83927779b75a9d20b863b6f03d73bd7e139347aa89edab53/felupe-7.5.0.tar.gz
+[2023-08-06 00:08:58] INFO root fetch - processPackages [syct]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 00:08:58] INFO root fetch - processPackages [not1mm]: New version: [23.8.5] Old Version: [23.7.5]
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/3e/c8/284e9e05e9db9e5ca5cb4fd9b1e3d204142873752146f346c5b8abca02a6/nice65-0.1.4.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/3e/c8/284e9e05e9db9e5ca5cb4fd9b1e3d204142873752146f346c5b8abca02a6/nice65-0.1.4.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [CaptchaGenerator]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-06 00:08:59] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/15/42/586d6eb76b2616f2e5628bfa97c808c510330eb45c1d515200435356c65a/pyschlage-2023.7.0.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [syct]: Downloading https://files.pythonhosted.org/packages/a7/ae/0b1ca3ab3cc3b02f5560a0d9aeb17ef78c33e8ce9328a5e5312e9a24e2c4/syct-0.4.3.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/b1/6c/775b049fff0ad23f4662cb9a509bc7e76f09d0a868da7dbc879f16da3b3a/felupe-7.5.1.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0f/74/bcd01321629495c1cb7e8955b07622e3b31ffe00e23020de1b8e98cea136/not1mm-23.7.5.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [CaptchaGenerator]: Downloading https://files.pythonhosted.org/packages/ff/60/816c7ac0f71570bce3fcf4d9c12f4fc0733fe100c9957b60599993de24ca/CaptchaGenerator-1.1.4.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-7.5.0.tar.gz tmp/felupe-7.5.1.tar.gz --markdown 20230806/f/felupe/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2023-08-06 00:08:59] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/16/2e/fd3287e6475f8e12b8858177dd42af7ebf1eaf638ac21c3c91120698d03b/pyschlage-2023.8.0.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/b7/b5/2e781e56d21aa4a46e1834ba3368d14307c6c7ea100290a057a1826d3694/nice65-0.1.5.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/b7/b5/2e781e56d21aa4a46e1834ba3368d14307c6c7ea100290a057a1826d3694/nice65-0.1.5.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [syct]: Downloading https://files.pythonhosted.org/packages/8b/ef/2a0b01864806fdd7dd93093a908b217fb0d60469d57871dd0e0d837de66f/syct-0.4.4.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [pyschlage]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [pyschlage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschlage-2023.7.0.tar.gz tmp/pyschlage-2023.8.0.tar.gz --markdown 20230806/p/pyschlage/2023.7.0-2023.8.0/diff.md --exclude *.pyd
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.1.4.tar.gz tmp/nice65-0.1.5.tar.gz --markdown 20230806/n/nice65/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.1.4.tar.gz tmp/nice65-0.1.5.tar.gz --markdown 20230806/n/nice65/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 00:08:59] INFO root fetch - processPackages [syct]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [syct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syct-0.4.3.tar.gz tmp/syct-0.4.4.tar.gz --markdown 20230806/s/syct/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 00:08:59] INFO root fetch - processPackages [CaptchaGenerator]: Downloading https://files.pythonhosted.org/packages/06/e5/54f1893f150b70f396af6970ba2a1a46676da7a130e3109e72bf1922f93b/CaptchaGenerator-1.1.5.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/03/39/1453e687a08fb19ee98bb4759f1e775a368d94816a1c2a4a2126a0380aab/not1mm-23.8.5.tar.gz
+[2023-08-06 00:08:59] INFO root fetch - processPackages [CaptchaGenerator]: executing diffoscope
+[2023-08-06 00:08:59] INFO root fetch - processPackages [CaptchaGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CaptchaGenerator-1.1.4.tar.gz tmp/CaptchaGenerator-1.1.5.tar.gz --markdown 20230806/C/CaptchaGenerator/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-06 00:09:00] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-08-06 00:09:00] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.7.5.tar.gz tmp/not1mm-23.8.5.tar.gz --markdown 20230806/n/not1mm/23.7.5-23.8.5/diff.md --exclude *.pyd
+[2023-08-06 00:09:00] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.4.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.5.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-06 00:09:00] INFO root fetch - processPackages [syct]: Remove: archive file [/home/abi/fetcher/tmp/syct-0.4.3.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - processPackages [syct]: Remove: archive file [/home/abi/fetcher/tmp/syct-0.4.4.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - main [MainThread]: End processing [syct]: success
+[2023-08-06 00:09:00] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.7.0.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.8.0.tar.gz]
+[2023-08-06 00:09:00] INFO root fetch - main [MainThread]: End processing [pyschlage]: success
+[2023-08-06 00:09:01] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-06 00:09:01] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.5.0.tar.gz]
+[2023-08-06 00:09:01] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.5.1.tar.gz]
+[2023-08-06 00:09:01] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2023-08-06 00:09:01] INFO root fetch - processPackages [CaptchaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/CaptchaGenerator-1.1.4.tar.gz]
+[2023-08-06 00:09:01] INFO root fetch - processPackages [CaptchaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/CaptchaGenerator-1.1.5.tar.gz]
+[2023-08-06 00:09:01] INFO root fetch - main [MainThread]: End processing [CaptchaGenerator]: success
+[2023-08-06 00:09:02] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
+[2023-08-06 00:09:02] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.8.5.tar.gz]
+[2023-08-06 00:09:02] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-08-06 00:09:02] INFO root fetch - main [MainThread]: Store serial: [19189589]
