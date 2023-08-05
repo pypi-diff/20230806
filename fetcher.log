@@ -611,3 +611,27 @@
 [2023-08-06 01:16:29] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.19.1.tar.gz]
 [2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
 [2023-08-06 01:16:29] INFO root fetch - main [MainThread]: Store serial: [19189857]
+[2023-08-06 01:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189857]
+[2023-08-06 01:21:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 01:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-rim
+[2023-08-06 01:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-recaptcha-authorizer
+[2023-08-06 01:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmpg
+[2023-08-06 01:21:37] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 01:21:37] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-06 01:21:37] WARNING root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Skipping, unable to determine old version
+[2023-08-06 01:21:37] INFO root fetch - main [MainThread]: End processing [cdk-lambda-recaptcha-authorizer] error
+[2023-08-06 01:21:37] INFO root fetch - processPackages [torch-rim]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 01:21:38] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-06 01:21:38] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/8b/cd/f0017a39bb16b90568137e1282fc94be3a8d7c3bcfaa7cd26ec5e1598212/torch_rim-0.2.4.tar.gz
+[2023-08-06 01:21:38] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-06 01:21:38] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230806/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 01:21:38] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/18/04/354ea373e1043115621e33f35777e6b749159a5af924a3b1630ad565e8a2/torch_rim-0.2.5.tar.gz
+[2023-08-06 01:21:38] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 01:21:38] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.4.tar.gz tmp/torch_rim-0.2.5.tar.gz --markdown 20230806/t/torch-rim/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 01:21:38] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-06 01:21:38] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-06 01:21:38] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-06 01:21:39] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.4.tar.gz]
+[2023-08-06 01:21:39] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.5.tar.gz]
+[2023-08-06 01:21:39] INFO root fetch - main [MainThread]: End processing [torch-rim]: success
+[2023-08-06 01:21:39] INFO root fetch - main [MainThread]: Store serial: [19189868]
