@@ -565,3 +565,49 @@
 [2023-08-06 01:11:18] INFO root fetch - processPackages [karaoke-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_generator-0.5.1.tar.gz]
 [2023-08-06 01:11:18] INFO root fetch - main [MainThread]: End processing [karaoke-generator]: success
 [2023-08-06 01:11:18] INFO root fetch - main [MainThread]: Store serial: [19189841]
+[2023-08-06 01:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189841]
+[2023-08-06 01:16:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-rim
+[2023-08-06 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epure
+[2023-08-06 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BeyotekTools
+[2023-08-06 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shipper-shippy
+[2023-08-06 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-rim
+[2023-08-06 01:16:27] INFO root fetch - processPackages [torch-rim]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 01:16:27] INFO root fetch - processPackages [torch-rim]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 01:16:27] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 01:16:27] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 01:16:27] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/5a/e2/0ffc7c70f81cfe5f2e209c6a23eda6731647ca7257461a2735a8fba18c26/torch_rim-0.2.1.tar.gz
+[2023-08-06 01:16:27] INFO root fetch - processPackages [shipper-shippy]: New version: [2.19.1] Old Version: [2.19.0]
+[2023-08-06 01:16:27] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-08-06 01:16:27] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/5a/e2/0ffc7c70f81cfe5f2e209c6a23eda6731647ca7257461a2735a8fba18c26/torch_rim-0.2.1.tar.gz
+[2023-08-06 01:16:27] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/98/d4/b7eb0e8427c68d078ab78ef3a74096137f4f192ce6c3c93d119046008304/BeyotekTools-0.0.1.tar.gz
+[2023-08-06 01:16:27] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/f6/5a/ab9a632674b5fbd7c3f0656076ab98fcd5f02d1c4d8253c40deb616f3319/shipper-shippy-2.19.0.tar.gz
+[2023-08-06 01:16:27] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/9c/17/4d75733ee29934e497513f67671ffd79aaf6bc2e014e7bcbce780fded20a/BeyotekTools-0.0.2.tar.gz
+[2023-08-06 01:16:28] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/44/99/ddeb592f8981a553e60bcd56569e3d99b4e1aa3911a693bafaf9eff17e14/torch_rim-0.2.2-py3-none-any.whl
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/44/99/ddeb592f8981a553e60bcd56569e3d99b4e1aa3911a693bafaf9eff17e14/torch_rim-0.2.2-py3-none-any.whl
+[2023-08-06 01:16:28] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 01:16:28] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.1.tar.gz tmp/BeyotekTools-0.0.2.tar.gz --markdown 20230806/B/BeyotekTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 01:16:28] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-08-06 01:16:28] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230806/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.1.tar.gz tmp/torch_rim-0.2.2-py3-none-any.whl.zip --markdown 20230806/t/torch-rim/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 01:16:28] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.1.tar.gz tmp/torch_rim-0.2.2-py3-none-any.whl.zip --markdown 20230806/t/torch-rim/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 01:16:28] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/04/fb/58e3747ce5cb0fb98202ddd57a37ca0422b97a00c0502688e3961c370da3/shipper-shippy-2.19.1.tar.gz
+[2023-08-06 01:16:28] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-08-06 01:16:28] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.19.0.tar.gz tmp/shipper-shippy-2.19.1.tar.gz --markdown 20230806/s/shipper-shippy/2.19.0-2.19.1/diff.md --exclude *.pyd
+[2023-08-06 01:16:29] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.1.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.2-py3-none-any.whl.zip]
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [torch-rim]: success
+[2023-08-06 01:16:29] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.1.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.2.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [torch-rim]: success
+[2023-08-06 01:16:29] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-08-06 01:16:29] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.19.0.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.19.1.tar.gz]
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-08-06 01:16:29] INFO root fetch - main [MainThread]: Store serial: [19189857]
