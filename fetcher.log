@@ -382,3 +382,60 @@
 [2023-08-06 00:50:33] INFO root fetch - processPackages [pypayment]: Remove: archive file [/home/abi/fetcher/tmp/pypayment-1.7.0.tar.gz]
 [2023-08-06 00:50:33] INFO root fetch - main [MainThread]: End processing [pypayment]: success
 [2023-08-06 00:50:33] INFO root fetch - main [MainThread]: Store serial: [19189784]
+[2023-08-06 00:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189784]
+[2023-08-06 00:55:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MySchedule.py
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiktok-dlpy
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idf-analysis
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: happytransformer
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DyGraph
+[2023-08-06 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitgrade
+[2023-08-06 00:55:41] INFO root fetch - processPackages [DyGraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 00:55:41] INFO root fetch - processPackages [happytransformer]: New version: [3.0.0] Old Version: [2.4.1]
+[2023-08-06 00:55:41] INFO root fetch - processPackages [idf-analysis]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-06 00:55:41] INFO root fetch - processPackages [unitgrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 00:55:41] INFO root fetch - processPackages [MySchedule.py]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-06 00:55:41] INFO root fetch - processPackages [tiktok-dlpy]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-08-06 00:55:42] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/b9/36/f82445de894871061ca3e7c2b6ab457bd58644c3f859f8ec3933ba2dc3d0/DyGraph-0.0.1.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/fd/b0/50739c35a98b6c203fb00ef53ed4f433b5c43c322d84e7f3ab0fca71cd51/tiktok-dlpy-1.3.1.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [happytransformer]: Downloading https://files.pythonhosted.org/packages/7a/1c/01318ece577d3a7fdd6d9103dc6dcc9eaf20312aef76a3158c399ec8a207/happytransformer-2.4.1.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [MySchedule.py]: Downloading https://files.pythonhosted.org/packages/71/bd/5af76c822850facef3558116a2c845c86891ec3891e161acaa4909247313/MySchedule.py-1.0.5.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [unitgrade]: Downloading https://files.pythonhosted.org/packages/22/a5/425d2adc5d373ddfb2c1bb3d2f77d46a07254625b8ecc95b2c531726e9ad/unitgrade-0.1.8.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/59/40/c0ea655eb7aa3402ad2f6a3654c10f65580916f4c4ebb07e027ef581ebaf/idf_analysis-0.1.9-py3-none-any.whl
+[2023-08-06 00:55:42] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/33/98/f1856c864ecaed923335e4c81306d5104bd7994d09483da08003b51c0b92/DyGraph-0.0.2.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/1c/7b/9ae293bb5cf73935d28adf5a23decb0c56a87e2b55d79aac5d48d30d3d26/tiktok-dlpy-1.4.0.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [MySchedule.py]: Downloading https://files.pythonhosted.org/packages/7f/0d/8c21259c2a943f6635b062b424e526e444930290b7d6235294258ec7f7f2/MySchedule.py-1.0.6.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [happytransformer]: Downloading https://files.pythonhosted.org/packages/0a/f5/77b99cdfc9ff49866273c492ee05a50dad36d03e00f65412842a7f2cd6df/happytransformer-3.0.0.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/ff/c6/5772790c7dc051b19196ae9cbaf87e0c76b13d319ecc3fb04f74a24ba72e/idf-analysis-0.2.0.tar.gz
+[2023-08-06 00:55:42] INFO root fetch - processPackages [DyGraph]: executing diffoscope
+[2023-08-06 00:55:42] INFO root fetch - processPackages [DyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DyGraph-0.0.1.tar.gz tmp/DyGraph-0.0.2.tar.gz --markdown 20230806/D/DyGraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 00:55:42] INFO root fetch - processPackages [tiktok-dlpy]: executing diffoscope
+[2023-08-06 00:55:42] INFO root fetch - processPackages [tiktok-dlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok-dlpy-1.3.1.tar.gz tmp/tiktok-dlpy-1.4.0.tar.gz --markdown 20230806/t/tiktok-dlpy/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-08-06 00:55:42] INFO root fetch - processPackages [MySchedule.py]: executing diffoscope
+[2023-08-06 00:55:42] INFO root fetch - processPackages [MySchedule.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySchedule.py-1.0.5.tar.gz tmp/MySchedule.py-1.0.6.tar.gz --markdown 20230806/M/MySchedule.py/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-06 00:55:42] INFO root fetch - processPackages [happytransformer]: executing diffoscope
+[2023-08-06 00:55:42] INFO root fetch - processPackages [happytransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happytransformer-2.4.1.tar.gz tmp/happytransformer-3.0.0.tar.gz --markdown 20230806/h/happytransformer/2.4.1-3.0.0/diff.md --exclude *.pyd
+[2023-08-06 00:55:42] INFO root fetch - processPackages [idf-analysis]: executing diffoscope
+[2023-08-06 00:55:42] INFO root fetch - processPackages [idf-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_analysis-0.1.9-py3-none-any.whl.zip tmp/idf-analysis-0.2.0.tar.gz --markdown 20230806/i/idf-analysis/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 00:55:43] INFO root fetch - processPackages [unitgrade]: Downloading https://files.pythonhosted.org/packages/9c/88/135bf2cdcfe308a82a6079e034e5744598174a4297e11c54a599a55c6b43/unitgrade-0.1.9.tar.gz
+[2023-08-06 00:55:43] INFO root fetch - processPackages [unitgrade]: executing diffoscope
+[2023-08-06 00:55:43] INFO root fetch - processPackages [unitgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitgrade-0.1.8.tar.gz tmp/unitgrade-0.1.9.tar.gz --markdown 20230806/u/unitgrade/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 00:55:43] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-1.3.1.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-1.4.0.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - main [MainThread]: End processing [tiktok-dlpy]: success
+[2023-08-06 00:55:43] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.1.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.2.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - main [MainThread]: End processing [DyGraph]: success
+[2023-08-06 00:55:43] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf_analysis-0.1.9-py3-none-any.whl.zip]
+[2023-08-06 00:55:43] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf-analysis-0.2.0.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - main [MainThread]: End processing [idf-analysis]: success
+[2023-08-06 00:55:43] INFO root fetch - processPackages [happytransformer]: Remove: archive file [/home/abi/fetcher/tmp/happytransformer-2.4.1.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - processPackages [happytransformer]: Remove: archive file [/home/abi/fetcher/tmp/happytransformer-3.0.0.tar.gz]
+[2023-08-06 00:55:43] INFO root fetch - main [MainThread]: End processing [happytransformer]: success
+[2023-08-06 00:55:44] INFO root fetch - processPackages [MySchedule.py]: Remove: archive file [/home/abi/fetcher/tmp/MySchedule.py-1.0.5.tar.gz]
+[2023-08-06 00:55:44] INFO root fetch - processPackages [MySchedule.py]: Remove: archive file [/home/abi/fetcher/tmp/MySchedule.py-1.0.6.tar.gz]
+[2023-08-06 00:55:44] INFO root fetch - main [MainThread]: End processing [MySchedule.py]: success
+[2023-08-06 00:55:44] INFO root fetch - processPackages [unitgrade]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-0.1.8.tar.gz]
+[2023-08-06 00:55:44] INFO root fetch - processPackages [unitgrade]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-0.1.9.tar.gz]
+[2023-08-06 00:55:44] INFO root fetch - main [MainThread]: End processing [unitgrade]: success
+[2023-08-06 00:55:44] INFO root fetch - main [MainThread]: Store serial: [19189801]
