@@ -166,3 +166,39 @@
 [2023-08-06 00:14:14] INFO root fetch - processPackages [labelbox]: Remove: archive file [/home/abi/fetcher/tmp/labelbox-3.9.0.tar.gz]
 [2023-08-06 00:14:14] INFO root fetch - main [MainThread]: End processing [labelbox]: success
 [2023-08-06 00:14:14] INFO root fetch - main [MainThread]: Store serial: [19189614]
+[2023-08-06 00:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189614]
+[2023-08-06 00:19:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 00:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyko-sdk
+[2023-08-06 00:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nies
+[2023-08-06 00:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyko-sdk
+[2023-08-06 00:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fletxible
+[2023-08-06 00:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindspore-dev
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-06 00:19:23] INFO root fetch - processPackages [Fletxible]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-08-06 00:19:23] WARNING root fetch - processPackages [streamlit-nies]: Skipping, unable to determine old version
+[2023-08-06 00:19:23] INFO root fetch - main [MainThread]: End processing [streamlit-nies] error
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-06 00:19:23] INFO root fetch - processPackages [mindspore-dev]: New version: [2.1.0.dev20230806] Old Version: [2.1.0.dev20230730]
+[2023-08-06 00:19:23] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e8/10/5c6e4965cede728d8cb9bfe32346b21cdd417f897dd1cc0641338da5ee4f/Fletxible-0.5.9.tar.gz
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-06 00:19:23] INFO root fetch - processPackages [mindspore-dev]: Downloading https://files.pythonhosted.org/packages/ec/d5/640919d3ffc8920a851fe558d881d6e7469bb0747a677e3f96dabb8f3858/mindspore_dev-2.1.0.dev20230730-cp39-none-any.whl
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-06 00:19:23] WARNING root fetch - processPackages [mindspore-dev]: Skipping package: exceeds size limit 178206248>=10485760
+[2023-08-06 00:19:23] INFO root fetch - main [MainThread]: End processing [mindspore-dev] error
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230806/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-06 00:19:23] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230806/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-06 00:19:23] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/95/6c/4a0c46744f90765bba31042b926687b0972f20448891c2c0b7e3ec92f8bd/Fletxible-0.6.0.tar.gz
+[2023-08-06 00:19:24] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 00:19:24] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.5.9.tar.gz tmp/Fletxible-0.6.0.tar.gz --markdown 20230806/F/Fletxible/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 00:19:24] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b8.tar.gz]
+[2023-08-06 00:19:24] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b9.tar.gz]
+[2023-08-06 00:19:24] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-06 00:19:24] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-06 00:19:24] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.5.9.tar.gz]
+[2023-08-06 00:19:24] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.0.tar.gz]
+[2023-08-06 00:19:24] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 00:19:24] INFO root fetch - main [MainThread]: Store serial: [19189628]
