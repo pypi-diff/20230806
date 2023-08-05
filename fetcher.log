@@ -319,3 +319,18 @@
 [2023-08-06 00:35:01] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.0.7.tar.gz]
 [2023-08-06 00:35:01] INFO root fetch - main [MainThread]: End processing [DEME]: success
 [2023-08-06 00:35:01] INFO root fetch - main [MainThread]: Store serial: [19189756]
+[2023-08-06 00:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189756]
+[2023-08-06 00:40:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-rim
+[2023-08-06 00:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyenphase
+[2023-08-06 00:40:10] INFO root fetch - processPackages [pyenphase]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-06 00:40:10] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/5d/42/73ef8945d48f8e812cb64f42e2ff343c69cfc557f9b21cf978abc08a342e/pyenphase-0.7.1.tar.gz
+[2023-08-06 00:40:10] WARNING root fetch - processPackages [torch-rim]: Skipping, unable to determine old version
+[2023-08-06 00:40:10] INFO root fetch - main [MainThread]: End processing [torch-rim] error
+[2023-08-06 00:40:10] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-06 00:40:10] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-06 00:40:10] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.7.1.tar.gz tmp/pyenphase-0.8.0.tar.gz --markdown 20230806/p/pyenphase/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 00:40:11] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.7.1.tar.gz]
+[2023-08-06 00:40:11] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-06 00:40:11] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-06 00:40:11] INFO root fetch - main [MainThread]: Store serial: [19189764]
