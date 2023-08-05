@@ -334,3 +334,33 @@
 [2023-08-06 00:40:11] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
 [2023-08-06 00:40:11] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
 [2023-08-06 00:40:11] INFO root fetch - main [MainThread]: Store serial: [19189764]
+[2023-08-06 00:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189764]
+[2023-08-06 00:45:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 00:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonda
+[2023-08-06 00:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypothesis
+[2023-08-06 00:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beet
+[2023-08-06 00:45:21] INFO root fetch - processPackages [wonda]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-08-06 00:45:21] INFO root fetch - processPackages [beet]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-06 00:45:21] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-06 00:45:21] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/60/85/0c82bf8ad8ffbb6df71335269bf6aafe9be75739baef3101a0536544594f/wonda-0.6.0a1.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/84/31/49542bab904501be84c4a4ad27cf7f5dc53f09a6051a00259052fde2501f/beet-0.9.3.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/8d/d2/9eac2177cf016daee26958eb212c32d03d40dcbe6646b83aa147aa745ffc/wonda-0.6.0a2.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/5f/82/25a5f91b6637a12511ea929ecd269e5ed8d81db04a4f558ae40c43492fc7/beet-0.9.4.tar.gz
+[2023-08-06 00:45:22] INFO root fetch - processPackages [wonda]: executing diffoscope
+[2023-08-06 00:45:22] INFO root fetch - processPackages [wonda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonda-0.6.0a1.tar.gz tmp/wonda-0.6.0a2.tar.gz --markdown 20230806/w/wonda/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-08-06 00:45:22] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-08-06 00:45:22] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.9.3.tar.gz tmp/beet-0.9.4.tar.gz --markdown 20230806/b/beet/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-06 00:45:22] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-08-06 00:45:22] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230806/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-06 00:45:23] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.3.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.4.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-08-06 00:45:23] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.6.0a1.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.6.0a2.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - main [MainThread]: End processing [wonda]: success
+[2023-08-06 00:45:23] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-08-06 00:45:23] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-08-06 00:45:23] INFO root fetch - main [MainThread]: Store serial: [19189773]
