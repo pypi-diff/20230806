@@ -659,3 +659,24 @@
 [2023-08-06 01:26:49] INFO root fetch - processPackages [gnss-lib-py]: Remove: archive file [/home/abi/fetcher/tmp/gnss_lib_py-0.2.0.tar.gz]
 [2023-08-06 01:26:49] INFO root fetch - main [MainThread]: End processing [gnss-lib-py]: success
 [2023-08-06 01:26:49] INFO root fetch - main [MainThread]: Store serial: [19189879]
+[2023-08-06 01:31:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189879]
+[2023-08-06 01:31:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 01:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgtools-m8
+[2023-08-06 01:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmpg
+[2023-08-06 01:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmpg
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-06 01:31:58] WARNING root fetch - processPackages [imgtools-m8]: Skipping, unable to determine old version
+[2023-08-06 01:31:58] INFO root fetch - main [MainThread]: End processing [imgtools-m8] error
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230806/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-06 01:31:58] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230806/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 01:31:59] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-06 01:31:59] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-06 01:31:59] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-06 01:31:59] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-06 01:31:59] INFO root fetch - main [MainThread]: Store serial: [19189891]
