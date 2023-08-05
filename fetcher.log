@@ -279,3 +279,43 @@
 [2023-08-06 00:29:47] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
 [2023-08-06 00:29:47] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
 [2023-08-06 00:29:47] INFO root fetch - main [MainThread]: Store serial: [19189662]
+[2023-08-06 00:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189662]
+[2023-08-06 00:34:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sulguk
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calc-rs
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sulguk
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DEME
+[2023-08-06 00:34:56] INFO root fetch - processPackages [DEME]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ofscraper]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-08-06 00:34:56] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/b0/62/5f4c55e29e1a66a62b8ddf8b4206482af8d99a23a5d12f047ede2f1c22bb/deme-0.0.4.tar.gz
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-06 00:34:56] WARNING root fetch - processPackages [calc-rs]: Skipping, unable to determine old version
+[2023-08-06 00:34:56] INFO root fetch - main [MainThread]: End processing [calc-rs] error
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/6c/c9/2323dca02400214c68de58f3021d87c7b09ada040c3bbd06a3630585a594/sulguk-0.1-py3-none-any.whl
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/6c/c9/2323dca02400214c68de58f3021d87c7b09ada040c3bbd06a3630585a594/sulguk-0.1-py3-none-any.whl
+[2023-08-06 00:34:56] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/7d/c0/2e785902feb78f53a0c55cdc8d8b58ad41fb004d22510e43914cb17d9b2d/ofscraper-2.7.8.tar.gz
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/1c/a3/83026747b6564e9e25063fd07c97195271bdb9a4d48511ae1fe17219db3c/sulguk-0.1.1-py3-none-any.whl
+[2023-08-06 00:34:56] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/1c/a3/83026747b6564e9e25063fd07c97195271bdb9a4d48511ae1fe17219db3c/sulguk-0.1.1-py3-none-any.whl
+[2023-08-06 00:34:57] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/40/f8/9d11c48ba4f944a7c5f69629bae3b4d8548230970873e828fcea27d61aec/ofscraper-2.7.9.tar.gz
+[2023-08-06 00:34:57] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/63/31/ead7f8c1a4628312ca981661af590f6342aa8b92e3b891f95a07a715b363/DEME-0.0.7.tar.gz
+[2023-08-06 00:34:57] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-06 00:34:57] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.7.8.tar.gz tmp/ofscraper-2.7.9.tar.gz --markdown 20230806/o/ofscraper/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-08-06 00:34:57] INFO root fetch - processPackages [sulguk]: executing diffoscope
+[2023-08-06 00:34:57] INFO root fetch - processPackages [sulguk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sulguk-0.1-py3-none-any.whl.zip tmp/sulguk-0.1.1-py3-none-any.whl.zip --markdown 20230806/s/sulguk/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 00:34:57] INFO root fetch - processPackages [sulguk]: executing diffoscope
+[2023-08-06 00:34:57] INFO root fetch - processPackages [sulguk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sulguk-0.1-py3-none-any.whl.zip tmp/sulguk-0.1.1-py3-none-any.whl.zip --markdown 20230806/s/sulguk/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 00:34:57] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2023-08-06 00:34:57] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deme-0.0.4.tar.gz tmp/DEME-0.0.7.tar.gz --markdown 20230806/D/DEME/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 00:34:58] INFO root fetch - processPackages [sulguk]: Remove: archive file [/home/abi/fetcher/tmp/sulguk-0.1-py3-none-any.whl.zip]
+[2023-08-06 00:34:58] INFO root fetch - processPackages [sulguk]: Remove: archive file [/home/abi/fetcher/tmp/sulguk-0.1.1-py3-none-any.whl.zip]
+[2023-08-06 00:34:58] INFO root fetch - main [MainThread]: End processing [sulguk]: success
+[2023-08-06 00:34:58] INFO root fetch - main [MainThread]: End processing [sulguk]: success
+[2023-08-06 00:34:58] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.8.tar.gz]
+[2023-08-06 00:34:58] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.9.tar.gz]
+[2023-08-06 00:34:58] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-06 00:35:01] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/deme-0.0.4.tar.gz]
+[2023-08-06 00:35:01] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.0.7.tar.gz]
+[2023-08-06 00:35:01] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2023-08-06 00:35:01] INFO root fetch - main [MainThread]: Store serial: [19189756]
