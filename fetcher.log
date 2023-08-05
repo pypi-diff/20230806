@@ -112,3 +112,57 @@
 [2023-08-06 00:09:02] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.8.5.tar.gz]
 [2023-08-06 00:09:02] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-08-06 00:09:02] INFO root fetch - main [MainThread]: Store serial: [19189589]
+[2023-08-06 00:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189589]
+[2023-08-06 00:14:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elevenlabs
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pca-impute
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyosutools
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labelbox
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyrics-transcriber
+[2023-08-06 00:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BeyotekTools
+[2023-08-06 00:14:12] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 00:14:12] INFO root fetch - processPackages [pyosutools]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 00:14:12] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-06 00:14:12] WARNING root fetch - processPackages [BeyotekTools]: Skipping, unable to determine old version
+[2023-08-06 00:14:12] INFO root fetch - main [MainThread]: End processing [BeyotekTools] error
+[2023-08-06 00:14:12] WARNING root fetch - processPackages [pca-impute]: Skipping, unable to determine old version
+[2023-08-06 00:14:12] INFO root fetch - main [MainThread]: End processing [pca-impute] error
+[2023-08-06 00:14:12] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 00:14:12] INFO root fetch - processPackages [labelbox]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-08-06 00:14:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/51/7e/a936d4e2787a1954e5a37fa1c62e0f07f936bda9edd8f14a4a6d7ea81d13/lyrics_transcriber-0.6.4.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/08/7b/bd786a26dd19e50f9e6f97c28935e7cb8efbdfdafea3229cfd645ae91001/pyosutools-0.2.4.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/02/62/ac2064e05e83327571af24fdb93f9752a01ae9ed6bd37df85a5082cea262/elevenlabs-0.2.8.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/4f/01/710a4f4bfac8fc8da01f002de2248e4b76909089815bf3b2b3c402de1c76/labelbox-3.8.0.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 00:14:12] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 00:14:12] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/db/06/694cf9c10f92c0df88fd603716b9cac00b104e9c3ae72b648fffe0cae74c/lyrics_transcriber-0.6.5.tar.gz
+[2023-08-06 00:14:12] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/6a/ae/4fe3ace3e5558b7b53d694514094092f3fca59994fa214b20911aa378802/pyosutools-0.2.5.tar.gz
+[2023-08-06 00:14:13] INFO root fetch - processPackages [pyosutools]: executing diffoscope
+[2023-08-06 00:14:13] INFO root fetch - processPackages [pyosutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosutools-0.2.4.tar.gz tmp/pyosutools-0.2.5.tar.gz --markdown 20230806/p/pyosutools/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 00:14:13] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/46/3f/b8e0406e419eb934f54340b894bec0c1ca046f6ddeb273e7a3f7b7411f78/elevenlabs-0.2.9.tar.gz
+[2023-08-06 00:14:13] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-08-06 00:14:13] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.6.4.tar.gz tmp/lyrics_transcriber-0.6.5.tar.gz --markdown 20230806/l/lyrics-transcriber/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-06 00:14:13] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/34/ac/a025e6faa353ab980d4d223ad2a8a291e28da42b4d4ba436f857ca850029/labelbox-3.9.0.tar.gz
+[2023-08-06 00:14:13] INFO root fetch - processPackages [labelbox]: executing diffoscope
+[2023-08-06 00:14:13] INFO root fetch - processPackages [labelbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelbox-3.8.0.tar.gz tmp/labelbox-3.9.0.tar.gz --markdown 20230806/l/labelbox/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-08-06 00:14:13] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-08-06 00:14:13] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.8.tar.gz tmp/elevenlabs-0.2.9.tar.gz --markdown 20230806/e/elevenlabs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 00:14:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 00:14:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 00:14:13] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 00:14:13] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.4.tar.gz]
+[2023-08-06 00:14:13] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.5.tar.gz]
+[2023-08-06 00:14:13] INFO root fetch - main [MainThread]: End processing [pyosutools]: success
+[2023-08-06 00:14:14] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.4.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.5.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-08-06 00:14:14] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-0.2.8.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-0.2.9.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-08-06 00:14:14] INFO root fetch - processPackages [labelbox]: Remove: archive file [/home/abi/fetcher/tmp/labelbox-3.8.0.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - processPackages [labelbox]: Remove: archive file [/home/abi/fetcher/tmp/labelbox-3.9.0.tar.gz]
+[2023-08-06 00:14:14] INFO root fetch - main [MainThread]: End processing [labelbox]: success
+[2023-08-06 00:14:14] INFO root fetch - main [MainThread]: Store serial: [19189614]
