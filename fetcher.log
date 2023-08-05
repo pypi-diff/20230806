@@ -823,3 +823,24 @@
 [2023-08-06 01:37:53] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
 [2023-08-06 01:37:53] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
 [2023-08-06 01:37:53] INFO root fetch - main [MainThread]: Store serial: [19189925]
+[2023-08-06 01:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189925]
+[2023-08-06 01:43:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 01:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DEME
+[2023-08-06 01:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-08-06 01:43:02] INFO root fetch - processPackages [DEME]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 01:43:02] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-08-06 01:43:03] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/53/e9/a54900ae9ba9ba3b5f99ca059cb253c097f872da1fdf4ff096910695dedf/DEME-0.1.0.tar.gz
+[2023-08-06 01:43:03] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-08-06 01:43:03] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-08-06 01:43:03] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-08-06 01:43:03] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230806/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-08-06 01:43:03] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/92/79/ea620a5a10668d91862e77a29bedb9d854e9481eb77945386a2114bd139b/DEME-0.1.1.tar.gz
+[2023-08-06 01:43:04] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2023-08-06 01:43:04] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEME-0.1.0.tar.gz tmp/DEME-0.1.1.tar.gz --markdown 20230806/D/DEME/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 01:43:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-08-06 01:43:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-08-06 01:43:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-08-06 01:43:09] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.1.0.tar.gz]
+[2023-08-06 01:43:09] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.1.1.tar.gz]
+[2023-08-06 01:43:09] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2023-08-06 01:43:09] INFO root fetch - main [MainThread]: Store serial: [19189930]
