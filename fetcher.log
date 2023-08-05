@@ -544,3 +544,24 @@
 [2023-08-06 01:06:08] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.8.tar.gz]
 [2023-08-06 01:06:08] INFO root fetch - main [MainThread]: End processing [wtlike]: success
 [2023-08-06 01:06:08] INFO root fetch - main [MainThread]: Store serial: [19189834]
+[2023-08-06 01:11:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189834]
+[2023-08-06 01:11:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 01:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-rim
+[2023-08-06 01:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karaoke-generator
+[2023-08-06 01:11:17] INFO root fetch - processPackages [torch-rim]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 01:11:17] INFO root fetch - processPackages [karaoke-generator]: New version: [0.5.1] Old Version: [0.4.3]
+[2023-08-06 01:11:17] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/cf/ee/070acff082c8ee5312af690944c115c1d5bb14fa4c1934e3425dceb09f20/torch_rim-0.2.0.tar.gz
+[2023-08-06 01:11:17] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/b4/92/0f97c8a9e3c39128e45bad4dee32871f103ce9e040cbb8fba963c863b71f/karaoke_generator-0.4.3.tar.gz
+[2023-08-06 01:11:17] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/5a/e2/0ffc7c70f81cfe5f2e209c6a23eda6731647ca7257461a2735a8fba18c26/torch_rim-0.2.1.tar.gz
+[2023-08-06 01:11:17] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/35/52/0d278398584b3083a36fda765299bb045ec0392559665dec7c07959a1d0e/karaoke_generator-0.5.1.tar.gz
+[2023-08-06 01:11:17] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 01:11:17] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.0.tar.gz tmp/torch_rim-0.2.1.tar.gz --markdown 20230806/t/torch-rim/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 01:11:18] INFO root fetch - processPackages [karaoke-generator]: executing diffoscope
+[2023-08-06 01:11:18] INFO root fetch - processPackages [karaoke-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karaoke_generator-0.4.3.tar.gz tmp/karaoke_generator-0.5.1.tar.gz --markdown 20230806/k/karaoke-generator/0.4.3-0.5.1/diff.md --exclude *.pyd
+[2023-08-06 01:11:18] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.0.tar.gz]
+[2023-08-06 01:11:18] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.1.tar.gz]
+[2023-08-06 01:11:18] INFO root fetch - main [MainThread]: End processing [torch-rim]: success
+[2023-08-06 01:11:18] INFO root fetch - processPackages [karaoke-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_generator-0.4.3.tar.gz]
+[2023-08-06 01:11:18] INFO root fetch - processPackages [karaoke-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_generator-0.5.1.tar.gz]
+[2023-08-06 01:11:18] INFO root fetch - main [MainThread]: End processing [karaoke-generator]: success
+[2023-08-06 01:11:18] INFO root fetch - main [MainThread]: Store serial: [19189841]
