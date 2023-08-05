@@ -202,3 +202,38 @@
 [2023-08-06 00:19:24] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.0.tar.gz]
 [2023-08-06 00:19:24] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
 [2023-08-06 00:19:24] INFO root fetch - main [MainThread]: Store serial: [19189628]
+[2023-08-06 00:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189628]
+[2023-08-06 00:24:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 00:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore-dev
+[2023-08-06 00:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-08-06 00:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arfs
+[2023-08-06 00:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordcel
+[2023-08-06 00:24:33] INFO root fetch - processPackages [wordcel]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 00:24:33] INFO root fetch - processPackages [mindspore-dev]: New version: [2.1.0.dev20230806] Old Version: [2.1.0.dev20230730]
+[2023-08-06 00:24:33] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230805] Old Version: [1.7.5.dev20230804]
+[2023-08-06 00:24:33] INFO root fetch - processPackages [arfs]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-08-06 00:24:33] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/f2/35/1d63491e3023df4acd2b8fef4ee8edf51af99d7267e31133447c961901f0/wordcel-0.0.5.tar.gz
+[2023-08-06 00:24:33] INFO root fetch - processPackages [mindspore-dev]: Downloading https://files.pythonhosted.org/packages/ec/d5/640919d3ffc8920a851fe558d881d6e7469bb0747a677e3f96dabb8f3858/mindspore_dev-2.1.0.dev20230730-cp39-none-any.whl
+[2023-08-06 00:24:33] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/e6/9c/de287ec990009fd5d1b88201193d020ebb04161df29c42fccac3cf7689ee/pretext-1.7.5.dev20230804.tar.gz
+[2023-08-06 00:24:33] WARNING root fetch - processPackages [mindspore-dev]: Skipping package: exceeds size limit 178206248>=10485760
+[2023-08-06 00:24:33] INFO root fetch - main [MainThread]: End processing [mindspore-dev] error
+[2023-08-06 00:24:33] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/3a/8d/6b5393c975ce62388ff8b9f61de48421de073f71bb9202e37d6c23d31f9a/arfs-2.0.4.tar.gz
+[2023-08-06 00:24:33] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/6f/48/c75ac1fee4606616d4af832f8448de9871ebe06782b94505f7d45b1f497c/wordcel-0.0.6.tar.gz
+[2023-08-06 00:24:33] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-06 00:24:33] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.5.tar.gz tmp/wordcel-0.0.6.tar.gz --markdown 20230806/w/wordcel/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 00:24:33] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/7a/d7/ab5bcbe8c73947e63260d23ada0389f829cfe1dd88f41e8739f343f7a700/pretext-1.7.5.dev20230805.tar.gz
+[2023-08-06 00:24:33] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/ef/93/58c77994f58345c9c71a461390876bcccc6d4d35ba382403bc901aad9587/arfs-2.0.5.tar.gz
+[2023-08-06 00:24:34] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-06 00:24:34] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230804.tar.gz tmp/pretext-1.7.5.dev20230805.tar.gz --markdown 20230806/p/pretext/1.7.5.dev20230804-1.7.5.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 00:24:34] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-08-06 00:24:34] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-2.0.4.tar.gz tmp/arfs-2.0.5.tar.gz --markdown 20230806/a/arfs/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-08-06 00:24:34] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.5.tar.gz]
+[2023-08-06 00:24:34] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.6.tar.gz]
+[2023-08-06 00:24:34] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-06 00:24:35] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.4.tar.gz]
+[2023-08-06 00:24:35] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.5.tar.gz]
+[2023-08-06 00:24:35] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-08-06 00:24:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230804.tar.gz]
+[2023-08-06 00:24:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230805.tar.gz]
+[2023-08-06 00:24:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-06 00:24:37] INFO root fetch - main [MainThread]: Store serial: [19189646]
