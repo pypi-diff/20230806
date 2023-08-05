@@ -439,3 +439,42 @@
 [2023-08-06 00:55:44] INFO root fetch - processPackages [unitgrade]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-0.1.9.tar.gz]
 [2023-08-06 00:55:44] INFO root fetch - main [MainThread]: End processing [unitgrade]: success
 [2023-08-06 00:55:44] INFO root fetch - main [MainThread]: Store serial: [19189801]
+[2023-08-06 01:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189801]
+[2023-08-06 01:00:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitgrade-devel
+[2023-08-06 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypayment
+[2023-08-06 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysigma
+[2023-08-06 01:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BeyotekTools
+[2023-08-06 01:00:53] INFO root fetch - processPackages [pypayment]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-08-06 01:00:53] INFO root fetch - processPackages [pypayment]: Downloading https://files.pythonhosted.org/packages/fd/26/096a272d8597502419e79ff41cd3abdd6509d236f6f183c9040b6f645549/pypayment-1.7.0.tar.gz
+[2023-08-06 01:00:53] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 01:00:53] INFO root fetch - processPackages [pysigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 01:00:53] INFO root fetch - processPackages [unitgrade-devel]: New version: [0.1.9] Old Version: [0.1.7a0]
+[2023-08-06 01:00:53] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/98/d4/b7eb0e8427c68d078ab78ef3a74096137f4f192ce6c3c93d119046008304/BeyotekTools-0.0.1.tar.gz
+[2023-08-06 01:00:53] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/ad/4d/9e235f005560e9bc39eb3e4654805d1da0876a5b16cdeb13e921264217be/unitgrade-devel-0.1.7a0.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pypayment]: Downloading https://files.pythonhosted.org/packages/fc/6f/60bffa766d1463e41a91d4c7fe382b2190ac936a6499b9a0912afdcccbd5/pypayment-1.7.1.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pypayment]: executing diffoscope
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pypayment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypayment-1.7.0.tar.gz tmp/pypayment-1.7.1.tar.gz --markdown 20230806/p/pypayment/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-08-06 01:00:54] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/9c/17/4d75733ee29934e497513f67671ffd79aaf6bc2e014e7bcbce780fded20a/BeyotekTools-0.0.2.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 01:00:54] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.1.tar.gz tmp/BeyotekTools-0.0.2.tar.gz --markdown 20230806/B/BeyotekTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 01:00:54] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/8e/51/b73b3be691b9860b252c7ae440f19334b0c132b61249a634e2d38db27f2e/unitgrade-devel-0.1.9.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2023-08-06 01:00:54] INFO root fetch - processPackages [unitgrade-devel]: executing diffoscope
+[2023-08-06 01:00:54] INFO root fetch - processPackages [unitgrade-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitgrade-devel-0.1.7a0.tar.gz tmp/unitgrade-devel-0.1.9.tar.gz --markdown 20230806/u/unitgrade-devel/0.1.7a0-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pysigma]: executing diffoscope
+[2023-08-06 01:00:54] INFO root fetch - processPackages [pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20230806/p/pysigma/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 01:00:55] INFO root fetch - processPackages [pypayment]: Remove: archive file [/home/abi/fetcher/tmp/pypayment-1.7.0.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - processPackages [pypayment]: Remove: archive file [/home/abi/fetcher/tmp/pypayment-1.7.1.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - main [MainThread]: End processing [pypayment]: success
+[2023-08-06 01:00:55] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.1.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.2.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 01:00:55] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.7a0.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.9.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - main [MainThread]: End processing [unitgrade-devel]: success
+[2023-08-06 01:00:55] INFO root fetch - processPackages [pysigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.8.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - processPackages [pysigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.9.tar.gz]
+[2023-08-06 01:00:55] INFO root fetch - main [MainThread]: End processing [pysigma]: success
+[2023-08-06 01:00:55] INFO root fetch - main [MainThread]: Store serial: [19189813]
