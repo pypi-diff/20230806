@@ -680,3 +680,146 @@
 [2023-08-06 01:31:59] INFO root fetch - main [MainThread]: End processing [gmpg]: success
 [2023-08-06 01:31:59] INFO root fetch - main [MainThread]: End processing [gmpg]: success
 [2023-08-06 01:31:59] INFO root fetch - main [MainThread]: Store serial: [19189891]
+[2023-08-06 01:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189891]
+[2023-08-06 01:37:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sage-conf
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sage-docbuild
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-setup
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sage-sws2rst
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemath-bliss
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemath-categories
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-coxeter3
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sagemath-environment
+[2023-08-06 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sagemath-mcqd
+[2023-08-06 01:37:07] INFO root fetch - processPackages [litellm]: New version: [0.1.343] Old Version: [0.1.341]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ba/0d/9c8ed89f44602d798cfb56e4f4f2694e9ba1e6cbc982ffe16cc3ca274b56/litellm-0.1.341.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-mcqd]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-bliss]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-coxeter3]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/ab/c8/d8567a7c9a61e7150429e0e0ea9026d889c4cd9fc1ff1100a7a176d34ad9/sagemath-mcqd-10.1b9.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/dc/98/3d93526e9c70c0d0f32fed23ee4a89cbdf38c9239a21b16decce2ec5300c/sagemath-bliss-10.1b9.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/03/5b/e1924be74698932da657cf74fa7964f8139a674f4b841393452c01ea9c93/sagemath-coxeter3-10.1b9.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/03/33/2d927d03feaf78eded6c97a08fc14c2693655170cc95b6a2aaca2e1f3fcd/litellm-0.1.343.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/cc/14/35fd31511b7d3b2e5fe540c1b89008ed79aa0306eda2d831fa07ab792c73/sagemath-mcqd-9.8b1.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-06 01:37:08] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.341.tar.gz tmp/litellm-0.1.343.tar.gz --markdown 20230806/l/litellm/0.1.341-0.1.343/diff.md --exclude *.pyd
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/ab/1b/7da7337e59f18c9b2960c84a3752cff8a9f5f2e7997a157b36e368ea2d2d/sagemath-bliss-9.8b1.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-mcqd]: executing diffoscope
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-mcqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-mcqd-10.1b9.tar.gz tmp/sagemath-mcqd-9.8b1.tar.gz --markdown 20230806/s/sagemath-mcqd/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/3f/01/5f1c705c13f9e31203dd08bb7cbc28220ea2a913d75ac9366eb1e9fa71c1/sagemath-coxeter3-9.8b1.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-bliss]: executing diffoscope
+[2023-08-06 01:37:08] INFO root fetch - processPackages [sagemath-bliss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-bliss-10.1b9.tar.gz tmp/sagemath-bliss-9.8b1.tar.gz --markdown 20230806/s/sagemath-bliss/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-coxeter3]: executing diffoscope
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-coxeter3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-coxeter3-10.1b9.tar.gz tmp/sagemath-coxeter3-9.8b1.tar.gz --markdown 20230806/s/sagemath-coxeter3/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230806/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230806/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230806/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-mcqd]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-mcqd-10.1b9.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-mcqd]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-mcqd-9.8b1.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-mcqd]: Start processing: sagemath-meataxe
+[2023-08-06 01:37:09] INFO root fetch - main [MainThread]: End processing [sagemath-mcqd]: success
+[2023-08-06 01:37:09] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.341.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.343.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [litellm]: Start processing: sagemath-objects
+[2023-08-06 01:37:09] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-meataxe]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-bliss]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-bliss-10.1b9.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-bliss]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-bliss-9.8b1.tar.gz]
+[2023-08-06 01:37:09] INFO root fetch - processPackages [sagemath-bliss]: Start processing: sagemath-repl
+[2023-08-06 01:37:09] INFO root fetch - main [MainThread]: End processing [sagemath-bliss]: success
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/eb/74/0068e9e6a6023b6ab8108e238934a39c0c837037b8d8bdb39aa2d90fde07/sagemath-meataxe-10.1b9.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-coxeter3]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-coxeter3-10.1b9.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-coxeter3]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-coxeter3-9.8b1.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-coxeter3]: Start processing: sagemath-sirocco
+[2023-08-06 01:37:10] INFO root fetch - main [MainThread]: End processing [sagemath-coxeter3]: success
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230806/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-sirocco]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230806/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/8e/b8/a2a3607fb4575896f02a16a77077e9761a27ad84c081f6a2a22509f74ada/sagemath-meataxe-9.8b1.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/d0/dd/778b947ef73bfdab120d0e61636258a86f1e826adde3ff0ff1d9739586e2/sagemath-sirocco-10.1b9.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-meataxe]: executing diffoscope
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-meataxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-meataxe-10.1b9.tar.gz tmp/sagemath-meataxe-9.8b1.tar.gz --markdown 20230806/s/sagemath-meataxe/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8b7.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8rc0.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-docbuild]: Start processing: sagemath-standard
+[2023-08-06 01:37:10] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8b7.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8rc0.tar.gz]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sage-setup]: Start processing: sagemath-tdlib
+[2023-08-06 01:37:10] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/28/cb/160bc3b7eca0d3fb546c30a5ecbdecd892d03062349e717fc61de420ea66/sagemath-sirocco-9.8b1.tar.gz
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230806/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-tdlib]: New version: [9.8b1] Old Version: [10.1b9]
+[2023-08-06 01:37:10] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-sirocco]: executing diffoscope
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-sirocco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-sirocco-10.1b9.tar.gz tmp/sagemath-sirocco-9.8b1.tar.gz --markdown 20230806/s/sagemath-sirocco/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/41/2e/d5e6e406e1fad2eb75ad0cfd16ddd5c000d0aeeb415af04c4e3772f4d35b/sagemath-tdlib-10.1b9.tar.gz
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230806/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8b7.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8rc0.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/b5/ad/ad26f8cd628393a4303a0e832c95c0218f4b3cd59196203fbe52dbca1855/sagemath-tdlib-9.8b1.tar.gz
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8b7.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8rc0.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8b7.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8rc0.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-tdlib]: executing diffoscope
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-tdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-tdlib-10.1b9.tar.gz tmp/sagemath-tdlib-9.8b1.tar.gz --markdown 20230806/s/sagemath-tdlib/10.1b9-9.8b1/diff.md --exclude *.pyd
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-meataxe]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-meataxe-10.1b9.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sagemath-meataxe]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-meataxe-9.8b1.tar.gz]
+[2023-08-06 01:37:11] INFO root fetch - main [MainThread]: End processing [sagemath-meataxe]: success
+[2023-08-06 01:37:11] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-08-06 01:37:11] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-08-06 01:37:11] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230806/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-sirocco]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-sirocco-10.1b9.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-sirocco]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-sirocco-9.8b1.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - main [MainThread]: End processing [sagemath-sirocco]: success
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-tdlib]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-tdlib-10.1b9.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-tdlib]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-tdlib-9.8b1.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - main [MainThread]: End processing [sagemath-tdlib]: success
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8b7.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8rc0.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8b7.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8rc0.tar.gz]
+[2023-08-06 01:37:12] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-08-06 01:37:53] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8b7.tar.gz]
+[2023-08-06 01:37:53] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
+[2023-08-06 01:37:53] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
+[2023-08-06 01:37:53] INFO root fetch - main [MainThread]: Store serial: [19189925]
