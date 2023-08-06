@@ -11572,3 +11572,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:02:53] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.3.tar.gz]
 [2023-08-06 17:02:53] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
 [2023-08-06 17:02:53] INFO root fetch - main [MainThread]: Store serial: [19194867]
+[2023-08-06 17:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194867]
+[2023-08-06 17:08:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds-data20220330-py2
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-rds20140815-py2
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-rds20140815
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-rds-data20220330
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feynml
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: news-toolkit-api
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reprim
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-eskiz-sms
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feynamp
+[2023-08-06 17:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soagen
+[2023-08-06 17:08:02] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [django-eskiz-sms]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [soagen]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-06 17:08:02] WARNING root fetch - processPackages [feynamp]: Skipping, unable to determine old version
+[2023-08-06 17:08:02] INFO root fetch - processPackages [feynamp]: Start processing: psbs
+[2023-08-06 17:08:02] INFO root fetch - main [MainThread]: End processing [feynamp] error
+[2023-08-06 17:08:02] INFO root fetch - processPackages [reprim]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [feynml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 17:08:02] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-06 17:08:02] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: Downloading https://files.pythonhosted.org/packages/95/2a/ee7ab7d2ef0a63b99de67603bbdcbe52abf526da0ea3c2e2695c0d657fc4/alibabacloud_rds-data20220330-1.0.0.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [psbs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/bd/b8/336e5508e76b8559fb5e8bde74301b22c80757da9d2fa6344cf121807942/alibabacloud_rds20140815_py2-1.4.1.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/d2/02/b76db1177563412d18e148fe7c2936c97d1a651b2b422e1eb9b5f99bebe5/django-eskiz-sms-0.1.2.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Downloading https://files.pythonhosted.org/packages/cc/13/3091c99d0957d3077cf3a24f0fc62a2b26ab26b24322892a536f8573d60f/alibabacloud_rds-data20220330_py2-1.0.1.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/a4/7c/17833c8f04edc0fe9514b63be6e004d625be5fbbbf9d745cf9c81219b34c/soagen-0.3.0.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/e1/6d/4c25c2cb515129c65460b38f6206f833f594fbc3540adc8af921b4956443/reprim-0.1.2.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/2a/97/95a57cfde98ef210e97b99ffe528bf29d20e6e3f384c3196a7f2b9b6c145/feynml-0.2.8.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/cb/98/03a68c9e25bc30a79b18a71aac0546c33201e7c8ee1f2c76afdefdf687db/psbs-0.2.1.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: Downloading https://files.pythonhosted.org/packages/5f/aa/44d37bf33f40e4e9656133222a3156315aaccbc39715935c200980e626bd/alibabacloud_rds-data20220330-1.0.1.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/84/e6/05cc7e232cee0857ada3e7ee5bd4ceaf075f0149918ff931eda9adffa960/alibabacloud_rds20140815_py2-1.4.2.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230806/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/f2/1f/717eb71b4bd31f998e4e4b53c07cceb1735993075468b299279e4382b8c0/django-eskiz-sms-0.1.3.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/1f/e2/e5b1aa945355eefb749fecb2d7bb0487a448bf6137dec830498fb1422780/reprim-0.1.3.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Downloading https://files.pythonhosted.org/packages/ac/c0/f0d322242c8c51954a5d3836993f9deea1115d410c8a95f090656d12e79c/alibabacloud_rds-data20220330_py2-1.0.2.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230806/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/2d/30/6e2a5c6ced6c8e1775a9bac6a70137d040e2be719f723944314c6c20287e/soagen-0.4.0.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds-data20220330-1.0.0.tar.gz tmp/alibabacloud_rds-data20220330-1.0.1.tar.gz --markdown 20230806/a/alibabacloud-rds-data20220330/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/d9/df/19ae86b7f9a4037df223545491c7f036ec9a3eee9f25beab92da7daa3b25/feynml-0.2.9.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.4.1.tar.gz tmp/alibabacloud_rds20140815_py2-1.4.2.tar.gz --markdown 20230806/a/alibabacloud-rds20140815-py2/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/f8/d5/574b306092b6863512cc508e2786672655735392516e2abc2b58116c7d24/psbs-0.2.2.tar.gz
+[2023-08-06 17:08:03] INFO root fetch - processPackages [django-eskiz-sms]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [django-eskiz-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-eskiz-sms-0.1.2.tar.gz tmp/django-eskiz-sms-0.1.3.tar.gz --markdown 20230806/d/django-eskiz-sms/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.1.2.tar.gz tmp/reprim-0.1.3.tar.gz --markdown 20230806/r/reprim/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds-data20220330_py2-1.0.1.tar.gz tmp/alibabacloud_rds-data20220330_py2-1.0.2.tar.gz --markdown 20230806/a/alibabacloud-rds-data20220330-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [soagen]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [soagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soagen-0.3.0.tar.gz tmp/soagen-0.4.0.tar.gz --markdown 20230806/s/soagen/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 17:08:03] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-08-06 17:08:03] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.8.tar.gz tmp/feynml-0.2.9.tar.gz --markdown 20230806/f/feynml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 17:08:04] INFO root fetch - processPackages [psbs]: executing diffoscope
+[2023-08-06 17:08:04] INFO root fetch - processPackages [psbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psbs-0.2.1.tar.gz tmp/psbs-0.2.2.tar.gz --markdown 20230806/p/psbs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 17:08:05] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds-data20220330-1.0.0.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds-data20220330-1.0.1.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds-data20220330]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds-data20220330_py2-1.0.1.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds-data20220330_py2-1.0.2.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds-data20220330-py2]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.2.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.3.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [django-eskiz-sms]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.1.2.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.1.3.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.2.1.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.2.2.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [psbs]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.8.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.9.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.4.1.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.4.2.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-08-06 17:08:05] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.3.0.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.4.0.tar.gz]
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [soagen]: success
+[2023-08-06 17:08:05] INFO root fetch - main [MainThread]: Store serial: [19194904]
