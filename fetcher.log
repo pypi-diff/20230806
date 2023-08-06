@@ -14108,3 +14108,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:51:16] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
 [2023-08-06 19:51:16] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
 [2023-08-06 19:51:16] INFO root fetch - main [MainThread]: Store serial: [19196068]
+[2023-08-06 19:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196068]
+[2023-08-06 19:56:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RamseyTheoryRL
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-scan-server
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-device-server
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-scan-bundler
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-file-writer
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-dap
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-scihub
+[2023-08-06 19:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-server
+[2023-08-06 19:56:25] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.81] Old Version: [0.8]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-server]: New version: [0.16.3] Old Version: [0.16.2]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/9c/d3/bb667b72cc681c72307d58f934f0e52e5708d3fdb4d515d663a17da4173c/RamseyTheoryRL-0.8.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-scihub]: New version: [0.16.3] Old Version: [0.16.2]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/af/a7/e3d886ad7298db5d5e790531f7b75a46e8f7ef04933d888cab0e0c194b84/bec-server-0.16.2.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/c9/bf/64e22b2e0cae9629826829eb569c191a2a30aff2031dc1a01a3e6f83441b/bec_scihub-0.16.2.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-08-06 19:56:25] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/81/a4/7fcc3f10100b8ccaf7b13147f10eb5f41ad40a22df39bd9e01375e4442ba/RamseyTheoryRL-0.81.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/09/8b/ae36a994605ac2abf647ae6182f5c40dea50fbfc2b0feaeb5766861cd6e9/bec-server-0.16.3.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.8.tar.gz tmp/RamseyTheoryRL-0.81.tar.gz --markdown 20230806/R/RamseyTheoryRL/0.8-0.81/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230806/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230806/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/08/37/5b1407754b439b8cd0931a0490d1bbcac96bd41d148f1bfc622172e0614e/bec_scihub-0.16.3.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230806/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-0.16.2.tar.gz tmp/bec-server-0.16.3.tar.gz --markdown 20230806/b/bec-server/0.16.2-0.16.3/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230806/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230806/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230806/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230806/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2023-08-06 19:56:26] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-0.16.2.tar.gz tmp/bec_scihub-0.16.3.tar.gz --markdown 20230806/b/bec-scihub/0.16.2-0.16.3/diff.md --exclude *.pyd
+[2023-08-06 19:56:27] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-08-06 19:56:27] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-08-06 19:56:27] INFO root fetch - processPackages [bec-dap]: Start processing: eniris
+[2023-08-06 19:56:27] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [eniris]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.16.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.16.3.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-server]: Start processing: dlt
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/5c/09/d9c213081bc9821db55aab1a609f8642dc220107063d0341259132bdf29d/eniris-0.7.2.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [dlt]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-file-writer]: Start processing: TheSilent
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-device-server]: Start processing: importer-local
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/dc/12/09d65173d21c309de9ed3b071271d8b1212167f561fdd8027118f79ad9e5/dlt-0.3.7.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: django-telethon
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [django-telethon]: New version: [1.1.5a1] Old Version: [1.1.5]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.16.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.16.3.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scihub]: Start processing: cerberuspy
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-scan-server]: Start processing: tendril-interests
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [bec-lib]: Start processing: kappadata
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/8b/3b/093bedbfddb01e5e12f645f69937fc806bab32ae41e65d6b506a2f4e55e5/eniris-0.7.3.tar.gz
+[2023-08-06 19:56:28] WARNING root fetch - processPackages [cerberuspy]: Skipping, unable to determine old version
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [cerberuspy] error
+[2023-08-06 19:56:28] INFO root fetch - processPackages [tendril-interests]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [django-telethon]: Downloading https://files.pythonhosted.org/packages/d3/a7/8c0c4cd87d21761d3fca352c907a0a353991ac12323c0001ab6f9f52a5ce/django-telethon-1.1.5.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.8.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.81.tar.gz]
+[2023-08-06 19:56:28] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-08-06 19:56:28] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-06 19:56:28] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [eniris]: executing diffoscope
+[2023-08-06 19:56:28] INFO root fetch - processPackages [eniris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniris-0.7.2.tar.gz tmp/eniris-0.7.3.tar.gz --markdown 20230806/e/eniris/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-08-06 19:56:28] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/2c/a8/dbf3f34b2df3237d5d5c3e79b2bbfd5841cb146600ba9c3532d64f3ccc02/dlt-0.3.8.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-06 19:56:28] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 19:56:28] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 19:56:28] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/34/9a/b7fbb77b7c11f5975a23f847c3fc489566b1e1f1dcb3aa6a80d5a3c5900c/tendril-interests-0.3.6.tar.gz
+[2023-08-06 19:56:29] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-08-06 19:56:29] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230806/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 19:56:29] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-08-06 19:56:29] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.7.tar.gz tmp/dlt-0.3.8.tar.gz --markdown 20230806/d/dlt/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-08-06 19:56:29] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-06 19:56:29] INFO root fetch - processPackages [django-telethon]: Downloading https://files.pythonhosted.org/packages/9a/57/3d6e40d2304082598b07452de8cfc60a3d6bc6a4df45646f709abcb5a1f8/django-telethon-1.1.5a1.tar.gz
+[2023-08-06 19:56:29] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-06 19:56:29] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230806/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-06 19:56:29] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/8b/f2/92be1b4592c33096d2afe54d4a7f331f988a4713fb2f83aa129ccb208d24/tendril-interests-0.3.7.tar.gz
+[2023-08-06 19:56:29] INFO root fetch - processPackages [django-telethon]: executing diffoscope
+[2023-08-06 19:56:29] INFO root fetch - processPackages [django-telethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-telethon-1.1.5.tar.gz tmp/django-telethon-1.1.5a1.tar.gz --markdown 20230806/d/django-telethon/1.1.5-1.1.5a1/diff.md --exclude *.pyd
+[2023-08-06 19:56:29] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-08-06 19:56:29] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.3.6.tar.gz tmp/tendril-interests-0.3.7.tar.gz --markdown 20230806/t/tendril-interests/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-06 19:56:29] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.2.tar.gz]
+[2023-08-06 19:56:29] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.3.tar.gz]
+[2023-08-06 19:56:29] INFO root fetch - main [MainThread]: End processing [eniris]: success
+[2023-08-06 19:56:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 19:56:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 19:56:30] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-08-06 19:56:30] INFO root fetch - processPackages [django-telethon]: Remove: archive file [/home/abi/fetcher/tmp/django-telethon-1.1.5.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - processPackages [django-telethon]: Remove: archive file [/home/abi/fetcher/tmp/django-telethon-1.1.5a1.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - main [MainThread]: End processing [django-telethon]: success
+[2023-08-06 19:56:30] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.6.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.3.7.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-08-06 19:56:30] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-06 19:56:30] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-06 19:56:31] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.7.tar.gz]
+[2023-08-06 19:56:31] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.8.tar.gz]
+[2023-08-06 19:56:31] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-08-06 19:56:31] INFO root fetch - main [MainThread]: Store serial: [19196125]
