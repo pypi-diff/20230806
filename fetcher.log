@@ -10170,3 +10170,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:44:10] INFO root fetch - processPackages [superqt]: Remove: archive file [/home/abi/fetcher/tmp/superqt-0.5.0.tar.gz]
 [2023-08-06 15:44:10] INFO root fetch - main [MainThread]: End processing [superqt]: success
 [2023-08-06 15:44:10] INFO root fetch - main [MainThread]: Store serial: [19194238]
+[2023-08-06 15:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194238]
+[2023-08-06 15:49:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jlogr
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recognite
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bili-eta
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overrides
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gimera
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kukie
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lectern
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: encipherpy
+[2023-08-06 15:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rebelai
+[2023-08-06 15:49:19] INFO root fetch - processPackages [bili-eta]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-06 15:49:19] INFO root fetch - processPackages [jlogr]: New version: [0.1.201] Old Version: [0.1.200]
+[2023-08-06 15:49:19] INFO root fetch - processPackages [overrides]: New version: [7.4.0] Old Version: [7.3.1]
+[2023-08-06 15:49:19] INFO root fetch - processPackages [gimera]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-08-06 15:49:19] WARNING root fetch - processPackages [kukie]: Skipping, unable to determine old version
+[2023-08-06 15:49:19] INFO root fetch - main [MainThread]: End processing [kukie] error
+[2023-08-06 15:49:19] WARNING root fetch - processPackages [encipherpy]: Skipping, unable to determine old version
+[2023-08-06 15:49:19] INFO root fetch - main [MainThread]: End processing [encipherpy] error
+[2023-08-06 15:49:19] INFO root fetch - processPackages [recognite]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2023-08-06 15:49:19] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/de/9c/04a1386ad450c3e2d50eaf3e5a34c81fa0132dfeb4527080f5049917baf7/jlogr-0.1.200.tar.gz
+[2023-08-06 15:49:19] INFO root fetch - processPackages [rebelai]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-06 15:49:19] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/64/81/0c432b93db1e49dfaa1ca777654731c2b48492ab09a1b6a8f38d790c2e96/gimera-0.7.4.tar.gz
+[2023-08-06 15:49:19] INFO root fetch - processPackages [lectern]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 15:49:20] INFO root fetch - processPackages [overrides]: Downloading https://files.pythonhosted.org/packages/f6/39/e2e3c2c7eba7793a01b5f592c3c7fd6b27da53d75de81430407ef18befb7/overrides-7.3.1.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/28/1f/14d385ee96d775b9b46f1daa63140270e9d51c22b29e5b8c6a1920b6a5c3/bili_eta-0.3.1.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [recognite]: Downloading https://files.pythonhosted.org/packages/10/99/0eb0cf630047330849a1c4711a083a27ed3d3ba13488bf8460d4fd1feb0c/recognite-0.1.1.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/f2/85/e1beb3e30efd6cf66a2628a993a731e1e6affc9a2ae2c154836683951ae9/rebelai-2.0.0-py2.py3-none-any.whl
+[2023-08-06 15:49:20] WARNING root fetch - processPackages [bili-eta]: Skipping package: exceeds size limit 12699715>=10485760
+[2023-08-06 15:49:20] INFO root fetch - main [MainThread]: End processing [bili-eta] error
+[2023-08-06 15:49:20] INFO root fetch - processPackages [lectern]: Downloading https://files.pythonhosted.org/packages/51/af/8b7db8850fcb46e1ffb6a0d87b2dcd16ebe41dea9c55fd0f5c2850e67580/lectern-0.9.2.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/22/6c/4a8d59b4d9739674fe87f00ccc8766468784d07a29764421a4bd72bafab4/gimera-0.7.5.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/a7/f5/578d26fdc5bba61533d4f53bfcb4df544ae97a4eaef57db05f3635b4b359/jlogr-0.1.201.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [overrides]: Downloading https://files.pythonhosted.org/packages/4d/27/30c865a1e62f1913a0730e667e94459ca038392b6f44d69ef7a585690337/overrides-7.4.0.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.4.tar.gz tmp/gimera-0.7.5.tar.gz --markdown 20230806/g/gimera/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-08-06 15:49:20] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.200.tar.gz tmp/jlogr-0.1.201.tar.gz --markdown 20230806/j/jlogr/0.1.200-0.1.201/diff.md --exclude *.pyd
+[2023-08-06 15:49:20] INFO root fetch - processPackages [overrides]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [overrides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overrides-7.3.1.tar.gz tmp/overrides-7.4.0.tar.gz --markdown 20230806/o/overrides/7.3.1-7.4.0/diff.md --exclude *.pyd
+[2023-08-06 15:49:20] INFO root fetch - processPackages [recognite]: Downloading https://files.pythonhosted.org/packages/0f/34/89ddd205add1771615397735be900d27a8b03bc8f39b1b44d59d4588d979/recognite-0.1.2a0.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/5e/8a/4dbf944d762ff372bd28aee91ee0c66c3159f23a17ac8fce04f8a05997fb/rebelai-2.1.0-py2.py3-none-any.whl
+[2023-08-06 15:49:20] INFO root fetch - processPackages [lectern]: Downloading https://files.pythonhosted.org/packages/99/fd/e4d0f881f7c42beea6e38b0b7382279504f099361376c851a7daffa7c46d/lectern-0.9.3.tar.gz
+[2023-08-06 15:49:20] INFO root fetch - processPackages [rebelai]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [rebelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebelai-2.0.0-py2.py3-none-any.whl.zip tmp/rebelai-2.1.0-py2.py3-none-any.whl.zip --markdown 20230806/r/rebelai/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:49:20] INFO root fetch - processPackages [recognite]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [recognite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognite-0.1.1.tar.gz tmp/recognite-0.1.2a0.tar.gz --markdown 20230806/r/recognite/0.1.1-0.1.2a0/diff.md --exclude *.pyd
+[2023-08-06 15:49:20] INFO root fetch - processPackages [lectern]: executing diffoscope
+[2023-08-06 15:49:20] INFO root fetch - processPackages [lectern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectern-0.9.2.tar.gz tmp/lectern-0.9.3.tar.gz --markdown 20230806/l/lectern/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 15:49:21] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.200.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.201.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 15:49:21] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.4.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.5.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-08-06 15:49:21] INFO root fetch - processPackages [overrides]: Remove: archive file [/home/abi/fetcher/tmp/overrides-7.3.1.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [overrides]: Remove: archive file [/home/abi/fetcher/tmp/overrides-7.4.0.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - main [MainThread]: End processing [overrides]: success
+[2023-08-06 15:49:21] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-2.0.0-py2.py3-none-any.whl.zip]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-2.1.0-py2.py3-none-any.whl.zip]
+[2023-08-06 15:49:21] INFO root fetch - main [MainThread]: End processing [rebelai]: success
+[2023-08-06 15:49:21] INFO root fetch - processPackages [recognite]: Remove: archive file [/home/abi/fetcher/tmp/recognite-0.1.1.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [recognite]: Remove: archive file [/home/abi/fetcher/tmp/recognite-0.1.2a0.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - main [MainThread]: End processing [recognite]: success
+[2023-08-06 15:49:21] INFO root fetch - processPackages [lectern]: Remove: archive file [/home/abi/fetcher/tmp/lectern-0.9.2.tar.gz]
+[2023-08-06 15:49:21] INFO root fetch - processPackages [lectern]: Remove: archive file [/home/abi/fetcher/tmp/lectern-0.9.3.tar.gz]
+[2023-08-06 15:49:22] INFO root fetch - main [MainThread]: End processing [lectern]: success
+[2023-08-06 15:49:22] INFO root fetch - main [MainThread]: Store serial: [19194264]
