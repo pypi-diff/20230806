@@ -11779,3 +11779,200 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:13:20] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.0.tar.gz]
 [2023-08-06 17:13:20] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-08-06 17:13:20] INFO root fetch - main [MainThread]: Store serial: [19194947]
+[2023-08-06 17:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194947]
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamdeckapi
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oganesson-py
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: requests-selenium
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccircuitbuilder
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: red-team-language
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythoncolouringpackageV1
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avilla-core
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anirban
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-text-nightly
+[2023-08-06 17:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osmosis-protobuf
+[2023-08-06 17:18:29] WARNING root fetch - processPackages [sccircuitbuilder]: Skipping, unable to determine old version
+[2023-08-06 17:18:29] INFO root fetch - processPackages [sccircuitbuilder]: Start processing: eth-erc20
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: End processing [sccircuitbuilder] error
+[2023-08-06 17:18:29] INFO root fetch - processPackages [requests-selenium]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 17:18:29] WARNING root fetch - processPackages [pythoncolouringpackageV1]: Skipping, unable to determine old version
+[2023-08-06 17:18:29] INFO root fetch - processPackages [pythoncolouringpackageV1]: Start processing: Pygments
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: End processing [pythoncolouringpackageV1] error
+[2023-08-06 17:18:29] INFO root fetch - processPackages [streamdeckapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-06 17:18:29] ERROR root fetch - processPackages [oganesson-py]: Unable to get metadata: No such project 'oganesson-py'
+[2023-08-06 17:18:29] INFO root fetch - processPackages [oganesson-py]: Start processing: scoda-tk
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: End processing [oganesson-py] error
+[2023-08-06 17:18:29] INFO root fetch - processPackages [Pygments]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [avilla-core]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/ba/a2/b430d8ba6a29c7a262d6fb5656a575755f705c69a01ae35b5f4910775d86/requests_selenium-0.0.3.tar.gz
+[2023-08-06 17:18:29] WARNING root fetch - processPackages [anirban]: Skipping, unable to determine old version
+[2023-08-06 17:18:29] INFO root fetch - processPackages [anirban]: Start processing: iemail
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: End processing [anirban] error
+[2023-08-06 17:18:29] INFO root fetch - processPackages [osmosis-protobuf]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [red-team-language]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [eth-erc20]: New version: [0.8.0] Old Version: [0.7.5]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/29/10/322461a188a46158a2aafb5c3e251d2bd75b85b24ed0fd5f2c1eb71fde5a/streamdeckapi-0.0.8.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/76/07/3f036812593ef630e730dda4ecf524234092a871cd6e7f04b36ba8bdf0f5/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 17:18:29] INFO root fetch - processPackages [Pygments]: Downloading https://files.pythonhosted.org/packages/15/9d/bc9047ca1eee944cc245f3649feea6eecde3f38011ee9b8a6a64fb7088cd/Pygments-2.8.1.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/f9/5c/109467410a2bcabc88b0f6b198729d369d12df3e5ef748d8ca4d09d805a3/scoda-tk-0.4.4.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [iemail]: New version: [1.1] Old Version: [1.0]
+[2023-08-06 17:18:29] INFO root fetch - processPackages [osmosis-protobuf]: Downloading https://files.pythonhosted.org/packages/38/44/4cbe17cb2a741d44bd6df4dc579454587016671d3428f65c3d201e295e6a/osmosis_protobuf-0.2.0.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [avilla-core]: Downloading https://files.pythonhosted.org/packages/a7/5e/40580af996677674eaaea8935e34ee831e8928c0e04a51d13b2d38273240/avilla-core-1.0.0rc3.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [red-team-language]: Downloading https://files.pythonhosted.org/packages/f3/0c/891e193d480eca5460a50496228d0fa746b5bcf8437c8c0bd20ea51deda9/red_team_language-0.1.1.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/83/c4/27d996519ccceda7c2abb2b72d08560a4842af620356cd74f1189fde8b9c/eth-erc20-0.7.5.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/b2/69/cb3bdf273df7c26f3bc672bcca4f12bf2b901fbc655a6211f8cbb15dda22/streamdeckapi-0.0.9.tar.gz
+[2023-08-06 17:18:29] WARNING root fetch - processPackages [osmosis-protobuf]: Skipping package: exceeds size limit 26068605>=10485760
+[2023-08-06 17:18:29] INFO root fetch - processPackages [osmosis-protobuf]: Start processing: avilla-console
+[2023-08-06 17:18:29] INFO root fetch - main [MainThread]: End processing [osmosis-protobuf] error
+[2023-08-06 17:18:29] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/72/33/1d3d6817ed2eda24f5311a25bc3cd7181e98989996f40481273b3cd692d2/requests_selenium-0.0.4.tar.gz
+[2023-08-06 17:18:29] INFO root fetch - processPackages [iemail]: Downloading https://files.pythonhosted.org/packages/64/c7/a092eeacb7de6a8c4f4a68cb287c5536ddc27cf55d6737e6714ce8a68baf/iemail-1.0.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/8d/7e/27cc87731be4b1556d33422910d78565f34a1b9db0cc7593492140eca33c/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 17:18:30] WARNING root fetch - processPackages [avilla-console]: Skipping, unable to determine old version
+[2023-08-06 17:18:30] INFO root fetch - processPackages [avilla-console]: Start processing: aorta-sirius
+[2023-08-06 17:18:30] INFO root fetch - main [MainThread]: End processing [avilla-console] error
+[2023-08-06 17:18:30] INFO root fetch - processPackages [requests-selenium]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [requests-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_selenium-0.0.3.tar.gz tmp/requests_selenium-0.0.4.tar.gz --markdown 20230806/r/requests-selenium/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [streamdeckapi]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [streamdeckapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdeckapi-0.0.8.tar.gz tmp/streamdeckapi-0.0.9.tar.gz --markdown 20230806/s/streamdeckapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [Pygments]: Downloading https://files.pythonhosted.org/packages/ba/6e/7a7c13c21d8a4a7f82ccbfe257a045890d4dbf18c023f985f565f97393e3/Pygments-2.9.0.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [aorta-sirius]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 17:18:30] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/aa/14/ca0b1ae338c37f8ba84493e635f82902d6850d6aa65226f6b97beabb88f3/eth-erc20-0.8.0.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [avilla-core]: Downloading https://files.pythonhosted.org/packages/26/53/eccbd4a8f6e590a623d5ffeaa27131f41afaedcdcef7d3b2ad60ce2822c4/avilla-core-1.0.0rc4.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/59/ab/8f958afe5a4918aa07a5fb38fa5726aed57167b29cac9767eb241d98f889/scoda-tk-0.4.5.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [iemail]: Downloading https://files.pythonhosted.org/packages/d1/60/1c69b6a2facc7629f6d8464ae967426e3f93b8be99b2a2f21fa5b7724cf2/iemail-1.1.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [red-team-language]: Downloading https://files.pythonhosted.org/packages/fc/25/ce2fe65108dcb03a51eb458ee3bcf53825be2ea82cd5e7da0e76ae8d30ab/red_team_language-0.2.0.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [avilla-core]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [avilla-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avilla-core-1.0.0rc3.tar.gz tmp/avilla-core-1.0.0rc4.tar.gz --markdown 20230806/a/avilla-core/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230806/t/tensorflow-text-nightly/2.15.0.dev20230804-2.15.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [iemail]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [iemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iemail-1.0.tar.gz tmp/iemail-1.1.tar.gz --markdown 20230806/i/iemail/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [eth-erc20]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [eth-erc20]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc20-0.7.5.tar.gz tmp/eth-erc20-0.8.0.tar.gz --markdown 20230806/e/eth-erc20/0.7.5-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-08-06 17:18:30] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.4.tar.gz tmp/scoda-tk-0.4.5.tar.gz --markdown 20230806/s/scoda-tk/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-08-06 17:18:30] INFO root fetch - processPackages [Pygments]: executing diffoscope
+[2023-08-06 17:18:30] INFO root fetch - processPackages [Pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pygments-2.8.1.tar.gz tmp/Pygments-2.9.0.tar.gz --markdown 20230806/P/Pygments/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-08-06 17:18:31] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/f7/a9/1b1baa080588e189aafc95d9d8998b4232984f880217dba83e3f863c1286/aorta_sirius-0.9.tar.gz
+[2023-08-06 17:18:31] INFO root fetch - processPackages [red-team-language]: executing diffoscope
+[2023-08-06 17:18:31] INFO root fetch - processPackages [red-team-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_team_language-0.1.1.tar.gz tmp/red_team_language-0.2.0.tar.gz --markdown 20230806/r/red-team-language/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 17:18:31] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-08-06 17:18:31] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.8.tar.gz tmp/aorta_sirius-0.9.tar.gz --markdown 20230806/a/aorta-sirius/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 17:18:31] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.3.tar.gz]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.4.tar.gz]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [requests-selenium]: Start processing: avilla-elizabeth
+[2023-08-06 17:18:31] INFO root fetch - main [MainThread]: End processing [requests-selenium]: success
+[2023-08-06 17:18:31] INFO root fetch - processPackages [avilla-elizabeth]: New version: [1.0.0rc4] Old Version: [1.0.0a5]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.8.tar.gz]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.9.tar.gz]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [streamdeckapi]: Start processing: avilla-onebot-v11
+[2023-08-06 17:18:31] INFO root fetch - main [MainThread]: End processing [streamdeckapi]: success
+[2023-08-06 17:18:31] INFO root fetch - processPackages [avilla-elizabeth]: Downloading https://files.pythonhosted.org/packages/37/64/71fc947867ca7d231f4bb92847cf14bf0f96598c5fc902d638b655c160b2/avilla-elizabeth-1.0.0a5.tar.gz
+[2023-08-06 17:18:31] WARNING root fetch - processPackages [avilla-onebot-v11]: Skipping, unable to determine old version
+[2023-08-06 17:18:31] INFO root fetch - processPackages [avilla-onebot-v11]: Start processing: color-manager-nv
+[2023-08-06 17:18:31] INFO root fetch - main [MainThread]: End processing [avilla-onebot-v11] error
+[2023-08-06 17:18:31] WARNING root fetch - processPackages [color-manager-nv]: Skipping, unable to determine old version
+[2023-08-06 17:18:31] INFO root fetch - processPackages [color-manager-nv]: Start processing: avilla-standard-qq
+[2023-08-06 17:18:31] INFO root fetch - main [MainThread]: End processing [color-manager-nv] error
+[2023-08-06 17:18:31] WARNING root fetch - processPackages [avilla-standard-qq]: Skipping, unable to determine old version
+[2023-08-06 17:18:31] INFO root fetch - processPackages [avilla-standard-qq]: Start processing: avilla-qqguild-tencent
+[2023-08-06 17:18:31] INFO root fetch - main [MainThread]: End processing [avilla-standard-qq] error
+[2023-08-06 17:18:31] INFO root fetch - processPackages [avilla-elizabeth]: Downloading https://files.pythonhosted.org/packages/c5/33/0f52f3e19c8e060cdaf4bbeead100e6dbecfb16f97bbd183b2350f7ef86e/avilla-elizabeth-1.0.0rc4.tar.gz
+[2023-08-06 17:18:31] INFO root fetch - processPackages [iemail]: Remove: archive file [/home/abi/fetcher/tmp/iemail-1.0.tar.gz]
+[2023-08-06 17:18:31] INFO root fetch - processPackages [iemail]: Remove: archive file [/home/abi/fetcher/tmp/iemail-1.1.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [iemail]: Start processing: py-contract-ui
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [iemail]: success
+[2023-08-06 17:18:32] WARNING root fetch - processPackages [avilla-qqguild-tencent]: Skipping, unable to determine old version
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-qqguild-tencent]: Start processing: frontengine
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [avilla-qqguild-tencent] error
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-elizabeth]: executing diffoscope
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-elizabeth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avilla-elizabeth-1.0.0a5.tar.gz tmp/avilla-elizabeth-1.0.0rc4.tar.gz --markdown 20230806/a/avilla-elizabeth/1.0.0a5-1.0.0rc4/diff.md --exclude *.pyd
+[2023-08-06 17:18:32] INFO root fetch - processPackages [py-contract-ui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [eth-erc20]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc20-0.7.5.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [eth-erc20]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc20-0.8.0.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [eth-erc20]: Start processing: frontengine-dev
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [eth-erc20]: success
+[2023-08-06 17:18:32] INFO root fetch - processPackages [py-contract-ui]: Downloading https://files.pythonhosted.org/packages/8c/32/bb910573fb4c7930b1d40fb919e7f55e89e2ef9fc2241017547bf90aa2c9/py-contract-ui-0.0.1.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-core]: Remove: archive file [/home/abi/fetcher/tmp/avilla-core-1.0.0rc3.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-core]: Remove: archive file [/home/abi/fetcher/tmp/avilla-core-1.0.0rc4.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [avilla-core]: Start processing: pydantic-xml
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [avilla-core]: success
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.9.tar.gz]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [aorta-sirius]: Start processing: pythonBgt
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-08-06 17:18:32] INFO root fetch - processPackages [pydantic-xml]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [pythonBgt]: New version: [0.45] Old Version: [0.44]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [tensorflow-text-nightly]: Start processing: nb-log
+[2023-08-06 17:18:32] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-08-06 17:18:32] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/70/58/7ae5d544617e399645c08155cab9e50efca43d0a5fa09d3099847ace98f7/pydantic_xml-2.0.0b1.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [py-contract-ui]: Downloading https://files.pythonhosted.org/packages/da/e7/f52c5e2f431bcdbb403e0b11c6c8521369670d0867b51015826979e0212d/py-contract-ui-0.0.2.tar.gz
+[2023-08-06 17:18:32] INFO root fetch - processPackages [nb-log]: New version: [9.9] Old Version: [9.8]
+[2023-08-06 17:18:32] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/9d/e5/1c73b291f10b79388a37f6c573099ae332e04628b7dad57c54d8f93af9ac/pythonBgt-0.44-py3-none-any.whl
+[2023-08-06 17:18:32] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-06 17:18:33] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230806/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230806/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/c7/98/ba5ec816aa0cacf931304b79e441069c21c6b5deb7b25c25d489e38ba226/pydantic_xml-2.0.0b2.tar.gz
+[2023-08-06 17:18:33] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/22/98/61f2b3a749cdecb69a6010138138fcffa16875119c0e669be11105b6ba58/nb_log-9.8.tar.gz
+[2023-08-06 17:18:33] INFO root fetch - processPackages [py-contract-ui]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [py-contract-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-contract-ui-0.0.1.tar.gz tmp/py-contract-ui-0.0.2.tar.gz --markdown 20230806/p/py-contract-ui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/a4/95/359481b1f2da4945ed4a48708298f4b91784be771fbfcba2c7f38cee8d35/pythonBgt-0.45-py3-none-any.whl
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pydantic-xml]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pydantic-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xml-2.0.0b1.tar.gz tmp/pydantic_xml-2.0.0b2.tar.gz --markdown 20230806/p/pydantic-xml/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [avilla-elizabeth]: Remove: archive file [/home/abi/fetcher/tmp/avilla-elizabeth-1.0.0a5.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - processPackages [avilla-elizabeth]: Remove: archive file [/home/abi/fetcher/tmp/avilla-elizabeth-1.0.0rc4.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - processPackages [avilla-elizabeth]: Start processing: eth-owned
+[2023-08-06 17:18:33] INFO root fetch - main [MainThread]: End processing [avilla-elizabeth]: success
+[2023-08-06 17:18:33] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.4.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.5.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pythonBgt]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [pythonBgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonBgt-0.44-py3-none-any.whl.zip tmp/pythonBgt-0.45-py3-none-any.whl.zip --markdown 20230806/p/pythonBgt/0.44-0.45/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [eth-owned]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-06 17:18:33] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/71/b4/b5fd7191646e224248dd5e17266bc6a64d40d6fb5a20f465bb538b007259/nb_log-9.9.tar.gz
+[2023-08-06 17:18:33] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-08-06 17:18:33] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.8.tar.gz tmp/nb_log-9.9.tar.gz --markdown 20230806/n/nb-log/9.8-9.9/diff.md --exclude *.pyd
+[2023-08-06 17:18:33] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/2a/a2/5bb97015a46cb349e237f8e26507c61c500ecfea927b2f336eb957981a43/eth-owned-0.1.2.tar.gz
+[2023-08-06 17:18:33] INFO root fetch - processPackages [red-team-language]: Remove: archive file [/home/abi/fetcher/tmp/red_team_language-0.1.1.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - processPackages [red-team-language]: Remove: archive file [/home/abi/fetcher/tmp/red_team_language-0.2.0.tar.gz]
+[2023-08-06 17:18:33] INFO root fetch - main [MainThread]: End processing [red-team-language]: success
+[2023-08-06 17:18:34] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/00/b6/af7c47e12b24b90c3fb01ae1489208bbaeb38b7724dae4c723df3f04026a/eth-owned-0.2.0.tar.gz
+[2023-08-06 17:18:34] INFO root fetch - processPackages [eth-owned]: executing diffoscope
+[2023-08-06 17:18:34] INFO root fetch - processPackages [eth-owned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-owned-0.1.2.tar.gz tmp/eth-owned-0.2.0.tar.gz --markdown 20230806/e/eth-owned/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 17:18:34] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-08-06 17:18:34] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-2.0.0b1.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-2.0.0b2.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - main [MainThread]: End processing [pydantic-xml]: success
+[2023-08-06 17:18:34] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.44-py3-none-any.whl.zip]
+[2023-08-06 17:18:34] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.45-py3-none-any.whl.zip]
+[2023-08-06 17:18:34] INFO root fetch - main [MainThread]: End processing [pythonBgt]: success
+[2023-08-06 17:18:34] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-06 17:18:34] INFO root fetch - processPackages [py-contract-ui]: Remove: archive file [/home/abi/fetcher/tmp/py-contract-ui-0.0.1.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - processPackages [py-contract-ui]: Remove: archive file [/home/abi/fetcher/tmp/py-contract-ui-0.0.2.tar.gz]
+[2023-08-06 17:18:34] INFO root fetch - main [MainThread]: End processing [py-contract-ui]: success
+[2023-08-06 17:18:35] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.8.tar.gz]
+[2023-08-06 17:18:35] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.9.tar.gz]
+[2023-08-06 17:18:35] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-08-06 17:18:35] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.1.2.tar.gz]
+[2023-08-06 17:18:35] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.2.0.tar.gz]
+[2023-08-06 17:18:35] INFO root fetch - main [MainThread]: End processing [eth-owned]: success
+[2023-08-06 17:18:48] INFO root fetch - processPackages [Pygments]: Remove: archive file [/home/abi/fetcher/tmp/Pygments-2.8.1.tar.gz]
+[2023-08-06 17:18:48] INFO root fetch - processPackages [Pygments]: Remove: archive file [/home/abi/fetcher/tmp/Pygments-2.9.0.tar.gz]
+[2023-08-06 17:18:48] INFO root fetch - main [MainThread]: End processing [Pygments]: success
+[2023-08-06 17:18:48] INFO root fetch - main [MainThread]: Store serial: [19195041]
