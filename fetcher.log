@@ -983,3 +983,90 @@
 [2023-08-06 02:03:51] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.8.tar.gz]
 [2023-08-06 02:03:51] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
 [2023-08-06 02:03:51] INFO root fetch - main [MainThread]: Store serial: [19189979]
+[2023-08-06 02:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189979]
+[2023-08-06 02:09:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statified-nies
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanoSQLite
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibis-framework
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chempotpy
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmux-conf
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-08-06 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vista-bpma-ma-anomaly-alerts-detector
+[2023-08-06 02:09:00] WARNING root fetch - processPackages [nanoSQLite]: Skipping, unable to determine old version
+[2023-08-06 02:09:00] INFO root fetch - processPackages [nanoSQLite]: Start processing: torchlayers-nightly
+[2023-08-06 02:09:00] INFO root fetch - main [MainThread]: End processing [nanoSQLite] error
+[2023-08-06 02:09:00] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230805.post427] Old Version: [1.9.0.20230804.post414]
+[2023-08-06 02:09:00] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230805] Old Version: [0.0.8.dev20230804]
+[2023-08-06 02:09:01] WARNING root fetch - processPackages [chempotpy]: Skipping, unable to determine old version
+[2023-08-06 02:09:01] INFO root fetch - processPackages [chempotpy]: Start processing: onnxscript-preview
+[2023-08-06 02:09:01] INFO root fetch - main [MainThread]: End processing [chempotpy] error
+[2023-08-06 02:09:01] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/66/01/1126b7560c7656b4ba1f7ae75fbe0bc08ce1a65424ade540aa93d4363863/mct-nightly-1.9.0.20230804.post414.tar.gz
+[2023-08-06 02:09:01] ERROR root fetch - processPackages [vista-bpma-ma-anomaly-alerts-detector]: Unable to get metadata: No such project 'vista-bpma-ma-anomaly-alerts-detector'
+[2023-08-06 02:09:01] INFO root fetch - main [MainThread]: End processing [vista-bpma-ma-anomaly-alerts-detector] error
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308060007] Old Version: [0.0.1.dev202308050006]
+[2023-08-06 02:09:01] INFO root fetch - processPackages [tmux-conf]: New version: [0.16.3] Old Version: [0.16.0]
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [6.1.1.dev22]
+[2023-08-06 02:09:01] WARNING root fetch - processPackages [statified-nies]: Skipping, unable to determine old version
+[2023-08-06 02:09:01] INFO root fetch - main [MainThread]: End processing [statified-nies] error
+[2023-08-06 02:09:01] INFO root fetch - processPackages [onnxscript-preview]: New version: [0.1.0.dev20230805] Old Version: [0.1.0.dev20230804]
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/31/88/a454dd936e6b031b2fbc529f80408753601f2c847d449a020b69d256d712/jaxutils-nightly-0.0.8.dev20230804.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1691194035] Old Version: [1691107662]
+[2023-08-06 02:09:01] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/11/89/bd500095315870b72eac25a5b51dc6c9a0cc2bd61d908f267714bbe2bfea/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/7b/1d/fee0aae2ba677a3e817fc6df32e737b9565e52a8209431745b13adf61225/ibis_framework-6.1.1.dev22.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/42/44/d2e6cdf6c98599f89d7a1a97228eb211f98a3fa094e44fee1e07985adffc/ml-compiler-opt-0.0.1.dev202308050006.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/e2/e2/717e393f5ab277d961eeeacc4366657750d8dd58b60aaa0377e1aa45defe/torchlayers-nightly-1691107662.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/90/f0/263109e17f9dcfbd0bd172982cff0392bb89aab6419651224b4ea658c7bd/tmux_conf-0.16.0.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/99/21/b8cf4bfb0246798ea414ae27c642fbffb591f2f98e8db97d648151d20c5b/jaxutils-nightly-0.0.8.dev20230805.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230806/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-06 02:09:01] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/25/f3/e0497a823a9bcc4c69ce0f27ff5c15380d5e67cd48b627a360982ad53606/mct-nightly-1.9.0.20230805.post427.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-06 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230805.tar.gz --markdown 20230806/j/jaxutils-nightly/0.0.8.dev20230804-0.0.8.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 02:09:01] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-06 02:09:01] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230804.post414.tar.gz tmp/mct-nightly-1.9.0.20230805.post427.tar.gz --markdown 20230806/m/mct-nightly/1.9.0.20230804.post414-1.9.0.20230805.post427/diff.md --exclude *.pyd
+[2023-08-06 02:09:01] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/12/f2/a86588ec488d4b49116d92c7c686f1c058ad4a9c1dfbde50bbc164b27724/onnxscript_preview-0.1.0.dev20230805-py3-none-any.whl
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/96/56/4c98405e2c665acc1418b581740864459675503e6c47ccf97a1484de878d/ml-compiler-opt-0.0.1.dev202308060007.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/b5/c2/de5b4e67722880104e1bb46e2509ff0f0be8b8daecbe9328296f57e234c1/tmux_conf-0.16.3.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-08-06 02:09:01] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/43/b7/f92cd8848ac4093bab63554eb612df6422fdb073689b8510b05bacca77ca/torchlayers-nightly-1691194035.tar.gz
+[2023-08-06 02:09:02] INFO root fetch - processPackages [onnxscript-preview]: executing diffoscope
+[2023-08-06 02:09:02] INFO root fetch - processPackages [onnxscript-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl.zip tmp/onnxscript_preview-0.1.0.dev20230805-py3-none-any.whl.zip --markdown 20230806/o/onnxscript-preview/0.1.0.dev20230804-0.1.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 02:09:02] INFO root fetch - processPackages [tmux-conf]: executing diffoscope
+[2023-08-06 02:09:02] INFO root fetch - processPackages [tmux-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmux_conf-0.16.0.tar.gz tmp/tmux_conf-0.16.3.tar.gz --markdown 20230806/t/tmux-conf/0.16.0-0.16.3/diff.md --exclude *.pyd
+[2023-08-06 02:09:02] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-06 02:09:02] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308050006.tar.gz tmp/ml-compiler-opt-0.0.1.dev202308060007.tar.gz --markdown 20230806/m/ml-compiler-opt/0.0.1.dev202308050006-0.0.1.dev202308060007/diff.md --exclude *.pyd
+[2023-08-06 02:09:02] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-06 02:09:02] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1691107662.tar.gz tmp/torchlayers-nightly-1691194035.tar.gz --markdown 20230806/t/torchlayers-nightly/1691107662-1691194035/diff.md --exclude *.pyd
+[2023-08-06 02:09:02] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-08-06 02:09:02] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-6.1.1.dev22.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230806/i/ibis-framework/6.1.1.dev22-v0.6.0/diff.md --exclude *.pyd
+[2023-08-06 02:09:02] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-06 02:09:02] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-06 02:09:02] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-06 02:09:03] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230805.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-06 02:09:03] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691107662.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691194035.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-06 02:09:03] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.0.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.3.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - main [MainThread]: End processing [tmux-conf]: success
+[2023-08-06 02:09:03] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308050006.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308060007.tar.gz]
+[2023-08-06 02:09:03] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-06 02:09:04] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl.zip]
+[2023-08-06 02:09:04] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230805-py3-none-any.whl.zip]
+[2023-08-06 02:09:04] INFO root fetch - main [MainThread]: End processing [onnxscript-preview]: success
+[2023-08-06 02:09:05] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230804.post414.tar.gz]
+[2023-08-06 02:09:05] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230805.post427.tar.gz]
+[2023-08-06 02:09:05] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-06 02:09:05] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-6.1.1.dev22.tar.gz]
+[2023-08-06 02:09:05] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-08-06 02:09:05] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-08-06 02:09:05] INFO root fetch - main [MainThread]: Store serial: [19190022]
