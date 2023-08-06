@@ -12562,3 +12562,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:55:46] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-28.0.0.tar.gz]
 [2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [datafusion]: success
 [2023-08-06 17:55:46] INFO root fetch - main [MainThread]: Store serial: [19195286]
+[2023-08-06 18:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195286]
+[2023-08-06 18:00:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-ocean
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipsqlitedbmodsV1
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ephios
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotion-lambda
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encrypted-json-field
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipsqlitedbmodsV1
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: YandexHome
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-advert-framework
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytexutils
+[2023-08-06 18:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yetl-framework
+[2023-08-06 18:00:55] INFO root fetch - processPackages [port-ocean]: New version: [0.1.4.dev1] Old Version: [0.1.3rc4]
+[2023-08-06 18:00:55] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-08-06 18:00:56] WARNING root fetch - processPackages [pytexutils]: Skipping, unable to determine old version
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pytexutils]: Start processing: rajant-api
+[2023-08-06 18:00:56] INFO root fetch - main [MainThread]: End processing [pytexutils] error
+[2023-08-06 18:00:56] INFO root fetch - processPackages [YandexHome]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-06 18:00:56] INFO root fetch - processPackages [yetl-framework]: New version: [3.0.0.dev1] Old Version: [2.0.6]
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 18:00:56] INFO root fetch - processPackages [ephios]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 18:00:56] WARNING root fetch - processPackages [encrypted-json-field]: Skipping, unable to determine old version
+[2023-08-06 18:00:56] INFO root fetch - main [MainThread]: End processing [encrypted-json-field] error
+[2023-08-06 18:00:56] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/af/f2/e534061d0f9c276ac06c01accaa13afc90772d8601128ae5ee0c2cf3ae16/port_ocean-0.1.3rc4.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.17]
+[2023-08-06 18:00:56] WARNING root fetch - processPackages [rajant-api]: Skipping, unable to determine old version
+[2023-08-06 18:00:56] INFO root fetch - main [MainThread]: End processing [rajant-api] error
+[2023-08-06 18:00:56] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/43/15/96aa78eec364ee4be2616f21923f071281971a537b98248ef3c933ee47ab/YandexHome-0.1.7.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/ed/30/0e16d22517e8b17ad358e8a52672e8bb4bb1bd64d05120e7ebbc5dd94185/yetl-framework-2.0.6.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/6b/a7/51448ad99560e439461b8e804c5a1a5d5fd3ef10fd411fb4effce7803a56/discord-advert-framework-2.9.2.tar.gz
+[2023-08-06 18:00:56] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 11286892>=10485760
+[2023-08-06 18:00:56] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Downloading https://files.pythonhosted.org/packages/9b/12/f3c5d9cf70427ccaebee56c0a65d033d773f40cb8a72aa0d2a1d7e49370b/pipsqlitedbmodsV1-1.0.0.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Downloading https://files.pythonhosted.org/packages/9b/12/f3c5d9cf70427ccaebee56c0a65d033d773f40cb8a72aa0d2a1d7e49370b/pipsqlitedbmodsV1-1.0.0.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/c1/4f/9cc9c40bc81b96272ad21c8c7d72a96f8d6044eafc9e180331d92998a088/ephios-0.9.2.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/74/f1/6f4cde0279bc8f5ae630a8f4049549fb962329d7113f9a76593784d4e714/remotion_lambda-4.0.17.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/26/0b/77e6eb713a54030415f5672f4fa71af92dc7dc56c4de81ccbda13a04e5b2/port_ocean-0.1.4.dev1.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/53/58/8fdd3103636fb3f6b9a5f39ac041eb07e792a965c9a61048ba124d329851/yetl-framework-3.0.0.dev1.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.3rc4.tar.gz tmp/port_ocean-0.1.4.dev1.tar.gz --markdown 20230806/p/port-ocean/0.1.3rc4-0.1.4.dev1/diff.md --exclude *.pyd
+[2023-08-06 18:00:56] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.6.tar.gz tmp/yetl-framework-3.0.0.dev1.tar.gz --markdown 20230806/y/yetl-framework/2.0.6-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Downloading https://files.pythonhosted.org/packages/a9/a9/6d2af28ff80ba63bce0ed2a1ec7d6e7839de0bf9e4c271a1fe8a37d1e3a5/pipsqlitedbmodsV1-1.1.0.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Downloading https://files.pythonhosted.org/packages/a9/a9/6d2af28ff80ba63bce0ed2a1ec7d6e7839de0bf9e4c271a1fe8a37d1e3a5/pipsqlitedbmodsV1-1.1.0.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.7.tar.gz tmp/YandexHome-0.1.8.tar.gz --markdown 20230806/Y/YandexHome/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-06 18:00:56] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlitedbmodsV1-1.0.0.tar.gz tmp/pipsqlitedbmodsV1-1.1.0.tar.gz --markdown 20230806/p/pipsqlitedbmodsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [pipsqlitedbmodsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipsqlitedbmodsV1-1.0.0.tar.gz tmp/pipsqlitedbmodsV1-1.1.0.tar.gz --markdown 20230806/p/pipsqlitedbmodsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 18:00:56] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-08-06 18:00:56] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.17.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20230806/r/remotion-lambda/4.0.17-4.1.0a12/diff.md --exclude *.pyd
+[2023-08-06 18:00:57] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/e7/7a/49d2ba5170828d802ec0a0665ef0e8f5e8ee92e9baee5375f2b3cf6bbe55/ephios-0.9.3.tar.gz
+[2023-08-06 18:00:57] INFO root fetch - processPackages [ephios]: executing diffoscope
+[2023-08-06 18:00:57] INFO root fetch - processPackages [ephios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephios-0.9.2.tar.gz tmp/ephios-0.9.3.tar.gz --markdown 20230806/e/ephios/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 18:00:57] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.7.tar.gz]
+[2023-08-06 18:00:57] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:00:57] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:00:57] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.6.tar.gz]
+[2023-08-06 18:00:57] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-3.0.0.dev1.tar.gz]
+[2023-08-06 18:00:57] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-08-06 18:00:58] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.17.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-08-06 18:00:58] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc4.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.4.dev1.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-08-06 18:00:58] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Remove: archive file [/home/abi/fetcher/tmp/pipsqlitedbmodsV1-1.0.0.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - processPackages [pipsqlitedbmodsV1]: Remove: archive file [/home/abi/fetcher/tmp/pipsqlitedbmodsV1-1.1.0.tar.gz]
+[2023-08-06 18:00:58] INFO root fetch - main [MainThread]: End processing [pipsqlitedbmodsV1]: success
+[2023-08-06 18:00:58] INFO root fetch - main [MainThread]: End processing [pipsqlitedbmodsV1]: success
+[2023-08-06 18:01:00] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.2.tar.gz]
+[2023-08-06 18:01:00] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.3.tar.gz]
+[2023-08-06 18:01:00] INFO root fetch - main [MainThread]: End processing [ephios]: success
+[2023-08-06 18:01:00] INFO root fetch - main [MainThread]: Store serial: [19195323]
