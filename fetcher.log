@@ -15272,3 +15272,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:09:37] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
 [2023-08-06 21:09:37] INFO root fetch - main [MainThread]: End processing [flashcam]: success
 [2023-08-06 21:09:37] INFO root fetch - main [MainThread]: Store serial: [19196556]
+[2023-08-06 21:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196556]
+[2023-08-06 21:14:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vscode.dev
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grimoire-elk
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: likeinterface
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorshare
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xgrads
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kufar
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starplot
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: useragent-changer
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyecosim
+[2023-08-06 21:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rafalkrol-xyz.cdk-fsx-ontap
+[2023-08-06 21:14:46] WARNING root fetch - processPackages [tensorshare]: Skipping, unable to determine old version
+[2023-08-06 21:14:46] INFO root fetch - processPackages [tensorshare]: Start processing: importer-local
+[2023-08-06 21:14:46] INFO root fetch - main [MainThread]: End processing [tensorshare] error
+[2023-08-06 21:14:46] INFO root fetch - processPackages [useragent-changer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [xgrads]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-06 21:14:46] WARNING root fetch - processPackages [vscode.dev]: Skipping, unable to determine old version
+[2023-08-06 21:14:46] INFO root fetch - main [MainThread]: End processing [vscode.dev] error
+[2023-08-06 21:14:46] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [likeinterface]: New version: [1.0a0] Old Version: [1.0.1a0]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [starplot]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-06 21:14:46] WARNING root fetch - processPackages [pyecosim]: Skipping, unable to determine old version
+[2023-08-06 21:14:46] INFO root fetch - main [MainThread]: End processing [pyecosim] error
+[2023-08-06 21:14:46] INFO root fetch - processPackages [kufar]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 21:14:46] INFO root fetch - processPackages [xgrads]: Downloading https://files.pythonhosted.org/packages/41/22/fa72791c123d2497ba0c08e76ed2ba7532d071e2700af2cb57d418043ae7/xgrads-0.2.3.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/d3/47/28297f0168b5313b5f24beed4399a2f889e97ee6df702677868f146b8bd6/useragent_changer-0.2.1.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/6c/6c/28a7f198fea6c1f081c04a5b3b9a7aac6ef5bcde203fb31a3d1b2e81fb60/likeinterface-1.0.1a0.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/9b/fc/20a5f9ae04a5c3525a8d8e476a1acd3de26f18b882b5d9fe53cc32a19960/starplot-0.1.2.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [kufar]: Downloading https://files.pythonhosted.org/packages/57/76/148835064122a6933cf07af69098a144677277a5d784e7c3344d54c1ef0a/kufar-0.1.2.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/50/a0/f71f3d02fd2fd84dd33b671955b8a948472799d2bad1d35347c938fadb3c/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [xgrads]: Downloading https://files.pythonhosted.org/packages/ab/3b/f3d7c7ab9b4d49ac0cff574159f998a1d72d5e10aafbfa3843b224a6508f/xgrads-0.2.4.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/58/a7/d447d426edcdbdda6dc38a2193be6e5610bc9da649471eda714a7dc62a38/useragent_changer-0.2.2.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-08-06 21:14:46] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230806/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 21:14:46] INFO root fetch - processPackages [xgrads]: executing diffoscope
+[2023-08-06 21:14:46] INFO root fetch - processPackages [xgrads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgrads-0.2.3.tar.gz tmp/xgrads-0.2.4.tar.gz --markdown 20230806/x/xgrads/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 21:14:46] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b4/a6/eae17544a8034601d0c24d520e08ffcb3c667c787736bbf482664d3b8bc1/likeinterface-1.0a0.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [kufar]: Downloading https://files.pythonhosted.org/packages/7c/d0/46c50ad837fe4f230237259a352e533c79a51449cf87b198389bc2260cc2/kufar-0.1.3.tar.gz
+[2023-08-06 21:14:46] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-08-06 21:14:46] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230806/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-06 21:14:46] INFO root fetch - processPackages [useragent-changer]: executing diffoscope
+[2023-08-06 21:14:46] INFO root fetch - processPackages [useragent-changer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragent_changer-0.2.1.tar.gz tmp/useragent_changer-0.2.2.tar.gz --markdown 20230806/u/useragent-changer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 21:14:47] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/62/f1/34263518c7afae94394f59bb8c417ae6bc1565c970c63fedfd36ce22898e/rafalkrol-xyz.cdk-fsx-ontap-1.0.3.tar.gz
+[2023-08-06 21:14:47] INFO root fetch - processPackages [likeinterface]: executing diffoscope
+[2023-08-06 21:14:47] INFO root fetch - processPackages [likeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeinterface-1.0.1a0.tar.gz tmp/likeinterface-1.0a0.tar.gz --markdown 20230806/l/likeinterface/1.0.1a0-1.0a0/diff.md --exclude *.pyd
+[2023-08-06 21:14:47] INFO root fetch - processPackages [kufar]: executing diffoscope
+[2023-08-06 21:14:47] INFO root fetch - processPackages [kufar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kufar-0.1.2.tar.gz tmp/kufar-0.1.3.tar.gz --markdown 20230806/k/kufar/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 21:14:47] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: executing diffoscope
+[2023-08-06 21:14:47] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.3.tar.gz --markdown 20230806/r/rafalkrol-xyz.cdk-fsx-ontap/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 21:14:47] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/be/5c/f04496aaa6f69e1f5039f2e21c951f370b7c6cccd8c9d3574f4bdd53f11e/starplot-0.2.0.tar.gz
+[2023-08-06 21:14:47] WARNING root fetch - processPackages [starplot]: Skipping package: exceeds size limit 19169081>=10485760
+[2023-08-06 21:14:47] INFO root fetch - main [MainThread]: End processing [starplot] error
+[2023-08-06 21:14:48] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [xgrads]: Remove: archive file [/home/abi/fetcher/tmp/xgrads-0.2.3.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [xgrads]: Remove: archive file [/home/abi/fetcher/tmp/xgrads-0.2.4.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [xgrads]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0.1a0.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0a0.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [likeinterface]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.1.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.2.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [useragent-changer]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [kufar]: Remove: archive file [/home/abi/fetcher/tmp/kufar-0.1.2.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [kufar]: Remove: archive file [/home/abi/fetcher/tmp/kufar-0.1.3.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [kufar]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.2.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [rafalkrol-xyz.cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/rafalkrol-xyz.cdk-fsx-ontap-1.0.3.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [rafalkrol-xyz.cdk-fsx-ontap]: success
+[2023-08-06 21:14:48] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.98.0.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-08-06 21:14:48] INFO root fetch - main [MainThread]: Store serial: [19196631]
