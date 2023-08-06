@@ -8238,3 +8238,105 @@
 [2023-08-06 13:49:00] INFO root fetch - processPackages [dotdrop]: Remove: archive file [/home/abi/fetcher/tmp/dotdrop-1.9.0.tar.gz]
 [2023-08-06 13:49:00] INFO root fetch - main [MainThread]: End processing [dotdrop]: success
 [2023-08-06 13:49:00] INFO root fetch - main [MainThread]: Store serial: [19193375]
+[2023-08-06 13:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193375]
+[2023-08-06 13:54:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jlogr
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhmc-os-forwarder
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Open-CAM
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bili-eta
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappadata
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: code-loader
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsbgym
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycfloader
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argrelay
+[2023-08-06 13:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aptos-sdk-zzf
+[2023-08-06 13:54:09] INFO root fetch - processPackages [argrelay]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [bili-eta]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [jlogr]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [aptos-sdk-zzf]: New version: [0.7.0] Old Version: [0.1.0]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.86.dev4]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/e8/1f/c95ed956491684a1d1ed2214a01a9c98c467ef3afec12f90ea9f4275471a/argrelay-0.1.0.dev3.tar.gz
+[2023-08-06 13:54:09] WARNING root fetch - processPackages [Open-CAM]: Skipping, unable to determine old version
+[2023-08-06 13:54:09] INFO root fetch - processPackages [Open-CAM]: Start processing: qoa4ml
+[2023-08-06 13:54:09] INFO root fetch - main [MainThread]: End processing [Open-CAM] error
+[2023-08-06 13:54:09] INFO root fetch - processPackages [jsbgym]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [zhmc-os-forwarder]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [pycfloader]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [aptos-sdk-zzf]: Downloading https://files.pythonhosted.org/packages/cb/72/77c27d3f9f9d6f6f547972b517826984e6e89d42ffe3f5527b421d3718d8/aptos_sdk_zzf-0.1.0.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/e6/63/0123b91e1f836ed7896f66aec0466e1dc947e123c5a6c98331ac0b583d36/jlogr-0.1.14.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [qoa4ml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 13:54:09] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/47/97/ee410262d0deee673ab7ae5c8d8c0dce42126b60a7c2939453d00da6aa5a/bili_eta-0.2.7.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/96/5a/6fce9353166f90065e05265a6ac66447a40821fa2141704e666adcc7287e/qoa4ml-0.1.0.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/35/f2/acb470581ea3d21c5bddadfea8299e96bb0ae4abfc77edd536173bea22e6/code_loader-0.2.86.dev4.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [zhmc-os-forwarder]: Downloading https://files.pythonhosted.org/packages/87/79/a2b68f1a5332d35bd0000b9e91dec86ca810b57c6f19bae45492eba1350f/zhmc_os_forwarder-0.1.0.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [jsbgym]: Downloading https://files.pythonhosted.org/packages/e8/5b/5b0f8520821666a63adf03ecc7287397d6d26af657d19a233f07b5f42722/jsbgym-0.1.9.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [pycfloader]: Downloading https://files.pythonhosted.org/packages/a9/fb/27210297daff61c768ebe481213da0c3f55a7cc3df841019ce9913dee369/pycfloader-1.1.0.3-py3-none-any.whl
+[2023-08-06 13:54:09] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/d2/cb/94b12eb4eb482f8880f413e3f0524356aa6c91a172b7c8731e3f62408765/argrelay-0.1.0.dev4.tar.gz
+[2023-08-06 13:54:09] INFO root fetch - processPackages [aptos-sdk-zzf]: Downloading https://files.pythonhosted.org/packages/32/2b/114d6ce3056f1f587efbf0f39fc32d00ac6a43bd7255119186de89828c11/aptos_sdk_zzf-0.7.0.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/7c/f7/26b887707f46decfd062938ab7cec04df39cf5d98462ca577441323f8566/jlogr-0.1.15.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/2f/58/7cad257d8489a0380aa4dbf5ae939e3c0ca26424af385198d0500866776b/bili_eta-0.2.8.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/83/0d/c4696de40693357f9d052f58d30b170fe1cf934a5ea50fb1087798fd12e3/qoa4ml-0.1.1.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [argrelay]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [argrelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argrelay-0.1.0.dev3.tar.gz tmp/argrelay-0.1.0.dev4.tar.gz --markdown 20230806/a/argrelay/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.14.tar.gz tmp/jlogr-0.1.15.tar.gz --markdown 20230806/j/jlogr/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [aptos-sdk-zzf]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [aptos-sdk-zzf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_sdk_zzf-0.1.0.tar.gz tmp/aptos_sdk_zzf-0.7.0.tar.gz --markdown 20230806/a/aptos-sdk-zzf/0.1.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.7.tar.gz tmp/bili_eta-0.2.8.tar.gz --markdown 20230806/b/bili-eta/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [zhmc-os-forwarder]: Downloading https://files.pythonhosted.org/packages/07/c5/c63645a063b7f5ab2bac85310cb0b3e1bdab05ebd13d0da89eca8d077058/zhmc_os_forwarder-0.2.0.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.1.0.tar.gz tmp/qoa4ml-0.1.1.tar.gz --markdown 20230806/q/qoa4ml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jsbgym]: Downloading https://files.pythonhosted.org/packages/bb/d2/f33475c58a8a1a60238c58c8687b0fb014307e4b24e4fb89215e89ad0e02/jsbgym-0.2.0.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-06 13:54:10] INFO root fetch - processPackages [zhmc-os-forwarder]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [zhmc-os-forwarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmc_os_forwarder-0.1.0.tar.gz tmp/zhmc_os_forwarder-0.2.0.tar.gz --markdown 20230806/z/zhmc-os-forwarder/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.86.dev4.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230806/c/code-loader/0.2.86.dev4-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jsbgym]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [jsbgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsbgym-0.1.9.tar.gz tmp/jsbgym-0.2.0.tar.gz --markdown 20230806/j/jsbgym/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-06 13:54:10] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230806/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-06 13:54:10] INFO root fetch - processPackages [pycfloader]: Downloading https://files.pythonhosted.org/packages/6e/ee/17bdf5d69f908b0d2e04e009e0a659afe9cb266654344b345d3838fa0571/pycfloader-1.1.0.4-py3-none-any.whl
+[2023-08-06 13:54:10] WARNING root fetch - processPackages [pycfloader]: Skipping package: exceeds size limit 19251693>=10485760
+[2023-08-06 13:54:10] INFO root fetch - processPackages [pycfloader]: Start processing: beancount-future-transactions
+[2023-08-06 13:54:10] INFO root fetch - main [MainThread]: End processing [pycfloader] error
+[2023-08-06 13:54:10] INFO root fetch - processPackages [beancount-future-transactions]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [beancount-future-transactions]: Downloading https://files.pythonhosted.org/packages/e0/e4/994f77b19a4ff646d469b868cb6b98d1991b9b05cedd81a0d24d2ced652c/beancount-future-transactions-0.0.3.tar.gz
+[2023-08-06 13:54:11] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.14.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.15.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 13:54:11] INFO root fetch - processPackages [beancount-future-transactions]: Downloading https://files.pythonhosted.org/packages/b6/e6/bf22b3d89aa2de88c709f5f598cb79ee4c71a3407bb28c43f50a59f92506/beancount-future-transactions-0.0.4.tar.gz
+[2023-08-06 13:54:11] INFO root fetch - processPackages [beancount-future-transactions]: executing diffoscope
+[2023-08-06 13:54:11] INFO root fetch - processPackages [beancount-future-transactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount-future-transactions-0.0.3.tar.gz tmp/beancount-future-transactions-0.0.4.tar.gz --markdown 20230806/b/beancount-future-transactions/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 13:54:11] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.7.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.8.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-08-06 13:54:11] INFO root fetch - processPackages [aptos-sdk-zzf]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk_zzf-0.1.0.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [aptos-sdk-zzf]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk_zzf-0.7.0.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - main [MainThread]: End processing [aptos-sdk-zzf]: success
+[2023-08-06 13:54:11] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.0.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.1.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-08-06 13:54:11] INFO root fetch - processPackages [zhmc-os-forwarder]: Remove: archive file [/home/abi/fetcher/tmp/zhmc_os_forwarder-0.1.0.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - processPackages [zhmc-os-forwarder]: Remove: archive file [/home/abi/fetcher/tmp/zhmc_os_forwarder-0.2.0.tar.gz]
+[2023-08-06 13:54:11] INFO root fetch - main [MainThread]: End processing [zhmc-os-forwarder]: success
+[2023-08-06 13:54:12] INFO root fetch - processPackages [jsbgym]: Remove: archive file [/home/abi/fetcher/tmp/jsbgym-0.1.9.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - processPackages [jsbgym]: Remove: archive file [/home/abi/fetcher/tmp/jsbgym-0.2.0.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [jsbgym]: success
+[2023-08-06 13:54:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.86.dev4.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-06 13:54:12] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-06 13:54:12] INFO root fetch - processPackages [beancount-future-transactions]: Remove: archive file [/home/abi/fetcher/tmp/beancount-future-transactions-0.0.3.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - processPackages [beancount-future-transactions]: Remove: archive file [/home/abi/fetcher/tmp/beancount-future-transactions-0.0.4.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [beancount-future-transactions]: success
+[2023-08-06 13:54:12] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev3.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev4.tar.gz]
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [argrelay]: success
+[2023-08-06 13:54:12] INFO root fetch - main [MainThread]: Store serial: [19193408]
