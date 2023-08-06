@@ -14475,3 +14475,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:12:10] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.3rc1.tar.gz]
 [2023-08-06 20:12:10] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-08-06 20:12:10] INFO root fetch - main [MainThread]: Store serial: [19196230]
+[2023-08-06 20:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196230]
+[2023-08-06 20:17:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enterprise-platform-runtime
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-interpreter
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-ml
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eniris
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shortgpt
+[2023-08-06 20:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AppiumExtended
+[2023-08-06 20:17:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [eniris]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.256] Old Version: [0.0.255]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.81]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [shortgpt]: New version: [0.1.31] Old Version: [0.1.3]
+[2023-08-06 20:17:20] WARNING root fetch - processPackages [enterprise-platform-runtime]: Skipping, unable to determine old version
+[2023-08-06 20:17:20] INFO root fetch - main [MainThread]: End processing [enterprise-platform-runtime] error
+[2023-08-06 20:17:20] WARNING root fetch - processPackages [tensorflow-ml]: Skipping, unable to determine old version
+[2023-08-06 20:17:20] INFO root fetch - main [MainThread]: End processing [tensorflow-ml] error
+[2023-08-06 20:17:20] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/1c/ab/70e5817af8d16086a8c74662201ef76dc786d31822789f557fce466c3e7a/open_interpreter-0.0.255.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-06 20:17:20] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/8b/3b/093bedbfddb01e5e12f645f69937fc806bab32ae41e65d6b506a2f4e55e5/eniris-0.7.3.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ca/79/82b9703c4bba4c3735b7491209f4daa2030e586e6132c6198cd26b3f91f3/yeref-0.2.81.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/6a/85/9d873fa964fa64b7a43d63091e07f68d183de47c376c4cd46d361e5f24a0/shortgpt-0.1.3.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/6a/33/b6e8716cbc25a0e17cdfd4b092fdc3c7ec8ac064e222decc09ab06b83f1e/eniris-0.7.4.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-08-06 20:17:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230806/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 20:17:20] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/23/09/26e03ddf59c3d67f9b4d4b6025ce0ec3f702fb2d33af9647c5b006e85288/open_interpreter-0.0.256.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [eniris]: executing diffoscope
+[2023-08-06 20:17:20] INFO root fetch - processPackages [eniris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniris-0.7.3.tar.gz tmp/eniris-0.7.4.tar.gz --markdown 20230806/e/eniris/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-08-06 20:17:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 20:17:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.81.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.81-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:17:20] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 20:17:20] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.255.tar.gz tmp/open_interpreter-0.0.256.tar.gz --markdown 20230806/o/open-interpreter/0.0.255-0.0.256/diff.md --exclude *.pyd
+[2023-08-06 20:17:20] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/9d/0d/b3d64b2dc8e7fd03a636333022eb6e5c6f251ff62044ea11bcbc41ded65c/shortgpt-0.1.31.tar.gz
+[2023-08-06 20:17:20] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-06 20:17:20] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230806/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 20:17:21] INFO root fetch - processPackages [shortgpt]: executing diffoscope
+[2023-08-06 20:17:21] INFO root fetch - processPackages [shortgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortgpt-0.1.3.tar.gz tmp/shortgpt-0.1.31.tar.gz --markdown 20230806/s/shortgpt/0.1.3-0.1.31/diff.md --exclude *.pyd
+[2023-08-06 20:17:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-08-06 20:17:21] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.255.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.256.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 20:17:21] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.3.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.4.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - main [MainThread]: End processing [eniris]: success
+[2023-08-06 20:17:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.81.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 20:17:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 20:17:22] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-06 20:17:22] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-06 20:17:22] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-06 20:17:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-06 20:17:22] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.3.tar.gz]
+[2023-08-06 20:17:22] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.31.tar.gz]
+[2023-08-06 20:17:22] INFO root fetch - main [MainThread]: End processing [shortgpt]: success
+[2023-08-06 20:17:22] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-06 20:17:22] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230806/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-06 20:17:35] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-06 20:17:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-06 20:17:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-06 20:17:36] INFO root fetch - main [MainThread]: Store serial: [19196265]
