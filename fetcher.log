@@ -4114,3 +4114,48 @@
 [2023-08-06 07:21:54] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.4.2.tar.gz]
 [2023-08-06 07:21:54] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
 [2023-08-06 07:21:54] INFO root fetch - main [MainThread]: Store serial: [19191306]
+[2023-08-06 07:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191306]
+[2023-08-06 07:27:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypimaker
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-classroom-converter
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calc-rs
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-recurrence
+[2023-08-06 07:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: first-zawakin-package
+[2023-08-06 07:27:02] INFO root fetch - processPackages [pypimaker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 07:27:02] WARNING root fetch - processPackages [first-zawakin-package]: Skipping, unable to determine old version
+[2023-08-06 07:27:02] INFO root fetch - main [MainThread]: End processing [first-zawakin-package] error
+[2023-08-06 07:27:03] WARNING root fetch - processPackages [calc-rs]: Skipping, unable to determine old version
+[2023-08-06 07:27:03] INFO root fetch - main [MainThread]: End processing [calc-rs] error
+[2023-08-06 07:27:03] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/59/4e/b52444717de8318fb2b371709130e11c1b9ef4b54d97ad1354aa931ccc59/pypimaker-1.0.2.tar.gz
+[2023-08-06 07:27:03] INFO root fetch - processPackages [qiskit-classroom-converter]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-08-06 07:27:03] INFO root fetch - processPackages [odoo-addon-base-recurrence]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-08-06 07:27:03] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-06 07:27:03] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/a5/66/931269ec9f98e6d32e3b24a1e290cb6370d85889e860af20bc9a69994dfd/qiskit-classroom-converter-0.0.5.tar.gz
+[2023-08-06 07:27:03] INFO root fetch - processPackages [odoo-addon-base-recurrence]: Downloading https://files.pythonhosted.org/packages/78/28/4935ec538bd27fe191a3f5bd12dbbc800fc27d4f4fc722d3ad8a0c73f8c2/odoo_addon_base_recurrence-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-06 07:27:03] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/13/c0/92bcae7e8774715a66501b946041a523138a466be7516414af1a1e06213f/pypimaker-1.0.3.tar.gz
+[2023-08-06 07:27:03] INFO root fetch - processPackages [pypimaker]: executing diffoscope
+[2023-08-06 07:27:03] INFO root fetch - processPackages [pypimaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypimaker-1.0.2.tar.gz tmp/pypimaker-1.0.3.tar.gz --markdown 20230806/p/pypimaker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 07:27:03] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9f/d3/cbf0afb1eb45bf03446171253ff9a2543a3183c838258bd07dfb10ba1e7a/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-06 07:27:03] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/b1/7e/5d36efbcff832fceabba3eacdfc6e7cf30acf950313025457ff36cc211d0/qiskit-classroom-converter-0.1.0.tar.gz
+[2023-08-06 07:27:03] INFO root fetch - processPackages [odoo-addon-base-recurrence]: Downloading https://files.pythonhosted.org/packages/22/47/5569b6b57efab788d1b0b3759fc03543d591dc1d4af9bdfbe9a6bd461add/odoo_addon_base_recurrence-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-06 07:27:03] INFO root fetch - processPackages [qiskit-classroom-converter]: executing diffoscope
+[2023-08-06 07:27:03] INFO root fetch - processPackages [qiskit-classroom-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-classroom-converter-0.0.5.tar.gz tmp/qiskit-classroom-converter-0.1.0.tar.gz --markdown 20230806/q/qiskit-classroom-converter/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 07:27:03] INFO root fetch - processPackages [odoo-addon-base-recurrence]: executing diffoscope
+[2023-08-06 07:27:03] INFO root fetch - processPackages [odoo-addon-base-recurrence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_recurrence-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_recurrence-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230806/o/odoo-addon-base-recurrence/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-06 07:27:04] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/37/f6/0167b1b5c441cb28ea2f55edaaefe0f92d8ad58d5dd3ff4243310944a53e/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-06 07:27:04] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-1.0.2.tar.gz]
+[2023-08-06 07:27:04] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-1.0.3.tar.gz]
+[2023-08-06 07:27:04] INFO root fetch - main [MainThread]: End processing [pypimaker]: success
+[2023-08-06 07:27:04] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.0.5.tar.gz]
+[2023-08-06 07:27:04] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.1.0.tar.gz]
+[2023-08-06 07:27:04] INFO root fetch - main [MainThread]: End processing [qiskit-classroom-converter]: success
+[2023-08-06 07:27:04] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-06 07:27:04] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230806/t/tflite-runtime-nightly/2.15.0.dev20230804-2.15.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 07:27:04] INFO root fetch - processPackages [odoo-addon-base-recurrence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_recurrence-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-06 07:27:04] INFO root fetch - processPackages [odoo-addon-base-recurrence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_recurrence-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-06 07:27:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-recurrence]: success
+[2023-08-06 07:27:05] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-06 07:27:05] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-06 07:27:05] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-06 07:27:05] INFO root fetch - main [MainThread]: Store serial: [19191414]
