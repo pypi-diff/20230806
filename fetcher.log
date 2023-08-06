@@ -9283,3 +9283,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:57:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-06 14:57:06] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-06 14:57:06] INFO root fetch - main [MainThread]: Store serial: [19193857]
+[2023-08-06 15:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193857]
+[2023-08-06 15:02:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YandexHome
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-astrolab
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stowrap
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram3-di
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huhk
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: launart
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipcoloringskitsV2
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odin-slides
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: runusb
+[2023-08-06 15:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bridgecrew
+[2023-08-06 15:02:15] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-06 15:02:15] WARNING root fetch - processPackages [odin-slides]: Skipping, unable to determine old version
+[2023-08-06 15:02:15] INFO root fetch - main [MainThread]: End processing [odin-slides] error
+[2023-08-06 15:02:15] INFO root fetch - processPackages [huhk]: New version: [2.1.8] Old Version: [2.1.5]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [stowrap]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 15:02:15] WARNING root fetch - processPackages [pipcoloringskitsV2]: Skipping, unable to determine old version
+[2023-08-06 15:02:15] INFO root fetch - main [MainThread]: End processing [pipcoloringskitsV2] error
+[2023-08-06 15:02:15] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [runusb]: New version: [2023.1.0] Old Version: [2023.0.0rc2]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [YandexHome]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [launart]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [aiogram3-di]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-06 15:02:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/cd/97/f79a1232ab8542f94f3de6b799b5b80d4fdf5b33f4f9bdb4eb8d5b5e84ea/huhk-2.1.5.tar.gz
+[2023-08-06 15:02:15] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 17201078>=10485760
+[2023-08-06 15:02:15] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-08-06 15:02:15] INFO root fetch - processPackages [stowrap]: Downloading https://files.pythonhosted.org/packages/a8/d5/00cd4faa9f1f4d92af1e1e345dcc05fafe7e2b5516b92674520a2f4f628e/stowrap-0.0.1.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/ff/d6/7dce86b80d592e594c294c792a1043ce1c64c034f1b02566fec98d898db6/YandexHome-0.0.3.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/d2/5d/2f40da1de635b96a786d789a9347d239a7b4039a1bcc776e45476fd28153/aiogram3_di-1.0.6.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [launart]: Downloading https://files.pythonhosted.org/packages/a2/3b/4e03c290efc85ee5ed5df4948d3345f8fd658fc2c0b415a3f3e4afdf1295/launart-0.6.4.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [runusb]: Downloading https://files.pythonhosted.org/packages/90/c5/65b53bd4e1c5e508657df1d88471deeec15276cf59fd1a9d0e9c18ec6eaa/runusb-2023.0.0rc2.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-06 15:02:15] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230806/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-06 15:02:15] INFO root fetch - processPackages [stowrap]: Downloading https://files.pythonhosted.org/packages/f0/7b/2a6e9b2838aa12b11038973c441232f1fbd08a68d7134c45b4fa32e4a8ae/stowrap-0.0.2.tar.gz
+[2023-08-06 15:02:15] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-06 15:02:15] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230806/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-06 15:02:15] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/1d/f9/cdbaeca5d2798e1a5539f474374e8a9206a94aac588dd8b421d2d5bcbd99/YandexHome-0.1.0.tar.gz
+[2023-08-06 15:02:16] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/49/97/661103733c36aea41215dfdb1e91e61f6ed3324549598030fdac7b9e5f45/aiogram3_di-1.0.7.tar.gz
+[2023-08-06 15:02:16] INFO root fetch - processPackages [launart]: Downloading https://files.pythonhosted.org/packages/16/5e/b95c2838f446e348a2b5600cfac3e9f1e1df308c1b622a9a3d2f60eb27ec/launart-0.7.0.tar.gz
+[2023-08-06 15:02:16] INFO root fetch - processPackages [runusb]: Downloading https://files.pythonhosted.org/packages/b9/52/203ec677e79516c56d7cf8c2f0a892b24514a5222b74f8d3c92dcd169397/runusb-2023.1.0.tar.gz
+[2023-08-06 15:02:16] INFO root fetch - processPackages [stowrap]: executing diffoscope
+[2023-08-06 15:02:16] INFO root fetch - processPackages [stowrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stowrap-0.0.1.tar.gz tmp/stowrap-0.0.2.tar.gz --markdown 20230806/s/stowrap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 15:02:16] INFO root fetch - processPackages [aiogram3-di]: executing diffoscope
+[2023-08-06 15:02:16] INFO root fetch - processPackages [aiogram3-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_di-1.0.6.tar.gz tmp/aiogram3_di-1.0.7.tar.gz --markdown 20230806/a/aiogram3-di/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-06 15:02:16] INFO root fetch - processPackages [launart]: executing diffoscope
+[2023-08-06 15:02:16] INFO root fetch - processPackages [launart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launart-0.6.4.tar.gz tmp/launart-0.7.0.tar.gz --markdown 20230806/l/launart/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 15:02:16] INFO root fetch - processPackages [runusb]: executing diffoscope
+[2023-08-06 15:02:16] INFO root fetch - processPackages [runusb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runusb-2023.0.0rc2.tar.gz tmp/runusb-2023.1.0.tar.gz --markdown 20230806/r/runusb/2023.0.0rc2-2023.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:02:16] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 15:02:16] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.0.3.tar.gz tmp/YandexHome-0.1.0.tar.gz --markdown 20230806/Y/YandexHome/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:02:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [stowrap]: Remove: archive file [/home/abi/fetcher/tmp/stowrap-0.0.1.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [stowrap]: Remove: archive file [/home/abi/fetcher/tmp/stowrap-0.0.2.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [stowrap]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.6.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.7.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [aiogram3-di]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [runusb]: Remove: archive file [/home/abi/fetcher/tmp/runusb-2023.0.0rc2.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [runusb]: Remove: archive file [/home/abi/fetcher/tmp/runusb-2023.1.0.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [runusb]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.0.3.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.0.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 15:02:17] INFO root fetch - processPackages [launart]: Remove: archive file [/home/abi/fetcher/tmp/launart-0.6.4.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - processPackages [launart]: Remove: archive file [/home/abi/fetcher/tmp/launart-0.7.0.tar.gz]
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [launart]: success
+[2023-08-06 15:02:17] INFO root fetch - main [MainThread]: Store serial: [19193888]
