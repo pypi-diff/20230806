@@ -11668,3 +11668,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:08:05] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.4.0.tar.gz]
 [2023-08-06 17:08:05] INFO root fetch - main [MainThread]: End processing [soagen]: success
 [2023-08-06 17:08:05] INFO root fetch - main [MainThread]: Store serial: [19194904]
+[2023-08-06 17:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194904]
+[2023-08-06 17:13:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcia-utils
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OntoAnon
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mykit
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cagen
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: InputUtilsSidd
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miniature-lighting-desk
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdsfactory
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volstreet
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythoncolouringpackageV1
+[2023-08-06 17:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cudagrad
+[2023-08-06 17:13:15] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [miniature-lighting-desk]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc7] Old Version: [0.2.0rc6]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [gdsfactory]: New version: [7.1.0] Old Version: [7.0.2]
+[2023-08-06 17:13:15] WARNING root fetch - processPackages [OntoAnon]: Skipping, unable to determine old version
+[2023-08-06 17:13:15] INFO root fetch - processPackages [OntoAnon]: Start processing: ReBench
+[2023-08-06 17:13:15] INFO root fetch - main [MainThread]: End processing [OntoAnon] error
+[2023-08-06 17:13:15] INFO root fetch - processPackages [mykit]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [cudagrad]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-08-06 17:13:15] WARNING root fetch - processPackages [pythoncolouringpackageV1]: Skipping, unable to determine old version
+[2023-08-06 17:13:15] INFO root fetch - processPackages [pythoncolouringpackageV1]: Start processing: dgisim
+[2023-08-06 17:13:15] INFO root fetch - main [MainThread]: End processing [pythoncolouringpackageV1] error
+[2023-08-06 17:13:15] WARNING root fetch - processPackages [InputUtilsSidd]: Skipping, unable to determine old version
+[2023-08-06 17:13:15] INFO root fetch - processPackages [InputUtilsSidd]: Start processing: YandexHome
+[2023-08-06 17:13:15] INFO root fetch - main [MainThread]: End processing [InputUtilsSidd] error
+[2023-08-06 17:13:15] INFO root fetch - processPackages [volstreet]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [dgisim]: New version: [0.2.dev3] Old Version: [0.2.dev2]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/47/69/0e4d5a1146ace4daa8aec788997178bb3c1b463089a260b6855523140cce/tcia_utils-1.6.4.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/b7/5a/bb151b58030204aa854f421d12a5e5d5dc2055555977fc74f4c82d97c6f3/miniature_lighting_desk-0.4.3.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [YandexHome]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [ReBench]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-06 17:13:15] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/11/d1/85e7552f3cb26e780b4c643bf65485d0b14e8e8e729a23a88bb386fce90b/gdsfactory-7.0.2.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/8a/1b/20a10a247dc4cc823efa426a989c8da71918e3f9a3bdff2016a6777e0364/mykit-7.0.0.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/26/51/9c7b95b6032cc678efed11fac0be20458e3debd15dfb5b5d26a5a796debe/cagen-0.2.0rc6.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/37/a7/8f8d31ab4f7c39a746d7a44fc028f5a6afc6e5ed2e4335ae8c53051f0488/cudagrad-0.0.34.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/a2/d7/fdc9acccad68603a00bc0b171fc72d024bc96c95f631820232241792173b/YandexHome-0.1.3.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/a3/0b/f6e1e5064585f0156cd161550cf601131a19e4c645acef863f131f5807a9/dgisim-0.2.dev2.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/89/83/9c12b80a03a986e1eea8bac8aa7bfd419ebcdce5894ae1fd18d8cb363ad0/volstreet-1.0.9.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [ReBench]: Downloading https://files.pythonhosted.org/packages/24/c6/3363981db586df09a31676fb8053392babf51dcc667eb07593d65c01f38a/ReBench-1.1.0.tar.gz
+[2023-08-06 17:13:15] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/15/a7/a7502467dd7d9ac0afcac3b39158e8964ae27d0b865dfa1ce4d1766bc190/miniature_lighting_desk-0.4.4.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/34/58/dd7d0a7fd24324ec735c038ea3b444ae131d460c4901ea2d2215b7c05497/gdsfactory-7.1.0.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/a4/67/5612c40830a6fcff31d0390d9014954282ec3f9ae8ac11d1b80c0ee3eeca/tcia_utils-1.6.5.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/51/f4/02b1a1c82a70c70eb2b023b3a94f35f9ff340ffa4647d7527556771985f9/cagen-0.2.0rc7.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/58/53/9caa127ef6a8d121e41c4e9965e66c0ed055bceef9f61ec5bc79973b8e0f/mykit-7.1.0.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/5f/41/71bd2b043460348c0012b06d17981f9cf9d188e02e6a9efc73b1a4073aa6/cudagrad-0.0.35.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.0.2.tar.gz tmp/gdsfactory-7.1.0.tar.gz --markdown 20230806/g/gdsfactory/7.0.2-7.1.0/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [miniature-lighting-desk]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [miniature-lighting-desk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniature_lighting_desk-0.4.3.tar.gz tmp/miniature_lighting_desk-0.4.4.tar.gz --markdown 20230806/m/miniature-lighting-desk/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.4.tar.gz tmp/tcia_utils-1.6.5.tar.gz --markdown 20230806/t/tcia-utils/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/03/cc/778b5e0dcd433379239704580f71fb595ba69bca5707ff20412fce134eda/YandexHome-0.1.4.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc6.tar.gz tmp/cagen-0.2.0rc7.tar.gz --markdown 20230806/c/cagen/0.2.0rc6-0.2.0rc7/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a0/10/87c4494e3feb722ef6a5b0fee56a2aa1dd090c9268ec8ab0b52cbd6fc0a2/volstreet-1.1.0.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [ReBench]: Downloading https://files.pythonhosted.org/packages/3a/b2/4c32d32df3890245cb8e51a677d40884a3c6cf893e8ff84d40bc058ca562/ReBench-1.2.0.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.34.tar.gz tmp/cudagrad-0.0.35.tar.gz --markdown 20230806/c/cudagrad/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/33/21/7a45c2ff880da8f24454e41fdcb42dab4df7ce9abe4159e286047203ae0c/dgisim-0.2.dev3.tar.gz
+[2023-08-06 17:13:16] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-7.0.0.tar.gz tmp/mykit-7.1.0.tar.gz --markdown 20230806/m/mykit/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.3.tar.gz tmp/YandexHome-0.1.4.tar.gz --markdown 20230806/Y/YandexHome/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [ReBench]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [ReBench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReBench-1.1.0.tar.gz tmp/ReBench-1.2.0.tar.gz --markdown 20230806/R/ReBench/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.9.tar.gz tmp/volstreet-1.1.0.tar.gz --markdown 20230806/v/volstreet/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 17:13:16] INFO root fetch - processPackages [dgisim]: executing diffoscope
+[2023-08-06 17:13:16] INFO root fetch - processPackages [dgisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgisim-0.2.dev2.tar.gz tmp/dgisim-0.2.dev3.tar.gz --markdown 20230806/d/dgisim/0.2.dev2-0.2.dev3/diff.md --exclude *.pyd
+[2023-08-06 17:13:17] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.4.3.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.4.4.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - processPackages [miniature-lighting-desk]: Start processing: streamdeckapi
+[2023-08-06 17:13:17] INFO root fetch - main [MainThread]: End processing [miniature-lighting-desk]: success
+[2023-08-06 17:13:17] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.4.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.5.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-08-06 17:13:17] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc6.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc7.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-08-06 17:13:17] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.3.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.4.tar.gz]
+[2023-08-06 17:13:17] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 17:13:17] INFO root fetch - processPackages [streamdeckapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.34.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.35.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-08-06 17:13:18] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.9.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.1.0.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-08-06 17:13:18] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/29/10/322461a188a46158a2aafb5c3e251d2bd75b85b24ed0fd5f2c1eb71fde5a/streamdeckapi-0.0.8.tar.gz
+[2023-08-06 17:13:18] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-7.0.0.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-7.1.0.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-08-06 17:13:18] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/b2/69/cb3bdf273df7c26f3bc672bcca4f12bf2b901fbc655a6211f8cbb15dda22/streamdeckapi-0.0.9.tar.gz
+[2023-08-06 17:13:18] INFO root fetch - processPackages [ReBench]: Remove: archive file [/home/abi/fetcher/tmp/ReBench-1.1.0.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [ReBench]: Remove: archive file [/home/abi/fetcher/tmp/ReBench-1.2.0.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - main [MainThread]: End processing [ReBench]: success
+[2023-08-06 17:13:18] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev2.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev3.tar.gz]
+[2023-08-06 17:13:18] INFO root fetch - main [MainThread]: End processing [dgisim]: success
+[2023-08-06 17:13:18] INFO root fetch - processPackages [streamdeckapi]: executing diffoscope
+[2023-08-06 17:13:18] INFO root fetch - processPackages [streamdeckapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdeckapi-0.0.8.tar.gz tmp/streamdeckapi-0.0.9.tar.gz --markdown 20230806/s/streamdeckapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:13:19] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.8.tar.gz]
+[2023-08-06 17:13:19] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.9.tar.gz]
+[2023-08-06 17:13:19] INFO root fetch - main [MainThread]: End processing [streamdeckapi]: success
+[2023-08-06 17:13:20] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.0.2.tar.gz]
+[2023-08-06 17:13:20] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.0.tar.gz]
+[2023-08-06 17:13:20] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-08-06 17:13:20] INFO root fetch - main [MainThread]: Store serial: [19194947]
