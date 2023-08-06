@@ -15353,3 +15353,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:14:48] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
 [2023-08-06 21:14:48] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
 [2023-08-06 21:14:48] INFO root fetch - main [MainThread]: Store serial: [19196631]
+[2023-08-06 21:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196631]
+[2023-08-06 21:19:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strictdoc
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrazine
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrOSDevToolKit
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunsynk
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroconv
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prettier-prints
+[2023-08-06 21:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bw-matchbox
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: New version: [0.4.9] Old Version: [0.4.7]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [bw-matchbox]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/a8/5f/774709f6379ff3071fbe5c92854f80f84ef8d5948d1774bf6abb940a3698/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.21.5] Old Version: [1.21.4]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [neuroconv]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [prettier-prints]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-08-06 21:19:57] INFO root fetch - processPackages [sunsynk]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-08-06 21:19:57] WARNING root fetch - processPackages [hydrazine]: Skipping, unable to determine old version
+[2023-08-06 21:19:57] INFO root fetch - main [MainThread]: End processing [hydrazine] error
+[2023-08-06 21:19:57] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/38/cf/02a0b3b03cce15cff5c254efa3dcfed129249fca6d8ff3a5464e0a1b59fb/bw_matchbox-0.6.0.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/93/84/4067ea4481549b7f420d637936e6efb78134391463b766a240838509d391/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8c/ab/dc4df425b5751376819ea16a9b0771bcea2d7723bc20264c101b962ae6f1/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/e0/7c/211d9ff750609a52d0bd495f2f922246f02d34d438e65af7b7e9a6740df8/micrOSDevToolKit-1.21.4.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [sunsynk]: Downloading https://files.pythonhosted.org/packages/8f/31/6cff3b6e4c3713a1a9fef3b35229ef43825d3dd854116b8ea18b901dad97/sunsynk-0.3.7.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/41/a6/20f534032d2cc9579d622cd86f86a5fa3f6752c05de313c73898c88e27d5/prettier_prints-1.3.2-py3-none-any.whl
+[2023-08-06 21:19:57] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/18/9b/38ff75b49271647698e6064f2a7e0d38196047b6ed186cbdc2df33b62620/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [neuroconv]: Downloading https://files.pythonhosted.org/packages/e0/f7/45cc24184a7a8408372406c4eb0131140f11eb33c35717fc863d7946980c/neuroconv-0.4.0.tar.gz
+[2023-08-06 21:19:57] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz --markdown 20230806/g/gammarer.aws-ec2-instance-running-scheduler/0.4.7-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/61/fb/1a21bbd4fe2f6693f9d1694588ab1d6a4656ab1fac2a80264522212067e2/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/38/d0/1d35005ade384b85a5f579fd776e14751c92bc2807bb079f49b075794485/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/b5/5e/ed917d43ef7067bd0d89d710e1586bc3a7ab0a4aaa7490f7a7bcf8b2e28a/bw_matchbox-0.6.1.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz --markdown 20230806/g/gammarer.aws-rds-database-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz --markdown 20230806/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/5a/d6/fb1eea433133d81afc23703935a853ff229a7c1d0c15fec7f017edb05199/prettier_prints-1.4.0-py3-none-any.whl
+[2023-08-06 21:19:58] INFO root fetch - processPackages [sunsynk]: Downloading https://files.pythonhosted.org/packages/1e/7a/5beeed457b2e1ece5907f43948b59ffaeb1793d92d0344ae148848f3f923/sunsynk-0.4.0.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-0.6.0.tar.gz tmp/bw_matchbox-0.6.1.tar.gz --markdown 20230806/b/bw-matchbox/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [prettier-prints]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [prettier-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettier_prints-1.3.2-py3-none-any.whl.zip tmp/prettier_prints-1.4.0-py3-none-any.whl.zip --markdown 20230806/p/prettier-prints/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [neuroconv]: Downloading https://files.pythonhosted.org/packages/d1/91/97e7c662540731195ab0622e734c3b04840450d3091c8483fe51cc5bb619/neuroconv-0.4.1.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-08-06 21:19:58] INFO root fetch - processPackages [sunsynk]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [sunsynk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunsynk-0.3.7.tar.gz tmp/sunsynk-0.4.0.tar.gz --markdown 20230806/s/sunsynk/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [neuroconv]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [neuroconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroconv-0.4.0.tar.gz tmp/neuroconv-0.4.1.tar.gz --markdown 20230806/n/neuroconv/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 21:19:58] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-08-06 21:19:58] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230806/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler]: success
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler]: success
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-08-06 21:19:59] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.3.2-py3-none-any.whl.zip]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.4.0-py3-none-any.whl.zip]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [prettier-prints]: success
+[2023-08-06 21:19:59] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/f7/d7/c35f901894e9dbe5fa58fef70790c57f59610e57ad8e57a2a6e33bec6d9b/micrOSDevToolKit-1.21.5.tar.gz
+[2023-08-06 21:19:59] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.0.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.1.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-06 21:19:59] INFO root fetch - processPackages [sunsynk]: Remove: archive file [/home/abi/fetcher/tmp/sunsynk-0.3.7.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - processPackages [sunsynk]: Remove: archive file [/home/abi/fetcher/tmp/sunsynk-0.4.0.tar.gz]
+[2023-08-06 21:19:59] INFO root fetch - main [MainThread]: End processing [sunsynk]: success
+[2023-08-06 21:20:00] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-08-06 21:20:00] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-08-06 21:20:00] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-08-06 21:20:00] INFO root fetch - processPackages [neuroconv]: Remove: archive file [/home/abi/fetcher/tmp/neuroconv-0.4.0.tar.gz]
+[2023-08-06 21:20:00] INFO root fetch - processPackages [neuroconv]: Remove: archive file [/home/abi/fetcher/tmp/neuroconv-0.4.1.tar.gz]
+[2023-08-06 21:20:00] INFO root fetch - main [MainThread]: End processing [neuroconv]: success
+[2023-08-06 21:20:00] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-08-06 21:20:00] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.21.4.tar.gz tmp/micrOSDevToolKit-1.21.5.tar.gz --markdown 20230806/m/micrOSDevToolKit/1.21.4-1.21.5/diff.md --exclude *.pyd
+[2023-08-06 21:20:03] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.4.tar.gz]
+[2023-08-06 21:20:03] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.5.tar.gz]
+[2023-08-06 21:20:03] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-08-06 21:20:03] INFO root fetch - main [MainThread]: Store serial: [19196661]
