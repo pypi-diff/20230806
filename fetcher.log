@@ -14826,3 +14826,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:38:24] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.257.tar.gz]
 [2023-08-06 20:38:24] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
 [2023-08-06 20:38:24] INFO root fetch - main [MainThread]: Store serial: [19196384]
+[2023-08-06 20:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196384]
+[2023-08-06 20:43:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagent-py
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyfilter
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobf2
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networkx-gdf
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laflem
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-gen
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qgate-perf
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easymix
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HaploDynamics
+[2023-08-06 20:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lobsang
+[2023-08-06 20:43:33] INFO root fetch - processPackages [superagent-py]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-08-06 20:43:33] WARNING root fetch - processPackages [laflem]: Skipping, unable to determine old version
+[2023-08-06 20:43:33] INFO root fetch - processPackages [laflem]: Start processing: limedev
+[2023-08-06 20:43:33] INFO root fetch - main [MainThread]: End processing [laflem] error
+[2023-08-06 20:43:33] WARNING root fetch - processPackages [networkx-gdf]: Skipping, unable to determine old version
+[2023-08-06 20:43:33] INFO root fetch - main [MainThread]: End processing [networkx-gdf] error
+[2023-08-06 20:43:33] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/a4/bf/e8462dc29daf25ff370ed151bbfd795bb6233e8d49275b21e05f2575252a/superagent_py-0.0.42.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [pyobf2]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-06 20:43:33] INFO root fetch - processPackages [fastapi-gen]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-06 20:43:33] INFO root fetch - processPackages [lobsang]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 20:43:33] INFO root fetch - processPackages [qgate-perf]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 20:43:33] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 20:43:33] WARNING root fetch - processPackages [easymix]: Skipping, unable to determine old version
+[2023-08-06 20:43:33] WARNING root fetch - processPackages [HaploDynamics]: Skipping, unable to determine old version
+[2023-08-06 20:43:33] INFO root fetch - main [MainThread]: End processing [easymix] error
+[2023-08-06 20:43:33] INFO root fetch - main [MainThread]: End processing [HaploDynamics] error
+[2023-08-06 20:43:33] INFO root fetch - processPackages [limedev]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 20:43:33] INFO root fetch - processPackages [pyobf2]: Downloading https://files.pythonhosted.org/packages/ec/ef/f6da0fc419797e35013e7ea9e7391f50be95e8b8a70f786ad6e3cfc5b516/pyobf2-1.3.0.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/84/80/0edde31c4b51049bed922bf3315ee4450f7e49f4f697b59d443d2d3093c9/tinyfilter-0.1.0.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [lobsang]: Downloading https://files.pythonhosted.org/packages/f9/03/dc4eb56f269f567c74927f6b487ed2275616f44ec8d837d9d0ffdb4d7056/lobsang-0.0.2.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/41/93/d0fc4a05768ec6ede015060f828fa4cedb4be162eff3083fd6d690b9f782/qgate_perf-0.3.3-py3-none-any.whl
+[2023-08-06 20:43:33] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/b8/bc/4e418d50d85aa2612de46f3bc843431764962ad71c31c2b5089343e8c0ba/fastapi_gen-0.3.0.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/c7/ef/bd750739dc48bef65480e68c5797438f4953e8d7cb7a54bb5f679208e6ed/superagent_py-0.0.43.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [limedev]: Downloading https://files.pythonhosted.org/packages/79/28/1a1ba46043b486288bcf0da9836dab362f6226e4e40a35bf93ad6e47cec1/limedev-0.1.0.tar.gz
+[2023-08-06 20:43:33] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-06 20:43:33] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.42.tar.gz tmp/superagent_py-0.0.43.tar.gz --markdown 20230806/s/superagent-py/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [pyobf2]: Downloading https://files.pythonhosted.org/packages/d5/c6/ef65188d584dd7b8f12aa93b305231b9aa06f15efc4d9dc165a8a781039f/pyobf2-1.3.1.tar.gz
+[2023-08-06 20:43:34] INFO root fetch - processPackages [lobsang]: Downloading https://files.pythonhosted.org/packages/15/62/39191e2bdce6a7b6551ffc55e3ff628b3f7f88970c4adae05f0a09a0812d/lobsang-0.0.3.tar.gz
+[2023-08-06 20:43:34] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/d6/00/5240fc9af20d79398a6348b0dd9d6400f13bf85494450e44dd5959e4028b/fastapi_gen-0.4.0.tar.gz
+[2023-08-06 20:43:34] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/4b/9a/46cce845042a81a99042624327672843508e38eb2b0afc0b854afa314573/qgate_perf-0.3.4-py3-none-any.whl
+[2023-08-06 20:43:34] INFO root fetch - processPackages [pyobf2]: executing diffoscope
+[2023-08-06 20:43:34] INFO root fetch - processPackages [pyobf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobf2-1.3.0.tar.gz tmp/pyobf2-1.3.1.tar.gz --markdown 20230806/p/pyobf2/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [limedev]: Downloading https://files.pythonhosted.org/packages/d4/c4/c17c3f05d5264e750acfff33010e99c3ec659e3f931efd41cc71ff26fada/limedev-0.2.0.tar.gz
+[2023-08-06 20:43:34] INFO root fetch - processPackages [fastapi-gen]: executing diffoscope
+[2023-08-06 20:43:34] INFO root fetch - processPackages [fastapi-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_gen-0.3.0.tar.gz tmp/fastapi_gen-0.4.0.tar.gz --markdown 20230806/f/fastapi-gen/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-08-06 20:43:34] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.3.3-py3-none-any.whl.zip tmp/qgate_perf-0.3.4-py3-none-any.whl.zip --markdown 20230806/q/qgate-perf/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [lobsang]: executing diffoscope
+[2023-08-06 20:43:34] INFO root fetch - processPackages [lobsang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lobsang-0.0.2.tar.gz tmp/lobsang-0.0.3.tar.gz --markdown 20230806/l/lobsang/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [limedev]: executing diffoscope
+[2023-08-06 20:43:34] INFO root fetch - processPackages [limedev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limedev-0.1.0.tar.gz tmp/limedev-0.2.0.tar.gz --markdown 20230806/l/limedev/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 20:43:34] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/74/86/b0728c2cdda17532982656b7d8b4e2d5bad5f605a54ac1e5118ea33ec4ef/tinyfilter-0.1.1.tar.gz
+[2023-08-06 20:43:34] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.42.tar.gz]
+[2023-08-06 20:43:34] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.43.tar.gz]
+[2023-08-06 20:43:34] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-06 20:43:35] INFO root fetch - processPackages [pyobf2]: Remove: archive file [/home/abi/fetcher/tmp/pyobf2-1.3.0.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - processPackages [pyobf2]: Remove: archive file [/home/abi/fetcher/tmp/pyobf2-1.3.1.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - main [MainThread]: End processing [pyobf2]: success
+[2023-08-06 20:43:35] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.3.3-py3-none-any.whl.zip]
+[2023-08-06 20:43:35] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.3.4-py3-none-any.whl.zip]
+[2023-08-06 20:43:35] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-08-06 20:43:35] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.3.0.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.4.0.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - main [MainThread]: End processing [fastapi-gen]: success
+[2023-08-06 20:43:35] INFO root fetch - processPackages [limedev]: Remove: archive file [/home/abi/fetcher/tmp/limedev-0.1.0.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - processPackages [limedev]: Remove: archive file [/home/abi/fetcher/tmp/limedev-0.2.0.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - main [MainThread]: End processing [limedev]: success
+[2023-08-06 20:43:35] INFO root fetch - processPackages [lobsang]: Remove: archive file [/home/abi/fetcher/tmp/lobsang-0.0.2.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - processPackages [lobsang]: Remove: archive file [/home/abi/fetcher/tmp/lobsang-0.0.3.tar.gz]
+[2023-08-06 20:43:35] INFO root fetch - main [MainThread]: End processing [lobsang]: success
+[2023-08-06 20:43:36] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-06 20:43:36] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.0.tar.gz tmp/tinyfilter-0.1.1.tar.gz --markdown 20230806/t/tinyfilter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 20:43:38] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.0.tar.gz]
+[2023-08-06 20:43:38] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.1.tar.gz]
+[2023-08-06 20:43:38] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-06 20:43:38] INFO root fetch - main [MainThread]: Store serial: [19196419]
