@@ -3018,3 +3018,27 @@
 [2023-08-06 04:41:22] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-08-06 04:41:22] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-08-06 04:41:22] INFO root fetch - main [MainThread]: Store serial: [19190863]
+[2023-08-06 04:46:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190863]
+[2023-08-06 04:46:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 04:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sounderpy
+[2023-08-06 04:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msplotter
+[2023-08-06 04:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyortho-win
+[2023-08-06 04:46:31] INFO root fetch - processPackages [sounderpy]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-08-06 04:46:31] INFO root fetch - processPackages [msplotter]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-08-06 04:46:31] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2a/22/04432516186858bd57e086c5a0567028b7029989d1a0581552fbfe3730e4/sounderpy-1.0.1.tar.gz
+[2023-08-06 04:46:31] WARNING root fetch - processPackages [pyortho-win]: Skipping, unable to determine old version
+[2023-08-06 04:46:31] INFO root fetch - main [MainThread]: End processing [pyortho-win] error
+[2023-08-06 04:46:31] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/f7/d1/e8bc7fd333514563a86b6bcd438be05f3d309665017115d008216bdf6574/sounderpy-2.0.0.tar.gz
+[2023-08-06 04:46:31] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/8e/35/eb4aa29a78d2a93245b697fe3ba7acfc4f50fa05a792069f4d7343abd7d7/msplotter-0.1.35.tar.gz
+[2023-08-06 04:46:31] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 04:46:31] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-1.0.1.tar.gz tmp/sounderpy-2.0.0.tar.gz --markdown 20230806/s/sounderpy/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-06 04:46:31] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/f5/ee/9d43f300989c53693b4394f7b9d5ccc34fe75d1b17d67623fb1c8160b822/msplotter-0.1.36.tar.gz
+[2023-08-06 04:46:31] INFO root fetch - processPackages [msplotter]: executing diffoscope
+[2023-08-06 04:46:31] INFO root fetch - processPackages [msplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msplotter-0.1.35.tar.gz tmp/msplotter-0.1.36.tar.gz --markdown 20230806/m/msplotter/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-08-06 04:46:32] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-1.0.1.tar.gz]
+[2023-08-06 04:46:32] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.0.0.tar.gz]
+[2023-08-06 04:46:32] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 04:46:32] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.35.tar.gz]
+[2023-08-06 04:46:32] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.36.tar.gz]
+[2023-08-06 04:46:32] INFO root fetch - main [MainThread]: End processing [msplotter]: success
+[2023-08-06 04:46:32] INFO root fetch - main [MainThread]: Store serial: [19190872]
