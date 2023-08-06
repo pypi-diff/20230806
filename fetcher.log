@@ -13467,3 +13467,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:03:42] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
 [2023-08-06 19:03:42] INFO root fetch - main [MainThread]: End processing [bionty]: success
 [2023-08-06 19:03:42] INFO root fetch - main [MainThread]: Store serial: [19195763]
+[2023-08-06 19:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195763]
+[2023-08-06 19:08:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sql-comment
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extrapolation
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gimera
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sigmaepsilon.mesh
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaraco.site
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voicebox-pytorch
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perceval
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mapfile-parser
+[2023-08-06 19:08:51] INFO root fetch - processPackages [django-sql-comment]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [gimera]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [sigmaepsilon.mesh]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/22/6c/4a8d59b4d9739674fe87f00ccc8766468784d07a29764421a4bd72bafab4/gimera-0.7.5.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [mapfile-parser]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [extrapolation]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [jaraco.site]: New version: [6.5.0] Old Version: [6.4]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/a9/9b/c649f0216da5806beabefadf6ea4d1b66edff4ffe1f4bc6a55f872660319/voicebox-pytorch-0.0.8.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [ez]: New version: [9.9.9] Old Version: [9.9.8]
+[2023-08-06 19:08:51] INFO root fetch - processPackages [django-sql-comment]: Downloading https://files.pythonhosted.org/packages/af/a0/e3edb14eab66c77d32ef5b9ce8c823f8bdb4cbf2d3d55559d12b61c7ced9/django-sql-comment-0.0.2.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [mapfile-parser]: Downloading https://files.pythonhosted.org/packages/09/11/8abbe7ff6de47ce6cad4d90dae2d9c9cd0dc855e36eae70688ea3f68467c/mapfile_parser-1.3.1.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [extrapolation]: Downloading https://files.pythonhosted.org/packages/48/e9/8942153c06d7f59bf0380ddb6c8488c0d792ca51829781b0533b0389f906/extrapolation-2.0.0.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [sigmaepsilon.mesh]: Downloading https://files.pythonhosted.org/packages/ab/e8/fda36914bd8e780d09de22d5d7fc534a1d33e1efe8a902a21d14620598f5/sigmaepsilon.mesh-0.0.2.tar.gz
+[2023-08-06 19:08:51] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/4a/79/d833bdfd7cddcf45dd9054954289187e1253a333f433a965f717d05ec1ee/jaraco.site-6.4.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/f3/19/4f06887307667dba2a10fa80010c334fa57256a2f81c87042c692fc12a89/voicebox-pytorch-0.0.9.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/65/94/8dfdf6fbb7911824c63768183b5ad04a7a20f0337059a3fdfe43760872cd/ez-9.9.8.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/6e/c0/9568fb13abf19a76a5c49f8bacf52c3498d5ba502b9fff58a7678946ade0/gimera-0.7.6.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.8.tar.gz tmp/voicebox-pytorch-0.0.9.tar.gz --markdown 20230806/v/voicebox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [extrapolation]: Downloading https://files.pythonhosted.org/packages/38/cb/afbe14324f178ab4481108e263be3f931385699007ac536864ef257a077a/extrapolation-2.0.1-py3-none-any.whl
+[2023-08-06 19:08:52] INFO root fetch - processPackages [mapfile-parser]: Downloading https://files.pythonhosted.org/packages/66/bf/99927673ca782829833cde0bc37d81dce6cd754787e6015407db6eec097a/mapfile_parser-2.0.0.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [django-sql-comment]: Downloading https://files.pythonhosted.org/packages/9a/17/8ea58106a7acee54d4a767282613c1b650d772432f011f318ac2c734bd58/django-sql-comment-0.0.3.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/73/3d/3244214d0412d440868b7230557afbb27db8bc14aa5fe5987c454bdaf804/jaraco.site-6.5.0.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.5.tar.gz tmp/gimera-0.7.6.tar.gz --markdown 20230806/g/gimera/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [extrapolation]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrapolation-2.0.0.tar.gz tmp/extrapolation-2.0.1-py3-none-any.whl.zip --markdown 20230806/e/extrapolation/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [mapfile-parser]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [mapfile-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapfile_parser-1.3.1.tar.gz tmp/mapfile_parser-2.0.0.tar.gz --markdown 20230806/m/mapfile-parser/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [django-sql-comment]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [django-sql-comment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sql-comment-0.0.2.tar.gz tmp/django-sql-comment-0.0.3.tar.gz --markdown 20230806/d/django-sql-comment/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/90/c1/ca054042c9827c052772e8ed4ad49a29de99e78a3f110a585c9266ed2987/ez-9.9.9.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.4.tar.gz tmp/jaraco.site-6.5.0.tar.gz --markdown 20230806/j/jaraco.site/6.4-6.5.0/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-08-06 19:08:52] INFO root fetch - processPackages [ez]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [ez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-9.9.8.tar.gz tmp/ez-9.9.9.tar.gz --markdown 20230806/e/ez/9.9.8-9.9.9/diff.md --exclude *.pyd
+[2023-08-06 19:08:52] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-08-06 19:08:52] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230806/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 19:08:53] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.8.tar.gz]
+[2023-08-06 19:08:53] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.9.tar.gz]
+[2023-08-06 19:08:53] INFO root fetch - processPackages [voicebox-pytorch]: Start processing: logto
+[2023-08-06 19:08:53] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-06 19:08:53] WARNING root fetch - processPackages [logto]: Skipping, unable to determine old version
+[2023-08-06 19:08:53] INFO root fetch - processPackages [logto]: Start processing: tendril-connector-rabbitmq
+[2023-08-06 19:08:53] INFO root fetch - main [MainThread]: End processing [logto] error
+[2023-08-06 19:08:53] WARNING root fetch - processPackages [tendril-connector-rabbitmq]: Skipping, unable to determine old version
+[2023-08-06 19:08:53] INFO root fetch - main [MainThread]: End processing [tendril-connector-rabbitmq] error
+[2023-08-06 19:08:53] INFO root fetch - processPackages [sigmaepsilon.mesh]: Downloading https://files.pythonhosted.org/packages/af/d2/ecde7abf3ea66b489bf6c4bf6fae442e4c7887f65fcbdccb148ed743e8fc/sigmaepsilon.mesh-0.0.3.tar.gz
+[2023-08-06 19:08:53] INFO root fetch - processPackages [extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/extrapolation-2.0.0.tar.gz]
+[2023-08-06 19:08:53] INFO root fetch - processPackages [extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/extrapolation-2.0.1-py3-none-any.whl.zip]
+[2023-08-06 19:08:53] INFO root fetch - main [MainThread]: End processing [extrapolation]: success
+[2023-08-06 19:08:53] INFO root fetch - processPackages [mapfile-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapfile_parser-1.3.1.tar.gz]
+[2023-08-06 19:08:53] INFO root fetch - processPackages [mapfile-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapfile_parser-2.0.0.tar.gz]
+[2023-08-06 19:08:53] INFO root fetch - main [MainThread]: End processing [mapfile-parser]: success
+[2023-08-06 19:08:54] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.5.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.6.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-08-06 19:08:54] INFO root fetch - processPackages [django-sql-comment]: Remove: archive file [/home/abi/fetcher/tmp/django-sql-comment-0.0.2.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - processPackages [django-sql-comment]: Remove: archive file [/home/abi/fetcher/tmp/django-sql-comment-0.0.3.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - main [MainThread]: End processing [django-sql-comment]: success
+[2023-08-06 19:08:54] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.8.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - main [MainThread]: End processing [ez]: success
+[2023-08-06 19:08:54] INFO root fetch - processPackages [sigmaepsilon.mesh]: executing diffoscope
+[2023-08-06 19:08:54] INFO root fetch - processPackages [sigmaepsilon.mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmaepsilon.mesh-0.0.2.tar.gz tmp/sigmaepsilon.mesh-0.0.3.tar.gz --markdown 20230806/s/sigmaepsilon.mesh/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 19:08:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 19:08:54] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-08-06 19:08:54] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-08-06 19:08:55] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.4.tar.gz]
+[2023-08-06 19:08:55] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.5.0.tar.gz]
+[2023-08-06 19:08:55] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
+[2023-08-06 19:08:56] INFO root fetch - processPackages [sigmaepsilon.mesh]: Remove: archive file [/home/abi/fetcher/tmp/sigmaepsilon.mesh-0.0.2.tar.gz]
+[2023-08-06 19:08:56] INFO root fetch - processPackages [sigmaepsilon.mesh]: Remove: archive file [/home/abi/fetcher/tmp/sigmaepsilon.mesh-0.0.3.tar.gz]
+[2023-08-06 19:08:56] INFO root fetch - main [MainThread]: End processing [sigmaepsilon.mesh]: success
+[2023-08-06 19:08:56] INFO root fetch - main [MainThread]: Store serial: [19195798]
