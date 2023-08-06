@@ -3042,3 +3042,27 @@
 [2023-08-06 04:46:32] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.36.tar.gz]
 [2023-08-06 04:46:32] INFO root fetch - main [MainThread]: End processing [msplotter]: success
 [2023-08-06 04:46:32] INFO root fetch - main [MainThread]: Store serial: [19190872]
+[2023-08-06 04:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190872]
+[2023-08-06 04:51:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 04:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyortho-win
+[2023-08-06 04:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IABT
+[2023-08-06 04:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regex-inference
+[2023-08-06 04:51:41] INFO root fetch - processPackages [IABT]: New version: [1.1] Old Version: [1.0]
+[2023-08-06 04:51:41] INFO root fetch - processPackages [regex-inference]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 04:51:41] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/f7/09/156b788bb3861c5a2d6f282937d1db478516fe3c12a9392b6e019150efd8/regex-inference-0.0.2.tar.gz
+[2023-08-06 04:51:41] WARNING root fetch - processPackages [pyortho-win]: Skipping, unable to determine old version
+[2023-08-06 04:51:41] INFO root fetch - main [MainThread]: End processing [pyortho-win] error
+[2023-08-06 04:51:41] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/dd/70/364ed75413bac74bd3d4012c2259e3921729cd5291d584f54b75ffa329c0/IABT-1.0.tar.gz
+[2023-08-06 04:51:41] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/05/a2/0d2aaf643fbbf673a96e49eac8d72e40849dae2c3513e247016c3c862215/regex-inference-0.0.3.tar.gz
+[2023-08-06 04:51:41] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-06 04:51:41] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.2.tar.gz tmp/regex-inference-0.0.3.tar.gz --markdown 20230806/r/regex-inference/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 04:51:41] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/c8/4e/331efea3ce868142b4ba93cccb98ee985c65445187cc1265852c3322ed23/IABT-1.1.tar.gz
+[2023-08-06 04:51:42] INFO root fetch - processPackages [IABT]: executing diffoscope
+[2023-08-06 04:51:42] INFO root fetch - processPackages [IABT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IABT-1.0.tar.gz tmp/IABT-1.1.tar.gz --markdown 20230806/I/IABT/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-06 04:51:42] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.2.tar.gz]
+[2023-08-06 04:51:42] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.3.tar.gz]
+[2023-08-06 04:51:42] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-06 04:51:43] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.0.tar.gz]
+[2023-08-06 04:51:43] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.1.tar.gz]
+[2023-08-06 04:51:43] INFO root fetch - main [MainThread]: End processing [IABT]: success
+[2023-08-06 04:51:43] INFO root fetch - main [MainThread]: Store serial: [19190882]
