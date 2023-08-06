@@ -12888,3 +12888,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:16:36] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.3.3.tar.gz]
 [2023-08-06 18:16:36] INFO root fetch - main [MainThread]: End processing [langport]: success
 [2023-08-06 18:16:36] INFO root fetch - main [MainThread]: Store serial: [19195454]
+[2023-08-06 18:21:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195454]
+[2023-08-06 18:21:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oganesson-py
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lcwc
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YandexHome
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boopy
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoverkiz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qoa4ml
+[2023-08-06 18:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kukie
+[2023-08-06 18:21:45] INFO root fetch - processPackages [qoa4ml]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [oganesson-py]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/39/5f/0ad97583472249e8f3bd1a429e7220575012bb615da498adf73dde4f69fb/qoa4ml-0.1.4.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [pyoverkiz]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [boopy]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [lcwc]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [kukie]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-08-06 18:21:45] INFO root fetch - processPackages [oganesson-py]: Downloading https://files.pythonhosted.org/packages/e7/25/fea3b8d69c5aa6a6f304fc964aaaba1c46318bf5b7040ab04d558e023447/oganesson_py-0.1.0a1.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/bb/13/f174e3357035d6aaab6148706f7fe09436013746f1dcbb9663b3b54815c1/lcwc-0.8.1.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [boopy]: Downloading https://files.pythonhosted.org/packages/15/df/e96053f01af63b029bfe8ad6acdcae0e31473a2442080d9876c685309509/boopy-0.1.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [kukie]: Downloading https://files.pythonhosted.org/packages/ed/8c/7662cfd087cbe8bb744f4e1321aa697f5ff4f0b5fa6df863352ff537172e/kukie-4.0.0.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/53/27/7abb80271980dbddf8f3faa52ab60747ecea4c715aabdcd98a5bceeb622e/pyoverkiz-1.9.0.tar.gz
+[2023-08-06 18:21:45] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/64/05/5a6132be1e2158d2f86835cc785120053db058a21a6edc97b01e3814de1d/qoa4ml-0.1.5.tar.gz
+[2023-08-06 18:21:46] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:21:46] INFO root fetch - processPackages [oganesson-py]: Downloading https://files.pythonhosted.org/packages/6d/8e/4757fcebf582de79e57e45ee408548b00ede5566d95df7c95bbd6bcb3a2d/oganesson_py-0.1.0a2.tar.gz
+[2023-08-06 18:21:46] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.1.4.tar.gz tmp/qoa4ml-0.1.5.tar.gz --markdown 20230806/q/qoa4ml/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 18:21:46] INFO root fetch - processPackages [oganesson-py]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [oganesson-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson_py-0.1.0a1.tar.gz tmp/oganesson_py-0.1.0a2.tar.gz --markdown 20230806/o/oganesson-py/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-08-06 18:21:46] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/f6/ce/4ada28fc40a6f355b261d044c67b7c89b29c9eade515236348aeb5a14683/lcwc-0.8.2.tar.gz
+[2023-08-06 18:21:46] INFO root fetch - processPackages [kukie]: Downloading https://files.pythonhosted.org/packages/ab/29/b4aa4677d9b45e8e2b0a7bdd6e2e239ee37e84e199a96df55949bc736d77/kukie-5.0.0.tar.gz
+[2023-08-06 18:21:46] INFO root fetch - processPackages [boopy]: Downloading https://files.pythonhosted.org/packages/83/eb/3cedf0b9145f4e7c231c3275aaa038ae5cb9914d7fa008fce0d43a9fa635/boopy-0.1.1.tar.gz
+[2023-08-06 18:21:46] INFO root fetch - processPackages [lcwc]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [lcwc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcwc-0.8.1.tar.gz tmp/lcwc-0.8.2.tar.gz --markdown 20230806/l/lcwc/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-06 18:21:46] INFO root fetch - processPackages [kukie]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [kukie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kukie-4.0.0.tar.gz tmp/kukie-5.0.0.tar.gz --markdown 20230806/k/kukie/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-08-06 18:21:46] INFO root fetch - processPackages [boopy]: executing diffoscope
+[2023-08-06 18:21:46] INFO root fetch - processPackages [boopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boopy-0.1.tar.gz tmp/boopy-0.1.1.tar.gz --markdown 20230806/b/boopy/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 18:21:47] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/ff/55/d66079a35c186fd96c662e376c441867c9255468c6ae8501ac1a05a166fc/pyoverkiz-1.9.1.tar.gz
+[2023-08-06 18:21:47] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:21:47] INFO root fetch - processPackages [oganesson-py]: Remove: archive file [/home/abi/fetcher/tmp/oganesson_py-0.1.0a1.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [oganesson-py]: Remove: archive file [/home/abi/fetcher/tmp/oganesson_py-0.1.0a2.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [oganesson-py]: success
+[2023-08-06 18:21:47] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.4.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.5.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-08-06 18:21:47] INFO root fetch - processPackages [pyoverkiz]: executing diffoscope
+[2023-08-06 18:21:47] INFO root fetch - processPackages [pyoverkiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverkiz-1.9.0.tar.gz tmp/pyoverkiz-1.9.1.tar.gz --markdown 20230806/p/pyoverkiz/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-06 18:21:47] INFO root fetch - processPackages [boopy]: Remove: archive file [/home/abi/fetcher/tmp/boopy-0.1.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [boopy]: Remove: archive file [/home/abi/fetcher/tmp/boopy-0.1.1.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [boopy]: success
+[2023-08-06 18:21:47] INFO root fetch - processPackages [lcwc]: Remove: archive file [/home/abi/fetcher/tmp/lcwc-0.8.1.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [lcwc]: Remove: archive file [/home/abi/fetcher/tmp/lcwc-0.8.2.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [lcwc]: success
+[2023-08-06 18:21:47] INFO root fetch - processPackages [kukie]: Remove: archive file [/home/abi/fetcher/tmp/kukie-4.0.0.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - processPackages [kukie]: Remove: archive file [/home/abi/fetcher/tmp/kukie-5.0.0.tar.gz]
+[2023-08-06 18:21:47] INFO root fetch - main [MainThread]: End processing [kukie]: success
+[2023-08-06 18:21:48] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.0.tar.gz]
+[2023-08-06 18:21:48] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.1.tar.gz]
+[2023-08-06 18:21:48] INFO root fetch - main [MainThread]: End processing [pyoverkiz]: success
+[2023-08-06 18:21:48] INFO root fetch - main [MainThread]: Store serial: [19195476]
