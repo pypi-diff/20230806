@@ -3681,3 +3681,54 @@
 [2023-08-06 06:09:29] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
 [2023-08-06 06:09:29] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
 [2023-08-06 06:09:29] INFO root fetch - main [MainThread]: Store serial: [19191149]
+[2023-08-06 06:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191149]
+[2023-08-06 06:14:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: db2text
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdating-common
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regex-inference
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medisearch-client
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wangticketyes24
+[2023-08-06 06:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codeflash
+[2023-08-06 06:14:38] INFO root fetch - processPackages [regex-inference]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 06:14:38] INFO root fetch - processPackages [medisearch-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 06:14:38] INFO root fetch - processPackages [db2text]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-08-06 06:14:38] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 06:14:38] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/05/a2/0d2aaf643fbbf673a96e49eac8d72e40849dae2c3513e247016c3c862215/regex-inference-0.0.3.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [wangticketyes24]: New version: [1.2] Old Version: [1.1]
+[2023-08-06 06:14:38] WARNING root fetch - processPackages [codeflash]: Skipping, unable to determine old version
+[2023-08-06 06:14:38] INFO root fetch - main [MainThread]: End processing [codeflash] error
+[2023-08-06 06:14:38] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/1e/f6/472ecf2098c7e75ee6353d2f4721e67afe7ee538d843dd473aa2f9e41e6e/medisearch_client-0.1.4.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [db2text]: Downloading https://files.pythonhosted.org/packages/94/8f/5d08d2602ecd041e79de22645d3e3c0be448adaf970618913b66a9bd2258/db2text-0.0.9.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/3f/7c/20e087d250bd36fcef4ef9a0a98ce46ce7a3f6599763e777b06014b256fb/wangticketyes24-1.1-py3-none-any.whl
+[2023-08-06 06:14:38] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/75/5e/a046e5033b81e73a500fe7cbc7a3f90ebcb9fe72244cac6dcb992260213f/regex-inference-0.0.4.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/a1/02/e56fa73ed4166520c44b443394054fafffc770b8e0dd1526a89799330538/medisearch_client-0.1.5.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-08-06 06:14:38] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230806/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 06:14:38] INFO root fetch - processPackages [db2text]: Downloading https://files.pythonhosted.org/packages/c2/f0/1cced05445acc49d6b00859064bfb46268b6943bc70f8163cc87fd71d46c/db2text-0.1.1.tar.gz
+[2023-08-06 06:14:38] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-06 06:14:38] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.3.tar.gz tmp/regex-inference-0.0.4.tar.gz --markdown 20230806/r/regex-inference/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 06:14:39] INFO root fetch - processPackages [medisearch-client]: executing diffoscope
+[2023-08-06 06:14:39] INFO root fetch - processPackages [medisearch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisearch_client-0.1.4.tar.gz tmp/medisearch_client-0.1.5.tar.gz --markdown 20230806/m/medisearch-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 06:14:39] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/a2/d0/5dbf3fc2f0ea4a55c68fb72a06872ff27d26c00bc200fd0d15146b13143d/wangticketyes24-1.2-py3-none-any.whl
+[2023-08-06 06:14:39] INFO root fetch - processPackages [db2text]: executing diffoscope
+[2023-08-06 06:14:39] INFO root fetch - processPackages [db2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db2text-0.0.9.tar.gz tmp/db2text-0.1.1.tar.gz --markdown 20230806/d/db2text/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 06:14:39] INFO root fetch - processPackages [wangticketyes24]: executing diffoscope
+[2023-08-06 06:14:39] INFO root fetch - processPackages [wangticketyes24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wangticketyes24-1.1-py3-none-any.whl.zip tmp/wangticketyes24-1.2-py3-none-any.whl.zip --markdown 20230806/w/wangticketyes24/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-06 06:14:39] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.4.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.5.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - main [MainThread]: End processing [medisearch-client]: success
+[2023-08-06 06:14:39] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.3.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.4.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-06 06:14:39] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-08-06 06:14:39] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-08-06 06:14:40] INFO root fetch - processPackages [db2text]: Remove: archive file [/home/abi/fetcher/tmp/db2text-0.0.9.tar.gz]
+[2023-08-06 06:14:40] INFO root fetch - processPackages [db2text]: Remove: archive file [/home/abi/fetcher/tmp/db2text-0.1.1.tar.gz]
+[2023-08-06 06:14:40] INFO root fetch - main [MainThread]: End processing [db2text]: success
+[2023-08-06 06:14:40] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-1.1-py3-none-any.whl.zip]
+[2023-08-06 06:14:40] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-1.2-py3-none-any.whl.zip]
+[2023-08-06 06:14:40] INFO root fetch - main [MainThread]: End processing [wangticketyes24]: success
+[2023-08-06 06:14:40] INFO root fetch - main [MainThread]: Store serial: [19191168]
