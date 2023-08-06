@@ -2669,3 +2669,18 @@
 [2023-08-06 03:53:46] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.1.tar.gz]
 [2023-08-06 03:53:46] INFO root fetch - main [MainThread]: End processing [option-trader]: success
 [2023-08-06 03:53:46] INFO root fetch - main [MainThread]: Store serial: [19190704]
+[2023-08-06 03:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190704]
+[2023-08-06 03:58:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 03:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IABT
+[2023-08-06 03:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BeyotekTools
+[2023-08-06 03:58:55] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:58:55] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:58:55] WARNING root fetch - processPackages [IABT]: Skipping, unable to determine old version
+[2023-08-06 03:58:55] INFO root fetch - main [MainThread]: End processing [IABT] error
+[2023-08-06 03:58:55] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:58:55] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:58:55] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:58:56] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 03:58:56] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 03:58:56] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:58:56] INFO root fetch - main [MainThread]: Store serial: [19190715]
