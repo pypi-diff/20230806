@@ -4033,3 +4033,45 @@
 [2023-08-06 07:11:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230806.tar.gz]
 [2023-08-06 07:11:33] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-08-06 07:11:33] INFO root fetch - main [MainThread]: Store serial: [19191278]
+[2023-08-06 07:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191278]
+[2023-08-06 07:16:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 07:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datclass
+[2023-08-06 07:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turbob64
+[2023-08-06 07:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tokotime
+[2023-08-06 07:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2023-08-06 07:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2023-08-06 07:16:41] INFO root fetch - processPackages [datclass]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 07:16:41] INFO root fetch - processPackages [tokotime]: New version: [0.12] Old Version: [0.11]
+[2023-08-06 07:16:41] INFO root fetch - processPackages [litellm]: New version: [0.1.348] Old Version: [0.1.347]
+[2023-08-06 07:16:41] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230805] Old Version: [0.5.4.dev20230804]
+[2023-08-06 07:16:41] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/a8/ca/a465baa3029d3198562a7b613cbebd2f07586b4649a4d6d11e48e448b015/datclass-0.2.3.tar.gz
+[2023-08-06 07:16:41] WARNING root fetch - processPackages [turbob64]: Skipping, unable to determine old version
+[2023-08-06 07:16:41] INFO root fetch - main [MainThread]: End processing [turbob64] error
+[2023-08-06 07:16:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/e5/0a/593a97337850887d1c1f995d2300625020568f9583b6fa55daeea78ade32/litellm-0.1.347.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/4c/5c/5e8ee3a4738d02f743c80a3e91133f413521df880fc032da4dad57e44513/tokotime-0.11.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/58/39/dbec9967bcf71112208768cf458195ad3195c95debee121658b1939b4d16/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/91/0f/62c2d3fb4026fb6483ecc9384c67d834fde4ad4777974734144e79b89ebd/datclass-0.2.4.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/00/18/a88fa76a6039e4375055f6d2844ee446a57df59d6072ea24c8ec6b3dbf68/tokotime-0.12.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/7f/b3/f4958825406cabba73e911706f7a77f33ab0aac7e32ad6f89e99fe7aa9f0/litellm-0.1.348.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [datclass]: executing diffoscope
+[2023-08-06 07:16:42] INFO root fetch - processPackages [datclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datclass-0.2.3.tar.gz tmp/datclass-0.2.4.tar.gz --markdown 20230806/d/datclass/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 07:16:42] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 07:16:42] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.11.tar.gz tmp/tokotime-0.12.tar.gz --markdown 20230806/t/tokotime/0.11-0.12/diff.md --exclude *.pyd
+[2023-08-06 07:16:42] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-06 07:16:42] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.347.tar.gz tmp/litellm-0.1.348.tar.gz --markdown 20230806/l/litellm/0.1.347-0.1.348/diff.md --exclude *.pyd
+[2023-08-06 07:16:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/5b/d5/60a6aaad292536e97022140eeb27bd6fe415c0463445bcee5d84785ca882/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz
+[2023-08-06 07:16:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-06 07:16:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz --markdown 20230806/r/rapidpe-rift-pipe/0.5.4.dev20230804-0.5.4.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 07:16:43] INFO root fetch - processPackages [datclass]: Remove: archive file [/home/abi/fetcher/tmp/datclass-0.2.3.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - processPackages [datclass]: Remove: archive file [/home/abi/fetcher/tmp/datclass-0.2.4.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - main [MainThread]: End processing [datclass]: success
+[2023-08-06 07:16:43] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.11.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.12.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 07:16:43] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.347.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.348.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-06 07:16:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230805.tar.gz]
+[2023-08-06 07:16:43] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-06 07:16:43] INFO root fetch - main [MainThread]: Store serial: [19191293]
