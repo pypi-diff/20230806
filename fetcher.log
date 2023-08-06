@@ -17187,3 +17187,98 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:50:51] INFO root fetch - processPackages [nonebot-plugin-impact]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_impact-0.7.114514.tar.gz]
 [2023-08-06 23:50:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-impact]: success
 [2023-08-06 23:50:51] INFO root fetch - main [MainThread]: Store serial: [19197466]
+[2023-08-06 23:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197466]
+[2023-08-06 23:56:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-lexorank
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tvdcn
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-tradier-client
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-tradier-client
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gold-tradier-client
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-interpreter
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappadata
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: olografos
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: olografos
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docstringFormatter
+[2023-08-06 23:56:00] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.271] Old Version: [0.0.270]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [olografos]: New version: [1.0.1] Old Version: [0.0.0]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [olografos]: New version: [1.0.1] Old Version: [0.0.0]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/40/76/d8a2b7bb1a4a99cb89072057c688489becb41cdd9dad002d5801c53d5b55/open_interpreter-0.0.270.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [tvdcn]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [fast-tradier-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [fast-tradier-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [django-lexorank]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 23:56:00] WARNING root fetch - processPackages [gold-tradier-client]: Skipping, unable to determine old version
+[2023-08-06 23:56:00] INFO root fetch - processPackages [gold-tradier-client]: Start processing: types-opencolorio
+[2023-08-06 23:56:00] INFO root fetch - main [MainThread]: End processing [gold-tradier-client] error
+[2023-08-06 23:56:00] WARNING root fetch - processPackages [docstringFormatter]: Skipping, unable to determine old version
+[2023-08-06 23:56:00] INFO root fetch - processPackages [docstringFormatter]: Start processing: ArseinRubika
+[2023-08-06 23:56:00] INFO root fetch - main [MainThread]: End processing [docstringFormatter] error
+[2023-08-06 23:56:00] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [olografos]: Downloading https://files.pythonhosted.org/packages/b2/15/61a5be086535c95537ec7b5ea9effd76e856e105fd160c0f859bcf2bd1aa/olografos-0.0.0.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [olografos]: Downloading https://files.pythonhosted.org/packages/b2/15/61a5be086535c95537ec7b5ea9effd76e856e105fd160c0f859bcf2bd1aa/olografos-0.0.0.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [ArseinRubika]: New version: [4.8.9] Old Version: [4.8.8]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [types-opencolorio]: New version: [2.2.1.2] Old Version: [2.2.1.1]
+[2023-08-06 23:56:00] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/aa/c1/75a0663799e5f803adde92a764f25529aae7bded3b40a970238dba912992/fast_tradier_client-0.0.1.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/aa/0c/e74420b218e2a54859bd142dc939e03c9c6e11a5a4f14ce281c2109d4bf7/tvdcn-0.4.0.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [django-lexorank]: Downloading https://files.pythonhosted.org/packages/08/6e/4fb522c384efa726510b42c13d2bbe5860b84763647eaf4558544c7719ed/django_lexorank-0.1.1.tar.gz
+[2023-08-06 23:56:00] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/aa/c1/75a0663799e5f803adde92a764f25529aae7bded3b40a970238dba912992/fast_tradier_client-0.0.1.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a0/8a/69aeabfedeb9b81fe7dff4bb5d4b7c9de7523844b626b5b999a28d350ec7/open_interpreter-0.0.271.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [ArseinRubika]: Downloading https://files.pythonhosted.org/packages/ee/8e/55c6f30e033a7756465f2dacd9e626ba0101017b2a06cc1b22f2106df3e9/ArseinRubika-4.8.8.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [types-opencolorio]: Downloading https://files.pythonhosted.org/packages/49/54/36cc8b02a0be482d701d438b2a94466e90668d6cf2d0cf74679ecaeeed7b/types_opencolorio-2.2.1.1.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: Downloading https://files.pythonhosted.org/packages/ac/f0/d56edee75ee3905b215ed55291f48fc3fb335c5c8c789d52f3a339bdf88e/olografos-1.0.1.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: Downloading https://files.pythonhosted.org/packages/ac/f0/d56edee75ee3905b215ed55291f48fc3fb335c5c8c789d52f3a339bdf88e/olografos-1.0.1.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.270.tar.gz tmp/open_interpreter-0.0.271.tar.gz --markdown 20230806/o/open-interpreter/0.0.270-0.0.271/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/58/fa/f3790cd24771c22e8b3ef4a941b9d04d896e704903d22e005fb3ad21fbe9/tvdcn-0.4.1.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/1d/8c/6054ffd0215f6963348726a20d04ed1da8a348d168043c84c2a6cf6ac066/fast_tradier_client-0.0.2.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/1d/8c/6054ffd0215f6963348726a20d04ed1da8a348d168043c84c2a6cf6ac066/fast_tradier_client-0.0.2.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [django-lexorank]: Downloading https://files.pythonhosted.org/packages/ed/d1/afcf526ec99be9b321f34e7a854259a288dbe1530a6f1496310accd2a8af/django_lexorank-0.1.2.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olografos-0.0.0.tar.gz tmp/olografos-1.0.1.tar.gz --markdown 20230806/o/olografos/0.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [olografos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olografos-0.0.0.tar.gz tmp/olografos-1.0.1.tar.gz --markdown 20230806/o/olografos/0.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230806/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [tvdcn]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [tvdcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvdcn-0.4.0.tar.gz tmp/tvdcn-0.4.1.tar.gz --markdown 20230806/t/tvdcn/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [django-lexorank]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [django-lexorank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_lexorank-0.1.1.tar.gz tmp/django_lexorank-0.1.2.tar.gz --markdown 20230806/d/django-lexorank/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-0.0.1.tar.gz tmp/fast_tradier_client-0.0.2.tar.gz --markdown 20230806/f/fast-tradier-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [ArseinRubika]: Downloading https://files.pythonhosted.org/packages/ac/cc/2d7ca0c370ea1aa7fdb67632a91330e7071ad08877ee34962c5dc9483319/ArseinRubika-4.8.9.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-0.0.1.tar.gz tmp/fast_tradier_client-0.0.2.tar.gz --markdown 20230806/f/fast-tradier-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [types-opencolorio]: Downloading https://files.pythonhosted.org/packages/8e/c5/77a04d8ad18af9d4e804817d77d79f3b3482a54977fb3886e6c345c91fb7/types_opencolorio-2.2.1.2.tar.gz
+[2023-08-06 23:56:01] INFO root fetch - processPackages [ArseinRubika]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [ArseinRubika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArseinRubika-4.8.8.tar.gz tmp/ArseinRubika-4.8.9.tar.gz --markdown 20230806/A/ArseinRubika/4.8.8-4.8.9/diff.md --exclude *.pyd
+[2023-08-06 23:56:01] INFO root fetch - processPackages [types-opencolorio]: executing diffoscope
+[2023-08-06 23:56:01] INFO root fetch - processPackages [types-opencolorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_opencolorio-2.2.1.1.tar.gz tmp/types_opencolorio-2.2.1.2.tar.gz --markdown 20230806/t/types-opencolorio/2.2.1.1-2.2.1.2/diff.md --exclude *.pyd
+[2023-08-06 23:56:02] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.270.tar.gz]
+[2023-08-06 23:56:02] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.271.tar.gz]
+[2023-08-06 23:56:02] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 23:56:02] INFO root fetch - processPackages [olografos]: Remove: archive file [/home/abi/fetcher/tmp/olografos-0.0.0.tar.gz]
+[2023-08-06 23:56:02] INFO root fetch - processPackages [olografos]: Remove: archive file [/home/abi/fetcher/tmp/olografos-1.0.1.tar.gz]
+[2023-08-06 23:56:02] INFO root fetch - main [MainThread]: End processing [olografos]: success
+[2023-08-06 23:56:02] INFO root fetch - main [MainThread]: End processing [olografos]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [django-lexorank]: Remove: archive file [/home/abi/fetcher/tmp/django_lexorank-0.1.1.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [django-lexorank]: Remove: archive file [/home/abi/fetcher/tmp/django_lexorank-0.1.2.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [django-lexorank]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-0.0.1.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-0.0.2.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [types-opencolorio]: Remove: archive file [/home/abi/fetcher/tmp/types_opencolorio-2.2.1.1.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [types-opencolorio]: Remove: archive file [/home/abi/fetcher/tmp/types_opencolorio-2.2.1.2.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [types-opencolorio]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.4.0.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.4.1.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [ArseinRubika]: Remove: archive file [/home/abi/fetcher/tmp/ArseinRubika-4.8.8.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [ArseinRubika]: Remove: archive file [/home/abi/fetcher/tmp/ArseinRubika-4.8.9.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [ArseinRubika]: success
+[2023-08-06 23:56:03] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-06 23:56:03] INFO root fetch - main [MainThread]: Store serial: [19197525]
