@@ -3732,3 +3732,24 @@
 [2023-08-06 06:14:40] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-1.2-py3-none-any.whl.zip]
 [2023-08-06 06:14:40] INFO root fetch - main [MainThread]: End processing [wangticketyes24]: success
 [2023-08-06 06:14:40] INFO root fetch - main [MainThread]: Store serial: [19191168]
+[2023-08-06 06:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191168]
+[2023-08-06 06:19:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 06:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dukeai-lib
+[2023-08-06 06:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docsbot
+[2023-08-06 06:19:48] INFO root fetch - processPackages [dukeai-lib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-06 06:19:48] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/fc/8b/476e0182472ddfb6396aef568f26eb3ad4ccdd5cb5ecfb09997e3b319348/dukeai_lib-0.2.2.tar.gz
+[2023-08-06 06:19:48] INFO root fetch - processPackages [docsbot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 06:19:49] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/f1/3d/e4ae6d8327a9804e067eae978d09dec92bef754abdd8db0bd0ea002a10ab/docsbot-0.1.2.tar.gz
+[2023-08-06 06:19:49] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/a5/4a/307b77d6d76e0d7f75a3371d227321157ea7e5c4b93d9d5b8c2f653bd5c2/dukeai_lib-0.2.3.tar.gz
+[2023-08-06 06:19:49] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/ea/40/413db541582e54991e7e0f4e49221703e28310fc6716836744c2433868fe/docsbot-0.1.3.tar.gz
+[2023-08-06 06:19:49] INFO root fetch - processPackages [dukeai-lib]: executing diffoscope
+[2023-08-06 06:19:49] INFO root fetch - processPackages [dukeai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukeai_lib-0.2.2.tar.gz tmp/dukeai_lib-0.2.3.tar.gz --markdown 20230806/d/dukeai-lib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-06 06:19:49] INFO root fetch - processPackages [docsbot]: executing diffoscope
+[2023-08-06 06:19:49] INFO root fetch - processPackages [docsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsbot-0.1.2.tar.gz tmp/docsbot-0.1.3.tar.gz --markdown 20230806/d/docsbot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 06:19:50] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.2.tar.gz]
+[2023-08-06 06:19:50] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.3.tar.gz]
+[2023-08-06 06:19:50] INFO root fetch - main [MainThread]: End processing [dukeai-lib]: success
+[2023-08-06 06:19:50] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.2.tar.gz]
+[2023-08-06 06:19:50] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.3.tar.gz]
+[2023-08-06 06:19:50] INFO root fetch - main [MainThread]: End processing [docsbot]: success
+[2023-08-06 06:19:50] INFO root fetch - main [MainThread]: Store serial: [19191174]
