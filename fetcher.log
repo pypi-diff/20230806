@@ -15884,3 +15884,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
 [2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
 [2023-08-06 21:51:20] INFO root fetch - main [MainThread]: Store serial: [19196820]
+[2023-08-06 21:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196820]
+[2023-08-06 21:56:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 21:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: segretini-matplottini
+[2023-08-06 21:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-08-06 21:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-spicy-id
+[2023-08-06 21:56:29] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 21:56:29] INFO root fetch - processPackages [django-spicy-id]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-06 21:56:29] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.267] Old Version: [0.0.266]
+[2023-08-06 21:56:29] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/03/35/1d94447a17df6a1391d619009be92573160136a0b326ac7737b90531b613/segretini-matplottini-0.2.4.tar.gz
+[2023-08-06 21:56:29] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/c6/7b/fb0a8d222cfafb7fd234c6c4e05546a2421410ee820cd4255ae61f02b3e2/open_interpreter-0.0.266.tar.gz
+[2023-08-06 21:56:29] INFO root fetch - processPackages [django-spicy-id]: Downloading https://files.pythonhosted.org/packages/a4/6d/762428a397d8a385c84e245061a2676b7a18b7b7eb51b5aa3a70bb5302ad/django-spicy-id-0.3.1.tar.gz
+[2023-08-06 21:56:30] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/38/1f/ffbd5119e1632194d3bde742d759bccbd47b6d9aeb61a0ad6324a56b8199/open_interpreter-0.0.267.tar.gz
+[2023-08-06 21:56:30] INFO root fetch - processPackages [django-spicy-id]: Downloading https://files.pythonhosted.org/packages/db/d3/929458f88f190bb940f16835399ae15db6412a9c592e1503b2b365d2e4f1/django-spicy-id-0.4.0.tar.gz
+[2023-08-06 21:56:30] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:56:30] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.266.tar.gz tmp/open_interpreter-0.0.267.tar.gz --markdown 20230806/o/open-interpreter/0.0.266-0.0.267/diff.md --exclude *.pyd
+[2023-08-06 21:56:30] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/1b/9b/73b17ccb5b510cf296882774abfc21dfb228a464f58b465029e418954f96/segretini-matplottini-0.2.5.tar.gz
+[2023-08-06 21:56:30] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 21:56:30] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.4.tar.gz tmp/segretini-matplottini-0.2.5.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 21:56:30] INFO root fetch - processPackages [django-spicy-id]: executing diffoscope
+[2023-08-06 21:56:30] INFO root fetch - processPackages [django-spicy-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-spicy-id-0.3.1.tar.gz tmp/django-spicy-id-0.4.0.tar.gz --markdown 20230806/d/django-spicy-id/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 21:56:31] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.266.tar.gz]
+[2023-08-06 21:56:31] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.267.tar.gz]
+[2023-08-06 21:56:31] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:56:31] INFO root fetch - processPackages [django-spicy-id]: Remove: archive file [/home/abi/fetcher/tmp/django-spicy-id-0.3.1.tar.gz]
+[2023-08-06 21:56:31] INFO root fetch - processPackages [django-spicy-id]: Remove: archive file [/home/abi/fetcher/tmp/django-spicy-id-0.4.0.tar.gz]
+[2023-08-06 21:56:31] INFO root fetch - main [MainThread]: End processing [django-spicy-id]: success
+[2023-08-06 21:56:32] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.4.tar.gz]
+[2023-08-06 21:56:32] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.5.tar.gz]
+[2023-08-06 21:56:32] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 21:56:32] INFO root fetch - main [MainThread]: Store serial: [19196829]
