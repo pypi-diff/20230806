@@ -8790,3 +8790,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:20:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.6.tar.gz]
 [2023-08-06 14:20:11] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2023-08-06 14:20:11] INFO root fetch - main [MainThread]: Store serial: [19193584]
+[2023-08-06 14:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193584]
+[2023-08-06 14:25:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wolong
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhuge
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deci-platform-client
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syft
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fengchu
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odin-slides
+[2023-08-06 14:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naruno-scan
+[2023-08-06 14:25:20] WARNING root fetch - processPackages [fengchu]: Skipping, unable to determine old version
+[2023-08-06 14:25:20] INFO root fetch - main [MainThread]: End processing [fengchu] error
+[2023-08-06 14:25:20] INFO root fetch - processPackages [syft]: New version: [0.8.2b8] Old Version: [0.8.2b7]
+[2023-08-06 14:25:20] WARNING root fetch - processPackages [wolong]: Skipping, unable to determine old version
+[2023-08-06 14:25:20] INFO root fetch - main [MainThread]: End processing [wolong] error
+[2023-08-06 14:25:20] WARNING root fetch - processPackages [zhuge]: Skipping, unable to determine old version
+[2023-08-06 14:25:20] INFO root fetch - main [MainThread]: End processing [zhuge] error
+[2023-08-06 14:25:20] WARNING root fetch - processPackages [odin-slides]: Skipping, unable to determine old version
+[2023-08-06 14:25:20] INFO root fetch - main [MainThread]: End processing [odin-slides] error
+[2023-08-06 14:25:20] INFO root fetch - processPackages [naruno-scan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 14:25:20] INFO root fetch - processPackages [deci-platform-client]: New version: [6.0.0] Old Version: [5.8.1]
+[2023-08-06 14:25:20] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/72/49/b8237cfebbdee03342f63e82805c69033ded568518844f4067c072a3cf5a/syft-0.8.2b7.tar.gz
+[2023-08-06 14:25:20] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/80/66/f4feba7dd980aa15c13b86b72ec18414ce5b65e252be5151ed4360cf8b63/deci_platform_client-5.8.1-py3-none-any.whl
+[2023-08-06 14:25:20] INFO root fetch - processPackages [naruno-scan]: Downloading https://files.pythonhosted.org/packages/80/f3/3da42ea26c525e77f7a398832ee6d829298a6ca05145c715142a55030456/naruno_scan-0.1.0.tar.gz
+[2023-08-06 14:25:20] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/7a/3d/28bf2c706c6ce1781b7ca803e9f798ea31f4d96f784b41b5640e32e23e54/syft-0.8.2b8.tar.gz
+[2023-08-06 14:25:20] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-08-06 14:25:20] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.2b7.tar.gz tmp/syft-0.8.2b8.tar.gz --markdown 20230806/s/syft/0.8.2b7-0.8.2b8/diff.md --exclude *.pyd
+[2023-08-06 14:25:20] INFO root fetch - processPackages [naruno-scan]: Downloading https://files.pythonhosted.org/packages/8c/aa/c9a5667c7b54c448ad28b952568d71acf7e9ccb1bbcc35292a58f10ef821/naruno_scan-0.1.1.tar.gz
+[2023-08-06 14:25:20] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/06/40/4278fad0a77c03c589c943cdba79398eb065736e88fe41d0aef631b74027/deci_platform_client-6.0.0-py3-none-any.whl
+[2023-08-06 14:25:21] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-08-06 14:25:21] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.8.1-py3-none-any.whl.zip tmp/deci_platform_client-6.0.0-py3-none-any.whl.zip --markdown 20230806/d/deci-platform-client/5.8.1-6.0.0/diff.md --exclude *.pyd
+[2023-08-06 14:25:21] INFO root fetch - processPackages [naruno-scan]: executing diffoscope
+[2023-08-06 14:25:21] INFO root fetch - processPackages [naruno-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_scan-0.1.0.tar.gz tmp/naruno_scan-0.1.1.tar.gz --markdown 20230806/n/naruno-scan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 14:25:21] INFO root fetch - processPackages [naruno-scan]: Remove: archive file [/home/abi/fetcher/tmp/naruno_scan-0.1.0.tar.gz]
+[2023-08-06 14:25:21] INFO root fetch - processPackages [naruno-scan]: Remove: archive file [/home/abi/fetcher/tmp/naruno_scan-0.1.1.tar.gz]
+[2023-08-06 14:25:21] INFO root fetch - main [MainThread]: End processing [naruno-scan]: success
+[2023-08-06 14:25:22] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b7.tar.gz]
+[2023-08-06 14:25:22] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b8.tar.gz]
+[2023-08-06 14:25:22] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-08-06 14:25:24] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.8.1-py3-none-any.whl.zip]
+[2023-08-06 14:25:24] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-6.0.0-py3-none-any.whl.zip]
+[2023-08-06 14:25:24] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-08-06 14:25:24] INFO root fetch - main [MainThread]: Store serial: [19193609]
