@@ -16226,3 +16226,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:22:33] INFO root fetch - processPackages [fabric2]: Remove: archive file [/home/abi/fetcher/tmp/fabric2-3.2.0.tar.gz]
 [2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [fabric2]: success
 [2023-08-06 22:22:33] INFO root fetch - main [MainThread]: Store serial: [19196976]
+[2023-08-06 22:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196976]
+[2023-08-06 22:27:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gubchat
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnctApi
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llmflows
+[2023-08-06 22:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textology
+[2023-08-06 22:27:42] INFO root fetch - processPackages [lnctApi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [textology]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [llmflows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [gubchat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 22:27:42] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/6e/10/41f295e16e81611616179b0524e3198cc6db1a3b0d1344a0abc7b41b82d8/lnctApi-0.0.2.tar.gz
+[2023-08-06 22:27:42] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-06 22:27:42] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-06 22:27:42] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-06 22:27:43] INFO root fetch - processPackages [gubchat]: Downloading https://files.pythonhosted.org/packages/53/d1/af0eb42e6620018ab87a5d5c677411b684c17ac456560d7bde1ac0797daa/gubchat-0.1.1.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/cb/31/7c53363796428cb11e72473575f880618308e68b40d45154f67ae8b892ff/textology-0.2.1.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/d1/8a/7ba657088beea67a9f8e2eb6803731739d9de02908c01f2ae802268e11fb/llmflows-0.0.8.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/9a/e3/ea16e132fe8ad972a080e590d34bc5f49f779c536cf9ce675d46326c3504/lnctApi-0.0.3.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-06 22:27:43] INFO root fetch - processPackages [lnctApi]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [lnctApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnctApi-0.0.2.tar.gz tmp/lnctApi-0.0.3.tar.gz --markdown 20230806/l/lnctApi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [gubchat]: Downloading https://files.pythonhosted.org/packages/1f/55/bbe62a9c0fa633c3393683c5ae53175b1dfd2b230f6b6ef53f6b70f3483b/gubchat-0.1.2.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/ef/d2/025c2a782f73ce2526fbafd3c5b5a5f95f5a766ac730317c81ba057e7d8b/textology-0.3.0.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/c7/cb/c86b59ec187a7675af76a57206f33dc9397eaf5a39e310a2b6649d63326d/llmflows-0.0.9.tar.gz
+[2023-08-06 22:27:43] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230806/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230806/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230806/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [gubchat]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [gubchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gubchat-0.1.1.tar.gz tmp/gubchat-0.1.2.tar.gz --markdown 20230806/g/gubchat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [textology]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [textology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textology-0.2.1.tar.gz tmp/textology-0.3.0.tar.gz --markdown 20230806/t/textology/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 22:27:43] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-08-06 22:27:43] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.8.tar.gz tmp/llmflows-0.0.9.tar.gz --markdown 20230806/l/llmflows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 22:27:44] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.2.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.3.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [lnctApi]: success
+[2023-08-06 22:27:44] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-06 22:27:44] INFO root fetch - processPackages [gubchat]: Remove: archive file [/home/abi/fetcher/tmp/gubchat-0.1.1.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [gubchat]: Remove: archive file [/home/abi/fetcher/tmp/gubchat-0.1.2.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [gubchat]: success
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-06 22:27:44] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.8.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.9.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-08-06 22:27:44] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-06 22:27:44] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.2.1.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.3.0.tar.gz]
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [textology]: success
+[2023-08-06 22:27:44] INFO root fetch - main [MainThread]: Store serial: [19196994]
