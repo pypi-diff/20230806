@@ -13294,3 +13294,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:48:09] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.6.0.0.tar.gz]
 [2023-08-06 18:48:09] INFO root fetch - main [MainThread]: End processing [pyautomail]: success
 [2023-08-06 18:48:09] INFO root fetch - main [MainThread]: Store serial: [19195676]
+[2023-08-06 18:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195676]
+[2023-08-06 18:53:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 18:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rok
+[2023-08-06 18:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YandexHome
+[2023-08-06 18:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediumvers123
+[2023-08-06 18:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mereja
+[2023-08-06 18:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YandexHome
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [mediumvers123]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-06 18:53:18] WARNING root fetch - processPackages [rok]: Skipping, unable to determine old version
+[2023-08-06 18:53:18] INFO root fetch - main [MainThread]: End processing [rok] error
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [mereja]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [mediumvers123]: Downloading https://files.pythonhosted.org/packages/e1/88/7cda99d7fcab4ac2ee84b372d5d82d0361474fd2ced8873061ddb2f986f8/mediumvers123-0.1.0.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [mereja]: Downloading https://files.pythonhosted.org/packages/da/e0/9a8bb892d06e9b237b9be66717d1db4a5f77d523a128be8ee7ae0849df88/mereja-0.0.7.tar.gz
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:53:18] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:53:18] INFO root fetch - processPackages [mereja]: Downloading https://files.pythonhosted.org/packages/4a/df/a0fa1e27e62f061d7cc50ef75ad061dce8f7327e03142f034a4c63b7de61/mereja-0.0.8.tar.gz
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mediumvers123]: Downloading https://files.pythonhosted.org/packages/f0/9b/e9d3b443066b2147514cde4222894b85845b19d9beec832c137b182d50fd/mediumvers123-0.1.2.tar.gz
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mereja]: executing diffoscope
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mereja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mereja-0.0.7.tar.gz tmp/mereja-0.0.8.tar.gz --markdown 20230806/m/mereja/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mediumvers123]: executing diffoscope
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mediumvers123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediumvers123-0.1.0.tar.gz tmp/mediumvers123-0.1.2.tar.gz --markdown 20230806/m/mediumvers123/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 18:53:19] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:53:19] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-06 18:53:19] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:53:19] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mereja]: Remove: archive file [/home/abi/fetcher/tmp/mereja-0.0.7.tar.gz]
+[2023-08-06 18:53:19] INFO root fetch - processPackages [mereja]: Remove: archive file [/home/abi/fetcher/tmp/mereja-0.0.8.tar.gz]
+[2023-08-06 18:53:19] INFO root fetch - main [MainThread]: End processing [mereja]: success
+[2023-08-06 18:53:20] INFO root fetch - processPackages [mediumvers123]: Remove: archive file [/home/abi/fetcher/tmp/mediumvers123-0.1.0.tar.gz]
+[2023-08-06 18:53:20] INFO root fetch - processPackages [mediumvers123]: Remove: archive file [/home/abi/fetcher/tmp/mediumvers123-0.1.2.tar.gz]
+[2023-08-06 18:53:20] INFO root fetch - main [MainThread]: End processing [mediumvers123]: success
+[2023-08-06 18:53:20] INFO root fetch - main [MainThread]: Store serial: [19195694]
