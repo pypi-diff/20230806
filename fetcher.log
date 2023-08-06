@@ -13240,3 +13240,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:42:58] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
 [2023-08-06 18:42:58] INFO root fetch - main [MainThread]: End processing [robyn]: success
 [2023-08-06 18:42:58] INFO root fetch - main [MainThread]: Store serial: [19195651]
+[2023-08-06 18:48:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195651]
+[2023-08-06 18:48:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautomail
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loq0
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymstodo
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnctApi
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-eskiz-sms
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartConvDS
+[2023-08-06 18:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rok
+[2023-08-06 18:48:07] INFO root fetch - processPackages [django-eskiz-sms]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-06 18:48:07] INFO root fetch - processPackages [lnctApi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 18:48:07] INFO root fetch - processPackages [loq0]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 18:48:07] INFO root fetch - processPackages [pyautomail]: New version: [1.6.0.0] Old Version: [1.5.1.4]
+[2023-08-06 18:48:07] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/f2/1f/717eb71b4bd31f998e4e4b53c07cceb1735993075468b299279e4382b8c0/django-eskiz-sms-0.1.3.tar.gz
+[2023-08-06 18:48:07] WARNING root fetch - processPackages [smartConvDS]: Skipping, unable to determine old version
+[2023-08-06 18:48:07] INFO root fetch - main [MainThread]: End processing [smartConvDS] error
+[2023-08-06 18:48:07] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/8a/91/1cca1a3e07c7095cf20bdc6efe60831cfee14eaebc9b437d8bf14e535094/lnctApi-0.0.1.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [pymstodo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 18:48:07] WARNING root fetch - processPackages [rok]: Skipping, unable to determine old version
+[2023-08-06 18:48:07] INFO root fetch - main [MainThread]: End processing [rok] error
+[2023-08-06 18:48:07] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/20/25/4b9622d8d5274eb65b9f4f305342465785ec64a21a3a08d8e6f6c8d7e47a/pyautomail-1.5.1.4.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/d9/ce/b583c1db8053d6d8e0a7eaf6ccf97a2d858b02ed8953cdd0ce4d16c4afc3/loq0-0.0.2.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/6e/10/41f295e16e81611616179b0524e3198cc6db1a3b0d1344a0abc7b41b82d8/lnctApi-0.0.2.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/48/63/a6b30cc3575aa3d7d3fd88d2809bbd7b17823addf2bbc3c4dced44724e66/pymstodo-0.1.4.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/f4/29/ba12511d98ebfda969978ea28d8ccc3f16217eb7e8000452e242fbc43561/loq0-0.0.3.tar.gz
+[2023-08-06 18:48:07] INFO root fetch - processPackages [lnctApi]: executing diffoscope
+[2023-08-06 18:48:07] INFO root fetch - processPackages [lnctApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnctApi-0.0.1.tar.gz tmp/lnctApi-0.0.2.tar.gz --markdown 20230806/l/lnctApi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 18:48:07] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/9c/73/ce31bdea73d3c77626379f914ed544bd4131ae98bd8279910bf1b5293cda/pyautomail-1.6.0.0.tar.gz
+[2023-08-06 18:48:08] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/8d/cf/14bb859ddee93592f4aa53131b9c61e672eae4dc1c767215b1f82cc12b9f/django-eskiz-sms-0.1.4.tar.gz
+[2023-08-06 18:48:08] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-08-06 18:48:08] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.2.tar.gz tmp/loq0-0.0.3.tar.gz --markdown 20230806/l/loq0/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 18:48:08] INFO root fetch - processPackages [django-eskiz-sms]: executing diffoscope
+[2023-08-06 18:48:08] INFO root fetch - processPackages [django-eskiz-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-eskiz-sms-0.1.3.tar.gz tmp/django-eskiz-sms-0.1.4.tar.gz --markdown 20230806/d/django-eskiz-sms/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-06 18:48:08] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/7e/50/95f3b714324c912a815455c0df89e75033b49755e259a4f9bfb26184e4c0/pymstodo-0.1.5.tar.gz
+[2023-08-06 18:48:08] INFO root fetch - processPackages [pyautomail]: executing diffoscope
+[2023-08-06 18:48:08] INFO root fetch - processPackages [pyautomail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautomail-1.5.1.4.tar.gz tmp/pyautomail-1.6.0.0.tar.gz --markdown 20230806/p/pyautomail/1.5.1.4-1.6.0.0/diff.md --exclude *.pyd
+[2023-08-06 18:48:08] INFO root fetch - processPackages [pymstodo]: executing diffoscope
+[2023-08-06 18:48:08] INFO root fetch - processPackages [pymstodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymstodo-0.1.4.tar.gz tmp/pymstodo-0.1.5.tar.gz --markdown 20230806/p/pymstodo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 18:48:08] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.3.tar.gz]
+[2023-08-06 18:48:08] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.4.tar.gz]
+[2023-08-06 18:48:08] INFO root fetch - main [MainThread]: End processing [django-eskiz-sms]: success
+[2023-08-06 18:48:09] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.2.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.3.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-08-06 18:48:09] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.1.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.2.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - main [MainThread]: End processing [lnctApi]: success
+[2023-08-06 18:48:09] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.4.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.5.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - main [MainThread]: End processing [pymstodo]: success
+[2023-08-06 18:48:09] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.4.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.6.0.0.tar.gz]
+[2023-08-06 18:48:09] INFO root fetch - main [MainThread]: End processing [pyautomail]: success
+[2023-08-06 18:48:09] INFO root fetch - main [MainThread]: Store serial: [19195676]
