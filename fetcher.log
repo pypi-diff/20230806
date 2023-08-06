@@ -3882,3 +3882,39 @@
 [2023-08-06 06:45:43] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.97.tar.gz]
 [2023-08-06 06:45:43] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-08-06 06:45:43] INFO root fetch - main [MainThread]: Store serial: [19191216]
+[2023-08-06 06:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191216]
+[2023-08-06 06:50:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 06:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: input-utils
+[2023-08-06 06:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2023-08-06 06:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchmark-runner
+[2023-08-06 06:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aorta-sirius-dev
+[2023-08-06 06:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-events
+[2023-08-06 06:50:52] WARNING root fetch - processPackages [pypomes-events]: Skipping, unable to determine old version
+[2023-08-06 06:50:52] INFO root fetch - main [MainThread]: End processing [pypomes-events] error
+[2023-08-06 06:50:52] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 06:50:52] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 06:50:52] WARNING root fetch - processPackages [input-utils]: Skipping, unable to determine old version
+[2023-08-06 06:50:52] INFO root fetch - main [MainThread]: End processing [input-utils] error
+[2023-08-06 06:50:52] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 06:50:52] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/bf/98/62135315e2b0d0e3faf22c48a347904b840995af3f87965ecac942747135/ns_asphalt9-0.3.2.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-08-06 06:50:52] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230806/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 06:50:52] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/20/c0/994a443be6d986439674449ed5ccbf45651c73cdc1b14bf9fe1a2702eedd/ns_asphalt9-0.3.3.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-06 06:50:52] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-08-06 06:50:52] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.3.2.tar.gz tmp/ns_asphalt9-0.3.3.tar.gz --markdown 20230806/n/ns-asphalt9/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 06:50:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-06 06:50:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230806/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 06:50:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-08-06 06:50:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-06 06:50:53] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.3.2.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.3.3.tar.gz]
+[2023-08-06 06:50:53] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-08-06 06:50:53] INFO root fetch - main [MainThread]: Store serial: [19191231]
