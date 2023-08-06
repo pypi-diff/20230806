@@ -10804,3 +10804,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:26:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-08-06 16:26:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-08-06 16:26:03] INFO root fetch - main [MainThread]: Store serial: [19194537]
+[2023-08-06 16:31:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194537]
+[2023-08-06 16:31:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starco-pkl
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bamt
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoda-tk
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolibri-ml
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-pos-product-mergeable-line
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniature-lighting-desk
+[2023-08-06 16:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cagen
+[2023-08-06 16:31:12] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.83] Old Version: [1.1.82]
+[2023-08-06 16:31:12] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:31:12] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc5] Old Version: [0.2.0rc4]
+[2023-08-06 16:31:12] WARNING root fetch - processPackages [starco-pkl]: Skipping, unable to determine old version
+[2023-08-06 16:31:12] INFO root fetch - main [MainThread]: End processing [starco-pkl] error
+[2023-08-06 16:31:12] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 16:31:12] INFO root fetch - processPackages [bamt]: New version: [1.1.46] Old Version: [1.1.45]
+[2023-08-06 16:31:12] WARNING root fetch - processPackages [odoo12-addon-pos-product-mergeable-line]: Skipping, unable to determine old version
+[2023-08-06 16:31:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-product-mergeable-line] error
+[2023-08-06 16:31:12] INFO root fetch - processPackages [miniature-lighting-desk]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 16:31:12] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/4c/1b/755aaf1c9b8a0ddf73fd7cff5977dd5309f60fb36fc5d6983bf4fee9d4f6/kolibri_ml-1.1.82-py3-none-any.whl
+[2023-08-06 16:31:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 16:31:12] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/da/20/9afa98e9e35db63cbe38be2293f0f3970cfc675fac8e0503fb503422805a/cagen-0.2.0rc4.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/72/2e/c2cb27f5b76812761d319e057bfff2c99b73125542e270bb7bde0425db38/scoda-tk-0.4.0.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/0a/95/68c352b9127bc49c7b60bc865310fb007dec97a4d3bf284a86327b512935/bamt-1.1.45.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/b7/5a/bb151b58030204aa854f421d12a5e5d5dc2055555977fc74f4c82d97c6f3/miniature_lighting_desk-0.4.3.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/36/87/6c47d215fe4a187ccdb0952f235cac1abec8fab3c1aa9c188a57f4fb553a/cagen-0.2.0rc5.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 16:31:13] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:31:13] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-08-06 16:31:13] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc4.tar.gz tmp/cagen-0.2.0rc5.tar.gz --markdown 20230806/c/cagen/0.2.0rc4-0.2.0rc5/diff.md --exclude *.pyd
+[2023-08-06 16:31:13] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/9f/7b/52512f48631c12377732b47dcba86debbfb45e37b3e1489db8d011e7afed/kolibri_ml-1.1.83-py3-none-any.whl
+[2023-08-06 16:31:13] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/88/d6/ce8096b781268500274f27d7b4956ca77e147d85787397724aaa09adc42b/bamt-1.1.46.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/15/a7/a7502467dd7d9ac0afcac3b39158e8964ae27d0b865dfa1ce4d1766bc190/miniature_lighting_desk-0.4.4.tar.gz
+[2023-08-06 16:31:13] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-08-06 16:31:13] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamt-1.1.45.tar.gz tmp/bamt-1.1.46.tar.gz --markdown 20230806/b/bamt/1.1.45-1.1.46/diff.md --exclude *.pyd
+[2023-08-06 16:31:13] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-06 16:31:13] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip tmp/kolibri_ml-1.1.83-py3-none-any.whl.zip --markdown 20230806/k/kolibri-ml/1.1.82-1.1.83/diff.md --exclude *.pyd
+[2023-08-06 16:31:13] INFO root fetch - processPackages [miniature-lighting-desk]: executing diffoscope
+[2023-08-06 16:31:13] INFO root fetch - processPackages [miniature-lighting-desk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniature_lighting_desk-0.4.3.tar.gz tmp/miniature_lighting_desk-0.4.4.tar.gz --markdown 20230806/m/miniature-lighting-desk/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 16:31:13] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/bc/3b/add79d10dfb4c51d6f9d8ccbe187a8a6f6b3ea464e46b6e129753da5de59/scoda-tk-0.4.1.tar.gz
+[2023-08-06 16:31:14] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 16:31:14] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.0.tar.gz tmp/scoda-tk-0.4.1.tar.gz --markdown 20230806/s/scoda-tk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 16:31:14] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc4.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc5.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-08-06 16:31:14] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 16:31:14] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.4.3.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.4.4.tar.gz]
+[2023-08-06 16:31:14] INFO root fetch - main [MainThread]: End processing [miniature-lighting-desk]: success
+[2023-08-06 16:31:15] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.45.tar.gz]
+[2023-08-06 16:31:15] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.46.tar.gz]
+[2023-08-06 16:31:15] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-08-06 16:31:16] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.0.tar.gz]
+[2023-08-06 16:31:16] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.1.tar.gz]
+[2023-08-06 16:31:16] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 16:31:17] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip]
+[2023-08-06 16:31:17] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.83-py3-none-any.whl.zip]
+[2023-08-06 16:31:17] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-06 16:31:17] INFO root fetch - main [MainThread]: Store serial: [19194563]
