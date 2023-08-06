@@ -10999,3 +10999,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:36:33] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc9.tar.gz]
 [2023-08-06 16:36:33] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
 [2023-08-06 16:36:33] INFO root fetch - main [MainThread]: Store serial: [19194619]
+[2023-08-06 16:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194619]
+[2023-08-06 16:41:42] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YandexHome
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: segretini-matplottini
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cagen
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i2cssh
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Fletxible
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpubs
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syscolouringspackageV1
+[2023-08-06 16:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: report-dh
+[2023-08-06 16:41:42] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [YandexHome]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [Fletxible]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc6] Old Version: [0.2.0rc5]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:41:42] WARNING root fetch - processPackages [syscolouringspackageV1]: Skipping, unable to determine old version
+[2023-08-06 16:41:42] INFO root fetch - processPackages [syscolouringspackageV1]: Start processing: changelog-parser
+[2023-08-06 16:41:42] INFO root fetch - main [MainThread]: End processing [syscolouringspackageV1] error
+[2023-08-06 16:41:42] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/52/1a/60e8f8dad4945ac6bc9de8ef636ac8a3732a4fb00d550286318c43d8649f/Fletxible-0.6.6.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [i2cssh]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [gpubs]: New version: [6] Old Version: [5]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/6f/e4/4fe6c91f9f604bd7681851ac3fa08ac54c6f1a8c21571c6b292bf18de8bf/YandexHome-0.1.1.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [changelog-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 16:41:42] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/36/87/6c47d215fe4a187ccdb0952f235cac1abec8fab3c1aa9c188a57f4fb553a/cagen-0.2.0rc5.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [changelog-parser]: Downloading https://files.pythonhosted.org/packages/b1/01/bddd169c45a4f0b542377071160c5f2a6d4891e6b6445502b9e32b50d09b/changelog-parser-0.0.3.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/58/c6/9469f2341e25773bd50b31968533f7cf56621b0172d3620581f70ae2b1ec/i2cssh-0.1.6.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/09/17/ee164287a4655e2298e57b3de2d5c0f674ccb56f75744f776f5b3e101e32/gpubs-5.tar.gz
+[2023-08-06 16:41:42] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/c9/f0/04abd7305d6d0c1a8924bc925fc2e16a6a1f2dd2d39173f6e387cf1e8488/segretini-matplottini-0.2.1.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/5d/ce/04aeb08cecc92bc7a9a94eb52d562b2ca3c3e2922d3fb4f2929c4f2033bd/YandexHome-0.1.2.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/66/04/7f8de5cf3716c402255d042666d61a44eb9664077fd730fd91850e069dfc/Fletxible-0.6.7-py3-none-any.whl
+[2023-08-06 16:41:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230806/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/26/51/9c7b95b6032cc678efed11fac0be20458e3debd15dfb5b5d26a5a796debe/cagen-0.2.0rc6.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [changelog-parser]: Downloading https://files.pythonhosted.org/packages/51/1f/1db8c1383b01dcd905d945a927ce07c8b7096b862815292fcf763b8e15e3/changelog-parser-0.0.4.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.1.tar.gz tmp/YandexHome-0.1.2.tar.gz --markdown 20230806/Y/YandexHome/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.6.tar.gz tmp/Fletxible-0.6.7-py3-none-any.whl.zip --markdown 20230806/F/Fletxible/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc5.tar.gz tmp/cagen-0.2.0rc6.tar.gz --markdown 20230806/c/cagen/0.2.0rc5-0.2.0rc6/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230806/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/5d/60/20c5c1f0a2df04fa752b9de20344f9e90cea9d8f66081a9d1ce433311108/i2cssh-0.1.7.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [changelog-parser]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [changelog-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog-parser-0.0.3.tar.gz tmp/changelog-parser-0.0.4.tar.gz --markdown 20230806/c/changelog-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/ba/81/7876d4c71f130e47196dcd9f5972e83e90c98e0569c2a03f4404db40b26a/gpubs-6.tar.gz
+[2023-08-06 16:41:43] INFO root fetch - processPackages [i2cssh]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [i2cssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cssh-0.1.6.tar.gz tmp/i2cssh-0.1.7.tar.gz --markdown 20230806/i/i2cssh/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [gpubs]: executing diffoscope
+[2023-08-06 16:41:43] INFO root fetch - processPackages [gpubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpubs-5.tar.gz tmp/gpubs-6.tar.gz --markdown 20230806/g/gpubs/5-6/diff.md --exclude *.pyd
+[2023-08-06 16:41:43] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/85/0e/9854cf34905caf8eef1ab403d9255a0a97ae0de26b1551ead392da85689b/segretini-matplottini-0.2.2.tar.gz
+[2023-08-06 16:41:44] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 16:41:44] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.1.tar.gz tmp/segretini-matplottini-0.2.2.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 16:41:44] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [report-dh]: Start processing: datoso
+[2023-08-06 16:41:44] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-06 16:41:44] INFO root fetch - processPackages [datoso]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.6.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.7-py3-none-any.whl.zip]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [Fletxible]: Start processing: kolibri-ml
+[2023-08-06 16:41:44] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 16:41:44] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.1.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.2.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [YandexHome]: Start processing: scoda-tk
+[2023-08-06 16:41:44] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 16:41:44] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.84] Old Version: [1.1.83]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/b8/0d/2bc793c6b1eed08a51588f831fbf5f998e53aaba8751f07ae54c506e0790/datoso-0.3.2.tar.gz
+[2023-08-06 16:41:44] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/bc/3b/add79d10dfb4c51d6f9d8ccbe187a8a6f6b3ea464e46b6e129753da5de59/scoda-tk-0.4.1.tar.gz
+[2023-08-06 16:41:44] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/9f/7b/52512f48631c12377732b47dcba86debbfb45e37b3e1489db8d011e7afed/kolibri_ml-1.1.83-py3-none-any.whl
+[2023-08-06 16:41:44] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc5.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc6.tar.gz]
+[2023-08-06 16:41:44] INFO root fetch - processPackages [cagen]: Start processing: tcia-utils
+[2023-08-06 16:41:44] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [TheSilent]: Start processing: surquest-utils-random-string-generator
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [always-updates]: Start processing: taiwanlotterycrawler
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [changelog-parser]: Remove: archive file [/home/abi/fetcher/tmp/changelog-parser-0.0.3.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [changelog-parser]: Remove: archive file [/home/abi/fetcher/tmp/changelog-parser-0.0.4.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [changelog-parser]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [i2cssh]: Remove: archive file [/home/abi/fetcher/tmp/i2cssh-0.1.6.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [i2cssh]: Remove: archive file [/home/abi/fetcher/tmp/i2cssh-0.1.7.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [i2cssh]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-5.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-6.tar.gz]
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [gpubs]: success
+[2023-08-06 16:41:45] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/1a/20/7a03e727571edfe1eea8b1829dfa741baa0fd66d2559d2a361fd01fca028/tcia_utils-1.6.1.tar.gz
+[2023-08-06 16:41:45] WARNING root fetch - processPackages [surquest-utils-random-string-generator]: Skipping, unable to determine old version
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [surquest-utils-random-string-generator] error
+[2023-08-06 16:41:45] WARNING root fetch - processPackages [taiwanlotterycrawler]: Skipping, unable to determine old version
+[2023-08-06 16:41:45] INFO root fetch - main [MainThread]: End processing [taiwanlotterycrawler] error
+[2023-08-06 16:41:45] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/e4/da/03eb00405f0b40d284e3c42ce1c9c90c6b096cf98d18d87fd63f436a300f/datoso-0.3.3.tar.gz
+[2023-08-06 16:41:45] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/9e/9d/8c77957461b03475e0c622a810e95382ca57bcb1b0e56f7ca18c0e861ac4/tcia_utils-1.6.2.tar.gz
+[2023-08-06 16:41:45] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/64/6d/6a22c3b67ef750dca858db9426710f5ad4f0512684410287f58dd48952e6/kolibri_ml-1.1.84-py3-none-any.whl
+[2023-08-06 16:41:45] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2023-08-06 16:41:45] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.3.2.tar.gz tmp/datoso-0.3.3.tar.gz --markdown 20230806/d/datoso/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 16:41:45] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-08-06 16:41:45] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.1.tar.gz tmp/tcia_utils-1.6.2.tar.gz --markdown 20230806/t/tcia-utils/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-08-06 16:41:45] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/21/b1/3161f4cd3469887d662a3a0c7c0ce88bf040b000c36d7a2ae8fc91061206/scoda-tk-0.4.2.tar.gz
+[2023-08-06 16:41:45] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-06 16:41:45] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.83-py3-none-any.whl.zip tmp/kolibri_ml-1.1.84-py3-none-any.whl.zip --markdown 20230806/k/kolibri-ml/1.1.83-1.1.84/diff.md --exclude *.pyd
+[2023-08-06 16:41:45] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 16:41:45] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.1.tar.gz tmp/scoda-tk-0.4.2.tar.gz --markdown 20230806/s/scoda-tk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-06 16:41:46] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.1.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.2.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 16:41:46] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.2.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.3.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2023-08-06 16:41:46] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.1.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.2.tar.gz]
+[2023-08-06 16:41:46] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-08-06 16:41:47] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.1.tar.gz]
+[2023-08-06 16:41:47] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.2.tar.gz]
+[2023-08-06 16:41:47] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 16:41:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.83-py3-none-any.whl.zip]
+[2023-08-06 16:41:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.84-py3-none-any.whl.zip]
+[2023-08-06 16:41:49] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-06 16:41:49] INFO root fetch - main [MainThread]: Store serial: [19194673]
