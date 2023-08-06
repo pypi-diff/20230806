@@ -1823,3 +1823,127 @@
 [2023-08-06 02:48:43] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip]
 [2023-08-06 02:48:43] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-08-06 02:48:43] INFO root fetch - main [MainThread]: Store serial: [19190317]
+[2023-08-06 02:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190317]
+[2023-08-06 02:53:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FiveMCipherFinder
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-rim
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heizer
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollo11log
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-databrew-cicd
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: busylight-for-humans
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medisearch-client
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: option-tradert
+[2023-08-06 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apollo11log
+[2023-08-06 02:53:52] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-06 02:53:53] WARNING root fetch - processPackages [medisearch-client]: Skipping, unable to determine old version
+[2023-08-06 02:53:53] INFO root fetch - processPackages [medisearch-client]: Start processing: cdk-sns-notify
+[2023-08-06 02:53:53] INFO root fetch - main [MainThread]: End processing [medisearch-client] error
+[2023-08-06 02:53:53] WARNING root fetch - processPackages [option-tradert]: Skipping, unable to determine old version
+[2023-08-06 02:53:53] INFO root fetch - processPackages [option-tradert]: Start processing: local_chamber
+[2023-08-06 02:53:53] INFO root fetch - main [MainThread]: End processing [option-tradert] error
+[2023-08-06 02:53:53] INFO root fetch - processPackages [torch-rim]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/06/48/1703ec8a661108748d7fa30f496e2e4ef20181cc2ca44e4cb4dd52ca373d/FiveMCipherFinder-2.3.0.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [OZI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [busylight-for-humans]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [heizer]: New version: [999999.dev1690413391] Old Version: [999999.dev1681441540]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [local_chamber]: New version: [1.9.3] Old Version: [1.8.1]
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/fb/75/45cedb6f2c3fbe6c194446b35b6495bf9808b43332ee7bbc387999792660/apollo11log-0.1.0.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/fb/75/45cedb6f2c3fbe6c194446b35b6495bf9808b43332ee7bbc387999792660/apollo11log-0.1.0.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [local_chamber]: Downloading https://files.pythonhosted.org/packages/45/e2/79cf3aa0c4009b31d425f37308123edb1e3b0495b24e2bb8772c82865c01/local_chamber-1.8.1.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/ae/9c/8fd980e33da77fefefc96bf26a328fdedda9b50452094fddb0d75d9894f2/OZI-0.0.6-~=3.9-none-any.whl
+[2023-08-06 02:53:53] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/a0/cb/07fa5b0bcc6d4a3ae7b0d2dbbf8653ed26742168ad9ec967001c970ffac7/torch_rim-0.2.8.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/eb/09/99913c2d41a107a5aa49aef72513af782ac2ce66a90b5c7e83cb52710d80/FiveMCipherFinder-2.4.0.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/58/15/39b39a544dc414932763a6f9db4a3f0f570878d526a876995526a7f65e63/heizer-999999.dev1681441540.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [busylight-for-humans]: Downloading https://files.pythonhosted.org/packages/1b/e8/a88715482339e36b1d6650f43d9943f39a40ec67fec1557361b28a94144c/busylight-for-humans-0.8.3.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-08-06 02:53:53] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-2.3.0.tar.gz tmp/FiveMCipherFinder-2.4.0.tar.gz --markdown 20230806/F/FiveMCipherFinder/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-06 02:53:53] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7f/12/46e3f3793de828bf9551ea05af54362105ebd5752e688a3067953670a206/OZI-0.0.7.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/af/25/c32717d934f2f39caba06825ddfcd02e0ad571244723a03c9a9237397d4c/apollo11log-0.1.1.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/af/25/c32717d934f2f39caba06825ddfcd02e0ad571244723a03c9a9237397d4c/apollo11log-0.1.1.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [local_chamber]: Downloading https://files.pythonhosted.org/packages/ac/d7/91ec928da8ed012035fa600c501e7231f1a789b9cab393d1754582f64314/local_chamber-1.9.3.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [torch-rim]: Downloading https://files.pythonhosted.org/packages/e9/b3/3b0a8b3d77481df51154e95ca240b49b5c10084d98ae81a3a783b47d1156/torch_rim-0.2.9.tar.gz
+[2023-08-06 02:53:53] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2023-08-06 02:53:53] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.6-~=3.9-none-any.whl.zip tmp/OZI-0.0.7.tar.gz --markdown 20230806/O/OZI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-08-06 02:53:53] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230806/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [heizer]: Downloading https://files.pythonhosted.org/packages/db/3f/265b8e13c2ad6c1670907086e3a4aa18dd3c94446cf19639d42967a6843b/heizer-999999.dev1690413391.tar.gz
+[2023-08-06 02:53:54] INFO root fetch - processPackages [busylight-for-humans]: Downloading https://files.pythonhosted.org/packages/dc/cc/4856a4f1fa3d4e20a3fb13b6a11c9b6742e034323aa49c49f7f2951a084b/busylight-for-humans-0.9.0.tar.gz
+[2023-08-06 02:53:54] INFO root fetch - processPackages [apollo11log]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [apollo11log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo11log-0.1.0.tar.gz tmp/apollo11log-0.1.1.tar.gz --markdown 20230806/a/apollo11log/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [apollo11log]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [apollo11log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo11log-0.1.0.tar.gz tmp/apollo11log-0.1.1.tar.gz --markdown 20230806/a/apollo11log/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [local_chamber]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [local_chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_chamber-1.8.1.tar.gz tmp/local_chamber-1.9.3.tar.gz --markdown 20230806/l/local_chamber/1.8.1-1.9.3/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.8.tar.gz tmp/torch_rim-0.2.9.tar.gz --markdown 20230806/t/torch-rim/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-08-06 02:53:54] INFO root fetch - processPackages [busylight-for-humans]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [busylight-for-humans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busylight-for-humans-0.8.3.tar.gz tmp/busylight-for-humans-0.9.0.tar.gz --markdown 20230806/b/busylight-for-humans/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [heizer]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [heizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heizer-999999.dev1681441540.tar.gz tmp/heizer-999999.dev1690413391.tar.gz --markdown 20230806/h/heizer/999999.dev1681441540-999999.dev1690413391/diff.md --exclude *.pyd
+[2023-08-06 02:53:54] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-08-06 02:53:54] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230806/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:53:55] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.3.0.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.4.0.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [FiveMCipherFinder]: Start processing: pycde
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-08-06 02:53:55] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev988] Old Version: [0.2.1.dev961]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.6-~=3.9-none-any.whl.zip]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.7.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [OZI]: Start processing: torch-rim
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2023-08-06 02:53:55] INFO root fetch - processPackages [torch-rim]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b7/ed/804e0141dfcd66f1160e48bcb2d0162bfe55d21ef588a6e07e0806b0a859/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl
+[2023-08-06 02:53:55] INFO root fetch - processPackages [torch-rim]: executing diffoscope
+[2023-08-06 02:53:55] INFO root fetch - processPackages [torch-rim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_rim-0.2.8.tar.gz tmp/torch_rim-0.2.9.tar.gz --markdown 20230806/t/torch-rim/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-08-06 02:53:55] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.0.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.1.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [apollo11log]: success
+[2023-08-06 02:53:55] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.8.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [torch-rim]: Remove: archive file [/home/abi/fetcher/tmp/torch_rim-0.2.9.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [torch-rim]: success
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-08-06 02:53:55] INFO root fetch - main [MainThread]: End processing [apollo11log]: success
+[2023-08-06 02:53:56] INFO root fetch - processPackages [busylight-for-humans]: Remove: archive file [/home/abi/fetcher/tmp/busylight-for-humans-0.8.3.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - processPackages [busylight-for-humans]: Remove: archive file [/home/abi/fetcher/tmp/busylight-for-humans-0.9.0.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - main [MainThread]: End processing [busylight-for-humans]: success
+[2023-08-06 02:53:56] INFO root fetch - processPackages [heizer]: Remove: archive file [/home/abi/fetcher/tmp/heizer-999999.dev1681441540.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - processPackages [heizer]: Remove: archive file [/home/abi/fetcher/tmp/heizer-999999.dev1690413391.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - main [MainThread]: End processing [heizer]: success
+[2023-08-06 02:53:56] ERROR root fetch - processPackages [torch-rim]: Diffoscope failed: time="2023-08-06T02:53:55+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/torch_rim-0.2.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/torch_rim-0.2.9.tar.gz: No such file or directory
+
+[2023-08-06 02:53:56] INFO root fetch - main [MainThread]: End processing [torch-rim] error
+[2023-08-06 02:53:56] INFO root fetch - processPackages [local_chamber]: Remove: archive file [/home/abi/fetcher/tmp/local_chamber-1.8.1.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - processPackages [local_chamber]: Remove: archive file [/home/abi/fetcher/tmp/local_chamber-1.9.3.tar.gz]
+[2023-08-06 02:53:56] INFO root fetch - main [MainThread]: End processing [local_chamber]: success
+[2023-08-06 02:53:56] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-08-06 02:53:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-08-06 02:53:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230806/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:53:57] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b9/ae/7d052a4c453053b2cbbee8bd65271ab000dd63312d3de98a9c90ca0d9952/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl
+[2023-08-06 02:53:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-08-06 02:53:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-08-06 02:53:57] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-08-06 02:53:59] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-08-06 02:53:59] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip --markdown 20230806/p/pycde/0.2.1.dev961-0.2.1.dev988/diff.md --exclude *.pyd
+[2023-08-06 02:54:25] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 02:54:25] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 02:54:25] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-08-06 02:54:25] INFO root fetch - main [MainThread]: Store serial: [19190367]
