@@ -6668,3 +6668,24 @@
 [2023-08-06 11:26:29] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
 [2023-08-06 11:26:29] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-08-06 11:26:29] INFO root fetch - main [MainThread]: Store serial: [19192712]
+[2023-08-06 11:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192712]
+[2023-08-06 11:31:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 11:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FJUtils
+[2023-08-06 11:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upload-machine
+[2023-08-06 11:31:38] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.78]
+[2023-08-06 11:31:38] INFO root fetch - processPackages [FJUtils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 11:31:38] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/82/d5/e18924df9d3e0d3651c956dd2f02740af8910ccecf4b02c1eef683e9cddf/upload_machine-0.0.78.tar.gz
+[2023-08-06 11:31:38] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/53/b1/17c998996aa0b1f5c24d8951afe80ff313393105a6948c88020b0c7d956b/FJUtils-0.0.8.tar.gz
+[2023-08-06 11:31:38] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 11:31:38] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 11:31:38] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.78.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.78-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 11:31:38] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/09/5e/52ca84dd4a114715e08feb8b0403a7e4241a1db15efa0c4c0fd3799e3f5a/FJUtils-0.0.9.tar.gz
+[2023-08-06 11:31:38] INFO root fetch - processPackages [FJUtils]: executing diffoscope
+[2023-08-06 11:31:38] INFO root fetch - processPackages [FJUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FJUtils-0.0.8.tar.gz tmp/FJUtils-0.0.9.tar.gz --markdown 20230806/F/FJUtils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 11:31:39] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.8.tar.gz]
+[2023-08-06 11:31:39] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.9.tar.gz]
+[2023-08-06 11:31:39] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
+[2023-08-06 11:31:39] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.78.tar.gz]
+[2023-08-06 11:31:39] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 11:31:39] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 11:31:39] INFO root fetch - main [MainThread]: Store serial: [19192717]
