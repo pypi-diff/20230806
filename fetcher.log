@@ -14718,3 +14718,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:33:11] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
 [2023-08-06 20:33:11] INFO root fetch - main [MainThread]: End processing [perceval]: success
 [2023-08-06 20:33:11] INFO root fetch - main [MainThread]: Store serial: [19196330]
+[2023-08-06 20:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196330]
+[2023-08-06 20:38:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orjson
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eth-monitor
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-crosslink-plugin
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manageritm-client
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upiano
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sortinghat
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perceval-weblate
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perceval-puppet
+[2023-08-06 20:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perceval-mozilla
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-weblate]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 20:38:20] WARNING root fetch - processPackages [upiano]: Skipping, unable to determine old version
+[2023-08-06 20:38:20] INFO root fetch - processPackages [upiano]: Start processing: perceval-opnfv
+[2023-08-06 20:38:20] INFO root fetch - main [MainThread]: End processing [upiano] error
+[2023-08-06 20:38:20] INFO root fetch - processPackages [eth-monitor]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [sortinghat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-mozilla]: New version: [0.3.9] Old Version: [0.3.8rc2]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [orjson]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-08-06 20:38:20] WARNING root fetch - processPackages [manageritm-client]: Skipping, unable to determine old version
+[2023-08-06 20:38:20] INFO root fetch - processPackages [manageritm-client]: Start processing: pyclugen
+[2023-08-06 20:38:20] INFO root fetch - main [MainThread]: End processing [manageritm-client] error
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/f2/c3/95c90878e195005396b2b83ba49ab7759b678bfeb532b6ffcad220fbfb15/perceval_weblate-0.2.8rc2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Downloading https://files.pythonhosted.org/packages/20/34/f940c2a3ea6b31db84d17422efc5e14d899676616f43e8fbe0143d966993/mkdocs-crosslink-plugin-0.0.1.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/0f/f7/ec66cd92ef0115fd9ac2f45c0e45d942b387401d0efdcec0304f50659838/eth-monitor-0.7.6.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/4c/a1/f3ab5541113a366757b9481d62f38c8459015a3fa1e025fa1e0b6bf53ab0/perceval_puppet-0.2.8rc2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/29/0e/1ae20bc4d8fff238a7c60866849ba9810bc75e0428fe1f8cf2733b69bdc3/perceval_mozilla-0.3.8rc2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/bc/5f/6c2f1cc8dbcea9a7a68f7df7943d4f8d673c667918c3c1482666d9d63d5b/sortinghat-0.9.2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/5c/77/9530594bf6c3822d57cc3519d7038f264d3ec68563d282c09a41cacfcd8b/perceval_opnfv-0.2.8rc2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [pyclugen]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-08-06 20:38:20] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [orjson]: Downloading https://files.pythonhosted.org/packages/30/a4/96bcb52da0de9ccfcd99a60719b995c9b9c3aaa3a70701f0790ce856c10d/orjson-3.9.2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/48/d1/593efeaed207d5da1fafdbba1a96850fc3396a63d633833367903f0b3a08/perceval_weblate-0.2.9.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Downloading https://files.pythonhosted.org/packages/9b/9e/ea4d34f0bfb2bb1346b6b13fe0bf5ea049f5d917ce919d38049ddbb36681/mkdocs-crosslink-plugin-0.0.2.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/5e/01/7e3d38cb76bd0ac44b7a8512c358c5013e08d53e48fee4ace851c4c95fd8/perceval_puppet-0.2.9.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/e3/9d/7d10481cc277cd1a411445a95034bf002b600d94fe4ac47252c31536d6ef/eth-monitor-0.8.0.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [pyclugen]: Downloading https://files.pythonhosted.org/packages/d8/ae/b5abac31c02ec0f8aacbf6a8757dfd058ab241ff382de679c75f7c776bf0/pyclugen-0.4.0.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/92/25/4a46c7ef7ea23e1e879e7d2f4e84e557e20c34b461418a7c61d06036caa4/perceval_mozilla-0.3.9.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/45/31/4d8e7afbe78e4396469b939734a808a0073335f82e0dbcbebef94a25b892/perceval_opnfv-0.2.9.tar.gz
+[2023-08-06 20:38:20] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: executing diffoscope
+[2023-08-06 20:38:20] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-crosslink-plugin-0.0.1.tar.gz tmp/mkdocs-crosslink-plugin-0.0.2.tar.gz --markdown 20230806/m/mkdocs-crosslink-plugin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2023-08-06 20:38:20] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-0.2.8rc2.tar.gz tmp/perceval_weblate-0.2.9.tar.gz --markdown 20230806/p/perceval-weblate/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/d5/20/61bac871c1af5992b72b2ccd716054e7fd78f48a47b85864f1d48aca3e26/sortinghat-0.9.3.tar.gz
+[2023-08-06 20:38:21] INFO root fetch - processPackages [eth-monitor]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [eth-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-monitor-0.7.6.tar.gz tmp/eth-monitor-0.8.0.tar.gz --markdown 20230806/e/eth-monitor/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.8rc2.tar.gz tmp/perceval_puppet-0.2.9.tar.gz --markdown 20230806/p/perceval-puppet/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc2.tar.gz tmp/perceval_opnfv-0.2.9.tar.gz --markdown 20230806/p/perceval-opnfv/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-0.3.8rc2.tar.gz tmp/perceval_mozilla-0.3.9.tar.gz --markdown 20230806/p/perceval-mozilla/0.3.8rc2-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [orjson]: Downloading https://files.pythonhosted.org/packages/5a/de/2b9cddafa222cc60d6ac9b0b6c045ead0e5515b456410f6b7233ed1a1fa1/orjson-3.9.3-cp39-none-win_amd64.whl
+[2023-08-06 20:38:21] INFO root fetch - processPackages [pyclugen]: Downloading https://files.pythonhosted.org/packages/c9/e7/7241c36051799149c135b1f4b09d48409d514fadb65a8c3b3e9a6839066a/pyclugen-1.0.0.tar.gz
+[2023-08-06 20:38:21] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230806/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.2.tar.gz tmp/sortinghat-0.9.3.tar.gz --markdown 20230806/s/sortinghat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [orjson]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [orjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orjson-3.9.2.tar.gz tmp/orjson-3.9.3-cp39-none-win_amd64.whl.zip --markdown 20230806/o/orjson/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-08-06 20:38:21] INFO root fetch - processPackages [pyclugen]: executing diffoscope
+[2023-08-06 20:38:21] INFO root fetch - processPackages [pyclugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclugen-0.4.0.tar.gz tmp/pyclugen-1.0.0.tar.gz --markdown 20230806/p/pyclugen/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 20:38:22] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-crosslink-plugin-0.0.1.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-crosslink-plugin-0.0.2.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Start processing: open-interpreter
+[2023-08-06 20:38:22] INFO root fetch - main [MainThread]: End processing [mkdocs-crosslink-plugin]: success
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-0.2.8rc2.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-0.2.9.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2023-08-06 20:38:22] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.257] Old Version: [0.0.256]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.8rc2.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.9.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.8rc2.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.9.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-08-06 20:38:22] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/23/09/26e03ddf59c3d67f9b4d4b6025ce0ec3f702fb2d33af9647c5b006e85288/open_interpreter-0.0.256.tar.gz
+[2023-08-06 20:38:22] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.7.6.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.0.tar.gz]
+[2023-08-06 20:38:22] INFO root fetch - main [MainThread]: End processing [eth-monitor]: success
+[2023-08-06 20:38:23] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-0.3.8rc2.tar.gz]
+[2023-08-06 20:38:23] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-0.3.9.tar.gz]
+[2023-08-06 20:38:23] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2023-08-06 20:38:23] INFO root fetch - processPackages [pyclugen]: Remove: archive file [/home/abi/fetcher/tmp/pyclugen-0.4.0.tar.gz]
+[2023-08-06 20:38:23] INFO root fetch - processPackages [pyclugen]: Remove: archive file [/home/abi/fetcher/tmp/pyclugen-1.0.0.tar.gz]
+[2023-08-06 20:38:23] INFO root fetch - main [MainThread]: End processing [pyclugen]: success
+[2023-08-06 20:38:23] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a0/d5/71008be560920d0c29f8ca20bd01971a275482024595d9da25e6d37bf48e/open_interpreter-0.0.257.tar.gz
+[2023-08-06 20:38:23] INFO root fetch - processPackages [orjson]: Remove: archive file [/home/abi/fetcher/tmp/orjson-3.9.2.tar.gz]
+[2023-08-06 20:38:23] INFO root fetch - processPackages [orjson]: Remove: archive file [/home/abi/fetcher/tmp/orjson-3.9.3-cp39-none-win_amd64.whl.zip]
+[2023-08-06 20:38:23] INFO root fetch - main [MainThread]: End processing [orjson]: success
+[2023-08-06 20:38:23] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 20:38:23] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.256.tar.gz tmp/open_interpreter-0.0.257.tar.gz --markdown 20230806/o/open-interpreter/0.0.256-0.0.257/diff.md --exclude *.pyd
+[2023-08-06 20:38:24] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-08-06 20:38:24] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.2.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.3.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-08-06 20:38:24] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.256.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.257.tar.gz]
+[2023-08-06 20:38:24] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 20:38:24] INFO root fetch - main [MainThread]: Store serial: [19196384]
