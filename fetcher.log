@@ -9200,3 +9200,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:51:40] INFO root fetch - processPackages [itk-topologycontrol]: Remove: archive file [/home/abi/fetcher/tmp/itk_topologycontrol-1.1.0-cp39-cp39-win_amd64.whl.zip]
 [2023-08-06 14:51:40] INFO root fetch - main [MainThread]: End processing [itk-topologycontrol]: success
 [2023-08-06 14:51:40] INFO root fetch - main [MainThread]: Store serial: [19193822]
+[2023-08-06 14:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193822]
+[2023-08-06 14:56:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlp-models
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huhk
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecha
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlib
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casbin-graphql-authz
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fletxible
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chainlib-eth
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jlogr
+[2023-08-06 14:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tablate
+[2023-08-06 14:56:50] INFO root fetch - processPackages [jlogr]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-08-06 14:56:50] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [huhk]: New version: [2.1.5] Old Version: [2.1.3]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [Fletxible]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [mecha]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [nlp-models]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-06 14:56:51] WARNING root fetch - processPackages [casbin-graphql-authz]: Skipping, unable to determine old version
+[2023-08-06 14:56:51] INFO root fetch - main [MainThread]: End processing [casbin-graphql-authz] error
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib-eth]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-08-06 14:56:51] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/0c/90/970963906da4b79649d93e9fcdf0ece8feea6af8b3f827a6b263be46a7a2/jlogr-0.1.18.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/74/a9/8530d0f7af85256a2e33c3b11a0ab81fed9d20b22b01037336f1efbf26d1/chainlib-0.4.8.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/69/f0/2179ecbb2ac62dccabf9e363e85f7153df0d62de1f5d22f295eefe058dbf/Fletxible-0.6.3.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/e6/6d/692146a50f7a3dfda9a425e4b513c0e4485e90e12cb24ecc8019458f945f/nlp-models-4.0.1.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/28/57/da22dd551f33f6b582c19b734b74b26aee1d4803dcb574a2f1364532ba4d/mecha-0.9.1.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/cd/97/f79a1232ab8542f94f3de6b799b5b80d4fdf5b33f4f9bdb4eb8d5b5e84ea/huhk-2.1.5.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/93/29/d66b795b7ad41d9cec3c9bf4bd862baefb08813ac813b30e268f14d56db7/chainlib-eth-0.4.9.tar.gz
+[2023-08-06 14:56:51] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 17201078>=10485760
+[2023-08-06 14:56:51] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/d2/c1/c82620206cd2e44148a47b1009b67b854f7c6bb870d44537182fdbd02dd8/chainlib-0.4.9.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/af/ff/8c673eda639902391bdaea8f0c7307f72a749cdece4f139ffa7cea0e2048/jlogr-0.1.19.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/78/99/af4c98505732a8286efa6cfde69280a34e576c567deddd1b5b8b08b43dd0/Fletxible-0.6.4.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/3b/e2/e7c1e1c444aa71525befa927bba204524c1e22a164ae9be3310ca6086287/nlp-models-4.1.0.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib]: executing diffoscope
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-0.4.8.tar.gz tmp/chainlib-0.4.9.tar.gz --markdown 20230806/c/chainlib/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 14:56:51] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/6f/a1/0f57164803886c9e226d6e5c23400fa86bc0a33db9e0dde0312bc627047f/mecha-0.9.2.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:56:51] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:56:51] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 14:56:51] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.18.tar.gz tmp/jlogr-0.1.19.tar.gz --markdown 20230806/j/jlogr/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-08-06 14:56:51] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/88/c5/0461b450e7a041bc5e916b2cca85b44d593d648399b9ada72c18017857fa/chainlib-eth-0.5.0.tar.gz
+[2023-08-06 14:56:51] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-08-06 14:56:51] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-4.0.1.tar.gz tmp/nlp-models-4.1.0.tar.gz --markdown 20230806/n/nlp-models/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-08-06 14:56:52] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 14:56:52] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.3.tar.gz tmp/Fletxible-0.6.4.tar.gz --markdown 20230806/F/Fletxible/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-08-06 14:56:52] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2023-08-06 14:56:52] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.9.1.tar.gz tmp/mecha-0.9.2.tar.gz --markdown 20230806/m/mecha/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 14:56:52] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-06 14:56:52] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230806/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-06 14:56:52] INFO root fetch - processPackages [chainlib-eth]: executing diffoscope
+[2023-08-06 14:56:52] INFO root fetch - processPackages [chainlib-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-eth-0.4.9.tar.gz tmp/chainlib-eth-0.5.0.tar.gz --markdown 20230806/c/chainlib-eth/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-08-06 14:56:53] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.18.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.19.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.8.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.9.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [chainlib]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-4.0.1.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-4.1.0.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.3.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.4.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.4.9.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.5.0.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
+[2023-08-06 14:56:53] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.1.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.2.tar.gz]
+[2023-08-06 14:56:53] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2023-08-06 14:57:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-06 14:57:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-06 14:57:06] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-06 14:57:06] INFO root fetch - main [MainThread]: Store serial: [19193857]
