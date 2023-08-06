@@ -5963,3 +5963,99 @@
 [2023-08-06 10:28:52] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.53-py3-none-any.whl.zip]
 [2023-08-06 10:28:52] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
 [2023-08-06 10:28:52] INFO root fetch - main [MainThread]: Store serial: [19192277]
+[2023-08-06 10:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192277]
+[2023-08-06 10:34:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gender-detection-local
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaldi-native-fbank
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PPP-Lang-Translation
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nn-template-core
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyntcli
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfhpo-simulator
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-rmt
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiddifypanel
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stadata-semver
+[2023-08-06 10:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upload-machine
+[2023-08-06 10:34:01] INFO root fetch - processPackages [pyntcli]: New version: [0.1.53] Old Version: [0.1.52]
+[2023-08-06 10:34:01] WARNING root fetch - processPackages [PPP-Lang-Translation]: Skipping, unable to determine old version
+[2023-08-06 10:34:01] INFO root fetch - processPackages [PPP-Lang-Translation]: Start processing: decontext
+[2023-08-06 10:34:01] INFO root fetch - main [MainThread]: End processing [PPP-Lang-Translation] error
+[2023-08-06 10:34:01] INFO root fetch - processPackages [stadata-semver]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.75]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [gender-detection-local]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [scikit-rmt]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/bf/5b/9fd173e89071b95db67ac78951d17a6fc430c1005999353d1475e97fa469/pyntcli-0.1.52-py3-none-any.whl
+[2023-08-06 10:34:01] INFO root fetch - processPackages [nn-template-core]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [decontext]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [stadata-semver]: Downloading https://files.pythonhosted.org/packages/7d/aa/8af9854791ebdb726d6d18fbf68f270c010d14c0a4d2c0b789385fd5530a/stadata_semver-0.2.1.tar.gz
+[2023-08-06 10:34:01] INFO root fetch - processPackages [kaldi-native-fbank]: New version: [1.9] Old Version: [1.18.0]
+[2023-08-06 10:34:01] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/9f/60/caba52d125e4e253283fad4346349fb4f80dcbc9285bb106e23657aa9c62/gender-detection-local-0.1.7.tar.gz
+[2023-08-06 10:34:01] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/14/b1/c5d2e5bc519f56469a47a2d1c72d417fc6c6da6ec6a174bab60e875a17d9/mfhpo_simulator-1.2.7-py3-none-any.whl
+[2023-08-06 10:34:02] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/74/60/58a4f4c24477adf00d998131ebcde0c6ddf2dcada83f6ad4c6ef55acef7e/scikit-rmt-0.7.1.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/3f/de/4221a65c86d5e5f332598d8d423f5950e3cd78a643472ec14c79849d24ff/upload_machine-0.0.75.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [nn-template-core]: Downloading https://files.pythonhosted.org/packages/4f/5c/76277767b7c07d13c5695e33b624b78e062537fc410d339e9726d11a0726/nn-template-core-0.2.2.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [decontext]: Downloading https://files.pythonhosted.org/packages/03/34/cb36b9cb5eb28e8d0672dc2a27d57cdc1148a1083c7b94e8fbcd9d70338b/decontext-0.1.4.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/b8/96/f47a8626449d997a44060ae8388114b521e31dd5ea01231b049d25f7ce9a/pyntcli-0.1.53-py3-none-any.whl
+[2023-08-06 10:34:02] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/5b/d8/681ff1d62e96d44089f6ffebb6d85b2ee9a2eee2af67585dc8774e79e883/kaldi-native-fbank-1.18.0.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/0c/ce/c20f401c69c6ac8e5e0f4decaa30e8521611216dd5730bb8a422847bc3bd/mfhpo_simulator-1.2.8-py3-none-any.whl
+[2023-08-06 10:34:02] INFO root fetch - processPackages [stadata-semver]: Downloading https://files.pythonhosted.org/packages/76/86/1c92e6d4d35341e4b06af08e8b7ab7f9af4082b819ab605bae5601a7587b/stadata_semver-0.3.0.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/c5/9d/4e91cd092cbae3dde4a0dd1a55f7b073808d9f222f93009236a11d43850a/scikit-rmt-0.8.0.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [scikit-rmt]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [scikit-rmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rmt-0.7.1.tar.gz tmp/scikit-rmt-0.8.0.tar.gz --markdown 20230806/s/scikit-rmt/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.52-py3-none-any.whl.zip tmp/pyntcli-0.1.53-py3-none-any.whl.zip --markdown 20230806/p/pyntcli/0.1.52-0.1.53/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.2.7-py3-none-any.whl.zip tmp/mfhpo_simulator-1.2.8-py3-none-any.whl.zip --markdown 20230806/m/mfhpo-simulator/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [stadata-semver]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [stadata-semver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadata_semver-0.2.1.tar.gz tmp/stadata_semver-0.3.0.tar.gz --markdown 20230806/s/stadata-semver/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [nn-template-core]: Downloading https://files.pythonhosted.org/packages/8c/34/a3e64fb5f231bdb9d42806c025dcda7a4bd8f0574557accbb0721ac179e6/nn-template-core-0.3.0.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.75.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.75-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [decontext]: Downloading https://files.pythonhosted.org/packages/77/f1/890e1b83b5005306cb3f66e1ea0698056846307f22d2cea2d8bdead45e04/decontext-0.1.5.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [nn-template-core]: executing diffoscope
+[2023-08-06 10:34:02] INFO root fetch - processPackages [nn-template-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn-template-core-0.2.2.tar.gz tmp/nn-template-core-0.3.0.tar.gz --markdown 20230806/n/nn-template-core/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 10:34:02] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/8a/18/17a4f7de43572faf999f9d3682d94e4f9145cd6bc1b4c90b4755ec830b3b/kaldi-native-fbank-1.9.tar.gz
+[2023-08-06 10:34:02] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/f8/99/853fd906968574695d5f713e712f1666adceeec611928c632eb6d60a04cc/gender-detection-local-0.1.8.tar.gz
+[2023-08-06 10:34:03] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-06 10:34:03] INFO root fetch - processPackages [decontext]: executing diffoscope
+[2023-08-06 10:34:03] INFO root fetch - processPackages [decontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decontext-0.1.4.tar.gz tmp/decontext-0.1.5.tar.gz --markdown 20230806/d/decontext/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 10:34:03] INFO root fetch - processPackages [kaldi-native-fbank]: executing diffoscope
+[2023-08-06 10:34:03] INFO root fetch - processPackages [kaldi-native-fbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldi-native-fbank-1.18.0.tar.gz tmp/kaldi-native-fbank-1.9.tar.gz --markdown 20230806/k/kaldi-native-fbank/1.18.0-1.9/diff.md --exclude *.pyd
+[2023-08-06 10:34:03] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-06 10:34:03] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230806/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-06 10:34:03] INFO root fetch - processPackages [gender-detection-local]: executing diffoscope
+[2023-08-06 10:34:03] INFO root fetch - processPackages [gender-detection-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-detection-local-0.1.7.tar.gz tmp/gender-detection-local-0.1.8.tar.gz --markdown 20230806/g/gender-detection-local/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-06 10:34:03] INFO root fetch - processPackages [stadata-semver]: Remove: archive file [/home/abi/fetcher/tmp/stadata_semver-0.2.1.tar.gz]
+[2023-08-06 10:34:03] INFO root fetch - processPackages [stadata-semver]: Remove: archive file [/home/abi/fetcher/tmp/stadata_semver-0.3.0.tar.gz]
+[2023-08-06 10:34:03] INFO root fetch - main [MainThread]: End processing [stadata-semver]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.52-py3-none-any.whl.zip]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.53-py3-none-any.whl.zip]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.7-py3-none-any.whl.zip]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.8-py3-none-any.whl.zip]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [nn-template-core]: Remove: archive file [/home/abi/fetcher/tmp/nn-template-core-0.2.2.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [nn-template-core]: Remove: archive file [/home/abi/fetcher/tmp/nn-template-core-0.3.0.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [nn-template-core]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.7.1.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.8.0.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [scikit-rmt]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.75.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [decontext]: Remove: archive file [/home/abi/fetcher/tmp/decontext-0.1.4.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [decontext]: Remove: archive file [/home/abi/fetcher/tmp/decontext-0.1.5.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [decontext]: success
+[2023-08-06 10:34:04] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi-native-fbank-1.18.0.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi-native-fbank-1.9.tar.gz]
+[2023-08-06 10:34:04] INFO root fetch - main [MainThread]: End processing [kaldi-native-fbank]: success
+[2023-08-06 10:34:05] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.1.7.tar.gz]
+[2023-08-06 10:34:05] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.1.8.tar.gz]
+[2023-08-06 10:34:05] INFO root fetch - main [MainThread]: End processing [gender-detection-local]: success
+[2023-08-06 10:34:08] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-06 10:34:08] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-06 10:34:08] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-06 10:34:08] INFO root fetch - main [MainThread]: Store serial: [19192324]
