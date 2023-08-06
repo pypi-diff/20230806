@@ -8983,3 +8983,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:35:47] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-06 14:35:47] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-06 14:35:47] INFO root fetch - main [MainThread]: Store serial: [19193702]
+[2023-08-06 14:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193702]
+[2023-08-06 14:40:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: revwhox
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnctApi
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funda-scraper
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kandinsky
+[2023-08-06 14:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tai-aws-account-bootstrap
+[2023-08-06 14:40:55] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 14:40:55] INFO root fetch - processPackages [kandinsky]: New version: [2.5.dev1] Old Version: [2.5]
+[2023-08-06 14:40:55] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/4a/92/24bd6f52e09c18bf32242e065f42c35970c60b52edee669069d8c60e4553/funda-scraper-1.0.2.tar.gz
+[2023-08-06 14:40:55] WARNING root fetch - processPackages [tai-aws-account-bootstrap]: Skipping, unable to determine old version
+[2023-08-06 14:40:55] INFO root fetch - main [MainThread]: End processing [tai-aws-account-bootstrap] error
+[2023-08-06 14:40:56] INFO root fetch - processPackages [lnctApi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 14:40:56] ERROR root fetch - processPackages [revwhox]: Unable to get metadata: No such project 'revwhox'
+[2023-08-06 14:40:56] INFO root fetch - main [MainThread]: End processing [revwhox] error
+[2023-08-06 14:40:56] INFO root fetch - processPackages [projen]: New version: [0.72.4] Old Version: [0.72.3]
+[2023-08-06 14:40:56] INFO root fetch - processPackages [kandinsky]: Downloading https://files.pythonhosted.org/packages/c0/f7/2c82cb5cc9f6d5c97f7c423ecdcd861f5cbbfc09a519e38d0b821952d946/kandinsky-2.5.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/8a/91/1cca1a3e07c7095cf20bdc6efe60831cfee14eaebc9b437d8bf14e535094/lnctApi-0.0.1.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [kandinsky]: Downloading https://files.pythonhosted.org/packages/1c/4a/369da42c3d721c98602ba5ffb99a40c96601fcadcc3475a6e4fe896f6756/kandinsky-2.5.dev1.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/5e/75/2525d1f83e9decfb594a8452f983157263f99e3f1ce2fb37a320eea41fca/projen-0.72.3.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/18/4b/ac1b16998d88cfea47f03fcfab0081e413a2249b94af30e2955d5ae5cdbd/funda-scraper-1.0.3.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [kandinsky]: executing diffoscope
+[2023-08-06 14:40:56] INFO root fetch - processPackages [kandinsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kandinsky-2.5.tar.gz tmp/kandinsky-2.5.dev1.tar.gz --markdown 20230806/k/kandinsky/2.5-2.5.dev1/diff.md --exclude *.pyd
+[2023-08-06 14:40:56] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-06 14:40:56] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda-scraper-1.0.2.tar.gz tmp/funda-scraper-1.0.3.tar.gz --markdown 20230806/f/funda-scraper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 14:40:56] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/6e/10/41f295e16e81611616179b0524e3198cc6db1a3b0d1344a0abc7b41b82d8/lnctApi-0.0.2.tar.gz
+[2023-08-06 14:40:56] INFO root fetch - processPackages [lnctApi]: executing diffoscope
+[2023-08-06 14:40:56] INFO root fetch - processPackages [lnctApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnctApi-0.0.1.tar.gz tmp/lnctApi-0.0.2.tar.gz --markdown 20230806/l/lnctApi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 14:40:56] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/96/4a/427eb5d5d7a4d3cf733e1e54a34deb63bf4763d07b4216e61df3485b364d/projen-0.72.4.tar.gz
+[2023-08-06 14:40:57] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-08-06 14:40:57] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.72.3.tar.gz tmp/projen-0.72.4.tar.gz --markdown 20230806/p/projen/0.72.3-0.72.4/diff.md --exclude *.pyd
+[2023-08-06 14:40:57] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.2.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.3.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-06 14:40:57] INFO root fetch - processPackages [kandinsky]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky-2.5.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - processPackages [kandinsky]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky-2.5.dev1.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - main [MainThread]: End processing [kandinsky]: success
+[2023-08-06 14:40:57] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.1.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.2.tar.gz]
+[2023-08-06 14:40:57] INFO root fetch - main [MainThread]: End processing [lnctApi]: success
+[2023-08-06 14:40:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.72.3.tar.gz]
+[2023-08-06 14:40:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.72.4.tar.gz]
+[2023-08-06 14:40:58] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-08-06 14:40:58] INFO root fetch - main [MainThread]: Store serial: [19193735]
