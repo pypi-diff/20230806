@@ -12102,3 +12102,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:29:11] INFO root fetch - processPackages [turbojpeg]: Remove: archive file [/home/abi/fetcher/tmp/turbojpeg-0.0.2-cp39-cp39-win_amd64.whl.zip]
 [2023-08-06 17:29:11] INFO root fetch - main [MainThread]: End processing [turbojpeg]: success
 [2023-08-06 17:29:11] INFO root fetch - main [MainThread]: Store serial: [19195116]
+[2023-08-06 17:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195116]
+[2023-08-06 17:34:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scoda-tk
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RapidMangaDL
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatteract
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkpyutil
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: widelearning
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamdeckapi
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autorunpy
+[2023-08-06 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configration
+[2023-08-06 17:34:20] INFO root fetch - processPackages [chatteract]: New version: [0.2] Old Version: [0.1]
+[2023-08-06 17:34:20] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 17:34:20] INFO root fetch - processPackages [autorunpy]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-08-06 17:34:20] INFO root fetch - processPackages [streamdeckapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:34:20] INFO root fetch - processPackages [configration]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-08-06 17:34:20] INFO root fetch - processPackages [widelearning]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-06 17:34:21] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-06 17:34:21] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/b7/2a/61f80fbb3d1eebca8e5a7fd7bd3b65f7f9ad187f4c4158d7b6ef8df47c60/RapidMangaDL-0.2.4.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/8e/66/f42d15f186b9be74c9be9475708bcd083247e8677ee490b02f926ef55701/autorunpy-5.0.0.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/29/10/322461a188a46158a2aafb5c3e251d2bd75b85b24ed0fd5f2c1eb71fde5a/streamdeckapi-0.0.8.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-08-06 17:34:21] INFO root fetch - processPackages [chatteract]: Downloading https://files.pythonhosted.org/packages/2a/d1/87e53c17a8c72ae57c7e63a6a5c7591c73f260849e5893526bf1dd248cea/chatteract-0.1.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/a2/63/521ebe2c0c89be8354ab67d4d7315ce57a93154d01255467b3c3fef946f7/configration-2.0.5.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/dc/f5/207dc67e30ee985a9e84e45f7d5f07803cf1db7c933fe9e65aa3419071b4/scoda-tk-0.4.6.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [widelearning]: Downloading https://files.pythonhosted.org/packages/4a/79/a9b080d8a3685546b138b66c90b76770954d5776f7970e6e6bda85fcc7de/widelearning-0.8.4.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/ea/c5/eb422dc0b0515de25d2259136e0fd7ad6fe4c11e7aafeae268a8fa189dd6/autorunpy-6.0.0.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/4c/30/5882cfe27bf84e1132883f80b1ea445f52e1ffa0f454bc9fbfb2a93483d0/RapidMangaDL-0.2.5.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [streamdeckapi]: Downloading https://files.pythonhosted.org/packages/b2/69/cb3bdf273df7c26f3bc672bcca4f12bf2b901fbc655a6211f8cbb15dda22/streamdeckapi-0.0.9.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-5.0.0.tar.gz tmp/autorunpy-6.0.0.tar.gz --markdown 20230806/a/autorunpy/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [chatteract]: Downloading https://files.pythonhosted.org/packages/65/ef/0f94e12486730759404a81851fadb58aa204f16d5085915a432e98bc9af1/chatteract-0.2.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [streamdeckapi]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [streamdeckapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdeckapi-0.0.8.tar.gz tmp/streamdeckapi-0.0.9.tar.gz --markdown 20230806/s/streamdeckapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.2.4.tar.gz tmp/RapidMangaDL-0.2.5.tar.gz --markdown 20230806/R/RapidMangaDL/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/aa/7b/11d22248c2a38bd0a576ac769805822ae1c2e3342f13aadfb5a89fdbae3b/configration-2.0.6.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230806/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [chatteract]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [chatteract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatteract-0.1.tar.gz tmp/chatteract-0.2.tar.gz --markdown 20230806/c/chatteract/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [widelearning]: Downloading https://files.pythonhosted.org/packages/63/76/bc26d5b59a37d58fdb374bb6c7fbd35c06a1ccdfca590fc41634d83b9cb6/widelearning-0.8.5.tar.gz
+[2023-08-06 17:34:21] INFO root fetch - processPackages [configration]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.5.tar.gz tmp/configration-2.0.6.tar.gz --markdown 20230806/c/configration/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-08-06 17:34:21] INFO root fetch - processPackages [widelearning]: executing diffoscope
+[2023-08-06 17:34:21] INFO root fetch - processPackages [widelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widelearning-0.8.4.tar.gz tmp/widelearning-0.8.5.tar.gz --markdown 20230806/w/widelearning/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-06 17:34:22] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/d5/a0/8488ec23b411544e1ff26aeb469360658afcc630243c0fba00a91216223a/scoda-tk-0.4.7.tar.gz
+[2023-08-06 17:34:22] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-5.0.0.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-6.0.0.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2023-08-06 17:34:22] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 17:34:22] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.6.tar.gz tmp/scoda-tk-0.4.7.tar.gz --markdown 20230806/s/scoda-tk/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-06 17:34:22] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-08-06 17:34:22] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.8.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - processPackages [streamdeckapi]: Remove: archive file [/home/abi/fetcher/tmp/streamdeckapi-0.0.9.tar.gz]
+[2023-08-06 17:34:22] INFO root fetch - main [MainThread]: End processing [streamdeckapi]: success
+[2023-08-06 17:34:23] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.5.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.6.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2023-08-06 17:34:23] INFO root fetch - processPackages [chatteract]: Remove: archive file [/home/abi/fetcher/tmp/chatteract-0.1.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - processPackages [chatteract]: Remove: archive file [/home/abi/fetcher/tmp/chatteract-0.2.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - main [MainThread]: End processing [chatteract]: success
+[2023-08-06 17:34:23] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.4.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.5.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-08-06 17:34:23] INFO root fetch - processPackages [widelearning]: Remove: archive file [/home/abi/fetcher/tmp/widelearning-0.8.4.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - processPackages [widelearning]: Remove: archive file [/home/abi/fetcher/tmp/widelearning-0.8.5.tar.gz]
+[2023-08-06 17:34:23] INFO root fetch - main [MainThread]: End processing [widelearning]: success
+[2023-08-06 17:34:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.6.tar.gz]
+[2023-08-06 17:34:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.7.tar.gz]
+[2023-08-06 17:34:24] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 17:34:24] INFO root fetch - main [MainThread]: Store serial: [19195140]
