@@ -16365,3 +16365,23 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:32:56] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.7.1.tar.gz]
 [2023-08-06 22:32:56] INFO root fetch - main [MainThread]: End processing [dexhub]: success
 [2023-08-06 22:32:56] INFO root fetch - main [MainThread]: Store serial: [19197037]
+[2023-08-06 22:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197037]
+[2023-08-06 22:38:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 22:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumibot
+[2023-08-06 22:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sci-annot-eval
+[2023-08-06 22:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stegqr
+[2023-08-06 22:38:04] INFO root fetch - processPackages [sci-annot-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 22:38:04] INFO root fetch - processPackages [sci-annot-eval]: Downloading https://files.pythonhosted.org/packages/ce/e2/01085672f3ae53a9b18dda6d4a368999ad27483a2c0e2d57c7f0927a85aa/sci_annot_eval-0.0.7-py3-none-any.whl
+[2023-08-06 22:38:04] WARNING root fetch - processPackages [stegqr]: Skipping, unable to determine old version
+[2023-08-06 22:38:04] INFO root fetch - main [MainThread]: End processing [stegqr] error
+[2023-08-06 22:38:04] INFO root fetch - processPackages [lumibot]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-08-06 22:38:05] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/df/93/cbf4f59f7cf7cdaf24d47ce332772de804d99620f513787ead0890a6a9f7/lumibot-2.7.8.tar.gz
+[2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: Downloading https://files.pythonhosted.org/packages/91/b9/2be452218beda63039a065e3747415ec217cd2fd004f3f0b7ee3d5f2b2f8/sci_annot_eval-0.0.8-py3-none-any.whl
+[2023-08-06 22:38:05] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23902968>=10485760
+[2023-08-06 22:38:05] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: executing diffoscope
+[2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sci_annot_eval-0.0.7-py3-none-any.whl.zip tmp/sci_annot_eval-0.0.8-py3-none-any.whl.zip --markdown 20230806/s/sci-annot-eval/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: Remove: archive file [/home/abi/fetcher/tmp/sci_annot_eval-0.0.7-py3-none-any.whl.zip]
+[2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: Remove: archive file [/home/abi/fetcher/tmp/sci_annot_eval-0.0.8-py3-none-any.whl.zip]
+[2023-08-06 22:38:05] INFO root fetch - main [MainThread]: End processing [sci-annot-eval]: success
+[2023-08-06 22:38:05] INFO root fetch - main [MainThread]: Store serial: [19197057]
