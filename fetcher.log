@@ -11976,3 +11976,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:18:48] INFO root fetch - processPackages [Pygments]: Remove: archive file [/home/abi/fetcher/tmp/Pygments-2.9.0.tar.gz]
 [2023-08-06 17:18:48] INFO root fetch - main [MainThread]: End processing [Pygments]: success
 [2023-08-06 17:18:48] INFO root fetch - main [MainThread]: Store serial: [19195041]
+[2023-08-06 17:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195041]
+[2023-08-06 17:23:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: happy-python
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starco-utiles
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtgql
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: queue-local
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eth-erc721
+[2023-08-06 17:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oganesson-py
+[2023-08-06 17:23:57] INFO root fetch - processPackages [eth-erc721]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 17:23:57] WARNING root fetch - processPackages [queue-local]: Skipping, unable to determine old version
+[2023-08-06 17:23:57] INFO root fetch - main [MainThread]: End processing [queue-local] error
+[2023-08-06 17:23:57] WARNING root fetch - processPackages [starco-utiles]: Skipping, unable to determine old version
+[2023-08-06 17:23:57] INFO root fetch - main [MainThread]: End processing [starco-utiles] error
+[2023-08-06 17:23:57] INFO root fetch - processPackages [happy-python]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-08-06 17:23:57] WARNING root fetch - processPackages [oganesson-py]: Skipping, unable to determine old version
+[2023-08-06 17:23:57] INFO root fetch - main [MainThread]: End processing [oganesson-py] error
+[2023-08-06 17:23:57] INFO root fetch - processPackages [qtgql]: New version: [0.133.2] Old Version: [0.133.1]
+[2023-08-06 17:23:57] INFO root fetch - processPackages [eth-erc721]: Downloading https://files.pythonhosted.org/packages/91/39/142d1673277b26ad0a01825b2116d8037f8bb20501dc3fbb607d720ead10/eth-erc721-0.2.1.tar.gz
+[2023-08-06 17:23:57] INFO root fetch - processPackages [happy-python]: Downloading https://files.pythonhosted.org/packages/24/52/ae0e952f0c4d58fc2128e5b7158d6b9a46d7e48016e2a42a3b1b149b7673/happy_python-0.3.6-py3-none-any.whl
+[2023-08-06 17:23:57] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/2d/50/eb06f035abeaa3b1b7f597c760456ad9123ad2ea66e4fb4be93ec17bd9a1/qtgql-0.133.1.tar.gz
+[2023-08-06 17:23:58] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/17/e8/28516a06443587d2683254d4d9bad13aae45f7b85a7f318a15e391439572/qtgql-0.133.2.tar.gz
+[2023-08-06 17:23:58] INFO root fetch - processPackages [eth-erc721]: Downloading https://files.pythonhosted.org/packages/0a/69/d075cdfc40f8bb3c0a78908137c81fab196b1bda7aaa0d6226e0943a523d/eth-erc721-0.3.0.tar.gz
+[2023-08-06 17:23:58] INFO root fetch - processPackages [happy-python]: Downloading https://files.pythonhosted.org/packages/80/a0/c0416ac1c29d62f6236968411d8b85618e5e58c7e9211cfb85fbbe39b225/happy_python-0.4.0-py3-none-any.whl
+[2023-08-06 17:23:58] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-08-06 17:23:58] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.133.1.tar.gz tmp/qtgql-0.133.2.tar.gz --markdown 20230806/q/qtgql/0.133.1-0.133.2/diff.md --exclude *.pyd
+[2023-08-06 17:23:58] INFO root fetch - processPackages [eth-erc721]: executing diffoscope
+[2023-08-06 17:23:58] INFO root fetch - processPackages [eth-erc721]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc721-0.2.1.tar.gz tmp/eth-erc721-0.3.0.tar.gz --markdown 20230806/e/eth-erc721/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 17:23:58] INFO root fetch - processPackages [happy-python]: executing diffoscope
+[2023-08-06 17:23:58] INFO root fetch - processPackages [happy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_python-0.3.6-py3-none-any.whl.zip tmp/happy_python-0.4.0-py3-none-any.whl.zip --markdown 20230806/h/happy-python/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 17:23:58] INFO root fetch - processPackages [happy-python]: Remove: archive file [/home/abi/fetcher/tmp/happy_python-0.3.6-py3-none-any.whl.zip]
+[2023-08-06 17:23:58] INFO root fetch - processPackages [happy-python]: Remove: archive file [/home/abi/fetcher/tmp/happy_python-0.4.0-py3-none-any.whl.zip]
+[2023-08-06 17:23:58] INFO root fetch - main [MainThread]: End processing [happy-python]: success
+[2023-08-06 17:23:59] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.133.1.tar.gz]
+[2023-08-06 17:23:59] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.133.2.tar.gz]
+[2023-08-06 17:23:59] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-08-06 17:23:59] INFO root fetch - processPackages [eth-erc721]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc721-0.2.1.tar.gz]
+[2023-08-06 17:23:59] INFO root fetch - processPackages [eth-erc721]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc721-0.3.0.tar.gz]
+[2023-08-06 17:23:59] INFO root fetch - main [MainThread]: End processing [eth-erc721]: success
+[2023-08-06 17:23:59] INFO root fetch - main [MainThread]: Store serial: [19195062]
