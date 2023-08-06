@@ -10641,3 +10641,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:15:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
 [2023-08-06 16:15:38] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
 [2023-08-06 16:15:38] INFO root fetch - main [MainThread]: Store serial: [19194473]
+[2023-08-06 16:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194473]
+[2023-08-06 16:20:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: changelog-parser
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unic
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: report-dh
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getajob
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loq0
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stowrap
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysqlitedbextV1
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proact
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-08-06 16:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-08-06 16:20:47] INFO root fetch - processPackages [getajob]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-06 16:20:47] INFO root fetch - processPackages [changelog-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 16:20:47] ERROR root fetch - processPackages [pysqlitedbextV1]: Unable to get metadata: No such project 'pysqlitedbextV1'
+[2023-08-06 16:20:47] INFO root fetch - main [MainThread]: End processing [pysqlitedbextV1] error
+[2023-08-06 16:20:47] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/d8/13/b72a3fbc8300402fa66d3417dc643d6864f816b47850811894002cfb965c/getajob-0.6.6.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [stowrap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 16:20:47] INFO root fetch - processPackages [unic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 16:20:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 16:20:47] WARNING root fetch - processPackages [proact]: Skipping, unable to determine old version
+[2023-08-06 16:20:47] INFO root fetch - processPackages [loq0]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 16:20:47] INFO root fetch - main [MainThread]: End processing [proact] error
+[2023-08-06 16:20:47] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 16:20:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 16:20:47] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [changelog-parser]: Downloading https://files.pythonhosted.org/packages/b1/01/bddd169c45a4f0b542377071160c5f2a6d4891e6b6445502b9e32b50d09b/changelog-parser-0.0.3.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/d9/ce/b583c1db8053d6d8e0a7eaf6ccf97a2d858b02ed8953cdd0ce4d16c4afc3/loq0-0.0.2.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/e5/9f/77c662069f597c2652f245c17ef0a9fdbb8e9118fd8d1139f72caf0342ca/unic-0.1.0.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [stowrap]: Downloading https://files.pythonhosted.org/packages/f0/7b/2a6e9b2838aa12b11038973c441232f1fbd08a68d7134c45b4fa32e4a8ae/stowrap-0.0.2.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/51/18/644cca1a6cfbdac39acde43a1060cacc0523a1ea297ba9c30270a6f74064/getajob-0.6.7.tar.gz
+[2023-08-06 16:20:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [changelog-parser]: Downloading https://files.pythonhosted.org/packages/51/1f/1db8c1383b01dcd905d945a927ce07c8b7096b862815292fcf763b8e15e3/changelog-parser-0.0.4.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/f4/29/ba12511d98ebfda969978ea28d8ccc3f16217eb7e8000452e242fbc43561/loq0-0.0.3.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/f9/64/aded09f7853304f402dd6ae03d4991c34affa4ea6eed40b7064c7eca6852/unic-0.1.1.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [stowrap]: Downloading https://files.pythonhosted.org/packages/6e/06/f7de460d5d1ac44a06cc1622af784a72fc2d2fbe4d27f077471b0a674f31/stowrap-0.0.3.tar.gz
+[2023-08-06 16:20:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230806/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.6.6.tar.gz tmp/getajob-0.6.7.tar.gz --markdown 20230806/g/getajob/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [changelog-parser]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [changelog-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog-parser-0.0.3.tar.gz tmp/changelog-parser-0.0.4.tar.gz --markdown 20230806/c/changelog-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.2.tar.gz tmp/loq0-0.0.3.tar.gz --markdown 20230806/l/loq0/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [unic]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [unic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unic-0.1.0.tar.gz tmp/unic-0.1.1.tar.gz --markdown 20230806/u/unic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 16:20:48] INFO root fetch - processPackages [stowrap]: executing diffoscope
+[2023-08-06 16:20:48] INFO root fetch - processPackages [stowrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stowrap-0.0.2.tar.gz tmp/stowrap-0.0.3.tar.gz --markdown 20230806/s/stowrap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:20:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 16:20:49] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-06 16:20:49] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.1.0.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.1.1.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [unic]: success
+[2023-08-06 16:20:49] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.2.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.3.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 16:20:49] INFO root fetch - processPackages [changelog-parser]: Remove: archive file [/home/abi/fetcher/tmp/changelog-parser-0.0.3.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [changelog-parser]: Remove: archive file [/home/abi/fetcher/tmp/changelog-parser-0.0.4.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [changelog-parser]: success
+[2023-08-06 16:20:49] INFO root fetch - processPackages [stowrap]: Remove: archive file [/home/abi/fetcher/tmp/stowrap-0.0.2.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - processPackages [stowrap]: Remove: archive file [/home/abi/fetcher/tmp/stowrap-0.0.3.tar.gz]
+[2023-08-06 16:20:49] INFO root fetch - main [MainThread]: End processing [stowrap]: success
+[2023-08-06 16:20:50] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.6.6.tar.gz]
+[2023-08-06 16:20:50] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.6.7.tar.gz]
+[2023-08-06 16:20:50] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-08-06 16:20:50] INFO root fetch - main [MainThread]: Store serial: [19194506]
