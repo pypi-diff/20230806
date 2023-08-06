@@ -10867,3 +10867,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:31:17] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.83-py3-none-any.whl.zip]
 [2023-08-06 16:31:17] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-06 16:31:17] INFO root fetch - main [MainThread]: Store serial: [19194563]
+[2023-08-06 16:36:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194563]
+[2023-08-06 16:36:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YandexHome
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypermat
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysqlite2pkgsV2
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garth
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: janus-client
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoda-tk
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beet
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klarfio
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysqlite2pkgsV2
+[2023-08-06 16:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: traceml
+[2023-08-06 16:36:26] INFO root fetch - processPackages [traceml]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-08-06 16:36:26] WARNING root fetch - processPackages [hypermat]: Skipping, unable to determine old version
+[2023-08-06 16:36:26] INFO root fetch - processPackages [hypermat]: Start processing: polyaxon
+[2023-08-06 16:36:26] INFO root fetch - main [MainThread]: End processing [hypermat] error
+[2023-08-06 16:36:26] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [janus-client]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [beet]: New version: [0.91.0] Old Version: [0.90.0]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [polyaxon]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [YandexHome]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/72/2e/c2cb27f5b76812761d319e057bfff2c99b73125542e270bb7bde0425db38/scoda-tk-0.4.0.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/18/01/7d66c9b0fd27fc2f3355ceef2ff4d505cffd9f62b891de4b0f127dddddc7/traceml-1.1.0rc8.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [garth]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 16:36:26] ERROR root fetch - processPackages [pysqlite2pkgsV2]: Unable to get metadata: No such project 'pysqlite2pkgsV2'
+[2023-08-06 16:36:26] ERROR root fetch - processPackages [pysqlite2pkgsV2]: Unable to get metadata: No such project 'pysqlite2pkgsV2'
+[2023-08-06 16:36:26] INFO root fetch - processPackages [pysqlite2pkgsV2]: Start processing: TheSilent
+[2023-08-06 16:36:26] INFO root fetch - main [MainThread]: End processing [pysqlite2pkgsV2] error
+[2023-08-06 16:36:26] INFO root fetch - processPackages [pysqlite2pkgsV2]: Start processing: haupt
+[2023-08-06 16:36:26] WARNING root fetch - processPackages [klarfio]: Skipping, unable to determine old version
+[2023-08-06 16:36:26] INFO root fetch - main [MainThread]: End processing [pysqlite2pkgsV2] error
+[2023-08-06 16:36:26] INFO root fetch - processPackages [klarfio]: Start processing: hypertune
+[2023-08-06 16:36:26] INFO root fetch - main [MainThread]: End processing [klarfio] error
+[2023-08-06 16:36:26] INFO root fetch - processPackages [haupt]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [hypertune]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/56/0c/b6bb7a68e9bef7f84d830f4dcb2c69fca9b4776783aea533f387d8f01208/beet-0.90.0.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/e9/bb/9995ae95c9e723f5a5d3093e6609b130cafabc79ab39a4bff3544139b80b/polyaxon-2.0.0rc8.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:36:26] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/aa/9d/ba351126a5b6395c7b46db1c59469be833e5c1fa1ab42c25fbff4248a917/janus_client-0.4.0.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/24/5c/3c2116c4c091572ea71837a0a5b587480c70fe9bc9b9314faab1283a51ef/haupt-2.0.0rc8.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/57/6b/7b039df434fb0f9d90a3b931d4370292d6fd8af4586c89a47936b6386b03/hypertune-1.1.0rc8.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/6f/e4/4fe6c91f9f604bd7681851ac3fa08ac54c6f1a8c21571c6b292bf18de8bf/YandexHome-0.1.1.tar.gz
+[2023-08-06 16:36:26] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/14/ae/c7c88af6f307ce5ddf5e99530e7a2898043a8df8113c9ff4d2585fe7c3cd/garth-0.4.3.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/5e/23/ce9ea5dacf3bac42ca00c81b2e5cb904c4cb73d93bb86421473aebb8bacc/traceml-1.1.0rc9.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/76/ca/1ced661d2c482fabf6f565d771a2be403aa7d4cef1e56e3543502b1d2d3d/polyaxon-2.0.0rc9.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/bc/3b/add79d10dfb4c51d6f9d8ccbe187a8a6f6b3ea464e46b6e129753da5de59/scoda-tk-0.4.1.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/09/f1/272d1e0d179911dd3628159240b886cfbf93e6af62a519291154b728b3fc/beet-0.91.0.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [traceml]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [traceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceml-1.1.0rc8.tar.gz tmp/traceml-1.1.0rc9.tar.gz --markdown 20230806/t/traceml/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/9d/aa/3b2ab32fe7ee90260db599b1d556b75a28655afd428a1eacfea0e53c9888/hypertune-1.1.0rc9.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/c0/38/1aa064950319f9e0d15c797b9d80e038849e3f19f2c743dfef1a99add52d/haupt-2.0.0rc9.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.0.0rc8.tar.gz tmp/polyaxon-2.0.0rc9.tar.gz --markdown 20230806/p/polyaxon/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/25/d9/5c1e221a8b3cd3c2d87b8bd6f515df45873caabf86cf0d007a811592949e/janus_client-0.4.1.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [hypertune]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [hypertune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypertune-1.1.0rc8.tar.gz tmp/hypertune-1.1.0rc9.tar.gz --markdown 20230806/h/hypertune/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/5d/ce/04aeb08cecc92bc7a9a94eb52d562b2ca3c3e2922d3fb4f2929c4f2033bd/YandexHome-0.1.2.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.90.0.tar.gz tmp/beet-0.91.0.tar.gz --markdown 20230806/b/beet/0.90.0-0.91.0/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/22/5f/91a3e2216edc915cb153951fefa661e28fa4093a2d644683f15e47eacdd9/garth-0.4.4.tar.gz
+[2023-08-06 16:36:27] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.0.0rc8.tar.gz tmp/haupt-2.0.0rc9.tar.gz --markdown 20230806/h/haupt/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [janus-client]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [janus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_client-0.4.0.tar.gz tmp/janus_client-0.4.1.tar.gz --markdown 20230806/j/janus-client/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.1.tar.gz tmp/YandexHome-0.1.2.tar.gz --markdown 20230806/Y/YandexHome/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.0.tar.gz tmp/scoda-tk-0.4.1.tar.gz --markdown 20230806/s/scoda-tk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 16:36:27] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-06 16:36:27] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.4.3.tar.gz tmp/garth-0.4.4.tar.gz --markdown 20230806/g/garth/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 16:36:29] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc8.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc9.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [hypertune]: Start processing: polyaxon-sdk
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [hypertune]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [TheSilent]: Start processing: local-candles
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc8.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc9.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [traceml]: Start processing: Fletxible
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [traceml]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/d4/c5/c802a77a0ad631c6a7323593733e48fbf5995736cdeeadd349718bd773de/polyaxon-sdk-2.0.0rc8.tar.gz
+[2023-08-06 16:36:29] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.4.0.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.4.1.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [janus-client]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [Fletxible]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [local-candles]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.1.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.2.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/f7/f7/efbd2ecf3e0bbcb43095c9293c55502451830ccf3022b8050ff8bdd73abf/Fletxible-0.6.5.tar.gz
+[2023-08-06 16:36:29] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.90.0.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.91.0.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/39/f2/020ec35aa3274b97325faef6c6c40e653d77f15a7267d26a28182c1b6b1d/polyaxon-sdk-2.0.0rc9.tar.gz
+[2023-08-06 16:36:29] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.3.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.4.tar.gz]
+[2023-08-06 16:36:29] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-06 16:36:29] INFO root fetch - processPackages [local-candles]: Downloading https://files.pythonhosted.org/packages/c3/29/41e222b4706de9d8d85a6af36f00065a5978809c7bfc0bbdd4869d9235fa/local_candles-0.1.1.tar.gz
+[2023-08-06 16:36:29] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2023-08-06 16:36:29] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.0.0rc8.tar.gz tmp/polyaxon-sdk-2.0.0rc9.tar.gz --markdown 20230806/p/polyaxon-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-06 16:36:29] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/52/1a/60e8f8dad4945ac6bc9de8ef636ac8a3732a4fb00d550286318c43d8649f/Fletxible-0.6.6.tar.gz
+[2023-08-06 16:36:30] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 16:36:30] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.5.tar.gz tmp/Fletxible-0.6.6.tar.gz --markdown 20230806/F/Fletxible/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-08-06 16:36:30] INFO root fetch - processPackages [local-candles]: Downloading https://files.pythonhosted.org/packages/c4/ec/67668124f51e52b244f3d86eab0c49719467945f7a59404908ca65bfe055/local_candles-0.2.0.tar.gz
+[2023-08-06 16:36:30] INFO root fetch - processPackages [local-candles]: executing diffoscope
+[2023-08-06 16:36:30] INFO root fetch - processPackages [local-candles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_candles-0.1.1.tar.gz tmp/local_candles-0.2.0.tar.gz --markdown 20230806/l/local-candles/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 16:36:30] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.0.tar.gz]
+[2023-08-06 16:36:30] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.1.tar.gz]
+[2023-08-06 16:36:30] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 16:36:31] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.5.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.6.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 16:36:31] INFO root fetch - processPackages [local-candles]: Remove: archive file [/home/abi/fetcher/tmp/local_candles-0.1.1.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - processPackages [local-candles]: Remove: archive file [/home/abi/fetcher/tmp/local_candles-0.2.0.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - main [MainThread]: End processing [local-candles]: success
+[2023-08-06 16:36:31] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc8.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc9.tar.gz]
+[2023-08-06 16:36:31] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2023-08-06 16:36:32] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc8.tar.gz]
+[2023-08-06 16:36:32] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc9.tar.gz]
+[2023-08-06 16:36:32] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2023-08-06 16:36:33] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc8.tar.gz]
+[2023-08-06 16:36:33] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc9.tar.gz]
+[2023-08-06 16:36:33] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2023-08-06 16:36:33] INFO root fetch - main [MainThread]: Store serial: [19194619]
