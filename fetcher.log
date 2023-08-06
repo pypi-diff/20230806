@@ -4219,3 +4219,42 @@
 [2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.210.tar.gz]
 [2023-08-06 07:42:35] INFO root fetch - main [MainThread]: End processing [pytelibs]: success
 [2023-08-06 07:42:36] INFO root fetch - main [MainThread]: Store serial: [19191445]
+[2023-08-06 07:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191445]
+[2023-08-06 07:47:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 07:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyp2rpm
+[2023-08-06 07:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uc-sgsim
+[2023-08-06 07:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2023-08-06 07:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-ts
+[2023-08-06 07:47:44] INFO root fetch - processPackages [litellm]: New version: [0.1.349] Old Version: [0.1.348]
+[2023-08-06 07:47:44] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/7f/b3/f4958825406cabba73e911706f7a77f33ab0aac7e32ad6f89e99fe7aa9f0/litellm-0.1.348.tar.gz
+[2023-08-06 07:47:44] INFO root fetch - processPackages [uc-sgsim]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-08-06 07:47:44] INFO root fetch - processPackages [simple-ts]: New version: [0.7] Old Version: [0.6]
+[2023-08-06 07:47:44] INFO root fetch - processPackages [pyp2rpm]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-08-06 07:47:44] INFO root fetch - processPackages [uc-sgsim]: Downloading https://files.pythonhosted.org/packages/db/0f/b72e0d5907f54335e49f91f7b2be4a9196164b88600646adebfc857ead87/uc_sgsim-1.2.4.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/fa/62/b3a2bee2a03323f686136cbea6d0f8d6900dbab8548b40821426f7b68c4e/simple_ts-0.6.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [pyp2rpm]: Downloading https://files.pythonhosted.org/packages/b8/a4/1630c376b2a92844c0bd1370180b80b58635fa24607f03a7ffd124c632cd/pyp2rpm-3.3.8.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/fe/be/bd0004a4616bc2d2cc636b1432a45a4365f1a0d53ee64ab70eefcc44f26b/litellm-0.1.349.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-06 07:47:45] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.348.tar.gz tmp/litellm-0.1.349.tar.gz --markdown 20230806/l/litellm/0.1.348-0.1.349/diff.md --exclude *.pyd
+[2023-08-06 07:47:45] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/46/27/bddde694d305e3c654ea9a7d2069605c3ad57c29abf4f167eecc9a789091/simple_ts-0.7.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [uc-sgsim]: Downloading https://files.pythonhosted.org/packages/66/5a/e974b4b81541dc35cc2f76ab78a74d08ab722003c74daf8db92329a4c8cd/uc_sgsim-1.2.5.tar.gz
+[2023-08-06 07:47:45] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-08-06 07:47:45] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.6.tar.gz tmp/simple_ts-0.7.tar.gz --markdown 20230806/s/simple-ts/0.6-0.7/diff.md --exclude *.pyd
+[2023-08-06 07:47:45] INFO root fetch - processPackages [uc-sgsim]: executing diffoscope
+[2023-08-06 07:47:45] INFO root fetch - processPackages [uc-sgsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uc_sgsim-1.2.4.tar.gz tmp/uc_sgsim-1.2.5.tar.gz --markdown 20230806/u/uc-sgsim/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-08-06 07:47:45] INFO root fetch - processPackages [pyp2rpm]: Downloading https://files.pythonhosted.org/packages/f2/7d/4a173463cce59821c9be5d22f8b279d029f33880c0ba3eb90208f411b542/pyp2rpm-3.3.9.tar.gz
+[2023-08-06 07:47:46] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.6.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.7.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-08-06 07:47:46] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.348.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.349.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-06 07:47:46] INFO root fetch - processPackages [uc-sgsim]: Remove: archive file [/home/abi/fetcher/tmp/uc_sgsim-1.2.4.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - processPackages [uc-sgsim]: Remove: archive file [/home/abi/fetcher/tmp/uc_sgsim-1.2.5.tar.gz]
+[2023-08-06 07:47:46] INFO root fetch - main [MainThread]: End processing [uc-sgsim]: success
+[2023-08-06 07:47:46] INFO root fetch - processPackages [pyp2rpm]: executing diffoscope
+[2023-08-06 07:47:46] INFO root fetch - processPackages [pyp2rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp2rpm-3.3.8.tar.gz tmp/pyp2rpm-3.3.9.tar.gz --markdown 20230806/p/pyp2rpm/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-08-06 07:47:47] INFO root fetch - processPackages [pyp2rpm]: Remove: archive file [/home/abi/fetcher/tmp/pyp2rpm-3.3.8.tar.gz]
+[2023-08-06 07:47:47] INFO root fetch - processPackages [pyp2rpm]: Remove: archive file [/home/abi/fetcher/tmp/pyp2rpm-3.3.9.tar.gz]
+[2023-08-06 07:47:47] INFO root fetch - main [MainThread]: End processing [pyp2rpm]: success
+[2023-08-06 07:47:47] INFO root fetch - main [MainThread]: Store serial: [19191456]
