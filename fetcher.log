@@ -7160,3 +7160,86 @@
 [2023-08-06 12:13:41] INFO root fetch - processPackages [Metamorf]: Remove: archive file [/home/abi/fetcher/tmp/Metamorf-0.4.4.2.tar.gz]
 [2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [Metamorf]: success
 [2023-08-06 12:13:41] INFO root fetch - main [MainThread]: Store serial: [19192938]
+[2023-08-06 12:18:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192938]
+[2023-08-06 12:18:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPPG
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezsynth
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-ref-dict
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clea
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyntcli
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jira-amt
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whoisdomain
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: web3-app
+[2023-08-06 12:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rgpvApi
+[2023-08-06 12:18:51] INFO root fetch - processPackages [ezsynth]: New version: [0.2] Old Version: [0.1]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyntcli]: New version: [0.1.56] Old Version: [0.1.55]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [web3-app]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [json-ref-dict]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/8b/4e/a0d84918ec21b7a7137ce0f328e1d7e1bcf632f96e8056c1b592034fa5dc/pyntcli-0.1.55-py3-none-any.whl
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyPPG]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [rgpvApi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [jira-amt]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230806.1] Old Version: [1.20230804.2]
+[2023-08-06 12:18:51] WARNING root fetch - processPackages [clea]: Skipping, unable to determine old version
+[2023-08-06 12:18:51] INFO root fetch - main [MainThread]: End processing [clea] error
+[2023-08-06 12:18:51] INFO root fetch - processPackages [dxsp]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-06 12:18:51] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/7a/d5/fe12ef10ab3deda60ff5274c0489044c3532fcdfe9fcc80ac70858a714ce/ezsynth-0.1.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [web3-app]: Downloading https://files.pythonhosted.org/packages/46/54/2660ccc5a5a356f615a7e53537df2e4ec56cfd2886737528496490a87853/web3_app-0.1.0.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [json-ref-dict]: Downloading https://files.pythonhosted.org/packages/f0/72/a97a70f94e16766eb65b880be7902c7d17bd355d9673563739df0ac425fa/json-ref-dict-0.7.1.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [jira-amt]: Downloading https://files.pythonhosted.org/packages/26/b9/d9f3ee92109d4f05ba5a66e8196a6fd67535359d2f14e2ed4360903ed54e/jira_amt-1.1.2.tar.gz
+[2023-08-06 12:18:51] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103483>=10485760
+[2023-08-06 12:18:51] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/a7/bc/5e2bdbcb64d2eb5fff9f3fb374a82090b65f733c9c7b3d32a7d41535bab2/pyPPG-1.0.4.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/c8/f4/0b65536bab7f43ecb08f4b2530375ce560c47605fe9183280ac2f90eb2de/whoisdomain-1.20230804.2.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/12/49/b6514c0f4dede7c967084880260c0a49cf669e451d24d1eb04f943b72ee4/rgpvApi-1.0.0.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/20/02/e39154808d2f60ac1ccffcd403bbc96ef6b4c1fd6f5b5a543258586b4d05/dxsp-4.2.4.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/5c/e7/01573a307dba244bd1ee1c9478dbcd9352f9698217e6b6a2821c473c1404/pyntcli-0.1.56-py3-none-any.whl
+[2023-08-06 12:18:51] INFO root fetch - processPackages [web3-app]: Downloading https://files.pythonhosted.org/packages/ff/4e/359c51b4a6474682f76bed574daf3b859df3fb68f5ec58ca518c73fae013/web3_app-0.1.1.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [json-ref-dict]: Downloading https://files.pythonhosted.org/packages/d8/23/ee62caa62e1d7cfbfda5a00ba7766d95324136c1cb20988ea0b2d47779b9/json-ref-dict-0.7.2.tar.gz
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-06 12:18:51] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.55-py3-none-any.whl.zip tmp/pyntcli-0.1.56-py3-none-any.whl.zip --markdown 20230806/p/pyntcli/0.1.55-0.1.56/diff.md --exclude *.pyd
+[2023-08-06 12:18:51] INFO root fetch - processPackages [jira-amt]: Downloading https://files.pythonhosted.org/packages/65/86/c04f269ddad8dbea53f600220cd9e33bb3649b6deb56a671fee7ca6226e7/jira_amt-1.2.0.tar.gz
+[2023-08-06 12:18:52] INFO root fetch - processPackages [web3-app]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [web3-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3_app-0.1.0.tar.gz tmp/web3_app-0.1.1.tar.gz --markdown 20230806/w/web3-app/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/96/76/971fc8ffbdc2ced7edd168f6d7375f20ae68122699cab3ed5510b1049b9f/dxsp-4.2.5.tar.gz
+[2023-08-06 12:18:52] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/22/54/b0c9282af69ec04698a73ca240ad88c38f782fc6ac5d0eed90512fd910d7/whoisdomain-1.20230806.1.tar.gz
+[2023-08-06 12:18:52] INFO root fetch - processPackages [json-ref-dict]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [json-ref-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-ref-dict-0.7.1.tar.gz tmp/json-ref-dict-0.7.2.tar.gz --markdown 20230806/j/json-ref-dict/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/13/a5/fd8ab51ce276a6bbc0800321f1df1c2340b5e24e28e86f7a9d2cd94f3003/pyPPG-1.0.5.tar.gz
+[2023-08-06 12:18:52] INFO root fetch - processPackages [jira-amt]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [jira-amt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira_amt-1.1.2.tar.gz tmp/jira_amt-1.2.0.tar.gz --markdown 20230806/j/jira-amt/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [rgpvApi]: Downloading https://files.pythonhosted.org/packages/70/23/da0a9ac20939fe3c24a7dc6c66dbe10f4694b396c4da4980a9fe2ac095d3/rgpvApi-1.0.1.tar.gz
+[2023-08-06 12:18:52] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.2.4.tar.gz tmp/dxsp-4.2.5.tar.gz --markdown 20230806/d/dxsp/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230804.2.tar.gz tmp/whoisdomain-1.20230806.1.tar.gz --markdown 20230806/w/whoisdomain/1.20230804.2-1.20230806.1/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [pyPPG]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [pyPPG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPPG-1.0.4.tar.gz tmp/pyPPG-1.0.5.tar.gz --markdown 20230806/p/pyPPG/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-06 12:18:52] INFO root fetch - processPackages [rgpvApi]: executing diffoscope
+[2023-08-06 12:18:52] INFO root fetch - processPackages [rgpvApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgpvApi-1.0.0.tar.gz tmp/rgpvApi-1.0.1.tar.gz --markdown 20230806/r/rgpvApi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 12:18:53] INFO root fetch - processPackages [json-ref-dict]: Remove: archive file [/home/abi/fetcher/tmp/json-ref-dict-0.7.1.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [json-ref-dict]: Remove: archive file [/home/abi/fetcher/tmp/json-ref-dict-0.7.2.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [json-ref-dict]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.55-py3-none-any.whl.zip]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.56-py3-none-any.whl.zip]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.4.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.5.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-1.0.0.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [rgpvApi]: Remove: archive file [/home/abi/fetcher/tmp/rgpvApi-1.0.1.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [rgpvApi]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [jira-amt]: Remove: archive file [/home/abi/fetcher/tmp/jira_amt-1.1.2.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [jira-amt]: Remove: archive file [/home/abi/fetcher/tmp/jira_amt-1.2.0.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [jira-amt]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230804.2.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230806.1.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [web3-app]: Remove: archive file [/home/abi/fetcher/tmp/web3_app-0.1.0.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [web3-app]: Remove: archive file [/home/abi/fetcher/tmp/web3_app-0.1.1.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [web3-app]: success
+[2023-08-06 12:18:53] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.4.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.5.tar.gz]
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [pyPPG]: success
+[2023-08-06 12:18:53] INFO root fetch - main [MainThread]: Store serial: [19192969]
