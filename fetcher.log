@@ -12177,3 +12177,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:34:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.7.tar.gz]
 [2023-08-06 17:34:24] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
 [2023-08-06 17:34:24] INFO root fetch - main [MainThread]: Store serial: [19195140]
+[2023-08-06 17:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195140]
+[2023-08-06 17:39:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dispCal
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Swagger2Tests
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoncryptokitV2
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamin_utils
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starco-utiles
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: betabageldb
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dispCal
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythoncryptokitV2
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: importer-local
+[2023-08-06 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: YandexHome
+[2023-08-06 17:39:33] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [starco-utiles]: New version: [4.0] Old Version: [3.0]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [betabageldb]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [lamin_utils]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [pythoncryptokitV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-08-06 17:39:33] INFO root fetch - processPackages [dispCal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [dispCal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [pythoncryptokitV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [YandexHome]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-06 17:39:33] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 17:39:34] INFO root fetch - processPackages [starco-utiles]: Downloading https://files.pythonhosted.org/packages/1e/2a/39e116efe4ccf85f63446f40244bf99d622544f05124034d58a6061c2cd9/starco_utiles-3.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/fc/c5/5c51a06ce37988c4298d464d6f1e57a5a638694b178b7a562b4036542be8/dispCal-0.1.8.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/80/d7/b7884e47490ffe8cfc87a9fd9981513f1eda4dff229a1daeca155c464659/betabageldb-0.2.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/fc/c5/5c51a06ce37988c4298d464d6f1e57a5a638694b178b7a562b4036542be8/dispCal-0.1.8.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [pythoncryptokitV2]: Downloading https://files.pythonhosted.org/packages/08/b6/71a7a30b5704e48656e1aa8c24a8a6a5d0e85d7d5e1e5b2bac60775025cb/pythoncryptokitV2-1.0.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [pythoncryptokitV2]: Downloading https://files.pythonhosted.org/packages/08/b6/71a7a30b5704e48656e1aa8c24a8a6a5d0e85d7d5e1e5b2bac60775025cb/pythoncryptokitV2-1.0.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/42/99/50ea91b9da837ee12c030bb45d2f3b776fd3817fce88e81afcfb48979674/lamin_utils-0.9.3.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/0e/82/d7fa1120cd0521ad0c9c3485bbd31a9697fa98310b4fa99cd6176e6f0984/Swagger2Tests-1.0.8.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/0c/c1/6d8e436291ad35bd219eb3160950a0320fe36147763fe057fd5eed199e87/YandexHome-0.1.5.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-08-06 17:39:34] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230806/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:39:34] INFO root fetch - processPackages [starco-utiles]: Downloading https://files.pythonhosted.org/packages/35/d8/1317f2baaf9d41616d96f046db0702d023af523ebec287a31a0e23b3201c/starco_utiles-4.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/87/52/9bf2dcc64756d8a175655926d802a0e67c0ffaa299b305eb84ddce1cfd61/dispCal-0.1.9.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/87/52/9bf2dcc64756d8a175655926d802a0e67c0ffaa299b305eb84ddce1cfd61/dispCal-0.1.9.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/57/68/db0f41cbf10c732ad5b3d08e087c4da50aa750a777e7917af13ef14d33e3/betabageldb-0.2.1.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [pythoncryptokitV2]: Downloading https://files.pythonhosted.org/packages/8d/44/91bdfd586bf89d6753375ccde6967c3b1caefbe6ef447fa8b519d006dc4c/pythoncryptokitV2-1.1.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [pythoncryptokitV2]: Downloading https://files.pythonhosted.org/packages/8d/44/91bdfd586bf89d6753375ccde6967c3b1caefbe6ef447fa8b519d006dc4c/pythoncryptokitV2-1.1.0.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/46/a9/ba058c02cc1cb6e0a0968aba723c88a41ea83e0677aab6c3aee4f2263f16/lamin_utils-0.9.4.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/8c/09/e3f350a59badd488e02be8b42839099ba3ee48c8b86a74c46d59dcf0f88a/Swagger2Tests-1.0.9.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/3e/19/89541707fc2b26e0d64ea2627683983d76e9e67c492710686d97af1d6708/YandexHome-0.1.6.tar.gz
+[2023-08-06 17:39:34] INFO root fetch - processPackages [starco-utiles]: executing diffoscope
+[2023-08-06 17:39:34] INFO root fetch - processPackages [starco-utiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starco_utiles-3.0.tar.gz tmp/starco_utiles-4.0.tar.gz --markdown 20230806/s/starco-utiles/3.0-4.0/diff.md --exclude *.pyd
+[2023-08-06 17:39:34] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-08-06 17:39:34] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.2.0.tar.gz tmp/betabageldb-0.2.1.tar.gz --markdown 20230806/b/betabageldb/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: executing diffoscope
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispCal-0.1.8.tar.gz tmp/dispCal-0.1.9.tar.gz --markdown 20230806/d/dispCal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: executing diffoscope
+[2023-08-06 17:39:34] INFO root fetch - processPackages [dispCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispCal-0.1.8.tar.gz tmp/dispCal-0.1.9.tar.gz --markdown 20230806/d/dispCal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [lamin_utils]: executing diffoscope
+[2023-08-06 17:39:35] INFO root fetch - processPackages [lamin_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_utils-0.9.3.tar.gz tmp/lamin_utils-0.9.4.tar.gz --markdown 20230806/l/lamin_utils/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [pythoncryptokitV2]: executing diffoscope
+[2023-08-06 17:39:35] INFO root fetch - processPackages [pythoncryptokitV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptokitV2-1.0.0.tar.gz tmp/pythoncryptokitV2-1.1.0.tar.gz --markdown 20230806/p/pythoncryptokitV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-06 17:39:35] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.8.tar.gz tmp/Swagger2Tests-1.0.9.tar.gz --markdown 20230806/S/Swagger2Tests/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [pythoncryptokitV2]: executing diffoscope
+[2023-08-06 17:39:35] INFO root fetch - processPackages [pythoncryptokitV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptokitV2-1.0.0.tar.gz tmp/pythoncryptokitV2-1.1.0.tar.gz --markdown 20230806/p/pythoncryptokitV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 17:39:35] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.5.tar.gz tmp/YandexHome-0.1.6.tar.gz --markdown 20230806/Y/YandexHome/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-06 17:39:35] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-08-06 17:39:35] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-08-06 17:39:35] INFO root fetch - processPackages [importer-local]: Start processing: watertools
+[2023-08-06 17:39:35] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-08-06 17:39:35] INFO root fetch - processPackages [watertools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [watertools]: Downloading https://files.pythonhosted.org/packages/65/5a/6e530ead2be26de8b0b5c155e5d785f4183808a4e02e952277e1c7a2b3e8/watertools-0.0.8.tar.gz
+[2023-08-06 17:39:36] INFO root fetch - processPackages [starco-utiles]: Remove: archive file [/home/abi/fetcher/tmp/starco_utiles-3.0.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [starco-utiles]: Remove: archive file [/home/abi/fetcher/tmp/starco_utiles-4.0.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [starco-utiles]: Start processing: EntropyAnalysis
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [starco-utiles]: success
+[2023-08-06 17:39:36] WARNING root fetch - processPackages [EntropyAnalysis]: Skipping, unable to determine old version
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [EntropyAnalysis] error
+[2023-08-06 17:39:36] INFO root fetch - processPackages [pythoncryptokitV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptokitV2-1.0.0.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [pythoncryptokitV2]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptokitV2-1.1.0.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [pythoncryptokitV2]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.5.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.6.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [watertools]: Downloading https://files.pythonhosted.org/packages/8b/3f/2515846bd8943c74d7c56fdf53505d6e1b8b12174594a221de5ec23a2f21/watertools-0.0.9.tar.gz
+[2023-08-06 17:39:36] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.8.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.9.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [dispCal]: success
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [dispCal]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.2.0.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.2.1.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.8.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.9.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [pythoncryptokitV2]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.3.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.4.tar.gz]
+[2023-08-06 17:39:36] INFO root fetch - main [MainThread]: End processing [lamin_utils]: success
+[2023-08-06 17:39:36] INFO root fetch - processPackages [watertools]: executing diffoscope
+[2023-08-06 17:39:36] INFO root fetch - processPackages [watertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watertools-0.0.8.tar.gz tmp/watertools-0.0.9.tar.gz --markdown 20230806/w/watertools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:39:38] INFO root fetch - processPackages [watertools]: Remove: archive file [/home/abi/fetcher/tmp/watertools-0.0.8.tar.gz]
+[2023-08-06 17:39:38] INFO root fetch - processPackages [watertools]: Remove: archive file [/home/abi/fetcher/tmp/watertools-0.0.9.tar.gz]
+[2023-08-06 17:39:38] INFO root fetch - main [MainThread]: End processing [watertools]: success
+[2023-08-06 17:39:38] INFO root fetch - main [MainThread]: Store serial: [19195177]
