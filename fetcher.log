@@ -16629,3 +16629,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:58:53] INFO root fetch - processPackages [basilisp]: Remove: archive file [/home/abi/fetcher/tmp/basilisp-0.1.dev9.tar.gz]
 [2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [basilisp]: success
 [2023-08-06 22:58:53] INFO root fetch - main [MainThread]: Store serial: [19197153]
+[2023-08-06 23:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197153]
+[2023-08-06 23:04:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinecone-datasets
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: richviewsdk
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: richviewsdk
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numexpr
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: termuxstego
+[2023-08-06 23:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wodoo
+[2023-08-06 23:04:03] WARNING root fetch - processPackages [richviewsdk]: Skipping, unable to determine old version
+[2023-08-06 23:04:03] WARNING root fetch - processPackages [richviewsdk]: Skipping, unable to determine old version
+[2023-08-06 23:04:03] INFO root fetch - main [MainThread]: End processing [richviewsdk] error
+[2023-08-06 23:04:03] INFO root fetch - main [MainThread]: End processing [richviewsdk] error
+[2023-08-06 23:04:03] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 23:04:03] INFO root fetch - processPackages [numexpr]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-08-06 23:04:03] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-06 23:04:03] WARNING root fetch - processPackages [termuxstego]: Skipping, unable to determine old version
+[2023-08-06 23:04:03] INFO root fetch - main [MainThread]: End processing [termuxstego] error
+[2023-08-06 23:04:03] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [numexpr]: Downloading https://files.pythonhosted.org/packages/b2/52/79f6b7db72b4cb847006d915801cc423c6b57e794c3802cfda648a4c6321/numexpr-2.8.3.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/c5/96/5a210e3866507f731c910fd9def695a1760a776a9bc2b31d6cacf3036104/pinecone_datasets-0.5.1.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 23:04:03] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 23:04:03] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/4b/e9/d8cd89849b6091f91bbe6dafedd13e5455d0fac6c81cd449bef47065abeb/pinecone_datasets-0.6.0.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [numexpr]: Downloading https://files.pythonhosted.org/packages/45/d0/0d5216512b59f139053f2d6c941598752ac8ad50eb3737e4accca08b3b50/numexpr-2.8.4.tar.gz
+[2023-08-06 23:04:03] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-08-06 23:04:03] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.1.tar.gz tmp/pinecone_datasets-0.6.0.tar.gz --markdown 20230806/p/pinecone-datasets/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 23:04:03] INFO root fetch - processPackages [numexpr]: executing diffoscope
+[2023-08-06 23:04:03] INFO root fetch - processPackages [numexpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numexpr-2.8.3.tar.gz tmp/numexpr-2.8.4.tar.gz --markdown 20230806/n/numexpr/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-08-06 23:04:04] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 23:04:04] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.1.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.6.0.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-08-06 23:04:04] INFO root fetch - processPackages [numexpr]: Remove: archive file [/home/abi/fetcher/tmp/numexpr-2.8.3.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - processPackages [numexpr]: Remove: archive file [/home/abi/fetcher/tmp/numexpr-2.8.4.tar.gz]
+[2023-08-06 23:04:04] INFO root fetch - main [MainThread]: End processing [numexpr]: success
+[2023-08-06 23:04:04] INFO root fetch - main [MainThread]: Store serial: [19197201]
