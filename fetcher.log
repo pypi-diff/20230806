@@ -7552,3 +7552,79 @@
 [2023-08-06 12:44:50] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev4.tar.gz]
 [2023-08-06 12:44:50] INFO root fetch - main [MainThread]: End processing [argrelay]: success
 [2023-08-06 12:44:50] INFO root fetch - main [MainThread]: Store serial: [19193094]
+[2023-08-06 12:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193094]
+[2023-08-06 12:49:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDS2STAC
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-widedeep
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rwkv-beta
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regex-inference
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yetl-framework
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cosmospy-protobuf
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocstrings-python
+[2023-08-06 12:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Autotest-api
+[2023-08-06 12:49:59] INFO root fetch - processPackages [TDS2STAC]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-06 12:49:59] INFO root fetch - processPackages [mkdocstrings-python]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-06 12:49:59] INFO root fetch - processPackages [regex-inference]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 12:49:59] INFO root fetch - processPackages [cosmospy-protobuf]: New version: [0.2.0] Old Version: [0.0.2]
+[2023-08-06 12:49:59] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/80/f2/63c1481095e3b66eb1afa5a69cc83baf8170928ad5f90992ce69d2d1d0aa/TDS2STAC-2.0.8.tar.gz
+[2023-08-06 12:49:59] INFO root fetch - processPackages [rwkv-beta]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-06 12:49:59] INFO root fetch - processPackages [pytorch-widedeep]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-06 12:50:00] INFO root fetch - processPackages [yetl-framework]: New version: [3.0.0.dev1] Old Version: [2.0.6]
+[2023-08-06 12:50:00] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/e4/66/32ced7f1491a9894833d4fe89ad4a6382ed5d24267b232b749d846a14781/regex-inference-0.0.5.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [Autotest-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 12:50:00] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-06 12:50:00] INFO root fetch - processPackages [cosmospy-protobuf]: Downloading https://files.pythonhosted.org/packages/76/39/9033ed04ffadf9a4e936031d3a30e446f270f1abb8b36719263d24695511/cosmospy_protobuf-0.0.2.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/00/fc/9a0506150a6fca9c2f54b48f21472a147dcc69f4e67e2eeb4ae2168f1301/mkdocstrings_python-1.2.0.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [rwkv-beta]: Downloading https://files.pythonhosted.org/packages/0d/fd/c4b515702df5702ec61c0dc2b4a7afe6156c30ec709acf3daf41b8c56c56/rwkv-beta-0.8.0.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/2a/c1/62aee7cc75d6e80d86dc651db1c643a61362a6698bbccce62f5a63cd5ac2/TDS2STAC-2.0.9.tar.gz
+[2023-08-06 12:50:00] WARNING root fetch - processPackages [cosmospy-protobuf]: Skipping package: exceeds size limit 20401445>=10485760
+[2023-08-06 12:50:00] INFO root fetch - main [MainThread]: End processing [cosmospy-protobuf] error
+[2023-08-06 12:50:00] INFO root fetch - processPackages [Autotest-api]: Downloading https://files.pythonhosted.org/packages/ce/4a/ce09034d84a3af23cb62d68d82e05c90d3077c30a55719e558e1abe121c4/Autotest_api-1.0.2.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/ed/30/0e16d22517e8b17ad358e8a52672e8bb4bb1bd64d05120e7ebbc5dd94185/yetl-framework-2.0.6.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [pytorch-widedeep]: Downloading https://files.pythonhosted.org/packages/46/78/eeca0f7099e087be82d0343facb198ef989394154c270d30907a7c1c0b54/pytorch-widedeep-1.3.1.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [TDS2STAC]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [TDS2STAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDS2STAC-2.0.8.tar.gz tmp/TDS2STAC-2.0.9.tar.gz --markdown 20230806/T/TDS2STAC/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-06 12:50:00] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/9c/2b/1f89310abf2b6f09692382929b2733b56e99af056c5aa0c913df839d8e07/regex-inference-0.0.6.tar.gz
+[2023-08-06 12:50:00] WARNING root fetch - processPackages [pytorch-widedeep]: Skipping package: exceeds size limit 21753963>=10485760
+[2023-08-06 12:50:00] INFO root fetch - main [MainThread]: End processing [pytorch-widedeep] error
+[2023-08-06 12:50:00] INFO root fetch - processPackages [rwkv-beta]: Downloading https://files.pythonhosted.org/packages/79/72/95fe4d5b9a78438081d1250e535f2fd78a9a6403077c796a796770f102c6/rwkv-beta-0.8.1.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/68/7f/e6fa448cb3c228f521670cc83c9db9339bbe06ceaa3e4f442b4043640a2f/mkdocstrings_python-1.2.1.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.5.tar.gz tmp/regex-inference-0.0.6.tar.gz --markdown 20230806/r/regex-inference/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 12:50:00] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/53/58/8fdd3103636fb3f6b9a5f39ac041eb07e792a965c9a61048ba124d329851/yetl-framework-3.0.0.dev1.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [Autotest-api]: Downloading https://files.pythonhosted.org/packages/84/dd/a813ec74af48f097665bb9ddfbe7afbbaa04ff85922277a35c4be5cb401e/Autotest_api-1.0.3.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-06 12:50:00] INFO root fetch - processPackages [mkdocstrings-python]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [mkdocstrings-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocstrings_python-1.2.0.tar.gz tmp/mkdocstrings_python-1.2.1.tar.gz --markdown 20230806/m/mkdocstrings-python/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-06 12:50:00] INFO root fetch - processPackages [rwkv-beta]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [rwkv-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-beta-0.8.0.tar.gz tmp/rwkv-beta-0.8.1.tar.gz --markdown 20230806/r/rwkv-beta/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-06 12:50:00] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.6.tar.gz tmp/yetl-framework-3.0.0.dev1.tar.gz --markdown 20230806/y/yetl-framework/2.0.6-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-08-06 12:50:00] INFO root fetch - processPackages [Autotest-api]: executing diffoscope
+[2023-08-06 12:50:00] INFO root fetch - processPackages [Autotest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Autotest_api-1.0.2.tar.gz tmp/Autotest_api-1.0.3.tar.gz --markdown 20230806/A/Autotest-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 12:50:01] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-06 12:50:01] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230806/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-06 12:50:01] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.8.tar.gz]
+[2023-08-06 12:50:01] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.9.tar.gz]
+[2023-08-06 12:50:01] INFO root fetch - main [MainThread]: End processing [TDS2STAC]: success
+[2023-08-06 12:50:01] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.5.tar.gz]
+[2023-08-06 12:50:01] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.6.tar.gz]
+[2023-08-06 12:50:01] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-06 12:50:02] INFO root fetch - processPackages [Autotest-api]: Remove: archive file [/home/abi/fetcher/tmp/Autotest_api-1.0.2.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - processPackages [Autotest-api]: Remove: archive file [/home/abi/fetcher/tmp/Autotest_api-1.0.3.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - main [MainThread]: End processing [Autotest-api]: success
+[2023-08-06 12:50:02] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.2.0.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.2.1.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - main [MainThread]: End processing [mkdocstrings-python]: success
+[2023-08-06 12:50:02] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.6.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-3.0.0.dev1.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-08-06 12:50:02] INFO root fetch - processPackages [rwkv-beta]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-beta-0.8.0.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - processPackages [rwkv-beta]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-beta-0.8.1.tar.gz]
+[2023-08-06 12:50:02] INFO root fetch - main [MainThread]: End processing [rwkv-beta]: success
+[2023-08-06 12:50:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-06 12:50:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-06 12:50:14] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-06 12:50:14] INFO root fetch - main [MainThread]: Store serial: [19193120]
