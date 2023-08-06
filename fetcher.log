@@ -2041,3 +2041,57 @@
 [2023-08-06 03:05:00] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.8.tar.gz]
 [2023-08-06 03:05:00] INFO root fetch - main [MainThread]: End processing [serenity.sdk.python]: success
 [2023-08-06 03:05:00] INFO root fetch - main [MainThread]: Store serial: [19190413]
+[2023-08-06 03:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190413]
+[2023-08-06 03:10:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfl-data
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: regex-inference
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsj-rest-lib
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-http
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-http
+[2023-08-06 03:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-utils-sqlite-http
+[2023-08-06 03:10:09] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 03:10:09] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.1a1] Old Version: [0.1.0a9]
+[2023-08-06 03:10:09] INFO root fetch - processPackages [zfl-data]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 03:10:09] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.1a1] Old Version: [0.1.0a9]
+[2023-08-06 03:10:09] WARNING root fetch - processPackages [sqlite-utils-sqlite-http]: Skipping, unable to determine old version
+[2023-08-06 03:10:09] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-http] error
+[2023-08-06 03:10:09] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.6.1] Old Version: [1.5.1]
+[2023-08-06 03:10:09] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/b0/83/ae0d5c860bde5297310227367b4d454674fb4f447072331f06bc6a06e03f/datasette_sqlite_http-0.1.0a9-py3-none-any.whl
+[2023-08-06 03:10:09] WARNING root fetch - processPackages [regex-inference]: Skipping, unable to determine old version
+[2023-08-06 03:10:09] INFO root fetch - main [MainThread]: End processing [regex-inference] error
+[2023-08-06 03:10:09] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/c0/94/6ac7a589eda29eab847d6fd95a329ad9f36c2b9079adad05e6f36ded2443/sqlite_http-0.1.0a9-py3-none-win_amd64.whl
+[2023-08-06 03:10:09] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/31/ea/a4a8045c46fc5489722e5a72544344eb896058003c828ffa638ce3371a58/zfl_data-0.0.3.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/a5/cb/eb8ccb17bcc72ca5bf2dae52caac1890c0631814bf24881090c9c3fcd0fd/nsj_rest_lib-1.5.1.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/ad/d9/cbd1ee13a0f8900a390fe6006e9e923882546643bda9654ff64b64c520d2/datasette_sqlite_http-0.1.1a1-py3-none-any.whl
+[2023-08-06 03:10:09] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-08-06 03:10:09] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230806/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 03:10:09] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/f9/15/571d81f57051af4fe452582fbd32fb547e62ce61b92d14d13392be634be7/zfl_data-0.0.4.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-08-06 03:10:09] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.1a1-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-http/0.1.0a9-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-06 03:10:09] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/f1/ea/e56ee4802f978e76a68103b7f7aea28bacc05b0b47e7f4f3c5ca2d9add3f/nsj_rest_lib-1.6.1.tar.gz
+[2023-08-06 03:10:09] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/8b/b9/fc917fc53059fb423a3bd9e72fa19e515aa5fe1ea4f81268128c3c5dc669/sqlite_http-0.1.1a1-py3-none-win_amd64.whl
+[2023-08-06 03:10:09] INFO root fetch - processPackages [zfl-data]: executing diffoscope
+[2023-08-06 03:10:09] INFO root fetch - processPackages [zfl-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfl_data-0.0.3.tar.gz tmp/zfl_data-0.0.4.tar.gz --markdown 20230806/z/zfl-data/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 03:10:09] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-08-06 03:10:09] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.5.1.tar.gz tmp/nsj_rest_lib-1.6.1.tar.gz --markdown 20230806/n/nsj-rest-lib/1.5.1-1.6.1/diff.md --exclude *.pyd
+[2023-08-06 03:10:10] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-08-06 03:10:10] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-http/0.1.0a9-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-06 03:10:10] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip]
+[2023-08-06 03:10:10] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.1a1-py3-none-any.whl.zip]
+[2023-08-06 03:10:10] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-08-06 03:10:10] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-08-06 03:10:10] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.3.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.4.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - main [MainThread]: End processing [zfl-data]: success
+[2023-08-06 03:10:10] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.5.1.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.6.1.tar.gz]
+[2023-08-06 03:10:10] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-08-06 03:12:35] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:12:35] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:12:35] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-08-06 03:12:35] INFO root fetch - main [MainThread]: Store serial: [19190438]
