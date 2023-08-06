@@ -14087,3 +14087,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:45:51] INFO root fetch - processPackages [ISLP]: Remove: archive file [/home/abi/fetcher/tmp/ISLP-0.3.9.tar.gz]
 [2023-08-06 19:45:51] INFO root fetch - main [MainThread]: End processing [ISLP]: success
 [2023-08-06 19:45:51] INFO root fetch - main [MainThread]: Store serial: [19196032]
+[2023-08-06 19:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196032]
+[2023-08-06 19:51:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 19:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplejpeg
+[2023-08-06 19:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logical-rush
+[2023-08-06 19:51:00] INFO root fetch - processPackages [logical-rush]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 19:51:00] INFO root fetch - processPackages [simplejpeg]: New version: [1.7.0rc1] Old Version: [1.7.0]
+[2023-08-06 19:51:00] INFO root fetch - processPackages [logical-rush]: Downloading https://files.pythonhosted.org/packages/9b/f2/b0db7127256c00456cfa6a01ef52890ec1d9f9d3d38dcc02c0cf7b0c6adb/logical_rush-0.0.2-py3-none-any.whl
+[2023-08-06 19:51:00] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/c7/18/50bf2267434098620d2e9be21d9513f773a007aee18da6827b3fa721820c/simplejpeg-1.7.0.tar.gz
+[2023-08-06 19:51:01] INFO root fetch - processPackages [logical-rush]: Downloading https://files.pythonhosted.org/packages/26/d4/3482de9021469f8c6a4ff9f0aef4a4c342479a446d9573798d01f5ebf429/logical_rush-0.0.3-py3-none-any.whl
+[2023-08-06 19:51:01] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/15/1a/748e77471c160e93432d85119b1cbc912d3503de417ca3b5aa8f5b99a5ae/simplejpeg-1.7.0rc1.tar.gz
+[2023-08-06 19:51:01] INFO root fetch - processPackages [logical-rush]: executing diffoscope
+[2023-08-06 19:51:01] INFO root fetch - processPackages [logical-rush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logical_rush-0.0.2-py3-none-any.whl.zip tmp/logical_rush-0.0.3-py3-none-any.whl.zip --markdown 20230806/l/logical-rush/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 19:51:01] INFO root fetch - processPackages [simplejpeg]: executing diffoscope
+[2023-08-06 19:51:01] INFO root fetch - processPackages [simplejpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplejpeg-1.7.0.tar.gz tmp/simplejpeg-1.7.0rc1.tar.gz --markdown 20230806/s/simplejpeg/1.7.0-1.7.0rc1/diff.md --exclude *.pyd
+[2023-08-06 19:51:02] INFO root fetch - processPackages [logical-rush]: Remove: archive file [/home/abi/fetcher/tmp/logical_rush-0.0.2-py3-none-any.whl.zip]
+[2023-08-06 19:51:02] INFO root fetch - processPackages [logical-rush]: Remove: archive file [/home/abi/fetcher/tmp/logical_rush-0.0.3-py3-none-any.whl.zip]
+[2023-08-06 19:51:02] INFO root fetch - main [MainThread]: End processing [logical-rush]: success
+[2023-08-06 19:51:16] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0.tar.gz]
+[2023-08-06 19:51:16] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
+[2023-08-06 19:51:16] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
+[2023-08-06 19:51:16] INFO root fetch - main [MainThread]: Store serial: [19196068]
