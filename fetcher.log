@@ -9471,3 +9471,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:07:30] INFO root fetch - processPackages [mqttasgi]: Remove: archive file [/home/abi/fetcher/tmp/mqttasgi-1.2.3.tar.gz]
 [2023-08-06 15:07:30] INFO root fetch - main [MainThread]: End processing [mqttasgi]: success
 [2023-08-06 15:07:30] INFO root fetch - main [MainThread]: Store serial: [19193937]
+[2023-08-06 15:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193937]
+[2023-08-06 15:12:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyverify-xnz233
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-gitlab-code-quality
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cougar
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-redis-session-store
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eth-cache
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiggler-studiorabota
+[2023-08-06 15:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphincs-plus
+[2023-08-06 15:12:39] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [cougar]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [django-redis-session-store]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:12:39] WARNING root fetch - processPackages [sphincs-plus]: Skipping, unable to determine old version
+[2023-08-06 15:12:39] INFO root fetch - processPackages [sphincs-plus]: Start processing: python-alist-api
+[2023-08-06 15:12:39] INFO root fetch - main [MainThread]: End processing [sphincs-plus] error
+[2023-08-06 15:12:39] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [mypy-gitlab-code-quality]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [eth-cache]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 15:12:39] WARNING root fetch - processPackages [pyverify-xnz233]: Skipping, unable to determine old version
+[2023-08-06 15:12:39] INFO root fetch - processPackages [pyverify-xnz233]: Start processing: dabbas
+[2023-08-06 15:12:39] INFO root fetch - main [MainThread]: End processing [pyverify-xnz233] error
+[2023-08-06 15:12:39] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/5b/6f/5f46e727e649275e984f6f9b1a9436a87cfebaaed44d8ea3b2cbee7deb68/cougar-0.3.2.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [python-alist-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 15:12:39] INFO root fetch - processPackages [mypy-gitlab-code-quality]: Downloading https://files.pythonhosted.org/packages/25/f4/5c1fb55fc0e290adedbed92ba89d52dde7bf96443da1069b352a2e7de75b/mypy-gitlab-code-quality-0.0.6.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [django-redis-session-store]: Downloading https://files.pythonhosted.org/packages/fc/de/44cf0f35724bba73e67ad2598b6d2530c967ca01464675efccea35aeff4f/django-redis-session-store-0.1.0.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [eth-cache]: Downloading https://files.pythonhosted.org/packages/76/2d/50eafc76db8b08015ca0f870a0b904c939b94947416f903a389f9e26538b/eth-cache-0.2.1.tar.gz
+[2023-08-06 15:12:39] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [python-alist-api]: Downloading https://files.pythonhosted.org/packages/9a/7c/9cc607b0f868d31055d4e1c23b96b729369003525704158afc4c7e71b66c/python-alist-api-0.0.3.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/8c/fb/a6eb9d40c6dd219165d01c77c141a9afd5c0250d567104e07ed0ac14c44e/cougar-0.3.3.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230806/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [mypy-gitlab-code-quality]: Downloading https://files.pythonhosted.org/packages/2d/43/5f3cc26f028da7cf30eba5b7fd3554183f8c1638dbb0c5e38d0d25292768/mypy-gitlab-code-quality-1.0.0.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [django-redis-session-store]: Downloading https://files.pythonhosted.org/packages/db/d9/f5a0a37ccd8c33183e873b5440b34023f7a0dab8910b2313157914b7064e/django-redis-session-store-0.1.1.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230806/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.3.2.tar.gz tmp/cougar-0.3.3.tar.gz --markdown 20230806/c/cougar/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230806/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230806/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [mypy-gitlab-code-quality]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [mypy-gitlab-code-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-gitlab-code-quality-0.0.6.tar.gz tmp/mypy-gitlab-code-quality-1.0.0.tar.gz --markdown 20230806/m/mypy-gitlab-code-quality/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [eth-cache]: Downloading https://files.pythonhosted.org/packages/f0/a4/c98dddb41a409c7251b9e8605892002e7309324ecb64ae36dd17c09a2f41/eth-cache-0.3.0.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [python-alist-api]: Downloading https://files.pythonhosted.org/packages/d2/12/0b59c9ee0932931238abcf9c8a9b117a3f4ab1fe58363a67288e9f4c1fe2/python-alist-api-0.0.4.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [django-redis-session-store]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [django-redis-session-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-redis-session-store-0.1.0.tar.gz tmp/django-redis-session-store-0.1.1.tar.gz --markdown 20230806/d/django-redis-session-store/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [eth-cache]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [eth-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-cache-0.2.1.tar.gz tmp/eth-cache-0.3.0.tar.gz --markdown 20230806/e/eth-cache/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-08-06 15:12:40] INFO root fetch - processPackages [python-alist-api]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [python-alist-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-alist-api-0.0.3.tar.gz tmp/python-alist-api-0.0.4.tar.gz --markdown 20230806/p/python-alist-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 15:12:40] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-08-06 15:12:40] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230806/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wiggler-studiorabota]: Start processing: wizata-dsapi
+[2023-08-06 15:12:41] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/4b/87/30bfea04c5168a9ba4e660fa5c24941b5ee1d35c21b67a1eb9381ffd7749/wizata-dsapi-0.3.6.tar.gz
+[2023-08-06 15:12:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [nbdev-pandas]: Start processing: wg-utilities
+[2023-08-06 15:12:41] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-06 15:12:41] INFO root fetch - processPackages [mypy-gitlab-code-quality]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gitlab-code-quality-0.0.6.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [mypy-gitlab-code-quality]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gitlab-code-quality-1.0.0.tar.gz]
+[2023-08-06 15:12:41] INFO root fetch - processPackages [mypy-gitlab-code-quality]: Start processing: nbdev-scipy
+[2023-08-06 15:12:41] INFO root fetch - main [MainThread]: End processing [mypy-gitlab-code-quality]: success
+[2023-08-06 15:12:41] INFO root fetch - processPackages [wg-utilities]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/82/b4/bef2f113627950a8fe6b34fa6232533c3d71fd6da047e6a2c385dce95979/wizata-dsapi-0.3.7.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/ab/32/9804e11604f9efd52f293ce8b2844a5313afa6b597a98fa10ab6ead33eed/wg_utilities-3.8.0.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.2.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.3.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [cougar]: Start processing: pythonsqlitedbextensionV2
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [eth-cache]: Remove: archive file [/home/abi/fetcher/tmp/eth-cache-0.2.1.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [eth-cache]: Remove: archive file [/home/abi/fetcher/tmp/eth-cache-0.3.0.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [eth-cache]: Start processing: astrotrails
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [eth-cache]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.3.6.tar.gz tmp/wizata-dsapi-0.3.7.tar.gz --markdown 20230806/w/wizata-dsapi/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: pytorch-ie
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [django-redis-session-store]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-session-store-0.1.0.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [django-redis-session-store]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-session-store-0.1.1.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [django-redis-session-store]: success
+[2023-08-06 15:12:42] ERROR root fetch - processPackages [pythonsqlitedbextensionV2]: Unable to get metadata: No such project 'pythonsqlitedbextensionV2'
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [pythonsqlitedbextensionV2] error
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [pytorch-ie]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 15:12:42] ERROR root fetch - processPackages [astrotrails]: Unable to get metadata: No such project 'astrotrails'
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [astrotrails] error
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/4a/ef/ae306aeaf6923b18f8d6792e7de69b307f16a1fef7a0b7d3ee3695aed7b5/wg_utilities-3.9.0.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [python-alist-api]: Remove: archive file [/home/abi/fetcher/tmp/python-alist-api-0.0.3.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - processPackages [python-alist-api]: Remove: archive file [/home/abi/fetcher/tmp/python-alist-api-0.0.4.tar.gz]
+[2023-08-06 15:12:42] INFO root fetch - main [MainThread]: End processing [python-alist-api]: success
+[2023-08-06 15:12:42] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/93/66/0ad24435522df74cd14235cca64f07cd93d97c6b18088d5ba5ec9ef90154/pytorch-ie-0.8.0.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wg-utilities]: executing diffoscope
+[2023-08-06 15:12:42] INFO root fetch - processPackages [wg-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg_utilities-3.8.0.tar.gz tmp/wg_utilities-3.9.0.tar.gz --markdown 20230806/w/wg-utilities/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/49/00/5b3e07da58ca82e645505922702bfb2045fe789aa0007c7322f90b20b320/pytorch-ie-0.9.0.tar.gz
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-06 15:12:42] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230806/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:12:42] INFO root fetch - processPackages [pytorch-ie]: executing diffoscope
+[2023-08-06 15:12:42] INFO root fetch - processPackages [pytorch-ie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ie-0.8.0.tar.gz tmp/pytorch-ie-0.9.0.tar.gz --markdown 20230806/p/pytorch-ie/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 15:12:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.6.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.7.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-06 15:12:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-06 15:12:43] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-3.8.0.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-3.9.0.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - main [MainThread]: End processing [wg-utilities]: success
+[2023-08-06 15:12:43] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.8.0.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.9.0.tar.gz]
+[2023-08-06 15:12:43] INFO root fetch - main [MainThread]: End processing [pytorch-ie]: success
+[2023-08-06 15:12:43] INFO root fetch - main [MainThread]: Store serial: [19194019]
