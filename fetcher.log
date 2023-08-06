@@ -12278,3 +12278,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:39:38] INFO root fetch - processPackages [watertools]: Remove: archive file [/home/abi/fetcher/tmp/watertools-0.0.9.tar.gz]
 [2023-08-06 17:39:38] INFO root fetch - main [MainThread]: End processing [watertools]: success
 [2023-08-06 17:39:38] INFO root fetch - main [MainThread]: Store serial: [19195177]
+[2023-08-06 17:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195177]
+[2023-08-06 17:44:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: curl-cffi
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutplugins
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pami
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YandexHome
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylatexutils
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encrypted-json-field
+[2023-08-06 17:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxllib
+[2023-08-06 17:44:47] INFO root fetch - processPackages [YandexHome]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-06 17:44:47] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/0c/c1/6d8e436291ad35bd219eb3160950a0320fe36147763fe057fd5eed199e87/YandexHome-0.1.5.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyutplugins]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-08-06 17:44:47] WARNING root fetch - processPackages [encrypted-json-field]: Skipping, unable to determine old version
+[2023-08-06 17:44:47] INFO root fetch - main [MainThread]: End processing [encrypted-json-field] error
+[2023-08-06 17:44:47] WARNING root fetch - processPackages [pylatexutils]: Skipping, unable to determine old version
+[2023-08-06 17:44:47] INFO root fetch - main [MainThread]: End processing [pylatexutils] error
+[2023-08-06 17:44:47] INFO root fetch - processPackages [curl-cffi]: New version: [0.5.8.1] Old Version: [0.5.7]
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pami]: New version: [2023.8.6.1] Old Version: [2023.8.2.1]
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-08-06 17:44:47] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/3e/19/89541707fc2b26e0d64ea2627683983d76e9e67c492710686d97af1d6708/YandexHome-0.1.6.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/95/5e/c1681b2d25c9b35e824e835566520ed7dacec50dc521915ea222eb13dd6f/pyutplugins-0.9.0.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/c7/e3/698c1373806d4cc48475f7dc25374f69fe695459e9e925fba1d6180be236/curl_cffi-0.5.7.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/f6/89/2464c7884fbc91976346f46d0734a147e1de96809edc7215bd4f9dd96788/pami-2023.8.2.1.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 17:44:47] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.5.tar.gz tmp/YandexHome-0.1.6.tar.gz --markdown 20230806/Y/YandexHome/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-06 17:44:47] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/6e/19/3c266623bc78fea3d65caa1a4dcf503237ef06c326f264aadf747403e3a8/curl_cffi-0.5.8.1.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/ea/b3/5f1e1c09439f21001ab3da593abe67d60f0ec672b2a25c6b054e653ffb13/pami-2023.8.6.1.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-08-06 17:44:47] INFO root fetch - processPackages [curl-cffi]: executing diffoscope
+[2023-08-06 17:44:47] INFO root fetch - processPackages [curl-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curl_cffi-0.5.7.tar.gz tmp/curl_cffi-0.5.8.1.tar.gz --markdown 20230806/c/curl-cffi/0.5.7-0.5.8.1/diff.md --exclude *.pyd
+[2023-08-06 17:44:47] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/82/9d/338afea86a14a5e64be659e6608db66faff7b005abe55ed0eb35d645da46/pyutplugins-1.0.0.tar.gz
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.8.2.1.tar.gz tmp/pami-2023.8.6.1.tar.gz --markdown 20230806/p/pami/2023.8.2.1-2023.8.6.1/diff.md --exclude *.pyd
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230806/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-08-06 17:44:48] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.9.0.tar.gz tmp/pyutplugins-1.0.0.tar.gz --markdown 20230806/p/pyutplugins/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 17:44:48] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.5.tar.gz]
+[2023-08-06 17:44:48] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.6.tar.gz]
+[2023-08-06 17:44:48] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 17:44:48] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.5.7.tar.gz]
+[2023-08-06 17:44:48] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.5.8.1.tar.gz]
+[2023-08-06 17:44:48] INFO root fetch - main [MainThread]: End processing [curl-cffi]: success
+[2023-08-06 17:44:49] INFO root fetch - processPackages [pyutplugins]: Remove: archive file [/home/abi/fetcher/tmp/pyutplugins-0.9.0.tar.gz]
+[2023-08-06 17:44:49] INFO root fetch - processPackages [pyutplugins]: Remove: archive file [/home/abi/fetcher/tmp/pyutplugins-1.0.0.tar.gz]
+[2023-08-06 17:44:49] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-08-06 17:44:50] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.8.1.tar.gz]
+[2023-08-06 17:44:50] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.9.tar.gz]
+[2023-08-06 17:44:50] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-08-06 17:44:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.2.1.tar.gz]
+[2023-08-06 17:44:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.1.tar.gz]
+[2023-08-06 17:44:50] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-06 17:44:50] INFO root fetch - main [MainThread]: Store serial: [19195205]
