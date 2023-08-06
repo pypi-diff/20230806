@@ -3846,3 +3846,15 @@
 [2023-08-06 06:35:22] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.9.tar.gz]
 [2023-08-06 06:35:22] INFO root fetch - main [MainThread]: End processing [reflekt]: success
 [2023-08-06 06:35:22] INFO root fetch - main [MainThread]: Store serial: [19191202]
+[2023-08-06 06:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191202]
+[2023-08-06 06:40:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-08-06 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textrl
+[2023-08-06 06:40:31] INFO root fetch - processPackages [textrl]: New version: [0.2.22] Old Version: [0.2.21]
+[2023-08-06 06:40:31] INFO root fetch - processPackages [textrl]: Downloading https://files.pythonhosted.org/packages/f9/68/feb542fe7fd13a139286f7ee0248f0f396493e40dc5f0f5d7673bfa77547/textrl-0.2.21.tar.gz
+[2023-08-06 06:40:31] INFO root fetch - processPackages [textrl]: Downloading https://files.pythonhosted.org/packages/c2/4a/d206c015303303b8d5b0cbe9a58c72204a10e72e0f655a75cd3592fbfa48/textrl-0.2.22.tar.gz
+[2023-08-06 06:40:32] INFO root fetch - processPackages [textrl]: executing diffoscope
+[2023-08-06 06:40:32] INFO root fetch - processPackages [textrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textrl-0.2.21.tar.gz tmp/textrl-0.2.22.tar.gz --markdown 20230806/t/textrl/0.2.21-0.2.22/diff.md --exclude *.pyd
+[2023-08-06 06:40:32] INFO root fetch - processPackages [textrl]: Remove: archive file [/home/abi/fetcher/tmp/textrl-0.2.21.tar.gz]
+[2023-08-06 06:40:32] INFO root fetch - processPackages [textrl]: Remove: archive file [/home/abi/fetcher/tmp/textrl-0.2.22.tar.gz]
+[2023-08-06 06:40:32] INFO root fetch - main [MainThread]: End processing [textrl]: success
+[2023-08-06 06:40:32] INFO root fetch - main [MainThread]: Store serial: [19191205]
