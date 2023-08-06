@@ -8382,3 +8382,220 @@
 [2023-08-06 13:59:23] INFO root fetch - processPackages [conda-forge-metadata]: Remove: archive file [/home/abi/fetcher/tmp/conda-forge-metadata-0.5.2.tar.gz]
 [2023-08-06 13:59:23] INFO root fetch - main [MainThread]: End processing [conda-forge-metadata]: success
 [2023-08-06 13:59:23] INFO root fetch - main [MainThread]: Store serial: [19193434]
+[2023-08-06 14:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193434]
+[2023-08-06 14:04:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdbai
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robothub-oak
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezsynth
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LinkedList-575
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jlogr
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fletbox
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fletbox
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fletbox
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fletbox
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fletbox
+[2023-08-06 14:04:31] INFO root fetch - processPackages [ezsynth]: New version: [1.0.0] Old Version: [0.21]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [jlogr]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-08-06 14:04:32] WARNING root fetch - processPackages [LinkedList-575]: Skipping, unable to determine old version
+[2023-08-06 14:04:32] INFO root fetch - processPackages [LinkedList-575]: Start processing: fletbox
+[2023-08-06 14:04:32] INFO root fetch - main [MainThread]: End processing [LinkedList-575] error
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [robothub-oak]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [gdbai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/7c/f7/26b887707f46decfd062938ab7cec04df39cf5d98462ca577441323f8566/jlogr-0.1.15.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/21/86/972734c38b775e03f2252824b49c8001228b09c584574864f58d1f46a839/ezsynth-0.21.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103471>=10485760
+[2023-08-06 14:04:32] INFO root fetch - processPackages [ezsynth]: Start processing: fletbox
+[2023-08-06 14:04:32] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:32] INFO root fetch - processPackages [gdbai]: Downloading https://files.pythonhosted.org/packages/f9/92/0173333c8491fa0dd41cb5f3ae915b2f83d31633ee4088773999c02c4332/gdbai-0.1.1.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [robothub-oak]: Downloading https://files.pythonhosted.org/packages/31/12/08a5ed51e5ce8740d3c3cd752f182915723cf89a9afb853dc3fe5ea48fcf/robothub_oak-1.4.0.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/fc/a6/2d9edfc0c2dcad26e01f949cf0b2b0200d25b04d3705d2f10002649c6679/jlogr-0.1.16.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:32] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:33] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.15.tar.gz tmp/jlogr-0.1.16.tar.gz --markdown 20230806/j/jlogr/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [gdbai]: Downloading https://files.pythonhosted.org/packages/ec/68/e9ea65a43b9181e7fb5f464bfae2666560aca7e4fe32b252bea67b39aad4/gdbai-0.1.2.tar.gz
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [robothub-oak]: Downloading https://files.pythonhosted.org/packages/8e/3c/47cffa2e33f300fc09c7d806b215f0dbc881e895ea60e747dbaed8c5461e/robothub_oak-2.0.0.tar.gz
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [gdbai]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [gdbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdbai-0.1.1.tar.gz tmp/gdbai-0.1.2.tar.gz --markdown 20230806/g/gdbai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 14:04:33] INFO root fetch - processPackages [robothub-oak]: executing diffoscope
+[2023-08-06 14:04:33] INFO root fetch - processPackages [robothub-oak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robothub_oak-1.4.0.tar.gz tmp/robothub_oak-2.0.0.tar.gz --markdown 20230806/r/robothub-oak/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-06 14:04:34] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.15.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.16.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [jlogr]: Start processing: fletbox
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.0.7.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.0.8.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Start processing: wg-utilities
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Start processing: lujiang
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [wg-utilities]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.0.7.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Start processing: streamflow
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Start processing: data-warehouse-client
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [gdbai]: Remove: archive file [/home/abi/fetcher/tmp/gdbai-0.1.1.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [gdbai]: Remove: archive file [/home/abi/fetcher/tmp/gdbai-0.1.2.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [gdbai]: success
+[2023-08-06 14:04:34] WARNING root fetch - processPackages [lujiang]: Skipping, unable to determine old version
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [lujiang] error
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/77/91/0d7f2113002ff2e4505e9b84b0fd4a13ee7ecae20309ecf5c0dd202ce3cc/fletbox-0.0.8.tar.gz
+[2023-08-06 14:04:34] ERROR root fetch - processPackages [fletbox]: Diffoscope failed: time="2023-08-06T14:04:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+gzip: tmp/fletbox-0.0.8.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/fletbox-0.0.8.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox] error
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [streamflow]: New version: [0.2.0.dev7] Old Version: [0.2.0.dev6]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/ab/32/9804e11604f9efd52f293ce8b2844a5313afa6b597a98fa10ab6ead33eed/wg_utilities-3.8.0.tar.gz
+[2023-08-06 14:04:34] INFO root fetch - processPackages [data-warehouse-client]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [robothub-oak]: Remove: archive file [/home/abi/fetcher/tmp/robothub_oak-1.4.0.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - processPackages [robothub-oak]: Remove: archive file [/home/abi/fetcher/tmp/robothub_oak-2.0.0.tar.gz]
+[2023-08-06 14:04:34] INFO root fetch - main [MainThread]: End processing [robothub-oak]: success
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:04:34] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:04:35] INFO root fetch - processPackages [streamflow]: Downloading https://files.pythonhosted.org/packages/59/bc/89046b689e112144d1d33e19210866c8b6934f2b2e66c06e96135eb045d6/streamflow-0.2.0.dev6.tar.gz
+[2023-08-06 14:04:35] INFO root fetch - processPackages [data-warehouse-client]: Downloading https://files.pythonhosted.org/packages/9d/3c/ee91a9ad92a2e6c4a30f4fd4fd9eb76ac982905324546a04979c20ca323b/data-warehouse-client-3.0.3.tar.gz
+[2023-08-06 14:04:35] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/4a/ef/ae306aeaf6923b18f8d6792e7de69b307f16a1fef7a0b7d3ee3695aed7b5/wg_utilities-3.9.0.tar.gz
+[2023-08-06 14:04:35] ERROR root fetch - processPackages [fletbox]: Diffoscope failed: time="2023-08-06T14:04:34+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fletbox-0.0.7.tar.gz: No such file or directory
+
+[2023-08-06 14:04:35] INFO root fetch - main [MainThread]: End processing [fletbox] error
+[2023-08-06 14:04:35] INFO root fetch - processPackages [wg-utilities]: executing diffoscope
+[2023-08-06 14:04:35] INFO root fetch - processPackages [wg-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg_utilities-3.8.0.tar.gz tmp/wg_utilities-3.9.0.tar.gz --markdown 20230806/w/wg-utilities/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-08-06 14:04:35] INFO root fetch - processPackages [streamflow]: Downloading https://files.pythonhosted.org/packages/99/36/466b578a3b5fe31d9173b1d923ecc1572a04b090343a12f03b4215b4b947/streamflow-0.2.0.dev7.tar.gz
+[2023-08-06 14:04:35] INFO root fetch - processPackages [data-warehouse-client]: Downloading https://files.pythonhosted.org/packages/83/39/5494aad29beb50c163b459dea459261dd5c09ac9413f88a6b90e01ae0781/data-warehouse-client-3.0.4.tar.gz
+[2023-08-06 14:04:35] INFO root fetch - processPackages [streamflow]: executing diffoscope
+[2023-08-06 14:04:35] INFO root fetch - processPackages [streamflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamflow-0.2.0.dev6.tar.gz tmp/streamflow-0.2.0.dev7.tar.gz --markdown 20230806/s/streamflow/0.2.0.dev6-0.2.0.dev7/diff.md --exclude *.pyd
+[2023-08-06 14:04:35] INFO root fetch - processPackages [data-warehouse-client]: executing diffoscope
+[2023-08-06 14:04:35] INFO root fetch - processPackages [data-warehouse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-warehouse-client-3.0.3.tar.gz tmp/data-warehouse-client-3.0.4.tar.gz --markdown 20230806/d/data-warehouse-client/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-08-06 14:04:36] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-3.8.0.tar.gz]
+[2023-08-06 14:04:36] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-3.9.0.tar.gz]
+[2023-08-06 14:04:36] INFO root fetch - main [MainThread]: End processing [wg-utilities]: success
+[2023-08-06 14:04:36] INFO root fetch - processPackages [data-warehouse-client]: Remove: archive file [/home/abi/fetcher/tmp/data-warehouse-client-3.0.3.tar.gz]
+[2023-08-06 14:04:36] INFO root fetch - processPackages [data-warehouse-client]: Remove: archive file [/home/abi/fetcher/tmp/data-warehouse-client-3.0.4.tar.gz]
+[2023-08-06 14:04:36] INFO root fetch - main [MainThread]: End processing [data-warehouse-client]: success
+[2023-08-06 14:04:37] INFO root fetch - processPackages [streamflow]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-0.2.0.dev6.tar.gz]
+[2023-08-06 14:04:37] INFO root fetch - processPackages [streamflow]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-0.2.0.dev7.tar.gz]
+[2023-08-06 14:04:37] INFO root fetch - main [MainThread]: End processing [streamflow]: success
+[2023-08-06 14:04:37] INFO root fetch - main [MainThread]: Store serial: [19193498]
