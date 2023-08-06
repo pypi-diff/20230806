@@ -11479,3 +11479,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:57:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-08-06 16:57:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-08-06 16:57:41] INFO root fetch - main [MainThread]: Store serial: [19194827]
+[2023-08-06 17:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194827]
+[2023-08-06 17:02:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonPackageUpdateChecker
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YandexHome
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-view
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcia-utils
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dexhub
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buteo
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-cjkcms
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PacketHandler
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taiwanlottery
+[2023-08-06 17:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitaudit
+[2023-08-06 17:02:50] INFO root fetch - processPackages [dexhub]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.8.3] Old Version: [23.8.2]
+[2023-08-06 17:02:50] WARNING root fetch - processPackages [taiwanlottery]: Skipping, unable to determine old version
+[2023-08-06 17:02:50] INFO root fetch - processPackages [taiwanlottery]: Start processing: PacketHandler
+[2023-08-06 17:02:50] INFO root fetch - main [MainThread]: End processing [taiwanlottery] error
+[2023-08-06 17:02:50] INFO root fetch - processPackages [YandexHome]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PacketHandler]: New version: [1.0.9.0] Old Version: [1.0.8]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [pydantic-view]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PacketHandler]: New version: [1.0.9.0] Old Version: [1.0.8]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PythonPackageUpdateChecker]: New version: [1.0.15] Old Version: [1.0.11]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/10/c8/bd20413d14b10a094b3f73549ff9b9b72166d6da4b61fe2a083022b780bd/dexhub-0.6.8.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 17:02:50] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/2c/e6/5f9af69b38e155fe6d085e666d46c30482c57c3d9c1d2c8b9a5f578a35e6/wagtail-cjkcms-23.8.2.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/5d/ce/04aeb08cecc92bc7a9a94eb52d562b2ca3c3e2922d3fb4f2929c4f2033bd/YandexHome-0.1.2.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/02/f8/f8a6733442b061b20388488209a8287abb0b280792ee3c573a0e34f6cdff/tcia_utils-1.6.3.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/3d/88/da327037571bab9c2849c21d6a65f7115a3cd38192417cd99fb52a0d1741/PacketHandler-1.0.8.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/3d/88/da327037571bab9c2849c21d6a65f7115a3cd38192417cd99fb52a0d1741/PacketHandler-1.0.8.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/93/18/227ac70b2a879e63c01b42b5e627d60ec3282d997d4b674836755d3d036f/PythonPackageUpdateChecker-1.0.11.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/22/ec/a2c9cb180d9e80e946f501d42aa82dc94791a6d667373b6ceec8e3e9a0bc/pydantic_view-0.2.3.tar.gz
+[2023-08-06 17:02:50] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/98/44/fc3929900739ae89b6606d049bf3b80dd3c41526a5c8fe95c260b1851b34/dexhub-0.7.0.tar.gz
+[2023-08-06 17:02:51] ERROR root fetch - processPackages [PacketHandler]: Unable to fetch info: No such project/version 'PacketHandler' 1.0.9.0
+[2023-08-06 17:02:51] INFO root fetch - processPackages [PacketHandler]: Start processing: certora-cli-alpha-master
+[2023-08-06 17:02:51] INFO root fetch - main [MainThread]: End processing [PacketHandler] error
+[2023-08-06 17:02:51] ERROR root fetch - processPackages [PacketHandler]: Unable to fetch info: No such project/version 'PacketHandler' 1.0.9.0
+[2023-08-06 17:02:51] INFO root fetch - main [MainThread]: End processing [PacketHandler] error
+[2023-08-06 17:02:51] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/a2/d7/fdc9acccad68603a00bc0b171fc72d024bc96c95f631820232241792173b/YandexHome-0.1.3.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/d2/2d/1412c111db80f6c2b1306752a8bee774a7d25dba1f40871013fc7624d59e/wagtail-cjkcms-23.8.3.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230806.9.12.969399] Old Version: [20230805.19.33.352226]
+[2023-08-06 17:02:51] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/47/69/0e4d5a1146ace4daa8aec788997178bb3c1b463089a260b6855523140cce/tcia_utils-1.6.4.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.8.tar.gz tmp/dexhub-0.7.0.tar.gz --markdown 20230806/d/dexhub/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Downloading https://files.pythonhosted.org/packages/eb/d1/e6881a0015d4412d0122284cc0ecdde4d778fac7b7167e9e57a60e10e90d/PythonPackageUpdateChecker-1.0.15.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/0b/bb/4c663d914e8ed1eebfb42d8577bcb31604d0debc7be7af8521b3b5419ea0/pydantic_view-0.2.4.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230806/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.2.tar.gz tmp/YandexHome-0.1.3.tar.gz --markdown 20230806/Y/YandexHome/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.3.tar.gz tmp/tcia_utils-1.6.4.tar.gz --markdown 20230806/t/tcia-utils/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [PythonPackageUpdateChecker]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [PythonPackageUpdateChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonPackageUpdateChecker-1.0.11.tar.gz tmp/PythonPackageUpdateChecker-1.0.15.tar.gz --markdown 20230806/P/PythonPackageUpdateChecker/1.0.11-1.0.15/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [pydantic-view]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [pydantic-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_view-0.2.3.tar.gz tmp/pydantic_view-0.2.4.tar.gz --markdown 20230806/p/pydantic-view/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0b/f4/cceda5843bbeffa03363921bde962f30c88123031176b6ad8c04bd7c0146/certora-cli-alpha-master-20230805.19.33.352226.tar.gz
+[2023-08-06 17:02:51] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.8.2.tar.gz tmp/wagtail-cjkcms-23.8.3.tar.gz --markdown 20230806/w/wagtail-cjkcms/23.8.2-23.8.3/diff.md --exclude *.pyd
+[2023-08-06 17:02:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37831225>=10485760
+[2023-08-06 17:02:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-06 17:02:51] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-08-06 17:02:51] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230806/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 17:02:52] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.6.8.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.7.0.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-08-06 17:02:52] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.11.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [PythonPackageUpdateChecker]: Remove: archive file [/home/abi/fetcher/tmp/PythonPackageUpdateChecker-1.0.15.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [PythonPackageUpdateChecker]: success
+[2023-08-06 17:02:52] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.3.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.4.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-08-06 17:02:52] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.2.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.3.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 17:02:52] INFO root fetch - processPackages [pydantic-view]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_view-0.2.3.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [pydantic-view]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_view-0.2.4.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [pydantic-view]: success
+[2023-08-06 17:02:52] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-08-06 17:02:52] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-08-06 17:02:53] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-08-06 17:02:53] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-08-06 17:02:53] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-08-06 17:02:53] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.2.tar.gz]
+[2023-08-06 17:02:53] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.3.tar.gz]
+[2023-08-06 17:02:53] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-08-06 17:02:53] INFO root fetch - main [MainThread]: Store serial: [19194867]
