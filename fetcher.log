@@ -3374,3 +3374,23 @@
 [2023-08-06 05:28:03] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.9.tar.gz]
 [2023-08-06 05:28:03] INFO root fetch - main [MainThread]: End processing [pyImageJGui]: success
 [2023-08-06 05:28:03] INFO root fetch - main [MainThread]: Store serial: [19191007]
+[2023-08-06 05:33:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191007]
+[2023-08-06 05:33:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 05:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BayesComBat
+[2023-08-06 05:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sounderpy
+[2023-08-06 05:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BetterADBSync
+[2023-08-06 05:33:12] INFO root fetch - processPackages [BayesComBat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 05:33:12] INFO root fetch - processPackages [sounderpy]: New version: [2.0.2] Old Version: [1.0.1]
+[2023-08-06 05:33:12] WARNING root fetch - processPackages [BetterADBSync]: Skipping, unable to determine old version
+[2023-08-06 05:33:12] INFO root fetch - main [MainThread]: End processing [BetterADBSync] error
+[2023-08-06 05:33:12] INFO root fetch - processPackages [BayesComBat]: Downloading https://files.pythonhosted.org/packages/14/a1/bf7371b8c4ff0a5204d2fac8d77b7f43b340e6869f8a57d40344ef4eba0c/bayescombat-0.0.5.tar.gz
+[2023-08-06 05:33:12] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2a/22/04432516186858bd57e086c5a0567028b7029989d1a0581552fbfe3730e4/sounderpy-1.0.1.tar.gz
+[2023-08-06 05:33:13] INFO root fetch - processPackages [BayesComBat]: Downloading https://files.pythonhosted.org/packages/16/de/b61278ed9d0094d6d3cbac8957a0369d53165daac30a4271ca2738154637/bayescombat-0.0.6.tar.gz
+[2023-08-06 05:33:13] ERROR root fetch - processPackages [sounderpy]: Unable to fetch info: No such project/version 'sounderpy' 2.0.2
+[2023-08-06 05:33:13] INFO root fetch - main [MainThread]: End processing [sounderpy] error
+[2023-08-06 05:33:13] INFO root fetch - processPackages [BayesComBat]: executing diffoscope
+[2023-08-06 05:33:13] INFO root fetch - processPackages [BayesComBat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayescombat-0.0.5.tar.gz tmp/bayescombat-0.0.6.tar.gz --markdown 20230806/B/BayesComBat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 05:33:14] INFO root fetch - processPackages [BayesComBat]: Remove: archive file [/home/abi/fetcher/tmp/bayescombat-0.0.5.tar.gz]
+[2023-08-06 05:33:14] INFO root fetch - processPackages [BayesComBat]: Remove: archive file [/home/abi/fetcher/tmp/bayescombat-0.0.6.tar.gz]
+[2023-08-06 05:33:14] INFO root fetch - main [MainThread]: End processing [BayesComBat]: success
+[2023-08-06 05:33:14] INFO root fetch - main [MainThread]: Store serial: [19191017]
