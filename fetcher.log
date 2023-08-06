@@ -13908,3 +13908,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:30:16] INFO root fetch - processPackages [dprox]: Remove: archive file [/home/abi/fetcher/tmp/dprox-0.2.1.tar.gz]
 [2023-08-06 19:30:16] INFO root fetch - main [MainThread]: End processing [dprox]: success
 [2023-08-06 19:30:16] INFO root fetch - main [MainThread]: Store serial: [19195925]
+[2023-08-06 19:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195925]
+[2023-08-06 19:35:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rajant-api
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storage-local
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralpit
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wodoo
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlconstructor
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-08-06 19:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arab-transcription
+[2023-08-06 19:35:26] INFO root fetch - processPackages [sqlconstructor]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-08-06 19:35:26] WARNING root fetch - processPackages [rajant-api]: Skipping, unable to determine old version
+[2023-08-06 19:35:26] INFO root fetch - main [MainThread]: End processing [rajant-api] error
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/94/90/e68bafc7a024045dd3372fba1e38b233fe2f79a1c19d473e6dece30826a1/sqlconstructor-1.0.17.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [neuralpit]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [storage-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [arab-transcription]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/ad/ac/f91936deda21811b49895a54a9ce9350448a0db5e797d715964e2d1b7502/storage-local-0.0.8.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/2d/6f/6811efa12168a7f9bf70f0009b55420058cddbf72ec1ae5249f4b56c7813/neuralpit-2.1.2.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [arab-transcription]: Downloading https://files.pythonhosted.org/packages/30/b0/94fee7bdb7d1af68c2c6a9d513acaeffac42f7275e12e8bb994ed6482ec5/arab_transcription-1.0.0.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/38/ae/ced66625f2293c98c3ea87dd067e02c66b6d84f8590953203118afd85aae/sqlconstructor-1.0.18.tar.gz
+[2023-08-06 19:35:26] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-08-06 19:35:26] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 19:35:26] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 19:35:26] INFO root fetch - processPackages [sqlconstructor]: executing diffoscope
+[2023-08-06 19:35:26] INFO root fetch - processPackages [sqlconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlconstructor-1.0.17.tar.gz tmp/sqlconstructor-1.0.18.tar.gz --markdown 20230806/s/sqlconstructor/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-08-06 19:35:26] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/91/08/3b9df2b22436370582a517d96972244162a9c67ea30b87d3ffadfa108682/neuralpit-2.1.3.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [arab-transcription]: Downloading https://files.pythonhosted.org/packages/1c/e6/7317954a32d45c7a73ac0027888e77a9a4db787e68ad77b4e5099a6cb475/arab_transcription-1.0.1.tar.gz
+[2023-08-06 19:35:26] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/dd/f1/010eaf8db35606ccf1aac807d0e914e2957c17afe01cf1f113010d0c80d8/storage-local-0.0.9.tar.gz
+[2023-08-06 19:35:27] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-08-06 19:35:27] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.1.2.tar.gz tmp/neuralpit-2.1.3.tar.gz --markdown 20230806/n/neuralpit/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-06 19:35:27] INFO root fetch - processPackages [arab-transcription]: executing diffoscope
+[2023-08-06 19:35:27] INFO root fetch - processPackages [arab-transcription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arab_transcription-1.0.0.tar.gz tmp/arab_transcription-1.0.1.tar.gz --markdown 20230806/a/arab-transcription/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 19:35:27] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2023-08-06 19:35:27] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.0.8.tar.gz tmp/storage-local-0.0.9.tar.gz --markdown 20230806/s/storage-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 19:35:28] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 19:35:28] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.17.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.18.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [sqlconstructor]: success
+[2023-08-06 19:35:28] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.2.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.1.3.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-08-06 19:35:28] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.8.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.9.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2023-08-06 19:35:28] INFO root fetch - processPackages [arab-transcription]: Remove: archive file [/home/abi/fetcher/tmp/arab_transcription-1.0.0.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - processPackages [arab-transcription]: Remove: archive file [/home/abi/fetcher/tmp/arab_transcription-1.0.1.tar.gz]
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [arab-transcription]: success
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 19:35:28] INFO root fetch - main [MainThread]: Store serial: [19195946]
