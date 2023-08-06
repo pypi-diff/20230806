@@ -3651,3 +3651,33 @@
 [2023-08-06 06:04:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230805.tar.gz]
 [2023-08-06 06:04:19] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-08-06 06:04:19] INFO root fetch - main [MainThread]: Store serial: [19191141]
+[2023-08-06 06:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191141]
+[2023-08-06 06:09:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2023-08-06 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiohomekit
+[2023-08-06 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dukeai-lib
+[2023-08-06 06:09:27] INFO root fetch - processPackages [dukeai-lib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 06:09:27] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-06 06:09:27] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/fe/3d/f9e24593cbc97cda1bb104de959340f2ca5351b0d51aab86066b9103085f/dukeai_lib-0.2.1.tar.gz
+[2023-08-06 06:09:27] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-06 06:09:27] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-08-06 06:09:28] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/65/96/4d8b38121d10fccc163a3a2c9427904ba4acbc687c4ff074ea9d3a046599/aiohomekit-2.6.8.tar.gz
+[2023-08-06 06:09:28] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/fc/8b/476e0182472ddfb6396aef568f26eb3ad4ccdd5cb5ecfb09997e3b319348/dukeai_lib-0.2.2.tar.gz
+[2023-08-06 06:09:28] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-06 06:09:28] INFO root fetch - processPackages [dukeai-lib]: executing diffoscope
+[2023-08-06 06:09:28] INFO root fetch - processPackages [dukeai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukeai_lib-0.2.1.tar.gz tmp/dukeai_lib-0.2.2.tar.gz --markdown 20230806/d/dukeai-lib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 06:09:28] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-06 06:09:28] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230806/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-06 06:09:28] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/30/ac/4e69e64fa19c718af982b3ce08ccfe2934a67dd65dbfc32d404a0ab62c6f/aiohomekit-2.6.9.tar.gz
+[2023-08-06 06:09:28] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-08-06 06:09:28] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.8.tar.gz tmp/aiohomekit-2.6.9.tar.gz --markdown 20230806/a/aiohomekit/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-08-06 06:09:29] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-06 06:09:29] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.1.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.2.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - main [MainThread]: End processing [dukeai-lib]: success
+[2023-08-06 06:09:29] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.8.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
+[2023-08-06 06:09:29] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-08-06 06:09:29] INFO root fetch - main [MainThread]: Store serial: [19191149]
