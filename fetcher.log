@@ -10572,3 +10572,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:10:11] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.6.7.tar.gz]
 [2023-08-06 16:10:11] INFO root fetch - main [MainThread]: End processing [getajob]: success
 [2023-08-06 16:10:11] INFO root fetch - main [MainThread]: Store serial: [19194414]
+[2023-08-06 16:15:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194414]
+[2023-08-06 16:15:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iamlistening
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplejpeg
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyorder
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niupy
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-authorization
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-08-06 16:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jlogr
+[2023-08-06 16:15:21] INFO root fetch - processPackages [iamlistening]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-08-06 16:15:21] INFO root fetch - processPackages [jlogr]: New version: [0.1.202] Old Version: [0.1.201]
+[2023-08-06 16:15:21] INFO root fetch - processPackages [findmyorder]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-08-06 16:15:21] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-06 16:15:21] WARNING root fetch - processPackages [niupy]: Skipping, unable to determine old version
+[2023-08-06 16:15:21] INFO root fetch - processPackages [django-authorization]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 16:15:21] INFO root fetch - main [MainThread]: End processing [niupy] error
+[2023-08-06 16:15:21] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 16:15:21] INFO root fetch - processPackages [simplejpeg]: New version: [1.7.0rc1] Old Version: [1.7.0]
+[2023-08-06 16:15:21] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/a7/f5/578d26fdc5bba61533d4f53bfcb4df544ae97a4eaef57db05f3635b4b359/jlogr-0.1.201.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/54/96/5d9b90f4d95a854fdcee2e4eca876862abc5f63d38eb08b670ceb33265e1/iamlistening-3.1.2.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/5b/ec/276bebf684782243d7de800073f2773d0488627132a068826088c5eb7a19/findmyorder-1.7.5.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/c7/18/50bf2267434098620d2e9be21d9513f773a007aee18da6827b3fa721820c/simplejpeg-1.7.0.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/45/e1/678279dd79eac88ac1225c4f8cc66390dce9e983101fb95e7bd269756b50/django-authorization-1.0.2.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/b7/2a/61f80fbb3d1eebca8e5a7fd7bd3b65f7f9ad187f4c4158d7b6ef8df47c60/RapidMangaDL-0.2.4.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/10/36/d5d3cc97e4f7b3cdba77e01401f26a5b05fa6f0bfff60783e64e1faed07f/findmyorder-1.7.6.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/78/06/30a69f7c259fd14ab6e6fb1cf64adb66f3091ebc0386a04f77d249af9241/iamlistening-3.1.3.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/83/9b/2c99ac41e5de327a0ecd960edf3426428e5d1432fa1bad21f76052acc0a4/jlogr-0.1.202.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-06 16:15:21] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.5.tar.gz tmp/findmyorder-1.7.6.tar.gz --markdown 20230806/f/findmyorder/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-08-06 16:15:21] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-08-06 16:15:21] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-3.1.2.tar.gz tmp/iamlistening-3.1.3.tar.gz --markdown 20230806/i/iamlistening/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-08-06 16:15:21] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 16:15:21] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.201.tar.gz tmp/jlogr-0.1.202.tar.gz --markdown 20230806/j/jlogr/0.1.201-0.1.202/diff.md --exclude *.pyd
+[2023-08-06 16:15:21] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/d3/64/b8cab5c8dc1cd2c07eb009e2e54208f38db0ee3c101ba0e4ce917e1dc5c0/django-authorization-1.0.3.tar.gz
+[2023-08-06 16:15:21] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/4c/30/5882cfe27bf84e1132883f80b1ea445f52e1ffa0f454bc9fbfb2a93483d0/RapidMangaDL-0.2.5.tar.gz
+[2023-08-06 16:15:22] INFO root fetch - processPackages [django-authorization]: executing diffoscope
+[2023-08-06 16:15:22] INFO root fetch - processPackages [django-authorization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-authorization-1.0.2.tar.gz tmp/django-authorization-1.0.3.tar.gz --markdown 20230806/d/django-authorization/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:15:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-06 16:15:22] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-08-06 16:15:22] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.2.4.tar.gz tmp/RapidMangaDL-0.2.5.tar.gz --markdown 20230806/R/RapidMangaDL/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 16:15:22] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/15/1a/748e77471c160e93432d85119b1cbc912d3503de417ca3b5aa8f5b99a5ae/simplejpeg-1.7.0rc1.tar.gz
+[2023-08-06 16:15:22] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-06 16:15:22] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230806/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-06 16:15:22] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.2.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.3.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-08-06 16:15:22] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.5.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - processPackages [simplejpeg]: executing diffoscope
+[2023-08-06 16:15:22] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.6.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - processPackages [simplejpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplejpeg-1.7.0.tar.gz tmp/simplejpeg-1.7.0rc1.tar.gz --markdown 20230806/s/simplejpeg/1.7.0-1.7.0rc1/diff.md --exclude *.pyd
+[2023-08-06 16:15:22] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-06 16:15:22] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.201.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.202.tar.gz]
+[2023-08-06 16:15:22] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 16:15:23] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django-authorization-1.0.2.tar.gz]
+[2023-08-06 16:15:23] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django-authorization-1.0.3.tar.gz]
+[2023-08-06 16:15:23] INFO root fetch - main [MainThread]: End processing [django-authorization]: success
+[2023-08-06 16:15:23] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.4.tar.gz]
+[2023-08-06 16:15:23] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.5.tar.gz]
+[2023-08-06 16:15:23] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-08-06 16:15:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-06 16:15:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-06 16:15:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-06 16:15:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0.tar.gz]
+[2023-08-06 16:15:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
+[2023-08-06 16:15:38] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
+[2023-08-06 16:15:38] INFO root fetch - main [MainThread]: Store serial: [19194473]
