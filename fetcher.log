@@ -16965,3 +16965,90 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:24:50] INFO root fetch - processPackages [tensorshare]: Remove: archive file [/home/abi/fetcher/tmp/tensorshare-0.0.2.tar.gz]
 [2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [tensorshare]: success
 [2023-08-06 23:24:50] INFO root fetch - main [MainThread]: Store serial: [19197301]
+[2023-08-06 23:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197301]
+[2023-08-06 23:29:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: releng-tool
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reclist
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fajrGPT
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeelight
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyautd3
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-interpreter
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wodoo
+[2023-08-06 23:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TheSilent
+[2023-08-06 23:29:59] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.270] Old Version: [0.0.269]
+[2023-08-06 23:29:59] INFO root fetch - processPackages [releng-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 23:29:59] INFO root fetch - processPackages [reclist]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-08-06 23:29:59] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 23:29:59] INFO root fetch - processPackages [refineryframe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 23:29:59] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 23:30:00] INFO root fetch - processPackages [fajrGPT]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-08-06 23:30:00] INFO root fetch - processPackages [yeelight]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-06 23:30:00] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-08-06 23:30:00] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/43/96/481993b45fbbe9926c7ee412a04b4cf0704db5795306d34fb898f07328d6/open_interpreter-0.0.269.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [releng-tool]: Downloading https://files.pythonhosted.org/packages/40/05/83d995ca544db0ab67f6b8d224c59b80df33095322c600086fbf6a1b808b/releng-tool-0.8.0.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/73/12/e64f926b8a8324ee3c4f107300702dde196642064f5f125dc0e923b614f9/reclist-2.0.1.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/4b/5d/0b2d6963de667ecf2c251014e6e9013494d3785c5ae1ba876de96428b11c/fajrGPT-1.5.4.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/e5/01/e91461068a9dc34b7e4570749a1eace991ce901f15f59fe559898e4d8b67/yeelight-0.7.8.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-06 23:30:00] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-08-06 23:30:00] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-08-06 23:30:00] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 23:30:00] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/40/76/d8a2b7bb1a4a99cb89072057c688489becb41cdd9dad002d5801c53d5b55/open_interpreter-0.0.270.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 23:30:00] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 23:30:00] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 23:30:00] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 23:30:00] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/90/ec/a2235cf6e590e09b88ef1831bbbb20114962e00415e749de324264578442/fajrGPT-1.5.5.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [reclist]: Downloading https://files.pythonhosted.org/packages/87/5e/59d427f4910bc935001cb5e3de1805313443f3852e44b5b1b39c4f96c357/reclist-2.1.0.tar.gz
+[2023-08-06 23:30:00] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 23:30:00] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.269.tar.gz tmp/open_interpreter-0.0.270.tar.gz --markdown 20230806/o/open-interpreter/0.0.269-0.0.270/diff.md --exclude *.pyd
+[2023-08-06 23:30:00] INFO root fetch - processPackages [releng-tool]: Downloading https://files.pythonhosted.org/packages/5f/ee/3463afc510b8b381f6d6637f33e0d378518aac77eaf093995c44d5e141d4/releng-tool-0.9.0.tar.gz
+[2023-08-06 23:30:01] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-08-06 23:30:01] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.5.4.tar.gz tmp/fajrGPT-1.5.5.tar.gz --markdown 20230806/f/fajrGPT/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-08-06 23:30:01] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/70/6e/5c9dd4eb84b76aabd31215851f6762877f567a5471242d422854a20e2369/refineryframe-0.1.9.tar.gz
+[2023-08-06 23:30:01] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/b4/70/c65a115750c17c3d78e1108d0c58ca4c774572ed953a3bd84b11425a418f/yeelight-0.7.9.tar.gz
+[2023-08-06 23:30:01] INFO root fetch - processPackages [reclist]: executing diffoscope
+[2023-08-06 23:30:01] INFO root fetch - processPackages [reclist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reclist-2.0.1.tar.gz tmp/reclist-2.1.0.tar.gz --markdown 20230806/r/reclist/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-08-06 23:30:01] INFO root fetch - processPackages [releng-tool]: executing diffoscope
+[2023-08-06 23:30:01] INFO root fetch - processPackages [releng-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/releng-tool-0.8.0.tar.gz tmp/releng-tool-0.9.0.tar.gz --markdown 20230806/r/releng-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 23:30:01] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-06 23:30:01] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.8.tar.gz tmp/refineryframe-0.1.9.tar.gz --markdown 20230806/r/refineryframe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 23:30:01] INFO root fetch - processPackages [yeelight]: executing diffoscope
+[2023-08-06 23:30:01] INFO root fetch - processPackages [yeelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeelight-0.7.8.tar.gz tmp/yeelight-0.7.9.tar.gz --markdown 20230806/y/yeelight/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-06 23:30:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 23:30:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 23:30:01] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.269.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.270.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.4.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.5.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-2.0.1.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [reclist]: Remove: archive file [/home/abi/fetcher/tmp/reclist-2.1.0.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [reclist]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.8.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.9.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [yeelight]: success
+[2023-08-06 23:30:02] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.9.tar.gz]
+[2023-08-06 23:30:02] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-06 23:30:03] INFO root fetch - processPackages [releng-tool]: Remove: archive file [/home/abi/fetcher/tmp/releng-tool-0.8.0.tar.gz]
+[2023-08-06 23:30:03] INFO root fetch - processPackages [releng-tool]: Remove: archive file [/home/abi/fetcher/tmp/releng-tool-0.9.0.tar.gz]
+[2023-08-06 23:30:03] INFO root fetch - main [MainThread]: End processing [releng-tool]: success
+[2023-08-06 23:30:03] INFO root fetch - main [MainThread]: Store serial: [19197330]
