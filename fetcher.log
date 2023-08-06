@@ -2418,3 +2418,131 @@
 [2023-08-06 03:38:11] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip]
 [2023-08-06 03:38:11] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
 [2023-08-06 03:38:11] INFO root fetch - main [MainThread]: Store serial: [19190599]
+[2023-08-06 03:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190599]
+[2023-08-06 03:43:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-web-core
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-api-core
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-library-objects
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BeyotekTools
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-scipy
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dotscanner
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmn
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multilogue
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweetrpg-web-core
+[2023-08-06 03:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-08-06 03:43:20] INFO root fetch - processPackages [dotscanner]: New version: [1.4.0] Old Version: [1.3.5]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:20] WARNING root fetch - processPackages [cmn]: Skipping, unable to determine old version
+[2023-08-06 03:43:20] INFO root fetch - processPackages [cmn]: Start processing: BeyotekTools
+[2023-08-06 03:43:20] INFO root fetch - main [MainThread]: End processing [cmn] error
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [multilogue]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/35/4a/7dbcfad7b6582702469ef0d9d216b70cb5f33f16408ce013625370afe06c/dotscanner-1.3.5.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/11/46/9523e384be79941a9a960cb436208c54b2d152e07f6d6a1e929e745d6a5b/dotscanner-1.4.0.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [multilogue]: Downloading https://files.pythonhosted.org/packages/fd/58/4454eb01344cd70974e388ea3b2d1fea9e51aa66cb12167b96abf3a5a922/multilogue-0.0.8.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-06 03:43:20] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230806/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:20] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-08-06 03:43:20] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.5.tar.gz tmp/dotscanner-1.4.0.tar.gz --markdown 20230806/d/dotscanner/1.3.5-1.4.0/diff.md --exclude *.pyd
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:43:20] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [multilogue]: Downloading https://files.pythonhosted.org/packages/af/e4/c5d7062a2e1c5643d835ac3e5715692ec7b45860712ec96f71caa829df9c/multilogue-0.0.9.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230806/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [multilogue]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [multilogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multilogue-0.0.8.tar.gz tmp/multilogue-0.0.9.tar.gz --markdown 20230806/m/multilogue/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:43:21] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-06 03:43:21] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230806/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: alacorder
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-06 03:43:22] INFO root fetch - processPackages [alacorder]: New version: [81.1.9] Old Version: [81.1.8]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b4/33/8dae78fc48e27a13343f8faa5c164ec0f37b2ed4992169fc7bde83217ce0/alacorder-81.1.8.tar.gz
+[2023-08-06 03:43:22] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.5.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.4.0.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [dotscanner]: Start processing: nbdev-django
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-06 03:43:22] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1e/37/e68b59deed10aacfadf3796f5d6cb20915017740a2b24e6ed9e6f6a32f34/alacorder-81.1.9.tar.gz
+[2023-08-06 03:43:22] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: pyxk
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-08-06 03:43:22] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [BeyotekTools]: Start processing: kgenealogic
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:43:22] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-08-06 03:43:22] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.1.8.tar.gz tmp/alacorder-81.1.9.tar.gz --markdown 20230806/a/alacorder/81.1.8-81.1.9/diff.md --exclude *.pyd
+[2023-08-06 03:43:22] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-08-06 03:43:22] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-06 03:43:22] INFO root fetch - processPackages [multilogue]: Remove: archive file [/home/abi/fetcher/tmp/multilogue-0.0.8.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - processPackages [multilogue]: Remove: archive file [/home/abi/fetcher/tmp/multilogue-0.0.9.tar.gz]
+[2023-08-06 03:43:22] INFO root fetch - main [MainThread]: End processing [multilogue]: success
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:43:23] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-08-06 03:43:23] INFO root fetch - processPackages [kgenealogic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [pyxk]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230806/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:43:23] INFO root fetch - processPackages [kgenealogic]: Downloading https://files.pythonhosted.org/packages/26/5c/406e80a01d997e93aed7721ecfe87fee8241dc0e289d224455bc98de6e1b/kgenealogic-0.1.1.tar.gz
+[2023-08-06 03:43:23] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/c7/be/86611e93899a5036b3ce29093f84b0cf350a5b6c97a462178080ed9ff4b5/pyxk-0.6.9.tar.gz
+[2023-08-06 03:43:23] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/54/f5/d0d47da1ec60a4f4ab50ad08ec8e52a1064d417ff34091d4f5b5cb81bb62/pyxk-0.7.0.tar.gz
+[2023-08-06 03:43:23] INFO root fetch - processPackages [kgenealogic]: Downloading https://files.pythonhosted.org/packages/35/11/9104a7ab9045b3d2284505ec30b3e005aaa710c847d6fa6ef6f27acbf89d/kgenealogic-0.1.2.tar.gz
+[2023-08-06 03:43:23] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-08-06 03:43:23] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.6.9.tar.gz tmp/pyxk-0.7.0.tar.gz --markdown 20230806/p/pyxk/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 03:43:23] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.8.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-06 03:43:23] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-06 03:43:23] INFO root fetch - processPackages [kgenealogic]: executing diffoscope
+[2023-08-06 03:43:23] INFO root fetch - processPackages [kgenealogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgenealogic-0.1.1.tar.gz tmp/kgenealogic-0.1.2.tar.gz --markdown 20230806/k/kgenealogic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 03:43:24] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.9.tar.gz]
+[2023-08-06 03:43:24] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.7.0.tar.gz]
+[2023-08-06 03:43:24] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-08-06 03:43:24] INFO root fetch - processPackages [kgenealogic]: Remove: archive file [/home/abi/fetcher/tmp/kgenealogic-0.1.1.tar.gz]
+[2023-08-06 03:43:24] INFO root fetch - processPackages [kgenealogic]: Remove: archive file [/home/abi/fetcher/tmp/kgenealogic-0.1.2.tar.gz]
+[2023-08-06 03:43:24] INFO root fetch - main [MainThread]: End processing [kgenealogic]: success
+[2023-08-06 03:43:24] INFO root fetch - main [MainThread]: Store serial: [19190649]
