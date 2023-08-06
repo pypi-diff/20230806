@@ -15645,3 +15645,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:35:41] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.4.tar.gz]
 [2023-08-06 21:35:41] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
 [2023-08-06 21:35:41] INFO root fetch - main [MainThread]: Store serial: [19196731]
+[2023-08-06 21:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196731]
+[2023-08-06 21:40:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirmordred
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: likeinterface
+[2023-08-06 21:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretink
+[2023-08-06 21:40:50] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-06 21:40:50] INFO root fetch - processPackages [likeinterface]: New version: [1.0a0] Old Version: [1.0.1a0]
+[2023-08-06 21:40:50] INFO root fetch - processPackages [sirmordred]: New version: [0.9.3rc1] Old Version: [0.9.2rc1]
+[2023-08-06 21:40:50] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.263] Old Version: [0.0.262]
+[2023-08-06 21:40:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-06 21:40:50] WARNING root fetch - processPackages [secretink]: Skipping, unable to determine old version
+[2023-08-06 21:40:50] INFO root fetch - main [MainThread]: End processing [secretink] error
+[2023-08-06 21:40:50] INFO root fetch - processPackages [eolymp]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-06 21:40:50] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/6c/6c/28a7f198fea6c1f081c04a5b3b9a7aac6ef5bcde203fb31a3d1b2e81fb60/likeinterface-1.0.1a0.tar.gz
+[2023-08-06 21:40:50] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/29/11/b6371e9c2fd13d3e7fe3af1785cc4a042659983ce0341716db61c3411cc0/open_interpreter-0.0.262.tar.gz
+[2023-08-06 21:40:50] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/48/e0/9d87ca4ccf905c49a05db2c273dbdff140581b75121b4d019c3b615e7963/sirmordred-0.9.2rc1.tar.gz
+[2023-08-06 21:40:50] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b4/a6/eae17544a8034601d0c24d520e08ffcb3c667c787736bbf482664d3b8bc1/likeinterface-1.0a0.tar.gz
+[2023-08-06 21:40:50] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/38/35/933c60b946d27cce31df99a9690fc10fc91f3b3799156b05dc2e782562b7/eolymp-0.8.1.tar.gz
+[2023-08-06 21:40:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-06 21:40:51] INFO root fetch - processPackages [likeinterface]: executing diffoscope
+[2023-08-06 21:40:51] INFO root fetch - processPackages [likeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeinterface-1.0.1a0.tar.gz tmp/likeinterface-1.0a0.tar.gz --markdown 20230806/l/likeinterface/1.0.1a0-1.0a0/diff.md --exclude *.pyd
+[2023-08-06 21:40:51] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-06 21:40:51] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230806/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-06 21:40:51] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/59/c4/01d7c9ef4b3d166916512cc86adc2aef66a1c4eebe7e5aecb95d4f815361/open_interpreter-0.0.263.tar.gz
+[2023-08-06 21:40:51] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/7f/98/0ce9ccedc40718ac4eaa8b08d199606a7d9f378ce970565cae46d161e50b/sirmordred-0.9.3rc1.tar.gz
+[2023-08-06 21:40:51] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/0e/c4/8c79852d49a68351c2189aa3dd29f7542d3a594c7fb8e90d70600cb7c260/eolymp-0.8.2.tar.gz
+[2023-08-06 21:40:51] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:40:51] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.262.tar.gz tmp/open_interpreter-0.0.263.tar.gz --markdown 20230806/o/open-interpreter/0.0.262-0.0.263/diff.md --exclude *.pyd
+[2023-08-06 21:40:51] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2023-08-06 21:40:51] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.8.1.tar.gz tmp/eolymp-0.8.2.tar.gz --markdown 20230806/e/eolymp/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-06 21:40:51] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-08-06 21:40:51] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.9.2rc1.tar.gz tmp/sirmordred-0.9.3rc1.tar.gz --markdown 20230806/s/sirmordred/0.9.2rc1-0.9.3rc1/diff.md --exclude *.pyd
+[2023-08-06 21:40:52] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0.1a0.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0a0.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - main [MainThread]: End processing [likeinterface]: success
+[2023-08-06 21:40:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.262.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.263.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:40:52] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-06 21:40:52] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-06 21:40:53] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.8.1.tar.gz]
+[2023-08-06 21:40:53] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.8.2.tar.gz]
+[2023-08-06 21:40:53] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2023-08-06 21:40:56] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.2rc1.tar.gz]
+[2023-08-06 21:40:56] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.3rc1.tar.gz]
+[2023-08-06 21:40:56] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-08-06 21:40:56] INFO root fetch - main [MainThread]: Store serial: [19196750]
