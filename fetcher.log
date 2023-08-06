@@ -7936,3 +7936,95 @@
 [2023-08-06 13:21:42] INFO root fetch - processPackages [pyawskit]: Remove: archive file [/home/abi/fetcher/tmp/pyawskit-0.1.78.tar.gz]
 [2023-08-06 13:21:42] INFO root fetch - main [MainThread]: End processing [pyawskit]: success
 [2023-08-06 13:21:42] INFO root fetch - main [MainThread]: Store serial: [19193246]
+[2023-08-06 13:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193246]
+[2023-08-06 13:26:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nr-openai-observability
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuiltiX
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdbai
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EasyDeL
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Firefly-III-API-Client
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-code-review
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-08-06 13:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchx-nightly
+[2023-08-06 13:26:51] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.17] Old Version: [0.16]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [nr-openai-observability]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [Firefly-III-API-Client]: New version: [2.0.5.0] Old Version: [1.5.6]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [QuiltiX]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 13:26:51] WARNING root fetch - processPackages [gdbai]: Skipping, unable to determine old version
+[2023-08-06 13:26:51] INFO root fetch - processPackages [gdbai]: Start processing: sqlglot-doris
+[2023-08-06 13:26:51] INFO root fetch - main [MainThread]: End processing [gdbai] error
+[2023-08-06 13:26:51] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.8.6] Old Version: [2023.8.5]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/ec/fb/25488e215a7c3e4ceca247872bf923536af5df58beed8c5b3c53686c2856/gpt4all-code-review-0.16.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/cf/53/327e9a0dec7447f1e9635c7eed9d7001b65256afa8468d073721dd510bc8/torchtnt-nightly-2023.8.4.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-06 13:26:51] INFO root fetch - processPackages [nr-openai-observability]: Downloading https://files.pythonhosted.org/packages/5a/76/4bbba4640ae3b971789067968a9282eb568fef50ad57d831e23ba5df50f1/nr_openai_observability-0.2.5.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.0.2.dev3] Old Version: [1.0.1.dev3]
+[2023-08-06 13:26:51] INFO root fetch - processPackages [Firefly-III-API-Client]: Downloading https://files.pythonhosted.org/packages/7d/a9/31a0bdf55983e720b7bb232a069d739c2bf37b889fb168754cd5665f2b70/Firefly%20III%20API%20Client-1.5.6.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [QuiltiX]: Downloading https://files.pythonhosted.org/packages/18/70/7ea946d1fdb2c4fc2c80b3cd2287e26cb33671ac05e05f25617cb455e6e9/QuiltiX-0.4.0.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/01/e2/fbcd7a3e2b4a528bfa495894be7da6aa5c8189ee751c23092ac55d17b0e9/torchx_nightly-2023.8.5-py3-none-any.whl
+[2023-08-06 13:26:51] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-08-06 13:26:51] WARNING root fetch - processPackages [QuiltiX]: Skipping package: exceeds size limit 19058917>=10485760
+[2023-08-06 13:26:51] INFO root fetch - main [MainThread]: End processing [QuiltiX] error
+[2023-08-06 13:26:51] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/58/73/28401cb16957c76222b83bb92b9ba7624d5821a0b1cd1c6fd8bea9f02157/sqlglot-doris-1.0.1.dev3.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/e0/65/a6dd4ac604ced4568381d0d9c6b6f6fc68a8bd17dd0b6ea73f6568c2012c/gpt4all-code-review-0.17.tar.gz
+[2023-08-06 13:26:51] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/55/b6/f2da78b6e172bdba68a3dac4871bbfdfdb2e9e3eccb69775054db7e7d84b/torchtnt-nightly-2023.8.5.tar.gz
+[2023-08-06 13:26:52] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230806/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [nr-openai-observability]: Downloading https://files.pythonhosted.org/packages/24/fc/26236f9960986d262283bfafb1fac5f262211daae6452a67f6ec2dbde51b/nr_openai_observability-0.2.6.tar.gz
+[2023-08-06 13:26:52] INFO root fetch - processPackages [Firefly-III-API-Client]: Downloading https://files.pythonhosted.org/packages/30/a0/6a404947c3ba35e95a7bf0c55bc6f4313ab66c609bc79525beb812998694/Firefly_III_API_Client-2.0.5.0-py3-none-any.whl
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.8.4.tar.gz tmp/torchtnt-nightly-2023.8.5.tar.gz --markdown 20230806/t/torchtnt-nightly/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230806/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.16.tar.gz tmp/gpt4all-code-review-0.17.tar.gz --markdown 20230806/g/gpt4all-code-review/0.16-0.17/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/05/d1/8e67a47a03f62a5dea6bf5725fed3464b559dae142d432ae9c782cc9dcb8/torchx_nightly-2023.8.6-py3-none-any.whl
+[2023-08-06 13:26:52] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-06 13:26:52] INFO root fetch - processPackages [nr-openai-observability]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [nr-openai-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr_openai_observability-0.2.5.tar.gz tmp/nr_openai_observability-0.2.6.tar.gz --markdown 20230806/n/nr-openai-observability/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [Firefly-III-API-Client]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [Firefly-III-API-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Firefly III API Client-1.5.6.tar.gz tmp/Firefly_III_API_Client-2.0.5.0-py3-none-any.whl.zip --markdown 20230806/F/Firefly-III-API-Client/1.5.6-2.0.5.0/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.8.5-py3-none-any.whl.zip tmp/torchx_nightly-2023.8.6-py3-none-any.whl.zip --markdown 20230806/t/torchx-nightly/2023.8.5-2023.8.6/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-06 13:26:52] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230806/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-06 13:26:52] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/f1/d1/9dc88ec86e1ef18f5774b6b8be34e2df6af8b568ada0c675484863bc61c4/sqlglot-doris-1.0.2.dev3.tar.gz
+[2023-08-06 13:26:53] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-08-06 13:26:53] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.16.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.17.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-06 13:26:53] INFO root fetch - processPackages [nr-openai-observability]: Remove: archive file [/home/abi/fetcher/tmp/nr_openai_observability-0.2.5.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - processPackages [nr-openai-observability]: Remove: archive file [/home/abi/fetcher/tmp/nr_openai_observability-0.2.6.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - main [MainThread]: End processing [nr-openai-observability]: success
+[2023-08-06 13:26:53] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.4.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.5.tar.gz]
+[2023-08-06 13:26:53] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-06 13:26:54] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.5-py3-none-any.whl.zip]
+[2023-08-06 13:26:54] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.6-py3-none-any.whl.zip]
+[2023-08-06 13:26:54] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-06 13:26:54] INFO root fetch - processPackages [Firefly-III-API-Client]: Remove: archive file [/home/abi/fetcher/tmp/Firefly III API Client-1.5.6.tar.gz]
+[2023-08-06 13:26:54] INFO root fetch - processPackages [Firefly-III-API-Client]: Remove: archive file [/home/abi/fetcher/tmp/Firefly_III_API_Client-2.0.5.0-py3-none-any.whl.zip]
+[2023-08-06 13:26:54] INFO root fetch - main [MainThread]: End processing [Firefly-III-API-Client]: success
+[2023-08-06 13:26:55] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-06 13:26:55] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-06 13:26:55] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-06 13:26:55] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-06 13:26:55] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-06 13:26:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-06 13:26:58] INFO root fetch - processPackages [sqlglot-doris]: executing diffoscope
+[2023-08-06 13:26:58] INFO root fetch - processPackages [sqlglot-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-doris-1.0.1.dev3.tar.gz tmp/sqlglot-doris-1.0.2.dev3.tar.gz --markdown 20230806/s/sqlglot-doris/1.0.1.dev3-1.0.2.dev3/diff.md --exclude *.pyd
+[2023-08-06 13:27:02] INFO root fetch - processPackages [sqlglot-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-doris-1.0.1.dev3.tar.gz]
+[2023-08-06 13:27:02] INFO root fetch - processPackages [sqlglot-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-doris-1.0.2.dev3.tar.gz]
+[2023-08-06 13:27:02] INFO root fetch - main [MainThread]: End processing [sqlglot-doris]: success
+[2023-08-06 13:27:02] INFO root fetch - main [MainThread]: Store serial: [19193278]
