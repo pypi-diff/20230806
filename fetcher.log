@@ -7460,3 +7460,47 @@
 [2023-08-06 12:34:28] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.0.tar.gz]
 [2023-08-06 12:34:28] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
 [2023-08-06 12:34:28] INFO root fetch - main [MainThread]: Store serial: [19193060]
+[2023-08-06 12:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193060]
+[2023-08-06 12:39:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-08-06 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jlogr
+[2023-08-06 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezsynth
+[2023-08-06 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyGrained
+[2023-08-06 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyVLMP
+[2023-08-06 12:39:37] INFO root fetch - processPackages [ezsynth]: New version: [0.21] Old Version: [0.201]
+[2023-08-06 12:39:37] INFO root fetch - processPackages [jlogr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyGrained]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 12:39:37] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-06 12:39:37] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/f9/40/6384d7477b64afb9d9fcc088c89f8b6b26905b6a966098b4b9a251cb385d/ezsynth-0.201.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/1d/66/0d82d054bb7d3142daf784780a49838d400c4cab7adc425e886e8512c08e/jlogr-0.1.0.tar.gz
+[2023-08-06 12:39:37] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103514>=10485760
+[2023-08-06 12:39:37] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyGrained]: Downloading https://files.pythonhosted.org/packages/5c/4b/d85f257f4829c01c205459f5367317f4d8074b1d90a2066e35c03e347771/pyGrained-1.0.2.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/a0/9f/de8c692e43885a1cd4df1121f56c201fa2127e8ef95a0256da68218dac3a/pyVLMP-1.0.8.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/ca/23/3eac4da228c89ba9e169866d7e47c4855dc437df761ef188952c01e9ea2c/jlogr-0.1.1.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 12:39:37] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.0.tar.gz tmp/jlogr-0.1.1.tar.gz --markdown 20230806/j/jlogr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyGrained]: Downloading https://files.pythonhosted.org/packages/eb/1f/7d94841e044c001c2c33856736914c2f9a22ef6cb6bd61d8cd69f8d1fa3f/pyGrained-1.0.3.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-06 12:39:37] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/7c/ea/35cd69b1b58b34a0c136e11b1a7e25fb86caa2cbc27af323ca3fd6a8a95f/pyVLMP-1.0.9.tar.gz
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyGrained]: executing diffoscope
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyGrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGrained-1.0.2.tar.gz tmp/pyGrained-1.0.3.tar.gz --markdown 20230806/p/pyGrained/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 12:39:38] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-06 12:39:38] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230806/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230806/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 12:39:38] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.0.tar.gz]
+[2023-08-06 12:39:38] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.1.tar.gz]
+[2023-08-06 12:39:38] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyGrained]: Remove: archive file [/home/abi/fetcher/tmp/pyGrained-1.0.2.tar.gz]
+[2023-08-06 12:39:38] INFO root fetch - processPackages [pyGrained]: Remove: archive file [/home/abi/fetcher/tmp/pyGrained-1.0.3.tar.gz]
+[2023-08-06 12:39:38] INFO root fetch - main [MainThread]: End processing [pyGrained]: success
+[2023-08-06 12:39:39] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.8.tar.gz]
+[2023-08-06 12:39:39] INFO root fetch - processPackages [pyVLMP]: Remove: archive file [/home/abi/fetcher/tmp/pyVLMP-1.0.9.tar.gz]
+[2023-08-06 12:39:39] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-08-06 12:39:39] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-06 12:39:39] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-06 12:39:39] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-06 12:39:39] INFO root fetch - main [MainThread]: Store serial: [19193079]
