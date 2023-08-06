@@ -6722,3 +6722,75 @@
 [2023-08-06 11:36:50] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.80.tar.gz]
 [2023-08-06 11:36:50] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
 [2023-08-06 11:36:50] INFO root fetch - main [MainThread]: Store serial: [19192730]
+[2023-08-06 11:41:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192730]
+[2023-08-06 11:41:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtualenv-pyenv
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyecosystem
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jlogr
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snap-helpers
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dl2050utils
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maryam
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gyoza
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matplotlib-cern
+[2023-08-06 11:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: s1280153-learn
+[2023-08-06 11:41:59] INFO root fetch - processPackages [snap-helpers]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [gyoza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [virtualenv-pyenv]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [snap-helpers]: Downloading https://files.pythonhosted.org/packages/18/3c/791f30b8993f5d077d4dbe340cf07716015e07a5b4930dbdccb467e9ef69/snap-helpers-0.4.0.tar.gz
+[2023-08-06 11:41:59] WARNING root fetch - processPackages [s1280153-learn]: Skipping, unable to determine old version
+[2023-08-06 11:41:59] INFO root fetch - processPackages [jlogr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 11:41:59] INFO root fetch - main [MainThread]: End processing [s1280153-learn] error
+[2023-08-06 11:41:59] WARNING root fetch - processPackages [matplotlib-cern]: Skipping, unable to determine old version
+[2023-08-06 11:41:59] INFO root fetch - main [MainThread]: End processing [matplotlib-cern] error
+[2023-08-06 11:41:59] INFO root fetch - processPackages [maryam]: New version: [2.5.2.post1] Old Version: [2.5.2]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [pyecosystem]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/2e/09/ff40bc97909fbf5a75b0436219aea6a898dc334fa2c7f53105451297037a/gyoza-0.0.7.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 11:41:59] INFO root fetch - processPackages [virtualenv-pyenv]: Downloading https://files.pythonhosted.org/packages/bd/16/d738a0beaf6f9885ffc0ecccb2d1e8a957fbe950b63feaa8ad826a1e4c1c/virtualenv_pyenv-0.3.0.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/5f/d0/6e12cf3b67e00baa2851a6227245add175be3f157311c0e4507aa5a32eb9/maryam-2.5.2.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [snap-helpers]: Downloading https://files.pythonhosted.org/packages/04/87/633c99da6b8e2111151d2845c55ac5190d16b83aab1d24c31496fe605d88/snap-helpers-0.4.1.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/1d/66/0d82d054bb7d3142daf784780a49838d400c4cab7adc425e886e8512c08e/jlogr-0.1.0.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [pyecosystem]: Downloading https://files.pythonhosted.org/packages/ea/ae/0968cdb4604a7b14a2a52da99f30dc5b38250a3218286876dddccc6e4f55/pyecosystem-0.0.1.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/f9/78/6e904ef3866f600967d8b45048ec6d579f0fa7d92ba95564fbbb2616b827/gyoza-0.0.8.tar.gz
+[2023-08-06 11:41:59] INFO root fetch - processPackages [snap-helpers]: executing diffoscope
+[2023-08-06 11:41:59] INFO root fetch - processPackages [snap-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snap-helpers-0.4.0.tar.gz tmp/snap-helpers-0.4.1.tar.gz --markdown 20230806/s/snap-helpers/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [gyoza]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [gyoza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyoza-0.0.7.tar.gz tmp/gyoza-0.0.8.tar.gz --markdown 20230806/g/gyoza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/01/b3/0fb27a75afdd1ee9f4efa2a48a7b6fe7a8238744c16994afaf05718c72f7/maryam-2.5.2.post1.tar.gz
+[2023-08-06 11:42:00] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/ca/23/3eac4da228c89ba9e169866d7e47c4855dc437df761ef188952c01e9ea2c/jlogr-0.1.1.tar.gz
+[2023-08-06 11:42:00] INFO root fetch - processPackages [pyecosystem]: Downloading https://files.pythonhosted.org/packages/32/6f/e39f3deae777c9a310997c795e9ded77cf0b29f9023851245afb8a68101a/pyecosystem-0.0.2.tar.gz
+[2023-08-06 11:42:00] INFO root fetch - processPackages [virtualenv-pyenv]: Downloading https://files.pythonhosted.org/packages/d0/9d/1689d02b71e9381b18b217cae6670ee2ba0ebce88e8b1df06e38f44b09fc/virtualenv-pyenv-0.4.0.tar.gz
+[2023-08-06 11:42:00] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-06 11:42:00] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.0.tar.gz tmp/jlogr-0.1.1.tar.gz --markdown 20230806/j/jlogr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [pyecosystem]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [pyecosystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecosystem-0.0.1.tar.gz tmp/pyecosystem-0.0.2.tar.gz --markdown 20230806/p/pyecosystem/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [maryam]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [maryam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maryam-2.5.2.tar.gz tmp/maryam-2.5.2.post1.tar.gz --markdown 20230806/m/maryam/2.5.2-2.5.2.post1/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230806/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 11:42:00] INFO root fetch - processPackages [virtualenv-pyenv]: executing diffoscope
+[2023-08-06 11:42:00] INFO root fetch - processPackages [virtualenv-pyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv_pyenv-0.3.0.tar.gz tmp/virtualenv-pyenv-0.4.0.tar.gz --markdown 20230806/v/virtualenv-pyenv/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 11:42:01] INFO root fetch - processPackages [snap-helpers]: Remove: archive file [/home/abi/fetcher/tmp/snap-helpers-0.4.0.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [snap-helpers]: Remove: archive file [/home/abi/fetcher/tmp/snap-helpers-0.4.1.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [snap-helpers]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.7.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.8.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [gyoza]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [virtualenv-pyenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv_pyenv-0.3.0.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [virtualenv-pyenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-pyenv-0.4.0.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [virtualenv-pyenv]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [pyecosystem]: Remove: archive file [/home/abi/fetcher/tmp/pyecosystem-0.0.1.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [pyecosystem]: Remove: archive file [/home/abi/fetcher/tmp/pyecosystem-0.0.2.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [pyecosystem]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.0.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.1.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-06 11:42:01] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.2.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.2.post1.tar.gz]
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: End processing [maryam]: success
+[2023-08-06 11:42:01] INFO root fetch - main [MainThread]: Store serial: [19192758]
