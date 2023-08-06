@@ -7504,3 +7504,51 @@
 [2023-08-06 12:39:39] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-08-06 12:39:39] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-08-06 12:39:39] INFO root fetch - main [MainThread]: Store serial: [19193079]
+[2023-08-06 12:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193079]
+[2023-08-06 12:44:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2023-08-06 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funda-scraper
+[2023-08-06 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Artec
+[2023-08-06 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2023-08-06 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argrelay
+[2023-08-06 12:44:48] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 12:44:48] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-06 12:44:48] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230805] Old Version: [1.0.0.dev20230804]
+[2023-08-06 12:44:48] INFO root fetch - processPackages [Artec]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 12:44:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [argrelay]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2023-08-06 12:44:48] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/a7/e1/9133fcadb7a039cc429560f8736d3f8f1e2ba6f604869a4e5d53e7070bd9/funda-scraper-1.0.1.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/44/a1/8d3b180503af9d89223e42af66973cb9ccd5336ddbd23aeea5ad0daa3427/skypilot-nightly-1.0.0.dev20230804.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/ee/20/dcf84ba59b27541e7befb06e62f4511f9ac962b9705e953af4250562d5ec/Artec-0.2.1.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/e8/1f/c95ed956491684a1d1ed2214a01a9c98c467ef3afec12f90ea9f4275471a/argrelay-0.1.0.dev3.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/4a/92/24bd6f52e09c18bf32242e065f42c35970c60b52edee669069d8c60e4553/funda-scraper-1.0.2.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 12:44:48] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 12:44:48] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/ba/27/135e64c7886b9793524ae8cbac8d83abba8ba043451a7c846083c61d78e5/skypilot-nightly-1.0.0.dev20230805.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/5d/96/7e47dfb7d7f8d4c60a997fbc0ff549dce20aa9ff0206f0210c52a0161f1c/Artec-0.3.0.tar.gz
+[2023-08-06 12:44:48] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-06 12:44:48] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda-scraper-1.0.1.tar.gz tmp/funda-scraper-1.0.2.tar.gz --markdown 20230806/f/funda-scraper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-06 12:44:49] INFO root fetch - processPackages [Artec]: executing diffoscope
+[2023-08-06 12:44:49] INFO root fetch - processPackages [Artec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Artec-0.2.1.tar.gz tmp/Artec-0.3.0.tar.gz --markdown 20230806/A/Artec/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 12:44:49] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-06 12:44:49] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230804.tar.gz tmp/skypilot-nightly-1.0.0.dev20230805.tar.gz --markdown 20230806/s/skypilot-nightly/1.0.0.dev20230804-1.0.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 12:44:49] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/d2/cb/94b12eb4eb482f8880f413e3f0524356aa6c91a172b7c8731e3f62408765/argrelay-0.1.0.dev4.tar.gz
+[2023-08-06 12:44:49] INFO root fetch - processPackages [argrelay]: executing diffoscope
+[2023-08-06 12:44:49] INFO root fetch - processPackages [argrelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argrelay-0.1.0.dev3.tar.gz tmp/argrelay-0.1.0.dev4.tar.gz --markdown 20230806/a/argrelay/0.1.0.dev3-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-08-06 12:44:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 12:44:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 12:44:49] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 12:44:49] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.1.tar.gz]
+[2023-08-06 12:44:49] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.2.tar.gz]
+[2023-08-06 12:44:49] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-06 12:44:50] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.2.1.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.3.0.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - main [MainThread]: End processing [Artec]: success
+[2023-08-06 12:44:50] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230804.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230805.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-06 12:44:50] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev3.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev4.tar.gz]
+[2023-08-06 12:44:50] INFO root fetch - main [MainThread]: End processing [argrelay]: success
+[2023-08-06 12:44:50] INFO root fetch - main [MainThread]: Store serial: [19193094]
