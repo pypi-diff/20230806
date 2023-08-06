@@ -5808,3 +5808,58 @@
 [2023-08-06 10:13:20] INFO root fetch - processPackages [si-units]: Remove: archive file [/home/abi/fetcher/tmp/si_units-0.6.2-cp37-abi3-win_amd64.whl.zip]
 [2023-08-06 10:13:20] INFO root fetch - main [MainThread]: End processing [si-units]: success
 [2023-08-06 10:13:20] INFO root fetch - main [MainThread]: Store serial: [19192220]
+[2023-08-06 10:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192220]
+[2023-08-06 10:18:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alfreds
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yambs
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alfreds
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius-dev
+[2023-08-06 10:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmcloud
+[2023-08-06 10:18:28] INFO root fetch - processPackages [yambs]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [alfreds]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bb/13/d8193d6a821d9d18ebeec98308c702731343722076ec3c7c5f92bbec97b6/yambs-2.3.1.tar.gz
+[2023-08-06 10:18:28] INFO root fetch - processPackages [alfreds]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 10:18:28] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-06 10:18:28] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-06 10:18:28] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/25/9e/92023482f04b5dee8925e78c4d8998128d05ee1d5a8317d1ddea1e8ceb5b/alfreds-0.0.5-py3-none-any.whl
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/25/9e/92023482f04b5dee8925e78c4d8998128d05ee1d5a8317d1ddea1e8ceb5b/alfreds-0.0.5-py3-none-any.whl
+[2023-08-06 10:18:29] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/35/a3/3ba61a66aacb27a54d76bb4431024ebeebbb066d8a28ad08d05f8674eab8/yambs-2.3.2.tar.gz
+[2023-08-06 10:18:29] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-06 10:18:29] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-06 10:18:29] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 10:18:29] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230806/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 10:18:29] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.3.1.tar.gz tmp/yambs-2.3.2.tar.gz --markdown 20230806/y/yambs/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-08-06 10:18:29] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230806/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 10:18:29] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/00/66/1c65abf60a8b570fb06e9178e876d3c4e4d1c9bde374ddf7152f65fd57a0/alfreds-0.0.6-py3-none-any.whl
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/00/66/1c65abf60a8b570fb06e9178e876d3c4e4d1c9bde374ddf7152f65fd57a0/alfreds-0.0.6-py3-none-any.whl
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfreds-0.0.5-py3-none-any.whl.zip tmp/alfreds-0.0.6-py3-none-any.whl.zip --markdown 20230806/a/alfreds/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: executing diffoscope
+[2023-08-06 10:18:29] INFO root fetch - processPackages [alfreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfreds-0.0.5-py3-none-any.whl.zip tmp/alfreds-0.0.6-py3-none-any.whl.zip --markdown 20230806/a/alfreds/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 10:18:30] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-06 10:18:30] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-06 10:18:30] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 10:18:30] INFO root fetch - processPackages [alfreds]: Remove: archive file [/home/abi/fetcher/tmp/alfreds-0.0.5-py3-none-any.whl.zip]
+[2023-08-06 10:18:30] INFO root fetch - processPackages [alfreds]: Remove: archive file [/home/abi/fetcher/tmp/alfreds-0.0.6-py3-none-any.whl.zip]
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [alfreds]: success
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [alfreds]: success
+[2023-08-06 10:18:30] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.1.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.2.tar.gz]
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-08-06 10:18:30] INFO root fetch - main [MainThread]: Store serial: [19192237]
