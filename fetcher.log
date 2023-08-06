@@ -15516,3 +15516,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:25:15] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
 [2023-08-06 21:25:15] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
 [2023-08-06 21:25:15] INFO root fetch - main [MainThread]: Store serial: [19196687]
+[2023-08-06 21:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196687]
+[2023-08-06 21:30:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: md2gemini
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: async-wrapper
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram-widgets
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyfilter
+[2023-08-06 21:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: segment-geospatial
+[2023-08-06 21:30:24] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.262] Old Version: [0.0.261]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [md2gemini]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [aiogram-widgets]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [async-wrapper]: New version: [0.5.1] Old Version: [0.4.8]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/32/62/07972441baab9b60389472204ef1f531501e76606dff370cd83c65d38818/tinyfilter-0.1.3.tar.gz
+[2023-08-06 21:30:24] INFO root fetch - processPackages [segment-geospatial]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-08-06 21:30:24] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/05/62/f5619a9398db8afd7e67e62464b9e85282bb17e9bdeb3a59b075847e9d7f/open_interpreter-0.0.261.tar.gz
+[2023-08-06 21:30:24] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/91/1f/e1bf3a35e875bf72d6ca4cabba797aba125e286def5fedbb60a95d9b94c1/async_wrapper-0.4.8.tar.gz
+[2023-08-06 21:30:24] INFO root fetch - processPackages [md2gemini]: Downloading https://files.pythonhosted.org/packages/cf/f1/2f85c6a1e966a87ccb01a6caa4de4259fd4f0c4fe9cd56eb9988e1ef5129/md2gemini-1.9.0.tar.gz
+[2023-08-06 21:30:24] INFO root fetch - processPackages [aiogram-widgets]: Downloading https://files.pythonhosted.org/packages/ab/b2/73b393484833364d6db5ab3318b416044088d1d7de85391a67379165d081/aiogram_widgets-1.2.3.tar.gz
+[2023-08-06 21:30:24] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/93/ab/8375c2ce13be755167ae957d54f0292d40f97186d064da491c15ae50c3f6/segment-geospatial-0.8.5.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/29/11/b6371e9c2fd13d3e7fe3af1785cc4a042659983ce0341716db61c3411cc0/open_interpreter-0.0.262.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/24/76/5b2bd3534fa9a1ae1d26c6ee01c4cbdc251d7f2d3847559bf3a51b1cb3a7/async_wrapper-0.5.1.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [aiogram-widgets]: Downloading https://files.pythonhosted.org/packages/65/db/4b0100abefe9bc301f75561f6ec9edc0179a96a947db4992df94bc0d888e/aiogram_widgets-1.2.4.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [md2gemini]: Downloading https://files.pythonhosted.org/packages/a5/60/5cc6e92aa5e8116b2eb12da9d646bde8316d50ad0d54f206546fac78f0dc/md2gemini-1.9.1.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/df/86/5c4607ed0669a8cc1325fc9e8217d9a0dc1a6f31edeade0eeecac7e184b6/segment-geospatial-0.9.0.tar.gz
+[2023-08-06 21:30:25] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:30:25] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.261.tar.gz tmp/open_interpreter-0.0.262.tar.gz --markdown 20230806/o/open-interpreter/0.0.261-0.0.262/diff.md --exclude *.pyd
+[2023-08-06 21:30:25] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-08-06 21:30:25] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.4.8.tar.gz tmp/async_wrapper-0.5.1.tar.gz --markdown 20230806/a/async-wrapper/0.4.8-0.5.1/diff.md --exclude *.pyd
+[2023-08-06 21:30:25] INFO root fetch - processPackages [aiogram-widgets]: executing diffoscope
+[2023-08-06 21:30:25] INFO root fetch - processPackages [aiogram-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_widgets-1.2.3.tar.gz tmp/aiogram_widgets-1.2.4.tar.gz --markdown 20230806/a/aiogram-widgets/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-06 21:30:25] INFO root fetch - processPackages [md2gemini]: executing diffoscope
+[2023-08-06 21:30:25] INFO root fetch - processPackages [md2gemini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2gemini-1.9.0.tar.gz tmp/md2gemini-1.9.1.tar.gz --markdown 20230806/m/md2gemini/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-06 21:30:25] INFO root fetch - processPackages [segment-geospatial]: executing diffoscope
+[2023-08-06 21:30:25] INFO root fetch - processPackages [segment-geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-geospatial-0.8.5.tar.gz tmp/segment-geospatial-0.9.0.tar.gz --markdown 20230806/s/segment-geospatial/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 21:30:26] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/da/d6/84359a49c70bcd329a912c7983167aa9e03312cea73927d1cbe2d76318b6/tinyfilter-0.1.4.tar.gz
+[2023-08-06 21:30:26] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.8.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.5.1.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-08-06 21:30:26] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.261.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.262.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:30:26] INFO root fetch - processPackages [aiogram-widgets]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_widgets-1.2.3.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - processPackages [aiogram-widgets]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_widgets-1.2.4.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - main [MainThread]: End processing [aiogram-widgets]: success
+[2023-08-06 21:30:26] INFO root fetch - processPackages [segment-geospatial]: Remove: archive file [/home/abi/fetcher/tmp/segment-geospatial-0.8.5.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - processPackages [segment-geospatial]: Remove: archive file [/home/abi/fetcher/tmp/segment-geospatial-0.9.0.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - main [MainThread]: End processing [segment-geospatial]: success
+[2023-08-06 21:30:26] INFO root fetch - processPackages [md2gemini]: Remove: archive file [/home/abi/fetcher/tmp/md2gemini-1.9.0.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - processPackages [md2gemini]: Remove: archive file [/home/abi/fetcher/tmp/md2gemini-1.9.1.tar.gz]
+[2023-08-06 21:30:26] INFO root fetch - main [MainThread]: End processing [md2gemini]: success
+[2023-08-06 21:30:27] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-06 21:30:27] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.3.tar.gz tmp/tinyfilter-0.1.4.tar.gz --markdown 20230806/t/tinyfilter/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-06 21:30:29] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.3.tar.gz]
+[2023-08-06 21:30:29] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.4.tar.gz]
+[2023-08-06 21:30:29] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-06 21:30:29] INFO root fetch - main [MainThread]: Store serial: [19196705]
