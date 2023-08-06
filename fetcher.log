@@ -4005,3 +4005,31 @@
 [2023-08-06 07:06:23] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230805.tar.gz]
 [2023-08-06 07:06:23] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2023-08-06 07:06:23] INFO root fetch - main [MainThread]: Store serial: [19191270]
+[2023-08-06 07:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191270]
+[2023-08-06 07:11:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 07:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokotime
+[2023-08-06 07:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-08-06 07:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230805] Old Version: [23.8.0a230804]
+[2023-08-06 07:11:32] INFO root fetch - processPackages [tokotime]: New version: [0.12] Old Version: [0.11]
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230806] Old Version: [23.8.0a230805]
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/40/c8/969529074d514be7ce377470f77729ed04cdfab5dc6cad8f9f62bd41daa8/dask-cuda-23.8.0a230804.tar.gz
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/5a/95/a212b898d800a9cdfa7981d10757240edf03ef3d513c27b629aa41da72e7/dask-cuda-23.8.0a230805.tar.gz
+[2023-08-06 07:11:32] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/4c/5c/5e8ee3a4738d02f743c80a3e91133f413521df880fc032da4dad57e44513/tokotime-0.11.tar.gz
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230804.tar.gz tmp/dask-cuda-23.8.0a230805.tar.gz --markdown 20230806/d/dask-cuda/23.8.0a230804-23.8.0a230805/diff.md --exclude *.pyd
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/ef/b6039a21234c295cdd04e9dff4ea01212ec9fd3453b264aa53abcff2efd5/dask-cuda-23.8.0a230806.tar.gz
+[2023-08-06 07:11:32] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/00/18/a88fa76a6039e4375055f6d2844ee446a57df59d6072ea24c8ec6b3dbf68/tokotime-0.12.tar.gz
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-06 07:11:32] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230805.tar.gz tmp/dask-cuda-23.8.0a230806.tar.gz --markdown 20230806/d/dask-cuda/23.8.0a230805-23.8.0a230806/diff.md --exclude *.pyd
+[2023-08-06 07:11:32] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 07:11:32] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.11.tar.gz tmp/tokotime-0.12.tar.gz --markdown 20230806/t/tokotime/0.11-0.12/diff.md --exclude *.pyd
+[2023-08-06 07:11:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230804.tar.gz]
+[2023-08-06 07:11:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230805.tar.gz]
+[2023-08-06 07:11:33] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-06 07:11:33] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.11.tar.gz]
+[2023-08-06 07:11:33] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.12.tar.gz]
+[2023-08-06 07:11:33] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 07:11:33] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230806.tar.gz]
+[2023-08-06 07:11:33] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-06 07:11:33] INFO root fetch - main [MainThread]: Store serial: [19191278]
