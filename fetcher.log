@@ -3615,3 +3615,39 @@
 [2023-08-06 05:59:07] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.3.1.tar.gz]
 [2023-08-06 05:59:07] INFO root fetch - main [MainThread]: End processing [huza]: success
 [2023-08-06 05:59:07] INFO root fetch - main [MainThread]: Store serial: [19191122]
+[2023-08-06 06:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191122]
+[2023-08-06 06:04:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 06:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authstar
+[2023-08-06 06:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-08-06 06:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dukeai-lib
+[2023-08-06 06:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccircuitbuilder
+[2023-08-06 06:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oglio
+[2023-08-06 06:04:16] INFO root fetch - processPackages [dukeai-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 06:04:16] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/c5/1a/6d6974ee7e40f139d02f12b26a71df41bd2af963d13fd149a63e2270cd91/dukeai_lib-0.2.0.tar.gz
+[2023-08-06 06:04:16] WARNING root fetch - processPackages [sccircuitbuilder]: Skipping, unable to determine old version
+[2023-08-06 06:04:16] INFO root fetch - main [MainThread]: End processing [sccircuitbuilder] error
+[2023-08-06 06:04:16] WARNING root fetch - processPackages [authstar]: Skipping, unable to determine old version
+[2023-08-06 06:04:16] INFO root fetch - main [MainThread]: End processing [authstar] error
+[2023-08-06 06:04:16] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230805] Old Version: [1.0.3.dev20230804]
+[2023-08-06 06:04:16] INFO root fetch - processPackages [oglio]: New version: [1.0.0] Old Version: [0.7.7]
+[2023-08-06 06:04:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/3d/14/8375a8a36b2dea1c8cb922e1e00fc6bee64dbffdc1bbc228a4254f4f72ea/evals-nightly-1.0.3.dev20230804.tar.gz
+[2023-08-06 06:04:17] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/c2/2c/a979134b2e86464cc9c53290ff01f9e445506b70904455422e1420120207/oglio-0.7.7.tar.gz
+[2023-08-06 06:04:17] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/fe/3d/f9e24593cbc97cda1bb104de959340f2ca5351b0d51aab86066b9103085f/dukeai_lib-0.2.1.tar.gz
+[2023-08-06 06:04:17] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ed/99/964bcdc408226bc266d5676afa1c114aae27d7f18e8f0de175ce557aa1fb/evals-nightly-1.0.3.dev20230805.tar.gz
+[2023-08-06 06:04:17] INFO root fetch - processPackages [dukeai-lib]: executing diffoscope
+[2023-08-06 06:04:17] INFO root fetch - processPackages [dukeai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukeai_lib-0.2.0.tar.gz tmp/dukeai_lib-0.2.1.tar.gz --markdown 20230806/d/dukeai-lib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 06:04:17] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-06 06:04:17] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230804.tar.gz tmp/evals-nightly-1.0.3.dev20230805.tar.gz --markdown 20230806/e/evals-nightly/1.0.3.dev20230804-1.0.3.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 06:04:17] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/21/f3/32261692e7b4a1cbcc270ee56ee481d5ca61d1611bd7d60a43cd6110e8c6/oglio-1.0.0.tar.gz
+[2023-08-06 06:04:17] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-08-06 06:04:17] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.7.tar.gz tmp/oglio-1.0.0.tar.gz --markdown 20230806/o/oglio/0.7.7-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 06:04:18] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.0.tar.gz]
+[2023-08-06 06:04:18] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.1.tar.gz]
+[2023-08-06 06:04:18] INFO root fetch - main [MainThread]: End processing [dukeai-lib]: success
+[2023-08-06 06:04:18] INFO root fetch - processPackages [oglio]: Remove: archive file [/home/abi/fetcher/tmp/oglio-0.7.7.tar.gz]
+[2023-08-06 06:04:18] INFO root fetch - processPackages [oglio]: Remove: archive file [/home/abi/fetcher/tmp/oglio-1.0.0.tar.gz]
+[2023-08-06 06:04:18] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-08-06 06:04:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230804.tar.gz]
+[2023-08-06 06:04:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230805.tar.gz]
+[2023-08-06 06:04:19] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-06 06:04:19] INFO root fetch - main [MainThread]: Store serial: [19191141]
