@@ -5482,3 +5482,48 @@
 [2023-08-06 09:42:08] INFO root fetch - processPackages [turbESN]: Remove: archive file [/home/abi/fetcher/tmp/turbESN-0.0.1.9.5.0.tar.gz]
 [2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [turbESN]: success
 [2023-08-06 09:42:08] INFO root fetch - main [MainThread]: Store serial: [19192097]
+[2023-08-06 09:47:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192097]
+[2023-08-06 09:47:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morepipes
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-core
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleworkspace
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tech-spec
+[2023-08-06 09:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwer-python
+[2023-08-06 09:47:17] INFO root fetch - processPackages [tech-spec]: New version: [1.0.36] Old Version: [1.0.35]
+[2023-08-06 09:47:18] WARNING root fetch - processPackages [qwer-python]: Skipping, unable to determine old version
+[2023-08-06 09:47:18] INFO root fetch - main [MainThread]: End processing [qwer-python] error
+[2023-08-06 09:47:18] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:47:18] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/45/18/99cae83b7245ff1de0a1df65e3f42792f3eef0574bca5e702568cf18f795/tech-spec-1.0.35.tar.gz
+[2023-08-06 09:47:18] WARNING root fetch - processPackages [morepipes]: Skipping, unable to determine old version
+[2023-08-06 09:47:18] INFO root fetch - main [MainThread]: End processing [morepipes] error
+[2023-08-06 09:47:18] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:47:18] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 09:47:18] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-06 09:47:18] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:47:18] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-06 09:47:18] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-08-06 09:47:18] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:47:18] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:47:18] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/d5/a0/c5b152f696aa005b4613c9f03680b915b8068170eaa6680d25febd359edd/tech-spec-1.0.36.tar.gz
+[2023-08-06 09:47:18] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-06 09:47:18] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.35.tar.gz tmp/tech-spec-1.0.36.tar.gz --markdown 20230806/t/tech-spec/1.0.35-1.0.36/diff.md --exclude *.pyd
+[2023-08-06 09:47:18] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-08-06 09:47:18] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-06 09:47:18] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-08-06 09:47:18] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230806/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-06 09:47:19] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-06 09:47:19] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230806/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 09:47:19] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:47:19] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:47:19] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:47:19] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.35.tar.gz]
+[2023-08-06 09:47:19] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.36.tar.gz]
+[2023-08-06 09:47:19] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-06 09:47:19] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-08-06 09:47:19] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-08-06 09:47:19] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-08-06 09:47:22] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-06 09:47:22] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-06 09:47:22] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-06 09:47:22] INFO root fetch - main [MainThread]: Store serial: [19192118]
