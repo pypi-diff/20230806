@@ -3066,3 +3066,53 @@
 [2023-08-06 04:51:43] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.1.tar.gz]
 [2023-08-06 04:51:43] INFO root fetch - main [MainThread]: End processing [IABT]: success
 [2023-08-06 04:51:43] INFO root fetch - main [MainThread]: Store serial: [19190882]
+[2023-08-06 04:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190882]
+[2023-08-06 04:56:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiled
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ercot-rts
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hci-framework
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcshus
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geotran
+[2023-08-06 04:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helios-client
+[2023-08-06 04:56:51] INFO root fetch - processPackages [hci-framework]: New version: [0.1a5] Old Version: [0.1a4]
+[2023-08-06 04:56:51] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/da/4f/79fe0677cfb08383e67a8295e22a63e6e73cae838f8365b9b5b6e195a57c/hci-framework-0.1a4.tar.gz
+[2023-08-06 04:56:51] WARNING root fetch - processPackages [ercot-rts]: Skipping, unable to determine old version
+[2023-08-06 04:56:51] INFO root fetch - main [MainThread]: End processing [ercot-rts] error
+[2023-08-06 04:56:51] INFO root fetch - processPackages [geotran]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 04:56:51] INFO root fetch - processPackages [gcshus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 04:56:51] WARNING root fetch - processPackages [helios-client]: Skipping, unable to determine old version
+[2023-08-06 04:56:51] INFO root fetch - main [MainThread]: End processing [helios-client] error
+[2023-08-06 04:56:51] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-06 04:56:51] INFO root fetch - processPackages [tiled]: New version: [0.1.0a99] Old Version: [0.1.0a98]
+[2023-08-06 04:56:52] INFO root fetch - processPackages [gcshus]: Downloading https://files.pythonhosted.org/packages/70/6c/c46ab5d6d807e133b0870336626f219e24849e94ecb5761548a5c564c1c9/gcshus-0.0.1.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/0d/44/d3c65672f8ab1a2b6147d5aacbe30dcfa36af91daac3464a260b2514f304/geotran-0.0.8-py3-none-any.whl
+[2023-08-06 04:56:52] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/4a/fc/e864c4b73444abaff9a741bff146db881aa03013eb2fe04e6bb56515d03f/hci-framework-0.1a5.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [tiled]: Downloading https://files.pythonhosted.org/packages/ef/55/e9f7861db7d4df186a6df7359a77bf992e658e7b4d7f89a3849be68ca576/tiled-0.1.0a98.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [hci-framework]: executing diffoscope
+[2023-08-06 04:56:52] INFO root fetch - processPackages [hci-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hci-framework-0.1a4.tar.gz tmp/hci-framework-0.1a5.tar.gz --markdown 20230806/h/hci-framework/0.1a4-0.1a5/diff.md --exclude *.pyd
+[2023-08-06 04:56:52] INFO root fetch - processPackages [gcshus]: Downloading https://files.pythonhosted.org/packages/0b/34/f52b9acd1c2699892d467e71bf6b7f2f6d6eb75285bc598d921bfd98098d/gcshus-0.0.2.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/22/02/3672a4a79b561e7853dd724a68c02e29df7056403481449ad1ca6ced6aee/geotran-0.0.9-py3-none-any.whl
+[2023-08-06 04:56:52] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-06 04:56:52] INFO root fetch - processPackages [gcshus]: executing diffoscope
+[2023-08-06 04:56:52] INFO root fetch - processPackages [gcshus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcshus-0.0.1.tar.gz tmp/gcshus-0.0.2.tar.gz --markdown 20230806/g/gcshus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 04:56:52] INFO root fetch - processPackages [geotran]: executing diffoscope
+[2023-08-06 04:56:52] INFO root fetch - processPackages [geotran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotran-0.0.8-py3-none-any.whl.zip tmp/geotran-0.0.9-py3-none-any.whl.zip --markdown 20230806/g/geotran/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 04:56:52] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-06 04:56:52] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230806/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-06 04:56:52] WARNING root fetch - processPackages [tiled]: Skipping package: exceeds size limit 71915308>=10485760
+[2023-08-06 04:56:52] INFO root fetch - main [MainThread]: End processing [tiled] error
+[2023-08-06 04:56:53] INFO root fetch - processPackages [geotran]: Remove: archive file [/home/abi/fetcher/tmp/geotran-0.0.8-py3-none-any.whl.zip]
+[2023-08-06 04:56:53] INFO root fetch - processPackages [geotran]: Remove: archive file [/home/abi/fetcher/tmp/geotran-0.0.9-py3-none-any.whl.zip]
+[2023-08-06 04:56:53] INFO root fetch - main [MainThread]: End processing [geotran]: success
+[2023-08-06 04:56:53] INFO root fetch - processPackages [gcshus]: Remove: archive file [/home/abi/fetcher/tmp/gcshus-0.0.1.tar.gz]
+[2023-08-06 04:56:53] INFO root fetch - processPackages [gcshus]: Remove: archive file [/home/abi/fetcher/tmp/gcshus-0.0.2.tar.gz]
+[2023-08-06 04:56:53] INFO root fetch - main [MainThread]: End processing [gcshus]: success
+[2023-08-06 04:56:53] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-06 04:56:53] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-06 04:56:53] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-06 04:56:56] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a4.tar.gz]
+[2023-08-06 04:56:56] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a5.tar.gz]
+[2023-08-06 04:56:56] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
+[2023-08-06 04:56:56] INFO root fetch - main [MainThread]: Store serial: [19190912]
