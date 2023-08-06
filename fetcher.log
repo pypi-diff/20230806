@@ -2095,3 +2095,120 @@
 [2023-08-06 03:12:35] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip]
 [2023-08-06 03:12:35] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-08-06 03:12:35] INFO root fetch - main [MainThread]: Store serial: [19190438]
+[2023-08-06 03:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190438]
+[2023-08-06 03:17:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmnemoi-learn
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BeyotekTools
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-html
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regex-inference
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-html
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-utils-sqlite-html
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-08-06 03:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: option-trader
+[2023-08-06 03:17:43] INFO root fetch - processPackages [cmnemoi-learn]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 03:17:43] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.3a1] Old Version: [0.1.2a8]
+[2023-08-06 03:17:43] WARNING root fetch - processPackages [option-trader]: Skipping, unable to determine old version
+[2023-08-06 03:17:43] INFO root fetch - processPackages [option-trader]: Start processing: moteus
+[2023-08-06 03:17:43] INFO root fetch - main [MainThread]: End processing [option-trader] error
+[2023-08-06 03:17:43] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:17:43] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.3a1] Old Version: [0.1.2a8]
+[2023-08-06 03:17:43] WARNING root fetch - processPackages [sqlite-utils-sqlite-html]: Skipping, unable to determine old version
+[2023-08-06 03:17:43] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Start processing: moteus-gui
+[2023-08-06 03:17:43] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-html] error
+[2023-08-06 03:17:43] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-06 03:17:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 03:17:43] INFO root fetch - processPackages [moteus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 03:17:43] INFO root fetch - processPackages [moteus-gui]: New version: [0.3.56] Old Version: [0.3.55]
+[2023-08-06 03:17:44] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202308061690302491] Old Version: [1.9.0.9.dev202308051690302491]
+[2023-08-06 03:17:44] INFO root fetch - processPackages [regex-inference]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/62/f9/078947536b3f3868ab5e18453c4593fb9c6bb31cb7b023fd8ed17fa1cf8c/moteus-0.3.8.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/bc/12/93a9c556eede6de6b63e4672287cdcf30dabe68d1d17acddc3fb0f9bbfaf/moteus_gui-0.3.55-py3-none-any.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/9c/59/def88633dcf456b37da006762bd22151998cfaff1af7b7824b36c26e65ee/sqlite_html-0.1.2a8-py3-none-win_amd64.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cmnemoi-learn]: Downloading https://files.pythonhosted.org/packages/73/69/5ceff0d86289f6d66b4378ff265853c140475436acab2168bed61336e985/cmnemoi_learn-0.1.0.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/09/25/692f000a54f896a4ee73fe2b13160c81aab1262624513bb88ffec823a2eb/datasette_sqlite_html-0.1.2a8-py3-none-any.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/f7/09/156b788bb3861c5a2d6f282937d1db478516fe3c12a9392b6e019150efd8/regex-inference-0.0.2.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/e2/56/c444ceb897fd736f567db74177537b7375166bea162e7cc27a5b50eab561/pyAgrum_nightly-1.9.0.9.dev202308051690302491-cp39-cp39-win_amd64.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/cd/d4/e80f7430b058539421e1761fd0fa007d293c73de9b72433ff1f290c48637/moteus_gui-0.3.56-py3-none-any.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/78/b3/d213a086454e82f9c5f13f3fb1c01b68749bb35298812108dc75ada6083c/moteus-0.3.9.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cmnemoi-learn]: Downloading https://files.pythonhosted.org/packages/97/8b/70ae0214f686de7d9d1bc80adc995a88c0d7883bfd2d3b05ac1e319a8d32/cmnemoi_learn-0.2.0.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/61/07/a07b007142d9f1f94438e70b7e1df3fd9535a2b5ca79afdadff8785f8f99/datasette_sqlite_html-0.1.3a1-py3-none-any.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/30/a7/77fd1372e54925720c1159d8c4643dd99c520e4a6faadba3408e7f01353e/sqlite_html-0.1.3a1-py3-none-win_amd64.whl
+[2023-08-06 03:17:44] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/05/a2/0d2aaf643fbbf673a96e49eac8d72e40849dae2c3513e247016c3c862215/regex-inference-0.0.3.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus-gui]: executing diffoscope
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus_gui-0.3.55-py3-none-any.whl.zip tmp/moteus_gui-0.3.56-py3-none-any.whl.zip --markdown 20230806/m/moteus-gui/0.3.55-0.3.56/diff.md --exclude *.pyd
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus]: executing diffoscope
+[2023-08-06 03:17:44] INFO root fetch - processPackages [moteus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus-0.3.8.tar.gz tmp/moteus-0.3.9.tar.gz --markdown 20230806/m/moteus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cmnemoi-learn]: executing diffoscope
+[2023-08-06 03:17:44] INFO root fetch - processPackages [cmnemoi-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmnemoi_learn-0.1.0.tar.gz tmp/cmnemoi_learn-0.2.0.tar.gz --markdown 20230806/c/cmnemoi-learn/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 03:17:44] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:17:44] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.3a1-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-html/0.1.2a8-0.1.3a1/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.2.tar.gz tmp/regex-inference-0.0.3.tar.gz --markdown 20230806/r/regex-inference/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230806/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/72/c7/6018a5505bb1b346e71b135af03ae776f680686818c6f415b68a3fa865f2/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl
+[2023-08-06 03:17:45] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230806/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202308051690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230806/p/pyagrum-nightly/1.9.0.9.dev202308051690302491-1.9.0.9.dev202308061690302491/diff.md --exclude *.pyd
+[2023-08-06 03:17:45] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-08-06 03:17:45] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-html/0.1.2a8-0.1.3a1/diff.md --exclude *.pyd
+[2023-08-06 03:17:46] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.55-py3-none-any.whl.zip]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.56-py3-none-any.whl.zip]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [moteus-gui]: Start processing: scotthsieh-projen-statemachine
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [moteus-gui]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-08-06 03:17:46] INFO root fetch - processPackages [cmnemoi-learn]: Remove: archive file [/home/abi/fetcher/tmp/cmnemoi_learn-0.1.0.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [cmnemoi-learn]: Remove: archive file [/home/abi/fetcher/tmp/cmnemoi_learn-0.2.0.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [cmnemoi-learn]: Start processing: regex-inference
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [cmnemoi-learn]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.8.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [moteus]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.3a1-py3-none-any.whl.zip]
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.2.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.3.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/f7/09/156b788bb3861c5a2d6f282937d1db478516fe3c12a9392b6e019150efd8/regex-inference-0.0.2.tar.gz
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: Downloading https://files.pythonhosted.org/packages/05/a2/0d2aaf643fbbf673a96e49eac8d72e40849dae2c3513e247016c3c862215/regex-inference-0.0.3.tar.gz
+[2023-08-06 03:17:46] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: executing diffoscope
+[2023-08-06 03:17:46] INFO root fetch - processPackages [regex-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-inference-0.0.2.tar.gz tmp/regex-inference-0.0.3.tar.gz --markdown 20230806/r/regex-inference/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 03:17:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-06 03:17:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-06 03:17:47] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-06 03:17:47] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-06 03:17:47] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-06 03:17:47] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-08-06 03:17:47] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230806/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:17:47] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202308051690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 03:17:47] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202308061690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 03:17:47] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-08-06 03:17:47] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.2.tar.gz]
+[2023-08-06 03:17:47] INFO root fetch - processPackages [regex-inference]: Remove: archive file [/home/abi/fetcher/tmp/regex-inference-0.0.3.tar.gz]
+[2023-08-06 03:17:47] INFO root fetch - main [MainThread]: End processing [regex-inference]: success
+[2023-08-06 03:17:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-08-06 03:17:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-08-06 03:17:48] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-08-06 03:19:35] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:19:35] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:19:35] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-08-06 03:19:35] INFO root fetch - main [MainThread]: Store serial: [19190505]
