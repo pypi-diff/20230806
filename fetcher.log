@@ -3463,3 +3463,79 @@
 [2023-08-06 05:43:34] INFO root fetch - processPackages [untanglepyut]: Remove: archive file [/home/abi/fetcher/tmp/untanglepyut-1.1.0.tar.gz]
 [2023-08-06 05:43:34] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
 [2023-08-06 05:43:34] INFO root fetch - main [MainThread]: Store serial: [19191048]
+[2023-08-06 05:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191048]
+[2023-08-06 05:48:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logfunc
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otter-grader
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reddit-post-scraping-tool
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distributions-gauussbinom
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voicebox-pytorch
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sounderpy
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colorful-logger
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynterface
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deeptaxa
+[2023-08-06 05:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csv-wizard
+[2023-08-06 05:48:43] INFO root fetch - processPackages [csv-wizard]: New version: [1.0.0.post1] Old Version: [1.0.0]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [sounderpy]: New version: [2] Old Version: [1.0.1]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 05:48:43] WARNING root fetch - processPackages [distributions-gauussbinom]: Skipping, unable to determine old version
+[2023-08-06 05:48:43] INFO root fetch - main [MainThread]: End processing [distributions-gauussbinom] error
+[2023-08-06 05:48:43] INFO root fetch - processPackages [colorful-logger]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [logfunc]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [colorful-logger]: Downloading https://files.pythonhosted.org/packages/6b/58/3d914350f28698768d58f2dcf7d0ebcb31057e7f8a84b64f8a12b40f727d/colorful-logger-0.2.0b2.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [pynterface]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: New version: [1.4.0.0] Old Version: [1.3.0.1]
+[2023-08-06 05:48:43] WARNING root fetch - processPackages [deeptaxa]: Skipping, unable to determine old version
+[2023-08-06 05:48:43] INFO root fetch - main [MainThread]: End processing [deeptaxa] error
+[2023-08-06 05:48:43] INFO root fetch - processPackages [otter-grader]: New version: [5.1.0] Old Version: [5.0.2]
+[2023-08-06 05:48:43] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/2f/e2/6c46a63a03246e0a07d75c5bf3380ec1edb09f8d58dc7defa13bee4aea63/voicebox-pytorch-0.0.5.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [csv-wizard]: Downloading https://files.pythonhosted.org/packages/4b/87/7b54a5a62e860894ee156f0638c0002b30590cf30745eb2d0413a17ab4f3/csv-wizard-1.0.0.tar.gz
+[2023-08-06 05:48:43] ERROR root fetch - processPackages [sounderpy]: Unable to fetch info: No such project/version 'sounderpy' 2
+[2023-08-06 05:48:43] INFO root fetch - main [MainThread]: End processing [sounderpy] error
+[2023-08-06 05:48:43] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/68/aa/0756896b378e0b55241ced417f1899debcff08278a5dbf053444de3f42cd/otter-grader-5.0.2.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [pynterface]: Downloading https://files.pythonhosted.org/packages/7d/c8/eab57848ec8840ea901eb9311ab1c496f7aaa9065c1f1f9b52e172220a31/pynterface-0.2.1.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/6f/56/1e7eb954ee27f0cbbc9f7713fccafeae3201537f20ef0a57272d2f41cd3f/reddit-post-scraping-tool-1.3.0.1.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/e9/1d/fa0141f82a9cd2850db87915a8f1e8d0563bfc922db09f66c96f56888f06/logfunc-1.5.1.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [colorful-logger]: Downloading https://files.pythonhosted.org/packages/11/3f/e7ba7dc962bdf7cb2af840eb02409189436135b57fe2545626729ecc93ab/colorful-logger-0.2.0b3.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [colorful-logger]: executing diffoscope
+[2023-08-06 05:48:43] INFO root fetch - processPackages [colorful-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorful-logger-0.2.0b2.tar.gz tmp/colorful-logger-0.2.0b3.tar.gz --markdown 20230806/c/colorful-logger/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2023-08-06 05:48:43] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/96/91/7a02499a95ac9160552a08b3e28c0671bebda12a63c0ee9f011dfb7a40d2/voicebox-pytorch-0.0.6.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/c5/7b/c3c2cc59241e7a99c974baff2a716697f55ef681c8f5cd1633223b219411/reddit-post-scraping-tool-1.4.0.0.tar.gz
+[2023-08-06 05:48:43] INFO root fetch - processPackages [csv-wizard]: Downloading https://files.pythonhosted.org/packages/da/19/e2c835543c1824e10fa790f8ae94120acd5f902d1098114df72c10bc22ed/csv-wizard-1.0.0.post1.tar.gz
+[2023-08-06 05:48:44] INFO root fetch - processPackages [pynterface]: Downloading https://files.pythonhosted.org/packages/c3/c6/a7d7be31daa0d4c8072c89952909da53772370eefc171c534e43f0861fee/pynterface-0.2.2.tar.gz
+[2023-08-06 05:48:44] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/c2/d8/1a9a378c3300aaafa4691bd5578c3e9aceb57144ff0a6131460d56e9a8a8/logfunc-1.5.2.tar.gz
+[2023-08-06 05:48:44] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.5.tar.gz tmp/voicebox-pytorch-0.0.6.tar.gz --markdown 20230806/v/voicebox-pytorch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/bc/16/a90087a4d5bdfd0697b946fbd5aaf0aed551399573670a70b5b3ed47905c/otter-grader-5.1.0.tar.gz
+[2023-08-06 05:48:44] INFO root fetch - processPackages [reddit-post-scraping-tool]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [reddit-post-scraping-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-post-scraping-tool-1.3.0.1.tar.gz tmp/reddit-post-scraping-tool-1.4.0.0.tar.gz --markdown 20230806/r/reddit-post-scraping-tool/1.3.0.1-1.4.0.0/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [csv-wizard]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [csv-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv-wizard-1.0.0.tar.gz tmp/csv-wizard-1.0.0.post1.tar.gz --markdown 20230806/c/csv-wizard/1.0.0-1.0.0.post1/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [pynterface]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [pynterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynterface-0.2.1.tar.gz tmp/pynterface-0.2.2.tar.gz --markdown 20230806/p/pynterface/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [logfunc]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [logfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfunc-1.5.1.tar.gz tmp/logfunc-1.5.2.tar.gz --markdown 20230806/l/logfunc/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [otter-grader]: executing diffoscope
+[2023-08-06 05:48:44] INFO root fetch - processPackages [otter-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter-grader-5.0.2.tar.gz tmp/otter-grader-5.1.0.tar.gz --markdown 20230806/o/otter-grader/5.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-08-06 05:48:44] INFO root fetch - processPackages [colorful-logger]: Remove: archive file [/home/abi/fetcher/tmp/colorful-logger-0.2.0b2.tar.gz]
+[2023-08-06 05:48:44] INFO root fetch - processPackages [colorful-logger]: Remove: archive file [/home/abi/fetcher/tmp/colorful-logger-0.2.0b3.tar.gz]
+[2023-08-06 05:48:44] INFO root fetch - main [MainThread]: End processing [colorful-logger]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.5.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.6.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [pynterface]: Remove: archive file [/home/abi/fetcher/tmp/pynterface-0.2.1.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [pynterface]: Remove: archive file [/home/abi/fetcher/tmp/pynterface-0.2.2.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [pynterface]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.5.1.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.5.2.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [logfunc]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [csv-wizard]: Remove: archive file [/home/abi/fetcher/tmp/csv-wizard-1.0.0.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [csv-wizard]: Remove: archive file [/home/abi/fetcher/tmp/csv-wizard-1.0.0.post1.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [csv-wizard]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.3.0.1.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.4.0.0.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [reddit-post-scraping-tool]: success
+[2023-08-06 05:48:45] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-5.0.2.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-5.1.0.tar.gz]
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
+[2023-08-06 05:48:45] INFO root fetch - main [MainThread]: Store serial: [19191088]
