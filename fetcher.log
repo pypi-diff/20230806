@@ -9769,3 +9769,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:17:57] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.82.tar.gz]
 [2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [fa-models]: success
 [2023-08-06 15:17:57] INFO root fetch - main [MainThread]: Store serial: [19194073]
+[2023-08-06 15:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194073]
+[2023-08-06 15:23:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablate
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eth-monitor
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airthings-ble
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funda-scraper
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: detection-datasets
+[2023-08-06 15:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pozalabs-compose
+[2023-08-06 15:23:06] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [detection-datasets]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/56/ff/e9180753d4a7b5a57d3f90e4c9488dd77f8cebb216b4f257f671ccacb9b7/funda-scraper-1.0.4.tar.gz
+[2023-08-06 15:23:06] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [airthings-ble]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [eth-monitor]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-08-06 15:23:06] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 15:23:06] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/0f/f7/ec66cd92ef0115fd9ac2f45c0e45d942b387401d0efdcec0304f50659838/eth-monitor-0.7.6.tar.gz
+[2023-08-06 15:23:06] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/64/76/bfcae412647f3076bd7f2223f66a1b00fc3e0b4a4132414649ba6ed97c87/airthings_ble-0.5.5.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [detection-datasets]: Downloading https://files.pythonhosted.org/packages/af/11/37519a107e79f2f0b95e5800fbf892c3d668a094c002316e51a650e2b130/detection_datasets-0.3.3.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/28/c4/78f3d1041144d94b88aa144f4438fbe23d9f022928380afc61d85050442c/funda-scraper-1.0.5.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 15:23:07] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/e3/9d/7d10481cc277cd1a411445a95034bf002b600d94fe4ac47252c31536d6ef/eth-monitor-0.8.0.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/db/d5/1f0a571475c6e89df743eb699dbde3299e64f0d42b5b805c869eca523122/airthings_ble-0.5.6.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda-scraper-1.0.4.tar.gz tmp/funda-scraper-1.0.5.tar.gz --markdown 20230806/f/funda-scraper/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-06 15:23:07] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [detection-datasets]: Downloading https://files.pythonhosted.org/packages/ef/bb/c6ad6879488274e2636cd28ffe3ca5fb3dfb0d4ab334d20b6b12e3242c21/detection_datasets-0.3.5.tar.gz
+[2023-08-06 15:23:07] INFO root fetch - processPackages [eth-monitor]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [eth-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-monitor-0.7.6.tar.gz tmp/eth-monitor-0.8.0.tar.gz --markdown 20230806/e/eth-monitor/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 15:23:07] INFO root fetch - processPackages [airthings-ble]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [airthings-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airthings_ble-0.5.5.tar.gz tmp/airthings_ble-0.5.6.tar.gz --markdown 20230806/a/airthings-ble/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-06 15:23:07] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20230806/p/pozalabs-compose/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-06 15:23:07] INFO root fetch - processPackages [detection-datasets]: executing diffoscope
+[2023-08-06 15:23:07] INFO root fetch - processPackages [detection-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detection_datasets-0.3.3.tar.gz tmp/detection_datasets-0.3.5.tar.gz --markdown 20230806/d/detection-datasets/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-08-06 15:23:08] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.4.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.5.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-06 15:23:08] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.5.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [airthings-ble]: success
+[2023-08-06 15:23:08] INFO root fetch - processPackages [detection-datasets]: Remove: archive file [/home/abi/fetcher/tmp/detection_datasets-0.3.3.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [detection-datasets]: Remove: archive file [/home/abi/fetcher/tmp/detection_datasets-0.3.5.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [detection-datasets]: success
+[2023-08-06 15:23:08] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2023-08-06 15:23:08] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.7.6.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.0.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [eth-monitor]: success
+[2023-08-06 15:23:08] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 15:23:08] INFO root fetch - main [MainThread]: Store serial: [19194090]
