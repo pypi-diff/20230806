@@ -16557,3 +16557,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:53:42] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.0.1.tar.gz]
 [2023-08-06 22:53:42] INFO root fetch - main [MainThread]: End processing [educommon]: success
 [2023-08-06 22:53:42] INFO root fetch - main [MainThread]: Store serial: [19197122]
+[2023-08-06 22:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197122]
+[2023-08-06 22:58:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymikro
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meshtastic
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foreverbull
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richviewsdk
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PteroDark
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eniris
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basilisp
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-lab-results
+[2023-08-06 22:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chima
+[2023-08-06 22:58:51] INFO root fetch - processPackages [pymikro]: New version: [0.13] Old Version: [0.12]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [eniris]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/f7/a1/79f9c6a32da9930951fa4e91dfc7623f82685e1a8687e22f54fa25f6b0bf/pymikro-0.12.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [basilisp]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2023-08-06 22:58:51] WARNING root fetch - processPackages [richviewsdk]: Skipping, unable to determine old version
+[2023-08-06 22:58:51] INFO root fetch - main [MainThread]: End processing [richviewsdk] error
+[2023-08-06 22:58:51] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/74/96/cd820366cf12cd3b3b2e3988bc1835a8a227d22135179c91b8e11f0efa98/eniris-0.7.5.tar.gz
+[2023-08-06 22:58:51] WARNING root fetch - processPackages [PteroDark]: Skipping, unable to determine old version
+[2023-08-06 22:58:51] INFO root fetch - main [MainThread]: End processing [PteroDark] error
+[2023-08-06 22:58:51] INFO root fetch - processPackages [edc-lab-results]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [meshtastic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-06 22:58:51] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [basilisp]: Downloading https://files.pythonhosted.org/packages/c5/80/626650f7ad1da50a57b82a530cb643f4ae42c8810ebbe4fe8ef3b0ae8e82/basilisp-0.1.dev8.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [edc-lab-results]: Downloading https://files.pythonhosted.org/packages/dd/f6/739c2d0945aff9a29fcfacbc0c1c4f8602febb9941c82010c923a6047a2c/edc-lab-results-0.1.39.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/e1/89/ecff2b65c35f31a05d99ff77dc401de9b8bca995c1a65a261914b8eab8d9/meshtastic-2.1.8.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/bb/d1/54468c8df1bbf05423e34cd2195496a02b444b97dfd9ead106d08f294c1b/eniris-0.7.6.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/d5/1d/3dc88fec4f63dc0bcb45b2631ea481036ec1a5b52c1358b6b62922baca90/pymikro-0.13.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [eniris]: executing diffoscope
+[2023-08-06 22:58:51] INFO root fetch - processPackages [eniris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniris-0.7.5.tar.gz tmp/eniris-0.7.6.tar.gz --markdown 20230806/e/eniris/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-08-06 22:58:51] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-08-06 22:58:51] INFO root fetch - processPackages [edc-lab-results]: Downloading https://files.pythonhosted.org/packages/d0/c8/aa1b4e7b1a9823fef58f2269b24368b2c1fa44db7091635600e70cdb24de/edc-lab-results-0.1.40.tar.gz
+[2023-08-06 22:58:52] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-08-06 22:58:52] INFO root fetch - processPackages [pymikro]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [pymikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymikro-0.12.tar.gz tmp/pymikro-0.13.tar.gz --markdown 20230806/p/pymikro/0.12-0.13/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [basilisp]: Downloading https://files.pythonhosted.org/packages/77/c3/ef737aa0462e24a326ee1342f84906ee2234968e97434ca7d299f0f6b8c9/basilisp-0.1.dev9.tar.gz
+[2023-08-06 22:58:52] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230806/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/99/aa/332dba441d65feb0bc1b61bb50bcb84297c7d69d6dd71db2b67d54963b47/meshtastic-2.1.9.tar.gz
+[2023-08-06 22:58:52] INFO root fetch - processPackages [edc-lab-results]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [edc-lab-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-results-0.1.39.tar.gz tmp/edc-lab-results-0.1.40.tar.gz --markdown 20230806/e/edc-lab-results/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230806/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [basilisp]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [basilisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basilisp-0.1.dev8.tar.gz tmp/basilisp-0.1.dev9.tar.gz --markdown 20230806/b/basilisp/0.1.dev8-0.1.dev9/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [meshtastic]: executing diffoscope
+[2023-08-06 22:58:52] INFO root fetch - processPackages [meshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic-2.1.8.tar.gz tmp/meshtastic-2.1.9.tar.gz --markdown 20230806/m/meshtastic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-06 22:58:52] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.5.tar.gz]
+[2023-08-06 22:58:52] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.6.tar.gz]
+[2023-08-06 22:58:52] INFO root fetch - main [MainThread]: End processing [eniris]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.12.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.13.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [pymikro]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [edc-lab-results]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-results-0.1.39.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [edc-lab-results]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-results-0.1.40.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [edc-lab-results]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.8.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.9.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
+[2023-08-06 22:58:53] INFO root fetch - processPackages [basilisp]: Remove: archive file [/home/abi/fetcher/tmp/basilisp-0.1.dev8.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - processPackages [basilisp]: Remove: archive file [/home/abi/fetcher/tmp/basilisp-0.1.dev9.tar.gz]
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: End processing [basilisp]: success
+[2023-08-06 22:58:53] INFO root fetch - main [MainThread]: Store serial: [19197153]
