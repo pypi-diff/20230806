@@ -15060,3 +15060,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:54:01] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-08-06 20:54:01] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-08-06 20:54:01] INFO root fetch - main [MainThread]: Store serial: [19196482]
+[2023-08-06 20:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196482]
+[2023-08-06 20:59:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HaploDynamics
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mp8833
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wikichangewatcher
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iranetf
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyfilter
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mercury-engine-data-structures
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: complex-mathematics
+[2023-08-06 20:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: include-code
+[2023-08-06 20:59:10] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 20:59:10] INFO root fetch - processPackages [HaploDynamics]: New version: [0.1b2] Old Version: [0.1b1]
+[2023-08-06 20:59:10] WARNING root fetch - processPackages [mp8833]: Skipping, unable to determine old version
+[2023-08-06 20:59:10] INFO root fetch - main [MainThread]: End processing [mp8833] error
+[2023-08-06 20:59:10] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/74/86/b0728c2cdda17532982656b7d8b4e2d5bad5f605a54ac1e5118ea33ec4ef/tinyfilter-0.1.1.tar.gz
+[2023-08-06 20:59:10] INFO root fetch - processPackages [wikichangewatcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 20:59:10] INFO root fetch - processPackages [iranetf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-06 20:59:10] INFO root fetch - processPackages [complex-mathematics]: New version: [2.3.3] Old Version: [2.2.1]
+[2023-08-06 20:59:10] WARNING root fetch - processPackages [include-code]: Skipping, unable to determine old version
+[2023-08-06 20:59:10] INFO root fetch - main [MainThread]: End processing [include-code] error
+[2023-08-06 20:59:10] INFO root fetch - processPackages [mercury-engine-data-structures]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-06 20:59:10] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/c0/08/d635965c7ba781a404a1174dafb7b14a35f1c75d9ecc64225ec423e4f758/HaploDynamics-0.1b1.tar.gz
+[2023-08-06 20:59:10] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/13/fa/ca27cb7ea77c138ca4142cbb138910ddb5f3f57bb0ace643813d498c9d0d/iranetf-0.8.1.tar.gz
+[2023-08-06 20:59:10] INFO root fetch - processPackages [complex-mathematics]: Downloading https://files.pythonhosted.org/packages/cb/9a/e9ef6ecd4f7d3246d2d560e5ed0903ec841e62065013338ce1b27eb2f7f4/complex_mathematics-2.2.1.tar.gz
+[2023-08-06 20:59:10] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/38/99/08ed5e63f8bf3129c0081e1c902126244c2853cc96416cc831d140c1ad5c/wikichangewatcher-0.1.0-py3-none-any.whl
+[2023-08-06 20:59:10] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/39/e0/fc744921b150b00c8ddb23acc3afb33cffac60d0ba7554589364c746e51a/mercury-engine-data-structures-0.9.5.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/fe/40/a1e7f9b4d7554832086c642d44eac7d356b99466381c42475f9b95ea4259/HaploDynamics-0.1b2.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-06 20:59:11] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.1b1.tar.gz tmp/HaploDynamics-0.1b2.tar.gz --markdown 20230806/H/HaploDynamics/0.1b1-0.1b2/diff.md --exclude *.pyd
+[2023-08-06 20:59:11] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/de/32/2fd33eafec94b14d144edffe2e00b0d68221076651e8f8cd029b26311acd/iranetf-0.9.0.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [complex-mathematics]: Downloading https://files.pythonhosted.org/packages/07/31/668e0cf4cacd59182c4a10ccc9fc83357bb62458b15c11a350a679aa57aa/complex_mathematics-2.3.3.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/35/e0/a5ac9658cc6d8c4f700ef27d4e5656ffda79a583171f046cd9930834b822/wikichangewatcher-0.2.0-py3-none-any.whl
+[2023-08-06 20:59:11] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/5e/38/a5d34421188b489b1751af04eb12bcb3f1b4b41ec2d541debbc49418975c/tinyfilter-0.1.2.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [iranetf]: executing diffoscope
+[2023-08-06 20:59:11] INFO root fetch - processPackages [iranetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iranetf-0.8.1.tar.gz tmp/iranetf-0.9.0.tar.gz --markdown 20230806/i/iranetf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 20:59:11] INFO root fetch - processPackages [complex-mathematics]: executing diffoscope
+[2023-08-06 20:59:11] INFO root fetch - processPackages [complex-mathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex_mathematics-2.2.1.tar.gz tmp/complex_mathematics-2.3.3.tar.gz --markdown 20230806/c/complex-mathematics/2.2.1-2.3.3/diff.md --exclude *.pyd
+[2023-08-06 20:59:11] INFO root fetch - processPackages [wikichangewatcher]: executing diffoscope
+[2023-08-06 20:59:11] INFO root fetch - processPackages [wikichangewatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip tmp/wikichangewatcher-0.2.0-py3-none-any.whl.zip --markdown 20230806/w/wikichangewatcher/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 20:59:11] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/ea/9a/111001b9a671be0e6b9e31841e0e275f2d5098f85da2d1421181c36e046a/mercury-engine-data-structures-0.9.6.tar.gz
+[2023-08-06 20:59:11] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-06 20:59:11] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.1.tar.gz tmp/tinyfilter-0.1.2.tar.gz --markdown 20230806/t/tinyfilter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 20:59:12] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b1.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.1b2.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-06 20:59:12] INFO root fetch - processPackages [mercury-engine-data-structures]: executing diffoscope
+[2023-08-06 20:59:12] INFO root fetch - processPackages [mercury-engine-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-engine-data-structures-0.9.5.tar.gz tmp/mercury-engine-data-structures-0.9.6.tar.gz --markdown 20230806/m/mercury-engine-data-structures/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-06 20:59:12] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.8.1.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.9.0.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - main [MainThread]: End processing [iranetf]: success
+[2023-08-06 20:59:12] INFO root fetch - processPackages [complex-mathematics]: Remove: archive file [/home/abi/fetcher/tmp/complex_mathematics-2.2.1.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - processPackages [complex-mathematics]: Remove: archive file [/home/abi/fetcher/tmp/complex_mathematics-2.3.3.tar.gz]
+[2023-08-06 20:59:12] INFO root fetch - main [MainThread]: End processing [complex-mathematics]: success
+[2023-08-06 20:59:12] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.1.0-py3-none-any.whl.zip]
+[2023-08-06 20:59:12] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.2.0-py3-none-any.whl.zip]
+[2023-08-06 20:59:12] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
+[2023-08-06 20:59:13] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.1.tar.gz]
+[2023-08-06 20:59:13] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.2.tar.gz]
+[2023-08-06 20:59:13] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-06 20:59:13] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.5.tar.gz]
+[2023-08-06 20:59:13] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
+[2023-08-06 20:59:13] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
+[2023-08-06 20:59:13] INFO root fetch - main [MainThread]: Store serial: [19196508]
