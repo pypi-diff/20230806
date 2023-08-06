@@ -4204,3 +4204,18 @@
 [2023-08-06 07:37:26] INFO root fetch - processPackages [django-sb-simple-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_sb_simple_migrations-0.8.0.tar.gz]
 [2023-08-06 07:37:26] INFO root fetch - main [MainThread]: End processing [django-sb-simple-migrations]: success
 [2023-08-06 07:37:26] INFO root fetch - main [MainThread]: Store serial: [19191438]
+[2023-08-06 07:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191438]
+[2023-08-06 07:42:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc-session
+[2023-08-06 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytelibs
+[2023-08-06 07:42:34] WARNING root fetch - processPackages [npc-session]: Skipping, unable to determine old version
+[2023-08-06 07:42:34] INFO root fetch - main [MainThread]: End processing [npc-session] error
+[2023-08-06 07:42:34] INFO root fetch - processPackages [pytelibs]: New version: [1.2.210] Old Version: [1.2.209]
+[2023-08-06 07:42:34] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/ea/17/43f96006db5468394084cb10531fa8eaa4fd89c9bddb4b67d6eed1be157c/pytelibs-1.2.209.tar.gz
+[2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: Downloading https://files.pythonhosted.org/packages/78/2e/285ed1d28dd502cc9f1eaae517f5a86b91af305d30a505588326dabca8db/pytelibs-1.2.210.tar.gz
+[2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: executing diffoscope
+[2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelibs-1.2.209.tar.gz tmp/pytelibs-1.2.210.tar.gz --markdown 20230806/p/pytelibs/1.2.209-1.2.210/diff.md --exclude *.pyd
+[2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.209.tar.gz]
+[2023-08-06 07:42:35] INFO root fetch - processPackages [pytelibs]: Remove: archive file [/home/abi/fetcher/tmp/pytelibs-1.2.210.tar.gz]
+[2023-08-06 07:42:35] INFO root fetch - main [MainThread]: End processing [pytelibs]: success
+[2023-08-06 07:42:36] INFO root fetch - main [MainThread]: Store serial: [19191445]
