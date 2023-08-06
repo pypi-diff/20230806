@@ -15187,3 +15187,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:04:25] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.3.tar.gz]
 [2023-08-06 21:04:25] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
 [2023-08-06 21:04:25] INFO root fetch - main [MainThread]: Store serial: [19196527]
+[2023-08-06 21:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196527]
+[2023-08-06 21:09:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyartifactory
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flashcam
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uib-inf100-graphics
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonBgt
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CyberCells
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-interpreter
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydra-chain-py
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kufar
+[2023-08-06 21:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mxcubeweb
+[2023-08-06 21:09:34] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.260] Old Version: [0.0.259]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.260] Old Version: [0.0.259]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [uib-inf100-graphics]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [hydra-chain-py]: New version: [2.8.0] Old Version: [2.7.6]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [pyartifactory]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-08-06 21:09:34] WARNING root fetch - processPackages [CyberCells]: Skipping, unable to determine old version
+[2023-08-06 21:09:34] INFO root fetch - main [MainThread]: End processing [CyberCells] error
+[2023-08-06 21:09:34] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/87/ea/37fb62e7a2a02c8543e93a46b93c4e393a703ed0e87bc0d24451d70885bc/open_interpreter-0.0.259.tar.gz
+[2023-08-06 21:09:34] INFO root fetch - processPackages [kufar]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [pythonBgt]: New version: [0.46] Old Version: [0.45]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [mxcubeweb]: New version: [1.64.0] Old Version: [1.63.0]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-06 21:09:34] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/87/ea/37fb62e7a2a02c8543e93a46b93c4e393a703ed0e87bc0d24451d70885bc/open_interpreter-0.0.259.tar.gz
+[2023-08-06 21:09:34] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/a4/95/359481b1f2da4945ed4a48708298f4b91784be771fbfcba2c7f38cee8d35/pythonBgt-0.45-py3-none-any.whl
+[2023-08-06 21:09:34] INFO root fetch - processPackages [uib-inf100-graphics]: Downloading https://files.pythonhosted.org/packages/8f/40/4c9e87c0f2966f1896a39a530122275355014e775ef147ba04f0295a1290/uib_inf100_graphics-0.2.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pyartifactory]: Downloading https://files.pythonhosted.org/packages/62/15/b808e42f60dcc139edc21b34e6304c12d23b1093396b5f20d8e2b61e439b/PyArtifactory-1.9.6.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [hydra-chain-py]: Downloading https://files.pythonhosted.org/packages/7c/91/7526f7ee3e83cc5afa91bf91c3afb36a2dcefcd909dea99f264b097d3ffd/hydra_chain_py-2.7.6.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [kufar]: Downloading https://files.pythonhosted.org/packages/6d/9c/c3268c3ccce183bb43e8467befa0156e726d11977f623dca41d1f19d18e5/kufar-0.1.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/88/1d/ff28eecfa17b1297f14de06115c86d0cb0f47cd4af0c8af3adb817f3c413/mxcubeweb-1.63.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/e0/04/dde5af01a820e56a066363f5fa32897d2d00f8e60f1c4c56417a6b1f24f4/open_interpreter-0.0.260.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/e0/04/dde5af01a820e56a066363f5fa32897d2d00f8e60f1c4c56417a6b1f24f4/open_interpreter-0.0.260.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.259.tar.gz tmp/open_interpreter-0.0.260.tar.gz --markdown 20230806/o/open-interpreter/0.0.259-0.0.260/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/a1/94/5320187f589c8558a52604493583bb3ec0cf538c3782d04792146c8787dc/pythonBgt-0.46-py3-none-any.whl
+[2023-08-06 21:09:35] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.259.tar.gz tmp/open_interpreter-0.0.260.tar.gz --markdown 20230806/o/open-interpreter/0.0.259-0.0.260/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [uib-inf100-graphics]: Downloading https://files.pythonhosted.org/packages/76/99/5566fec9b3d2a139812e573b14ddde6e8218dba5d8777db82f070ee8a84c/uib_inf100_graphics-0.3.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pyartifactory]: Downloading https://files.pythonhosted.org/packages/7a/f5/68bf0fb98c036c73b8b214873e37051da860e15eb045844aafa5aeec53e0/PyArtifactory-1.9.7.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pythonBgt]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pythonBgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonBgt-0.45-py3-none-any.whl.zip tmp/pythonBgt-0.46-py3-none-any.whl.zip --markdown 20230806/p/pythonBgt/0.45-0.46/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/73/4d/2700ba201d8533ec62d13568248ebf3ce888f48c072de2269c19bfbfa342/mxcubeweb-1.64.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [uib-inf100-graphics]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [uib-inf100-graphics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uib_inf100_graphics-0.2.0.tar.gz tmp/uib_inf100_graphics-0.3.0.tar.gz --markdown 20230806/u/uib-inf100-graphics/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [hydra-chain-py]: Downloading https://files.pythonhosted.org/packages/ba/63/1f5542b6a4f89457ff474a97e31486a7e5adb2b21c6fec03f3e69e5c8583/hydra_chain_py-2.8.0.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [kufar]: Downloading https://files.pythonhosted.org/packages/57/76/148835064122a6933cf07af69098a144677277a5d784e7c3344d54c1ef0a/kufar-0.1.2.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pyartifactory]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [pyartifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyArtifactory-1.9.6.tar.gz tmp/PyArtifactory-1.9.7.tar.gz --markdown 20230806/p/pyartifactory/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-08-06 21:09:35] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.63.0.tar.gz tmp/mxcubeweb-1.64.0.tar.gz --markdown 20230806/m/mxcubeweb/1.63.0-1.64.0/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [kufar]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [kufar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kufar-0.1.0.tar.gz tmp/kufar-0.1.2.tar.gz --markdown 20230806/k/kufar/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 21:09:35] INFO root fetch - processPackages [hydra-chain-py]: executing diffoscope
+[2023-08-06 21:09:35] INFO root fetch - processPackages [hydra-chain-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_chain_py-2.7.6.tar.gz tmp/hydra_chain_py-2.8.0.tar.gz --markdown 20230806/h/hydra-chain-py/2.7.6-2.8.0/diff.md --exclude *.pyd
+[2023-08-06 21:09:36] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-08-06 21:09:36] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230806/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-06 21:09:36] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.259.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.260.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:09:36] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:09:36] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.45-py3-none-any.whl.zip]
+[2023-08-06 21:09:36] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.46-py3-none-any.whl.zip]
+[2023-08-06 21:09:36] INFO root fetch - main [MainThread]: End processing [pythonBgt]: success
+[2023-08-06 21:09:36] INFO root fetch - processPackages [pyartifactory]: Remove: archive file [/home/abi/fetcher/tmp/PyArtifactory-1.9.6.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - processPackages [pyartifactory]: Remove: archive file [/home/abi/fetcher/tmp/PyArtifactory-1.9.7.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - main [MainThread]: End processing [pyartifactory]: success
+[2023-08-06 21:09:36] INFO root fetch - processPackages [uib-inf100-graphics]: Remove: archive file [/home/abi/fetcher/tmp/uib_inf100_graphics-0.2.0.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - processPackages [uib-inf100-graphics]: Remove: archive file [/home/abi/fetcher/tmp/uib_inf100_graphics-0.3.0.tar.gz]
+[2023-08-06 21:09:36] INFO root fetch - main [MainThread]: End processing [uib-inf100-graphics]: success
+[2023-08-06 21:09:37] INFO root fetch - processPackages [kufar]: Remove: archive file [/home/abi/fetcher/tmp/kufar-0.1.0.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - processPackages [kufar]: Remove: archive file [/home/abi/fetcher/tmp/kufar-0.1.2.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - main [MainThread]: End processing [kufar]: success
+[2023-08-06 21:09:37] INFO root fetch - processPackages [hydra-chain-py]: Remove: archive file [/home/abi/fetcher/tmp/hydra_chain_py-2.7.6.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - processPackages [hydra-chain-py]: Remove: archive file [/home/abi/fetcher/tmp/hydra_chain_py-2.8.0.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - main [MainThread]: End processing [hydra-chain-py]: success
+[2023-08-06 21:09:37] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.63.0.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.64.0.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-08-06 21:09:37] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-08-06 21:09:37] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-08-06 21:09:37] INFO root fetch - main [MainThread]: Store serial: [19196556]
