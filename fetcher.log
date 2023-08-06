@@ -7076,3 +7076,87 @@
 [2023-08-06 12:08:30] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-06 12:08:30] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-06 12:08:30] INFO root fetch - main [MainThread]: Store serial: [19192907]
+[2023-08-06 12:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192907]
+[2023-08-06 12:13:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iamlistening
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3-app
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntcli
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Metamorf
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rwai
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fletxible
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezsynth
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shellserver
+[2023-08-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EasyDeL
+[2023-08-06 12:13:39] INFO root fetch - processPackages [pyntcli]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-08-06 12:13:39] WARNING root fetch - processPackages [rwai]: Skipping, unable to determine old version
+[2023-08-06 12:13:39] INFO root fetch - processPackages [rwai]: Start processing: update-linux
+[2023-08-06 12:13:39] INFO root fetch - main [MainThread]: End processing [rwai] error
+[2023-08-06 12:13:39] WARNING root fetch - processPackages [ezsynth]: Skipping, unable to determine old version
+[2023-08-06 12:13:39] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:13:39] WARNING root fetch - processPackages [web3-app]: Skipping, unable to determine old version
+[2023-08-06 12:13:39] INFO root fetch - main [MainThread]: End processing [web3-app] error
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Fletxible]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Metamorf]: New version: [0.4.4.2] Old Version: [0.4.4.1]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/20/49/0a3c52111ed4473eacf41e4f9e1c31b0ce531e4d78958c72b88def7aa526/pyntcli-0.1.54-py3-none-any.whl
+[2023-08-06 12:13:39] INFO root fetch - processPackages [shellserver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e8/10/5c6e4965cede728d8cb9bfe32346b21cdd417f897dd1cc0641338da5ee4f/Fletxible-0.5.9.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [iamlistening]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [update-linux]: New version: [3.0.0] Old Version: [2.3.0]
+[2023-08-06 12:13:39] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/95/6c/4a0c46744f90765bba31042b926687b0972f20448891c2c0b7e3ec92f8bd/Fletxible-0.6.0.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Metamorf]: Downloading https://files.pythonhosted.org/packages/fd/a6/df3788ab264ee247cc5738a281bfbc6e0c0c6a05dcf6579ddde55c5dd885/Metamorf-0.4.4.1.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/54/96/5d9b90f4d95a854fdcee2e4eca876862abc5f63d38eb08b670ceb33265e1/iamlistening-3.1.2.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/5c/47/219c71a9756984e255fc347c7058c2b030ce84aaa8d8b977e6c76f068480/shellserver-0.0.8.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/4f/e8/bf3cc7e33a16466b431e15901c8254b214353a875935ee111ebcb2fcbc4f/update-linux-2.3.0.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/8b/4e/a0d84918ec21b7a7137ce0f328e1d7e1bcf632f96e8056c1b592034fa5dc/pyntcli-0.1.55-py3-none-any.whl
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.5.9.tar.gz tmp/Fletxible-0.6.0.tar.gz --markdown 20230806/F/Fletxible/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 12:13:39] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-06 12:13:39] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.54-py3-none-any.whl.zip tmp/pyntcli-0.1.55-py3-none-any.whl.zip --markdown 20230806/p/pyntcli/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-08-06 12:13:39] INFO root fetch - processPackages [Metamorf]: Downloading https://files.pythonhosted.org/packages/95/5e/5f821377be3c70586c49b9575f4971243e72c66d36554f112a66c8fc2e02/Metamorf-0.4.4.2.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/78/06/30a69f7c259fd14ab6e6fb1cf64adb66f3091ebc0386a04f77d249af9241/iamlistening-3.1.3.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 12:13:39] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 12:13:39] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/52/7f/995ec55e8f719ed1bf75502ac03981f54e3cec768591d0a6369c07ac9d28/shellserver-0.0.9.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/63/15/cccdfa8d8f8c0b19f4a66ef3ba53944f76850dd35066e281ed7958b7e3e9/update-linux-3.0.0.tar.gz
+[2023-08-06 12:13:39] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-08-06 12:13:39] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230806/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 12:13:40] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-08-06 12:13:40] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-3.1.2.tar.gz tmp/iamlistening-3.1.3.tar.gz --markdown 20230806/i/iamlistening/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-08-06 12:13:40] INFO root fetch - processPackages [Metamorf]: executing diffoscope
+[2023-08-06 12:13:40] INFO root fetch - processPackages [Metamorf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metamorf-0.4.4.1.tar.gz tmp/Metamorf-0.4.4.2.tar.gz --markdown 20230806/M/Metamorf/0.4.4.1-0.4.4.2/diff.md --exclude *.pyd
+[2023-08-06 12:13:40] INFO root fetch - processPackages [update-linux]: executing diffoscope
+[2023-08-06 12:13:40] INFO root fetch - processPackages [update-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update-linux-2.3.0.tar.gz tmp/update-linux-3.0.0.tar.gz --markdown 20230806/u/update-linux/2.3.0-3.0.0/diff.md --exclude *.pyd
+[2023-08-06 12:13:40] INFO root fetch - processPackages [shellserver]: executing diffoscope
+[2023-08-06 12:13:40] INFO root fetch - processPackages [shellserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellserver-0.0.8.tar.gz tmp/shellserver-0.0.9.tar.gz --markdown 20230806/s/shellserver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 12:13:40] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.5.9.tar.gz]
+[2023-08-06 12:13:40] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.0.tar.gz]
+[2023-08-06 12:13:40] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.54-py3-none-any.whl.zip]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.55-py3-none-any.whl.zip]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.2.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-3.1.3.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-2.3.0.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-3.0.0.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [update-linux]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.0.8.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.0.9.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [shellserver]: success
+[2023-08-06 12:13:41] INFO root fetch - processPackages [Metamorf]: Remove: archive file [/home/abi/fetcher/tmp/Metamorf-0.4.4.1.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - processPackages [Metamorf]: Remove: archive file [/home/abi/fetcher/tmp/Metamorf-0.4.4.2.tar.gz]
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: End processing [Metamorf]: success
+[2023-08-06 12:13:41] INFO root fetch - main [MainThread]: Store serial: [19192938]
