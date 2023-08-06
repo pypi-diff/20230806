@@ -12015,3 +12015,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:23:59] INFO root fetch - processPackages [eth-erc721]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc721-0.3.0.tar.gz]
 [2023-08-06 17:23:59] INFO root fetch - main [MainThread]: End processing [eth-erc721]: success
 [2023-08-06 17:23:59] INFO root fetch - main [MainThread]: Store serial: [19195062]
+[2023-08-06 17:29:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195062]
+[2023-08-06 17:29:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatteract
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myaddition
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cagen
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turbojpeg
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starco-utiles
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hagrid
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythresh
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autorunpy
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-react
+[2023-08-06 17:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readnext
+[2023-08-06 17:29:07] WARNING root fetch - processPackages [starco-utiles]: Skipping, unable to determine old version
+[2023-08-06 17:29:07] INFO root fetch - processPackages [starco-utiles]: Start processing: scoda-tk
+[2023-08-06 17:29:07] INFO root fetch - main [MainThread]: End processing [starco-utiles] error
+[2023-08-06 17:29:07] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc8] Old Version: [0.2.0rc7]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [jupyter-react]: New version: [0.5.2] Old Version: [0.2.0]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [chatteract]: New version: [0.2] Old Version: [0.1]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [readnext]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [autorunpy]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [turbojpeg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 17:29:07] WARNING root fetch - processPackages [myaddition]: Skipping, unable to determine old version
+[2023-08-06 17:29:07] INFO root fetch - main [MainThread]: End processing [myaddition] error
+[2023-08-06 17:29:07] INFO root fetch - processPackages [pythresh]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 17:29:07] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/51/f4/02b1a1c82a70c70eb2b023b3a94f35f9ff340ffa4647d7527556771985f9/cagen-0.2.0rc7.tar.gz
+[2023-08-06 17:29:07] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/59/ab/8f958afe5a4918aa07a5fb38fa5726aed57167b29cac9767eb241d98f889/scoda-tk-0.4.5.tar.gz
+[2023-08-06 17:29:07] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/8e/66/f42d15f186b9be74c9be9475708bcd083247e8677ee490b02f926ef55701/autorunpy-5.0.0.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [chatteract]: Downloading https://files.pythonhosted.org/packages/2a/d1/87e53c17a8c72ae57c7e63a6a5c7591c73f260849e5893526bf1dd248cea/chatteract-0.1.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [jupyter-react]: Downloading https://files.pythonhosted.org/packages/28/0d/dfbb45332194d8b6a6c537b0d172e4a3b84224876cc48d849878464a741a/jupyter_react-0.2.0.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [readnext]: Downloading https://files.pythonhosted.org/packages/89/4f/9ea07f04bbd7fd66c8a8314b1a923de655fb68ec1d4e7bcd512c6d075dd1/readnext-0.0.1.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/01/f3/832d18d606cac8a670e6d62a5f99a604b9d9c9f6dc0001e27c5fb57fd3d8/pythresh-0.3.2.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [turbojpeg]: Downloading https://files.pythonhosted.org/packages/3f/c2/3171d00348e5ed3d47289d5c8329b5595df54a13f38ce2609dfd46ce88fb/turbojpeg-0.0.1-cp39-cp39-win_amd64.whl
+[2023-08-06 17:29:08] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/1f/c3/0697c1d624e55bf71437a1fad2936427135ceff868ba489cb1f21d468baa/cagen-0.2.0rc8.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/ea/c5/eb422dc0b0515de25d2259136e0fd7ad6fe4c11e7aafeae268a8fa189dd6/autorunpy-6.0.0.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [chatteract]: Downloading https://files.pythonhosted.org/packages/65/ef/0f94e12486730759404a81851fadb58aa204f16d5085915a432e98bc9af1/chatteract-0.2.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc7.tar.gz tmp/cagen-0.2.0rc8.tar.gz --markdown 20230806/c/cagen/0.2.0rc7-0.2.0rc8/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [readnext]: Downloading https://files.pythonhosted.org/packages/0d/5d/d789b2ef5b7f738d675dbbcad3f5afbe40bd572c07caf023d9d42a6e2358/readnext-0.0.2.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/dc/f5/207dc67e30ee985a9e84e45f7d5f07803cf1db7c933fe9e65aa3419071b4/scoda-tk-0.4.6.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [pythresh]: Downloading https://files.pythonhosted.org/packages/ef/99/631bda2fb9e7665e8aecc5f4c9b273b3b35b5271969bbce96c84ea895bf8/pythresh-0.3.3.tar.gz
+[2023-08-06 17:29:08] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230806/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [turbojpeg]: Downloading https://files.pythonhosted.org/packages/cd/d1/8f70887e787b4971ae3b4af583d994694cf4b1b723053456c1846394b794/turbojpeg-0.0.2-cp39-cp39-win_amd64.whl
+[2023-08-06 17:29:08] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-5.0.0.tar.gz tmp/autorunpy-6.0.0.tar.gz --markdown 20230806/a/autorunpy/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [chatteract]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [chatteract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatteract-0.1.tar.gz tmp/chatteract-0.2.tar.gz --markdown 20230806/c/chatteract/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [readnext]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [readnext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readnext-0.0.1.tar.gz tmp/readnext-0.0.2.tar.gz --markdown 20230806/r/readnext/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [pythresh]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [pythresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythresh-0.3.2.tar.gz tmp/pythresh-0.3.3.tar.gz --markdown 20230806/p/pythresh/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 17:29:08] INFO root fetch - processPackages [turbojpeg]: executing diffoscope
+[2023-08-06 17:29:08] INFO root fetch - processPackages [turbojpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbojpeg-0.0.1-cp39-cp39-win_amd64.whl.zip tmp/turbojpeg-0.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230806/t/turbojpeg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 17:29:09] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 17:29:09] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.5.tar.gz tmp/scoda-tk-0.4.6.tar.gz --markdown 20230806/s/scoda-tk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-06 17:29:09] INFO root fetch - processPackages [jupyter-react]: Downloading https://files.pythonhosted.org/packages/c8/6c/74b9e05973f6a54543a192947060d23f241dd5a21da6460a3b0e170a75a1/jupyter_react-0.5.2.tar.gz
+[2023-08-06 17:29:09] WARNING root fetch - processPackages [jupyter-react]: Skipping package: exceeds size limit 11251933>=10485760
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [jupyter-react] error
+[2023-08-06 17:29:09] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc7.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc8.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-08-06 17:29:09] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-5.0.0.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-6.0.0.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2023-08-06 17:29:09] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-08-06 17:29:09] INFO root fetch - processPackages [chatteract]: Remove: archive file [/home/abi/fetcher/tmp/chatteract-0.1.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - processPackages [chatteract]: Remove: archive file [/home/abi/fetcher/tmp/chatteract-0.2.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [chatteract]: success
+[2023-08-06 17:29:09] INFO root fetch - processPackages [readnext]: Remove: archive file [/home/abi/fetcher/tmp/readnext-0.0.1.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - processPackages [readnext]: Remove: archive file [/home/abi/fetcher/tmp/readnext-0.0.2.tar.gz]
+[2023-08-06 17:29:09] INFO root fetch - main [MainThread]: End processing [readnext]: success
+[2023-08-06 17:29:10] INFO root fetch - processPackages [pythresh]: Remove: archive file [/home/abi/fetcher/tmp/pythresh-0.3.2.tar.gz]
+[2023-08-06 17:29:10] INFO root fetch - processPackages [pythresh]: Remove: archive file [/home/abi/fetcher/tmp/pythresh-0.3.3.tar.gz]
+[2023-08-06 17:29:10] INFO root fetch - main [MainThread]: End processing [pythresh]: success
+[2023-08-06 17:29:11] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.5.tar.gz]
+[2023-08-06 17:29:11] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.6.tar.gz]
+[2023-08-06 17:29:11] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 17:29:11] INFO root fetch - processPackages [turbojpeg]: Remove: archive file [/home/abi/fetcher/tmp/turbojpeg-0.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 17:29:11] INFO root fetch - processPackages [turbojpeg]: Remove: archive file [/home/abi/fetcher/tmp/turbojpeg-0.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 17:29:11] INFO root fetch - main [MainThread]: End processing [turbojpeg]: success
+[2023-08-06 17:29:11] INFO root fetch - main [MainThread]: Store serial: [19195116]
