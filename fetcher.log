@@ -13566,3 +13566,151 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:08:56] INFO root fetch - processPackages [sigmaepsilon.mesh]: Remove: archive file [/home/abi/fetcher/tmp/sigmaepsilon.mesh-0.0.3.tar.gz]
 [2023-08-06 19:08:56] INFO root fetch - main [MainThread]: End processing [sigmaepsilon.mesh]: success
 [2023-08-06 19:08:56] INFO root fetch - main [MainThread]: Store serial: [19195798]
+[2023-08-06 19:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195798]
+[2023-08-06 19:14:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymstodo
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceprob
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tempo120
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sortinghat
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perceval-weblate
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agixt
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extrapolation
+[2023-08-06 19:14:05] INFO root fetch - processPackages [pymstodo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [extrapolation]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [spaceprob]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [ez]: New version: [9.9.9] Old Version: [9.9.8]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [policyengine-us]: New version: [0.409.2] Old Version: [0.409.1]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [tempo120]: New version: [1.4.0] Old Version: [1.0.2]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/48/63/a6b30cc3575aa3d7d3fd88d2809bbd7b17823addf2bbc3c4dced44724e66/pymstodo-0.1.4.tar.gz
+[2023-08-06 19:14:05] INFO root fetch - processPackages [perceval-weblate]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [sortinghat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 19:14:05] INFO root fetch - processPackages [extrapolation]: Downloading https://files.pythonhosted.org/packages/48/e9/8942153c06d7f59bf0380ddb6c8488c0d792ca51829781b0533b0389f906/extrapolation-2.0.0.tar.gz
+[2023-08-06 19:14:05] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/65/94/8dfdf6fbb7911824c63768183b5ad04a7a20f0337059a3fdfe43760872cd/ez-9.9.8.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b9/53/a30dd76975811ea5a5172d1b8e67f5a661a011b4eada627f32034b6262a4/policyengine-us-0.409.1.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [spaceprob]: Downloading https://files.pythonhosted.org/packages/47/bb/2bc52388a32e578874ad37cbb6c3b83db7f72e197ac86dff664919c5d2d8/spaceprob-0.0.1.tar.gz
+[2023-08-06 19:14:06] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-08-06 19:14:06] INFO root fetch - processPackages [vollseg]: Start processing: jaraco.site
+[2023-08-06 19:14:06] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-08-06 19:14:06] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/f2/c3/95c90878e195005396b2b83ba49ab7759b678bfeb532b6ffcad220fbfb15/perceval_weblate-0.2.8rc2.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [tempo120]: Downloading https://files.pythonhosted.org/packages/38/4f/7066f0b9efec3da0f7517c1d3ff46d0bea521f7e0088ccd8a442ef54fdda/tempo120-1.0.2.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [jaraco.site]: New version: [6.5.0] Old Version: [6.4]
+[2023-08-06 19:14:06] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/bc/5f/6c2f1cc8dbcea9a7a68f7df7943d4f8d673c667918c3c1482666d9d63d5b/sortinghat-0.9.2.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/7e/50/95f3b714324c912a815455c0df89e75033b49755e259a4f9bfb26184e4c0/pymstodo-0.1.5.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [extrapolation]: Downloading https://files.pythonhosted.org/packages/38/cb/afbe14324f178ab4481108e263be3f931385699007ac536864ef257a077a/extrapolation-2.0.1-py3-none-any.whl
+[2023-08-06 19:14:06] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/4a/79/d833bdfd7cddcf45dd9054954289187e1253a333f433a965f717d05ec1ee/jaraco.site-6.4.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/90/c1/ca054042c9827c052772e8ed4ad49a29de99e78a3f110a585c9266ed2987/ez-9.9.9.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [pymstodo]: executing diffoscope
+[2023-08-06 19:14:06] INFO root fetch - processPackages [pymstodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymstodo-0.1.4.tar.gz tmp/pymstodo-0.1.5.tar.gz --markdown 20230806/p/pymstodo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 19:14:06] INFO root fetch - processPackages [spaceprob]: Downloading https://files.pythonhosted.org/packages/a9/5a/d46bde5eed24534f7653a385cb22709b68f3a89a56d309b8fa07d4642e3f/spaceprob-0.0.2.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [extrapolation]: executing diffoscope
+[2023-08-06 19:14:06] INFO root fetch - processPackages [extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrapolation-2.0.0.tar.gz tmp/extrapolation-2.0.1-py3-none-any.whl.zip --markdown 20230806/e/extrapolation/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-06 19:14:06] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/48/d1/593efeaed207d5da1fafdbba1a96850fc3396a63d633833367903f0b3a08/perceval_weblate-0.2.9.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [ez]: executing diffoscope
+[2023-08-06 19:14:06] INFO root fetch - processPackages [ez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-9.9.8.tar.gz tmp/ez-9.9.9.tar.gz --markdown 20230806/e/ez/9.9.8-9.9.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:06] INFO root fetch - processPackages [spaceprob]: executing diffoscope
+[2023-08-06 19:14:06] INFO root fetch - processPackages [spaceprob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceprob-0.0.1.tar.gz tmp/spaceprob-0.0.2.tar.gz --markdown 20230806/s/spaceprob/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 19:14:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5e/64/3c04ecabe2e709674d2b49c62ed35c65af31d004ca15f371a52f850e7a1b/policyengine-us-0.409.2.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/73/3d/3244214d0412d440868b7230557afbb27db8bc14aa5fe5987c454bdaf804/jaraco.site-6.5.0.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [tempo120]: Downloading https://files.pythonhosted.org/packages/93/79/5c0bbe09ce55d554ed82bf589cb64c560785324151488c4f110c05cbd0f0/tempo120-1.4.0.tar.gz
+[2023-08-06 19:14:06] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2023-08-06 19:14:06] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-0.2.8rc2.tar.gz tmp/perceval_weblate-0.2.9.tar.gz --markdown 20230806/p/perceval-weblate/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:06] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-08-06 19:14:07] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2023-08-06 19:14:07] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.4.tar.gz tmp/jaraco.site-6.5.0.tar.gz --markdown 20230806/j/jaraco.site/6.4-6.5.0/diff.md --exclude *.pyd
+[2023-08-06 19:14:07] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-06 19:14:07] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.409.1.tar.gz tmp/policyengine-us-0.409.2.tar.gz --markdown 20230806/p/policyengine-us/0.409.1-0.409.2/diff.md --exclude *.pyd
+[2023-08-06 19:14:07] INFO root fetch - processPackages [tempo120]: executing diffoscope
+[2023-08-06 19:14:07] INFO root fetch - processPackages [tempo120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempo120-1.0.2.tar.gz tmp/tempo120-1.4.0.tar.gz --markdown 20230806/t/tempo120/1.0.2-1.4.0/diff.md --exclude *.pyd
+[2023-08-06 19:14:07] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-08-06 19:14:07] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230806/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:07] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/d5/20/61bac871c1af5992b72b2ccd716054e7fd78f48a47b85864f1d48aca3e26/sortinghat-0.9.3.tar.gz
+[2023-08-06 19:14:07] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.4.tar.gz]
+[2023-08-06 19:14:07] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.5.tar.gz]
+[2023-08-06 19:14:07] INFO root fetch - processPackages [pymstodo]: Start processing: perceval-puppet
+[2023-08-06 19:14:07] INFO root fetch - main [MainThread]: End processing [pymstodo]: success
+[2023-08-06 19:14:07] INFO root fetch - processPackages [extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/extrapolation-2.0.0.tar.gz]
+[2023-08-06 19:14:07] INFO root fetch - processPackages [extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/extrapolation-2.0.1-py3-none-any.whl.zip]
+[2023-08-06 19:14:07] INFO root fetch - processPackages [extrapolation]: Start processing: perceval-mozilla
+[2023-08-06 19:14:07] INFO root fetch - main [MainThread]: End processing [extrapolation]: success
+[2023-08-06 19:14:07] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-mozilla]: New version: [0.3.9] Old Version: [0.3.8rc2]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [spaceprob]: Remove: archive file [/home/abi/fetcher/tmp/spaceprob-0.0.1.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [spaceprob]: Remove: archive file [/home/abi/fetcher/tmp/spaceprob-0.0.2.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [spaceprob]: Start processing: gimera
+[2023-08-06 19:14:08] INFO root fetch - main [MainThread]: End processing [spaceprob]: success
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gimera]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/6e/c0/9568fb13abf19a76a5c49f8bacf52c3498d5ba502b9fff58a7678946ade0/gimera-0.7.6.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/4c/a1/f3ab5541113a366757b9481d62f38c8459015a3fa1e025fa1e0b6bf53ab0/perceval_puppet-0.2.8rc2.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/29/0e/1ae20bc4d8fff238a7c60866849ba9810bc75e0428fe1f8cf2733b69bdc3/perceval_mozilla-0.3.8rc2.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.8.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [ez]: Start processing: perceval-opnfv
+[2023-08-06 19:14:08] INFO root fetch - main [MainThread]: End processing [ez]: success
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-0.2.8rc2.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-0.2.9.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-weblate]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-08-06 19:14:08] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/02/84/53d9af231ae417392b8cf916016b6ebdfbc6a5035a937ef4a4b793c93bb8/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [tempo120]: Remove: archive file [/home/abi/fetcher/tmp/tempo120-1.0.2.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [tempo120]: Remove: archive file [/home/abi/fetcher/tmp/tempo120-1.4.0.tar.gz]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/5e/ad/35b7600bee656ccabe234b5be33fa8d231697ad806f6fbe6fe0b6c9eeed9/gimera-0.7.7.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [tempo120]: Start processing: databend
+[2023-08-06 19:14:08] INFO root fetch - main [MainThread]: End processing [tempo120]: success
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/5e/01/7e3d38cb76bd0ac44b7a8512c358c5013e08d53e48fee4ace851c4c95fd8/perceval_puppet-0.2.9.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/92/25/4a46c7ef7ea23e1e879e7d2f4e84e557e20c34b461418a7c61d06036caa4/perceval_mozilla-0.3.9.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/5c/77/9530594bf6c3822d57cc3519d7038f264d3ec68563d282c09a41cacfcd8b/perceval_opnfv-0.2.8rc2.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.8rc2.tar.gz tmp/perceval_puppet-0.2.9.tar.gz --markdown 20230806/p/perceval-puppet/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.6.tar.gz tmp/gimera-0.7.7.tar.gz --markdown 20230806/g/gimera/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/7c/1d/e7137888c846c616b7512dd23bad20cfe2b2f147461f96689a373187927f/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2023-08-06 19:14:08] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-0.3.8rc2.tar.gz tmp/perceval_mozilla-0.3.9.tar.gz --markdown 20230806/p/perceval-mozilla/0.3.8rc2-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-08-06 19:14:08] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz --markdown 20230806/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:08] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-08-06 19:14:08] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.2.tar.gz tmp/sortinghat-0.9.3.tar.gz --markdown 20230806/s/sortinghat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 19:14:08] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 19:14:09] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-08-06 19:14:09] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-08-06 19:14:09] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-08-06 19:14:09] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/45/31/4d8e7afbe78e4396469b939734a808a0073335f82e0dbcbebef94a25b892/perceval_opnfv-0.2.9.tar.gz
+[2023-08-06 19:14:09] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-08-06 19:14:09] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-08-06 19:14:09] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-08-06 19:14:09] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc2.tar.gz tmp/perceval_opnfv-0.2.9.tar.gz --markdown 20230806/p/perceval-opnfv/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 19:14:09] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.4.tar.gz]
+[2023-08-06 19:14:09] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.5.0.tar.gz]
+[2023-08-06 19:14:09] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
+[2023-08-06 19:14:10] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.6.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.7.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-08-06 19:14:10] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.8rc2.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.9.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.8rc2.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.9.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-0.3.8rc2.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-0.3.9.tar.gz]
+[2023-08-06 19:14:10] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2023-08-06 19:14:11] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.2.tar.gz]
+[2023-08-06 19:14:11] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.3.tar.gz]
+[2023-08-06 19:14:11] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-08-06 19:14:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.1.tar.gz]
+[2023-08-06 19:14:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.2.tar.gz]
+[2023-08-06 19:14:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-06 19:14:39] INFO root fetch - main [MainThread]: Store serial: [19195848]
