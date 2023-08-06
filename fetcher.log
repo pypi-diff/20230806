@@ -6209,3 +6209,72 @@
 [2023-08-06 10:49:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-08-06 10:49:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-08-06 10:49:46] INFO root fetch - main [MainThread]: Store serial: [19192391]
+[2023-08-06 10:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192391]
+[2023-08-06 10:54:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-hello
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-hello
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-hello
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minecraft-python
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stdf-tamer
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slack-serverless
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchmark-runner
+[2023-08-06 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trilium-alchemy
+[2023-08-06 10:54:55] WARNING root fetch - processPackages [trilium-alchemy]: Skipping, unable to determine old version
+[2023-08-06 10:54:55] INFO root fetch - main [MainThread]: End processing [trilium-alchemy] error
+[2023-08-06 10:54:55] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a61] Old Version: [0.1.0a60]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [slack-serverless]: New version: [2023.1004a0] Old Version: [2023.1003a0]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [minecraft-python]: New version: [160052.post1] Old Version: [160052]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a62] Old Version: [0.1.0a61]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: New version: [0.1.0a62] Old Version: [0.1.0a61]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [stdf-tamer]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-08-06 10:54:55] INFO root fetch - processPackages [slack-serverless]: Downloading https://files.pythonhosted.org/packages/00/4e/168f5104de84e99a28fe8121399b28b6c69078ae4019c97d1f5676cf9645/slack-serverless-2023.1003a0.tar.gz
+[2023-08-06 10:54:55] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-08-06 10:54:55] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/db/e7/b8dc97875eb25715a17d91ef1dda95eef0b60d1d0cab9bc386cb7fb8f87f/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl
+[2023-08-06 10:54:55] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/4d/b9/007220758b29ee62ecf6b72553b6cf9d812665678e97b6188c143d7016ca/sqlite_utils_sqlite_hello-0.1.0a61-py3-none-any.whl
+[2023-08-06 10:54:55] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/96/81/be3f2da60b06e36c7a692111712d1c57db1e72c6eed387428dddd0e806f4/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-06 10:54:55] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/42/44/b89c63b53847a98670ef879a92e97bcf2b5add8105f8c51365e9f6769f36/sqlite_hello-0.1.0a61-py3-none-win_amd64.whl
+[2023-08-06 10:54:55] INFO root fetch - processPackages [stdf-tamer]: Downloading https://files.pythonhosted.org/packages/da/47/9213828724c936cf2718ac1bcd80bb5f77193c80783db0c1e8424f0e5e77/stdf_tamer-1.0.2.tar.gz
+[2023-08-06 10:54:55] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-08-06 10:54:55] INFO root fetch - processPackages [slack-serverless]: Downloading https://files.pythonhosted.org/packages/0a/2c/73ee38c9f09d75fd9665cab0120fdadd1f60d209d6da263bac24aa3d809e/slack-serverless-2023.1004a0.tar.gz
+[2023-08-06 10:54:56] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/38/bb/e9523cc2d48c95d21d5235875cc48d543d25de3a19a3869c931f08e5a7e6/datasette_sqlite_hello-0.1.0a61-py3-none-any.whl
+[2023-08-06 10:54:56] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230806/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/d4/cc/c5acfe854a611d69fe5c68337aca04ea69df8c9d3bac30d6ee8ebe9aeaa6/sqlite_utils_sqlite_hello-0.1.0a62-py3-none-any.whl
+[2023-08-06 10:54:56] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2023-08-06 10:54:56] INFO root fetch - processPackages [slack-serverless]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [slack-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-serverless-2023.1003a0.tar.gz tmp/slack-serverless-2023.1004a0.tar.gz --markdown 20230806/s/slack-serverless/2023.1003a0-2023.1004a0/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/92/65/a3a520f8da37e284e413169d4c5e84e8b040623bb2bb8255f7b87dd8019c/sqlite_hello-0.1.0a62-py3-none-win_amd64.whl
+[2023-08-06 10:54:56] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a61-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-hello/0.1.0a60-0.1.0a61/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [stdf-tamer]: Downloading https://files.pythonhosted.org/packages/07/e3/fa280fe7408f73a4ba15ebc9c1e09fbe2124ae525c9a211666e0df08c60d/stdf_tamer-1.0.4.tar.gz
+[2023-08-06 10:54:56] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl.zip tmp/minecraft-python-160052.post1.tar.gz --markdown 20230806/m/minecraft-python/160052-160052.post1/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_hello-0.1.0a61-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_hello-0.1.0a62-py3-none-any.whl.zip --markdown 20230806/s/sqlite-utils-sqlite-hello/0.1.0a61-0.1.0a62/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a61-py3-none-win_amd64.whl.zip tmp/sqlite_hello-0.1.0a62-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-hello/0.1.0a61-0.1.0a62/diff.md --exclude *.pyd
+[2023-08-06 10:54:56] INFO root fetch - processPackages [stdf-tamer]: executing diffoscope
+[2023-08-06 10:54:56] INFO root fetch - processPackages [stdf-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdf_tamer-1.0.2.tar.gz tmp/stdf_tamer-1.0.4.tar.gz --markdown 20230806/s/stdf-tamer/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-08-06 10:54:57] INFO root fetch - processPackages [slack-serverless]: Remove: archive file [/home/abi/fetcher/tmp/slack-serverless-2023.1003a0.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [slack-serverless]: Remove: archive file [/home/abi/fetcher/tmp/slack-serverless-2023.1004a0.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [slack-serverless]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a61-py3-none-any.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a61-py3-none-win_amd64.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a62-py3-none-win_amd64.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a61-py3-none-any.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a62-py3-none-any.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2023-08-06 10:54:57] INFO root fetch - processPackages [stdf-tamer]: Remove: archive file [/home/abi/fetcher/tmp/stdf_tamer-1.0.2.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - processPackages [stdf-tamer]: Remove: archive file [/home/abi/fetcher/tmp/stdf_tamer-1.0.4.tar.gz]
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [stdf-tamer]: success
+[2023-08-06 10:54:57] INFO root fetch - main [MainThread]: Store serial: [19192473]
