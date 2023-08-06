@@ -1379,3 +1379,189 @@
 [2023-08-06 02:25:19] INFO root fetch - processPackages [canvasxpress]: Remove: archive file [/home/abi/fetcher/tmp/canvasxpress-2023.7.9.1809.tar.gz]
 [2023-08-06 02:25:19] INFO root fetch - main [MainThread]: End processing [canvasxpress]: success
 [2023-08-06 02:25:19] INFO root fetch - main [MainThread]: Store serial: [19190154]
+[2023-08-06 02:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190154]
+[2023-08-06 02:30:28] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-fastrand
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-fastrand
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-fastrand
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-remote-stack
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-library-objects
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-web-core
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweetrpg-api-core
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-docker-image-deployment
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-serverless-clamscan
+[2023-08-06 02:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-certbot-dns-route53
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-06 02:30:29] WARNING root fetch - processPackages [sqlite-utils-sqlite-fastrand]: Skipping, unable to determine old version
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sqlite-utils-sqlite-fastrand]: Start processing: cpsvis
+[2023-08-06 02:30:29] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-fastrand] error
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cpsvis]: New version: [0.0.20] Old Version: [0.0.10]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cpsvis]: Downloading https://files.pythonhosted.org/packages/e1/85/6f34cab8b3582026f3dbaca0bb3815e48136fc5f111ff70c7256724594d2/cpsvis-0.0.10-py3-none-any.whl
+[2023-08-06 02:30:29] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/02/8b/c548eca77b1609b0705a2a62ac74dc85a30edd9aefe663f46e207a2ba40a/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/36/9b/b399eb72bb3bfef3cec61a12ecd8039bbd15e7118122b99815bf69fe2a01/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-08-06 02:30:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230806/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/59/a7/1f9b3dc45fd0c3e59a2d2014b1e475a4d9cd5ad94be2efd884665cc73301/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cpsvis]: Downloading https://files.pythonhosted.org/packages/ae/d4/6c37e20b323c2d5766799d916c3b6946a8e7bef582f3fa754b80eb18f68c/cpsvis-0.0.20-py3-none-any.whl
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230806/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-08-06 02:30:30] INFO root fetch - processPackages [datasette-sqlite-fastrand]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [datasette-sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cpsvis]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cpsvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpsvis-0.0.10-py3-none-any.whl.zip tmp/cpsvis-0.0.20-py3-none-any.whl.zip --markdown 20230806/c/cpsvis/0.0.10-0.0.20/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/3c/6e/ce8f2bcc325f3fac97e122779f8c31aa2d98da0e1d3fac1fc32c6c1df7d0/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230806/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-08-06 02:30:30] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230806/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sqlite-fastrand]: executing diffoscope
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: kuki
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [kuki]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Start processing: sweetrpg-web-core
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-fastrand]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cpsvis]: Remove: archive file [/home/abi/fetcher/tmp/cpsvis-0.0.10-py3-none-any.whl.zip]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cpsvis]: Remove: archive file [/home/abi/fetcher/tmp/cpsvis-0.0.20-py3-none-any.whl.zip]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cpsvis]: Start processing: cdk-gitlab-runner
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [cpsvis]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/da/99/218fc648c722848d38c1d8f4a5f2a525ea8d43a6184076cb1ad88f60778b/kuki-0.9.8.tar.gz
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: cdk-certbot-dns-route53
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-remote-stack]: Start processing: cdk-aurora-globaldatabase
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-08-06 02:30:31] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: cdktf-github-actions
+[2023-08-06 02:30:31] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-08-06 02:30:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-library-objects]: Start processing: cdk-ecs-service-extensions
+[2023-08-06 02:30:32] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/40/78/c6dc6dc08631a7f7078269d05a6492604f923e324c4c0b013e8ed3ecb538/kuki-0.9.9.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230806/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.8.tar.gz tmp/kuki-0.9.9.tar.gz --markdown 20230806/k/kuki/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230806/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230806/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] ERROR root fetch - processPackages [sweetrpg-web-core]: Diffoscope failed: time="2023-08-06T02:30:32+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/sweetrpg-web-core-0.0.98.tar.gz: No such file or directory
+
+[2023-08-06 02:30:32] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: aeppl-nightly
+[2023-08-06 02:30:32] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core] error
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230806/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230805] Old Version: [0.1.5.dev20230804]
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230806/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/fe/07/54c429583f5799ac664c805182f13e5e3aeaa64561af691c0efac9f56a14/aeppl-nightly-0.1.5.dev20230804.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-08-06 02:30:32] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230806/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20230806/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2023-08-06 02:30:33] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/06/d6/81da80c268cc3a2e6980767a369b2c6e7a6cce113c9c8baef5ee840da3cf/aeppl-nightly-0.1.5.dev20230805.tar.gz
+[2023-08-06 02:30:33] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-08-06 02:30:33] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230804.tar.gz tmp/aeppl-nightly-0.1.5.dev20230805.tar.gz --markdown 20230806/a/aeppl-nightly/0.1.5.dev20230804-0.1.5.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdktf-proxmox
+[2023-08-06 02:30:33] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:30:33] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-08-06 02:30:34] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.8.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.9.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230806/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [sqlite-fastrand]: success
+[2023-08-06 02:30:34] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230804.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230805.tar.gz]
+[2023-08-06 02:30:34] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-08-06 02:30:35] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-08-06 02:30:35] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-08-06 02:30:35] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-08-06 02:30:35] INFO root fetch - main [MainThread]: Store serial: [19190213]
