@@ -14688,3 +14688,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:28:00] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.1.0.tar.gz]
 [2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [gplugins]: success
 [2023-08-06 20:28:00] INFO root fetch - main [MainThread]: Store serial: [19196317]
+[2023-08-06 20:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196317]
+[2023-08-06 20:33:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 20:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seagoat
+[2023-08-06 20:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceval
+[2023-08-06 20:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerberuspy
+[2023-08-06 20:33:09] INFO root fetch - processPackages [cerberuspy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 20:33:09] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-08-06 20:33:09] INFO root fetch - processPackages [seagoat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 20:33:09] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-08-06 20:33:09] INFO root fetch - processPackages [cerberuspy]: Downloading https://files.pythonhosted.org/packages/05/35/9098bccabc4d20282a389406009726195cf100905f0fc144e45d60aa3e23/cerberuspy-1.0.0.tar.gz
+[2023-08-06 20:33:10] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/fb/98/c810a70a159e0e984ce414e3972e09f018fa68001f0f37e711f76d81172d/seagoat-0.9.2.tar.gz
+[2023-08-06 20:33:10] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-08-06 20:33:10] INFO root fetch - processPackages [cerberuspy]: Downloading https://files.pythonhosted.org/packages/b4/70/e875894d98bf3ead9b509932794f7f9945b0c21331b98c072800947c83b4/cerberuspy-1.0.1.tar.gz
+[2023-08-06 20:33:10] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-08-06 20:33:10] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230806/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 20:33:10] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/e5/79/ac0fbe92e5da8a301bad1d4012d8eea6aa469f19ff20b776531ceeaf8507/seagoat-0.9.3.tar.gz
+[2023-08-06 20:33:10] INFO root fetch - processPackages [cerberuspy]: executing diffoscope
+[2023-08-06 20:33:10] INFO root fetch - processPackages [cerberuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerberuspy-1.0.0.tar.gz tmp/cerberuspy-1.0.1.tar.gz --markdown 20230806/c/cerberuspy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 20:33:10] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-08-06 20:33:10] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.9.2.tar.gz tmp/seagoat-0.9.3.tar.gz --markdown 20230806/s/seagoat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 20:33:11] INFO root fetch - processPackages [cerberuspy]: Remove: archive file [/home/abi/fetcher/tmp/cerberuspy-1.0.0.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - processPackages [cerberuspy]: Remove: archive file [/home/abi/fetcher/tmp/cerberuspy-1.0.1.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - main [MainThread]: End processing [cerberuspy]: success
+[2023-08-06 20:33:11] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.2.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.3.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-08-06 20:33:11] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-08-06 20:33:11] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-08-06 20:33:11] INFO root fetch - main [MainThread]: Store serial: [19196330]
