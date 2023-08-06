@@ -2242,3 +2242,56 @@
 [2023-08-06 03:24:45] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.250.tar.gz]
 [2023-08-06 03:24:45] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
 [2023-08-06 03:24:45] INFO root fetch - main [MainThread]: Store serial: [19190526]
+[2023-08-06 03:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190526]
+[2023-08-06 03:29:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-api-core
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: option-trader
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetrpg-web-core
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotscanner
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BayesComBat
+[2023-08-06 03:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phymmr-tools
+[2023-08-06 03:29:54] WARNING root fetch - processPackages [option-trader]: Skipping, unable to determine old version
+[2023-08-06 03:29:54] INFO root fetch - main [MainThread]: End processing [option-trader] error
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:29:54] INFO root fetch - processPackages [bioregistry]: New version: [0.9.95] Old Version: [0.9.94]
+[2023-08-06 03:29:54] WARNING root fetch - processPackages [BayesComBat]: Skipping, unable to determine old version
+[2023-08-06 03:29:54] INFO root fetch - main [MainThread]: End processing [BayesComBat] error
+[2023-08-06 03:29:54] INFO root fetch - processPackages [phymmr-tools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 03:29:54] INFO root fetch - processPackages [dotscanner]: New version: [1.4.0] Old Version: [1.3.5]
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-08-06 03:29:54] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/55/eb/e29dbaefe9c21254aae33c000cf13b35f69125bb15ee0bcfacbe1860acd4/bioregistry-0.9.94.tar.gz
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:29:54] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/55/90/735663656e186701f85c294a7c278eba96c98bc42c88d8ec6d95351b3442/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-08-06 03:29:54] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/35/4a/7dbcfad7b6582702469ef0d9d216b70cb5f33f16408ce013625370afe06c/dotscanner-1.3.5.tar.gz
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-08-06 03:29:54] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:29:55] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4c/a1/7f27a1715c2793fb9156f793615252a0572e412c161ace1ce53db40df3fe/bioregistry-0.9.95.tar.gz
+[2023-08-06 03:29:55] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/11/46/9523e384be79941a9a960cb436208c54b2d152e07f6d6a1e929e745d6a5b/dotscanner-1.4.0.tar.gz
+[2023-08-06 03:29:55] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/d6/d0/a4be8cc855a9d60fae4b229f764d31fe38013e4715f3ae799ff6eadefb52/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 03:29:55] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-08-06 03:29:55] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.94.tar.gz tmp/bioregistry-0.9.95.tar.gz --markdown 20230806/b/bioregistry/0.9.94-0.9.95/diff.md --exclude *.pyd
+[2023-08-06 03:29:55] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-08-06 03:29:55] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.5.tar.gz tmp/dotscanner-1.4.0.tar.gz --markdown 20230806/d/dotscanner/1.3.5-1.4.0/diff.md --exclude *.pyd
+[2023-08-06 03:29:55] INFO root fetch - processPackages [phymmr-tools]: executing diffoscope
+[2023-08-06 03:29:55] INFO root fetch - processPackages [phymmr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230806/p/phymmr-tools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 03:29:55] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-08-06 03:29:55] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-08-06 03:29:55] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-08-06 03:29:55] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-08-06 03:29:55] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-08-06 03:29:55] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-08-06 03:29:56] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.5.tar.gz]
+[2023-08-06 03:29:56] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.4.0.tar.gz]
+[2023-08-06 03:29:56] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-08-06 03:30:02] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 03:30:02] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 03:30:02] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
+[2023-08-06 03:31:07] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.94.tar.gz]
+[2023-08-06 03:31:07] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.95.tar.gz]
+[2023-08-06 03:31:07] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-08-06 03:31:07] INFO root fetch - main [MainThread]: Store serial: [19190552]
