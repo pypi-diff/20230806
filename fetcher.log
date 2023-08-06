@@ -2822,3 +2822,71 @@
 [2023-08-06 04:19:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230805.tar.gz]
 [2023-08-06 04:19:47] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-08-06 04:19:47] INFO root fetch - main [MainThread]: Store serial: [19190778]
+[2023-08-06 04:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190778]
+[2023-08-06 04:24:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hci-framework
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monailabel-weekly
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmux-conf
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-vss
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-utils-sqlite-vss
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kabupy
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webint-code
+[2023-08-06 04:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thedoppler
+[2023-08-06 04:24:56] INFO root fetch - processPackages [thedoppler]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-06 04:24:56] INFO root fetch - processPackages [tmux-conf]: New version: [0.16.3] Old Version: [0.16.0]
+[2023-08-06 04:24:56] WARNING root fetch - processPackages [kabupy]: Skipping, unable to determine old version
+[2023-08-06 04:24:56] INFO root fetch - main [MainThread]: End processing [kabupy] error
+[2023-08-06 04:24:56] INFO root fetch - processPackages [webint-code]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-08-06 04:24:56] INFO root fetch - processPackages [thedoppler]: Downloading https://files.pythonhosted.org/packages/b9/d9/473006bf33485c7262c3e67bee584647e947d75959c5cfd17556e23631fd/thedoppler-1.1.8.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [hci-framework]: New version: [0.1a5] Old Version: [0.1a4]
+[2023-08-06 04:24:56] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2023-08-06 04:24:56] WARNING root fetch - processPackages [sqlite-utils-sqlite-vss]: Skipping, unable to determine old version
+[2023-08-06 04:24:56] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-vss] error
+[2023-08-06 04:24:56] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/90/f0/263109e17f9dcfbd0bd172982cff0392bb89aab6419651224b4ea658c7bd/tmux_conf-0.16.0.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2023-08-06 04:24:56] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2332] Old Version: [0.5.dev2331]
+[2023-08-06 04:24:56] WARNING root fetch - processPackages [thedoppler]: Skipping package: exceeds size limit 46033344>=10485760
+[2023-08-06 04:24:56] INFO root fetch - main [MainThread]: End processing [thedoppler] error
+[2023-08-06 04:24:56] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/a9/6e/022957e71c477f71034e9d7730b388fb495dc1a4485a5f2673da05a678ff/webint_code-0.0.23.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/da/4f/79fe0677cfb08383e67a8295e22a63e6e73cae838f8365b9b5b6e195a57c/hci-framework-0.1a4.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/9a/ce/3ab986926bfbb842dd3fa4cd92f99fad2dd7d51764eaf825262563b65803/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl
+[2023-08-06 04:24:56] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/5b/26/f31e3f7124d5f39a8afda75cc145980139a0873d7f4e70a925c419d2d590/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 04:24:56] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/d6/40/e129eb92f699e6370051bfcf055a5d1a533609dbcb0dbede8fd511a5ba9e/monailabel_weekly-0.5.dev2331-py3-none-any.whl
+[2023-08-06 04:24:56] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/b5/c2/de5b4e67722880104e1bb46e2509ff0f0be8b8daecbe9328296f57e234c1/tmux_conf-0.16.3.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/21/28/95b87b8837038a8dd5962a9263f9cf115fe69be1d9a5c4ff780684b4aeb1/webint_code-0.0.24.tar.gz
+[2023-08-06 04:24:56] INFO root fetch - processPackages [tmux-conf]: executing diffoscope
+[2023-08-06 04:24:56] INFO root fetch - processPackages [tmux-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmux_conf-0.16.0.tar.gz tmp/tmux_conf-0.16.3.tar.gz --markdown 20230806/t/tmux-conf/0.16.0-0.16.3/diff.md --exclude *.pyd
+[2023-08-06 04:24:56] INFO root fetch - processPackages [webint-code]: executing diffoscope
+[2023-08-06 04:24:56] INFO root fetch - processPackages [webint-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_code-0.0.23.tar.gz tmp/webint_code-0.0.24.tar.gz --markdown 20230806/w/webint-code/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-08-06 04:24:56] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/17/49/c965bd81de7ca2d99093081422f633c64e3f004c8ad874592358217912e0/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl
+[2023-08-06 04:24:56] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-08-06 04:24:56] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-vss/0.1.2a2-0.1.2a3/diff.md --exclude *.pyd
+[2023-08-06 04:24:57] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/4a/fc/e864c4b73444abaff9a741bff146db881aa03013eb2fe04e6bb56515d03f/hci-framework-0.1a5.tar.gz
+[2023-08-06 04:24:57] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/60/56/2c54209ce2d38590818816805dbf73d2be79c85795847c09a2219d265ae7/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 04:24:57] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.0.tar.gz]
+[2023-08-06 04:24:57] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.3.tar.gz]
+[2023-08-06 04:24:57] INFO root fetch - main [MainThread]: End processing [tmux-conf]: success
+[2023-08-06 04:24:57] INFO root fetch - processPackages [webint-code]: Remove: archive file [/home/abi/fetcher/tmp/webint_code-0.0.23.tar.gz]
+[2023-08-06 04:24:57] INFO root fetch - processPackages [webint-code]: Remove: archive file [/home/abi/fetcher/tmp/webint_code-0.0.24.tar.gz]
+[2023-08-06 04:24:57] INFO root fetch - main [MainThread]: End processing [webint-code]: success
+[2023-08-06 04:24:57] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl.zip]
+[2023-08-06 04:24:57] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl.zip]
+[2023-08-06 04:24:57] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-08-06 04:24:57] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/2d/db/a7ee8be66faa07925a198af8eff93287bb8a62791788afb11f88ef695ab3/monailabel_weekly-0.5.dev2332-py3-none-any.whl
+[2023-08-06 04:24:57] INFO root fetch - processPackages [hci-framework]: executing diffoscope
+[2023-08-06 04:24:57] INFO root fetch - processPackages [hci-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hci-framework-0.1a4.tar.gz tmp/hci-framework-0.1a5.tar.gz --markdown 20230806/h/hci-framework/0.1a4-0.1a5/diff.md --exclude *.pyd
+[2023-08-06 04:24:57] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-08-06 04:24:57] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230806/s/sqlite-vss/0.1.2a2-0.1.2a3/diff.md --exclude *.pyd
+[2023-08-06 04:24:59] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-08-06 04:24:59] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2331-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2332-py3-none-any.whl.zip --markdown 20230806/m/monailabel-weekly/0.5.dev2331-0.5.dev2332/diff.md --exclude *.pyd
+[2023-08-06 04:25:01] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a4.tar.gz]
+[2023-08-06 04:25:01] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a5.tar.gz]
+[2023-08-06 04:25:01] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
+[2023-08-06 04:25:03] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2331-py3-none-any.whl.zip]
+[2023-08-06 04:25:03] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2332-py3-none-any.whl.zip]
+[2023-08-06 04:25:03] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-08-06 04:25:20] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 04:25:20] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 04:25:20] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-08-06 04:25:20] INFO root fetch - main [MainThread]: Store serial: [19190810]
