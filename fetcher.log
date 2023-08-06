@@ -16868,3 +16868,100 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:19:38] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.5.tar.gz]
 [2023-08-06 23:19:38] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
 [2023-08-06 23:19:38] INFO root fetch - main [MainThread]: Store serial: [19197267]
+[2023-08-06 23:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197267]
+[2023-08-06 23:24:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-lexorank
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KiMoPack
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: richviewsdk
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fracture-suite
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasai
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmnemoi-learn
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mfhpo-simulator
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lumibot
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wodoo
+[2023-08-06 23:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libnacl
+[2023-08-06 23:24:48] WARNING root fetch - processPackages [richviewsdk]: Skipping, unable to determine old version
+[2023-08-06 23:24:48] INFO root fetch - processPackages [richviewsdk]: Start processing: importer-local
+[2023-08-06 23:24:48] INFO root fetch - main [MainThread]: End processing [richviewsdk] error
+[2023-08-06 23:24:48] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [fracture-suite]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [lumibot]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/0c/ce/c20f401c69c6ac8e5e0f4decaa30e8521611216dd5730bb8a422847bc3bd/mfhpo_simulator-1.2.8-py3-none-any.whl
+[2023-08-06 23:24:48] INFO root fetch - processPackages [pandasai]: New version: [1.0a1] Old Version: [0.8.2]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [django-lexorank]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [cmnemoi-learn]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [libnacl]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [KiMoPack]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/df/93/cbf4f59f7cf7cdaf24d47ce332772de804d99620f513787ead0890a6a9f7/lumibot-2.7.8.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [fracture-suite]: Downloading https://files.pythonhosted.org/packages/28/a9/594f03792925b996f815e07732d27766f271bafefe47a51ff54d6b51fc9c/fracture-suite-0.0.1.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [cmnemoi-learn]: Downloading https://files.pythonhosted.org/packages/97/8b/70ae0214f686de7d9d1bc80adc995a88c0d7883bfd2d3b05ac1e319a8d32/cmnemoi_learn-0.2.0.tar.gz
+[2023-08-06 23:24:48] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23902968>=10485760
+[2023-08-06 23:24:48] INFO root fetch - processPackages [lumibot]: Start processing: tensorshare
+[2023-08-06 23:24:48] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-08-06 23:24:48] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/04/50/999960ec592fcfe30a5e49caa717c9643beab602c5c6a075fc501d7cb592/pandasai-0.8.2.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [django-lexorank]: Downloading https://files.pythonhosted.org/packages/24/75/0692d1eef016123cf12a4edf5f64dabdc0b8d65978edca4cec724232e69b/django_lexorank-0.1.0.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/e3/28/8d4f3a8abc7c71d4ea12bc46f62ce2b7cff7334e8966e9d808af1dc5e992/libnacl-2.0.0.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [tensorshare]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 23:24:48] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/23/1a/bf861910e97280953d79948d077ee45e12f61dc3a9fa1e9f30a71f4138aa/KiMoPack-7.1.8.tar.gz
+[2023-08-06 23:24:48] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/92/a6/3c1a16d2ff1dff23cd1c9bd09b4174fa2e2f83f994a62ea3d70107c76ab3/mfhpo_simulator-1.2.9-py3-none-any.whl
+[2023-08-06 23:24:48] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [tensorshare]: Downloading https://files.pythonhosted.org/packages/9b/f5/8ff11b28e634d9768cd0dffb34a53114331b109ad8a75c7c6ecb97a7ef2c/tensorshare-0.0.1.tar.gz
+[2023-08-06 23:24:49] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 88138893>=10485760
+[2023-08-06 23:24:49] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-08-06 23:24:49] INFO root fetch - processPackages [cmnemoi-learn]: Downloading https://files.pythonhosted.org/packages/ef/47/3b549a2e82ca2b29a751ff8d1fbd33ec1fa0741f2ed61796313c8fa6d4ac/cmnemoi_learn-0.2.1.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [fracture-suite]: Downloading https://files.pythonhosted.org/packages/0a/08/af207357a77dae29f81974bf4f53b36ae832fd6cb38b9985af424980e5d2/fracture-suite-0.0.2.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230806/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/df/fc/65daa1a3fd7dd939133c30c6d393ea47e32317d2195619923b67daa29d60/libnacl-2.1.0.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.2.8-py3-none-any.whl.zip tmp/mfhpo_simulator-1.2.9-py3-none-any.whl.zip --markdown 20230806/m/mfhpo-simulator/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [django-lexorank]: Downloading https://files.pythonhosted.org/packages/08/6e/4fb522c384efa726510b42c13d2bbe5860b84763647eaf4558544c7719ed/django_lexorank-0.1.1.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8a/d0/91b98aeb6d96380cb4302727da292e605c88f83c06a3f88f0a37c880cb50/pandasai-1.0a1.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [cmnemoi-learn]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [cmnemoi-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmnemoi_learn-0.2.0.tar.gz tmp/cmnemoi_learn-0.2.1.tar.gz --markdown 20230806/c/cmnemoi-learn/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [fracture-suite]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [fracture-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fracture-suite-0.0.1.tar.gz tmp/fracture-suite-0.0.2.tar.gz --markdown 20230806/f/fracture-suite/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [libnacl]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [libnacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libnacl-2.0.0.tar.gz tmp/libnacl-2.1.0.tar.gz --markdown 20230806/l/libnacl/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [django-lexorank]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [django-lexorank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_lexorank-0.1.0.tar.gz tmp/django_lexorank-0.1.1.tar.gz --markdown 20230806/d/django-lexorank/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [tensorshare]: Downloading https://files.pythonhosted.org/packages/19/a5/dc3babcc5da79a1d71f382de7ed9f12ed28857eead1b70c482b14809710b/tensorshare-0.0.2.tar.gz
+[2023-08-06 23:24:49] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.8.2.tar.gz tmp/pandasai-1.0a1.tar.gz --markdown 20230806/p/pandasai/0.8.2-1.0a1/diff.md --exclude *.pyd
+[2023-08-06 23:24:49] INFO root fetch - processPackages [tensorshare]: executing diffoscope
+[2023-08-06 23:24:49] INFO root fetch - processPackages [tensorshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorshare-0.0.1.tar.gz tmp/tensorshare-0.0.2.tar.gz --markdown 20230806/t/tensorshare/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 23:24:50] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.8-py3-none-any.whl.zip]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.9-py3-none-any.whl.zip]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [cmnemoi-learn]: Remove: archive file [/home/abi/fetcher/tmp/cmnemoi_learn-0.2.0.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [cmnemoi-learn]: Remove: archive file [/home/abi/fetcher/tmp/cmnemoi_learn-0.2.1.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [cmnemoi-learn]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [fracture-suite]: Remove: archive file [/home/abi/fetcher/tmp/fracture-suite-0.0.1.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [fracture-suite]: Remove: archive file [/home/abi/fetcher/tmp/fracture-suite-0.0.2.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [fracture-suite]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [django-lexorank]: Remove: archive file [/home/abi/fetcher/tmp/django_lexorank-0.1.0.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [django-lexorank]: Remove: archive file [/home/abi/fetcher/tmp/django_lexorank-0.1.1.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [django-lexorank]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-2.0.0.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-2.1.0.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [libnacl]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.8.2.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-1.0a1.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-08-06 23:24:50] INFO root fetch - processPackages [tensorshare]: Remove: archive file [/home/abi/fetcher/tmp/tensorshare-0.0.1.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - processPackages [tensorshare]: Remove: archive file [/home/abi/fetcher/tmp/tensorshare-0.0.2.tar.gz]
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: End processing [tensorshare]: success
+[2023-08-06 23:24:50] INFO root fetch - main [MainThread]: Store serial: [19197301]
