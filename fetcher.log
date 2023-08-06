@@ -7628,3 +7628,36 @@
 [2023-08-06 12:50:14] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-06 12:50:14] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-06 12:50:14] INFO root fetch - main [MainThread]: Store serial: [19193120]
+[2023-08-06 12:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193120]
+[2023-08-06 12:55:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 12:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-08-06 12:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openCamera
+[2023-08-06 12:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4all-code-review
+[2023-08-06 12:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydanja
+[2023-08-06 12:55:23] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.16] Old Version: [0.15]
+[2023-08-06 12:55:23] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/a2/0a/cbac44a1978d9f4122fd816d32e9690e7cde446caaf0f348ecd9c5c1a2fe/gpt4all-code-review-0.15.tar.gz
+[2023-08-06 12:55:23] INFO root fetch - processPackages [pydanja]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 12:55:23] WARNING root fetch - processPackages [openCamera]: Skipping, unable to determine old version
+[2023-08-06 12:55:23] INFO root fetch - main [MainThread]: End processing [openCamera] error
+[2023-08-06 12:55:23] INFO root fetch - processPackages [findmyorder]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-08-06 12:55:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/5b/ec/276bebf684782243d7de800073f2773d0488627132a068826088c5eb7a19/findmyorder-1.7.5.tar.gz
+[2023-08-06 12:55:23] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/ec/fb/25488e215a7c3e4ceca247872bf923536af5df58beed8c5b3c53686c2856/gpt4all-code-review-0.16.tar.gz
+[2023-08-06 12:55:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/10/36/d5d3cc97e4f7b3cdba77e01401f26a5b05fa6f0bfff60783e64e1faed07f/findmyorder-1.7.6.tar.gz
+[2023-08-06 12:55:24] INFO root fetch - processPackages [pydanja]: Downloading https://files.pythonhosted.org/packages/a9/4f/f00803e3e6820ac08479fd0b2f4cc5402fd8dd02525d3675b95773505d66/pydanja-0.1.0.tar.gz
+[2023-08-06 12:55:24] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-06 12:55:24] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.15.tar.gz tmp/gpt4all-code-review-0.16.tar.gz --markdown 20230806/g/gpt4all-code-review/0.15-0.16/diff.md --exclude *.pyd
+[2023-08-06 12:55:24] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-06 12:55:24] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.5.tar.gz tmp/findmyorder-1.7.6.tar.gz --markdown 20230806/f/findmyorder/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-08-06 12:55:24] INFO root fetch - processPackages [pydanja]: Downloading https://files.pythonhosted.org/packages/a0/79/65cb3fc9c40cc9d966134ea69d0d79ae40d7f9a6ee2d6e909c88691714b0/pydanja-0.1.1.tar.gz
+[2023-08-06 12:55:24] INFO root fetch - processPackages [pydanja]: executing diffoscope
+[2023-08-06 12:55:24] INFO root fetch - processPackages [pydanja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydanja-0.1.0.tar.gz tmp/pydanja-0.1.1.tar.gz --markdown 20230806/p/pydanja/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 12:55:24] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.15.tar.gz]
+[2023-08-06 12:55:24] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.16.tar.gz]
+[2023-08-06 12:55:24] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-06 12:55:24] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.5.tar.gz]
+[2023-08-06 12:55:24] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.6.tar.gz]
+[2023-08-06 12:55:24] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-06 12:55:25] INFO root fetch - processPackages [pydanja]: Remove: archive file [/home/abi/fetcher/tmp/pydanja-0.1.0.tar.gz]
+[2023-08-06 12:55:25] INFO root fetch - processPackages [pydanja]: Remove: archive file [/home/abi/fetcher/tmp/pydanja-0.1.1.tar.gz]
+[2023-08-06 12:55:25] INFO root fetch - main [MainThread]: End processing [pydanja]: success
+[2023-08-06 12:55:25] INFO root fetch - main [MainThread]: Store serial: [19193133]
