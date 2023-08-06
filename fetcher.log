@@ -15696,3 +15696,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:40:56] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.3rc1.tar.gz]
 [2023-08-06 21:40:56] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-08-06 21:40:56] INFO root fetch - main [MainThread]: Store serial: [19196750]
+[2023-08-06 21:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196750]
+[2023-08-06 21:46:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonBgt
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sun-client-proj
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3cr3tink
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apifoncier
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotior-sensus
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segretini-matplottini
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sun-server-proj
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: useragent-changer
+[2023-08-06 21:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gymnasium-connect-four
+[2023-08-06 21:46:04] INFO root fetch - processPackages [pythonBgt]: New version: [0.46] Old Version: [0.45]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.264] Old Version: [0.0.263]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/a4/95/359481b1f2da4945ed4a48708298f4b91784be771fbfcba2c7f38cee8d35/pythonBgt-0.45-py3-none-any.whl
+[2023-08-06 21:46:05] INFO root fetch - processPackages [apifoncier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/f5/fa/72e727db1146fc567f1c3a147fd27bfed00e7cd922b7628113f48db8474e/segretini-matplottini-0.2.3.tar.gz
+[2023-08-06 21:46:05] WARNING root fetch - processPackages [sun-server-proj]: Skipping, unable to determine old version
+[2023-08-06 21:46:05] INFO root fetch - processPackages [sun-server-proj]: Start processing: limedev
+[2023-08-06 21:46:05] INFO root fetch - main [MainThread]: End processing [sun-server-proj] error
+[2023-08-06 21:46:05] WARNING root fetch - processPackages [sun-client-proj]: Skipping, unable to determine old version
+[2023-08-06 21:46:05] INFO root fetch - processPackages [sun-client-proj]: Start processing: astroid
+[2023-08-06 21:46:05] INFO root fetch - main [MainThread]: End processing [sun-client-proj] error
+[2023-08-06 21:46:05] INFO root fetch - processPackages [useragent-changer]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 21:46:05] WARNING root fetch - processPackages [s3cr3tink]: Skipping, unable to determine old version
+[2023-08-06 21:46:05] INFO root fetch - processPackages [s3cr3tink]: Start processing: naruno
+[2023-08-06 21:46:05] INFO root fetch - main [MainThread]: End processing [s3cr3tink] error
+[2023-08-06 21:46:05] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/59/c4/01d7c9ef4b3d166916512cc86adc2aef66a1c4eebe7e5aecb95d4f815361/open_interpreter-0.0.263.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [astroid]: New version: [3.0.0a8] Old Version: [3.0.0a7]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [limedev]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [naruno]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [pythonBgt]: Downloading https://files.pythonhosted.org/packages/a1/94/5320187f589c8558a52604493583bb3ec0cf538c3782d04792146c8787dc/pythonBgt-0.46-py3-none-any.whl
+[2023-08-06 21:46:05] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/22/bd/011a1413a4e370487729d3f1fc4532504e618dd352631e34e8b0b80c20ad/useragent_changer-0.2.3.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/1c/66/47b5e1f67dfe9fb0211022ec20b33402daa353df3e1fbbc7a023ddfb1d4c/apifoncier-0.0.8.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/d0/8f/cc9c48946a51f2f70a7ac7243a3a0a270cb46b7ec808a44b32c8d462c9ba/gymnasium_connect_four-1.3.1.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/21/d3/b7d2156160be2ceff493d264e55b41a584178fb53ac5b49bce588732c7ac/astroid-3.0.0a7.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [limedev]: Downloading https://files.pythonhosted.org/packages/d4/c4/c17c3f05d5264e750acfff33010e99c3ec659e3f931efd41cc71ff26fada/limedev-0.2.0.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [pythonBgt]: executing diffoscope
+[2023-08-06 21:46:05] INFO root fetch - processPackages [pythonBgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonBgt-0.45-py3-none-any.whl.zip tmp/pythonBgt-0.46-py3-none-any.whl.zip --markdown 20230806/p/pythonBgt/0.45-0.46/diff.md --exclude *.pyd
+[2023-08-06 21:46:05] WARNING root fetch - processPackages [gymnasium-connect-four]: Skipping package: exceeds size limit 54047764>=10485760
+[2023-08-06 21:46:05] INFO root fetch - processPackages [gymnasium-connect-four]: Start processing: naruno-api
+[2023-08-06 21:46:05] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four] error
+[2023-08-06 21:46:05] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/72/8b/034fa2753b618a89de38578f39eb42da86d4a24e38d3bf5b8f573e487d4a/open_interpreter-0.0.264.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/36/cc/7a495210ee4b0fe9527c2af89860a7d9c7e63bdceffb914fec12be23ee67/naruno-0.60.3.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/03/35/1d94447a17df6a1391d619009be92573160136a0b326ac7737b90531b613/segretini-matplottini-0.2.4.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [naruno-api]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:46:05] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/b6/c9/32bf919254d48795e3e88641a377a7759a50b331eb1170130ccc948a32fe/useragent_changer-0.2.4.tar.gz
+[2023-08-06 21:46:05] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:46:05] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.263.tar.gz tmp/open_interpreter-0.0.264.tar.gz --markdown 20230806/o/open-interpreter/0.0.263-0.0.264/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [limedev]: Downloading https://files.pythonhosted.org/packages/7a/f3/35c0f260863dba313246e33b3ab92311a02396b0dbb445891baf7252bfd2/limedev-0.2.1.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [useragent-changer]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [useragent-changer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragent_changer-0.2.3.tar.gz tmp/useragent_changer-0.2.4.tar.gz --markdown 20230806/u/useragent-changer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/28/10/cf7ae79f9da26ce747727dc57da1227311afde52a03ddfcc1edf8a34a866/apifoncier-0.0.9.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/f9/b9/0e8652edf7c0c9b7158a56738d9e388532538a6bb654443bb60b000a2893/naruno_api-0.60.3.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/81/b1/cae030650d743d7f39555941c1d5a841264db5f41a34381dcb915b4b6317/astroid-3.0.0a8.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.8.tar.gz tmp/apifoncier-0.0.9.tar.gz --markdown 20230806/a/apifoncier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230806/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.3.tar.gz tmp/segretini-matplottini-0.2.4.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [limedev]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [limedev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limedev-0.2.0.tar.gz tmp/limedev-0.2.1.tar.gz --markdown 20230806/l/limedev/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/8d/b3/259333ac2d28f82768540654511b025f1b38d5dead09c6501c488cc53c82/naruno-0.60.4.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-3.0.0a7.tar.gz tmp/astroid-3.0.0a8.tar.gz --markdown 20230806/a/astroid/3.0.0a7-3.0.0a8/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/b4/fc/ea2258d6e8fb72d015b451ee462aeb76467544aacf1150c7924259730227/naruno_api-0.60.4.tar.gz
+[2023-08-06 21:46:06] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.45-py3-none-any.whl.zip]
+[2023-08-06 21:46:06] INFO root fetch - processPackages [pythonBgt]: Remove: archive file [/home/abi/fetcher/tmp/pythonBgt-0.46-py3-none-any.whl.zip]
+[2023-08-06 21:46:06] INFO root fetch - processPackages [pythonBgt]: Start processing: naruno-gui
+[2023-08-06 21:46:06] INFO root fetch - main [MainThread]: End processing [pythonBgt]: success
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.60.3.tar.gz tmp/naruno_api-0.60.4.tar.gz --markdown 20230806/n/naruno-api/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:06] INFO root fetch - processPackages [naruno-gui]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/e9/59/758be14a52614b7e43991206244534cd1a9cf414e212a7b07f89c6a2922f/naruno_gui-0.60.3.tar.gz
+[2023-08-06 21:46:07] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.263.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.264.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [open-interpreter]: Start processing: naruno-remote-app
+[2023-08-06 21:46:07] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/f6/12/a5dc3bec0cb8727a237f13d8982d8389341970a2ddb78c553a4cfc42c959/naruno_gui-0.60.4.tar.gz
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/15/4a/bb49d9ba7faac2f21b8eb198e0aa4b0deb6405d93946d098da5413d39bb5/naruno_remote_app-0.60.3.tar.gz
+[2023-08-06 21:46:07] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.3.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.4.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [useragent-changer]: Start processing: fluxwallet
+[2023-08-06 21:46:07] INFO root fetch - main [MainThread]: End processing [useragent-changer]: success
+[2023-08-06 21:46:07] INFO root fetch - processPackages [fluxwallet]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.60.3.tar.gz tmp/naruno_gui-0.60.4.tar.gz --markdown 20230806/n/naruno-gui/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:07] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.8.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.9.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [apifoncier]: Start processing: naruno-tests
+[2023-08-06 21:46:07] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-08-06 21:46:07] INFO root fetch - processPackages [limedev]: Remove: archive file [/home/abi/fetcher/tmp/limedev-0.2.0.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [limedev]: Remove: archive file [/home/abi/fetcher/tmp/limedev-0.2.1.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - main [MainThread]: End processing [limedev]: success
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-tests]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.60.3.tar.gz tmp/naruno-0.60.4.tar.gz --markdown 20230806/n/naruno/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:07] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/06/5a/ed58a3981a97312e6e16823f256ef257c372af82db990f4bba7e89f92520/fluxwallet-0.0.6.tar.gz
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.60.3.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-api]: Remove: archive file [/home/abi/fetcher/tmp/naruno_api-0.60.4.tar.gz]
+[2023-08-06 21:46:07] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-08-06 21:46:07] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/b0/3f/7034563b1e43acac4c91b1548b4bb5713014bb13e578c628e9598ac32069/naruno_remote_app-0.60.4.tar.gz
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/a9/01/a62d6731f8a484545fa8880b6d2bb5de51ba973ed1b65353902c78207cb1/naruno_tests-0.60.3.tar.gz
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.60.3.tar.gz tmp/naruno_remote_app-0.60.4.tar.gz --markdown 20230806/n/naruno-remote-app/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:08] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/5f/8c/59fc078cb0c152d3c222bd158bdea515f697bad1d9ae64c4d1da40b732c7/fluxwallet-0.1.0.tar.gz
+[2023-08-06 21:46:08] INFO root fetch - processPackages [fluxwallet]: executing diffoscope
+[2023-08-06 21:46:08] INFO root fetch - processPackages [fluxwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxwallet-0.0.6.tar.gz tmp/fluxwallet-0.1.0.tar.gz --markdown 20230806/f/fluxwallet/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/37/e5/a0789c52d97f461774b6ef0c16617d514af6edb908f14d5510e1aab56819/naruno_tests-0.60.4.tar.gz
+[2023-08-06 21:46:08] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.60.3.tar.gz tmp/naruno_tests-0.60.4.tar.gz --markdown 20230806/n/naruno-tests/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.60.3.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-gui]: Remove: archive file [/home/abi/fetcher/tmp/naruno_gui-0.60.4.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-08-06 21:46:08] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a7.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a8.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2023-08-06 21:46:08] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.3.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.4.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.60.3.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - processPackages [naruno-remote-app]: Remove: archive file [/home/abi/fetcher/tmp/naruno_remote_app-0.60.4.tar.gz]
+[2023-08-06 21:46:08] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-08-06 21:46:09] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.3.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.4.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-08-06 21:46:09] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.0.6.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.0.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - main [MainThread]: End processing [fluxwallet]: success
+[2023-08-06 21:46:09] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.60.3.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.60.4.tar.gz]
+[2023-08-06 21:46:09] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-08-06 21:46:09] INFO root fetch - main [MainThread]: Store serial: [19196800]
