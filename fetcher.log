@@ -16290,3 +16290,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:27:44] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.3.0.tar.gz]
 [2023-08-06 22:27:44] INFO root fetch - main [MainThread]: End processing [textology]: success
 [2023-08-06 22:27:44] INFO root fetch - main [MainThread]: Store serial: [19196994]
+[2023-08-06 22:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196994]
+[2023-08-06 22:32:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymikro
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gplume
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lucidwallet
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: as3lib
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python2verilog
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: likeinterface
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perun.proxy.utils
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dexhub
+[2023-08-06 22:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiocache
+[2023-08-06 22:32:53] INFO root fetch - processPackages [pymikro]: New version: [0.12] Old Version: [0.0.9]
+[2023-08-06 22:32:53] INFO root fetch - processPackages [likeinterface]: New version: [1.0a0] Old Version: [1.0.1a0]
+[2023-08-06 22:32:53] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 22:32:53] INFO root fetch - processPackages [dexhub]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-06 22:32:53] INFO root fetch - processPackages [python2verilog]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-06 22:32:53] WARNING root fetch - processPackages [lucidwallet]: Skipping, unable to determine old version
+[2023-08-06 22:32:53] INFO root fetch - main [MainThread]: End processing [lucidwallet] error
+[2023-08-06 22:32:53] INFO root fetch - processPackages [perun.proxy.utils]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-08-06 22:32:53] WARNING root fetch - processPackages [gplume]: Skipping, unable to determine old version
+[2023-08-06 22:32:53] INFO root fetch - main [MainThread]: End processing [gplume] error
+[2023-08-06 22:32:53] WARNING root fetch - processPackages [as3lib]: Skipping, unable to determine old version
+[2023-08-06 22:32:53] INFO root fetch - main [MainThread]: End processing [as3lib] error
+[2023-08-06 22:32:53] INFO root fetch - processPackages [aiocache]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-06 22:32:53] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/e1/50/aadbc0fff59c99950bdcce80637a092805577137f20c6591317e03a4fff6/pymikro-0.0.9.tar.gz
+[2023-08-06 22:32:53] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/6c/6c/28a7f198fea6c1f081c04a5b3b9a7aac6ef5bcde203fb31a3d1b2e81fb60/likeinterface-1.0.1a0.tar.gz
+[2023-08-06 22:32:53] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-06 22:32:54] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/de/0c/e9d4b9c8bb061d41ab737ea4901c5061cd6850daa01fbe5a0f447d2c2bc3/python2verilog-0.0.4.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/98/44/fc3929900739ae89b6606d049bf3b80dd3c41526a5c8fe95c260b1851b34/dexhub-0.7.0.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/09/a8/3a2a6417546e48641930904d0591e054f453d255a8169cb37a580fcb9df4/perun.proxy.utils-1.8.2.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/f7/a1/79f9c6a32da9930951fa4e91dfc7623f82685e1a8687e22f54fa25f6b0bf/pymikro-0.12.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [likeinterface]: Downloading https://files.pythonhosted.org/packages/b4/a6/eae17544a8034601d0c24d520e08ffcb3c667c787736bbf482664d3b8bc1/likeinterface-1.0a0.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-06 22:32:54] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/5e/55/7ed062205e56e548e008f5290628625bb2f01e02347860a1bfb917b39eae/python2verilog-0.1.0.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [aiocache]: Downloading https://files.pythonhosted.org/packages/8e/7a/265328f364c8207ed91cdab7d8f9b4e94fb234cccdb8f6f427ddaebd89d6/aiocache-0.9.0.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [pymikro]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [pymikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymikro-0.0.9.tar.gz tmp/pymikro-0.12.tar.gz --markdown 20230806/p/pymikro/0.0.9-0.12/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [likeinterface]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [likeinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeinterface-1.0.1a0.tar.gz tmp/likeinterface-1.0a0.tar.gz --markdown 20230806/l/likeinterface/1.0.1a0-1.0a0/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230806/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.0.4.tar.gz tmp/python2verilog-0.1.0.tar.gz --markdown 20230806/p/python2verilog/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/ce/98/e1fc6a2806dfcc9beb2b8c64ed825f905d07ed6bfde86a0a7968c1530442/perun.proxy.utils-1.8.3.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/4c/ae/ea62346ead33202f82b3ce6445c22c6d2d38b2329ecb09d894055fdb07fb/dexhub-0.7.1.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [aiocache]: Downloading https://files.pythonhosted.org/packages/61/8b/fce5855331ea156e78a74669cdc4f28c0607c3be7810c7ecc5d59463c306/aiocache-0.9.1.tar.gz
+[2023-08-06 22:32:54] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-1.8.2.tar.gz tmp/perun.proxy.utils-1.8.3.tar.gz --markdown 20230806/p/perun.proxy.utils/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.7.0.tar.gz tmp/dexhub-0.7.1.tar.gz --markdown 20230806/d/dexhub/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-06 22:32:54] INFO root fetch - processPackages [aiocache]: executing diffoscope
+[2023-08-06 22:32:54] INFO root fetch - processPackages [aiocache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocache-0.9.0.tar.gz tmp/aiocache-0.9.1.tar.gz --markdown 20230806/a/aiocache/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-06 22:32:55] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-06 22:32:55] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-06 22:32:55] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-06 22:32:55] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.0.9.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.12.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - main [MainThread]: End processing [pymikro]: success
+[2023-08-06 22:32:55] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.4.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.1.0.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2023-08-06 22:32:55] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0.1a0.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - processPackages [likeinterface]: Remove: archive file [/home/abi/fetcher/tmp/likeinterface-1.0a0.tar.gz]
+[2023-08-06 22:32:55] INFO root fetch - main [MainThread]: End processing [likeinterface]: success
+[2023-08-06 22:32:56] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.2.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.8.3.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2023-08-06 22:32:56] INFO root fetch - processPackages [aiocache]: Remove: archive file [/home/abi/fetcher/tmp/aiocache-0.9.0.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - processPackages [aiocache]: Remove: archive file [/home/abi/fetcher/tmp/aiocache-0.9.1.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - main [MainThread]: End processing [aiocache]: success
+[2023-08-06 22:32:56] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.7.0.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.7.1.tar.gz]
+[2023-08-06 22:32:56] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-08-06 22:32:56] INFO root fetch - main [MainThread]: Store serial: [19197037]
