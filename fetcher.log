@@ -6128,3 +6128,54 @@
 [2023-08-06 10:39:20] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
 [2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
 [2023-08-06 10:39:20] INFO root fetch - main [MainThread]: Store serial: [19192363]
+[2023-08-06 10:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192363]
+[2023-08-06 10:44:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nn-template-core
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiotranser
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyntcli
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: up-social-laws
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-08-06 10:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prda
+[2023-08-06 10:44:29] INFO root fetch - processPackages [pyntcli]: New version: [0.1.54] Old Version: [0.1.53]
+[2023-08-06 10:44:29] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230805] Old Version: [0.0.1.dev20230804]
+[2023-08-06 10:44:30] WARNING root fetch - processPackages [audiotranser]: Skipping, unable to determine old version
+[2023-08-06 10:44:30] INFO root fetch - main [MainThread]: End processing [audiotranser] error
+[2023-08-06 10:44:30] INFO root fetch - processPackages [nn-template-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-06 10:44:30] INFO root fetch - processPackages [up-social-laws]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-08-06 10:44:30] INFO root fetch - processPackages [prda]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-08-06 10:44:30] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/b8/96/f47a8626449d997a44060ae8388114b521e31dd5ea01231b049d25f7ce9a/pyntcli-0.1.53-py3-none-any.whl
+[2023-08-06 10:44:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a7/af/58afad30f63cfc1d96cf1a157da4e1e983e0c5c9c7510349a21052f22d98/tff_nightly-0.0.1.dev20230804-py2.py3-none-any.whl
+[2023-08-06 10:44:30] INFO root fetch - processPackages [nn-template-core]: Downloading https://files.pythonhosted.org/packages/8c/34/a3e64fb5f231bdb9d42806c025dcda7a4bd8f0574557accbb0721ac179e6/nn-template-core-0.3.0.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/67/1f/7d97fce3916ec05b6acbe41797964cfc060e0d05248abbd50bebf1f75b25/prda-1.1.0.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [up-social-laws]: Downloading https://files.pythonhosted.org/packages/c4/ad/c8963b1101b670a133405b9d5de436bbfe42221ca60acc580bc65453f866/up_social_laws-0.0.6.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/20/49/0a3c52111ed4473eacf41e4f9e1c31b0ce531e4d78958c72b88def7aa526/pyntcli-0.1.54-py3-none-any.whl
+[2023-08-06 10:44:30] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-06 10:44:30] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.53-py3-none-any.whl.zip tmp/pyntcli-0.1.54-py3-none-any.whl.zip --markdown 20230806/p/pyntcli/0.1.53-0.1.54/diff.md --exclude *.pyd
+[2023-08-06 10:44:30] INFO root fetch - processPackages [nn-template-core]: Downloading https://files.pythonhosted.org/packages/00/35/7601a47ef9bdcf9b3ded298199151ec4e6cfe339168a6bf6bf10c915497c/nn-template-core-0.3.1.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/42/47/f286404d2d73206b67f804917cf798d665537110bcf6c06193ba239a4849/prda-1.1.2.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [up-social-laws]: Downloading https://files.pythonhosted.org/packages/68/2f/5396b9becc5560cf6ec089169c5e83c818c02479d2e0eedd3480c4af7de2/up_social_laws-0.1.0.tar.gz
+[2023-08-06 10:44:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c9/31/44df2d3fba118c734f743eb3975e5a5235266ed8dcb124dbd30c80170d7c/tff_nightly-0.0.1.dev20230805-py2.py3-none-any.whl
+[2023-08-06 10:44:30] INFO root fetch - processPackages [prda]: executing diffoscope
+[2023-08-06 10:44:30] INFO root fetch - processPackages [prda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prda-1.1.0.tar.gz tmp/prda-1.1.2.tar.gz --markdown 20230806/p/prda/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-08-06 10:44:30] INFO root fetch - processPackages [nn-template-core]: executing diffoscope
+[2023-08-06 10:44:30] INFO root fetch - processPackages [nn-template-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn-template-core-0.3.0.tar.gz tmp/nn-template-core-0.3.1.tar.gz --markdown 20230806/n/nn-template-core/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-06 10:44:30] INFO root fetch - processPackages [up-social-laws]: executing diffoscope
+[2023-08-06 10:44:30] INFO root fetch - processPackages [up-social-laws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_social_laws-0.0.6.tar.gz tmp/up_social_laws-0.1.0.tar.gz --markdown 20230806/u/up-social-laws/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 10:44:30] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-08-06 10:44:30] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230804-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230805-py2.py3-none-any.whl.zip --markdown 20230806/t/tff-nightly/0.0.1.dev20230804-0.0.1.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 10:44:31] INFO root fetch - processPackages [prda]: Remove: archive file [/home/abi/fetcher/tmp/prda-1.1.0.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - processPackages [prda]: Remove: archive file [/home/abi/fetcher/tmp/prda-1.1.2.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - main [MainThread]: End processing [prda]: success
+[2023-08-06 10:44:31] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.53-py3-none-any.whl.zip]
+[2023-08-06 10:44:31] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.54-py3-none-any.whl.zip]
+[2023-08-06 10:44:31] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-06 10:44:31] INFO root fetch - processPackages [nn-template-core]: Remove: archive file [/home/abi/fetcher/tmp/nn-template-core-0.3.0.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - processPackages [nn-template-core]: Remove: archive file [/home/abi/fetcher/tmp/nn-template-core-0.3.1.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - main [MainThread]: End processing [nn-template-core]: success
+[2023-08-06 10:44:31] INFO root fetch - processPackages [up-social-laws]: Remove: archive file [/home/abi/fetcher/tmp/up_social_laws-0.0.6.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - processPackages [up-social-laws]: Remove: archive file [/home/abi/fetcher/tmp/up_social_laws-0.1.0.tar.gz]
+[2023-08-06 10:44:31] INFO root fetch - main [MainThread]: End processing [up-social-laws]: success
+[2023-08-06 10:44:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230804-py2.py3-none-any.whl.zip]
+[2023-08-06 10:44:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230805-py2.py3-none-any.whl.zip]
+[2023-08-06 10:44:32] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-08-06 10:44:32] INFO root fetch - main [MainThread]: Store serial: [19192383]
