@@ -16147,3 +16147,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:17:21] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.7.0.tar.gz]
 [2023-08-06 22:17:21] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
 [2023-08-06 22:17:21] INFO root fetch - main [MainThread]: Store serial: [19196940]
+[2023-08-06 22:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196940]
+[2023-08-06 22:22:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bharatqr
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-admin-reset
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fluxwallet
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabric2
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabric
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pibooth-oled-display
+[2023-08-06 22:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lcapygui
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fabric2]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-06 22:22:30] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.268] Old Version: [0.0.267]
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fluxwallet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 22:22:30] INFO root fetch - processPackages [django-admin-reset]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fabric]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-06 22:22:30] WARNING root fetch - processPackages [Bharatqr]: Skipping, unable to determine old version
+[2023-08-06 22:22:30] INFO root fetch - processPackages [lcapygui]: New version: [0.93] Old Version: [0.92]
+[2023-08-06 22:22:30] INFO root fetch - main [MainThread]: End processing [Bharatqr] error
+[2023-08-06 22:22:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 22:22:30] WARNING root fetch - processPackages [pibooth-oled-display]: Skipping, unable to determine old version
+[2023-08-06 22:22:30] INFO root fetch - main [MainThread]: End processing [pibooth-oled-display] error
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/5f/8c/59fc078cb0c152d3c222bd158bdea515f697bad1d9ae64c4d1da40b732c7/fluxwallet-0.1.0.tar.gz
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/64/a6/da2faab229aba7d392b366e143053dffaf536f41e5f36e87824eecabee7d/fabric2-3.1.0.tar.gz
+[2023-08-06 22:22:30] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/38/1f/ffbd5119e1632194d3bde742d759bccbd47b6d9aeb61a0ad6324a56b8199/open_interpreter-0.0.267.tar.gz
+[2023-08-06 22:22:30] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 22:22:30] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/d8/b0/fc6880fd6e24b60ccb5e3e1b673cec847d56b8176311f77c63f542fe9fd4/fabric-3.1.0.tar.gz
+[2023-08-06 22:22:30] INFO root fetch - processPackages [django-admin-reset]: Downloading https://files.pythonhosted.org/packages/b4/2c/67ceb3ffbdc748810b0a858f710da802a9572dd191f4d9cc95ca12ef7931/django_admin_reset-0.6.1-py2.py3-none-any.whl
+[2023-08-06 22:22:30] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 22:22:30] INFO root fetch - processPackages [lcapygui]: Downloading https://files.pythonhosted.org/packages/74/5c/ee44561d508451c1840d1a4954d61edfdc4fd268398da18d865a066425fa/lcapygui-0.92.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/86/8a/ce343ff39042f80d857deda49179adc6ff40ce0a88d592d3ce77da94b901/fabric2-3.2.0.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/77/39/d5b440f06a14c101ad8765565019d113d1f7bd9ffbc89a32ac3d5bbaf4f5/fabric-3.2.0.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/68/fe/a7ed3b88f0b28433c7f300b2431a143a9691da3256def50f905f0f7dbe3c/open_interpreter-0.0.268.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/1c/04/e72f3ad371daa21d00fcb53d837a34d0705f8a65c3d7e6030f4e3eb67331/fluxwallet-0.1.1.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [django-admin-reset]: Downloading https://files.pythonhosted.org/packages/7d/51/551829e2bf20265c9d16cd9e5587c7408de0ef0f17401dc533f09869901b/django_admin_reset-0.6.2-py2.py3-none-any.whl
+[2023-08-06 22:22:31] INFO root fetch - processPackages [lcapygui]: Downloading https://files.pythonhosted.org/packages/43/9b/b7519141453f476f0a54e58a5e318a51d8a869ad633bea7053fc76bac70a/lcapygui-0.93.tar.gz
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-3.1.0.tar.gz tmp/fabric-3.2.0.tar.gz --markdown 20230806/f/fabric/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric2]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fabric2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric2-3.1.0.tar.gz tmp/fabric2-3.2.0.tar.gz --markdown 20230806/f/fabric2/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fluxwallet]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [fluxwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxwallet-0.1.0.tar.gz tmp/fluxwallet-0.1.1.tar.gz --markdown 20230806/f/fluxwallet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [django-admin-reset]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [django-admin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_reset-0.6.1-py2.py3-none-any.whl.zip tmp/django_admin_reset-0.6.2-py2.py3-none-any.whl.zip --markdown 20230806/d/django-admin-reset/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [lcapygui]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [lcapygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcapygui-0.92.tar.gz tmp/lcapygui-0.93.tar.gz --markdown 20230806/l/lcapygui/0.92-0.93/diff.md --exclude *.pyd
+[2023-08-06 22:22:31] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 22:22:31] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.267.tar.gz tmp/open_interpreter-0.0.268.tar.gz --markdown 20230806/o/open-interpreter/0.0.267-0.0.268/diff.md --exclude *.pyd
+[2023-08-06 22:22:32] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-06 22:22:32] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-06 22:22:32] INFO root fetch - processPackages [django-admin-reset]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_reset-0.6.1-py2.py3-none-any.whl.zip]
+[2023-08-06 22:22:32] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 22:22:32] INFO root fetch - processPackages [django-admin-reset]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_reset-0.6.2-py2.py3-none-any.whl.zip]
+[2023-08-06 22:22:32] INFO root fetch - main [MainThread]: End processing [django-admin-reset]: success
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 22:22:33] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.267.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.268.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 22:22:33] INFO root fetch - processPackages [lcapygui]: Remove: archive file [/home/abi/fetcher/tmp/lcapygui-0.92.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - processPackages [lcapygui]: Remove: archive file [/home/abi/fetcher/tmp/lcapygui-0.93.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [lcapygui]: success
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.0.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.1.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [fluxwallet]: success
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fabric]: Remove: archive file [/home/abi/fetcher/tmp/fabric-3.1.0.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fabric]: Remove: archive file [/home/abi/fetcher/tmp/fabric-3.2.0.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [fabric]: success
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fabric2]: Remove: archive file [/home/abi/fetcher/tmp/fabric2-3.1.0.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - processPackages [fabric2]: Remove: archive file [/home/abi/fetcher/tmp/fabric2-3.2.0.tar.gz]
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: End processing [fabric2]: success
+[2023-08-06 22:22:33] INFO root fetch - main [MainThread]: Store serial: [19196976]
