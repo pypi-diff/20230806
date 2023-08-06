@@ -17052,3 +17052,54 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:30:03] INFO root fetch - processPackages [releng-tool]: Remove: archive file [/home/abi/fetcher/tmp/releng-tool-0.9.0.tar.gz]
 [2023-08-06 23:30:03] INFO root fetch - main [MainThread]: End processing [releng-tool]: success
 [2023-08-06 23:30:03] INFO root fetch - main [MainThread]: Store serial: [19197330]
+[2023-08-06 23:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197330]
+[2023-08-06 23:35:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mikan-card-downloader
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamofl
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fracture-suite
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assrs
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: howso-openapi-client
+[2023-08-06 23:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grimoirelab
+[2023-08-06 23:35:12] INFO root fetch - processPackages [fracture-suite]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-06 23:35:12] INFO root fetch - processPackages [grimoirelab]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 23:35:12] INFO root fetch - processPackages [fracture-suite]: Downloading https://files.pythonhosted.org/packages/0a/08/af207357a77dae29f81974bf4f53b36ae832fd6cb38b9985af424980e5d2/fracture-suite-0.0.2.tar.gz
+[2023-08-06 23:35:12] INFO root fetch - processPackages [dynamofl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 23:35:12] INFO root fetch - processPackages [mikan-card-downloader]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-08-06 23:35:12] WARNING root fetch - processPackages [howso-openapi-client]: Skipping, unable to determine old version
+[2023-08-06 23:35:12] INFO root fetch - main [MainThread]: End processing [howso-openapi-client] error
+[2023-08-06 23:35:12] INFO root fetch - processPackages [assrs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 23:35:12] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2b/e7/c4b4906f6cac9f1702d4049b7d069a0d4fc72649eeab1e78fab7a8115567/grimoirelab-0.9.1.tar.gz
+[2023-08-06 23:35:12] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/7e/ad/6e19c038fe0e22ad1720eedc257a7a09882b133db0176e203c7f9277a5ac/dynamofl-0.0.8.tar.gz
+[2023-08-06 23:35:12] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/a3/1e/5509a109d9e15010e040d4e70deba3e7bedc4229f39ef598fb640efb795b/mikan_card_downloader-1.1.2.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [fracture-suite]: Downloading https://files.pythonhosted.org/packages/7b/38/ae3555428f7cd633a2b18d865b3d51715d8deee35c8944edc0205ec2e4ed/fracture-suite-0.1.0.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [assrs]: Downloading https://files.pythonhosted.org/packages/f1/9a/8f6584f6c47cbc0d78336e5c5715cb36e6b4bd8a7ffe3f3f24713fa14215/assrs-0.1.0.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2023-08-06 23:35:13] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.1.tar.gz tmp/grimoirelab-0.9.2.tar.gz --markdown 20230806/g/grimoirelab/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 23:35:13] INFO root fetch - processPackages [fracture-suite]: executing diffoscope
+[2023-08-06 23:35:13] INFO root fetch - processPackages [fracture-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fracture-suite-0.0.2.tar.gz tmp/fracture-suite-0.1.0.tar.gz --markdown 20230806/f/fracture-suite/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 23:35:13] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/fb/24/2f93c883458408bc815a76bfe97e84134060ab7581b06662ecb1e232088e/mikan_card_downloader-1.2.0.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/9e/ef/82e5063a7e7f71da0e7241bdaf20b86fbe864aa2d01701701c5899f3a5e8/dynamofl-0.0.9.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [assrs]: Downloading https://files.pythonhosted.org/packages/63/5b/f77a16dd504466f9aa17fbfd3eee062ef1c9bafed4819a9e1df442769cf8/assrs-0.1.1.tar.gz
+[2023-08-06 23:35:13] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-08-06 23:35:13] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-1.1.2.tar.gz tmp/mikan_card_downloader-1.2.0.tar.gz --markdown 20230806/m/mikan-card-downloader/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-08-06 23:35:13] INFO root fetch - processPackages [dynamofl]: executing diffoscope
+[2023-08-06 23:35:13] INFO root fetch - processPackages [dynamofl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamofl-0.0.8.tar.gz tmp/dynamofl-0.0.9.tar.gz --markdown 20230806/d/dynamofl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 23:35:13] INFO root fetch - processPackages [assrs]: executing diffoscope
+[2023-08-06 23:35:13] INFO root fetch - processPackages [assrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assrs-0.1.0.tar.gz tmp/assrs-0.1.1.tar.gz --markdown 20230806/a/assrs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 23:35:14] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.1.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.2.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2023-08-06 23:35:14] INFO root fetch - processPackages [fracture-suite]: Remove: archive file [/home/abi/fetcher/tmp/fracture-suite-0.0.2.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - processPackages [fracture-suite]: Remove: archive file [/home/abi/fetcher/tmp/fracture-suite-0.1.0.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [fracture-suite]: success
+[2023-08-06 23:35:14] INFO root fetch - processPackages [mikan-card-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mikan_card_downloader-1.1.2.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - processPackages [mikan-card-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mikan_card_downloader-1.2.0.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-08-06 23:35:14] INFO root fetch - processPackages [dynamofl]: Remove: archive file [/home/abi/fetcher/tmp/dynamofl-0.0.8.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - processPackages [dynamofl]: Remove: archive file [/home/abi/fetcher/tmp/dynamofl-0.0.9.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [dynamofl]: success
+[2023-08-06 23:35:14] INFO root fetch - processPackages [assrs]: Remove: archive file [/home/abi/fetcher/tmp/assrs-0.1.0.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - processPackages [assrs]: Remove: archive file [/home/abi/fetcher/tmp/assrs-0.1.1.tar.gz]
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [assrs]: success
+[2023-08-06 23:35:14] INFO root fetch - main [MainThread]: Store serial: [19197413]
