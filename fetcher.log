@@ -7326,3 +7326,59 @@
 [2023-08-06 12:24:05] INFO root fetch - processPackages [statham-schema]: Remove: archive file [/home/abi/fetcher/tmp/statham-schema-0.9.0.tar.gz]
 [2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [statham-schema]: success
 [2023-08-06 12:24:05] INFO root fetch - main [MainThread]: Store serial: [19192999]
+[2023-08-06 12:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192999]
+[2023-08-06 12:29:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upload-machine
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alns
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: update-linux
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avijit1996iiti-basic-calculator
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsynth
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fletxible
+[2023-08-06 12:29:14] INFO root fetch - processPackages [Fletxible]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-06 12:29:14] INFO root fetch - processPackages [update-linux]: New version: [3.0.0] Old Version: [2.3.0]
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ezsynth]: New version: [0.21] Old Version: [0.201]
+[2023-08-06 12:29:14] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 12:29:14] INFO root fetch - processPackages [upload-machine]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-08-06 12:29:14] WARNING root fetch - processPackages [avijit1996iiti-basic-calculator]: Skipping, unable to determine old version
+[2023-08-06 12:29:14] INFO root fetch - main [MainThread]: End processing [avijit1996iiti-basic-calculator] error
+[2023-08-06 12:29:14] INFO root fetch - processPackages [alns]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-08-06 12:29:14] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/95/6c/4a0c46744f90765bba31042b926687b0972f20448891c2c0b7e3ec92f8bd/Fletxible-0.6.0.tar.gz
+[2023-08-06 12:29:14] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 12:29:14] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/4f/e8/bf3cc7e33a16466b431e15901c8254b214353a875935ee111ebcb2fcbc4f/update-linux-2.3.0.tar.gz
+[2023-08-06 12:29:14] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/f9/40/6384d7477b64afb9d9fcc088c89f8b6b26905b6a966098b4b9a251cb385d/ezsynth-0.201.tar.gz
+[2023-08-06 12:29:14] INFO root fetch - processPackages [alns]: Downloading https://files.pythonhosted.org/packages/37/77/a51479f7259f0b2a0b7d435ad71c078b729a9b30166007a804d2647fb7c3/alns-5.3.1.tar.gz
+[2023-08-06 12:29:14] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/55/4f/775f222494f79444abd033e2fede5a6bc8f305c6ad06f49b2bdf65f87fd4/upload_machine-0.0.81.tar.gz
+[2023-08-06 12:29:14] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103514>=10485760
+[2023-08-06 12:29:14] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:29:14] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 12:29:15] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/ae/cc/715cc1d80c3bd5160c738ab736b8739da5be8ec604a24d61023f32941666/Fletxible-0.6.1.tar.gz
+[2023-08-06 12:29:15] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/63/15/cccdfa8d8f8c0b19f4a66ef3ba53944f76850dd35066e281ed7958b7e3e9/update-linux-3.0.0.tar.gz
+[2023-08-06 12:29:15] INFO root fetch - processPackages [alns]: Downloading https://files.pythonhosted.org/packages/a8/05/7e8ed9ac901434c560525e286acb289698b2548184703e31f89035710f49/alns-5.3.2.tar.gz
+[2023-08-06 12:29:15] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 12:29:15] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.0.tar.gz tmp/Fletxible-0.6.1.tar.gz --markdown 20230806/F/Fletxible/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-06 12:29:15] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 12:29:15] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 12:29:15] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/24/78/3c3b673def8bfabb94c6f9bcb63b7aa631f22962d80e4993dcceb42a3d0c/upload_machine-0.0.82.tar.gz
+[2023-08-06 12:29:15] INFO root fetch - processPackages [update-linux]: executing diffoscope
+[2023-08-06 12:29:15] INFO root fetch - processPackages [update-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update-linux-2.3.0.tar.gz tmp/update-linux-3.0.0.tar.gz --markdown 20230806/u/update-linux/2.3.0-3.0.0/diff.md --exclude *.pyd
+[2023-08-06 12:29:15] INFO root fetch - processPackages [alns]: executing diffoscope
+[2023-08-06 12:29:15] INFO root fetch - processPackages [alns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alns-5.3.1.tar.gz tmp/alns-5.3.2.tar.gz --markdown 20230806/a/alns/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-08-06 12:29:15] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 12:29:15] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.81.tar.gz tmp/upload_machine-0.0.82.tar.gz --markdown 20230806/u/upload-machine/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-08-06 12:29:16] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-2.3.0.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-3.0.0.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [update-linux]: success
+[2023-08-06 12:29:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 12:29:16] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.0.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.1.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 12:29:16] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.81.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.82.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 12:29:16] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.3.1.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.3.2.tar.gz]
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [alns]: success
+[2023-08-06 12:29:16] INFO root fetch - main [MainThread]: Store serial: [19193026]
