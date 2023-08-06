@@ -17163,3 +17163,27 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:45:39] WARNING root fetch - processPackages [jupyter-browser-clipboard]: Skipping, unable to determine old version
 [2023-08-06 23:45:39] INFO root fetch - main [MainThread]: End processing [jupyter-browser-clipboard] error
 [2023-08-06 23:45:39] INFO root fetch - main [MainThread]: Store serial: [19197457]
+[2023-08-06 23:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197457]
+[2023-08-06 23:50:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 23:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-impact
+[2023-08-06 23:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fracsuite
+[2023-08-06 23:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-08-06 23:50:48] WARNING root fetch - processPackages [fracsuite]: Skipping, unable to determine old version
+[2023-08-06 23:50:48] INFO root fetch - main [MainThread]: End processing [fracsuite] error
+[2023-08-06 23:50:48] INFO root fetch - processPackages [alacorder]: New version: [81.1.9] Old Version: [81.1.8]
+[2023-08-06 23:50:48] INFO root fetch - processPackages [nonebot-plugin-impact]: New version: [0.7.114514] Old Version: [0.6.114514]
+[2023-08-06 23:50:48] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b4/33/8dae78fc48e27a13343f8faa5c164ec0f37b2ed4992169fc7bde83217ce0/alacorder-81.1.8.tar.gz
+[2023-08-06 23:50:48] INFO root fetch - processPackages [nonebot-plugin-impact]: Downloading https://files.pythonhosted.org/packages/e9/f0/b675c40a757aa848ae5ee489fda1c97c61f5ea5677dc0658e3e20cb3280a/nonebot_plugin_impact-0.6.114514.tar.gz
+[2023-08-06 23:50:48] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1e/37/e68b59deed10aacfadf3796f5d6cb20915017740a2b24e6ed9e6f6a32f34/alacorder-81.1.9.tar.gz
+[2023-08-06 23:50:48] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-08-06 23:50:48] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.1.8.tar.gz tmp/alacorder-81.1.9.tar.gz --markdown 20230806/a/alacorder/81.1.8-81.1.9/diff.md --exclude *.pyd
+[2023-08-06 23:50:49] INFO root fetch - processPackages [nonebot-plugin-impact]: Downloading https://files.pythonhosted.org/packages/eb/37/95dfbfb20fafcce81dd2d25530cacb8f6fda403f86aa634f9e9be34e4eb4/nonebot_plugin_impact-0.7.114514.tar.gz
+[2023-08-06 23:50:49] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.8.tar.gz]
+[2023-08-06 23:50:49] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
+[2023-08-06 23:50:49] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-08-06 23:50:50] INFO root fetch - processPackages [nonebot-plugin-impact]: executing diffoscope
+[2023-08-06 23:50:50] INFO root fetch - processPackages [nonebot-plugin-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_impact-0.6.114514.tar.gz tmp/nonebot_plugin_impact-0.7.114514.tar.gz --markdown 20230806/n/nonebot-plugin-impact/0.6.114514-0.7.114514/diff.md --exclude *.pyd
+[2023-08-06 23:50:51] INFO root fetch - processPackages [nonebot-plugin-impact]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_impact-0.6.114514.tar.gz]
+[2023-08-06 23:50:51] INFO root fetch - processPackages [nonebot-plugin-impact]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_impact-0.7.114514.tar.gz]
+[2023-08-06 23:50:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-impact]: success
+[2023-08-06 23:50:51] INFO root fetch - main [MainThread]: Store serial: [19197466]
