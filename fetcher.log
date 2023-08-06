@@ -5227,3 +5227,54 @@
 [2023-08-06 09:21:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-08-06 09:21:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-08-06 09:21:24] INFO root fetch - main [MainThread]: Store serial: [19191975]
+[2023-08-06 09:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191975]
+[2023-08-06 09:26:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmklib
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tftui
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QoolTabs
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimporters-csv
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ycv
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wscribe
+[2023-08-06 09:26:33] INFO root fetch - processPackages [wscribe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 09:26:33] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:26:33] WARNING root fetch - processPackages [QoolTabs]: Skipping, unable to determine old version
+[2023-08-06 09:26:33] INFO root fetch - main [MainThread]: End processing [QoolTabs] error
+[2023-08-06 09:26:33] INFO root fetch - processPackages [tftui]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 09:26:33] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/00/cb/d9cf7402ee79326f37d973ac2b6769afd29b4008965b77d27b64b5827cb4/wscribe-0.1.2.tar.gz
+[2023-08-06 09:26:33] INFO root fetch - processPackages [ycv]: New version: [0.0.dev7] Old Version: [0.0.dev6]
+[2023-08-06 09:26:33] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:26:33] INFO root fetch - processPackages [vmklib]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-08-06 09:26:34] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/7c/c3/7a864bfe13e532d894862489e66af53692c85aa5c2e44e02d126f310eca5/tftui-0.3.2.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/b8/f7/ba1bd981c39c1be7ca09441595108ca15ed1dd7bdbb9717c6fa6f668b5ae/ycv-0.0.dev6.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/8b/2b/054d405a9582c09c7ec330574176ca84c230c0a1d3218c0c8b5e6146a2c3/vmklib-1.8.3.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/49/1a/a84c8eeace8150b4b94ed6290b451faaffea12d2c57a8b79a8540adfd3ed/wscribe-0.1.3.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:26:34] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:26:34] INFO root fetch - processPackages [wscribe]: executing diffoscope
+[2023-08-06 09:26:34] INFO root fetch - processPackages [wscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wscribe-0.1.2.tar.gz tmp/wscribe-0.1.3.tar.gz --markdown 20230806/w/wscribe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 09:26:34] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/9d/b5/e5fef575f3d611c3d998263ea0247baa7d2e90975bafd3c88bf5edc22fd6/tftui-0.3.3.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/f3/7b/0f8943ae3c3d36990a19f8315807e4fcbab6a57ebf509abc51434901141f/ycv-0.0.dev7.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/f4/b0/58bb77fef5d8a0347e565208f96e8fa7f66804ac2f039ea33ac938a59f3c/vmklib-1.9.0.tar.gz
+[2023-08-06 09:26:34] INFO root fetch - processPackages [ycv]: executing diffoscope
+[2023-08-06 09:26:34] INFO root fetch - processPackages [ycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycv-0.0.dev6.tar.gz tmp/ycv-0.0.dev7.tar.gz --markdown 20230806/y/ycv/0.0.dev6-0.0.dev7/diff.md --exclude *.pyd
+[2023-08-06 09:26:34] INFO root fetch - processPackages [vmklib]: executing diffoscope
+[2023-08-06 09:26:34] INFO root fetch - processPackages [vmklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmklib-1.8.3.tar.gz tmp/vmklib-1.9.0.tar.gz --markdown 20230806/v/vmklib/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-08-06 09:26:34] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2023-08-06 09:26:34] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.3.2.tar.gz tmp/tftui-0.3.3.tar.gz --markdown 20230806/t/tftui/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 09:26:35] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:26:35] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.2.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.3.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [wscribe]: success
+[2023-08-06 09:26:35] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev6.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev7.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [ycv]: success
+[2023-08-06 09:26:35] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.2.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.3.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2023-08-06 09:26:35] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.8.3.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [vmklib]: success
+[2023-08-06 09:26:35] INFO root fetch - main [MainThread]: Store serial: [19191995]
