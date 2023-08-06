@@ -4390,3 +4390,78 @@
 [2023-08-06 08:08:30] INFO root fetch - processPackages [metar-taf-parser-mivek]: Remove: archive file [/home/abi/fetcher/tmp/metar-taf-parser-mivek-1.6.5.tar.gz]
 [2023-08-06 08:08:30] INFO root fetch - main [MainThread]: End processing [metar-taf-parser-mivek]: success
 [2023-08-06 08:08:30] INFO root fetch - main [MainThread]: Store serial: [19191508]
+[2023-08-06 08:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191508]
+[2023-08-06 08:13:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: txt2ebook
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-grafana
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-image
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcentrapi
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-operator
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-08-06 08:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pretext
+[2023-08-06 08:13:38] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [dcentrapi]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230805] Old Version: [1.7.5.dev20230804]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230805] Old Version: [2.4.0.dev20230804]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-06 08:13:38] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-06 08:13:38] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-06 08:13:38] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-06 08:13:38] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/3b/95/c24a9c07f927690152130e935244b85937beef8e6216f8d41be6043e3b3e/dcentrapi-0.3.3.tar.gz
+[2023-08-06 08:13:38] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/e6/9c/de287ec990009fd5d1b88201193d020ebb04161df29c42fccac3cf7689ee/pretext-1.7.5.dev20230804.tar.gz
+[2023-08-06 08:13:38] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/59/11/d22771c94a2247020bffb9d6ec216faa928a22db8aa6b81179d38458d269/pyg_nightly-2.4.0.dev20230804.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230806/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/f5/f0/9142255e6166175aa7b3087ecff82cc6ac11a02c3194ccba81a3b3798b48/dcentrapi-0.3.4.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230806/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/7a/d7/ab5bcbe8c73947e63260d23ada0389f829cfe1dd88f41e8739f343f7a700/pretext-1.7.5.dev20230805.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.3.3.tar.gz tmp/dcentrapi-0.3.4.tar.gz --markdown 20230806/d/dcentrapi/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230806/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a3/ca/7dcc5ee2d9a6fd0c7bc796c75d93a8a0eca7b75c59f023a4a6b2ebb871d0/pyg_nightly-2.4.0.dev20230805.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230804.tar.gz tmp/pretext-1.7.5.dev20230805.tar.gz --markdown 20230806/p/pretext/1.7.5.dev20230804-1.7.5.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230806/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230804.tar.gz tmp/pyg_nightly-2.4.0.dev20230805.tar.gz --markdown 20230806/p/pyg-nightly/2.4.0.dev20230804-2.4.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 08:13:39] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-08-06 08:13:39] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230806/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 08:13:40] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-06 08:13:40] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.3.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.4.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-06 08:13:40] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-06 08:13:40] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-06 08:13:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230804.tar.gz]
+[2023-08-06 08:13:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230805.tar.gz]
+[2023-08-06 08:13:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-06 08:13:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230804.tar.gz]
+[2023-08-06 08:13:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230805.tar.gz]
+[2023-08-06 08:13:43] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-06 08:13:43] INFO root fetch - main [MainThread]: Store serial: [19191532]
