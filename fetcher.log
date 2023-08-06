@@ -14296,3 +14296,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:01:41] INFO root fetch - processPackages [pyoscar-emr]: Remove: archive file [/home/abi/fetcher/tmp/pyoscar_emr-0.9.2.tar.gz]
 [2023-08-06 20:01:41] INFO root fetch - main [MainThread]: End processing [pyoscar-emr]: success
 [2023-08-06 20:01:41] INFO root fetch - main [MainThread]: Store serial: [19196152]
+[2023-08-06 20:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196152]
+[2023-08-06 20:06:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflekt
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-telethon
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arab-transcription
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezmapper
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynose
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gmn-python-api
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mimesis
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amniotic
+[2023-08-06 20:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider-nightly
+[2023-08-06 20:06:50] WARNING root fetch - processPackages [ezmapper]: Skipping, unable to determine old version
+[2023-08-06 20:06:50] INFO root fetch - processPackages [ezmapper]: Start processing: open-interpreter
+[2023-08-06 20:06:50] INFO root fetch - main [MainThread]: End processing [ezmapper] error
+[2023-08-06 20:06:50] INFO root fetch - processPackages [arab-transcription]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [django-telethon]: New version: [1.1.6] Old Version: [1.1.5a1]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [gmn-python-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.254] Old Version: [0.0.253]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [pynose]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [mimesis]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [reflekt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-08-06 20:06:50] INFO root fetch - processPackages [arab-transcription]: Downloading https://files.pythonhosted.org/packages/30/b0/94fee7bdb7d1af68c2c6a9d513acaeffac42f7275e12e8bb994ed6482ec5/arab_transcription-1.0.0.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [django-telethon]: Downloading https://files.pythonhosted.org/packages/9a/57/3d6e40d2304082598b07452de8cfc60a3d6bc6a4df45646f709abcb5a1f8/django-telethon-1.1.5a1.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/b2/c2/296e7e333b99dc5e4786ac8583cb4dd20c947b6ff29ad8f3b73ada609d88/open_interpreter-0.0.253.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [gmn-python-api]: Downloading https://files.pythonhosted.org/packages/47/04/9dde7d471f2a1e2c399551c21a0b96a1cab133a308643c5664bd01e91f7d/gmn-python-api-0.0.8.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/8d/bd/30f6bbc93d69f5f2f78440c47b713aa65c9d50af7b3b8fa51fb73400458e/reflekt-0.3.8.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/7f/eb/f2dde705bb8c7b8b106b8dbfc28ad8a751095314e1334e84ed8679ec216f/pynose-1.4.7.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/11/c3/63f9ae346af2a23876aba1aab2b65934ac4b9c65ddf6af5e89c93c492cf4/mimesis-8.0.0.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [arab-transcription]: Downloading https://files.pythonhosted.org/packages/1c/e6/7317954a32d45c7a73ac0027888e77a9a4db787e68ad77b4e5099a6cb475/arab_transcription-1.0.1.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/12/6e/547458d1fcbf591ed11696e5294a626187f1ec27e704831dea30fb691b57/open_interpreter-0.0.254.tar.gz
+[2023-08-06 20:06:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [arab-transcription]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [arab-transcription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arab_transcription-1.0.0.tar.gz tmp/arab_transcription-1.0.1.tar.gz --markdown 20230806/a/arab-transcription/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [django-telethon]: Downloading https://files.pythonhosted.org/packages/86/9c/3a167fa9b343d8fd8c6fffcc129287aa50f19f7dc8655c2c19e9a260b1d5/django-telethon-1.1.6.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/b2/b5/eb6640c0d03cf9605ed0c60c9f08b8835429b2b1081d64788659536e312f/reflekt-0.3.9.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.253.tar.gz tmp/open_interpreter-0.0.254.tar.gz --markdown 20230806/o/open-interpreter/0.0.253-0.0.254/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230806/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/6c/b7/e89796b46fcaff5a98a2f65e0e3b300300fdbc4b5dcaa580141d0d435f2e/pynose-1.4.8.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [django-telethon]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [django-telethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-telethon-1.1.5a1.tar.gz tmp/django-telethon-1.1.6.tar.gz --markdown 20230806/d/django-telethon/1.1.5a1-1.1.6/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [reflekt]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [reflekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflekt-0.3.8.tar.gz tmp/reflekt-0.3.9.tar.gz --markdown 20230806/r/reflekt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [pynose]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [pynose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynose-1.4.7.tar.gz tmp/pynose-1.4.8.tar.gz --markdown 20230806/p/pynose/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-08-06 20:06:51] INFO root fetch - processPackages [gmn-python-api]: Downloading https://files.pythonhosted.org/packages/45/65/037d7d4e0ae5e5c1d6a79b5a3ad3b18673815d6a2d39b8bce1e53d4463f4/gmn-python-api-0.0.9.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/74/f4/34b8f193a24f5ed60e1c38836a3d3ff7fc7f321c0a3e00340f7070ea1a5c/mimesis-9.0.0.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-08-06 20:06:51] INFO root fetch - processPackages [gmn-python-api]: executing diffoscope
+[2023-08-06 20:06:51] INFO root fetch - processPackages [gmn-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmn-python-api-0.0.8.tar.gz tmp/gmn-python-api-0.0.9.tar.gz --markdown 20230806/g/gmn-python-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 20:06:52] INFO root fetch - processPackages [mimesis]: executing diffoscope
+[2023-08-06 20:06:52] INFO root fetch - processPackages [mimesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimesis-8.0.0.tar.gz tmp/mimesis-9.0.0.tar.gz --markdown 20230806/m/mimesis/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-08-06 20:06:52] INFO root fetch - processPackages [arab-transcription]: Remove: archive file [/home/abi/fetcher/tmp/arab_transcription-1.0.0.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [arab-transcription]: Remove: archive file [/home/abi/fetcher/tmp/arab_transcription-1.0.1.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [arab-transcription]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.253.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.254.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-08-06 20:06:52] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230806/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-08-06 20:06:52] INFO root fetch - processPackages [django-telethon]: Remove: archive file [/home/abi/fetcher/tmp/django-telethon-1.1.5a1.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [django-telethon]: Remove: archive file [/home/abi/fetcher/tmp/django-telethon-1.1.6.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [django-telethon]: success
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.8.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.9.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [reflekt]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [pynose]: Remove: archive file [/home/abi/fetcher/tmp/pynose-1.4.7.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [pynose]: Remove: archive file [/home/abi/fetcher/tmp/pynose-1.4.8.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [pynose]: success
+[2023-08-06 20:06:52] INFO root fetch - processPackages [gmn-python-api]: Remove: archive file [/home/abi/fetcher/tmp/gmn-python-api-0.0.8.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - processPackages [gmn-python-api]: Remove: archive file [/home/abi/fetcher/tmp/gmn-python-api-0.0.9.tar.gz]
+[2023-08-06 20:06:52] INFO root fetch - main [MainThread]: End processing [gmn-python-api]: success
+[2023-08-06 20:06:54] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-08-06 20:06:54] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-08-06 20:06:54] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-08-06 20:06:54] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-8.0.0.tar.gz]
+[2023-08-06 20:06:54] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
+[2023-08-06 20:06:54] INFO root fetch - main [MainThread]: End processing [mimesis]: success
+[2023-08-06 20:06:54] INFO root fetch - main [MainThread]: Store serial: [19196193]
