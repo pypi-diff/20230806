@@ -10437,3 +10437,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:59:49] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
 [2023-08-06 15:59:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-08-06 15:59:49] INFO root fetch - main [MainThread]: Store serial: [19194346]
+[2023-08-06 16:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194346]
+[2023-08-06 16:04:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatlab
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-proj-mess-client
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teneva-opti
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-loader
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-proj-mess-server
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SNgramExtractor
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talkytrend
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-08-06 16:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ffmpegaudiorecord
+[2023-08-06 16:04:58] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.86.dev4]
+[2023-08-06 16:04:58] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-06 16:04:58] INFO root fetch - processPackages [dxsp]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-06 16:04:58] INFO root fetch - processPackages [teneva-opti]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-06 16:04:58] WARNING root fetch - processPackages [my-proj-mess-client]: Skipping, unable to determine old version
+[2023-08-06 16:04:58] INFO root fetch - main [MainThread]: End processing [my-proj-mess-client] error
+[2023-08-06 16:04:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/35/f2/acb470581ea3d21c5bddadfea8299e96bb0ae4abfc77edd536173bea22e6/code_loader-0.2.86.dev4.tar.gz
+[2023-08-06 16:04:58] WARNING root fetch - processPackages [ffmpegaudiorecord]: Skipping, unable to determine old version
+[2023-08-06 16:04:58] INFO root fetch - main [MainThread]: End processing [ffmpegaudiorecord] error
+[2023-08-06 16:04:58] INFO root fetch - processPackages [SNgramExtractor]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 16:04:58] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a9] Old Version: [1.0.0a7]
+[2023-08-06 16:04:58] WARNING root fetch - processPackages [my-proj-mess-server]: Skipping, unable to determine old version
+[2023-08-06 16:04:58] INFO root fetch - main [MainThread]: End processing [my-proj-mess-server] error
+[2023-08-06 16:04:58] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/20/02/e39154808d2f60ac1ccffcd403bbc96ef6b4c1fd6f5b5a543258586b4d05/dxsp-4.2.4.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [teneva-opti]: Downloading https://files.pythonhosted.org/packages/0f/68/5240b6a671b83b4faccd6c3c1e2e9fabe79de0d996a8ac5e86b01c12f437/teneva_opti-0.3.4.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [SNgramExtractor]: Downloading https://files.pythonhosted.org/packages/40/98/f9ed7c3931c705342a69575228439a72b773c32ffb4526f17bd118153f7f/SNgramExtractor-0.0.5.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/2c/76242c5ad0339db6943f4b5d88de7420393a617d4d3b3464b3fdb4a8937c/chatlab-1.0.0a7.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/96/76/971fc8ffbdc2ced7edd168f6d7375f20ae68122699cab3ed5510b1049b9f/dxsp-4.2.5.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-08-06 16:04:58] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230806/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-06 16:04:58] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-06 16:04:58] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.86.dev4.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230806/c/code-loader/0.2.86.dev4-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 16:04:58] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-08-06 16:04:58] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.2.4.tar.gz tmp/dxsp-4.2.5.tar.gz --markdown 20230806/d/dxsp/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-08-06 16:04:58] INFO root fetch - processPackages [teneva-opti]: Downloading https://files.pythonhosted.org/packages/f9/0d/507735dfa628b0baac1e8cc93f0c59bd808f52c6de0816b9ab14bee5859a/teneva_opti-0.3.5.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [SNgramExtractor]: Downloading https://files.pythonhosted.org/packages/49/7a/691e56ff4af9aa2f94b2f2d71bb7d26a876481224903f1b69cddc79cd5ff/SNgramExtractor-0.0.6.tar.gz
+[2023-08-06 16:04:58] INFO root fetch - processPackages [teneva-opti]: executing diffoscope
+[2023-08-06 16:04:58] INFO root fetch - processPackages [teneva-opti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_opti-0.3.4.tar.gz tmp/teneva_opti-0.3.5.tar.gz --markdown 20230806/t/teneva-opti/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-06 16:04:59] INFO root fetch - processPackages [SNgramExtractor]: executing diffoscope
+[2023-08-06 16:04:59] INFO root fetch - processPackages [SNgramExtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SNgramExtractor-0.0.5.tar.gz tmp/SNgramExtractor-0.0.6.tar.gz --markdown 20230806/S/SNgramExtractor/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 16:04:59] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9e/64/cd7bef9a71080dc8f8efafff7e54fa539fd6f57f71e98d32eb464fca020d/chatlab-1.0.0a9.tar.gz
+[2023-08-06 16:04:59] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-08-06 16:04:59] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a7.tar.gz tmp/chatlab-1.0.0a9.tar.gz --markdown 20230806/c/chatlab/1.0.0a7-1.0.0a9/diff.md --exclude *.pyd
+[2023-08-06 16:04:59] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-08-06 16:04:59] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-08-06 16:04:59] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-08-06 16:04:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.4.tar.gz]
+[2023-08-06 16:04:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.5.tar.gz]
+[2023-08-06 16:04:59] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-08-06 16:05:00] INFO root fetch - processPackages [teneva-opti]: Remove: archive file [/home/abi/fetcher/tmp/teneva_opti-0.3.4.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - processPackages [teneva-opti]: Remove: archive file [/home/abi/fetcher/tmp/teneva_opti-0.3.5.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - main [MainThread]: End processing [teneva-opti]: success
+[2023-08-06 16:05:00] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a7.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a9.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-08-06 16:05:00] INFO root fetch - processPackages [SNgramExtractor]: Remove: archive file [/home/abi/fetcher/tmp/SNgramExtractor-0.0.5.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - processPackages [SNgramExtractor]: Remove: archive file [/home/abi/fetcher/tmp/SNgramExtractor-0.0.6.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - main [MainThread]: End processing [SNgramExtractor]: success
+[2023-08-06 16:05:00] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.86.dev4.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-06 16:05:00] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-06 16:05:00] INFO root fetch - main [MainThread]: Store serial: [19194382]
