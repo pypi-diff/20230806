@@ -14036,3 +14036,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:40:39] INFO root fetch - processPackages [peprock]: Remove: archive file [/home/abi/fetcher/tmp/peprock-1.6.2.tar.gz]
 [2023-08-06 19:40:39] INFO root fetch - main [MainThread]: End processing [peprock]: success
 [2023-08-06 19:40:39] INFO root fetch - main [MainThread]: Store serial: [19196012]
+[2023-08-06 19:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196012]
+[2023-08-06 19:45:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peprock
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ffmpegaudiorecord
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tko
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ISLP
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RamseyTheoryRL
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grimoire-elk
+[2023-08-06 19:45:48] INFO root fetch - processPackages [tko]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 19:45:48] WARNING root fetch - processPackages [ffmpegaudiorecord]: Skipping, unable to determine old version
+[2023-08-06 19:45:48] INFO root fetch - main [MainThread]: End processing [ffmpegaudiorecord] error
+[2023-08-06 19:45:48] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/af/eb/2e5a524ca3b0019f92d339e8ee581d67ca2fd59e557ccd9cfdd06faa53b3/tko-0.0.2.tar.gz
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ISLP]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 19:45:48] INFO root fetch - processPackages [peprock]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-08-06 19:45:48] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-06 19:45:48] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.81] Old Version: [0.8]
+[2023-08-06 19:45:48] INFO root fetch - processPackages [peprock]: Downloading https://files.pythonhosted.org/packages/3b/0e/7267ac37bbe04a4ba2d0812e1a432da8b0d0002ffbf1b0ecc38644fa41bb/peprock-1.6.1.tar.gz
+[2023-08-06 19:45:48] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/82/8e/d506dfd4fca216141f9f528d16f22db6a90396eae952c4ff919f8b990866/tko-0.0.3.tar.gz
+[2023-08-06 19:45:48] INFO root fetch - processPackages [ISLP]: Downloading https://files.pythonhosted.org/packages/4e/8b/81188abcbeeca18aff8e5a02bf3af5bcbd9c7721ecc090156c0c83cf1848/ISLP-0.3.8.tar.gz
+[2023-08-06 19:45:48] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-08-06 19:45:48] INFO root fetch - processPackages [tko]: executing diffoscope
+[2023-08-06 19:45:48] INFO root fetch - processPackages [tko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tko-0.0.2.tar.gz tmp/tko-0.0.3.tar.gz --markdown 20230806/t/tko/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 19:45:48] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/9c/d3/bb667b72cc681c72307d58f934f0e52e5708d3fdb4d515d663a17da4173c/RamseyTheoryRL-0.8.tar.gz
+[2023-08-06 19:45:49] INFO root fetch - processPackages [peprock]: Downloading https://files.pythonhosted.org/packages/1f/71/74fea209a34dc57478240e9cd489910d8ea59e8b581b7bee7a6a86d11f26/peprock-1.6.2.tar.gz
+[2023-08-06 19:45:49] INFO root fetch - processPackages [peprock]: executing diffoscope
+[2023-08-06 19:45:49] INFO root fetch - processPackages [peprock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peprock-1.6.1.tar.gz tmp/peprock-1.6.2.tar.gz --markdown 20230806/p/peprock/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-08-06 19:45:49] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-08-06 19:45:49] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/81/a4/7fcc3f10100b8ccaf7b13147f10eb5f41ad40a22df39bd9e01375e4442ba/RamseyTheoryRL-0.81.tar.gz
+[2023-08-06 19:45:49] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-08-06 19:45:49] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230806/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-06 19:45:49] INFO root fetch - processPackages [ISLP]: Downloading https://files.pythonhosted.org/packages/02/4d/6050590905939c21e0671fe9be23450c3f5f70498886086c370776e3049c/ISLP-0.3.9.tar.gz
+[2023-08-06 19:45:49] INFO root fetch - processPackages [RamseyTheoryRL]: executing diffoscope
+[2023-08-06 19:45:49] INFO root fetch - processPackages [RamseyTheoryRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RamseyTheoryRL-0.8.tar.gz tmp/RamseyTheoryRL-0.81.tar.gz --markdown 20230806/R/RamseyTheoryRL/0.8-0.81/diff.md --exclude *.pyd
+[2023-08-06 19:45:49] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.0.2.tar.gz]
+[2023-08-06 19:45:49] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.0.3.tar.gz]
+[2023-08-06 19:45:49] INFO root fetch - main [MainThread]: End processing [tko]: success
+[2023-08-06 19:45:49] INFO root fetch - processPackages [peprock]: Remove: archive file [/home/abi/fetcher/tmp/peprock-1.6.1.tar.gz]
+[2023-08-06 19:45:49] INFO root fetch - processPackages [peprock]: Remove: archive file [/home/abi/fetcher/tmp/peprock-1.6.2.tar.gz]
+[2023-08-06 19:45:49] INFO root fetch - main [MainThread]: End processing [peprock]: success
+[2023-08-06 19:45:50] INFO root fetch - processPackages [ISLP]: executing diffoscope
+[2023-08-06 19:45:50] INFO root fetch - processPackages [ISLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ISLP-0.3.8.tar.gz tmp/ISLP-0.3.9.tar.gz --markdown 20230806/I/ISLP/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 19:45:50] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.98.0.tar.gz]
+[2023-08-06 19:45:50] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
+[2023-08-06 19:45:50] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-08-06 19:45:50] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.8.tar.gz]
+[2023-08-06 19:45:50] INFO root fetch - processPackages [RamseyTheoryRL]: Remove: archive file [/home/abi/fetcher/tmp/RamseyTheoryRL-0.81.tar.gz]
+[2023-08-06 19:45:50] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL]: success
+[2023-08-06 19:45:51] INFO root fetch - processPackages [ISLP]: Remove: archive file [/home/abi/fetcher/tmp/ISLP-0.3.8.tar.gz]
+[2023-08-06 19:45:51] INFO root fetch - processPackages [ISLP]: Remove: archive file [/home/abi/fetcher/tmp/ISLP-0.3.9.tar.gz]
+[2023-08-06 19:45:51] INFO root fetch - main [MainThread]: End processing [ISLP]: success
+[2023-08-06 19:45:51] INFO root fetch - main [MainThread]: Store serial: [19196032]
