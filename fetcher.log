@@ -5643,3 +5643,51 @@
 [2023-08-06 10:02:55] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.2.6.tar.gz]
 [2023-08-06 10:02:55] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling]: success
 [2023-08-06 10:02:55] INFO root fetch - main [MainThread]: Store serial: [19192158]
+[2023-08-06 10:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192158]
+[2023-08-06 10:08:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jlogr
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjptools
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-08-06 10:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upload-machine
+[2023-08-06 10:08:04] INFO root fetch - processPackages [cjptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 10:08:04] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.73]
+[2023-08-06 10:08:04] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230805] Old Version: [0.4.3.dev20230804]
+[2023-08-06 10:08:04] WARNING root fetch - processPackages [jlogr]: Skipping, unable to determine old version
+[2023-08-06 10:08:04] INFO root fetch - main [MainThread]: End processing [jlogr] error
+[2023-08-06 10:08:04] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/d0/c7/4ed3eddc40b2fefc6efde395709fc9103bfbe68a0416d2050314ed45cd6d/cjptools-0.1.8.tar.gz
+[2023-08-06 10:08:04] INFO root fetch - processPackages [tf-nightly]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-06 10:08:04] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 10:08:04] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/f6/1d/c7e2b106a0c1857896b2d95b5f4f99cb37de18d750c429e7136a0e77649f/upload_machine-0.0.73.tar.gz
+[2023-08-06 10:08:04] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 10:08:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/7c/dc/f6a080aa578e045c6d74d9e5647ca21ee91f05ff719f3101cb7c262c3ee5/pyglove-0.4.3.dev20230804.tar.gz
+[2023-08-06 10:08:05] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/e7/94/6bfb795d2f5af7e98a2cc7efe63d96b1a1cf0918182facde384cf57a1d13/cjptools-0.1.9.tar.gz
+[2023-08-06 10:08:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/1a/bd/0bdd7b666642d3a9836861368369ec817ed2fbf3c7a417680730a9311d1d/tf_nightly-2.15.0.dev20230805-cp39-cp39-win_amd64.whl
+[2023-08-06 10:08:05] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 10:08:05] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-06 10:08:05] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.8.tar.gz tmp/cjptools-0.1.9.tar.gz --markdown 20230806/c/cjptools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 10:08:05] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 10:08:05] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.73.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.73-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 10:08:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/a5/07/1ca6a02e770eac36034bd664fff6d9d73aa28819b0f640f25843b8d2a650/tf_nightly-2.15.0.dev20230806-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/82/c7/dd63880ce6996f892f0ade35560be0590952a7039db80b5559bd5d439d60/pyglove-0.4.3.dev20230805.tar.gz
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-06 10:08:05] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230804.tar.gz tmp/pyglove-0.4.3.dev20230805.tar.gz --markdown 20230806/p/pyglove/0.4.3.dev20230804-0.4.3.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 10:08:05] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491816534>=10485760
+[2023-08-06 10:08:05] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-08-06 10:08:06] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.8.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.9.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-06 10:08:06] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 10:08:06] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.73.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 10:08:06] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 10:08:07] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230804.tar.gz]
+[2023-08-06 10:08:07] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230805.tar.gz]
+[2023-08-06 10:08:07] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-06 10:08:07] INFO root fetch - main [MainThread]: Store serial: [19192175]
