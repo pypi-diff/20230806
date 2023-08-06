@@ -9028,3 +9028,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:40:58] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.72.4.tar.gz]
 [2023-08-06 14:40:58] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-08-06 14:40:58] INFO root fetch - main [MainThread]: Store serial: [19193735]
+[2023-08-06 14:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193735]
+[2023-08-06 14:46:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastlane-bot
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezsynth
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JanexPT
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LinkedList-575
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaspin
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pygments
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablate
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BubbleGun
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: revwhox
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Fletxible
+[2023-08-06 14:46:07] INFO root fetch - processPackages [LinkedList-575]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 14:46:07] WARNING root fetch - processPackages [JanexPT]: Skipping, unable to determine old version
+[2023-08-06 14:46:07] INFO root fetch - main [MainThread]: End processing [JanexPT] error
+[2023-08-06 14:46:07] INFO root fetch - processPackages [ezsynth]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 14:46:07] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:46:07] INFO root fetch - processPackages [Pygments]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-08-06 14:46:07] INFO root fetch - processPackages [Fletxible]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-06 14:46:07] WARNING root fetch - processPackages [revwhox]: Skipping, unable to determine old version
+[2023-08-06 14:46:07] INFO root fetch - main [MainThread]: End processing [revwhox] error
+[2023-08-06 14:46:08] INFO root fetch - processPackages [BubbleGun]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-06 14:46:08] INFO root fetch - processPackages [yaspin]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-06 14:46:08] INFO root fetch - processPackages [fastlane-bot]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-08-06 14:46:08] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/be/8d/7fcc6c2e418be2ff89fa8f4b06f1a59df90c78d4c4e70b560327b8ebfbe9/Fletxible-0.6.2.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [LinkedList-575]: Downloading https://files.pythonhosted.org/packages/1f/dd/b2ccae6c04a8efea66904305b109e9358a740030ca10995c1e6a748b494b/LinkedList_575-1.0.0.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/8c/c2/d57da775643995c832da8ebb4102c57386648b79abc02434bcfdda1924f6/ezsynth-1.0.0.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [Pygments]: Downloading https://files.pythonhosted.org/packages/15/9d/bc9047ca1eee944cc245f3649feea6eecde3f38011ee9b8a6a64fb7088cd/Pygments-2.8.1.tar.gz
+[2023-08-06 14:46:08] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103505>=10485760
+[2023-08-06 14:46:08] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 14:46:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/8d/2a/1c9403c45cf364e8a04e59357c10a48c41832453569b6ec30a603e915861/fastlane_bot-2.7.0-py3-none-any.whl
+[2023-08-06 14:46:08] INFO root fetch - processPackages [BubbleGun]: Downloading https://files.pythonhosted.org/packages/39/a6/b899f7cc107e14a69ff3cd5b3f3f90ae799f5d128951076e717859fc4d72/BubbleGun-1.1.6.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [yaspin]: Downloading https://files.pythonhosted.org/packages/e7/d3/9dc42eaa5a41d64f83b6fcf68aef0993cc9be94dc3ea14038270680ff4e1/yaspin-2.3.0.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [LinkedList-575]: Downloading https://files.pythonhosted.org/packages/4c/1e/1343e1c216173a0674f8ceddf53d72bf4701517cf3d6eeb7acd183abd8c5/LinkedList_575-1.0.1.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:46:08] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/69/f0/2179ecbb2ac62dccabf9e363e85f7153df0d62de1f5d22f295eefe058dbf/Fletxible-0.6.3.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [BubbleGun]: Downloading https://files.pythonhosted.org/packages/c4/61/c0ec661f0edf5ef6ec12f6fb3dc2d70c9b9ceaff6f9dfc14d15a69c3327f/BubbleGun-1.1.7.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [LinkedList-575]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [LinkedList-575]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinkedList_575-1.0.0.tar.gz tmp/LinkedList_575-1.0.1.tar.gz --markdown 20230806/L/LinkedList-575/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 14:46:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/97/5b/c081748b2ec1a9a403425ea05d9a4f09e98e2aac619462e6b9e84035fe6b/fastlane_bot-2.7.1-py3-none-any.whl
+[2023-08-06 14:46:08] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.2.tar.gz tmp/Fletxible-0.6.3.tar.gz --markdown 20230806/F/Fletxible/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-06 14:46:08] INFO root fetch - processPackages [BubbleGun]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [BubbleGun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BubbleGun-1.1.6.tar.gz tmp/BubbleGun-1.1.7.tar.gz --markdown 20230806/B/BubbleGun/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-06 14:46:08] INFO root fetch - processPackages [yaspin]: Downloading https://files.pythonhosted.org/packages/20/e1/e79399c05f10c3a6d6252fe2faae759d30414ee88640cb3efcd612fec60c/yaspin-2.4.0.tar.gz
+[2023-08-06 14:46:08] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-2.7.0-py3-none-any.whl.zip tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip --markdown 20230806/f/fastlane-bot/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-08-06 14:46:08] INFO root fetch - processPackages [yaspin]: executing diffoscope
+[2023-08-06 14:46:08] INFO root fetch - processPackages [yaspin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaspin-2.3.0.tar.gz tmp/yaspin-2.4.0.tar.gz --markdown 20230806/y/yaspin/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-06 14:46:09] INFO root fetch - processPackages [Pygments]: Downloading https://files.pythonhosted.org/packages/ba/6e/7a7c13c21d8a4a7f82ccbfe257a045890d4dbf18c023f985f565f97393e3/Pygments-2.9.0.tar.gz
+[2023-08-06 14:46:09] INFO root fetch - processPackages [Pygments]: executing diffoscope
+[2023-08-06 14:46:09] INFO root fetch - processPackages [Pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pygments-2.8.1.tar.gz tmp/Pygments-2.9.0.tar.gz --markdown 20230806/P/Pygments/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-08-06 14:46:09] INFO root fetch - processPackages [LinkedList-575]: Remove: archive file [/home/abi/fetcher/tmp/LinkedList_575-1.0.0.tar.gz]
+[2023-08-06 14:46:09] INFO root fetch - processPackages [LinkedList-575]: Remove: archive file [/home/abi/fetcher/tmp/LinkedList_575-1.0.1.tar.gz]
+[2023-08-06 14:46:09] INFO root fetch - main [MainThread]: End processing [LinkedList-575]: success
+[2023-08-06 14:46:09] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.2.tar.gz]
+[2023-08-06 14:46:09] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.3.tar.gz]
+[2023-08-06 14:46:09] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 14:46:10] INFO root fetch - processPackages [BubbleGun]: Remove: archive file [/home/abi/fetcher/tmp/BubbleGun-1.1.6.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - processPackages [BubbleGun]: Remove: archive file [/home/abi/fetcher/tmp/BubbleGun-1.1.7.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - main [MainThread]: End processing [BubbleGun]: success
+[2023-08-06 14:46:10] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:46:10] INFO root fetch - processPackages [yaspin]: Remove: archive file [/home/abi/fetcher/tmp/yaspin-2.3.0.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - processPackages [yaspin]: Remove: archive file [/home/abi/fetcher/tmp/yaspin-2.4.0.tar.gz]
+[2023-08-06 14:46:10] INFO root fetch - main [MainThread]: End processing [yaspin]: success
+[2023-08-06 14:46:10] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.0-py3-none-any.whl.zip]
+[2023-08-06 14:46:10] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-2.7.1-py3-none-any.whl.zip]
+[2023-08-06 14:46:10] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-08-06 14:46:27] INFO root fetch - processPackages [Pygments]: Remove: archive file [/home/abi/fetcher/tmp/Pygments-2.8.1.tar.gz]
+[2023-08-06 14:46:27] INFO root fetch - processPackages [Pygments]: Remove: archive file [/home/abi/fetcher/tmp/Pygments-2.9.0.tar.gz]
+[2023-08-06 14:46:27] INFO root fetch - main [MainThread]: End processing [Pygments]: success
+[2023-08-06 14:46:27] INFO root fetch - main [MainThread]: Store serial: [19193771]
