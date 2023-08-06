@@ -16411,3 +16411,89 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:43:16] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev6.tar.gz]
 [2023-08-06 22:43:16] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-08-06 22:43:16] INFO root fetch - main [MainThread]: Store serial: [19197066]
+[2023-08-06 22:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197066]
+[2023-08-06 22:48:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyatv
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyortho
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suite2p
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gamie
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metafid-data
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: function-tools
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cqepyutils
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-connect
+[2023-08-06 22:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyperelastic
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyortho]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [hyperelastic]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-06 22:48:25] WARNING root fetch - processPackages [gamie]: Skipping, unable to determine old version
+[2023-08-06 22:48:25] INFO root fetch - processPackages [gamie]: Start processing: lnschema_core
+[2023-08-06 22:48:25] INFO root fetch - main [MainThread]: End processing [gamie] error
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyortho]: Downloading https://files.pythonhosted.org/packages/4c/f4/ed1db42da5c608ce94d4cac452483b8a34951d78a7be91693bb98c18b907/pyortho-0.0.4.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [model-connect]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 22:48:25] WARNING root fetch - processPackages [metafid-data]: Skipping, unable to determine old version
+[2023-08-06 22:48:25] INFO root fetch - main [MainThread]: End processing [metafid-data] error
+[2023-08-06 22:48:25] INFO root fetch - processPackages [cqepyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [function-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [suite2p]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyatv]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-06 22:48:25] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/c1/5d/6842a3554a0c25e02498557d10dffd8d3faeee261bee962e0f1114bdb1b8/hyperelastic-0.6.0.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/f7/fc/d232f4317a5767ece7839d0aa2bd1f067b35c1f55a9ad7c3d5ea7dabd022/pyatv-0.9.7.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [suite2p]: Downloading https://files.pythonhosted.org/packages/a5/18/87be8a942939cfc4845ecfb6f5ba4c1cae494a3374879e8566f49e48dffe/suite2p-0.9.2.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/16/af/e6bacbfa12af19abf7991002b3cbfa9e9756ec97194e14366abcbb7e3d4e/model-connect-0.0.5.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/55/34/8dcdfb6c9a70f03ef447aeacb120af4cd8cd3cc6f8b23e10c8fa1ce0a9df/cqepyutils-0.1.8.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyortho]: Downloading https://files.pythonhosted.org/packages/83/03/475d6c9bfe14b59eff888784a7fc029ac2294ddc0534bca29e4d334a0a10/pyortho-0.0.5.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [function-tools]: Downloading https://files.pythonhosted.org/packages/09/a1/ab68025b8b448d127db5e96b42f1a7d52bb8f46a3359a95476645d87058f/function-tools-0.4.0.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyortho]: executing diffoscope
+[2023-08-06 22:48:25] INFO root fetch - processPackages [pyortho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyortho-0.0.4.tar.gz tmp/pyortho-0.0.5.tar.gz --markdown 20230806/p/pyortho/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 22:48:25] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-06 22:48:25] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230806/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-06 22:48:25] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/4d/28/45dcb03476364f59ae43084016f94ba0c21149b79fc7164ff7bd26467597/hyperelastic-0.7.0.tar.gz
+[2023-08-06 22:48:25] INFO root fetch - processPackages [model-connect]: Downloading https://files.pythonhosted.org/packages/b7/fc/39baaab0d81ddda1e1e186b00a8b155cc683ec755a90752c8466835e40ad/model-connect-0.0.6.tar.gz
+[2023-08-06 22:48:26] INFO root fetch - processPackages [pyatv]: Downloading https://files.pythonhosted.org/packages/63/c8/992890d7deb53136f27bf96d788bf2b4b45c7af07e93e7d07fa88114a155/pyatv-0.9.8.tar.gz
+[2023-08-06 22:48:26] INFO root fetch - processPackages [hyperelastic]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [hyperelastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperelastic-0.6.0.tar.gz tmp/hyperelastic-0.7.0.tar.gz --markdown 20230806/h/hyperelastic/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] INFO root fetch - processPackages [model-connect]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [model-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-connect-0.0.5.tar.gz tmp/model-connect-0.0.6.tar.gz --markdown 20230806/m/model-connect/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] INFO root fetch - processPackages [function-tools]: Downloading https://files.pythonhosted.org/packages/35/2a/cb2a3813f24a9dd29253c9b79d1a9a66739dedb3717336f8e45c124d7f11/function-tools-0.5.0.tar.gz
+[2023-08-06 22:48:26] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-08-06 22:48:26] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/93/a1/24226d85226d734a3a37ba4877dcc492a3aba114b83026119310dae5e724/cqepyutils-0.1.9.tar.gz
+[2023-08-06 22:48:26] INFO root fetch - processPackages [function-tools]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [function-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-tools-0.4.0.tar.gz tmp/function-tools-0.5.0.tar.gz --markdown 20230806/f/function-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [cqepyutils]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230806/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] INFO root fetch - processPackages [cqepyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqepyutils-0.1.8.tar.gz tmp/cqepyutils-0.1.9.tar.gz --markdown 20230806/c/cqepyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] INFO root fetch - processPackages [pyatv]: executing diffoscope
+[2023-08-06 22:48:26] INFO root fetch - processPackages [pyatv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatv-0.9.7.tar.gz tmp/pyatv-0.9.8.tar.gz --markdown 20230806/p/pyatv/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-08-06 22:48:26] WARNING root fetch - processPackages [suite2p]: Skipping package: exceeds size limit 27787882>=10485760
+[2023-08-06 22:48:26] INFO root fetch - main [MainThread]: End processing [suite2p] error
+[2023-08-06 22:48:26] INFO root fetch - processPackages [pyortho]: Remove: archive file [/home/abi/fetcher/tmp/pyortho-0.0.4.tar.gz]
+[2023-08-06 22:48:26] INFO root fetch - processPackages [pyortho]: Remove: archive file [/home/abi/fetcher/tmp/pyortho-0.0.5.tar.gz]
+[2023-08-06 22:48:26] INFO root fetch - main [MainThread]: End processing [pyortho]: success
+[2023-08-06 22:48:26] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-06 22:48:26] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-06 22:48:26] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-06 22:48:27] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.5.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - processPackages [model-connect]: Remove: archive file [/home/abi/fetcher/tmp/model-connect-0.0.6.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - main [MainThread]: End processing [model-connect]: success
+[2023-08-06 22:48:27] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.6.0.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.7.0.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
+[2023-08-06 22:48:27] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.8.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.9.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - main [MainThread]: End processing [cqepyutils]: success
+[2023-08-06 22:48:27] INFO root fetch - processPackages [function-tools]: Remove: archive file [/home/abi/fetcher/tmp/function-tools-0.4.0.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - processPackages [function-tools]: Remove: archive file [/home/abi/fetcher/tmp/function-tools-0.5.0.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - main [MainThread]: End processing [function-tools]: success
+[2023-08-06 22:48:27] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-08-06 22:48:27] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-08-06 22:48:29] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.7.tar.gz]
+[2023-08-06 22:48:29] INFO root fetch - processPackages [pyatv]: Remove: archive file [/home/abi/fetcher/tmp/pyatv-0.9.8.tar.gz]
+[2023-08-06 22:48:29] INFO root fetch - main [MainThread]: End processing [pyatv]: success
+[2023-08-06 22:48:29] INFO root fetch - main [MainThread]: Store serial: [19197100]
