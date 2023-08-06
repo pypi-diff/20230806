@@ -2925,3 +2925,52 @@
 [2023-08-06 04:30:33] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.6.tar.gz]
 [2023-08-06 04:30:33] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-08-06 04:30:33] INFO root fetch - main [MainThread]: Store serial: [19190822]
+[2023-08-06 04:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190822]
+[2023-08-06 04:35:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyenphase
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-asyncio-cooperative
+[2023-08-06 04:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-cord-dev
+[2023-08-06 04:35:47] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 04:35:47] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-06 04:35:47] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-06 04:35:47] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1691289025] Old Version: [0.1.1691289017]
+[2023-08-06 04:35:47] INFO root fetch - processPackages [pytest-asyncio-cooperative]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-08-06 04:35:47] WARNING root fetch - processPackages [py-cord-dev]: Skipping, unable to determine old version
+[2023-08-06 04:35:47] INFO root fetch - main [MainThread]: End processing [py-cord-dev] error
+[2023-08-06 04:35:47] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1691289025] Old Version: [0.1.1691289017]
+[2023-08-06 04:35:47] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/ec/b2/564d68afe17758786acbd2fd9b2b143d3daad4bb7830fc51d238367df850/eia-odin-pkg-rioatmadja2018-0.1.1691289017.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pytest-asyncio-cooperative]: Downloading https://files.pythonhosted.org/packages/2b/94/6e972c3c8e1757f7bdd16e58e3b6ebbf0c34d05fb01a813b9d493ca45a75/pytest-asyncio-cooperative-0.8.5.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/ec/b2/564d68afe17758786acbd2fd9b2b143d3daad4bb7830fc51d238367df850/eia-odin-pkg-rioatmadja2018-0.1.1691289017.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-06 04:35:48] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230806/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230806/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pytest-asyncio-cooperative]: Downloading https://files.pythonhosted.org/packages/df/37/8fd2deb760bc075166dbca8621ac2a17b212d56a45f1847f62b3ef2b6e68/pytest-asyncio-cooperative-0.9.0.tar.gz
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/2a/20/4f67a4940d3b71b158c9f7ac86e4893c4c543ea506c3cfcce74ef19dfea4/eia_odin_pkg_rioatmadja2018-0.1.1691289025-py3-none-any.whl
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/2a/20/4f67a4940d3b71b158c9f7ac86e4893c4c543ea506c3cfcce74ef19dfea4/eia_odin_pkg_rioatmadja2018-0.1.1691289025-py3-none-any.whl
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pytest-asyncio-cooperative]: executing diffoscope
+[2023-08-06 04:35:48] INFO root fetch - processPackages [pytest-asyncio-cooperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-asyncio-cooperative-0.8.5.tar.gz tmp/pytest-asyncio-cooperative-0.9.0.tar.gz --markdown 20230806/p/pytest-asyncio-cooperative/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1691289017.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1691289025-py3-none-any.whl.zip --markdown 20230806/e/eia-odin-pkg-rioatmadja2018/0.1.1691289017-0.1.1691289025/diff.md --exclude *.pyd
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-08-06 04:35:48] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1691289017.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1691289025-py3-none-any.whl.zip --markdown 20230806/e/eia-odin-pkg-rioatmadja2018/0.1.1691289017-0.1.1691289025/diff.md --exclude *.pyd
+[2023-08-06 04:35:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-06 04:35:49] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-06 04:35:49] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia-odin-pkg-rioatmadja2018-0.1.1691289017.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia_odin_pkg_rioatmadja2018-0.1.1691289025-py3-none-any.whl.zip]
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-08-06 04:35:49] INFO root fetch - processPackages [pytest-asyncio-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-cooperative-0.8.5.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - processPackages [pytest-asyncio-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-cooperative-0.9.0.tar.gz]
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [pytest-asyncio-cooperative]: success
+[2023-08-06 04:35:49] INFO root fetch - main [MainThread]: Store serial: [19190841]
