@@ -13714,3 +13714,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:14:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.2.tar.gz]
 [2023-08-06 19:14:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-06 19:14:39] INFO root fetch - main [MainThread]: Store serial: [19195848]
+[2023-08-06 19:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195848]
+[2023-08-06 19:19:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-metric-learning
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eniris
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peprock
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs2
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chython
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ondewo-client-utils
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-ta
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlconstructor
+[2023-08-06 19:19:48] INFO root fetch - processPackages [eniris]: New version: [0.7.2] Old Version: [0.6.0]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/92/cb/4451bbc5d7d74a7441af749b2f165a5139e62f62409b1222e4cade74cc85/eniris-0.6.0.tar.gz
+[2023-08-06 19:19:48] INFO root fetch - processPackages [peprock]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [ondewo-client-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [chython]: New version: [1.8] Old Version: [1.67]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [sqlconstructor]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [open-metric-learning]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [python-ta]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 19:19:48] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [ondewo-client-utils]: Downloading https://files.pythonhosted.org/packages/fe/4d/81c69b6a8f6db03ed45b58acbf7748bc9c4ffb657e4b5c50231e4b17ed64/ondewo-client-utils-1.0.0.tar.gz
+[2023-08-06 19:19:49] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-08-06 19:19:49] INFO root fetch - processPackages [vollseg]: Start processing: spanishconjugator
+[2023-08-06 19:19:49] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-08-06 19:19:49] INFO root fetch - processPackages [python-ta]: Downloading https://files.pythonhosted.org/packages/bf/c5/70dbc207b273f931f8be09631f8da03dda8e27c8ca604d39b4c7e9a30c32/python-ta-2.5.0.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/94/90/e68bafc7a024045dd3372fba1e38b233fe2f79a1c19d473e6dece30826a1/sqlconstructor-1.0.17.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 19:19:49] INFO root fetch - processPackages [chython]: Downloading https://files.pythonhosted.org/packages/f1/e8/8ebabf49281bc752984556718e259b88132f1fc19ef0f6fbf9b6f9d1bc8a/chython-1.67.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [peprock]: Downloading https://files.pythonhosted.org/packages/fd/89/35cd34e6229c2256a76c3bb8d01650236f4539ffb6bbddc21633cbc475f9/peprock-1.6.0.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [eniris]: Downloading https://files.pythonhosted.org/packages/5c/09/d9c213081bc9821db55aab1a609f8642dc220107063d0341259132bdf29d/eniris-0.7.2.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/a8/db/973aeacbcfe018c973d33e725ea2bab650f9ab2b9db2b6ad2eb041d91b14/open-metric-learning-0.4.3.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [eniris]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [eniris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eniris-0.6.0.tar.gz tmp/eniris-0.7.2.tar.gz --markdown 20230806/e/eniris/0.6.0-0.7.2/diff.md --exclude *.pyd
+[2023-08-06 19:19:49] INFO root fetch - processPackages [ondewo-client-utils]: Downloading https://files.pythonhosted.org/packages/a7/16/f3e9250e67db3755579e27963eac875db52f70a0e32ce43d3f4696a53700/ondewo-client-utils-1.0.1.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/38/ae/ced66625f2293c98c3ea87dd067e02c66b6d84f8590953203118afd85aae/sqlconstructor-1.0.18.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [ondewo-client-utils]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [ondewo-client-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondewo-client-utils-1.0.0.tar.gz tmp/ondewo-client-utils-1.0.1.tar.gz --markdown 20230806/o/ondewo-client-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 19:19:49] INFO root fetch - processPackages [python-ta]: Downloading https://files.pythonhosted.org/packages/6d/8e/e2d6c637d2fcb3c6e3b2d7cf5b10914c3dd5a0d2c9013b562de752652b45/python-ta-2.6.0.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [peprock]: Downloading https://files.pythonhosted.org/packages/3b/0e/7267ac37bbe04a4ba2d0812e1a432da8b0d0002ffbf1b0ecc38644fa41bb/peprock-1.6.1.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/81/3d/991b023ba6ca48554b06cb74aed44db8672ad87ca3e80cebcca67859cef2/open-metric-learning-0.4.4.tar.gz
+[2023-08-06 19:19:49] INFO root fetch - processPackages [sqlconstructor]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [sqlconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlconstructor-1.0.17.tar.gz tmp/sqlconstructor-1.0.18.tar.gz --markdown 20230806/s/sqlconstructor/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-08-06 19:19:49] INFO root fetch - processPackages [peprock]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [peprock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peprock-1.6.0.tar.gz tmp/peprock-1.6.1.tar.gz --markdown 20230806/p/peprock/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-06 19:19:49] INFO root fetch - processPackages [python-ta]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [python-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ta-2.5.0.tar.gz tmp/python-ta-2.6.0.tar.gz --markdown 20230806/p/python-ta/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-08-06 19:19:49] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-08-06 19:19:49] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230806/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-06 19:19:50] INFO root fetch - processPackages [chython]: Downloading https://files.pythonhosted.org/packages/f7/61/0d34caacf5c19f44631dcfe4c42e4d4a28397020009d870d306fd01110bb/chython-1.8.tar.gz
+[2023-08-06 19:19:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 19:19:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 19:19:50] INFO root fetch - processPackages [open-metric-learning]: executing diffoscope
+[2023-08-06 19:19:50] INFO root fetch - processPackages [open-metric-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-metric-learning-0.4.3.tar.gz tmp/open-metric-learning-0.4.4.tar.gz --markdown 20230806/o/open-metric-learning/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 19:19:50] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-08-06 19:19:50] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230806/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 19:19:50] INFO root fetch - processPackages [chython]: executing diffoscope
+[2023-08-06 19:19:50] INFO root fetch - processPackages [chython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chython-1.67.tar.gz tmp/chython-1.8.tar.gz --markdown 20230806/c/chython/1.67-1.8/diff.md --exclude *.pyd
+[2023-08-06 19:19:50] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.6.0.tar.gz]
+[2023-08-06 19:19:50] INFO root fetch - processPackages [eniris]: Remove: archive file [/home/abi/fetcher/tmp/eniris-0.7.2.tar.gz]
+[2023-08-06 19:19:50] INFO root fetch - processPackages [eniris]: Start processing: litenai
+[2023-08-06 19:19:50] INFO root fetch - main [MainThread]: End processing [eniris]: success
+[2023-08-06 19:19:50] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [ondewo-client-utils]: Remove: archive file [/home/abi/fetcher/tmp/ondewo-client-utils-1.0.0.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [ondewo-client-utils]: Remove: archive file [/home/abi/fetcher/tmp/ondewo-client-utils-1.0.1.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [ondewo-client-utils]: Start processing: spanishconjugator
+[2023-08-06 19:19:51] INFO root fetch - main [MainThread]: End processing [ondewo-client-utils]: success
+[2023-08-06 19:19:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-08-06 19:19:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 19:19:51] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.17.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 19:19:51] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.18.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - main [MainThread]: End processing [sqlconstructor]: success
+[2023-08-06 19:19:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 19:19:51] INFO root fetch - processPackages [peprock]: Remove: archive file [/home/abi/fetcher/tmp/peprock-1.6.0.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [peprock]: Remove: archive file [/home/abi/fetcher/tmp/peprock-1.6.1.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - main [MainThread]: End processing [peprock]: success
+[2023-08-06 19:19:51] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-08-06 19:19:51] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-08-06 19:19:51] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230806/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 19:19:51] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-08-06 19:19:51] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-08-06 19:19:52] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: time="2023-08-06T19:19:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-08-06 19:19:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-08-06 19:19:52] INFO root fetch - processPackages [python-ta]: Remove: archive file [/home/abi/fetcher/tmp/python-ta-2.5.0.tar.gz]
+[2023-08-06 19:19:52] INFO root fetch - processPackages [python-ta]: Remove: archive file [/home/abi/fetcher/tmp/python-ta-2.6.0.tar.gz]
+[2023-08-06 19:19:52] INFO root fetch - main [MainThread]: End processing [python-ta]: success
+[2023-08-06 19:19:52] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-0.4.3.tar.gz]
+[2023-08-06 19:19:52] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-0.4.4.tar.gz]
+[2023-08-06 19:19:52] INFO root fetch - main [MainThread]: End processing [open-metric-learning]: success
+[2023-08-06 19:19:52] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-08-06 19:19:52] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-08-06 19:19:52] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-08-06 19:19:53] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-08-06 19:19:53] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-08-06 19:19:53] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-08-06 19:19:54] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.67.tar.gz]
+[2023-08-06 19:19:54] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.8.tar.gz]
+[2023-08-06 19:19:54] INFO root fetch - main [MainThread]: End processing [chython]: success
+[2023-08-06 19:19:54] INFO root fetch - main [MainThread]: Store serial: [19195890]
