@@ -4465,3 +4465,45 @@
 [2023-08-06 08:13:43] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230805.tar.gz]
 [2023-08-06 08:13:43] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-08-06 08:13:43] INFO root fetch - main [MainThread]: Store serial: [19191532]
+[2023-08-06 08:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191532]
+[2023-08-06 08:18:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 08:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokotime
+[2023-08-06 08:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyutil
+[2023-08-06 08:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cougar
+[2023-08-06 08:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydt3
+[2023-08-06 08:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: npc-session
+[2023-08-06 08:18:52] INFO root fetch - processPackages [cougar]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 08:18:52] WARNING root fetch - processPackages [npc-session]: Skipping, unable to determine old version
+[2023-08-06 08:18:52] INFO root fetch - main [MainThread]: End processing [npc-session] error
+[2023-08-06 08:18:52] INFO root fetch - processPackages [tokotime]: New version: [0.14] Old Version: [0.13]
+[2023-08-06 08:18:52] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-08-06 08:18:52] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/8a/1d/6c367124de4c1c4e1bc93b0d9c53800bbca0e76b902ea8f77c1ef967183a/tokotime-0.13.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [pydt3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 08:18:52] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/75/89/b42cf27629d45c48601b990de443b86ea20f6f8a12835f92ed7a6631bef6/cougar-0.1.0.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/85/dc/18eeccf12580ccf4a4e99642e6e77874827c9062b438d203312ec5565a06/pydt3-0.0.5.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-08-06 08:18:52] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230806/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-08-06 08:18:52] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/2d/c3/0ca785b75e764bddfc642e592271f8a6394c32608fc68d88ca757e2f78ba/tokotime-0.14.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/32/82/02714d464122b9091f3b7d9d387fa2b13b4cdd167adc9bf6486caf0041ea/cougar-0.2.0.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 08:18:52] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.13.tar.gz tmp/tokotime-0.14.tar.gz --markdown 20230806/t/tokotime/0.13-0.14/diff.md --exclude *.pyd
+[2023-08-06 08:18:52] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 08:18:52] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.1.0.tar.gz tmp/cougar-0.2.0.tar.gz --markdown 20230806/c/cougar/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 08:18:52] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/95/e0/e079608c3da20d43e98a6b9e5653ddfc92439d93131ac43415e7e5109c10/pydt3-0.0.6.tar.gz
+[2023-08-06 08:18:52] INFO root fetch - processPackages [pydt3]: executing diffoscope
+[2023-08-06 08:18:52] INFO root fetch - processPackages [pydt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydt3-0.0.5.tar.gz tmp/pydt3-0.0.6.tar.gz --markdown 20230806/p/pydt3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 08:18:53] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-08-06 08:18:53] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.1.0.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.0.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 08:18:53] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.13.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.14.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 08:18:53] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.5.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.6.tar.gz]
+[2023-08-06 08:18:53] INFO root fetch - main [MainThread]: End processing [pydt3]: success
+[2023-08-06 08:18:53] INFO root fetch - main [MainThread]: Store serial: [19191556]
