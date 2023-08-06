@@ -2212,3 +2212,33 @@
 [2023-08-06 03:19:35] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip]
 [2023-08-06 03:19:35] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
 [2023-08-06 03:19:35] INFO root fetch - main [MainThread]: Store serial: [19190505]
+[2023-08-06 03:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190505]
+[2023-08-06 03:24:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 03:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-interpreter
+[2023-08-06 03:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: get-code-from-markdown
+[2023-08-06 03:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmn
+[2023-08-06 03:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aptos-sdk-zzf
+[2023-08-06 03:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2023-08-06 03:24:44] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:24:44] WARNING root fetch - processPackages [get-code-from-markdown]: Skipping, unable to determine old version
+[2023-08-06 03:24:44] WARNING root fetch - processPackages [cmn]: Skipping, unable to determine old version
+[2023-08-06 03:24:44] INFO root fetch - main [MainThread]: End processing [get-code-from-markdown] error
+[2023-08-06 03:24:44] INFO root fetch - main [MainThread]: End processing [cmn] error
+[2023-08-06 03:24:44] WARNING root fetch - processPackages [aptos-sdk-zzf]: Skipping, unable to determine old version
+[2023-08-06 03:24:44] INFO root fetch - main [MainThread]: End processing [aptos-sdk-zzf] error
+[2023-08-06 03:24:44] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.250] Old Version: [0.0.249]
+[2023-08-06 03:24:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-08-06 03:24:44] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/72/da/9b04542b88e1985b0033e45fc4911ff48bfa2b6cc7b3ece07211299121f5/open_interpreter-0.0.249.tar.gz
+[2023-08-06 03:24:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-08-06 03:24:44] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-08-06 03:24:44] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230806/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:24:44] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/65/46/c648a1e0023f09b47a544f202fdc169a5d7b5802ddc4c2f17438b3b13457/open_interpreter-0.0.250.tar.gz
+[2023-08-06 03:24:44] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 03:24:44] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.249.tar.gz tmp/open_interpreter-0.0.250.tar.gz --markdown 20230806/o/open-interpreter/0.0.249-0.0.250/diff.md --exclude *.pyd
+[2023-08-06 03:24:45] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-08-06 03:24:45] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-08-06 03:24:45] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-08-06 03:24:45] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.249.tar.gz]
+[2023-08-06 03:24:45] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.250.tar.gz]
+[2023-08-06 03:24:45] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 03:24:45] INFO root fetch - main [MainThread]: Store serial: [19190526]
