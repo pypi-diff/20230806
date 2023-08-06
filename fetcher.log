@@ -3116,3 +3116,57 @@
 [2023-08-06 04:56:56] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a5.tar.gz]
 [2023-08-06 04:56:56] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
 [2023-08-06 04:56:56] INFO root fetch - main [MainThread]: Store serial: [19190912]
+[2023-08-06 05:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190912]
+[2023-08-06 05:02:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyLDLE2
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gedcom5
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-cord-dev
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medisearch-client
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BayesComBat
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pykrx
+[2023-08-06 05:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfsd
+[2023-08-06 05:02:04] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 05:02:04] INFO root fetch - processPackages [medisearch-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 05:02:04] INFO root fetch - processPackages [BayesComBat]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 05:02:04] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-06 05:02:05] WARNING root fetch - processPackages [gedcom5]: Skipping, unable to determine old version
+[2023-08-06 05:02:05] INFO root fetch - main [MainThread]: End processing [gedcom5] error
+[2023-08-06 05:02:05] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/7b/bd/043f8fe4b7e6bb115179a2bef62fd7e11886c3037edd7f071de34cddd61f/medisearch_client-0.1.1.tar.gz
+[2023-08-06 05:02:05] WARNING root fetch - processPackages [py-cord-dev]: Skipping, unable to determine old version
+[2023-08-06 05:02:05] INFO root fetch - main [MainThread]: End processing [py-cord-dev] error
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pyLDLE2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pykrx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 05:02:05] INFO root fetch - processPackages [BayesComBat]: Downloading https://files.pythonhosted.org/packages/e1/b7/0f3b0d0fd2823f6aa9568bb32afd3e64d5c434a06b3a30231fc4a3e2f5ee/bayescombat-0.0.1.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pykrx]: Downloading https://files.pythonhosted.org/packages/a3/55/7259fd75e5b401e24a07c0ae1cf2ddb3216787ea3be9ec5bcf5d7bb3e4a9/pykrx-1.0.8-py3-none-any.whl
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pyLDLE2]: Downloading https://files.pythonhosted.org/packages/56/3b/87e60e6f64947c1b041af66b8d7c870840307ffd45355151c19b3cad2382/pyLDLE2-0.1.8.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/39/3b/bad54f7834800f19fbd52edf9721adbd479827dd02b38e7f0fee650a6013/medisearch_client-0.1.2.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-06 05:02:05] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230806/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 05:02:05] INFO root fetch - processPackages [medisearch-client]: executing diffoscope
+[2023-08-06 05:02:05] INFO root fetch - processPackages [medisearch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisearch_client-0.1.1.tar.gz tmp/medisearch_client-0.1.2.tar.gz --markdown 20230806/m/medisearch-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 05:02:05] INFO root fetch - processPackages [BayesComBat]: Downloading https://files.pythonhosted.org/packages/da/18/67260535bb8b15aaf5da0da0093557831781ed0efd8963f8cd2ba5250ba5/bayescombat-0.0.2.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pykrx]: Downloading https://files.pythonhosted.org/packages/8a/58/31e620fe04e267913710c3f430442a90356db77b989d3b390a89035d0304/pykrx-1.0.9-py3-none-any.whl
+[2023-08-06 05:02:05] INFO root fetch - processPackages [BayesComBat]: executing diffoscope
+[2023-08-06 05:02:05] INFO root fetch - processPackages [BayesComBat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayescombat-0.0.1.tar.gz tmp/bayescombat-0.0.2.tar.gz --markdown 20230806/B/BayesComBat/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pyLDLE2]: Downloading https://files.pythonhosted.org/packages/fe/64/c781245c3db19336c49f0153bee778bc342a69e77e52be22aa0e2a79188b/pyLDLE2-0.1.9.tar.gz
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pykrx]: executing diffoscope
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pykrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrx-1.0.8-py3-none-any.whl.zip tmp/pykrx-1.0.9-py3-none-any.whl.zip --markdown 20230806/p/pykrx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pyLDLE2]: executing diffoscope
+[2023-08-06 05:02:05] INFO root fetch - processPackages [pyLDLE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLDLE2-0.1.8.tar.gz tmp/pyLDLE2-0.1.9.tar.gz --markdown 20230806/p/pyLDLE2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 05:02:06] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.1.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.2.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [medisearch-client]: success
+[2023-08-06 05:02:06] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-06 05:02:06] INFO root fetch - processPackages [BayesComBat]: Remove: archive file [/home/abi/fetcher/tmp/bayescombat-0.0.1.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - processPackages [BayesComBat]: Remove: archive file [/home/abi/fetcher/tmp/bayescombat-0.0.2.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [BayesComBat]: success
+[2023-08-06 05:02:06] INFO root fetch - processPackages [pykrx]: Remove: archive file [/home/abi/fetcher/tmp/pykrx-1.0.8-py3-none-any.whl.zip]
+[2023-08-06 05:02:06] INFO root fetch - processPackages [pykrx]: Remove: archive file [/home/abi/fetcher/tmp/pykrx-1.0.9-py3-none-any.whl.zip]
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [pykrx]: success
+[2023-08-06 05:02:06] INFO root fetch - processPackages [pyLDLE2]: Remove: archive file [/home/abi/fetcher/tmp/pyLDLE2-0.1.8.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - processPackages [pyLDLE2]: Remove: archive file [/home/abi/fetcher/tmp/pyLDLE2-0.1.9.tar.gz]
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [pyLDLE2]: success
+[2023-08-06 05:02:06] INFO root fetch - main [MainThread]: Store serial: [19190933]
