@@ -3858,3 +3858,27 @@
 [2023-08-06 06:40:32] INFO root fetch - processPackages [textrl]: Remove: archive file [/home/abi/fetcher/tmp/textrl-0.2.22.tar.gz]
 [2023-08-06 06:40:32] INFO root fetch - main [MainThread]: End processing [textrl]: success
 [2023-08-06 06:40:32] INFO root fetch - main [MainThread]: Store serial: [19191205]
+[2023-08-06 06:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191205]
+[2023-08-06 06:45:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iman
+[2023-08-06 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2023-08-06 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-events
+[2023-08-06 06:45:41] INFO root fetch - processPackages [litellm]: New version: [0.1.345] Old Version: [0.1.343]
+[2023-08-06 06:45:41] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/03/33/2d927d03feaf78eded6c97a08fc14c2693655170cc95b6a2aaca2e1f3fcd/litellm-0.1.343.tar.gz
+[2023-08-06 06:45:41] WARNING root fetch - processPackages [pypomes-events]: Skipping, unable to determine old version
+[2023-08-06 06:45:41] INFO root fetch - main [MainThread]: End processing [pypomes-events] error
+[2023-08-06 06:45:41] INFO root fetch - processPackages [iman]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-08-06 06:45:41] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/4f/fb/fe3fdd026f1908f395c928ceca234bb24a37b536608927fb174e8a4aa791/iman-0.0.96.tar.gz
+[2023-08-06 06:45:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/e3/e5/8277a7097b853481c70e4cb29ebd6a35d22d69efaeb8a953d5e9c04e5f3d/litellm-0.1.345.tar.gz
+[2023-08-06 06:45:42] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-06 06:45:42] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.343.tar.gz tmp/litellm-0.1.345.tar.gz --markdown 20230806/l/litellm/0.1.343-0.1.345/diff.md --exclude *.pyd
+[2023-08-06 06:45:42] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/8b/97/65384eb30e546b96491d0c9d89a8af26c64a8a7850e45e44f39311ffbd6a/iman-0.0.97.tar.gz
+[2023-08-06 06:45:42] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-06 06:45:42] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.96.tar.gz tmp/iman-0.0.97.tar.gz --markdown 20230806/i/iman/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-08-06 06:45:43] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.343.tar.gz]
+[2023-08-06 06:45:43] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.345.tar.gz]
+[2023-08-06 06:45:43] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-06 06:45:43] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.96.tar.gz]
+[2023-08-06 06:45:43] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.97.tar.gz]
+[2023-08-06 06:45:43] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-06 06:45:43] INFO root fetch - main [MainThread]: Store serial: [19191216]
