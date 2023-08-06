@@ -1134,3 +1134,156 @@
 [2023-08-06 02:14:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2023-08-06 02:14:16] INFO root fetch - main [MainThread]: Store serial: [19190056]
+[2023-08-06 02:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190056]
+[2023-08-06 02:19:25] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-gitlab-runner
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-skylight
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Leye-classifer
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpsvis
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-08-06 02:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datasette-sqlite-jsonschema
+[2023-08-06 02:19:25] WARNING root fetch - processPackages [cpsvis]: Skipping, unable to determine old version
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cpsvis]: Start processing: sqlite-jsonschema
+[2023-08-06 02:19:25] INFO root fetch - main [MainThread]: End processing [cpsvis] error
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-06 02:19:25] WARNING root fetch - processPackages [Leye-classifer]: Skipping, unable to determine old version
+[2023-08-06 02:19:25] INFO root fetch - processPackages [Leye-classifer]: Start processing: sqlite-utils-sqlite-jsonschema
+[2023-08-06 02:19:25] INFO root fetch - main [MainThread]: End processing [Leye-classifer] error
+[2023-08-06 02:19:25] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230805] Old Version: [0.5.0.dev20230804]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [sqlite-jsonschema]: New version: [0.2.3a7] Old Version: [0.2.3a6]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-08-06 02:19:25] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: New version: [0.2.3a7] Old Version: [0.2.3a6]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:19:25] WARNING root fetch - processPackages [sqlite-utils-sqlite-jsonschema]: Skipping, unable to determine old version
+[2023-08-06 02:19:25] INFO root fetch - processPackages [sqlite-utils-sqlite-jsonschema]: Start processing: instld
+[2023-08-06 02:19:25] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-jsonschema] error
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-08-06 02:19:25] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/ce/99/0af755f100bbb20c3344849de0132a3e08650ba52199984705954c4d6632/pytorch-ignite-0.5.0.dev20230804.tar.gz
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-06 02:19:25] INFO root fetch - processPackages [instld]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 02:19:25] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-06 02:19:25] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/80/52/58ba6af126b8d4511b2e7fe5c9be36390876aa13a09c0ef06e247b501a0d/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl
+[2023-08-06 02:19:25] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/d5/c3/ac8d465c51b153ab9ca41c8eb17cc5f485816a116799d9ad729a974f77d8/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [instld]: Downloading https://files.pythonhosted.org/packages/94/b6/2ef45253ee9aad197b8770547f82d6b523cc2bf1ccd71a25ad947309078f/instld-0.0.8.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/41/d0/b2974fe700ad20d16af96e5c2306c520b00c48abddd4617f3a486ab04ebb/pytorch-ignite-0.5.0.dev20230805.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230806/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/ee/10/773640531eeaeb78e8ec82092fe28559221e447e41955d79e86a39e7ec66/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230806/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230804.tar.gz tmp/pytorch-ignite-0.5.0.dev20230805.tar.gz --markdown 20230806/p/pytorch-ignite/0.5.0.dev20230804-0.5.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip tmp/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-jsonschema/0.2.3a6-0.2.3a7/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230806/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230806/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [instld]: Downloading https://files.pythonhosted.org/packages/b5/79/69f1cd8dcd5405b819c6db4abefb0a62ca3f00bbf27b033792a133e9c741/instld-0.0.9.tar.gz
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230806/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230806/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:26] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-08-06 02:19:26] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.8.tar.gz tmp/instld-0.0.9.tar.gz --markdown 20230806/i/instld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 02:19:27] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/80/3c/088952b43f715b95a11986e3a4d5b8c330a111dc5b6f8436816be6d6f6a1/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl
+[2023-08-06 02:19:27] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2023-08-06 02:19:27] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2023-08-06 02:19:27] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Start processing: a-bigelow.cdk-eventbridge-partner-processors
+[2023-08-06 02:19:27] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-08-06 02:19:27] INFO root fetch - processPackages [sqlite-jsonschema]: executing diffoscope
+[2023-08-06 02:19:27] INFO root fetch - processPackages [sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip tmp/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-jsonschema/0.2.3a6-0.2.3a7/diff.md --exclude *.pyd
+[2023-08-06 02:19:27] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:19:27] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/48/a8/263041f72e28e48a61da3038506e6dff7e193f0a9a99659f5af5f290f46f/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/30/d0/0f99b15dece1c9b0a7f7827179d38814c1186e463612d88b29c6737b4b2e/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-events-notify]: Start processing: BeyotekTools
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-amazon-chime-resources
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl.zip]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-jsonschema]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: executing diffoscope
+[2023-08-06 02:19:28] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz --markdown 20230806/a/a-bigelow.cdk-eventbridge-partner-processors/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-skylight]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [instld]: Remove: archive file [/home/abi/fetcher/tmp/instld-0.0.8.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [instld]: Remove: archive file [/home/abi/fetcher/tmp/instld-0.0.9.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [instld]: Start processing: web3-app
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b1/5a/350419fcc4934eb7b76f3957a52f5777cb1e7c7e1fd8efc88084c7b85ba8/BeyotekTools-0.0.3.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-common]: Start processing: cdklabs.appsync-utils
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-06 02:19:28] WARNING root fetch - processPackages [web3-app]: Skipping, unable to determine old version
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [web3-app] error
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230804.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230805.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:19:28] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-08-06 02:19:28] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/4c/1f/f019739be9179970c83fbab42d121ba579d63b9100ad3250ad36db9c8940/BeyotekTools-0.0.4.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230806/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-08-06 02:19:28] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230806/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:29] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 02:19:29] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.3.tar.gz tmp/BeyotekTools-0.0.4.tar.gz --markdown 20230806/B/BeyotekTools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20230806/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-08-06 02:19:29] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.3.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.4.tar.gz]
+[2023-08-06 02:19:29] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 02:19:30] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2023-08-06 02:19:30] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2023-08-06 02:19:30] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-08-06 02:19:30] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz]
+[2023-08-06 02:19:30] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz]
+[2023-08-06 02:19:30] INFO root fetch - main [MainThread]: End processing [a-bigelow.cdk-eventbridge-partner-processors]: success
+[2023-08-06 02:19:37] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:19:37] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:19:37] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
+[2023-08-06 02:19:37] INFO root fetch - main [MainThread]: Store serial: [19190119]
