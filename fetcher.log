@@ -3825,3 +3825,24 @@
 [2023-08-06 06:30:11] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.2.tar.gz]
 [2023-08-06 06:30:11] INFO root fetch - main [MainThread]: End processing [option-trader]: success
 [2023-08-06 06:30:11] INFO root fetch - main [MainThread]: Store serial: [19191196]
+[2023-08-06 06:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191196]
+[2023-08-06 06:35:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 06:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medisearch-client
+[2023-08-06 06:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflekt
+[2023-08-06 06:35:20] INFO root fetch - processPackages [medisearch-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-06 06:35:20] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/dc/cd/9a8eb518ed6fa5cc438a2e8450717987f028e51ca6610e935f9f8f57e426/medisearch_client-0.1.7.tar.gz
+[2023-08-06 06:35:20] INFO root fetch - processPackages [reflekt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 06:35:20] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/8d/bd/30f6bbc93d69f5f2f78440c47b713aa65c9d50af7b3b8fa51fb73400458e/reflekt-0.3.8.tar.gz
+[2023-08-06 06:35:20] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/5d/c0/90e91f7fbf56aa303670bacefc2e68d7371cccbf3c2243188354cb95da01/medisearch_client-0.1.8.tar.gz
+[2023-08-06 06:35:20] INFO root fetch - processPackages [medisearch-client]: executing diffoscope
+[2023-08-06 06:35:20] INFO root fetch - processPackages [medisearch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisearch_client-0.1.7.tar.gz tmp/medisearch_client-0.1.8.tar.gz --markdown 20230806/m/medisearch-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-06 06:35:21] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/b2/b5/eb6640c0d03cf9605ed0c60c9f08b8835429b2b1081d64788659536e312f/reflekt-0.3.9.tar.gz
+[2023-08-06 06:35:21] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.7.tar.gz]
+[2023-08-06 06:35:21] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.8.tar.gz]
+[2023-08-06 06:35:21] INFO root fetch - main [MainThread]: End processing [medisearch-client]: success
+[2023-08-06 06:35:21] INFO root fetch - processPackages [reflekt]: executing diffoscope
+[2023-08-06 06:35:21] INFO root fetch - processPackages [reflekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflekt-0.3.8.tar.gz tmp/reflekt-0.3.9.tar.gz --markdown 20230806/r/reflekt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 06:35:22] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.8.tar.gz]
+[2023-08-06 06:35:22] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.9.tar.gz]
+[2023-08-06 06:35:22] INFO root fetch - main [MainThread]: End processing [reflekt]: success
+[2023-08-06 06:35:22] INFO root fetch - main [MainThread]: Store serial: [19191202]
