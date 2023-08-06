@@ -7016,3 +7016,63 @@
 [2023-08-06 12:02:47] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.0.tar.gz]
 [2023-08-06 12:02:47] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
 [2023-08-06 12:02:47] INFO root fetch - main [MainThread]: Store serial: [19192871]
+[2023-08-06 12:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192871]
+[2023-08-06 12:07:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uploader-client
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlrun
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tempmail-python
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latest-torch
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dm-reverb-nightly
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edu-rdm-integration
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: os-file-handler
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezsynth
+[2023-08-06 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rwai
+[2023-08-06 12:07:56] WARNING root fetch - processPackages [tempmail-python]: Skipping, unable to determine old version
+[2023-08-06 12:07:56] INFO root fetch - main [MainThread]: End processing [tempmail-python] error
+[2023-08-06 12:07:56] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 12:07:56] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-08-06 12:07:56] WARNING root fetch - processPackages [latest-torch]: Skipping, unable to determine old version
+[2023-08-06 12:07:56] INFO root fetch - main [MainThread]: End processing [latest-torch] error
+[2023-08-06 12:07:56] INFO root fetch - processPackages [uploader-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 12:07:56] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/25/7a/eeb076000df7226591d744233eed8386329f0599027e1a7219bb87f85648/edu-rdm-integration-0.2.0.tar.gz
+[2023-08-06 12:07:56] WARNING root fetch - processPackages [ezsynth]: Skipping, unable to determine old version
+[2023-08-06 12:07:56] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:07:56] INFO root fetch - processPackages [os-file-handler]: New version: [1.20] Old Version: [1.19]
+[2023-08-06 12:07:56] WARNING root fetch - processPackages [rwai]: Skipping, unable to determine old version
+[2023-08-06 12:07:56] INFO root fetch - main [MainThread]: End processing [rwai] error
+[2023-08-06 12:07:56] INFO root fetch - processPackages [mlrun]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-08-06 12:07:56] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-06 12:07:56] INFO root fetch - processPackages [os-file-handler]: Downloading https://files.pythonhosted.org/packages/39/62/dece7d4d71cbac5784dfb5c78ae11369e4a85146c093175c6a5ca76ecd7e/os_file_handler-1.19.tar.gz
+[2023-08-06 12:07:56] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/be/14/1c41479fc23c11459be9c36dd4731a310f267c96b6782630cfc66ab4cf1b/uploader-client-0.1.8.tar.gz
+[2023-08-06 12:07:56] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/ef/71/379e32b8c6c0f04a675330ea98b1b72199ae78431295186e751c2aff8b77/edu-rdm-integration-0.2.1.tar.gz
+[2023-08-06 12:07:56] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/a1/ed/eff95124e8423b7972aad8d2165130e4476ee1f3ac1559022b3f7ecb1443/mlrun-1.5.0rc1-py3-none-any.whl
+[2023-08-06 12:07:56] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-08-06 12:07:56] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-0.2.0.tar.gz tmp/edu-rdm-integration-0.2.1.tar.gz --markdown 20230806/e/edu-rdm-integration/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 12:07:57] INFO root fetch - processPackages [os-file-handler]: Downloading https://files.pythonhosted.org/packages/2d/18/9c849bbac4d571357fd9a1c666a88d7d4039cd26b7292b301451116ff4ea/os_file_handler-1.20.tar.gz
+[2023-08-06 12:07:57] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-06 12:07:57] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/ca/5b/5db0fc048d1930f2ff4aceb98c28242f94b8d48eff7cb1a594c5fc1037cf/uploader-client-0.1.9.tar.gz
+[2023-08-06 12:07:57] INFO root fetch - processPackages [os-file-handler]: executing diffoscope
+[2023-08-06 12:07:57] INFO root fetch - processPackages [os-file-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_file_handler-1.19.tar.gz tmp/os_file_handler-1.20.tar.gz --markdown 20230806/o/os-file-handler/1.19-1.20/diff.md --exclude *.pyd
+[2023-08-06 12:07:57] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-08-06 12:07:57] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.8.tar.gz tmp/uploader-client-0.1.9.tar.gz --markdown 20230806/u/uploader-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 12:07:57] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/38/30/18ff85d4b78727fba4d73c6f7401bc6a5165f1e69ca51c124eba8c55f1ab/mlrun-1.5.0rc2-py3-none-any.whl
+[2023-08-06 12:07:57] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-08-06 12:07:57] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230806/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-08-06 12:07:57] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-08-06 12:07:57] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.5.0rc1-py3-none-any.whl.zip tmp/mlrun-1.5.0rc2-py3-none-any.whl.zip --markdown 20230806/m/mlrun/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-08-06 12:07:58] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.2.0.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.2.1.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-08-06 12:07:58] INFO root fetch - processPackages [os-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_handler-1.19.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - processPackages [os-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/os_file_handler-1.20.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - main [MainThread]: End processing [os-file-handler]: success
+[2023-08-06 12:07:58] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.8.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.9.tar.gz]
+[2023-08-06 12:07:58] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-08-06 12:08:00] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.5.0rc1-py3-none-any.whl.zip]
+[2023-08-06 12:08:00] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.5.0rc2-py3-none-any.whl.zip]
+[2023-08-06 12:08:00] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-08-06 12:08:30] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-06 12:08:30] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-06 12:08:30] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-08-06 12:08:30] INFO root fetch - main [MainThread]: Store serial: [19192907]
