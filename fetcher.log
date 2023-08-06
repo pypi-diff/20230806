@@ -3918,3 +3918,12 @@
 [2023-08-06 06:50:53] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.3.3.tar.gz]
 [2023-08-06 06:50:53] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
 [2023-08-06 06:50:53] INFO root fetch - main [MainThread]: Store serial: [19191231]
+[2023-08-06 06:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191231]
+[2023-08-06 06:56:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loafer-ng
+[2023-08-06 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mydm
+[2023-08-06 06:56:02] WARNING root fetch - processPackages [mydm]: Skipping, unable to determine old version
+[2023-08-06 06:56:02] INFO root fetch - main [MainThread]: End processing [mydm] error
+[2023-08-06 06:56:02] WARNING root fetch - processPackages [loafer-ng]: Skipping, unable to determine old version
+[2023-08-06 06:56:02] INFO root fetch - main [MainThread]: End processing [loafer-ng] error
+[2023-08-06 06:56:02] INFO root fetch - main [MainThread]: Store serial: [19191244]
