@@ -16385,3 +16385,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:38:05] INFO root fetch - processPackages [sci-annot-eval]: Remove: archive file [/home/abi/fetcher/tmp/sci_annot_eval-0.0.8-py3-none-any.whl.zip]
 [2023-08-06 22:38:05] INFO root fetch - main [MainThread]: End processing [sci-annot-eval]: success
 [2023-08-06 22:38:05] INFO root fetch - main [MainThread]: Store serial: [19197057]
+[2023-08-06 22:43:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197057]
+[2023-08-06 22:43:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 22:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-08-06 22:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-08-06 22:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumibot
+[2023-08-06 22:43:14] INFO root fetch - processPackages [lumibot]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-08-06 22:43:14] INFO root fetch - processPackages [alacorder]: New version: [81.1.9] Old Version: [81.1.8]
+[2023-08-06 22:43:14] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/df/93/cbf4f59f7cf7cdaf24d47ce332772de804d99620f513787ead0890a6a9f7/lumibot-2.7.8.tar.gz
+[2023-08-06 22:43:14] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.3.post0.dev6] Old Version: [3.0.3.post0.dev5]
+[2023-08-06 22:43:14] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23902968>=10485760
+[2023-08-06 22:43:14] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-08-06 22:43:15] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b4/33/8dae78fc48e27a13343f8faa5c164ec0f37b2ed4992169fc7bde83217ce0/alacorder-81.1.8.tar.gz
+[2023-08-06 22:43:15] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/74/08/dace52fe983c43753f7d0134fce89333a2005096ddd86c0813b23ded7dbd/coconut-develop-3.0.3.post0.dev5.tar.gz
+[2023-08-06 22:43:15] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1e/37/e68b59deed10aacfadf3796f5d6cb20915017740a2b24e6ed9e6f6a32f34/alacorder-81.1.9.tar.gz
+[2023-08-06 22:43:15] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-08-06 22:43:15] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.1.8.tar.gz tmp/alacorder-81.1.9.tar.gz --markdown 20230806/a/alacorder/81.1.8-81.1.9/diff.md --exclude *.pyd
+[2023-08-06 22:43:15] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/4f/36/9e46c1179be44e2c1f4316e9292e83f848ac5f81e816e67cc261534b8a76/coconut-develop-3.0.3.post0.dev6.tar.gz
+[2023-08-06 22:43:15] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-08-06 22:43:15] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.3.post0.dev5.tar.gz tmp/coconut-develop-3.0.3.post0.dev6.tar.gz --markdown 20230806/c/coconut-develop/3.0.3.post0.dev5-3.0.3.post0.dev6/diff.md --exclude *.pyd
+[2023-08-06 22:43:16] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.8.tar.gz]
+[2023-08-06 22:43:16] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
+[2023-08-06 22:43:16] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-08-06 22:43:16] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev5.tar.gz]
+[2023-08-06 22:43:16] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.3.post0.dev6.tar.gz]
+[2023-08-06 22:43:16] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-08-06 22:43:16] INFO root fetch - main [MainThread]: Store serial: [19197066]
