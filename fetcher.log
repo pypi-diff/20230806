@@ -2627,3 +2627,45 @@
 [2023-08-06 03:48:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
 [2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
 [2023-08-06 03:48:35] INFO root fetch - main [MainThread]: Store serial: [19190681]
+[2023-08-06 03:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190681]
+[2023-08-06 03:53:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlagEmbedding
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wells-data-pipeline-cores
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BeyotekTools
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyfilter
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: option-trader
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyautomail
+[2023-08-06 03:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gazekit
+[2023-08-06 03:53:44] WARNING root fetch - processPackages [FlagEmbedding]: Skipping, unable to determine old version
+[2023-08-06 03:53:44] INFO root fetch - main [MainThread]: End processing [FlagEmbedding] error
+[2023-08-06 03:53:44] INFO root fetch - processPackages [option-trader]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 03:53:44] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:53:44] WARNING root fetch - processPackages [gazekit]: Skipping, unable to determine old version
+[2023-08-06 03:53:44] INFO root fetch - main [MainThread]: End processing [gazekit] error
+[2023-08-06 03:53:44] WARNING root fetch - processPackages [tinyfilter]: Skipping, unable to determine old version
+[2023-08-06 03:53:44] INFO root fetch - main [MainThread]: End processing [tinyfilter] error
+[2023-08-06 03:53:44] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:53:44] INFO root fetch - processPackages [pyautomail]: New version: [1.5.1.4] Old Version: [1.5.1.3]
+[2023-08-06 03:53:44] WARNING root fetch - processPackages [wells-data-pipeline-cores]: Skipping, unable to determine old version
+[2023-08-06 03:53:44] INFO root fetch - main [MainThread]: End processing [wells-data-pipeline-cores] error
+[2023-08-06 03:53:44] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/e1/ef/2524d65f2f8e9d6637623bda32b1dd7dfdccc809b018ada76950ba2291d8/option_trader-0.2.0.tar.gz
+[2023-08-06 03:53:44] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:53:44] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/ef/62/cb812fa44f98cf591ef2d25c7560f5a6639724873d7d5b0e0401a97769f5/pyautomail-1.5.1.3.tar.gz
+[2023-08-06 03:53:44] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:53:44] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:53:45] INFO root fetch - processPackages [pyautomail]: Downloading https://files.pythonhosted.org/packages/20/25/4b9622d8d5274eb65b9f4f305342465785ec64a21a3a08d8e6f6c8d7e47a/pyautomail-1.5.1.4.tar.gz
+[2023-08-06 03:53:45] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/de/85/57ddc1ed1461fa342b54c9e048301b9bc75d2af50f6d45a09e31edaec02f/option_trader-0.2.1.tar.gz
+[2023-08-06 03:53:45] INFO root fetch - processPackages [pyautomail]: executing diffoscope
+[2023-08-06 03:53:45] INFO root fetch - processPackages [pyautomail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautomail-1.5.1.3.tar.gz tmp/pyautomail-1.5.1.4.tar.gz --markdown 20230806/p/pyautomail/1.5.1.3-1.5.1.4/diff.md --exclude *.pyd
+[2023-08-06 03:53:45] INFO root fetch - processPackages [option-trader]: executing diffoscope
+[2023-08-06 03:53:45] INFO root fetch - processPackages [option-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/option_trader-0.2.0.tar.gz tmp/option_trader-0.2.1.tar.gz --markdown 20230806/o/option-trader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 03:53:45] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 03:53:45] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 03:53:45] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:53:46] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.3.tar.gz]
+[2023-08-06 03:53:46] INFO root fetch - processPackages [pyautomail]: Remove: archive file [/home/abi/fetcher/tmp/pyautomail-1.5.1.4.tar.gz]
+[2023-08-06 03:53:46] INFO root fetch - main [MainThread]: End processing [pyautomail]: success
+[2023-08-06 03:53:46] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.0.tar.gz]
+[2023-08-06 03:53:46] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.1.tar.gz]
+[2023-08-06 03:53:46] INFO root fetch - main [MainThread]: End processing [option-trader]: success
+[2023-08-06 03:53:46] INFO root fetch - main [MainThread]: Store serial: [19190704]
