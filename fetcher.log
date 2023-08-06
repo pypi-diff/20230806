@@ -10720,3 +10720,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:20:50] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.6.7.tar.gz]
 [2023-08-06 16:20:50] INFO root fetch - main [MainThread]: End processing [getajob]: success
 [2023-08-06 16:20:50] INFO root fetch - main [MainThread]: Store serial: [19194506]
+[2023-08-06 16:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194506]
+[2023-08-06 16:25:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jlogr
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-order-to-sale-order
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poxy
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensor-parallel
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysqlitedbextV1
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lectern
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cagen
+[2023-08-06 16:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipeline-ai
+[2023-08-06 16:25:59] INFO root fetch - processPackages [lectern]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [jlogr]: New version: [0.1.204] Old Version: [0.1.203]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pysqlitedbextV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [lectern]: Downloading https://files.pythonhosted.org/packages/51/af/8b7db8850fcb46e1ffb6a0d87b2dcd16ebe41dea9c55fd0f5c2850e67580/lectern-0.9.2.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [tensor-parallel]: New version: [2.0.0] Old Version: [1.3.2]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [poxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pipeline-ai]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [cagen]: New version: [0.2.0rc5] Old Version: [0.2.0rc4]
+[2023-08-06 16:25:59] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/75/a5/a3549632c573c7dbedbbdf759e595744666e816b3a711b75228ae4c474ed/jlogr-0.1.203.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/df/c7/15335af7b200e4d087c23cdac5a91bcf2bab3e749937cca68fe7d656dfb9/odoo_addon_pos_order_to_sale_order-16.0.1.0.3-py3-none-any.whl
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pysqlitedbextV1]: Downloading https://files.pythonhosted.org/packages/a7/15/b146cce2666d05f04ba6bd9f8150d743953e1b9f5f5034b73828657d3604/pysqlitedbextV1-1.0.0.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/da/20/9afa98e9e35db63cbe38be2293f0f3970cfc675fac8e0503fb503422805a/cagen-0.2.0rc4.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/ba/a3/ff7052f9b2efdfce62998264cb2b7a2a51191ed1861e5f8790ce1d76fc25/pipeline_ai-1.0.0b1.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/dc/29/90051aacc14dfbeceb287b763143ffd65599d8f148340799c3e6453e40d5/poxy-0.9.0.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [tensor-parallel]: Downloading https://files.pythonhosted.org/packages/d1/b2/acb73b4ca7e8e0e4ca4dba4abbe0b91276fe1b6bf65b964e242a54bfb578/tensor_parallel-1.3.2.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/76/b4/10e2785e7efc49b8ba53f0a5a0df642baf1f73de4edb7e630a01f630082c/jlogr-0.1.204.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pysqlitedbextV1]: Downloading https://files.pythonhosted.org/packages/48/dc/ee46612e047365da49599711ab5a7091227bb793d1ce79a0ff50bd576fed/pysqlitedbextV1-1.1.0.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/a2/f0/c4e69269679abb7fb148077593796b800f2a6dc4170ac04fd4e0a02419d8/odoo_addon_pos_order_to_sale_order-16.0.1.0.4-py3-none-any.whl
+[2023-08-06 16:25:59] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/36/87/6c47d215fe4a187ccdb0952f235cac1abec8fab3c1aa9c188a57f4fb553a/cagen-0.2.0rc5.tar.gz
+[2023-08-06 16:25:59] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/7c/cd/893fa3f3b0f94a330795dc80f4effe326ce1f3a9821d38197299b8d42ad4/pipeline_ai-1.0.0b2.tar.gz
+[2023-08-06 16:26:00] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.203.tar.gz tmp/jlogr-0.1.204.tar.gz --markdown 20230806/j/jlogr/0.1.203-0.1.204/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [pysqlitedbextV1]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [pysqlitedbextV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlitedbextV1-1.0.0.tar.gz tmp/pysqlitedbextV1-1.1.0.tar.gz --markdown 20230806/p/pysqlitedbextV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [tensor-parallel]: Downloading https://files.pythonhosted.org/packages/b6/d0/47dfc3c2b977ca04724cbefb566e4dfa2132b67651bacd0afb32f081e3de/tensor_parallel-2.0.0.tar.gz
+[2023-08-06 16:26:00] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/2a/cd/8efe8291d94f43149c6217dff50dbe93a987fd984d03c903f46a7d47f7e4/poxy-0.9.1.tar.gz
+[2023-08-06 16:26:00] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230806/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230806/o/odoo-addon-pos-order-to-sale-order/16.0.1.0.3-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0rc4.tar.gz tmp/cagen-0.2.0rc5.tar.gz --markdown 20230806/c/cagen/0.2.0rc4-0.2.0rc5/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-1.0.0b1.tar.gz tmp/pipeline_ai-1.0.0b2.tar.gz --markdown 20230806/p/pipeline-ai/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [tensor-parallel]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [tensor-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensor_parallel-1.3.2.tar.gz tmp/tensor_parallel-2.0.0.tar.gz --markdown 20230806/t/tensor-parallel/1.3.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [poxy]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [poxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poxy-0.9.0.tar.gz tmp/poxy-0.9.1.tar.gz --markdown 20230806/p/poxy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-06 16:26:00] INFO root fetch - processPackages [lectern]: Downloading https://files.pythonhosted.org/packages/99/fd/e4d0f881f7c42beea6e38b0b7382279504f099361376c851a7daffa7c46d/lectern-0.9.3.tar.gz
+[2023-08-06 16:26:00] INFO root fetch - processPackages [lectern]: executing diffoscope
+[2023-08-06 16:26:00] INFO root fetch - processPackages [lectern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectern-0.9.2.tar.gz tmp/lectern-0.9.3.tar.gz --markdown 20230806/l/lectern/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 16:26:01] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.203.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.204.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [pysqlitedbextV1]: Remove: archive file [/home/abi/fetcher/tmp/pysqlitedbextV1-1.0.0.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [pysqlitedbextV1]: Remove: archive file [/home/abi/fetcher/tmp/pysqlitedbextV1-1.1.0.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [pysqlitedbextV1]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc4.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [cagen]: Remove: archive file [/home/abi/fetcher/tmp/cagen-0.2.0rc5.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-1.0.0b1.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-1.0.0b2.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [tensor-parallel]: Remove: archive file [/home/abi/fetcher/tmp/tensor_parallel-1.3.2.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [tensor-parallel]: Remove: archive file [/home/abi/fetcher/tmp/tensor_parallel-2.0.0.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [tensor-parallel]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-order-to-sale-order]: success
+[2023-08-06 16:26:01] INFO root fetch - processPackages [lectern]: Remove: archive file [/home/abi/fetcher/tmp/lectern-0.9.2.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - processPackages [lectern]: Remove: archive file [/home/abi/fetcher/tmp/lectern-0.9.3.tar.gz]
+[2023-08-06 16:26:01] INFO root fetch - main [MainThread]: End processing [lectern]: success
+[2023-08-06 16:26:03] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.0.tar.gz]
+[2023-08-06 16:26:03] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.1.tar.gz]
+[2023-08-06 16:26:03] INFO root fetch - main [MainThread]: End processing [poxy]: success
+[2023-08-06 16:26:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-08-06 16:26:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-08-06 16:26:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-08-06 16:26:03] INFO root fetch - main [MainThread]: Store serial: [19194537]
