@@ -16081,3 +16081,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:12:09] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
 [2023-08-06 22:12:09] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-08-06 22:12:09] INFO root fetch - main [MainThread]: Store serial: [19196904]
+[2023-08-06 22:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196904]
+[2023-08-06 22:17:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betabageldb
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: networkx-gdf
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ScriptCollection
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holamundoplayer1
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fracture-suite
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bw-matchbox
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hezar
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyko-sdk
+[2023-08-06 22:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amalgam-lang
+[2023-08-06 22:17:19] INFO root fetch - processPackages [networkx-gdf]: New version: [1.0.post1] Old Version: [1.0]
+[2023-08-06 22:17:19] INFO root fetch - processPackages [betabageldb]: New version: [0.2.31] Old Version: [0.2.2]
+[2023-08-06 22:17:19] INFO root fetch - processPackages [bw-matchbox]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-08-06 22:17:19] WARNING root fetch - processPackages [fracture-suite]: Skipping, unable to determine old version
+[2023-08-06 22:17:19] INFO root fetch - main [MainThread]: End processing [fracture-suite] error
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-06 22:17:19] INFO root fetch - processPackages [ScriptCollection]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-08-06 22:17:19] WARNING root fetch - processPackages [amalgam-lang]: Skipping, unable to determine old version
+[2023-08-06 22:17:19] INFO root fetch - main [MainThread]: End processing [amalgam-lang] error
+[2023-08-06 22:17:19] WARNING root fetch - processPackages [holamundoplayer1]: Skipping, unable to determine old version
+[2023-08-06 22:17:19] INFO root fetch - main [MainThread]: End processing [holamundoplayer1] error
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hezar]: New version: [0.21.0] Old Version: [0.20.1]
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/d0/57/bdb6010e756cf611d76fbd9df2945c2db6e652575542810dad5df83bea39/betabageldb-0.2.2.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/b5/5e/ed917d43ef7067bd0d89d710e1586bc3a7ab0a4aaa7490f7a7bcf8b2e28a/bw_matchbox-0.6.1.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [networkx-gdf]: Downloading https://files.pythonhosted.org/packages/0b/ae/1e5169dd22ef2df2e7eda5ddbc14c7ce379ae54177aa882b981d22c7b843/networkx-gdf-1.0.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/94/6a/9f7c695146680fa3c59ffe6929ee98ec36dcb44c263994d81dadb25a0d27/ScriptCollection-3.4.8-py3-none-any.whl
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d2/17/6dd321aa26c7d4f8696464199f28ade175d25da4fac152e1031400620101/hezar-0.20.1.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230806/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-06 22:17:19] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/5c/fe/e2a14b739c946d7fff7e7b2c3d3887ff4afe11720f3c5e8f9c0987753045/bw_matchbox-0.7.0.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/12/4b/0563c38cb404e1c2e16c1a9f94b8ae3d89b2c77b4fe0f72dc77aef2a50c4/betabageldb-0.2.31.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [networkx-gdf]: Downloading https://files.pythonhosted.org/packages/52/63/89c5c5e18641668a29e215a39d9f595e97f58002c4f4fdfaa078de1a65e4/networkx-gdf-1.0.post1.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-06 22:17:19] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-0.6.1.tar.gz tmp/bw_matchbox-0.7.0.tar.gz --markdown 20230806/b/bw-matchbox/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 22:17:19] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/6d/e3/446a963e5eb78b0db6864a3444a71c28fe53b596c32c44cd82de0caeb1ff/ScriptCollection-3.4.9-py3-none-any.whl
+[2023-08-06 22:17:19] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/e6/56/fb23e570afd4f2b263d88cb4bad5dcf45ff846c748244f3c2c0d5a01a911/hezar-0.21.0.tar.gz
+[2023-08-06 22:17:19] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-08-06 22:17:19] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.2.2.tar.gz tmp/betabageldb-0.2.31.tar.gz --markdown 20230806/b/betabageldb/0.2.2-0.2.31/diff.md --exclude *.pyd
+[2023-08-06 22:17:19] INFO root fetch - processPackages [networkx-gdf]: executing diffoscope
+[2023-08-06 22:17:19] INFO root fetch - processPackages [networkx-gdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkx-gdf-1.0.tar.gz tmp/networkx-gdf-1.0.post1.tar.gz --markdown 20230806/n/networkx-gdf/1.0-1.0.post1/diff.md --exclude *.pyd
+[2023-08-06 22:17:19] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-08-06 22:17:19] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.4.8-py3-none-any.whl.zip tmp/ScriptCollection-3.4.9-py3-none-any.whl.zip --markdown 20230806/S/ScriptCollection/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-08-06 22:17:20] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-06 22:17:20] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.20.1.tar.gz tmp/hezar-0.21.0.tar.gz --markdown 20230806/h/hezar/0.20.1-0.21.0/diff.md --exclude *.pyd
+[2023-08-06 22:17:20] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b8.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b9.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-06 22:17:20] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.2.2.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.2.31.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-08-06 22:17:20] INFO root fetch - processPackages [networkx-gdf]: Remove: archive file [/home/abi/fetcher/tmp/networkx-gdf-1.0.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - processPackages [networkx-gdf]: Remove: archive file [/home/abi/fetcher/tmp/networkx-gdf-1.0.post1.tar.gz]
+[2023-08-06 22:17:20] INFO root fetch - main [MainThread]: End processing [networkx-gdf]: success
+[2023-08-06 22:17:20] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.8-py3-none-any.whl.zip]
+[2023-08-06 22:17:20] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.9-py3-none-any.whl.zip]
+[2023-08-06 22:17:20] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-08-06 22:17:21] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.20.1.tar.gz]
+[2023-08-06 22:17:21] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.0.tar.gz]
+[2023-08-06 22:17:21] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-06 22:17:21] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.1.tar.gz]
+[2023-08-06 22:17:21] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.7.0.tar.gz]
+[2023-08-06 22:17:21] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-06 22:17:21] INFO root fetch - main [MainThread]: Store serial: [19196940]
