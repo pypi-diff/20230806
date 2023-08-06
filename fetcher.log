@@ -8599,3 +8599,46 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:04:37] INFO root fetch - processPackages [streamflow]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-0.2.0.dev7.tar.gz]
 [2023-08-06 14:04:37] INFO root fetch - main [MainThread]: End processing [streamflow]: success
 [2023-08-06 14:04:37] INFO root fetch - main [MainThread]: Store serial: [19193498]
+[2023-08-06 14:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193498]
+[2023-08-06 14:09:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teneva-bm
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mtok
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lugong
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu-aws
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lupan
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fletbox
+[2023-08-06 14:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sounderpy
+[2023-08-06 14:09:45] INFO root fetch - processPackages [fletbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 14:09:46] INFO root fetch - processPackages [teneva-bm]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-06 14:09:46] WARNING root fetch - processPackages [lupan]: Skipping, unable to determine old version
+[2023-08-06 14:09:46] INFO root fetch - main [MainThread]: End processing [lupan] error
+[2023-08-06 14:09:46] WARNING root fetch - processPackages [mtok]: Skipping, unable to determine old version
+[2023-08-06 14:09:46] INFO root fetch - main [MainThread]: End processing [mtok] error
+[2023-08-06 14:09:46] WARNING root fetch - processPackages [lugong]: Skipping, unable to determine old version
+[2023-08-06 14:09:46] INFO root fetch - main [MainThread]: End processing [lugong] error
+[2023-08-06 14:09:46] INFO root fetch - processPackages [fletbox]: Downloading https://files.pythonhosted.org/packages/e5/4d/54fa957a3ae3bcd835dc087019d0581fecef476ddd0cdefed26517731ce9/fletbox-0.0.7.tar.gz
+[2023-08-06 14:09:46] INFO root fetch - processPackages [sounderpy]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-08-06 14:09:46] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-06 14:09:46] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/5f/59/5fbea886b1f3191551a068760a48d79217aebe5c70ce54e4da5b76779873/teneva_bm-0.7.1.tar.gz
+[2023-08-06 14:09:46] INFO root fetch - processPackages [fletbox]: executing diffoscope
+[2023-08-06 14:09:46] INFO root fetch - processPackages [fletbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletbox-0.0.7.tar.gz tmp/fletbox-0.0.8.tar.gz --markdown 20230806/f/fletbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:09:46] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/13/83/e53efdf16f848083ddbc7278c5a4a789685f2de9531be4d2800a520829c5/sounderpy-2.2.0.tar.gz
+[2023-08-06 14:09:46] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/b7/d3/b517c729bcbeb7cd71afac1beca83d68409078dd213d3caacfef0ade7a78/tf_nightly_cpu_aws-2.15.0.dev20230805-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-06 14:09:46] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 263102259>=10485760
+[2023-08-06 14:09:46] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-08-06 14:09:46] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/c4/5c40dfc9814ed83da12d0f915893f6d10e508c66aa97dbc855cc89409301/teneva_bm-0.7.2.tar.gz
+[2023-08-06 14:09:46] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-08-06 14:09:46] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.7.1.tar.gz tmp/teneva_bm-0.7.2.tar.gz --markdown 20230806/t/teneva-bm/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-06 14:09:46] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2c/75/a690562bc0f4ca16bd4e3043816d07fef7deb0cf10a3e0468deddedd5d84/sounderpy-2.3.0.tar.gz
+[2023-08-06 14:09:46] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.0.7.tar.gz]
+[2023-08-06 14:09:46] INFO root fetch - processPackages [fletbox]: Remove: archive file [/home/abi/fetcher/tmp/fletbox-0.0.8.tar.gz]
+[2023-08-06 14:09:46] INFO root fetch - main [MainThread]: End processing [fletbox]: success
+[2023-08-06 14:09:46] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 14:09:46] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-2.2.0.tar.gz tmp/sounderpy-2.3.0.tar.gz --markdown 20230806/s/sounderpy/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-08-06 14:09:47] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.1.tar.gz]
+[2023-08-06 14:09:47] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.2.tar.gz]
+[2023-08-06 14:09:47] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-08-06 14:09:47] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.2.0.tar.gz]
+[2023-08-06 14:09:47] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.3.0.tar.gz]
+[2023-08-06 14:09:47] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 14:09:47] INFO root fetch - main [MainThread]: Store serial: [19193520]
