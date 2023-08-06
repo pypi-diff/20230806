@@ -2546,3 +2546,84 @@
 [2023-08-06 03:43:24] INFO root fetch - processPackages [kgenealogic]: Remove: archive file [/home/abi/fetcher/tmp/kgenealogic-0.1.2.tar.gz]
 [2023-08-06 03:43:24] INFO root fetch - main [MainThread]: End processing [kgenealogic]: success
 [2023-08-06 03:43:24] INFO root fetch - main [MainThread]: Store serial: [19190649]
+[2023-08-06 03:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190649]
+[2023-08-06 03:48:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BeyotekTools
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sounderpy
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: klongpy
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BeyotekTools
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huma-utils
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shaped-target-clickhouse
+[2023-08-06 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gazekit
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [sounderpy]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [huma-utils]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [klongpy]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [shaped-target-clickhouse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-06 03:48:33] WARNING root fetch - processPackages [gazekit]: Skipping, unable to determine old version
+[2023-08-06 03:48:33] INFO root fetch - main [MainThread]: End processing [gazekit] error
+[2023-08-06 03:48:33] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.939] Old Version: [0.0.938]
+[2023-08-06 03:48:33] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-06 03:48:33] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-06 03:48:33] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2a/22/04432516186858bd57e086c5a0567028b7029989d1a0581552fbfe3730e4/sounderpy-1.0.1.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [huma-utils]: Downloading https://files.pythonhosted.org/packages/32/e8/728c26dbc51c6848ae2057e5e19eb26eef6b828372a24a98f08e4d99bbe7/huma_utils-0.4.0.tar.gz
+[2023-08-06 03:48:33] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-06 03:48:33] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-06 03:48:33] INFO root fetch - processPackages [shaped-target-clickhouse]: Downloading https://files.pythonhosted.org/packages/6e/97/fe49f705ef85c1b62715b1e9d3c66e3070a6e2149626f33a236b4dd97f44/shaped_target_clickhouse-0.0.5.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/da/ac/171b9693ca5330f19ff3658b16b72895ccdbb3a39767055d19993d80a660/klongpy-0.4.2.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/50/d6/142cc8360cb6ef737ad74bacd7678296cbf2cbdc426ce12f0c953ef646c0/nbdev-apl-0.0.938.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:48:33] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/f7/d1/e8bc7fd333514563a86b6bcd438be05f3d309665017115d008216bdf6574/sounderpy-2.0.0.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [shaped-target-clickhouse]: Downloading https://files.pythonhosted.org/packages/53/11/64fa3689cf3e616586e7d3ee42def17e173bdb0598e6c56abfbd935649ae/shaped_target_clickhouse-0.0.6.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230806/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/9b/4a/7b46d821e716df586676c3fc0c5c6809f2ac81ddd34d090738a5d520fc7e/klongpy-0.4.3.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [huma-utils]: Downloading https://files.pythonhosted.org/packages/99/62/51090f8b4c510199b576375859f0b9fa7ae84bdfbfe69f83dcdcfc5e39dd/huma_utils-0.5.0.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1a/aa/de4cdb8389bff5b399c95973ccc6c7cfbc2ccf0c7bfc5893d1a0b93ac71a/nbdev-apl-0.0.939.tar.gz
+[2023-08-06 03:48:34] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.4.2.tar.gz tmp/klongpy-0.4.3.tar.gz --markdown 20230806/k/klongpy/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.938.tar.gz tmp/nbdev-apl-0.0.939.tar.gz --markdown 20230806/n/nbdev-apl/0.0.938-0.0.939/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-1.0.1.tar.gz tmp/sounderpy-2.0.0.tar.gz --markdown 20230806/s/sounderpy/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [shaped-target-clickhouse]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [shaped-target-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaped_target_clickhouse-0.0.5.tar.gz tmp/shaped_target_clickhouse-0.0.6.tar.gz --markdown 20230806/s/shaped-target-clickhouse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 03:48:34] INFO root fetch - processPackages [huma-utils]: executing diffoscope
+[2023-08-06 03:48:34] INFO root fetch - processPackages [huma-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_utils-0.4.0.tar.gz tmp/huma_utils-0.5.0.tar.gz --markdown 20230806/h/huma-utils/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-06 03:48:35] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [shaped-target-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/shaped_target_clickhouse-0.0.5.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [shaped-target-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/shaped_target_clickhouse-0.0.6.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [shaped-target-clickhouse]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.938.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.939.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [huma-utils]: Remove: archive file [/home/abi/fetcher/tmp/huma_utils-0.4.0.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [huma-utils]: Remove: archive file [/home/abi/fetcher/tmp/huma_utils-0.5.0.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [huma-utils]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-1.0.1.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.0.0.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.2.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.3.tar.gz]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-08-06 03:48:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-06 03:48:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-06 03:48:35] INFO root fetch - main [MainThread]: Store serial: [19190681]
