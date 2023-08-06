@@ -15573,3 +15573,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:30:29] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.4.tar.gz]
 [2023-08-06 21:30:29] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
 [2023-08-06 21:30:29] INFO root fetch - main [MainThread]: Store serial: [19196705]
+[2023-08-06 21:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196705]
+[2023-08-06 21:35:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: segretini-matplottini
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verma
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: segytools
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playwright-recaptcha
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoverkiz
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: archery
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libssp-py
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyenphase
+[2023-08-06 21:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fluxwallet
+[2023-08-06 21:35:37] WARNING root fetch - processPackages [libssp-py]: Skipping, unable to determine old version
+[2023-08-06 21:35:37] INFO root fetch - main [MainThread]: End processing [libssp-py] error
+[2023-08-06 21:35:37] WARNING root fetch - processPackages [verma]: Skipping, unable to determine old version
+[2023-08-06 21:35:37] INFO root fetch - main [MainThread]: End processing [verma] error
+[2023-08-06 21:35:37] INFO root fetch - processPackages [pyoverkiz]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-06 21:35:37] INFO root fetch - processPackages [playwright-recaptcha]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-06 21:35:37] INFO root fetch - processPackages [segytools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 21:35:38] INFO root fetch - processPackages [archery]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 21:35:38] INFO root fetch - processPackages [fluxwallet]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/53/27/7abb80271980dbddf8f3faa52ab60747ecea4c715aabdcd98a5bceeb622e/pyoverkiz-1.9.0.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [playwright-recaptcha]: Downloading https://files.pythonhosted.org/packages/9a/d2/727a280e0cc3f8992feccbac6a588a143586f763093a70e79be63bf7f1ea/playwright-recaptcha-0.3.1.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segytools]: Downloading https://files.pythonhosted.org/packages/15/4b/7ec50183db9f7e3c5c7b0f0bb12a81ea7e7655620dfd503887fd9463b610/segytools-0.2.1.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/f5/fa/72e727db1146fc567f1c3a147fd27bfed00e7cd922b7628113f48db8474e/segretini-matplottini-0.2.3.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [archery]: Downloading https://files.pythonhosted.org/packages/d3/cd/4d15d010d6ed7f9099645ac4f7c194efef3dcb4178a9a1adb6daddd2b726/archery-1.2.2.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/06/5a/ed58a3981a97312e6e16823f256ef257c372af82db990f4bba7e89f92520/fluxwallet-0.0.6.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/ff/55/d66079a35c186fd96c662e376c441867c9255468c6ae8501ac1a05a166fc/pyoverkiz-1.9.1.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyoverkiz]: executing diffoscope
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyoverkiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverkiz-1.9.0.tar.gz tmp/pyoverkiz-1.9.1.tar.gz --markdown 20230806/p/pyoverkiz/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-06 21:35:38] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230806/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 21:35:38] INFO root fetch - processPackages [playwright-recaptcha]: Downloading https://files.pythonhosted.org/packages/c5/d4/eff69b25c88078be904b3aac310032db4540c57341f43ff3843b99d51f60/playwright-recaptcha-0.3.2.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segytools]: Downloading https://files.pythonhosted.org/packages/45/8c/16f5d9a65436b96efde868bd7e3bd97f02f93eb7d1502a14674e13f93556/segytools-0.2.2.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [archery]: Downloading https://files.pythonhosted.org/packages/32/df/6002230e936350f29ba911b40ac8e43661fc6cec53f9cf131b44b49203bf/archery-1.3.0.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [playwright-recaptcha]: executing diffoscope
+[2023-08-06 21:35:38] INFO root fetch - processPackages [playwright-recaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwright-recaptcha-0.3.1.tar.gz tmp/playwright-recaptcha-0.3.2.tar.gz --markdown 20230806/p/playwright-recaptcha/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-06 21:35:38] INFO root fetch - processPackages [fluxwallet]: Downloading https://files.pythonhosted.org/packages/5f/8c/59fc078cb0c152d3c222bd158bdea515f697bad1d9ae64c4d1da40b732c7/fluxwallet-0.1.0.tar.gz
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segytools]: executing diffoscope
+[2023-08-06 21:35:38] INFO root fetch - processPackages [segytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segytools-0.2.1.tar.gz tmp/segytools-0.2.2.tar.gz --markdown 20230806/s/segytools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 21:35:38] INFO root fetch - processPackages [archery]: executing diffoscope
+[2023-08-06 21:35:38] INFO root fetch - processPackages [archery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archery-1.2.2.tar.gz tmp/archery-1.3.0.tar.gz --markdown 20230806/a/archery/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-08-06 21:35:39] INFO root fetch - processPackages [fluxwallet]: executing diffoscope
+[2023-08-06 21:35:39] INFO root fetch - processPackages [fluxwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxwallet-0.0.6.tar.gz tmp/fluxwallet-0.1.0.tar.gz --markdown 20230806/f/fluxwallet/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 21:35:39] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/03/35/1d94447a17df6a1391d619009be92573160136a0b326ac7737b90531b613/segretini-matplottini-0.2.4.tar.gz
+[2023-08-06 21:35:39] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 21:35:39] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.3.tar.gz tmp/segretini-matplottini-0.2.4.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 21:35:39] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-06 21:35:39] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.0.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.1.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - main [MainThread]: End processing [pyoverkiz]: success
+[2023-08-06 21:35:39] INFO root fetch - processPackages [playwright-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/playwright-recaptcha-0.3.1.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - processPackages [playwright-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/playwright-recaptcha-0.3.2.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - main [MainThread]: End processing [playwright-recaptcha]: success
+[2023-08-06 21:35:39] INFO root fetch - processPackages [archery]: Remove: archive file [/home/abi/fetcher/tmp/archery-1.2.2.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - processPackages [archery]: Remove: archive file [/home/abi/fetcher/tmp/archery-1.3.0.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - main [MainThread]: End processing [archery]: success
+[2023-08-06 21:35:39] INFO root fetch - processPackages [segytools]: Remove: archive file [/home/abi/fetcher/tmp/segytools-0.2.1.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - processPackages [segytools]: Remove: archive file [/home/abi/fetcher/tmp/segytools-0.2.2.tar.gz]
+[2023-08-06 21:35:39] INFO root fetch - main [MainThread]: End processing [segytools]: success
+[2023-08-06 21:35:40] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.0.6.tar.gz]
+[2023-08-06 21:35:40] INFO root fetch - processPackages [fluxwallet]: Remove: archive file [/home/abi/fetcher/tmp/fluxwallet-0.1.0.tar.gz]
+[2023-08-06 21:35:40] INFO root fetch - main [MainThread]: End processing [fluxwallet]: success
+[2023-08-06 21:35:41] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.3.tar.gz]
+[2023-08-06 21:35:41] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.4.tar.gz]
+[2023-08-06 21:35:41] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 21:35:41] INFO root fetch - main [MainThread]: Store serial: [19196731]
