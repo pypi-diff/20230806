@@ -2014,3 +2014,30 @@
 [2023-08-06 02:59:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-08-06 02:59:49] INFO root fetch - main [MainThread]: Store serial: [19190398]
+[2023-08-06 03:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190398]
+[2023-08-06 03:04:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 03:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simoc-abm
+[2023-08-06 03:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-08-06 03:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: search-youtube-url
+[2023-08-06 03:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serenity.sdk.python
+[2023-08-06 03:04:58] WARNING root fetch - processPackages [search-youtube-url]: Skipping, unable to determine old version
+[2023-08-06 03:04:58] INFO root fetch - main [MainThread]: End processing [search-youtube-url] error
+[2023-08-06 03:04:58] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:04:58] WARNING root fetch - processPackages [simoc-abm]: Skipping, unable to determine old version
+[2023-08-06 03:04:58] INFO root fetch - main [MainThread]: End processing [simoc-abm] error
+[2023-08-06 03:04:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-08-06 03:04:58] INFO root fetch - processPackages [serenity.sdk.python]: New version: [0.8.8] Old Version: [0.8.45]
+[2023-08-06 03:04:58] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/c3/29/a8ebb1895aded9fae74ef0186926fd216a245e03ecf00065f41e0c0192e7/serenity.sdk.python-0.8.45.tar.gz
+[2023-08-06 03:04:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-08-06 03:04:58] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-08-06 03:04:58] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230806/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:04:58] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/dc/6c/161562d7a4f262384d6d4b1d3c9c2fa2840e4fc06db18ccd55bec414475c/serenity.sdk.python-0.8.8.tar.gz
+[2023-08-06 03:04:59] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-08-06 03:04:59] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-08-06 03:04:59] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-08-06 03:04:59] INFO root fetch - processPackages [serenity.sdk.python]: executing diffoscope
+[2023-08-06 03:04:59] INFO root fetch - processPackages [serenity.sdk.python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serenity.sdk.python-0.8.45.tar.gz tmp/serenity.sdk.python-0.8.8.tar.gz --markdown 20230806/s/serenity.sdk.python/0.8.45-0.8.8/diff.md --exclude *.pyd
+[2023-08-06 03:05:00] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.45.tar.gz]
+[2023-08-06 03:05:00] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.8.tar.gz]
+[2023-08-06 03:05:00] INFO root fetch - main [MainThread]: End processing [serenity.sdk.python]: success
+[2023-08-06 03:05:00] INFO root fetch - main [MainThread]: Store serial: [19190413]
