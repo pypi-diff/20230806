@@ -8340,3 +8340,45 @@
 [2023-08-06 13:54:12] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev4.tar.gz]
 [2023-08-06 13:54:12] INFO root fetch - main [MainThread]: End processing [argrelay]: success
 [2023-08-06 13:54:12] INFO root fetch - main [MainThread]: Store serial: [19193408]
+[2023-08-06 13:59:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193408]
+[2023-08-06 13:59:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Open-CAMERA
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selectpy
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demicode
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conda-forge-metadata
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diambra-arena
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lubanpy
+[2023-08-06 13:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pangupy
+[2023-08-06 13:59:21] INFO root fetch - processPackages [diambra-arena]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-08-06 13:59:21] INFO root fetch - processPackages [selectpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 13:59:21] INFO root fetch - processPackages [conda-forge-metadata]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-06 13:59:21] WARNING root fetch - processPackages [lubanpy]: Skipping, unable to determine old version
+[2023-08-06 13:59:21] INFO root fetch - main [MainThread]: End processing [lubanpy] error
+[2023-08-06 13:59:21] WARNING root fetch - processPackages [Open-CAMERA]: Skipping, unable to determine old version
+[2023-08-06 13:59:21] INFO root fetch - main [MainThread]: End processing [Open-CAMERA] error
+[2023-08-06 13:59:21] WARNING root fetch - processPackages [pangupy]: Skipping, unable to determine old version
+[2023-08-06 13:59:21] INFO root fetch - main [MainThread]: End processing [pangupy] error
+[2023-08-06 13:59:21] WARNING root fetch - processPackages [demicode]: Skipping, unable to determine old version
+[2023-08-06 13:59:21] INFO root fetch - main [MainThread]: End processing [demicode] error
+[2023-08-06 13:59:21] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/36/be/d2c1fdfcc0ada2982dd1414051b7dfd198c6410fd2783d172ac0a6cdf19b/diambra-arena-2.1.0rc8.tar.gz
+[2023-08-06 13:59:21] INFO root fetch - processPackages [selectpy]: Downloading https://files.pythonhosted.org/packages/f6/06/24530f07630fc298be5e5b056b14cf91d57b98803b70eeb41a214fdbd5d6/selectpy-0.0.1.tar.gz
+[2023-08-06 13:59:22] INFO root fetch - processPackages [conda-forge-metadata]: Downloading https://files.pythonhosted.org/packages/18/2b/5dbfec79049ac3ffd58a2fdecbc7b08f28653837ba6482f629bf69791016/conda-forge-metadata-0.5.1.tar.gz
+[2023-08-06 13:59:22] INFO root fetch - processPackages [selectpy]: Downloading https://files.pythonhosted.org/packages/a9/ce/f7712164d28ba78236f3a665f8432608c22dc0cb54099a75d75624b63078/selectpy-0.0.2.tar.gz
+[2023-08-06 13:59:22] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/6c/f7/5a35481a367b79b44cb842b15a2c47b07f5f622cb7bd647ea48e8fe508e0/diambra-arena-2.1.0rc9.tar.gz
+[2023-08-06 13:59:22] INFO root fetch - processPackages [conda-forge-metadata]: Downloading https://files.pythonhosted.org/packages/f8/c5/b3354252d8ee38193c13e4595925c481b44071285424243473a5630774ce/conda-forge-metadata-0.5.2.tar.gz
+[2023-08-06 13:59:22] INFO root fetch - processPackages [selectpy]: executing diffoscope
+[2023-08-06 13:59:22] INFO root fetch - processPackages [selectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selectpy-0.0.1.tar.gz tmp/selectpy-0.0.2.tar.gz --markdown 20230806/s/selectpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 13:59:22] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2023-08-06 13:59:22] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.1.0rc8.tar.gz tmp/diambra-arena-2.1.0rc9.tar.gz --markdown 20230806/d/diambra-arena/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-08-06 13:59:22] INFO root fetch - processPackages [conda-forge-metadata]: executing diffoscope
+[2023-08-06 13:59:22] INFO root fetch - processPackages [conda-forge-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda-forge-metadata-0.5.1.tar.gz tmp/conda-forge-metadata-0.5.2.tar.gz --markdown 20230806/c/conda-forge-metadata/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-06 13:59:23] INFO root fetch - processPackages [selectpy]: Remove: archive file [/home/abi/fetcher/tmp/selectpy-0.0.1.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - processPackages [selectpy]: Remove: archive file [/home/abi/fetcher/tmp/selectpy-0.0.2.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - main [MainThread]: End processing [selectpy]: success
+[2023-08-06 13:59:23] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc8.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc9.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2023-08-06 13:59:23] INFO root fetch - processPackages [conda-forge-metadata]: Remove: archive file [/home/abi/fetcher/tmp/conda-forge-metadata-0.5.1.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - processPackages [conda-forge-metadata]: Remove: archive file [/home/abi/fetcher/tmp/conda-forge-metadata-0.5.2.tar.gz]
+[2023-08-06 13:59:23] INFO root fetch - main [MainThread]: End processing [conda-forge-metadata]: success
+[2023-08-06 13:59:23] INFO root fetch - main [MainThread]: Store serial: [19193434]
