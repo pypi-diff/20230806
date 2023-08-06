@@ -12469,3 +12469,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:50:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.1.tar.gz]
 [2023-08-06 17:50:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-06 17:50:33] INFO root fetch - main [MainThread]: Store serial: [19195255]
+[2023-08-06 17:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195255]
+[2023-08-06 17:55:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: win-basic-tools
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fletxible
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hjn
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datafusion
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xgrads
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SCALECAST
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indexpaper
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: YandexHome
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dispCal
+[2023-08-06 17:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoa4ml
+[2023-08-06 17:55:43] INFO root fetch - processPackages [dispCal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [YandexHome]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [qoa4ml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [Fletxible]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [xgrads]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [indexpaper]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/83/0d/c4696de40693357f9d052f58d30b170fe1cf934a5ea50fb1087798fd12e3/qoa4ml-0.1.1.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [win-basic-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [datafusion]: New version: [28.0.0] Old Version: [27.0.0]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/3e/19/89541707fc2b26e0d64ea2627683983d76e9e67c492710686d97af1d6708/YandexHome-0.1.6.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [hjn]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-06 17:55:43] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/fc/c5/5c51a06ce37988c4298d464d6f1e57a5a638694b178b7a562b4036542be8/dispCal-0.1.8.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/66/b7/81f1836bea1096bd7f3e518709f6314cb53cd6ddf9da857a47a304a28d92/win-basic-tools-0.4.0.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e9/e4/bd4e43ed4ae127e528628c675c5933a4a6a6ebb3ee0c55470b63043a8283/Fletxible-0.7.0.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [xgrads]: Downloading https://files.pythonhosted.org/packages/41/22/fa72791c123d2497ba0c08e76ed2ba7532d071e2700af2cb57d418043ae7/xgrads-0.2.3.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [indexpaper]: Downloading https://files.pythonhosted.org/packages/c2/f5/2da912ab4d9e731a9d4368f695db42a187aafdaca01efa9df43d914e2e9e/indexpaper-0.0.1.tar.gz
+[2023-08-06 17:55:43] INFO root fetch - processPackages [hjn]: Downloading https://files.pythonhosted.org/packages/88/6b/e2d9de8054594cd9d85b8c1f6d8a41ade8fc2fc84c81c4bb3086d2d06f36/hjn-0.1.98.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/dc/d3/70ebc7ba64121778e2f190019c700af5e49c1c831853b6fba320b2a71733/datafusion-27.0.0.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/43/15/96aa78eec364ee4be2616f21923f071281971a537b98248ef3c933ee47ab/YandexHome-0.1.7.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/28/7d/636f29e989e23b5106ee90502e32a04b63a04b7aa3f4fb7e21716b37c9ce/qoa4ml-0.1.2.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/87/52/9bf2dcc64756d8a175655926d802a0e67c0ffaa299b305eb84ddce1cfd61/dispCal-0.1.9.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [xgrads]: Downloading https://files.pythonhosted.org/packages/ab/3b/f3d7c7ab9b4d49ac0cff574159f998a1d72d5e10aafbfa3843b224a6508f/xgrads-0.2.4.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [indexpaper]: Downloading https://files.pythonhosted.org/packages/46/39/b7a0808382328512f52d17a2fc334a6d2dcfeba87eff001e2b673cd3ac82/indexpaper-0.0.3.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/52/ec/af9f0f37b26ce4be398183931970aff583d3da0913283aaf18bf2bdfd92f/win-basic-tools-0.4.1.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/1f/b9/5bd37896333abacd50ee5df86fd5453f36930e3025cc1bd31a427289e16e/Fletxible-0.7.1.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.6.tar.gz tmp/YandexHome-0.1.7.tar.gz --markdown 20230806/Y/YandexHome/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [hjn]: Downloading https://files.pythonhosted.org/packages/1a/6d/bc7c8efe4382dcd8b774463097e9ebc1fcac097597c040f9fd91915ad853/hjn-0.1.99.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.1.1.tar.gz tmp/qoa4ml-0.1.2.tar.gz --markdown 20230806/q/qoa4ml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/60/ce/41fa74561aceadb3f3a2e01bedb9a4cd47ff18b4c3989e8132d5a4a80dc2/datafusion-28.0.0.tar.gz
+[2023-08-06 17:55:44] INFO root fetch - processPackages [dispCal]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [dispCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispCal-0.1.8.tar.gz tmp/dispCal-0.1.9.tar.gz --markdown 20230806/d/dispCal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [indexpaper]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [indexpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexpaper-0.0.1.tar.gz tmp/indexpaper-0.0.3.tar.gz --markdown 20230806/i/indexpaper/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [xgrads]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [xgrads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgrads-0.2.3.tar.gz tmp/xgrads-0.2.4.tar.gz --markdown 20230806/x/xgrads/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [win-basic-tools]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [win-basic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win-basic-tools-0.4.0.tar.gz tmp/win-basic-tools-0.4.1.tar.gz --markdown 20230806/w/win-basic-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.7.0.tar.gz tmp/Fletxible-0.7.1.tar.gz --markdown 20230806/F/Fletxible/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230806/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [hjn]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [hjn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hjn-0.1.98.tar.gz tmp/hjn-0.1.99.tar.gz --markdown 20230806/h/hjn/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-06 17:55:44] INFO root fetch - processPackages [datafusion]: executing diffoscope
+[2023-08-06 17:55:44] INFO root fetch - processPackages [datafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafusion-27.0.0.tar.gz tmp/datafusion-28.0.0.tar.gz --markdown 20230806/d/datafusion/27.0.0-28.0.0/diff.md --exclude *.pyd
+[2023-08-06 17:55:45] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.6.tar.gz]
+[2023-08-06 17:55:45] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.7.tar.gz]
+[2023-08-06 17:55:45] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.8.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.9.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [dispCal]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [indexpaper]: Remove: archive file [/home/abi/fetcher/tmp/indexpaper-0.0.1.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [indexpaper]: Remove: archive file [/home/abi/fetcher/tmp/indexpaper-0.0.3.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [indexpaper]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.1.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.2.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [hjn]: Remove: archive file [/home/abi/fetcher/tmp/hjn-0.1.98.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [hjn]: Remove: archive file [/home/abi/fetcher/tmp/hjn-0.1.99.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [hjn]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [xgrads]: Remove: archive file [/home/abi/fetcher/tmp/xgrads-0.2.3.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [xgrads]: Remove: archive file [/home/abi/fetcher/tmp/xgrads-0.2.4.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [xgrads]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.7.0.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.7.1.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.8.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [win-basic-tools]: Remove: archive file [/home/abi/fetcher/tmp/win-basic-tools-0.4.0.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [win-basic-tools]: Remove: archive file [/home/abi/fetcher/tmp/win-basic-tools-0.4.1.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [win-basic-tools]: success
+[2023-08-06 17:55:46] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-27.0.0.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-28.0.0.tar.gz]
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: End processing [datafusion]: success
+[2023-08-06 17:55:46] INFO root fetch - main [MainThread]: Store serial: [19195286]
