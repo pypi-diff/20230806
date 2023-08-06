@@ -1698,3 +1698,128 @@
 [2023-08-06 02:41:05] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl.zip]
 [2023-08-06 02:41:05] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
 [2023-08-06 02:41:05] INFO root fetch - main [MainThread]: Store serial: [19190266]
+[2023-08-06 02:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190266]
+[2023-08-06 02:46:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djtools
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcc-api
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-recaptcha-authorizer
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aurora-asi-lib
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasette-sqlite-http
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-http
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-utils-sqlite-http
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DEME
+[2023-08-06 02:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfds-nightly
+[2023-08-06 02:46:17] INFO root fetch - processPackages [DEME]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [aurora-asi-lib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [djtools]: New version: [2.7.0b2] Old Version: [2.7.0b1]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [mcc-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-06 02:46:17] WARNING root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Skipping, unable to determine old version
+[2023-08-06 02:46:17] INFO root fetch - processPackages [cdk-lambda-recaptcha-authorizer]: Start processing: itkwasm-dicom-wasi
+[2023-08-06 02:46:17] INFO root fetch - main [MainThread]: End processing [cdk-lambda-recaptcha-authorizer] error
+[2023-08-06 02:46:17] WARNING root fetch - processPackages [sqlite-utils-sqlite-http]: Skipping, unable to determine old version
+[2023-08-06 02:46:17] INFO root fetch - processPackages [sqlite-utils-sqlite-http]: Start processing: itkwasm-dicom-emscripten
+[2023-08-06 02:46:17] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-http] error
+[2023-08-06 02:46:17] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.1a1] Old Version: [0.1.0a9]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202308060044] Old Version: [4.9.2.dev202308050034]
+[2023-08-06 02:46:17] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/53/e9/a54900ae9ba9ba3b5f99ca059cb253c097f872da1fdf4ff096910695dedf/DEME-0.1.0.tar.gz
+[2023-08-06 02:46:17] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/1f/81/706d9189c573153f3fcd0451e2ae081a66d17cad0b28f2a12d7cec360629/datasette_sqlite_http-0.1.0a8-py3-none-any.whl
+[2023-08-06 02:46:17] INFO root fetch - processPackages [itkwasm-dicom-wasi]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-08-06 02:46:18] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/c0/94/6ac7a589eda29eab847d6fd95a329ad9f36c2b9079adad05e6f36ded2443/sqlite_http-0.1.0a9-py3-none-win_amd64.whl
+[2023-08-06 02:46:18] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-08-06 02:46:18] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/50/32/eaeef4189b1bcae22ea93fa52172a68c954ff7b81af1b3c5bbfa6aa2df30/aurora-asi-lib-0.9.4.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [djtools]: Downloading https://files.pythonhosted.org/packages/37/1b/45dce5d101d72b8938efe1e4a83e1e9bf010876809794638a34d7d99d37d/djtools-2.7.0b1.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [mcc-api]: Downloading https://files.pythonhosted.org/packages/4d/14/8b7cf191a76ca29b46190da1386ae1dfa3c6b4854010bfffdc9d0a4d02ae/mcc_api-1.0.5.tar.gz
+[2023-08-06 02:46:18] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-06 02:46:18] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: aws-parameters
+[2023-08-06 02:46:18] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-06 02:46:18] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e9/f7/e3d7e192c9963640cf8b65d1f227478df874ea4fa109bc61ec82279bda7f/tfds-nightly-4.9.2.dev202308050034.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/b0/83/ae0d5c860bde5297310227367b4d454674fb4f447072331f06bc6a06e03f/datasette_sqlite_http-0.1.0a9-py3-none-any.whl
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/58/2d/4a9c47b9161cd4670286fd83c645ae0a721c9b0fd935f85949e25331be0b/itkwasm_dicom_wasi-3.0.0.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/5b/84/3adbc92c23e8472e1ac70cfb8728a72623cbf61014d97a1d4baaeeaa2908/itkwasm_dicom_emscripten-3.0.0.tar.gz
+[2023-08-06 02:46:18] WARNING root fetch - processPackages [aws-parameters]: Skipping, unable to determine old version
+[2023-08-06 02:46:18] INFO root fetch - processPackages [aws-parameters]: Start processing: itkwasm-dicom
+[2023-08-06 02:46:18] INFO root fetch - main [MainThread]: End processing [aws-parameters] error
+[2023-08-06 02:46:18] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-http/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-08-06 02:46:18] INFO root fetch - processPackages [mcc-api]: Downloading https://files.pythonhosted.org/packages/7a/66/bbd5837f6f1ea1985e84ea09e86a8e027892fc6a82a891c039a3c72fa3d4/mcc_api-1.0.6.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [djtools]: Downloading https://files.pythonhosted.org/packages/b3/1e/97f991f3a25a967a39f332cc5590e8c6f59e8b636ed6020bef1431619ed6/djtools-2.7.0b2.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/84/0c/8c7e5b70ee5634837d944d978f39d8a697185c2b5ff320762f7a71817094/aurora-asi-lib-0.9.5.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/f5/e2/6098726a8821cebe7d5372c7d8fb67151272fc1dff404b81774d282d1765/itkwasm_dicom_emscripten-3.1.0.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f8/74/13001deca09c451082437bf307270311d9f7c6750af71a680bc3ec797b73/tfds-nightly-4.9.2.dev202308060044.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/92/79/ea620a5a10668d91862e77a29bedb9d854e9481eb77945386a2114bd139b/DEME-0.1.1.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [mcc-api]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [mcc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcc_api-1.0.5.tar.gz tmp/mcc_api-1.0.6.tar.gz --markdown 20230806/m/mcc-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-06 02:46:18] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/8b/b9/fc917fc53059fb423a3bd9e72fa19e515aa5fe1ea4f81268128c3c5dc669/sqlite_http-0.1.1a1-py3-none-win_amd64.whl
+[2023-08-06 02:46:18] INFO root fetch - processPackages [aurora-asi-lib]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [aurora-asi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora-asi-lib-0.9.4.tar.gz tmp/aurora-asi-lib-0.9.5.tar.gz --markdown 20230806/a/aurora-asi-lib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/36/b8/2332b1390a07d7e72a3be748d905c18dd3e249b4af158602b04d76e61b09/itkwasm_dicom-3.0.0.tar.gz
+[2023-08-06 02:46:18] INFO root fetch - processPackages [djtools]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_emscripten-3.0.0.tar.gz tmp/itkwasm_dicom_emscripten-3.1.0.tar.gz --markdown 20230806/i/itkwasm-dicom-emscripten/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-08-06 02:46:18] INFO root fetch - processPackages [djtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djtools-2.7.0b1.tar.gz tmp/djtools-2.7.0b2.tar.gz --markdown 20230806/d/djtools/2.7.0b1-2.7.0b2/diff.md --exclude *.pyd
+[2023-08-06 02:46:18] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-08-06 02:46:18] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202308050034.tar.gz tmp/tfds-nightly-4.9.2.dev202308060044.tar.gz --markdown 20230806/t/tfds-nightly/4.9.2.dev202308050034-4.9.2.dev202308060044/diff.md --exclude *.pyd
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/8b/eb/7640ce270a513d4c41fa614c73b1452c4e7a03fa41e50c5a121345369f9a/itkwasm_dicom_wasi-3.1.0.tar.gz
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/d8/0c/1648a013aa9672144f87aedb792dbc3541aeec21037e033f742452c44092/itkwasm_dicom-3.1.0.tar.gz
+[2023-08-06 02:46:19] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-08-06 02:46:19] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-http/0.1.0a9-0.1.1a1/diff.md --exclude *.pyd
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom]: executing diffoscope
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom-3.0.0.tar.gz tmp/itkwasm_dicom-3.1.0.tar.gz --markdown 20230806/i/itkwasm-dicom/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-08-06 02:46:19] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2023-08-06 02:46:19] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEME-0.1.0.tar.gz tmp/DEME-0.1.1.tar.gz --markdown 20230806/D/DEME/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 02:46:19] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip]
+[2023-08-06 02:46:19] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip]
+[2023-08-06 02:46:19] INFO root fetch - processPackages [datasette-sqlite-http]: Start processing: kubric-nightly
+[2023-08-06 02:46:19] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom-wasi]: executing diffoscope
+[2023-08-06 02:46:19] INFO root fetch - processPackages [itkwasm-dicom-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_wasi-3.0.0.tar.gz tmp/itkwasm_dicom_wasi-3.1.0.tar.gz --markdown 20230806/i/itkwasm-dicom-wasi/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-08-06 02:46:19] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-06 02:46:19] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/d2/42/0cd7855e7042fb7ea38aee4578bb1c07877180e09df89122282c2554b6c9/kubric-nightly-2023.8.4.tar.gz
+[2023-08-06 02:46:19] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e6/56/654e6f0b5dd5385836e8ccb76c4e67263df4881a5b184c310994661b4583/kubric-nightly-2023.8.5.tar.gz
+[2023-08-06 02:46:20] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-08-06 02:46:20] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.8.4.tar.gz tmp/kubric-nightly-2023.8.5.tar.gz --markdown 20230806/k/kubric-nightly/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-06 02:46:20] INFO root fetch - processPackages [mcc-api]: Remove: archive file [/home/abi/fetcher/tmp/mcc_api-1.0.5.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [mcc-api]: Remove: archive file [/home/abi/fetcher/tmp/mcc_api-1.0.6.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [mcc-api]: Start processing: FiveMCipherFinder
+[2023-08-06 02:46:20] INFO root fetch - main [MainThread]: End processing [mcc-api]: success
+[2023-08-06 02:46:20] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.4.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.5.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
+[2023-08-06 02:46:20] INFO root fetch - processPackages [djtools]: Remove: archive file [/home/abi/fetcher/tmp/djtools-2.7.0b1.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [djtools]: Remove: archive file [/home/abi/fetcher/tmp/djtools-2.7.0b2.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - main [MainThread]: End processing [djtools]: success
+[2023-08-06 02:46:20] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_emscripten-3.0.0.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_emscripten-3.1.0.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-emscripten]: success
+[2023-08-06 02:46:20] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/06/48/1703ec8a661108748d7fa30f496e2e4ef20181cc2ca44e4cb4dd52ca373d/FiveMCipherFinder-2.3.0.tar.gz
+[2023-08-06 02:46:20] INFO root fetch - processPackages [itkwasm-dicom]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom-3.0.0.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - processPackages [itkwasm-dicom]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom-3.1.0.tar.gz]
+[2023-08-06 02:46:20] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom]: success
+[2023-08-06 02:46:21] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/eb/09/99913c2d41a107a5aa49aef72513af782ac2ce66a90b5c7e83cb52710d80/FiveMCipherFinder-2.4.0.tar.gz
+[2023-08-06 02:46:21] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-08-06 02:46:21] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-2.3.0.tar.gz tmp/FiveMCipherFinder-2.4.0.tar.gz --markdown 20230806/F/FiveMCipherFinder/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-06 02:46:21] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.4.tar.gz]
+[2023-08-06 02:46:21] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.5.tar.gz]
+[2023-08-06 02:46:21] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-08-06 02:46:22] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_wasi-3.0.0.tar.gz]
+[2023-08-06 02:46:22] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_wasi-3.1.0.tar.gz]
+[2023-08-06 02:46:22] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
+[2023-08-06 02:46:22] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.3.0.tar.gz]
+[2023-08-06 02:46:22] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.4.0.tar.gz]
+[2023-08-06 02:46:22] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-08-06 02:46:25] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.1.0.tar.gz]
+[2023-08-06 02:46:25] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.1.1.tar.gz]
+[2023-08-06 02:46:25] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2023-08-06 02:46:25] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202308050034.tar.gz]
+[2023-08-06 02:46:25] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202308060044.tar.gz]
+[2023-08-06 02:46:25] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-08-06 02:48:43] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:48:43] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.1a1-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:48:43] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-08-06 02:48:43] INFO root fetch - main [MainThread]: Store serial: [19190317]
