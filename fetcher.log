@@ -11137,3 +11137,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:41:49] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.84-py3-none-any.whl.zip]
 [2023-08-06 16:41:49] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-06 16:41:49] INFO root fetch - main [MainThread]: Store serial: [19194673]
+[2023-08-06 16:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194673]
+[2023-08-06 16:46:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syscolouringspackageV1
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trex-lib
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfireconsole
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reaxpro-wrappers
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-hogwarts
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: requests-selenium
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatlab
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: queue-local-python-package
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spear-tts-pytorch
+[2023-08-06 16:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PacketHandler
+[2023-08-06 16:46:58] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a9] Old Version: [1.0.0a7]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [syscolouringspackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [requests-selenium]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [reaxpro-wrappers]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [trex-lib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [pyfireconsole]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 16:46:58] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/2c/76242c5ad0339db6943f4b5d88de7420393a617d4d3b3464b3fdb4a8937c/chatlab-1.0.0a7.tar.gz
+[2023-08-06 16:46:58] WARNING root fetch - processPackages [django-hogwarts]: Skipping, unable to determine old version
+[2023-08-06 16:46:58] INFO root fetch - main [MainThread]: End processing [django-hogwarts] error
+[2023-08-06 16:46:58] INFO root fetch - processPackages [PacketHandler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 16:46:58] WARNING root fetch - processPackages [queue-local-python-package]: Skipping, unable to determine old version
+[2023-08-06 16:46:58] INFO root fetch - main [MainThread]: End processing [queue-local-python-package] error
+[2023-08-06 16:46:58] INFO root fetch - processPackages [syscolouringspackageV1]: Downloading https://files.pythonhosted.org/packages/5a/ce/22ee821d60bfb1aacc8f531908057cdd1865e8f6a5ae05c6e8d627346e7f/syscolouringspackageV1-1.0.0.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [reaxpro-wrappers]: Downloading https://files.pythonhosted.org/packages/b1/57/8a8c3722d4fdddd1e1946dbd885d3ff9720ace6f2aa409f3571c907d275a/reaxpro-wrappers-1.4.0.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9e/64/cd7bef9a71080dc8f8efafff7e54fa539fd6f57f71e98d32eb464fca020d/chatlab-1.0.0a9.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/a3/1f/ce58e6a3e56ff6a91278325b19f04befd36e98131b88e3c40635dba70649/requests_selenium-0.0.2.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/6f/f8/80a2d95c48204269a053247b04d862c4c235d254e9d27af840f78eaad292/pyfireconsole-0.0.3.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/3c/b5/379bb8eafb13927be55ee9fc9c82d072e817f7284750c49c1bcb4e71b8f7/trex-lib-1.0.2.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/3d/88/da327037571bab9c2849c21d6a65f7115a3cd38192417cd99fb52a0d1741/PacketHandler-1.0.8.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/0e/523bc24bbc6074743e169af3e4a33366468176732ac0d38193a8d7e0c4e6/spear-tts-pytorch-0.0.8.tar.gz
+[2023-08-06 16:46:58] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-08-06 16:46:58] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a7.tar.gz tmp/chatlab-1.0.0a9.tar.gz --markdown 20230806/c/chatlab/1.0.0a7-1.0.0a9/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [syscolouringspackageV1]: Downloading https://files.pythonhosted.org/packages/3f/4c/dc4d4853707e6c3be1a9a7d4c3dba7e13a05432315f8c24a2a1c8ddf2f10/syscolouringspackageV1-1.1.0.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [reaxpro-wrappers]: Downloading https://files.pythonhosted.org/packages/81/1f/658625b1532b8924ffb108e69f5b297d9f211ffba9433950da0e98bdd78d/reaxpro-wrappers-1.5.0.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/ba/a2/b430d8ba6a29c7a262d6fb5656a575755f705c69a01ae35b5f4910775d86/requests_selenium-0.0.3.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/6e/c8/acd38088e56db17ad452c4865a0afbabb9e0b2f9c0fa674277a05940d73c/PacketHandler-1.0.9.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/e7/15/2c9f9e37caa2c147d9803b877657f75ed72abc32f905fc38087feea8ed87/pyfireconsole-0.0.4.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/a5/11/a2fcca9ee8b832cff0ff65b0bb85d743c2008f29d14742164bdce6e9db65/trex-lib-1.0.3.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [requests-selenium]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [requests-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_selenium-0.0.2.tar.gz tmp/requests_selenium-0.0.3.tar.gz --markdown 20230806/r/requests-selenium/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/29/8c/c3ba945055c388c01f69c8be13e3bcde6a3cf31f0febdd5751142dbdf9a0/spear-tts-pytorch-0.0.9.tar.gz
+[2023-08-06 16:46:59] INFO root fetch - processPackages [reaxpro-wrappers]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [reaxpro-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaxpro-wrappers-1.4.0.tar.gz tmp/reaxpro-wrappers-1.5.0.tar.gz --markdown 20230806/r/reaxpro-wrappers/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [pyfireconsole]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [pyfireconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfireconsole-0.0.3.tar.gz tmp/pyfireconsole-0.0.4.tar.gz --markdown 20230806/p/pyfireconsole/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [trex-lib]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [trex-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-lib-1.0.2.tar.gz tmp/trex-lib-1.0.3.tar.gz --markdown 20230806/t/trex-lib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [syscolouringspackageV1]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [syscolouringspackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringspackageV1-1.0.0.tar.gz tmp/syscolouringspackageV1-1.1.0.tar.gz --markdown 20230806/s/syscolouringspackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [PacketHandler]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [PacketHandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PacketHandler-1.0.8.tar.gz tmp/PacketHandler-1.0.9.tar.gz --markdown 20230806/P/PacketHandler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-08-06 16:46:59] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.8.tar.gz tmp/spear-tts-pytorch-0.0.9.tar.gz --markdown 20230806/s/spear-tts-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 16:46:59] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a7.tar.gz]
+[2023-08-06 16:46:59] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a9.tar.gz]
+[2023-08-06 16:46:59] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.2.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.3.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [requests-selenium]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.0.2.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.0.3.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.3.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.4.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [pyfireconsole]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [reaxpro-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/reaxpro-wrappers-1.4.0.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [reaxpro-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/reaxpro-wrappers-1.5.0.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [reaxpro-wrappers]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [PacketHandler]: Remove: archive file [/home/abi/fetcher/tmp/PacketHandler-1.0.8.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [PacketHandler]: Remove: archive file [/home/abi/fetcher/tmp/PacketHandler-1.0.9.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [PacketHandler]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.8.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.9.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-08-06 16:47:00] INFO root fetch - processPackages [syscolouringspackageV1]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringspackageV1-1.0.0.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - processPackages [syscolouringspackageV1]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringspackageV1-1.1.0.tar.gz]
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [syscolouringspackageV1]: success
+[2023-08-06 16:47:00] INFO root fetch - main [MainThread]: Store serial: [19194711]
