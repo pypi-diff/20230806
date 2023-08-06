@@ -6821,3 +6821,63 @@
 [2023-08-06 11:47:12] INFO root fetch - processPackages [trilium-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/trilium_alchemy-0.1.1.tar.gz]
 [2023-08-06 11:47:12] INFO root fetch - main [MainThread]: End processing [trilium-alchemy]: success
 [2023-08-06 11:47:12] INFO root fetch - main [MainThread]: Store serial: [19192774]
+[2023-08-06 11:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192774]
+[2023-08-06 11:52:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcana
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manim-voiceover
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oip-mlops-client
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upload-machine
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chain-harvester
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-astrolab
+[2023-08-06 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DRSlib-DavidRodriguezSoaresCUI
+[2023-08-06 11:52:20] INFO root fetch - processPackages [chain-harvester]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-08-06 11:52:20] WARNING root fetch - processPackages [oip-mlops-client]: Skipping, unable to determine old version
+[2023-08-06 11:52:20] INFO root fetch - main [MainThread]: End processing [oip-mlops-client] error
+[2023-08-06 11:52:20] INFO root fetch - processPackages [manim-voiceover]: New version: [0.3.4] Old Version: [0.3.3.post0]
+[2023-08-06 11:52:20] INFO root fetch - processPackages [upload-machine]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-08-06 11:52:20] INFO root fetch - processPackages [arcana]: New version: [2.0b2] Old Version: [2.0b0.dev7]
+[2023-08-06 11:52:20] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-06 11:52:20] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-08-06 11:52:21] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/fa/c6/d9fb53d0680fc6f4bc3dc9dac355591ad171851910e94c1f55322baf82ce/upload_machine-0.0.80.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [chain-harvester]: Downloading https://files.pythonhosted.org/packages/56/6b/d112930e350baf0b27988fe4d124b86d7c9dba22494fab28b7cd7a48c662/chain_harvester-0.1.0.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [manim-voiceover]: Downloading https://files.pythonhosted.org/packages/8b/f8/8841fbee4bac9efb6aa8769bfb81d9ab902644279fad30150b53a9729c75/manim_voiceover-0.3.3.post0.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/10/9e/3c3b2f727aaf50d3a2b3f389c49e797ace1c93bdb291d5708ae371b555ec/arcana-2.0b0.dev7.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: Downloading https://files.pythonhosted.org/packages/63/f8/67a934e24f62659666758359256261c54aed0d57bb01de7f4237c5e58e2c/DRSlib-DavidRodriguezSoaresCUI-0.7.3.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/55/4f/775f222494f79444abd033e2fede5a6bc8f305c6ad06f49b2bdf65f87fd4/upload_machine-0.0.81.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [chain-harvester]: Downloading https://files.pythonhosted.org/packages/18/46/d2492f9ed4427f7bb71356d186c814e1e884a0056b767393f6c11f9f3c4f/chain_harvester-0.2.1.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [manim-voiceover]: Downloading https://files.pythonhosted.org/packages/96/e5/109184c5d8b37aa054dd21f545073ca867d2e3e1ad36239fdf6974e31cc7/manim_voiceover-0.3.4.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: Downloading https://files.pythonhosted.org/packages/b3/87/4418b9603cce91e6bd269db38cd0a596cc43c352950060f9962304906ac6/DRSlib-DavidRodriguezSoaresCUI-0.8.0.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/d8/43/71640e43b1ab616df14e02e9190e20fb105df8f3bdaf155e8f34de1414ca/arcana-2.0b2.tar.gz
+[2023-08-06 11:52:21] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.80.tar.gz tmp/upload_machine-0.0.81.tar.gz --markdown 20230806/u/upload-machine/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-08-06 11:52:21] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230806/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-06 11:52:21] INFO root fetch - processPackages [chain-harvester]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [chain-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chain_harvester-0.1.0.tar.gz tmp/chain_harvester-0.2.1.tar.gz --markdown 20230806/c/chain-harvester/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 11:52:21] INFO root fetch - processPackages [arcana]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [arcana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana-2.0b0.dev7.tar.gz tmp/arcana-2.0b2.tar.gz --markdown 20230806/a/arcana/2.0b0.dev7-2.0b2/diff.md --exclude *.pyd
+[2023-08-06 11:52:21] INFO root fetch - processPackages [manim-voiceover]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [manim-voiceover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_voiceover-0.3.3.post0.tar.gz tmp/manim_voiceover-0.3.4.tar.gz --markdown 20230806/m/manim-voiceover/0.3.3.post0-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 11:52:21] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: executing diffoscope
+[2023-08-06 11:52:21] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DRSlib-DavidRodriguezSoaresCUI-0.7.3.tar.gz tmp/DRSlib-DavidRodriguezSoaresCUI-0.8.0.tar.gz --markdown 20230806/D/DRSlib-DavidRodriguezSoaresCUI/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 11:52:22] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-06 11:52:22] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-06 11:52:22] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-06 11:52:22] INFO root fetch - processPackages [chain-harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.1.0.tar.gz]
+[2023-08-06 11:52:22] INFO root fetch - processPackages [chain-harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.2.1.tar.gz]
+[2023-08-06 11:52:22] INFO root fetch - main [MainThread]: End processing [chain-harvester]: success
+[2023-08-06 11:52:23] INFO root fetch - processPackages [manim-voiceover]: Remove: archive file [/home/abi/fetcher/tmp/manim_voiceover-0.3.3.post0.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - processPackages [manim-voiceover]: Remove: archive file [/home/abi/fetcher/tmp/manim_voiceover-0.3.4.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - main [MainThread]: End processing [manim-voiceover]: success
+[2023-08-06 11:52:23] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.80.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.81.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 11:52:23] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: Remove: archive file [/home/abi/fetcher/tmp/DRSlib-DavidRodriguezSoaresCUI-0.7.3.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - processPackages [DRSlib-DavidRodriguezSoaresCUI]: Remove: archive file [/home/abi/fetcher/tmp/DRSlib-DavidRodriguezSoaresCUI-0.8.0.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - main [MainThread]: End processing [DRSlib-DavidRodriguezSoaresCUI]: success
+[2023-08-06 11:52:23] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b0.dev7.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b2.tar.gz]
+[2023-08-06 11:52:23] INFO root fetch - main [MainThread]: End processing [arcana]: success
+[2023-08-06 11:52:23] INFO root fetch - main [MainThread]: Store serial: [19192797]
