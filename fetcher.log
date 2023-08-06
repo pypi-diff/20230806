@@ -15914,3 +15914,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:56:32] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.5.tar.gz]
 [2023-08-06 21:56:32] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
 [2023-08-06 21:56:32] INFO root fetch - main [MainThread]: Store serial: [19196829]
+[2023-08-06 22:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196829]
+[2023-08-06 22:01:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: greeneye-monitor
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python2verilog
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osm-fieldwork
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: useq-schema
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hypothesis
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabric
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabric2
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mykit
+[2023-08-06 22:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yambs
+[2023-08-06 22:01:41] INFO root fetch - processPackages [useq-schema]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [mykit]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [yambs]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [python2verilog]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [fabric]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [greeneye-monitor]: New version: [4.0.1] Old Version: [4.0]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [fabric2]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-06 22:01:41] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/75/97/5b6c337393087ea27239c2464133c109fc016e4ad3733d713f4ac428b4bc/useq_schema-0.4.2.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/8a/1b/20a10a247dc4cc823efa426a989c8da71918e3f9a3bdff2016a6777e0364/mykit-7.0.0.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/5f/5f/302dfa65d0dc8c0315027e15fe638d932fcf1a5966dd24434e55082f7a92/yambs-2.3.3.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/d8/b0/fc6880fd6e24b60ccb5e3e1b673cec847d56b8176311f77c63f542fe9fd4/fabric-3.1.0.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/de/0c/e9d4b9c8bb061d41ab737ea4901c5061cd6850daa01fbe5a0f447d2c2bc3/python2verilog-0.0.4.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [greeneye-monitor]: Downloading https://files.pythonhosted.org/packages/f3/88/1ebdfbb031826fa4ec32a75ed2dab67398680a645d5cc8d4e5dfbde76e0d/greeneye_monitor-4.0-py3-none-any.whl
+[2023-08-06 22:01:41] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/64/a6/da2faab229aba7d392b366e143053dffaf536f41e5f36e87824eecabee7d/fabric2-3.1.0.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/26/46/9d1af7f4216d3581de8367ecf792932fb333b69746b80d9dc364d11bb29f/osm-fieldwork-0.3.3.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/94/e5/7029329b27aeb99ae1bfcc5b3524b8686c966659a63f9e3bd7139eb7f6e1/useq_schema-0.4.3.tar.gz
+[2023-08-06 22:01:41] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/58/53/9caa127ef6a8d121e41c4e9965e66c0ed055bceef9f61ec5bc79973b8e0f/mykit-7.1.0.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/32/36/3abace42df96bf4efc0974a9332154dddd70568a96080e2292aa552cec58/yambs-2.4.0.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [useq-schema]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [useq-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useq_schema-0.4.2.tar.gz tmp/useq_schema-0.4.3.tar.gz --markdown 20230806/u/useq-schema/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-7.0.0.tar.gz tmp/mykit-7.1.0.tar.gz --markdown 20230806/m/mykit/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/77/39/d5b440f06a14c101ad8765565019d113d1f7bd9ffbc89a32ac3d5bbaf4f5/fabric-3.2.0.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/5e/55/7ed062205e56e548e008f5290628625bb2f01e02347860a1bfb917b39eae/python2verilog-0.1.0.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.3.3.tar.gz tmp/yambs-2.4.0.tar.gz --markdown 20230806/y/yambs/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230806/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/86/8a/ce343ff39042f80d857deda49179adc6ff40ce0a88d592d3ce77da94b901/fabric2-3.2.0.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-3.1.0.tar.gz tmp/fabric-3.2.0.tar.gz --markdown 20230806/f/fabric/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [greeneye-monitor]: Downloading https://files.pythonhosted.org/packages/3f/fd/7b6f0c62c2e9d6686406188d812f55f911bab2dfac0b31d6db5f67390d8e/greeneye_monitor-4.0.1-py3-none-any.whl
+[2023-08-06 22:01:42] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.0.4.tar.gz tmp/python2verilog-0.1.0.tar.gz --markdown 20230806/p/python2verilog/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/a5/b1/35c9e1f24b62e84c5acfab0e75d9c5b2f850dfd7178d8d1dfc5bddcf8a22/osm-fieldwork-0.3.4.tar.gz
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric2]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [fabric2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric2-3.1.0.tar.gz tmp/fabric2-3.2.0.tar.gz --markdown 20230806/f/fabric2/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [greeneye-monitor]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [greeneye-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greeneye_monitor-4.0-py3-none-any.whl.zip tmp/greeneye_monitor-4.0.1-py3-none-any.whl.zip --markdown 20230806/g/greeneye-monitor/4.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-06 22:01:42] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2023-08-06 22:01:42] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.3.3.tar.gz tmp/osm-fieldwork-0.3.4.tar.gz --markdown 20230806/o/osm-fieldwork/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 22:01:43] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-7.0.0.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-7.1.0.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-08-06 22:01:43] INFO root fetch - processPackages [greeneye-monitor]: Remove: archive file [/home/abi/fetcher/tmp/greeneye_monitor-4.0-py3-none-any.whl.zip]
+[2023-08-06 22:01:43] INFO root fetch - processPackages [greeneye-monitor]: Remove: archive file [/home/abi/fetcher/tmp/greeneye_monitor-4.0.1-py3-none-any.whl.zip]
+[2023-08-06 22:01:43] INFO root fetch - main [MainThread]: End processing [greeneye-monitor]: success
+[2023-08-06 22:01:43] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.2.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.3.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - main [MainThread]: End processing [useq-schema]: success
+[2023-08-06 22:01:43] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.4.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.1.0.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2023-08-06 22:01:43] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.3.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.4.0.tar.gz]
+[2023-08-06 22:01:43] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-08-06 22:01:44] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-08-06 22:01:44] INFO root fetch - processPackages [fabric2]: Remove: archive file [/home/abi/fetcher/tmp/fabric2-3.1.0.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - processPackages [fabric2]: Remove: archive file [/home/abi/fetcher/tmp/fabric2-3.2.0.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - main [MainThread]: End processing [fabric2]: success
+[2023-08-06 22:01:44] INFO root fetch - processPackages [fabric]: Remove: archive file [/home/abi/fetcher/tmp/fabric-3.1.0.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - processPackages [fabric]: Remove: archive file [/home/abi/fetcher/tmp/fabric-3.2.0.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - main [MainThread]: End processing [fabric]: success
+[2023-08-06 22:01:44] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.3.3.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.3.4.tar.gz]
+[2023-08-06 22:01:44] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2023-08-06 22:01:44] INFO root fetch - main [MainThread]: Store serial: [19196857]
