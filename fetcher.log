@@ -13089,3 +13089,89 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:32:22] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-06 18:32:22] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-06 18:32:22] INFO root fetch - main [MainThread]: Store serial: [19195533]
+[2023-08-06 18:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195533]
+[2023-08-06 18:37:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YandexHome
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shear-psf-leakage
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HaploDynamics
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garth
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: YandexHome
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feathub-nightly
+[2023-08-06 18:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: z4d-certified-devices
+[2023-08-06 18:37:31] INFO root fetch - processPackages [garth]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 18:37:31] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-06 18:37:31] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230805] Old Version: [0.1.dev20230804]
+[2023-08-06 18:37:31] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:37:31] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:37:32] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/14/ae/c7c88af6f307ce5ddf5e99530e7a2898043a8df8113c9ff4d2585fe7c3cd/garth-0.4.3.tar.gz
+[2023-08-06 18:37:32] WARNING root fetch - processPackages [HaploDynamics]: Skipping, unable to determine old version
+[2023-08-06 18:37:32] INFO root fetch - processPackages [HaploDynamics]: Start processing: buteo
+[2023-08-06 18:37:32] INFO root fetch - main [MainThread]: End processing [HaploDynamics] error
+[2023-08-06 18:37:32] WARNING root fetch - processPackages [shear-psf-leakage]: Skipping, unable to determine old version
+[2023-08-06 18:37:32] INFO root fetch - main [MainThread]: End processing [shear-psf-leakage] error
+[2023-08-06 18:37:32] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.83] Old Version: [2.82]
+[2023-08-06 18:37:32] INFO root fetch - processPackages [aiogram]: New version: [3.0.0rc1] Old Version: [3.0.0b9]
+[2023-08-06 18:37:32] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 18:37:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/65/58/eeb241212d48ead07a1834622a13bad8311ee8469ae5fd4805a8e24a70d0/feathub_nightly-0.1.dev20230804-py3-none-any.whl
+[2023-08-06 18:37:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [aiogram]: Downloading https://files.pythonhosted.org/packages/e2/7a/197ba0803082129d455974b73a6537aeca45566cd4f4ee299d3e3ec75b52/aiogram-3.0.0b9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 18:37:32] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12607523>=10485760
+[2023-08-06 18:37:32] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-08-06 18:37:32] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/33/46/b72cc5ddf110a286fb750a4d0466b712cb3c32c63015b9493703328e1e47/z4d-certified-devices-2.82.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/22/5f/91a3e2216edc915cb153951fefa661e28fa4093a2d644683f15e47eacdd9/garth-0.4.4.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.4.3.tar.gz tmp/garth-0.4.4.tar.gz --markdown 20230806/g/garth/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 18:37:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230806/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-06 18:37:32] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/2d/2b/783810ea956cada69c49ded20ad4d9559e2d72c6dbe597e2b81435e7f8fc/z4d-certified-devices-2.83.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230806/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:37:32] INFO root fetch - processPackages [aiogram]: Downloading https://files.pythonhosted.org/packages/a5/9f/bab6a425a94c7ab051135b544c908df97ed2f4ee1ff49192bab1319e026f/aiogram-3.0.0rc1.tar.gz
+[2023-08-06 18:37:32] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 18:37:32] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 18:37:33] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-08-06 18:37:33] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.82.tar.gz tmp/z4d-certified-devices-2.83.tar.gz --markdown 20230806/z/z4d-certified-devices/2.82-2.83/diff.md --exclude *.pyd
+[2023-08-06 18:37:33] INFO root fetch - processPackages [aiogram]: executing diffoscope
+[2023-08-06 18:37:33] INFO root fetch - processPackages [aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-3.0.0b9.tar.gz tmp/aiogram-3.0.0rc1.tar.gz --markdown 20230806/a/aiogram/3.0.0b9-3.0.0rc1/diff.md --exclude *.pyd
+[2023-08-06 18:37:34] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:37:34] WARNING root fetch - processPackages [YandexHome]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz']
+[2023-08-06 18:37:34] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:37:34] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.3.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.4.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-06 18:37:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-08-06 18:37:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 18:37:34] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-06 18:37:34] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-06 18:37:35] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.82.tar.gz]
+[2023-08-06 18:37:35] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.83.tar.gz]
+[2023-08-06 18:37:35] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-08-06 18:37:46] INFO root fetch - processPackages [aiogram]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-3.0.0b9.tar.gz]
+[2023-08-06 18:37:46] INFO root fetch - processPackages [aiogram]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-3.0.0rc1.tar.gz]
+[2023-08-06 18:37:46] INFO root fetch - main [MainThread]: End processing [aiogram]: success
+[2023-08-06 18:37:46] INFO root fetch - main [MainThread]: Store serial: [19195569]
