@@ -13005,3 +13005,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:26:58] INFO root fetch - processPackages [bluezero]: Remove: archive file [/home/abi/fetcher/tmp/bluezero-0.8.0.tar.gz]
 [2023-08-06 18:26:58] INFO root fetch - main [MainThread]: End processing [bluezero]: success
 [2023-08-06 18:26:58] INFO root fetch - main [MainThread]: Store serial: [19195507]
+[2023-08-06 18:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195507]
+[2023-08-06 18:32:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aporia
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcia-utils
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gracy
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eciespy
+[2023-08-06 18:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oganesson-py
+[2023-08-06 18:32:07] INFO root fetch - processPackages [oganesson-py]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [yetl-framework]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [vector-vault]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [eciespy]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [oganesson-py]: Downloading https://files.pythonhosted.org/packages/e7/25/fea3b8d69c5aa6a6f304fc964aaaba1c46318bf5b7040ab04d558e023447/oganesson_py-0.1.0a1.tar.gz
+[2023-08-06 18:32:07] INFO root fetch - processPackages [aporia]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/53/58/8fdd3103636fb3f6b9a5f39ac041eb07e792a965c9a61048ba124d329851/yetl-framework-3.0.0.dev1.tar.gz
+[2023-08-06 18:32:07] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-06 18:32:07] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-06 18:32:07] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/a4/67/5612c40830a6fcff31d0390d9014954282ec3f9ae8ac11d1b80c0ee3eeca/tcia_utils-1.6.5.tar.gz
+[2023-08-06 18:32:07] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c5/b9/79e80704bdc35608b7332391bc70cf82c56e4c0eb0d12c4f73d01a0738be/vector_vault-2.1.4.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [eciespy]: Downloading https://files.pythonhosted.org/packages/ea/91/731119ce9f5b3d024cdf04dc521070bc672ed0cb6d7e215c39d7a93ace9d/eciespy-0.3.9.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/74/19/34137c1a82c66ce7e19c872cc7fa6058e6254bd27dc0a1ff4179a617f397/aporia-3.5.0.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [oganesson-py]: Downloading https://files.pythonhosted.org/packages/6d/8e/4757fcebf582de79e57e45ee408548b00ede5566d95df7c95bbd6bcb3a2d/oganesson_py-0.1.0a2.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/7e/85/b71de040a99ecb9947a79c7683d63ddb951b95a9c1204af78c200221d877/yetl-framework-3.0.0.dev2.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [oganesson-py]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [oganesson-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson_py-0.1.0a1.tar.gz tmp/oganesson_py-0.1.0a2.tar.gz --markdown 20230806/o/oganesson-py/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/a4/e5/df12263c5413738e3e7c55bc512cfa05caf98759825ce1a3f1fcd14a40df/tcia_utils-1.6.6.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230806/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [eciespy]: Downloading https://files.pythonhosted.org/packages/a4/98/4d6bace0567b83c0d712c535b7ca5afda6d1fe23da7abd1edbd107f6de70/eciespy-0.4.0.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-3.0.0.dev1.tar.gz tmp/yetl-framework-3.0.0.dev2.tar.gz --markdown 20230806/y/yetl-framework/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/59/fc/eb69877995e94b89ce980b8499874c9f8c6bb6eb6c2b07e4fd02b1d26774/vector_vault-2.1.5.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.5.tar.gz tmp/tcia_utils-1.6.6.tar.gz --markdown 20230806/t/tcia-utils/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/62/b8/d48e7e1218fa4babe9959219118b4040c3ab975b3ab87e0f432cd19bd7c2/aporia-3.6.0.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [eciespy]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [eciespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eciespy-0.3.9.tar.gz tmp/eciespy-0.4.0.tar.gz --markdown 20230806/e/eciespy/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.4.tar.gz tmp/vector_vault-2.1.5.tar.gz --markdown 20230806/v/vector-vault/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.5.0.tar.gz tmp/aporia-3.6.0.tar.gz --markdown 20230806/a/aporia/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-08-06 18:32:08] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230806/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-06 18:32:08] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-06 18:32:08] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230806/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-06 18:32:09] INFO root fetch - processPackages [oganesson-py]: Remove: archive file [/home/abi/fetcher/tmp/oganesson_py-0.1.0a1.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - processPackages [oganesson-py]: Remove: archive file [/home/abi/fetcher/tmp/oganesson_py-0.1.0a2.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - main [MainThread]: End processing [oganesson-py]: success
+[2023-08-06 18:32:09] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.5.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.6.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-08-06 18:32:09] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-3.0.0.dev1.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-3.0.0.dev2.tar.gz]
+[2023-08-06 18:32:09] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-08-06 18:32:10] INFO root fetch - processPackages [eciespy]: Remove: archive file [/home/abi/fetcher/tmp/eciespy-0.3.9.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - processPackages [eciespy]: Remove: archive file [/home/abi/fetcher/tmp/eciespy-0.4.0.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - main [MainThread]: End processing [eciespy]: success
+[2023-08-06 18:32:10] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.4.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.5.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-06 18:32:10] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.5.0.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.6.0.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-08-06 18:32:10] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-08-06 18:32:10] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-06 18:32:10] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-06 18:32:22] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-06 18:32:22] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-06 18:32:22] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-06 18:32:22] INFO root fetch - main [MainThread]: Store serial: [19195533]
