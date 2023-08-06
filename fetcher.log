@@ -7382,3 +7382,81 @@
 [2023-08-06 12:29:16] INFO root fetch - processPackages [alns]: Remove: archive file [/home/abi/fetcher/tmp/alns-5.3.2.tar.gz]
 [2023-08-06 12:29:16] INFO root fetch - main [MainThread]: End processing [alns]: success
 [2023-08-06 12:29:16] INFO root fetch - main [MainThread]: Store serial: [19193026]
+[2023-08-06 12:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193026]
+[2023-08-06 12:34:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autokattis
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funda-scraper
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bw-matchbox
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MDbrew
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talkytrend
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: update-linux
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oip-mlops-client
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyUAMMD
+[2023-08-06 12:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: suggestscraper
+[2023-08-06 12:34:25] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-06 12:34:25] WARNING root fetch - processPackages [oip-mlops-client]: Skipping, unable to determine old version
+[2023-08-06 12:34:25] INFO root fetch - main [MainThread]: End processing [oip-mlops-client] error
+[2023-08-06 12:34:25] INFO root fetch - processPackages [bw-matchbox]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [update-linux]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [MDbrew]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [autokattis]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [suggestscraper]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-06 12:34:25] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/50/3d/04c14a112b5d4067c51c0b7c38b2847e3f2f8bed960a74aa8e592bd3dac8/bw_matchbox-0.5.1.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/63/15/cccdfa8d8f8c0b19f4a66ef3ba53944f76850dd35066e281ed7958b7e3e9/update-linux-3.0.0.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/f8/3d/0ae5fab6b27062771281a8c8dc0f8cb92b1f64cbdeea0c5906c98f5b16ea/MDbrew-2.3.8.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/3c/9c/b7b068f09eadf43eeee6f54e08594667e555dea0a704c6adbd9521c22e42/funda-scraper-1.0.0.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/e0/03/36f15248d79a9a92ba99f8705797f3c8024578ed558a583ea2bb8b9fa121/pyUAMMD-1.0.8.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [autokattis]: Downloading https://files.pythonhosted.org/packages/45/91/fb70f21af7cda2ef253fc9a047e24cc310c0b3d6b4597f364da0a57c14f4/autokattis-1.4.5.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [suggestscraper]: Downloading https://files.pythonhosted.org/packages/41/c0/1eee91ee5ce6326d9d9a2223a4cc51df332975aae7ef76c4cdff7eba68a2/suggestscraper-0.0.1.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/17/88/fd1a8cf276f9c898aaa1fc67ecf46279256dcf966e770714b41a408fc42c/MDbrew-2.3.9.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/38/cf/02a0b3b03cce15cff5c254efa3dcfed129249fca6d8ff3a5464e0a1b59fb/bw_matchbox-0.6.0.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/dc/e0/5e57481cc72c53c86474048533753db490355ef38d228368e664c2459849/update-linux-3.0.1.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-08-06 12:34:25] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.3.8.tar.gz tmp/MDbrew-2.3.9.tar.gz --markdown 20230806/M/MDbrew/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-08-06 12:34:25] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/a7/e1/9133fcadb7a039cc429560f8736d3f8f1e2ba6f604869a4e5d53e7070bd9/funda-scraper-1.0.1.tar.gz
+[2023-08-06 12:34:25] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-08-06 12:34:25] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230806/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-06 12:34:25] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-06 12:34:25] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-0.5.1.tar.gz tmp/bw_matchbox-0.6.0.tar.gz --markdown 20230806/b/bw-matchbox/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 12:34:25] INFO root fetch - processPackages [update-linux]: executing diffoscope
+[2023-08-06 12:34:25] INFO root fetch - processPackages [update-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update-linux-3.0.0.tar.gz tmp/update-linux-3.0.1.tar.gz --markdown 20230806/u/update-linux/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-06 12:34:26] INFO root fetch - processPackages [suggestscraper]: Downloading https://files.pythonhosted.org/packages/f6/62/52f50381261bbfb37099d3e062a990a6eaf0c47a843128f559e94e07c6d4/suggestscraper-0.0.3-py3-none-any.whl
+[2023-08-06 12:34:26] INFO root fetch - processPackages [autokattis]: Downloading https://files.pythonhosted.org/packages/ae/a5/5d5650d37a22018ab66e144d33a899d87feeab0413aa65981cc5effb54f4/autokattis-1.4.6.tar.gz
+[2023-08-06 12:34:26] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-06 12:34:26] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda-scraper-1.0.0.tar.gz tmp/funda-scraper-1.0.1.tar.gz --markdown 20230806/f/funda-scraper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-06 12:34:26] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/06/9c/bdd47d059b89ad033ee9fdd53dc0ca7530bda219f66fc3a43f117a02150c/pyUAMMD-1.0.9.tar.gz
+[2023-08-06 12:34:26] INFO root fetch - processPackages [autokattis]: executing diffoscope
+[2023-08-06 12:34:26] INFO root fetch - processPackages [autokattis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autokattis-1.4.5.tar.gz tmp/autokattis-1.4.6.tar.gz --markdown 20230806/a/autokattis/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-08-06 12:34:26] INFO root fetch - processPackages [suggestscraper]: executing diffoscope
+[2023-08-06 12:34:26] INFO root fetch - processPackages [suggestscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suggestscraper-0.0.1.tar.gz tmp/suggestscraper-0.0.3-py3-none-any.whl.zip --markdown 20230806/s/suggestscraper/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 12:34:26] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-08-06 12:34:26] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.8.tar.gz tmp/pyUAMMD-1.0.9.tar.gz --markdown 20230806/p/pyUAMMD/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 12:34:27] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.8.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.9.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-3.0.0.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [update-linux]: Remove: archive file [/home/abi/fetcher/tmp/update-linux-3.0.1.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [update-linux]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.0.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.1.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [suggestscraper]: Remove: archive file [/home/abi/fetcher/tmp/suggestscraper-0.0.1.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [suggestscraper]: Remove: archive file [/home/abi/fetcher/tmp/suggestscraper-0.0.3-py3-none-any.whl.zip]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [suggestscraper]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [autokattis]: Remove: archive file [/home/abi/fetcher/tmp/autokattis-1.4.5.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [autokattis]: Remove: archive file [/home/abi/fetcher/tmp/autokattis-1.4.6.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [autokattis]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-08-06 12:34:27] INFO root fetch - processPackages [pyUAMMD]: Remove: archive file [/home/abi/fetcher/tmp/pyUAMMD-1.0.8.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - processPackages [pyUAMMD]: Remove: archive file [/home/abi/fetcher/tmp/pyUAMMD-1.0.9.tar.gz]
+[2023-08-06 12:34:27] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-08-06 12:34:28] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.5.1.tar.gz]
+[2023-08-06 12:34:28] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-0.6.0.tar.gz]
+[2023-08-06 12:34:28] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-06 12:34:28] INFO root fetch - main [MainThread]: Store serial: [19193060]
