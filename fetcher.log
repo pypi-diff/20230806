@@ -6568,3 +6568,61 @@
 [2023-08-06 11:16:05] INFO root fetch - processPackages [maturin]: Remove: archive file [/home/abi/fetcher/tmp/maturin-1.2.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl.zip]
 [2023-08-06 11:16:05] INFO root fetch - main [MainThread]: End processing [maturin]: success
 [2023-08-06 11:16:05] INFO root fetch - main [MainThread]: Store serial: [19192653]
+[2023-08-06 11:21:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192653]
+[2023-08-06 11:21:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stadata-semver
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s1290242-learn
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Furious-GUI
+[2023-08-06 11:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-08-06 11:21:14] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 11:21:14] INFO root fetch - processPackages [stadata-semver]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-08-06 11:21:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 11:21:14] WARNING root fetch - processPackages [s1290242-learn]: Skipping, unable to determine old version
+[2023-08-06 11:21:14] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 11:21:14] INFO root fetch - main [MainThread]: End processing [s1290242-learn] error
+[2023-08-06 11:21:14] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-08-06 11:21:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-06 11:21:14] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [stadata-semver]: Downloading https://files.pythonhosted.org/packages/76/86/1c92e6d4d35341e4b06af08e8b7ab7f9af4082b819ab605bae5601a7587b/stadata_semver-0.3.0.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/55/23/9d54b6d7d13d4909129259c67e0be936c1acb9463a79b32902da35f9483d/Furious-GUI-0.1.8.tar.gz
+[2023-08-06 11:21:14] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 11:21:15] INFO root fetch - processPackages [stadata-semver]: Downloading https://files.pythonhosted.org/packages/12/b2/5b833e3fe09e1e39907703b0efdc62f2eebd00c544fd2b4b04acc8e540ea/stadata_semver-1.0.0.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-06 11:21:15] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230806/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-06 11:21:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230806/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-06 11:21:15] INFO root fetch - processPackages [stadata-semver]: executing diffoscope
+[2023-08-06 11:21:15] INFO root fetch - processPackages [stadata-semver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadata_semver-0.3.0.tar.gz tmp/stadata_semver-1.0.0.tar.gz --markdown 20230806/s/stadata-semver/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 11:21:15] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/13/ca/e547f7b0a28ad868f18d45d7550c0d1554a0ce8cfdbd1ff927f53a309ed5/Furious-GUI-0.1.9.tar.gz
+[2023-08-06 11:21:15] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-08-06 11:21:15] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230806/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-08-06 11:21:16] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-08-06 11:21:16] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.8.tar.gz tmp/Furious-GUI-0.1.9.tar.gz --markdown 20230806/F/Furious-GUI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 11:21:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 11:21:16] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-06 11:21:16] INFO root fetch - processPackages [stadata-semver]: Remove: archive file [/home/abi/fetcher/tmp/stadata_semver-0.3.0.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - processPackages [stadata-semver]: Remove: archive file [/home/abi/fetcher/tmp/stadata_semver-1.0.0.tar.gz]
+[2023-08-06 11:21:16] INFO root fetch - main [MainThread]: End processing [stadata-semver]: success
+[2023-08-06 11:21:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-06 11:21:18] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.8.tar.gz]
+[2023-08-06 11:21:18] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.9.tar.gz]
+[2023-08-06 11:21:18] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-08-06 11:21:18] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-08-06 11:21:18] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-08-06 11:21:18] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-08-06 11:21:18] INFO root fetch - main [MainThread]: Store serial: [19192691]
