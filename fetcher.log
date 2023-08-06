@@ -6179,3 +6179,33 @@
 [2023-08-06 10:44:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230805-py2.py3-none-any.whl.zip]
 [2023-08-06 10:44:32] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-08-06 10:44:32] INFO root fetch - main [MainThread]: Store serial: [19192383]
+[2023-08-06 10:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192383]
+[2023-08-06 10:49:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 10:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-08-06 10:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-pjsk
+[2023-08-06 10:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authomize-rest-api-client
+[2023-08-06 10:49:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 10:49:41] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-08-06 10:49:41] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-08-06 10:49:41] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-08-06 10:49:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Downloading https://files.pythonhosted.org/packages/d4/24/9327ddc67cf02c45f1f20b74ff709b5be01ce23f9fa320cd1fa576947245/nonebot_plugin_pjsk-0.2.5.tar.gz
+[2023-08-06 10:49:41] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/0a/dd/ab2b1aaee630b9ff44b6d5fbda24f7da39a2220e1378df79536337949116/authomize-rest-api-client-4.3.8.tar.gz
+[2023-08-06 10:49:41] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-08-06 10:49:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Downloading https://files.pythonhosted.org/packages/78/11/499174f5b4ee3ec63e02743683451228dbce7f772a8d59e00b8bb4a476f4/nonebot_plugin_pjsk-0.2.6.tar.gz
+[2023-08-06 10:49:42] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/b4/85/b789614b8c1a99a67d23b703b452fb78f6fe86ab0d5d4c4592549be0a5fe/authomize-rest-api-client-4.3.9.tar.gz
+[2023-08-06 10:49:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: executing diffoscope
+[2023-08-06 10:49:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_pjsk-0.2.5.tar.gz tmp/nonebot_plugin_pjsk-0.2.6.tar.gz --markdown 20230806/n/nonebot-plugin-pjsk/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 10:49:42] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-08-06 10:49:42] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.3.8.tar.gz tmp/authomize-rest-api-client-4.3.9.tar.gz --markdown 20230806/a/authomize-rest-api-client/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-08-06 10:49:42] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-08-06 10:49:42] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230806/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-08-06 10:49:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pjsk-0.2.5.tar.gz]
+[2023-08-06 10:49:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pjsk-0.2.6.tar.gz]
+[2023-08-06 10:49:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pjsk]: success
+[2023-08-06 10:49:43] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.8.tar.gz]
+[2023-08-06 10:49:43] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.9.tar.gz]
+[2023-08-06 10:49:43] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-08-06 10:49:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-08-06 10:49:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-08-06 10:49:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-08-06 10:49:46] INFO root fetch - main [MainThread]: Store serial: [19192391]
