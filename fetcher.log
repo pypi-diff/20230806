@@ -8200,3 +8200,41 @@
 [2023-08-06 13:43:50] INFO root fetch - processPackages [sbot]: Remove: archive file [/home/abi/fetcher/tmp/sbot-1.1.0.tar.gz]
 [2023-08-06 13:43:50] INFO root fetch - main [MainThread]: End processing [sbot]: success
 [2023-08-06 13:43:50] INFO root fetch - main [MainThread]: Store serial: [19193358]
+[2023-08-06 13:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193358]
+[2023-08-06 13:48:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apit212
+[2023-08-06 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xml2epub
+[2023-08-06 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ditmerichsoon-proxy
+[2023-08-06 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dotdrop
+[2023-08-06 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgstools
+[2023-08-06 13:48:58] INFO root fetch - processPackages [xml2epub]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-08-06 13:48:58] INFO root fetch - processPackages [apit212]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-06 13:48:58] WARNING root fetch - processPackages [ditmerichsoon-proxy]: Skipping, unable to determine old version
+[2023-08-06 13:48:58] INFO root fetch - main [MainThread]: End processing [ditmerichsoon-proxy] error
+[2023-08-06 13:48:58] INFO root fetch - processPackages [bgstools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-06 13:48:58] INFO root fetch - processPackages [dotdrop]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-08-06 13:48:58] INFO root fetch - processPackages [xml2epub]: Downloading https://files.pythonhosted.org/packages/51/dc/6ae9715ea959f599631c53c4ac2172fc0166a675557fb2ae6c5e71dc7fa0/xml2epub-2.6.2.tar.gz
+[2023-08-06 13:48:58] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/ed/be/165fd387c44be3522bb2dc9647493a2d5f311677645467ae8e6aa11328c7/apit212-1.0.2.tar.gz
+[2023-08-06 13:48:58] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-08-06 13:48:58] INFO root fetch - processPackages [dotdrop]: Downloading https://files.pythonhosted.org/packages/7d/5e/4ceb0bfdd53d3416c14636e456271e60d934ebe8e6e1794720b9d7b57d7b/dotdrop-1.8.2.tar.gz
+[2023-08-06 13:48:59] WARNING root fetch - processPackages [xml2epub]: Skipping package: exceeds size limit 10769436>=10485760
+[2023-08-06 13:48:59] INFO root fetch - main [MainThread]: End processing [xml2epub] error
+[2023-08-06 13:48:59] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/66/ad/a2be75303d9b10c46335ef76d1b920c001f4ac944aa62e83dbc6c425f611/apit212-1.0.3.tar.gz
+[2023-08-06 13:48:59] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/62/5b/848f94a1e896bdf453c05ab2864025f7af665df7d3adddf52d7b4d7659d2/bgstools-0.2.0.tar.gz
+[2023-08-06 13:48:59] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-08-06 13:48:59] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.9.tar.gz tmp/bgstools-0.2.0.tar.gz --markdown 20230806/b/bgstools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 13:48:59] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-08-06 13:48:59] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-1.0.2.tar.gz tmp/apit212-1.0.3.tar.gz --markdown 20230806/a/apit212/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 13:48:59] INFO root fetch - processPackages [dotdrop]: Downloading https://files.pythonhosted.org/packages/16/56/5fa22cdd89f55773250a675c940e18b2188ebe2511762347d0bf0b3c9841/dotdrop-1.9.0.tar.gz
+[2023-08-06 13:48:59] INFO root fetch - processPackages [dotdrop]: executing diffoscope
+[2023-08-06 13:48:59] INFO root fetch - processPackages [dotdrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotdrop-1.8.2.tar.gz tmp/dotdrop-1.9.0.tar.gz --markdown 20230806/d/dotdrop/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-08-06 13:49:00] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.2.0.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-08-06 13:49:00] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.2.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.3.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-08-06 13:49:00] INFO root fetch - processPackages [dotdrop]: Remove: archive file [/home/abi/fetcher/tmp/dotdrop-1.8.2.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - processPackages [dotdrop]: Remove: archive file [/home/abi/fetcher/tmp/dotdrop-1.9.0.tar.gz]
+[2023-08-06 13:49:00] INFO root fetch - main [MainThread]: End processing [dotdrop]: success
+[2023-08-06 13:49:00] INFO root fetch - main [MainThread]: Store serial: [19193375]
