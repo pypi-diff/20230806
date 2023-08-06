@@ -3927,3 +3927,42 @@
 [2023-08-06 06:56:02] WARNING root fetch - processPackages [loafer-ng]: Skipping, unable to determine old version
 [2023-08-06 06:56:02] INFO root fetch - main [MainThread]: End processing [loafer-ng] error
 [2023-08-06 06:56:02] INFO root fetch - main [MainThread]: Store serial: [19191244]
+[2023-08-06 07:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191244]
+[2023-08-06 07:01:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmapper
+[2023-08-06 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasmemuc
+[2023-08-06 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2023-08-06 07:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylimit
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pylimit]: New version: [1.0.0] Old Version: [0.1.7]
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pandasmemuc]: New version: [0.15] Old Version: [0.14]
+[2023-08-06 07:01:11] INFO root fetch - processPackages [vmapper]: New version: [0.1.0.dev202308060456] Old Version: [0.1.0.dev202304232359]
+[2023-08-06 07:01:11] INFO root fetch - processPackages [litellm]: New version: [0.1.348] Old Version: [0.1.347]
+[2023-08-06 07:01:11] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/e5/0a/593a97337850887d1c1f995d2300625020568f9583b6fa55daeea78ade32/litellm-0.1.347.tar.gz
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pylimit]: Downloading https://files.pythonhosted.org/packages/be/96/61d3e346d4c4d6795d25dfe104339b84199ebba1be318b8c12f0570dff6c/pylimit-0.1.7.tar.gz
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pandasmemuc]: Downloading https://files.pythonhosted.org/packages/58/cc/1edf5af0eff8ecb8858090e182b94dab770c04dce3bf0e448869c1e45e7a/pandasmemuc-0.14.tar.gz
+[2023-08-06 07:01:11] INFO root fetch - processPackages [vmapper]: Downloading https://files.pythonhosted.org/packages/d6/a4/08739a7b7403c56432cd6797c07691e2d209431595b4674bf77e665dc5cf/vmapper-0.1.0.dev202304232359-py3-none-any.whl
+[2023-08-06 07:01:11] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/7f/b3/f4958825406cabba73e911706f7a77f33ab0aac7e32ad6f89e99fe7aa9f0/litellm-0.1.348.tar.gz
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pylimit]: Downloading https://files.pythonhosted.org/packages/9e/9e/83f60c9ad9d99b357475480449186d80c15d3472534dcfbd8165f9741b63/pylimit-1.0.0.tar.gz
+[2023-08-06 07:01:11] INFO root fetch - processPackages [pandasmemuc]: Downloading https://files.pythonhosted.org/packages/6a/66/fa3a4286191fce81cbf56579f825a2cbf675695172816bb73674f02154d9/pandasmemuc-0.15.tar.gz
+[2023-08-06 07:01:12] INFO root fetch - processPackages [vmapper]: Downloading https://files.pythonhosted.org/packages/fb/22/63119a69c518900fe999b34a5254f99f44d35a7eda38de14397ddc2c38c4/vmapper-0.1.0.dev202308060456-py3-none-any.whl
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pylimit]: executing diffoscope
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pylimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylimit-0.1.7.tar.gz tmp/pylimit-1.0.0.tar.gz --markdown 20230806/p/pylimit/0.1.7-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pandasmemuc]: executing diffoscope
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pandasmemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasmemuc-0.14.tar.gz tmp/pandasmemuc-0.15.tar.gz --markdown 20230806/p/pandasmemuc/0.14-0.15/diff.md --exclude *.pyd
+[2023-08-06 07:01:12] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-06 07:01:12] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.347.tar.gz tmp/litellm-0.1.348.tar.gz --markdown 20230806/l/litellm/0.1.347-0.1.348/diff.md --exclude *.pyd
+[2023-08-06 07:01:12] INFO root fetch - processPackages [vmapper]: executing diffoscope
+[2023-08-06 07:01:12] INFO root fetch - processPackages [vmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmapper-0.1.0.dev202304232359-py3-none-any.whl.zip tmp/vmapper-0.1.0.dev202308060456-py3-none-any.whl.zip --markdown 20230806/v/vmapper/0.1.0.dev202304232359-0.1.0.dev202308060456/diff.md --exclude *.pyd
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pylimit]: Remove: archive file [/home/abi/fetcher/tmp/pylimit-0.1.7.tar.gz]
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pylimit]: Remove: archive file [/home/abi/fetcher/tmp/pylimit-1.0.0.tar.gz]
+[2023-08-06 07:01:12] INFO root fetch - main [MainThread]: End processing [pylimit]: success
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pandasmemuc]: Remove: archive file [/home/abi/fetcher/tmp/pandasmemuc-0.14.tar.gz]
+[2023-08-06 07:01:12] INFO root fetch - processPackages [pandasmemuc]: Remove: archive file [/home/abi/fetcher/tmp/pandasmemuc-0.15.tar.gz]
+[2023-08-06 07:01:12] INFO root fetch - main [MainThread]: End processing [pandasmemuc]: success
+[2023-08-06 07:01:13] INFO root fetch - processPackages [vmapper]: Remove: archive file [/home/abi/fetcher/tmp/vmapper-0.1.0.dev202304232359-py3-none-any.whl.zip]
+[2023-08-06 07:01:13] INFO root fetch - processPackages [vmapper]: Remove: archive file [/home/abi/fetcher/tmp/vmapper-0.1.0.dev202308060456-py3-none-any.whl.zip]
+[2023-08-06 07:01:13] INFO root fetch - main [MainThread]: End processing [vmapper]: success
+[2023-08-06 07:01:13] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.347.tar.gz]
+[2023-08-06 07:01:13] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.348.tar.gz]
+[2023-08-06 07:01:13] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-06 07:01:13] INFO root fetch - main [MainThread]: Store serial: [19191256]
