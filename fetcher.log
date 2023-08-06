@@ -13334,3 +13334,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:53:20] INFO root fetch - processPackages [mediumvers123]: Remove: archive file [/home/abi/fetcher/tmp/mediumvers123-0.1.2.tar.gz]
 [2023-08-06 18:53:20] INFO root fetch - main [MainThread]: End processing [mediumvers123]: success
 [2023-08-06 18:53:20] INFO root fetch - main [MainThread]: Store serial: [19195694]
+[2023-08-06 18:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195694]
+[2023-08-06 18:58:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logto
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YandexHome
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspk
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhman
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceprob
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartConvDS
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coloraide
+[2023-08-06 18:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py3gpp
+[2023-08-06 18:58:29] WARNING root fetch - processPackages [spaceprob]: Skipping, unable to determine old version
+[2023-08-06 18:58:29] INFO root fetch - main [MainThread]: End processing [spaceprob] error
+[2023-08-06 18:58:29] INFO root fetch - processPackages [YandexHome]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 18:58:29] WARNING root fetch - processPackages [smartConvDS]: Skipping, unable to determine old version
+[2023-08-06 18:58:29] INFO root fetch - main [MainThread]: End processing [smartConvDS] error
+[2023-08-06 18:58:29] WARNING root fetch - processPackages [logto]: Skipping, unable to determine old version
+[2023-08-06 18:58:29] INFO root fetch - main [MainThread]: End processing [logto] error
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyhman]: New version: [1.0.3] Old Version: [0.1.0]
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyspk]: New version: [1.8] Old Version: [1.7]
+[2023-08-06 18:58:29] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/7c/9e/3b6b3b319095ce2539e33ff6a89d30aaa164442333175a5d199cc62ae251/YandexHome-0.1.8.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [py3gpp]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-06 18:58:29] INFO root fetch - processPackages [coloraide]: New version: [2.7.1] Old Version: [2.7]
+[2023-08-06 18:58:29] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyhman]: Downloading https://files.pythonhosted.org/packages/58/85/458b074bd1fb12ff932525c137e98b35d7d14d3c05fe8f35f83e7747d74f/pyhman-0.1.0.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/9e/f4/ace24aafe88a5335667e28463cecbd44021cd19ab628a1a157843b9c1c08/pyspk-1.7.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/db/0b/0bc70e6a1e1ea52ff09e1451de8ae94793bdef3908c39bc04c1a9db6056d/YandexHome-0.1.9.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [py3gpp]: Downloading https://files.pythonhosted.org/packages/5c/fa/fd189436e73bd8b899ba27194d5580d277a4f5922842a9bd3d62613997d2/py3gpp-0.1.7.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/72/cd/33af60633b87694565237c316b94e253188a50ec5423f271765aabcd2254/coloraide-2.7.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-08-06 18:58:29] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 15648395>=10485760
+[2023-08-06 18:58:29] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2023-08-06 18:58:29] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 18:58:29] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.1.8.tar.gz tmp/YandexHome-0.1.9.tar.gz --markdown 20230806/Y/YandexHome/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:58:29] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-08-06 18:58:29] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyhman]: Downloading https://files.pythonhosted.org/packages/a4/5a/d47c5b6f2790e6a79842896cfaab4c45b93b08a31960fa8c728677abe98d/pyhman-1.0.3.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [py3gpp]: Downloading https://files.pythonhosted.org/packages/7a/7c/e6b0ddd03bfca2dd1166f89cf5af52224b540a0fece679670692271b7e8e/py3gpp-0.1.9.tar.gz
+[2023-08-06 18:58:29] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/9a/08/53bf0ab968a55a9de30dd55b463ae86dc743893fb0757a3e0f09a4e993d8/pyspk-1.8.tar.gz
+[2023-08-06 18:58:30] INFO root fetch - processPackages [py3gpp]: executing diffoscope
+[2023-08-06 18:58:30] INFO root fetch - processPackages [py3gpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3gpp-0.1.7.tar.gz tmp/py3gpp-0.1.9.tar.gz --markdown 20230806/p/py3gpp/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyspk]: executing diffoscope
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyspk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspk-1.7.tar.gz tmp/pyspk-1.8.tar.gz --markdown 20230806/p/pyspk/1.7-1.8/diff.md --exclude *.pyd
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyhman]: executing diffoscope
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyhman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhman-0.1.0.tar.gz tmp/pyhman-1.0.3.tar.gz --markdown 20230806/p/pyhman/0.1.0-1.0.3/diff.md --exclude *.pyd
+[2023-08-06 18:58:30] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.8.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.9.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyhman]: Remove: archive file [/home/abi/fetcher/tmp/pyhman-0.1.0.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyhman]: Remove: archive file [/home/abi/fetcher/tmp/pyhman-1.0.3.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - main [MainThread]: End processing [pyhman]: success
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyspk]: Remove: archive file [/home/abi/fetcher/tmp/pyspk-1.7.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - processPackages [pyspk]: Remove: archive file [/home/abi/fetcher/tmp/pyspk-1.8.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - main [MainThread]: End processing [pyspk]: success
+[2023-08-06 18:58:30] INFO root fetch - processPackages [py3gpp]: Remove: archive file [/home/abi/fetcher/tmp/py3gpp-0.1.7.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - processPackages [py3gpp]: Remove: archive file [/home/abi/fetcher/tmp/py3gpp-0.1.9.tar.gz]
+[2023-08-06 18:58:30] INFO root fetch - main [MainThread]: End processing [py3gpp]: success
+[2023-08-06 18:58:30] INFO root fetch - main [MainThread]: Store serial: [19195723]
