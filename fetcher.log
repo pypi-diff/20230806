@@ -8903,3 +8903,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:30:35] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.97.tar.gz]
 [2023-08-06 14:30:35] INFO root fetch - main [MainThread]: End processing [sgw-tools]: success
 [2023-08-06 14:30:35] INFO root fetch - main [MainThread]: Store serial: [19193663]
+[2023-08-06 14:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193663]
+[2023-08-06 14:35:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablate
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clowrie-test
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dl2050utils
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teneva-bm
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c3tt-rpc-client
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hades-core
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CFSession
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dl2050utils
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablate
+[2023-08-06 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jlogr
+[2023-08-06 14:35:44] INFO root fetch - processPackages [hades-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [teneva-bm]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [jlogr]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 14:35:44] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 14:35:44] WARNING root fetch - processPackages [c3tt-rpc-client]: Skipping, unable to determine old version
+[2023-08-06 14:35:44] INFO root fetch - processPackages [c3tt-rpc-client]: Start processing: accountbootstrap
+[2023-08-06 14:35:44] INFO root fetch - main [MainThread]: End processing [c3tt-rpc-client] error
+[2023-08-06 14:35:44] INFO root fetch - processPackages [CFSession]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 14:35:44] WARNING root fetch - processPackages [clowrie-test]: Skipping, unable to determine old version
+[2023-08-06 14:35:44] INFO root fetch - main [MainThread]: End processing [clowrie-test] error
+[2023-08-06 14:35:44] INFO root fetch - processPackages [hades-core]: Downloading https://files.pythonhosted.org/packages/3e/03/f6bdd529bcd06f4861e84f00e216ead0bfc5cbaee75d11743097ae677ae2/hades-core-0.0.2.tar.gz
+[2023-08-06 14:35:44] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:35:44] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/5f/59/5fbea886b1f3191551a068760a48d79217aebe5c70ce54e4da5b76779873/teneva_bm-0.7.1.tar.gz
+[2023-08-06 14:35:44] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:35:44] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-06 14:35:44] WARNING root fetch - processPackages [accountbootstrap]: Skipping, unable to determine old version
+[2023-08-06 14:35:44] INFO root fetch - main [MainThread]: End processing [accountbootstrap] error
+[2023-08-06 14:35:44] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/e5/4c/f621376457120360e0a4a6b873bd1472c27821c6140e30ccf8fbfe2028ea/jlogr-0.1.17.tar.gz
+[2023-08-06 14:35:44] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/da/e6/7fbde71bba595ce88df1256d52dffd504499e792c723c0c795ad5e121be7/CFSession-1.0.0.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [hades-core]: Downloading https://files.pythonhosted.org/packages/6e/29/06357f5057894dc455f21f0e1474ed42a66eefc68fd52916e059f026e756/hades-core-0.0.3.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/c4/5c40dfc9814ed83da12d0f915893f6d10e508c66aa97dbc855cc89409301/teneva_bm-0.7.2.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [hades-core]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [hades-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hades-core-0.0.2.tar.gz tmp/hades-core-0.0.3.tar.gz --markdown 20230806/h/hades-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230806/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.7.1.tar.gz tmp/teneva_bm-0.7.2.tar.gz --markdown 20230806/t/teneva-bm/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230806/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/0c/90/970963906da4b79649d93e9fcdf0ece8feea6af8b3f827a6b263be46a7a2/jlogr-0.1.18.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/06/a8/aa3e8c289c975726d33aa1bf37a6616cf81d3d689741c5345d4a6785718d/CFSession-1.1.0.tar.gz
+[2023-08-06 14:35:45] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.17.tar.gz tmp/jlogr-0.1.18.tar.gz --markdown 20230806/j/jlogr/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-08-06 14:35:45] INFO root fetch - processPackages [CFSession]: executing diffoscope
+[2023-08-06 14:35:45] INFO root fetch - processPackages [CFSession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFSession-1.0.0.tar.gz tmp/CFSession-1.1.0.tar.gz --markdown 20230806/C/CFSession/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 14:35:46] INFO root fetch - processPackages [hades-core]: Remove: archive file [/home/abi/fetcher/tmp/hades-core-0.0.2.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - processPackages [hades-core]: Remove: archive file [/home/abi/fetcher/tmp/hades-core-0.0.3.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - main [MainThread]: End processing [hades-core]: success
+[2023-08-06 14:35:46] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-06 14:35:46] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-06 14:35:46] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.1.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.2.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-08-06 14:35:46] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.17.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.18.tar.gz]
+[2023-08-06 14:35:46] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 14:35:47] INFO root fetch - processPackages [CFSession]: Remove: archive file [/home/abi/fetcher/tmp/CFSession-1.0.0.tar.gz]
+[2023-08-06 14:35:47] INFO root fetch - processPackages [CFSession]: Remove: archive file [/home/abi/fetcher/tmp/CFSession-1.1.0.tar.gz]
+[2023-08-06 14:35:47] INFO root fetch - main [MainThread]: End processing [CFSession]: success
+[2023-08-06 14:35:47] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:35:47] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:35:47] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:35:47] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:35:47] INFO root fetch - main [MainThread]: Store serial: [19193702]
