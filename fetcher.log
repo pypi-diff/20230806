@@ -17103,3 +17103,57 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:35:14] INFO root fetch - processPackages [assrs]: Remove: archive file [/home/abi/fetcher/tmp/assrs-0.1.1.tar.gz]
 [2023-08-06 23:35:14] INFO root fetch - main [MainThread]: End processing [assrs]: success
 [2023-08-06 23:35:14] INFO root fetch - main [MainThread]: Store serial: [19197413]
+[2023-08-06 23:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197413]
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jal
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testgailbotapi
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-browser-clipboard
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiddifypanel
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fracsuite
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mygrader
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pana
+[2023-08-06 23:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arduino-cli-cmake-wrapper
+[2023-08-06 23:40:23] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-06 23:40:23] WARNING root fetch - processPackages [mygrader]: Skipping, unable to determine old version
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: End processing [mygrader] error
+[2023-08-06 23:40:23] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 23:40:23] INFO root fetch - processPackages [jal]: New version: [2023.8.1] Old Version: [2023.7.1]
+[2023-08-06 23:40:23] WARNING root fetch - processPackages [jupyter-browser-clipboard]: Skipping, unable to determine old version
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: End processing [jupyter-browser-clipboard] error
+[2023-08-06 23:40:23] INFO root fetch - processPackages [pana]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-06 23:40:23] WARNING root fetch - processPackages [arduino-cli-cmake-wrapper]: Skipping, unable to determine old version
+[2023-08-06 23:40:23] WARNING root fetch - processPackages [testgailbotapi]: Skipping, unable to determine old version
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: End processing [arduino-cli-cmake-wrapper] error
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: End processing [testgailbotapi] error
+[2023-08-06 23:40:23] WARNING root fetch - processPackages [fracsuite]: Skipping, unable to determine old version
+[2023-08-06 23:40:23] INFO root fetch - main [MainThread]: End processing [fracsuite] error
+[2023-08-06 23:40:23] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-06 23:40:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 23:40:23] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/e5/1b/322a7ad7f8bbf380c3adb9cd7ec7e7af7626e80b3f1902fdfe3e0743ac25/jal-2023.7.1.tar.gz
+[2023-08-06 23:40:23] INFO root fetch - processPackages [pana]: Downloading https://files.pythonhosted.org/packages/c2/61/963c123ce990ec7d92b68fca049a943c26a96dc5d312d7cd6425d3bf5ef6/pana-0.1.0.tar.gz
+[2023-08-06 23:40:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 23:40:23] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 23:40:23] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 23:40:24] INFO root fetch - processPackages [pana]: Downloading https://files.pythonhosted.org/packages/32/35/967f827b096bdd52dda0591121c8dd9144aa8bdbe40af77bf58075af5f4b/pana-0.2.0.tar.gz
+[2023-08-06 23:40:24] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/18/73/d756c271ed102d59fb2f813bd2059bb8447f2d26b17e1d4dbe9692733438/jal-2023.8.1.tar.gz
+[2023-08-06 23:40:24] INFO root fetch - processPackages [pana]: executing diffoscope
+[2023-08-06 23:40:24] INFO root fetch - processPackages [pana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pana-0.1.0.tar.gz tmp/pana-0.2.0.tar.gz --markdown 20230806/p/pana/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 23:40:24] INFO root fetch - processPackages [jal]: executing diffoscope
+[2023-08-06 23:40:24] INFO root fetch - processPackages [jal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jal-2023.7.1.tar.gz tmp/jal-2023.8.1.tar.gz --markdown 20230806/j/jal/2023.7.1-2023.8.1/diff.md --exclude *.pyd
+[2023-08-06 23:40:24] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-06 23:40:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 23:40:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 23:40:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 23:40:24] INFO root fetch - processPackages [pana]: Remove: archive file [/home/abi/fetcher/tmp/pana-0.1.0.tar.gz]
+[2023-08-06 23:40:24] INFO root fetch - processPackages [pana]: Remove: archive file [/home/abi/fetcher/tmp/pana-0.2.0.tar.gz]
+[2023-08-06 23:40:24] INFO root fetch - main [MainThread]: End processing [pana]: success
+[2023-08-06 23:40:25] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-06 23:40:25] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230806/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-06 23:40:26] INFO root fetch - processPackages [jal]: Remove: archive file [/home/abi/fetcher/tmp/jal-2023.7.1.tar.gz]
+[2023-08-06 23:40:26] INFO root fetch - processPackages [jal]: Remove: archive file [/home/abi/fetcher/tmp/jal-2023.8.1.tar.gz]
+[2023-08-06 23:40:26] INFO root fetch - main [MainThread]: End processing [jal]: success
+[2023-08-06 23:40:30] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-06 23:40:30] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-06 23:40:30] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-06 23:40:30] INFO root fetch - main [MainThread]: Store serial: [19197452]
