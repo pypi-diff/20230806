@@ -9910,3 +9910,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:28:34] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip]
 [2023-08-06 15:28:34] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-08-06 15:28:34] INFO root fetch - main [MainThread]: Store serial: [19194125]
+[2023-08-06 15:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194125]
+[2023-08-06 15:33:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airthings-ble
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gimera
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiankun
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsondatasave
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyverify-xnz233
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taopy
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sounderpy
+[2023-08-06 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magicsoup
+[2023-08-06 15:33:42] INFO root fetch - processPackages [sounderpy]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-08-06 15:33:42] WARNING root fetch - processPackages [pyverify-xnz233]: Skipping, unable to determine old version
+[2023-08-06 15:33:42] INFO root fetch - main [MainThread]: End processing [pyverify-xnz233] error
+[2023-08-06 15:33:42] INFO root fetch - processPackages [jsondatasave]: New version: [1.1] Old Version: [1.0]
+[2023-08-06 15:33:42] INFO root fetch - processPackages [magicsoup]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-06 15:33:42] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/13/83/e53efdf16f848083ddbc7278c5a4a789685f2de9531be4d2800a520829c5/sounderpy-2.2.0.tar.gz
+[2023-08-06 15:33:42] INFO root fetch - processPackages [gimera]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-08-06 15:33:42] WARNING root fetch - processPackages [qiankun]: Skipping, unable to determine old version
+[2023-08-06 15:33:42] INFO root fetch - main [MainThread]: End processing [qiankun] error
+[2023-08-06 15:33:42] INFO root fetch - processPackages [airthings-ble]: New version: [0.5.6.post2] Old Version: [0.5.6]
+[2023-08-06 15:33:42] WARNING root fetch - processPackages [taopy]: Skipping, unable to determine old version
+[2023-08-06 15:33:42] INFO root fetch - main [MainThread]: End processing [taopy] error
+[2023-08-06 15:33:42] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/4b/64/69caa33a15f09b90e269e16ce19300789975b164c494fb7cc3cb777c7dfa/magicsoup-0.4.5.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [jsondatasave]: Downloading https://files.pythonhosted.org/packages/e7/a0/326dda079e4a5f2ed3cff5effdd6b1491792ce4dcd66db32631facd013f2/jsondatasave-1.0.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/64/81/0c432b93db1e49dfaa1ca777654731c2b48492ab09a1b6a8f38d790c2e96/gimera-0.7.4.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/db/d5/1f0a571475c6e89df743eb699dbde3299e64f0d42b5b805c869eca523122/airthings_ble-0.5.6.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/76/be/ff7afd0f117e5de199ce6a9db4867c18b65d6357fc018a88c67ab9fc9777/magicsoup-0.4.6.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2c/75/a690562bc0f4ca16bd4e3043816d07fef7deb0cf10a3e0468deddedd5d84/sounderpy-2.3.0.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [jsondatasave]: Downloading https://files.pythonhosted.org/packages/eb/56/737d8c9350296e65c75c9ff7ab96607ed14f6b5803aad35896a7c6641b00/jsondatasave-1.1.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-08-06 15:33:43] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.4.5.tar.gz tmp/magicsoup-0.4.6.tar.gz --markdown 20230806/m/magicsoup/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-06 15:33:43] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 15:33:43] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-2.2.0.tar.gz tmp/sounderpy-2.3.0.tar.gz --markdown 20230806/s/sounderpy/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-08-06 15:33:43] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/22/6c/4a8d59b4d9739674fe87f00ccc8766468784d07a29764421a4bd72bafab4/gimera-0.7.5.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/53/90/c6bdbb7f44e96f4bd699dc6c40d0925e3e427f59e7b6cab52faff12ab895/airthings_ble-0.5.6.post2.tar.gz
+[2023-08-06 15:33:43] INFO root fetch - processPackages [jsondatasave]: executing diffoscope
+[2023-08-06 15:33:43] INFO root fetch - processPackages [jsondatasave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsondatasave-1.0.tar.gz tmp/jsondatasave-1.1.tar.gz --markdown 20230806/j/jsondatasave/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-06 15:33:43] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-08-06 15:33:43] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.4.tar.gz tmp/gimera-0.7.5.tar.gz --markdown 20230806/g/gimera/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-08-06 15:33:43] INFO root fetch - processPackages [airthings-ble]: executing diffoscope
+[2023-08-06 15:33:43] INFO root fetch - processPackages [airthings-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airthings_ble-0.5.6.tar.gz tmp/airthings_ble-0.5.6.post2.tar.gz --markdown 20230806/a/airthings-ble/0.5.6-0.5.6.post2/diff.md --exclude *.pyd
+[2023-08-06 15:33:44] INFO root fetch - processPackages [jsondatasave]: Remove: archive file [/home/abi/fetcher/tmp/jsondatasave-1.0.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - processPackages [jsondatasave]: Remove: archive file [/home/abi/fetcher/tmp/jsondatasave-1.1.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [jsondatasave]: success
+[2023-08-06 15:33:44] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.4.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.5.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-08-06 15:33:44] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.2.0.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.3.0.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 15:33:44] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.5.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.6.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-08-06 15:33:44] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.post2.tar.gz]
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [airthings-ble]: success
+[2023-08-06 15:33:44] INFO root fetch - main [MainThread]: Store serial: [19194152]
