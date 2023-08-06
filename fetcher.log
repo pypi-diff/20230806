@@ -3394,3 +3394,27 @@
 [2023-08-06 05:33:14] INFO root fetch - processPackages [BayesComBat]: Remove: archive file [/home/abi/fetcher/tmp/bayescombat-0.0.6.tar.gz]
 [2023-08-06 05:33:14] INFO root fetch - main [MainThread]: End processing [BayesComBat]: success
 [2023-08-06 05:33:14] INFO root fetch - main [MainThread]: Store serial: [19191017]
+[2023-08-06 05:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191017]
+[2023-08-06 05:38:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 05:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IABT
+[2023-08-06 05:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-08-06 05:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wells-data-pipeline-cores
+[2023-08-06 05:38:22] INFO root fetch - processPackages [IABT]: New version: [1.2] Old Version: [1.1]
+[2023-08-06 05:38:22] WARNING root fetch - processPackages [wells-data-pipeline-cores]: Skipping, unable to determine old version
+[2023-08-06 05:38:22] INFO root fetch - main [MainThread]: End processing [wells-data-pipeline-cores] error
+[2023-08-06 05:38:22] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-08-06 05:38:22] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/c8/4e/331efea3ce868142b4ba93cccb98ee985c65445187cc1265852c3322ed23/IABT-1.1.tar.gz
+[2023-08-06 05:38:22] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-08-06 05:38:22] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/47/fe/9f34d4f10ccdc0c23907719dec31dcbcbcfc844cd2c7c7c5ecc1f89a46df/IABT-1.2.tar.gz
+[2023-08-06 05:38:22] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-08-06 05:38:22] INFO root fetch - processPackages [IABT]: executing diffoscope
+[2023-08-06 05:38:22] INFO root fetch - processPackages [IABT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IABT-1.1.tar.gz tmp/IABT-1.2.tar.gz --markdown 20230806/I/IABT/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-06 05:38:23] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-08-06 05:38:23] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230806/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-08-06 05:38:23] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.1.tar.gz]
+[2023-08-06 05:38:23] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.2.tar.gz]
+[2023-08-06 05:38:23] INFO root fetch - main [MainThread]: End processing [IABT]: success
+[2023-08-06 05:38:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-08-06 05:38:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-08-06 05:38:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-08-06 05:38:23] INFO root fetch - main [MainThread]: Store serial: [19191026]
