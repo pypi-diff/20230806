@@ -8730,3 +8730,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-06 14:14:59] INFO root fetch - main [MainThread]: Store serial: [19193553]
+[2023-08-06 14:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193553]
+[2023-08-06 14:20:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanoSQLite
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablate
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziwi
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trex-apis
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AiogramLegacy
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dayu
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rethge-torch
+[2023-08-06 14:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mengde
+[2023-08-06 14:20:09] INFO root fetch - processPackages [nanoSQLite]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-06 14:20:09] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:20:09] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-06 14:20:09] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/5f/e3/226a8960e97956683cc435f9b2dc84a031d8adbd69d29f4784083259543d/nanoSQLite-0.1.1.tar.gz
+[2023-08-06 14:20:09] WARNING root fetch - processPackages [dayu]: Skipping, unable to determine old version
+[2023-08-06 14:20:09] INFO root fetch - main [MainThread]: End processing [dayu] error
+[2023-08-06 14:20:09] WARNING root fetch - processPackages [AiogramLegacy]: Skipping, unable to determine old version
+[2023-08-06 14:20:09] INFO root fetch - main [MainThread]: End processing [AiogramLegacy] error
+[2023-08-06 14:20:09] WARNING root fetch - processPackages [ziwi]: Skipping, unable to determine old version
+[2023-08-06 14:20:09] INFO root fetch - main [MainThread]: End processing [ziwi] error
+[2023-08-06 14:20:09] WARNING root fetch - processPackages [mengde]: Skipping, unable to determine old version
+[2023-08-06 14:20:09] INFO root fetch - main [MainThread]: End processing [mengde] error
+[2023-08-06 14:20:09] INFO root fetch - processPackages [trex-apis]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-06 14:20:09] INFO root fetch - processPackages [rethge-torch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 14:20:09] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/2f/ef/6972eaa0b21b55d42a77fe8b7b5cea21ef00d5c5bfe97a29e3b6718ab7eb/wizata-dsapi-0.3.5.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/77/c3/bee722b60baa266faf9f43d8cbaffe0cb4a5e041b8a315d5e76e066e4ad2/trex-apis-1.0.7.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [rethge-torch]: Downloading https://files.pythonhosted.org/packages/00/9e/4da30db81f790eb2d72b1003dfcf02c7699c1313b1ad6b100da26b63563f/rethge_torch-0.0.1.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/ad/fb/da47fdd6e21cb36a92ae4bc759beb7b4e9ca24ebc97adb295781986658d7/nanoSQLite-0.1.2.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:20:09] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:20:09] INFO root fetch - processPackages [nanoSQLite]: executing diffoscope
+[2023-08-06 14:20:09] INFO root fetch - processPackages [nanoSQLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoSQLite-0.1.1.tar.gz tmp/nanoSQLite-0.1.2.tar.gz --markdown 20230806/n/nanoSQLite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-06 14:20:09] INFO root fetch - processPackages [rethge-torch]: Downloading https://files.pythonhosted.org/packages/82/c4/cc20b98a6865346ec70d749ea90792cf664457d9013fc81ddc6dcf9baa62/rethge_torch-0.0.2.tar.gz
+[2023-08-06 14:20:09] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/ec/aa/5d02bf8c46151c7d98d04da109b2151579e34cff76586fbe2b789d5b5b52/trex-apis-1.0.8.tar.gz
+[2023-08-06 14:20:10] INFO root fetch - processPackages [rethge-torch]: executing diffoscope
+[2023-08-06 14:20:10] INFO root fetch - processPackages [rethge-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rethge_torch-0.0.1.tar.gz tmp/rethge_torch-0.0.2.tar.gz --markdown 20230806/r/rethge-torch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 14:20:10] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-08-06 14:20:10] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.0.7.tar.gz tmp/trex-apis-1.0.8.tar.gz --markdown 20230806/t/trex-apis/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-06 14:20:10] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/4b/87/30bfea04c5168a9ba4e660fa5c24941b5ee1d35c21b67a1eb9381ffd7749/wizata-dsapi-0.3.6.tar.gz
+[2023-08-06 14:20:10] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-06 14:20:10] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.3.5.tar.gz tmp/wizata-dsapi-0.3.6.tar.gz --markdown 20230806/w/wizata-dsapi/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-06 14:20:10] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-0.1.1.tar.gz]
+[2023-08-06 14:20:10] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-0.1.2.tar.gz]
+[2023-08-06 14:20:10] INFO root fetch - main [MainThread]: End processing [nanoSQLite]: success
+[2023-08-06 14:20:11] INFO root fetch - processPackages [rethge-torch]: Remove: archive file [/home/abi/fetcher/tmp/rethge_torch-0.0.1.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - processPackages [rethge-torch]: Remove: archive file [/home/abi/fetcher/tmp/rethge_torch-0.0.2.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - main [MainThread]: End processing [rethge-torch]: success
+[2023-08-06 14:20:11] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:20:11] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.7.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.8.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-08-06 14:20:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.5.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.6.tar.gz]
+[2023-08-06 14:20:11] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-06 14:20:11] INFO root fetch - main [MainThread]: Store serial: [19193584]
