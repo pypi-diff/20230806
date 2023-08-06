@@ -7661,3 +7661,66 @@
 [2023-08-06 12:55:25] INFO root fetch - processPackages [pydanja]: Remove: archive file [/home/abi/fetcher/tmp/pydanja-0.1.1.tar.gz]
 [2023-08-06 12:55:25] INFO root fetch - main [MainThread]: End processing [pydanja]: success
 [2023-08-06 12:55:25] INFO root fetch - main [MainThread]: Store serial: [19193133]
+[2023-08-06 13:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193133]
+[2023-08-06 13:00:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LinkedList-575
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: page-config-model
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyDSAlgo
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devpi-server
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dfimagetools
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydanja
+[2023-08-06 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-08-06 13:00:34] INFO root fetch - processPackages [pydanja]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 13:00:34] INFO root fetch - processPackages [dfimagetools]: New version: [20230526] Old Version: [20230410]
+[2023-08-06 13:00:34] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 13:00:34] WARNING root fetch - processPackages [LinkedList-575]: Skipping, unable to determine old version
+[2023-08-06 13:00:34] INFO root fetch - main [MainThread]: End processing [LinkedList-575] error
+[2023-08-06 13:00:34] INFO root fetch - processPackages [pydanja]: Downloading https://files.pythonhosted.org/packages/a9/4f/f00803e3e6820ac08479fd0b2f4cc5402fd8dd02525d3675b95773505d66/pydanja-0.1.0.tar.gz
+[2023-08-06 13:00:34] WARNING root fetch - processPackages [page-config-model]: Skipping, unable to determine old version
+[2023-08-06 13:00:34] INFO root fetch - main [MainThread]: End processing [page-config-model] error
+[2023-08-06 13:00:34] INFO root fetch - processPackages [PyDSAlgo]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-06 13:00:34] INFO root fetch - processPackages [devpi-server]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-06 13:00:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-06 13:00:34] INFO root fetch - processPackages [dfimagetools]: Downloading https://files.pythonhosted.org/packages/5d/a3/aaa5c812e4d8a82c090bf69c5c96e502a0bc27a16fe3ffe18d7c0c1230bb/dfimagetools-20230410.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [pydanja]: Downloading https://files.pythonhosted.org/packages/a0/79/65cb3fc9c40cc9d966134ea69d0d79ae40d7f9a6ee2d6e909c88691714b0/pydanja-0.1.1.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [PyDSAlgo]: Downloading https://files.pythonhosted.org/packages/e6/3a/587577bfc300052266823543d0caad0aa6f0bc88a71ec6adceaf3f8813f2/PyDSAlgo-1.0.1.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [devpi-server]: Downloading https://files.pythonhosted.org/packages/e3/74/01e46f1b3edaf1292d3c4cf5c94798d6bd1f02df80989d9405a49ec64c56/devpi-server-6.9.1.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [pydanja]: executing diffoscope
+[2023-08-06 13:00:34] INFO root fetch - processPackages [pydanja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydanja-0.1.0.tar.gz tmp/pydanja-0.1.1.tar.gz --markdown 20230806/p/pydanja/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 13:00:34] INFO root fetch - processPackages [dfimagetools]: Downloading https://files.pythonhosted.org/packages/28/95/3ae28057eaaf0e3bd4527a30e97cc5908b90d9ca1231a4931e1589a8ab26/dfimagetools-20230526.tar.gz
+[2023-08-06 13:00:34] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 13:00:34] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 13:00:34] INFO root fetch - processPackages [PyDSAlgo]: Downloading https://files.pythonhosted.org/packages/8b/cd/c2a4b0444524fee49a4433b18f0c6baef9608b765662372e64d0d0cfae45/PyDSAlgo-1.1.0.tar.gz
+[2023-08-06 13:00:35] INFO root fetch - processPackages [dfimagetools]: executing diffoscope
+[2023-08-06 13:00:35] INFO root fetch - processPackages [dfimagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfimagetools-20230410.tar.gz tmp/dfimagetools-20230526.tar.gz --markdown 20230806/d/dfimagetools/20230410-20230526/diff.md --exclude *.pyd
+[2023-08-06 13:00:35] INFO root fetch - processPackages [devpi-server]: Downloading https://files.pythonhosted.org/packages/a7/96/3e1a5d2b9237dd0baa8dabc7f26ee2248edc5785036df3c504ac134ced80/devpi-server-6.9.2.tar.gz
+[2023-08-06 13:00:35] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-06 13:00:35] INFO root fetch - processPackages [PyDSAlgo]: executing diffoscope
+[2023-08-06 13:00:35] INFO root fetch - processPackages [PyDSAlgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDSAlgo-1.0.1.tar.gz tmp/PyDSAlgo-1.1.0.tar.gz --markdown 20230806/P/PyDSAlgo/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 13:00:35] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-06 13:00:35] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230806/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-06 13:00:35] INFO root fetch - processPackages [devpi-server]: executing diffoscope
+[2023-08-06 13:00:35] INFO root fetch - processPackages [devpi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpi-server-6.9.1.tar.gz tmp/devpi-server-6.9.2.tar.gz --markdown 20230806/d/devpi-server/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-06 13:00:35] INFO root fetch - processPackages [pydanja]: Remove: archive file [/home/abi/fetcher/tmp/pydanja-0.1.0.tar.gz]
+[2023-08-06 13:00:35] INFO root fetch - processPackages [pydanja]: Remove: archive file [/home/abi/fetcher/tmp/pydanja-0.1.1.tar.gz]
+[2023-08-06 13:00:35] INFO root fetch - main [MainThread]: End processing [pydanja]: success
+[2023-08-06 13:00:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 13:00:35] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 13:00:35] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 13:00:36] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-06 13:00:36] INFO root fetch - processPackages [PyDSAlgo]: Remove: archive file [/home/abi/fetcher/tmp/PyDSAlgo-1.0.1.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - processPackages [PyDSAlgo]: Remove: archive file [/home/abi/fetcher/tmp/PyDSAlgo-1.1.0.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - main [MainThread]: End processing [PyDSAlgo]: success
+[2023-08-06 13:00:36] INFO root fetch - processPackages [dfimagetools]: Remove: archive file [/home/abi/fetcher/tmp/dfimagetools-20230410.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - processPackages [dfimagetools]: Remove: archive file [/home/abi/fetcher/tmp/dfimagetools-20230526.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - main [MainThread]: End processing [dfimagetools]: success
+[2023-08-06 13:00:36] INFO root fetch - processPackages [devpi-server]: Remove: archive file [/home/abi/fetcher/tmp/devpi-server-6.9.1.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - processPackages [devpi-server]: Remove: archive file [/home/abi/fetcher/tmp/devpi-server-6.9.2.tar.gz]
+[2023-08-06 13:00:36] INFO root fetch - main [MainThread]: End processing [devpi-server]: success
+[2023-08-06 13:00:36] INFO root fetch - main [MainThread]: Store serial: [19193160]
