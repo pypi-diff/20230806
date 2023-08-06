@@ -9612,3 +9612,160 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:12:43] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.9.0.tar.gz]
 [2023-08-06 15:12:43] INFO root fetch - main [MainThread]: End processing [pytorch-ie]: success
 [2023-08-06 15:12:43] INFO root fetch - main [MainThread]: Store serial: [19194019]
+[2023-08-06 15:17:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194019]
+[2023-08-06 15:17:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ie
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nobuco
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JanexPT
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dabbas
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats-medimage-extras
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonsqlitedbextensionV2
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tai-aws-account-bootstrap
+[2023-08-06 15:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dabbas
+[2023-08-06 15:17:52] INFO root fetch - processPackages [pytorch-ie]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [JanexPT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [tai-aws-account-bootstrap]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-06 15:17:52] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nobuco]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-08-06 15:17:53] INFO root fetch - processPackages [JanexPT]: Downloading https://files.pythonhosted.org/packages/98/dd/866753adaa3ad6a168874dc2d93a68282c6ef63e2b6b840314543fa77c0d/JanexPT-0.0.2.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/93/66/0ad24435522df74cd14235cca64f07cd93d97c6b18088d5ba5ec9ef90154/pytorch-ie-0.8.0.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [tai-aws-account-bootstrap]: Downloading https://files.pythonhosted.org/packages/29/62/d0b9547d1ef6118e491275ddaae71e3d2b6481ef38eb7baf99ffc1dcd753/tai_aws_account_bootstrap-0.0.0.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: Downloading https://files.pythonhosted.org/packages/49/b5/9b82d5f1c3833835435db60143fe101199e336210d75bf649bbff9c1b07d/pythonsqlitedbextensionV2-1.0.0.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/fb/42/d927890ff80f16a2d8163a71047e8f614d9265725296dbcb2b0b643fbd4d/fileformats_medimage_extras-0.1.4.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/f4/8a/7744b8dce9bdce7947d52dac8d187dea3df8b0153cc3c72420406bc1dba4/nobuco-0.6.3.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pytorch-ie]: Downloading https://files.pythonhosted.org/packages/49/00/5b3e07da58ca82e645505922702bfb2045fe789aa0007c7322f90b20b320/pytorch-ie-0.9.0.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [JanexPT]: Downloading https://files.pythonhosted.org/packages/28/b0/4a2e28fde6000e2bcc6dd37e6c8ea588bf953f5c821106461203da170f42/JanexPT-0.0.3.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230806/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230806/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230806/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pytorch-ie]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pytorch-ie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ie-0.8.0.tar.gz tmp/pytorch-ie-0.9.0.tar.gz --markdown 20230806/p/pytorch-ie/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230806/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [tai-aws-account-bootstrap]: Downloading https://files.pythonhosted.org/packages/1f/de/aabd402cdc49965a95d0187b12199fc85e90b41c193c79fcceabf5dbe1af/tai_aws_account_bootstrap-0.0.1.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: Downloading https://files.pythonhosted.org/packages/ef/f2/7c70813e701b9ff8ef6109b6b475dba1fec262a964a45fc01c44e0fc3861/pythonsqlitedbextensionV2-1.1.0.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [JanexPT]: executing diffoscope
+[2023-08-06 15:17:53] INFO root fetch - processPackages [JanexPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JanexPT-0.0.2.tar.gz tmp/JanexPT-0.0.3.tar.gz --markdown 20230806/J/JanexPT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 15:17:53] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/b3/45/63600bf263e9b43bc7599ea7ac61233ccd1f65c0dbbe2840a03d48866dcd/fileformats_medimage_extras-0.1.5.tar.gz
+[2023-08-06 15:17:53] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/39/0a/97fc2b3f4724a13d4706a3d4181a5f647516fd5b2606f2400095d2829c50/nobuco-0.6.4.tar.gz
+[2023-08-06 15:17:54] INFO root fetch - processPackages [tai-aws-account-bootstrap]: executing diffoscope
+[2023-08-06 15:17:54] INFO root fetch - processPackages [tai-aws-account-bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tai_aws_account_bootstrap-0.0.0.tar.gz tmp/tai_aws_account_bootstrap-0.0.1.tar.gz --markdown 20230806/t/tai-aws-account-bootstrap/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-06 15:17:54] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: executing diffoscope
+[2023-08-06 15:17:54] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqlitedbextensionV2-1.0.0.tar.gz tmp/pythonsqlitedbextensionV2-1.1.0.tar.gz --markdown 20230806/p/pythonsqlitedbextensionV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:17:54] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2023-08-06 15:17:54] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.1.4.tar.gz tmp/fileformats_medimage_extras-0.1.5.tar.gz --markdown 20230806/f/fileformats-medimage-extras/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 15:17:54] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-08-06 15:17:54] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.6.3.tar.gz tmp/nobuco-0.6.4.tar.gz --markdown 20230806/n/nobuco/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Start processing: dabbas
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: amplify-bench
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-django]: Start processing: wiggler-studiorabota
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Start processing: runusb
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [tai-aws-account-bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/tai_aws_account_bootstrap-0.0.0.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [tai-aws-account-bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/tai_aws_account_bootstrap-0.0.1.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [tai-aws-account-bootstrap]: Start processing: nbdev-apl
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [tai-aws-account-bootstrap]: success
+[2023-08-06 15:17:55] WARNING root fetch - processPackages [amplify-bench]: Skipping, unable to determine old version
+[2023-08-06 15:17:55] INFO root fetch - processPackages [amplify-bench]: Start processing: epochraft
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [amplify-bench] error
+[2023-08-06 15:17:55] INFO root fetch - processPackages [runusb]: New version: [2023.1.0] Old Version: [2023.0.0rc2]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.939] Old Version: [0.0.938]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.8.0.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.9.0.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [pytorch-ie]: Start processing: aiohuesyncbox
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [pytorch-ie]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-08-06 15:17:55] INFO root fetch - processPackages [JanexPT]: Remove: archive file [/home/abi/fetcher/tmp/JanexPT-0.0.2.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [JanexPT]: Remove: archive file [/home/abi/fetcher/tmp/JanexPT-0.0.3.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [JanexPT]: Start processing: fa-models
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [JanexPT]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [epochraft]: New version: [0.1.0.dev20230806] Old Version: [0.1.0.dev20230804]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/50/d6/142cc8360cb6ef737ad74bacd7678296cbf2cbdc426ce12f0c953ef646c0/nbdev-apl-0.0.938.tar.gz
+[2023-08-06 15:17:55] INFO root fetch - processPackages [runusb]: Downloading https://files.pythonhosted.org/packages/90/c5/65b53bd4e1c5e508657df1d88471deeec15276cf59fd1a9d0e9c18ec6eaa/runusb-2023.0.0rc2.tar.gz
+[2023-08-06 15:17:55] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlitedbextensionV2-1.0.0.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [pythonsqlitedbextensionV2]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlitedbextensionV2-1.1.0.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [pythonsqlitedbextensionV2]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [aiohuesyncbox]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [fa-models]: New version: [1.0.82] Old Version: [1.0.79]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.1.4.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.1.5.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.3.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.4.tar.gz]
+[2023-08-06 15:17:55] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-08-06 15:17:55] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [epochraft]: Downloading https://files.pythonhosted.org/packages/b6/66/fca7ff63743c5717b081434e2162d838274751276e506cdfe96c7bfb3370/epochraft-0.1.0.dev20230804.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [aiohuesyncbox]: Downloading https://files.pythonhosted.org/packages/b6/db/79759e55b5a47add4a85ea963602849358127ec02a66e7c33a03d2ecad6d/aiohuesyncbox-0.0.23.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230806/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/f0/79/0579a26f909799b88cea1911e2ca3dec53cb845a22de200403d33b692132/fa-models-1.0.79.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [runusb]: Downloading https://files.pythonhosted.org/packages/b9/52/203ec677e79516c56d7cf8c2f0a892b24514a5222b74f8d3c92dcd169397/runusb-2023.1.0.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230806/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1a/aa/de4cdb8389bff5b399c95973ccc6c7cfbc2ccf0c7bfc5893d1a0b93ac71a/nbdev-apl-0.0.939.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [runusb]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [runusb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runusb-2023.0.0rc2.tar.gz tmp/runusb-2023.1.0.tar.gz --markdown 20230806/r/runusb/2023.0.0rc2-2023.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.938.tar.gz tmp/nbdev-apl-0.0.939.tar.gz --markdown 20230806/n/nbdev-apl/0.0.938-0.0.939/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [epochraft]: Downloading https://files.pythonhosted.org/packages/27/bb/11fbdb9b3e6de8b17170d3013ae172b59f5615a57ab2031e55d4a2547bd8/epochraft-0.1.0.dev20230806.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [aiohuesyncbox]: Downloading https://files.pythonhosted.org/packages/10/ec/f390762a12d6d5aeceaa03e402b302bd34981245dff0b646fa3ccf4149ac/aiohuesyncbox-0.0.24.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/31/3f/673a901632faca698b0bb8ddd3e555cfe4dda7ffd406a6d991e272522ecd/fa-models-1.0.82.tar.gz
+[2023-08-06 15:17:56] INFO root fetch - processPackages [epochraft]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [epochraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epochraft-0.1.0.dev20230804.tar.gz tmp/epochraft-0.1.0.dev20230806.tar.gz --markdown 20230806/e/epochraft/0.1.0.dev20230804-0.1.0.dev20230806/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [aiohuesyncbox]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [aiohuesyncbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohuesyncbox-0.0.23.tar.gz tmp/aiohuesyncbox-0.0.24.tar.gz --markdown 20230806/a/aiohuesyncbox/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-08-06 15:17:56] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-08-06 15:17:56] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.79.tar.gz tmp/fa-models-1.0.82.tar.gz --markdown 20230806/f/fa-models/1.0.79-1.0.82/diff.md --exclude *.pyd
+[2023-08-06 15:17:57] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [runusb]: Remove: archive file [/home/abi/fetcher/tmp/runusb-2023.0.0rc2.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [runusb]: Remove: archive file [/home/abi/fetcher/tmp/runusb-2023.1.0.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [runusb]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.938.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.939.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [epochraft]: Remove: archive file [/home/abi/fetcher/tmp/epochraft-0.1.0.dev20230804.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [epochraft]: Remove: archive file [/home/abi/fetcher/tmp/epochraft-0.1.0.dev20230806.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [epochraft]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [aiohuesyncbox]: Remove: archive file [/home/abi/fetcher/tmp/aiohuesyncbox-0.0.23.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [aiohuesyncbox]: Remove: archive file [/home/abi/fetcher/tmp/aiohuesyncbox-0.0.24.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [aiohuesyncbox]: success
+[2023-08-06 15:17:57] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.79.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.82.tar.gz]
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-08-06 15:17:57] INFO root fetch - main [MainThread]: Store serial: [19194073]
