@@ -5863,3 +5863,36 @@
 [2023-08-06 10:18:30] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.2.tar.gz]
 [2023-08-06 10:18:30] INFO root fetch - main [MainThread]: End processing [yambs]: success
 [2023-08-06 10:18:30] INFO root fetch - main [MainThread]: Store serial: [19192237]
+[2023-08-06 10:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192237]
+[2023-08-06 10:23:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 10:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Omnicon-DDSDocGen
+[2023-08-06 10:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upload-machine
+[2023-08-06 10:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PPP-Lang-Translation
+[2023-08-06 10:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-model-optimization-nightly
+[2023-08-06 10:23:39] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.74]
+[2023-08-06 10:23:39] INFO root fetch - processPackages [Omnicon-DDSDocGen]: New version: [3.0.1] Old Version: [2.2.1]
+[2023-08-06 10:23:39] WARNING root fetch - processPackages [PPP-Lang-Translation]: Skipping, unable to determine old version
+[2023-08-06 10:23:39] INFO root fetch - main [MainThread]: End processing [PPP-Lang-Translation] error
+[2023-08-06 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230806] Old Version: [0.7.5.dev20230804]
+[2023-08-06 10:23:39] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/b4/ab/bfcf5f440f66503d71225378158ca48436ff856878806b3085b89c1e4bf2/upload_machine-0.0.74.tar.gz
+[2023-08-06 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/9a/dc/0f51564fe1549d418dad3357ede9e1dfaa08fc55f8ecad71ee40967ecade/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl
+[2023-08-06 10:23:39] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Downloading https://files.pythonhosted.org/packages/80/9a/0eec6528448965de8251f13ca1ffc662d8798bfe159d4c8a8848b895e93f/Omnicon_DDSDocGen-2.2.1-2-py3-none-any.whl
+[2023-08-06 10:23:39] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 10:23:39] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 10:23:39] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.74.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.74-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 10:23:39] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Downloading https://files.pythonhosted.org/packages/38/45/251059bc798e10e75a44d40e005e843b71edc0b773c671ff8b07ce877d69/Omnicon_DDSDocGen-3.0.1-3-py3-none-any.whl
+[2023-08-06 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/a9/68/df0c3fcd3fd9ac155ae7aea535f54339ad6eddc3176b888940cd788647a2/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl
+[2023-08-06 10:23:40] INFO root fetch - processPackages [Omnicon-DDSDocGen]: executing diffoscope
+[2023-08-06 10:23:40] INFO root fetch - processPackages [Omnicon-DDSDocGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Omnicon_DDSDocGen-2.2.1-2-py3-none-any.whl.zip tmp/Omnicon_DDSDocGen-3.0.1-3-py3-none-any.whl.zip --markdown 20230806/O/Omnicon-DDSDocGen/2.2.1-3.0.1/diff.md --exclude *.pyd
+[2023-08-06 10:23:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-08-06 10:23:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl.zip --markdown 20230806/t/tf-model-optimization-nightly/0.7.5.dev20230804-0.7.5.dev20230806/diff.md --exclude *.pyd
+[2023-08-06 10:23:40] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Remove: archive file [/home/abi/fetcher/tmp/Omnicon_DDSDocGen-2.2.1-2-py3-none-any.whl.zip]
+[2023-08-06 10:23:40] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Remove: archive file [/home/abi/fetcher/tmp/Omnicon_DDSDocGen-3.0.1-3-py3-none-any.whl.zip]
+[2023-08-06 10:23:40] INFO root fetch - main [MainThread]: End processing [Omnicon-DDSDocGen]: success
+[2023-08-06 10:23:41] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.74.tar.gz]
+[2023-08-06 10:23:41] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 10:23:41] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 10:23:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl.zip]
+[2023-08-06 10:23:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230806-py2.py3-none-any.whl.zip]
+[2023-08-06 10:23:41] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-08-06 10:23:41] INFO root fetch - main [MainThread]: Store serial: [19192250]
