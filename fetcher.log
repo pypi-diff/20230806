@@ -5416,3 +5416,69 @@
 [2023-08-06 09:36:57] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
 [2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [pypdf]: success
 [2023-08-06 09:36:57] INFO root fetch - main [MainThread]: Store serial: [19192073]
+[2023-08-06 09:42:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192073]
+[2023-08-06 09:42:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barcodes-uc
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bandolier
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi_amis_admin
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upload-machine
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tech-spec
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: topologicpy
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: turbESN
+[2023-08-06 09:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphrails
+[2023-08-06 09:42:06] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.72]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.6.3a1] Old Version: [0.6.3]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [bandolier]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [barcodes-uc]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [tech-spec]: New version: [1.0.35] Old Version: [1.0.34]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [turbESN]: New version: [0.0.1.9.5.0] Old Version: [0.0.1.9.4.0]
+[2023-08-06 09:42:06] WARNING root fetch - processPackages [graphrails]: Skipping, unable to determine old version
+[2023-08-06 09:42:06] INFO root fetch - main [MainThread]: End processing [graphrails] error
+[2023-08-06 09:42:06] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/73/5a/c4ff1f4dd09871ca476dfeddb74be9f155c76aad93d8fca426836f1fcffc/bandolier-0.0.6.tar.gz
+[2023-08-06 09:42:06] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 09:42:06] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/70/ea/60fbd7172d11f1dda7c64b4afc74bc740ce5591a7f5b14ac20205495d6f5/fastapi_amis_admin-0.6.3.tar.gz
+[2023-08-06 09:42:06] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/30/ba/98c69dd97c1a230461a9b9e3a3d042e92bce50e7d84879fd65d0b6bbe589/tech-spec-1.0.34.tar.gz
+[2023-08-06 09:42:06] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/6c/28/0695e506598c2de10557f457ce3c491ae3b5572583b933a37baa341ee726/upload_machine-0.0.72.tar.gz
+[2023-08-06 09:42:06] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/b2/f5/0fbc9fe6d68576f03c842f75c60aa2857d968a59d533d47a5fd820ddcb2d/barcodes_uc-0.7.0.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [turbESN]: Downloading https://files.pythonhosted.org/packages/3c/3d/41df276b64894013f1318c1b98a00bcb2a4faf7ed4c887d459a8e559bab3/turbESN-0.0.1.9.4.0.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/d6/2d/e55bf164e956c2f297bd3c81fa05cc328080fab36fae73ea0084df771002/bandolier-0.0.7.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/15/86/57531994fc339da6f12a8b31d70791471b40b34a717f26ba7d8fd2452a79/topologicpy-0.4.8.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/7a/9c/dad6580e522289a5678a3d5994b419029f0332b914c2355e8b7e595098db/fastapi_amis_admin-0.6.3a1.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/45/18/99cae83b7245ff1de0a1df65e3f42792f3eef0574bca5e702568cf18f795/tech-spec-1.0.35.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [bandolier]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [bandolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandolier-0.0.6.tar.gz tmp/bandolier-0.0.7.tar.gz --markdown 20230806/b/bandolier/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 09:42:07] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.6.3.tar.gz tmp/fastapi_amis_admin-0.6.3a1.tar.gz --markdown 20230806/f/fastapi_amis_admin/0.6.3-0.6.3a1/diff.md --exclude *.pyd
+[2023-08-06 09:42:07] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/0b/7b/a2a2cfa2c691fdb5f587d4f74d3668966493f0d237f7f792569bfb6403e1/barcodes_uc-0.8.0.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.34.tar.gz tmp/tech-spec-1.0.35.tar.gz --markdown 20230806/t/tech-spec/1.0.34-1.0.35/diff.md --exclude *.pyd
+[2023-08-06 09:42:07] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.72.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.72-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 09:42:07] INFO root fetch - processPackages [barcodes-uc]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [barcodes-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barcodes_uc-0.7.0.tar.gz tmp/barcodes_uc-0.8.0.tar.gz --markdown 20230806/b/barcodes-uc/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 09:42:07] INFO root fetch - processPackages [turbESN]: Downloading https://files.pythonhosted.org/packages/25/68/920f63aa9fdb5a7f57608182e2f5f7b091f19a1affc599ead7043c617130/turbESN-0.0.1.9.5.0.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-08-06 09:42:07] INFO root fetch - processPackages [turbESN]: executing diffoscope
+[2023-08-06 09:42:07] INFO root fetch - processPackages [turbESN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbESN-0.0.1.9.4.0.tar.gz tmp/turbESN-0.0.1.9.5.0.tar.gz --markdown 20230806/t/turbESN/0.0.1.9.4.0-0.0.1.9.5.0/diff.md --exclude *.pyd
+[2023-08-06 09:42:08] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.6.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.7.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [bandolier]: success
+[2023-08-06 09:42:08] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-08-06 09:42:08] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.34.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.35.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-06 09:42:08] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.7.0.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.8.0.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [barcodes-uc]: success
+[2023-08-06 09:42:08] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.3.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.3a1.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-08-06 09:42:08] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.72.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 09:42:08] INFO root fetch - processPackages [turbESN]: Remove: archive file [/home/abi/fetcher/tmp/turbESN-0.0.1.9.4.0.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - processPackages [turbESN]: Remove: archive file [/home/abi/fetcher/tmp/turbESN-0.0.1.9.5.0.tar.gz]
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: End processing [turbESN]: success
+[2023-08-06 09:42:08] INFO root fetch - main [MainThread]: Store serial: [19192097]
