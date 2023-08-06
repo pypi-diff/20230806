@@ -11365,3 +11365,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:52:27] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.6.2.tar.gz]
 [2023-08-06 16:52:27] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-08-06 16:52:27] INFO root fetch - main [MainThread]: Store serial: [19194766]
+[2023-08-06 16:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194766]
+[2023-08-06 16:57:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starco-pkl
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongomock-motor
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ufds
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colemen-utils
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-core
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boopy
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PacketHandler
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scoda-tk
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dexhub
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: examon-beginners-package
+[2023-08-06 16:57:36] INFO root fetch - processPackages [PacketHandler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [dexhub]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [starco-pkl]: New version: [3.0] Old Version: [2.0]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [mongomock-motor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 16:57:36] WARNING root fetch - processPackages [ufds]: Skipping, unable to determine old version
+[2023-08-06 16:57:36] INFO root fetch - processPackages [ufds]: Start processing: taiwanlottery
+[2023-08-06 16:57:36] INFO root fetch - main [MainThread]: End processing [ufds] error
+[2023-08-06 16:57:36] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-08-06 16:57:36] WARNING root fetch - processPackages [boopy]: Skipping, unable to determine old version
+[2023-08-06 16:57:36] INFO root fetch - processPackages [boopy]: Start processing: TheSilent
+[2023-08-06 16:57:36] INFO root fetch - main [MainThread]: End processing [boopy] error
+[2023-08-06 16:57:36] INFO root fetch - processPackages [colemen-utils]: New version: [2.9.63] Old Version: [2.9.62]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/3d/88/da327037571bab9c2849c21d6a65f7115a3cd38192417cd99fb52a0d1741/PacketHandler-1.0.8.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/5e/07/f76c6bc5d00efcffbe2f6c31d01721a91624e4af4b98a07e0c13c86c3509/scoda-tk-0.4.3.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/4d/37/f4499b707bfddd7ff86b99eb8c6c66427f9c877e0f701da2b59f43f69e1a/dexhub-0.6.7.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:57:36] INFO root fetch - processPackages [mongomock-motor]: Downloading https://files.pythonhosted.org/packages/f1/c2/2229a441be05bf7504619796f5e75c2ca6edfae90af06c946a72d8c72d70/mongomock_motor-0.0.8.tar.gz
+[2023-08-06 16:57:36] WARNING root fetch - processPackages [taiwanlottery]: Skipping, unable to determine old version
+[2023-08-06 16:57:36] INFO root fetch - processPackages [taiwanlottery]: Start processing: django-hogwarts
+[2023-08-06 16:57:36] INFO root fetch - main [MainThread]: End processing [taiwanlottery] error
+[2023-08-06 16:57:36] WARNING root fetch - processPackages [django-hogwarts]: Skipping, unable to determine old version
+[2023-08-06 16:57:36] INFO root fetch - processPackages [django-hogwarts]: Start processing: pyortho
+[2023-08-06 16:57:36] INFO root fetch - main [MainThread]: End processing [django-hogwarts] error
+[2023-08-06 16:57:36] INFO root fetch - processPackages [starco-pkl]: Downloading https://files.pythonhosted.org/packages/46/53/4c56db35c2e54d6b91e37ef095023142cdb41ca2f2b8dd647dc1b1f07554/starco_pkl-2.0.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/a6/ff/bf38e78cf315db8bbc63ee89a8f7ee3941650dbbff1f74de355070c709df/examon_beginners_package-0.1.13.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [colemen-utils]: Downloading https://files.pythonhosted.org/packages/69/ca/315cf89da6a7e43cf5cb106400b56a1a008a90345fe6b6061c135445c1bf/colemen_utils-2.9.62.tar.gz
+[2023-08-06 16:57:36] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [PacketHandler]: Downloading https://files.pythonhosted.org/packages/6e/c8/acd38088e56db17ad452c4865a0afbabb9e0b2f9c0fa674277a05940d73c/PacketHandler-1.0.9.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [pyortho]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 16:57:37] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [mongomock-motor]: Downloading https://files.pythonhosted.org/packages/f1/7f/6e0a504df18fa6cf757242a9c6d70b10e0fa916a02990d65a7fba92cf922/mongomock_motor-0.0.9.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [PacketHandler]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [PacketHandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PacketHandler-1.0.8.tar.gz tmp/PacketHandler-1.0.9.tar.gz --markdown 20230806/P/PacketHandler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/10/c8/bd20413d14b10a094b3f73549ff9b9b72166d6da4b61fe2a083022b780bd/dexhub-0.6.8.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [starco-pkl]: Downloading https://files.pythonhosted.org/packages/92/95/7bddeb5b932a2184df45aea05837d33ef0e534d0d1f74bba996596e89887/starco_pkl-3.0.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [pyortho]: Downloading https://files.pythonhosted.org/packages/4c/f4/ed1db42da5c608ce94d4cac452483b8a34951d78a7be91693bb98c18b907/pyortho-0.0.4.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/20/d7/e056886ff4d1e6bc7aff11d55c86c30b2a672bfac8ab9d926fe89cbfdec5/examon_beginners_package-0.1.14.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/f9/5c/109467410a2bcabc88b0f6b198729d369d12df3e5ef748d8ca4d09d805a3/scoda-tk-0.4.4.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [mongomock-motor]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [mongomock-motor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomock_motor-0.0.8.tar.gz tmp/mongomock_motor-0.0.9.tar.gz --markdown 20230806/m/mongomock-motor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230806/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.7.tar.gz tmp/dexhub-0.6.8.tar.gz --markdown 20230806/d/dexhub/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [colemen-utils]: Downloading https://files.pythonhosted.org/packages/48/d6/a4ea4d4d949588944737f8db20f68db94b2799c25c0697eb5e304670d0db/colemen_utils-2.9.63.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.1.13.tar.gz tmp/examon_beginners_package-0.1.14.tar.gz --markdown 20230806/e/examon-beginners-package/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [starco-pkl]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [starco-pkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starco_pkl-2.0.tar.gz tmp/starco_pkl-3.0.tar.gz --markdown 20230806/s/starco-pkl/2.0-3.0/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [colemen-utils]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [colemen-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colemen_utils-2.9.62.tar.gz tmp/colemen_utils-2.9.63.tar.gz --markdown 20230806/c/colemen-utils/2.9.62-2.9.63/diff.md --exclude *.pyd
+[2023-08-06 16:57:37] INFO root fetch - processPackages [pyortho]: Downloading https://files.pythonhosted.org/packages/83/03/475d6c9bfe14b59eff888784a7fc029ac2294ddc0534bca29e4d334a0a10/pyortho-0.0.5.tar.gz
+[2023-08-06 16:57:37] INFO root fetch - processPackages [pyortho]: executing diffoscope
+[2023-08-06 16:57:37] INFO root fetch - processPackages [pyortho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyortho-0.0.4.tar.gz tmp/pyortho-0.0.5.tar.gz --markdown 20230806/p/pyortho/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 16:57:38] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 16:57:38] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.3.tar.gz tmp/scoda-tk-0.4.4.tar.gz --markdown 20230806/s/scoda-tk/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-06 16:57:38] INFO root fetch - processPackages [PacketHandler]: Remove: archive file [/home/abi/fetcher/tmp/PacketHandler-1.0.8.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - processPackages [PacketHandler]: Remove: archive file [/home/abi/fetcher/tmp/PacketHandler-1.0.9.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - processPackages [PacketHandler]: Start processing: segretini-matplottini
+[2023-08-06 16:57:38] INFO root fetch - main [MainThread]: End processing [PacketHandler]: success
+[2023-08-06 16:57:38] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 16:57:38] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/c9/f0/04abd7305d6d0c1a8924bc925fc2e16a6a1f2dd2d39173f6e387cf1e8488/segretini-matplottini-0.2.1.tar.gz
+[2023-08-06 16:57:38] INFO root fetch - processPackages [mongomock-motor]: Remove: archive file [/home/abi/fetcher/tmp/mongomock_motor-0.0.8.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - processPackages [mongomock-motor]: Remove: archive file [/home/abi/fetcher/tmp/mongomock_motor-0.0.9.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - main [MainThread]: End processing [mongomock-motor]: success
+[2023-08-06 16:57:38] INFO root fetch - processPackages [starco-pkl]: Remove: archive file [/home/abi/fetcher/tmp/starco_pkl-2.0.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - processPackages [starco-pkl]: Remove: archive file [/home/abi/fetcher/tmp/starco_pkl-3.0.tar.gz]
+[2023-08-06 16:57:38] INFO root fetch - main [MainThread]: End processing [starco-pkl]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.6.7.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - processPackages [dexhub]: Remove: archive file [/home/abi/fetcher/tmp/dexhub-0.6.8.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.1.13.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.1.14.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/85/0e/9854cf34905caf8eef1ab403d9255a0a97ae0de26b1551ead392da85689b/segretini-matplottini-0.2.2.tar.gz
+[2023-08-06 16:57:39] INFO root fetch - processPackages [pyortho]: Remove: archive file [/home/abi/fetcher/tmp/pyortho-0.0.4.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - processPackages [pyortho]: Remove: archive file [/home/abi/fetcher/tmp/pyortho-0.0.5.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - main [MainThread]: End processing [pyortho]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [colemen-utils]: Remove: archive file [/home/abi/fetcher/tmp/colemen_utils-2.9.62.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - processPackages [colemen-utils]: Remove: archive file [/home/abi/fetcher/tmp/colemen_utils-2.9.63.tar.gz]
+[2023-08-06 16:57:39] INFO root fetch - main [MainThread]: End processing [colemen-utils]: success
+[2023-08-06 16:57:39] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 16:57:39] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.1.tar.gz tmp/segretini-matplottini-0.2.2.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 16:57:40] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.3.tar.gz]
+[2023-08-06 16:57:40] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.4.tar.gz]
+[2023-08-06 16:57:40] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 16:57:41] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.1.tar.gz]
+[2023-08-06 16:57:41] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.2.tar.gz]
+[2023-08-06 16:57:41] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 16:57:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-06 16:57:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-06 16:57:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-06 16:57:41] INFO root fetch - main [MainThread]: Store serial: [19194827]
