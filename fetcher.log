@@ -6881,3 +6881,75 @@
 [2023-08-06 11:52:23] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b2.tar.gz]
 [2023-08-06 11:52:23] INFO root fetch - main [MainThread]: End processing [arcana]: success
 [2023-08-06 11:52:23] INFO root fetch - main [MainThread]: Store serial: [19192797]
+[2023-08-06 11:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192797]
+[2023-08-06 11:57:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survey-report-generator
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maryam
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multicube-braille-display
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyerr
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whereabouts
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPPG
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selectpy
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2023-08-06 11:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnctApi
+[2023-08-06 11:57:31] WARNING root fetch - processPackages [lnctApi]: Skipping, unable to determine old version
+[2023-08-06 11:57:31] INFO root fetch - processPackages [lnctApi]: Start processing: nvfuser-cu117
+[2023-08-06 11:57:31] INFO root fetch - main [MainThread]: End processing [lnctApi] error
+[2023-08-06 11:57:31] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-06 11:57:31] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-06 11:57:31] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-06 11:57:31] WARNING root fetch - processPackages [multicube-braille-display]: Skipping, unable to determine old version
+[2023-08-06 11:57:31] INFO root fetch - main [MainThread]: End processing [multicube-braille-display] error
+[2023-08-06 11:57:32] WARNING root fetch - processPackages [whereabouts]: Skipping, unable to determine old version
+[2023-08-06 11:57:32] INFO root fetch - main [MainThread]: End processing [whereabouts] error
+[2023-08-06 11:57:32] WARNING root fetch - processPackages [survey-report-generator]: Skipping, unable to determine old version
+[2023-08-06 11:57:32] INFO root fetch - main [MainThread]: End processing [survey-report-generator] error
+[2023-08-06 11:57:32] INFO root fetch - processPackages [pyPPG]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-06 11:57:32] INFO root fetch - processPackages [tinyerr]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-08-06 11:57:32] INFO root fetch - processPackages [maryam]: New version: [2.5.2.post2] Old Version: [2.5.2.post1]
+[2023-08-06 11:57:32] WARNING root fetch - processPackages [selectpy]: Skipping, unable to determine old version
+[2023-08-06 11:57:32] INFO root fetch - main [MainThread]: End processing [selectpy] error
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/01/b3/0fb27a75afdd1ee9f4efa2a48a7b6fe7a8238744c16994afaf05718c72f7/maryam-2.5.2.post1.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/76/14/94815a0e788c96e2fe3919abeb2c5820b466991619f098f735958877ce03/pyPPG-1.0.3.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [tinyerr]: Downloading https://files.pythonhosted.org/packages/52/da/329823adb5c397ab1bfd2af67048ae1f3b55b6afc58ca979ceb81a9237f8/tinyerr-0.0.1a1.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/a7/bc/5e2bdbcb64d2eb5fff9f3fb374a82090b65f733c9c7b3d32a7d41535bab2/pyPPG-1.0.4.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/e0/84/cfefee4fe010d5dfab7af28afae2f2ba53554496385c0ee4ea2f69f5e828/maryam-2.5.2.post2.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [tinyerr]: Downloading https://files.pythonhosted.org/packages/f7/2c/fc3f12bd1b6309db61d740ba3b9e8ba6e5b317bb04f077d19017204c12e3/tinyerr-0.0.1a2.tar.gz
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [pyPPG]: executing diffoscope
+[2023-08-06 11:57:32] INFO root fetch - processPackages [pyPPG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPPG-1.0.3.tar.gz tmp/pyPPG-1.0.4.tar.gz --markdown 20230806/p/pyPPG/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 11:57:32] INFO root fetch - processPackages [maryam]: executing diffoscope
+[2023-08-06 11:57:32] INFO root fetch - processPackages [maryam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maryam-2.5.2.post1.tar.gz tmp/maryam-2.5.2.post2.tar.gz --markdown 20230806/m/maryam/2.5.2.post1-2.5.2.post2/diff.md --exclude *.pyd
+[2023-08-06 11:57:32] INFO root fetch - processPackages [tinyerr]: executing diffoscope
+[2023-08-06 11:57:32] INFO root fetch - processPackages [tinyerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyerr-0.0.1a1.tar.gz tmp/tinyerr-0.0.1a2.tar.gz --markdown 20230806/t/tinyerr/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230806/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230806/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-08-06 11:57:33] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230806/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-06 11:57:33] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.3.tar.gz]
+[2023-08-06 11:57:33] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.4.tar.gz]
+[2023-08-06 11:57:33] INFO root fetch - main [MainThread]: End processing [pyPPG]: success
+[2023-08-06 11:57:34] INFO root fetch - processPackages [tinyerr]: Remove: archive file [/home/abi/fetcher/tmp/tinyerr-0.0.1a1.tar.gz]
+[2023-08-06 11:57:34] INFO root fetch - processPackages [tinyerr]: Remove: archive file [/home/abi/fetcher/tmp/tinyerr-0.0.1a2.tar.gz]
+[2023-08-06 11:57:34] INFO root fetch - main [MainThread]: End processing [tinyerr]: success
+[2023-08-06 11:57:34] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.2.post1.tar.gz]
+[2023-08-06 11:57:34] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.2.post2.tar.gz]
+[2023-08-06 11:57:34] INFO root fetch - main [MainThread]: End processing [maryam]: success
+[2023-08-06 11:57:34] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:34] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:34] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-08-06 11:57:35] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:35] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-08-06 11:57:35] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:35] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-06 11:57:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-08-06 11:57:35] INFO root fetch - main [MainThread]: Store serial: [19192837]
