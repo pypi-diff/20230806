@@ -10341,3 +10341,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:54:37] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc9.tar.gz]
 [2023-08-06 15:54:37] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
 [2023-08-06 15:54:37] INFO root fetch - main [MainThread]: Store serial: [19194300]
+[2023-08-06 15:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194300]
+[2023-08-06 15:59:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sgw-tools
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark2
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark2
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian-spark2
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark2
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark2
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MetaHeuristicsFS
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensordict-nightly
+[2023-08-06 15:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: konfuzio-sdk
+[2023-08-06 15:59:45] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-06 15:59:45] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-06 15:59:45] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:45] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/3c/6a/a2d4683a640de67564c049d16f10e39f10fd8c08e4c406b9b6fde73ccdb0/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl
+[2023-08-06 15:59:45] INFO root fetch - processPackages [MetaHeuristicsFS]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [sgw-tools]: New version: [1.98] Old Version: [1.97]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/4c/7b/c6b55ae5bcb8ebf4f9c9e1250d6d8f457883f542920dd6779129e68d4866/bigdl_orca_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:46] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/ec/2e/73b71432d1fa5040fa9957ed50102905efdbba11750675d7c13a2baeb39c/sgw_tools-1.97.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [MetaHeuristicsFS]: Downloading https://files.pythonhosted.org/packages/1c/ba/493e5f3d2a7cfca2eb17d5eafb92c1c8c27c624edfbcb50e319c0961cbe8/MetaHeuristicsFS-0.0.7.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/42/d5/bae993c3e5b58077619ebeb45ddcc01f0d18c565ce93fdf822dcebcf5f9a/bigdl-dllib-spark2-2.4.0b20230805.tar.gz
+[2023-08-06 15:59:46] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20374406>=10485760
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: s1290242-learn
+[2023-08-06 15:59:46] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/8f/b4/879928126824b451eda5d032e727e51ad7c40b1726e60c1d9e3db3a7d19a/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/0a/01/e1949481c8b5efaac5b08f3f352c65a95528f550a71482823927c089855e/bigdl-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/43/46/85e4ae62a316edce4780ee1f5e7439af317eaacae171e61973260fecdcf7/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:46] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/65/b9/baaa7b33a551a54a84920ec0ef149bc5550f8e0561fc1382811ddd4de5c8/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/b1/a5/d8a26d266945dd63846a3296e5263123b9afdd9cd01abf62d894e608f413/bigdl_chronos_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:46] WARNING root fetch - processPackages [s1290242-learn]: Skipping, unable to determine old version
+[2023-08-06 15:59:46] INFO root fetch - processPackages [s1290242-learn]: Start processing: attensors
+[2023-08-06 15:59:46] INFO root fetch - main [MainThread]: End processing [s1290242-learn] error
+[2023-08-06 15:59:46] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639105>=10485760
+[2023-08-06 15:59:46] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: sounderpy
+[2023-08-06 15:59:46] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-08-06 15:59:46] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [sounderpy]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-06 15:59:46] WARNING root fetch - processPackages [attensors]: Skipping, unable to determine old version
+[2023-08-06 15:59:46] INFO root fetch - main [MainThread]: End processing [attensors] error
+[2023-08-06 15:59:46] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-08-06 15:59:46] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip --markdown 20230806/t/tensordict-nightly/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-06 15:59:46] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2c/75/a690562bc0f4ca16bd4e3043816d07fef7deb0cf10a3e0468deddedd5d84/sounderpy-2.3.0.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-06 15:59:46] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230806/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-06 15:59:46] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/c9/fc/143bac663c2c4d6c0b09747ad41fd688add9f29bf6878afea7f815abb1df/sgw_tools-1.98.tar.gz
+[2023-08-06 15:59:46] INFO root fetch - processPackages [MetaHeuristicsFS]: Downloading https://files.pythonhosted.org/packages/ab/1f/8652682c850d21d610e65b55a7715f52378bde62086333c3f465a6f71f0c/MetaHeuristicsFS-0.0.8.tar.gz
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/57/2d/7e283b3319b11c5c2588a3cdbe281b5cc060bebe377fd6c20ed55c7651f1/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/4d/80/e012de3bf3aed07c593f941344eba1994ab4554a2a0fc1cf4383bb6e33c1/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/4c/08/985b2958e2a2f523454ecd9eca4cc2f5cb1856ffb0c9895a8f78299e0d95/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/7f/5d/26920df2a1e2698e724f83ae9f1929f4f81e21daffde75a4d5d4a2caa060/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl
+[2023-08-06 15:59:47] INFO root fetch - processPackages [MetaHeuristicsFS]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - processPackages [MetaHeuristicsFS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaHeuristicsFS-0.0.7.tar.gz tmp/MetaHeuristicsFS-0.0.8.tar.gz --markdown 20230806/M/MetaHeuristicsFS/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 15:59:47] INFO root fetch - processPackages [sgw-tools]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - processPackages [sgw-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgw_tools-1.97.tar.gz tmp/sgw_tools-1.98.tar.gz --markdown 20230806/s/sgw-tools/1.97-1.98/diff.md --exclude *.pyd
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230806/b/bigdl/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230806/b/bigdl-spark2/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:59:47] ERROR root fetch - processPackages [sounderpy]: Unable to fetch info: No such project/version 'sounderpy' 2.4.0
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - main [MainThread]: End processing [sounderpy] error
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230806/b/bigdl-friesian-spark2/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-08-06 15:59:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip --markdown 20230806/b/bigdl-chronos-spark2/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:59:48] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [MetaHeuristicsFS]: Remove: archive file [/home/abi/fetcher/tmp/MetaHeuristicsFS-0.0.7.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [MetaHeuristicsFS]: Remove: archive file [/home/abi/fetcher/tmp/MetaHeuristicsFS-0.0.8.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [MetaHeuristicsFS]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.97.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.98.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [sgw-tools]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:48] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-08-06 15:59:49] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230805-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:49] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230806-py3-none-manylinux1_x86_64.whl.zip]
+[2023-08-06 15:59:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-08-06 15:59:49] INFO root fetch - main [MainThread]: Store serial: [19194346]
