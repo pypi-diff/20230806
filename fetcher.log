@@ -4857,3 +4857,108 @@
 [2023-08-06 09:00:28] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.31.tar.gz]
 [2023-08-06 09:00:28] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
 [2023-08-06 09:00:28] INFO root fetch - main [MainThread]: Store serial: [19191756]
+[2023-08-06 09:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191756]
+[2023-08-06 09:05:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-lines
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-lines
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-lines
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svcs
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upload-machine
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tftui
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjptools
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zcc-helper
+[2023-08-06 09:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyimporters-csv
+[2023-08-06 09:05:37] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.2a1] Old Version: [0.2.1a2]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.2a1] Old Version: [0.2.1a2]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: New version: [0.2.2a1] Old Version: [0.2.1a2]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [cjptools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [tftui]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.71]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [svcs]: New version: [23.9.0] Old Version: [23.8.0]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [zcc-helper]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-06 09:05:37] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/52/10/ca4f9fc531664d80c3105472409f86273249c85a1c327f9b92827f99fb92/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-06 09:05:37] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/b8/ab/43f532e39f64f5226f39135862205071fe54e5baa9cdf7140b2f5f7d3372/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 09:05:37] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/bb/d0/0f173bbab56da024b255d85d36b29579a86ffe9ed7966fae62de70ec6e09/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-06 09:05:37] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/84/72/62e976489b738c41a22a33d23db4eaca56ce47677fcf2fcef1422ff33ada/tftui-0.3.0.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/9b/cc/06d46e49ec41d314f212660a4b7d97ec1aab2b0501c640ab42973cdbf2a4/upload_machine-0.0.71.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/36/88/3d1bcd2e8c1a25ee41ad2a52e0975452e1d06344ae3a19a5c38efb819bb6/cjptools-0.1.7.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/f4/8d/88043ea8527c9abc706508aa66882ceebe0ea6b72beb345d999db9be6a8b/svcs-23.8.0.tar.gz
+[2023-08-06 09:05:37] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/e0/e9/a7cd2f56668f96493fb93e8879bcee1aac8215b72a49971dc16699307126/zcc-helper-3.2.dev1.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/17/1a/c7fe249d8d0ac4a5e82ab67cce5a282d46499e72565f52f9b510b6564733/datasette_sqlite_lines-0.2.2a1-py3-none-any.whl
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/1f/e3/6cc83cf6c58af1588ad0afb29840b54158a632e09a56c2de2e4e676f33ff/sqlite_utils_sqlite_lines-0.2.2a1-py3-none-any.whl
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/18/90/fbb8369228bd9b58919b36a78fa785c37346fd2621146d7e994f6b3114c7/sqlite_lines-0.2.2a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 09:05:38] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/6c/fa/8867c0ab110b55b7ca9bdb8d6073485af2ebbcb671ad7e94a605b5abe97b/tftui-0.3.1.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.2a1-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-lines/0.2.1a2-0.2.2a1/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/d0/c7/4ed3eddc40b2fefc6efde395709fc9103bfbe68a0416d2050314ed45cd6d/cjptools-0.1.8.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_lines-0.2.2a1-py3-none-any.whl.zip --markdown 20230806/s/sqlite-utils-sqlite-lines/0.2.1a2-0.2.2a1/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.2a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230806/s/sqlite-lines/0.2.1a2-0.2.2a1/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.3.0.tar.gz tmp/tftui-0.3.1.tar.gz --markdown 20230806/t/tftui/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [svcs]: Downloading https://files.pythonhosted.org/packages/bd/51/928d3ef4f9074496205c1c58a0ff2cd3370595770da6eb35298bba03100a/svcs-23.9.0.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.71.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.71-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.7.tar.gz tmp/cjptools-0.1.8.tar.gz --markdown 20230806/c/cjptools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/ca/01/fd970ffa7ad1cbdf4c1ff522a51d601030c03dd092cb96115220847fa6cd/zcc-helper-3.2.dev2.tar.gz
+[2023-08-06 09:05:38] INFO root fetch - processPackages [svcs]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [svcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svcs-23.8.0.tar.gz tmp/svcs-23.9.0.tar.gz --markdown 20230806/s/svcs/23.8.0-23.9.0/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230806/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-06 09:05:38] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-08-06 09:05:38] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.2.dev1.tar.gz tmp/zcc-helper-3.2.dev2.tar.gz --markdown 20230806/z/zcc-helper/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-08-06 09:05:39] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.2a1-py3-none-any.whl.zip]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [datasette-sqlite-lines]: Start processing: toolcat
+[2023-08-06 09:05:39] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-08-06 09:05:39] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.2a1-py3-none-any.whl.zip]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Start processing: npc-sessions
+[2023-08-06 09:05:39] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-lines]: success
+[2023-08-06 09:05:39] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.7.tar.gz]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.8.tar.gz]
+[2023-08-06 09:05:39] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-06 09:05:39] INFO root fetch - processPackages [toolcat]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.0.tar.gz]
+[2023-08-06 09:05:39] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.1.tar.gz]
+[2023-08-06 09:05:39] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2023-08-06 09:05:40] WARNING root fetch - processPackages [npc-sessions]: Skipping, unable to determine old version
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [npc-sessions] error
+[2023-08-06 09:05:40] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/ee/99/25640dfe605af9da391af71e37a371b3d3eb4c4c9b539cf2993bcf968973/toolcat-0.0.7.tar.gz
+[2023-08-06 09:05:40] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev1.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev2.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.8.0.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [svcs]: Remove: archive file [/home/abi/fetcher/tmp/svcs-23.9.0.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [svcs]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.2a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.71.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/29/41/c7e06eea267d81afa7f04ad48d0680aa68b7d2f077826100d903d2befef1/toolcat-0.0.8.tar.gz
+[2023-08-06 09:05:40] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-06 09:05:40] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-06 09:05:40] INFO root fetch - processPackages [toolcat]: executing diffoscope
+[2023-08-06 09:05:40] INFO root fetch - processPackages [toolcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolcat-0.0.7.tar.gz tmp/toolcat-0.0.8.tar.gz --markdown 20230806/t/toolcat/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 09:05:41] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.7.tar.gz]
+[2023-08-06 09:05:41] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.8.tar.gz]
+[2023-08-06 09:05:41] INFO root fetch - main [MainThread]: End processing [toolcat]: success
+[2023-08-06 09:05:41] INFO root fetch - main [MainThread]: Store serial: [19191796]
