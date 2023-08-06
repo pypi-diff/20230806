@@ -6059,3 +6059,72 @@
 [2023-08-06 10:34:08] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-06 10:34:08] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-06 10:34:08] INFO root fetch - main [MainThread]: Store serial: [19192324]
+[2023-08-06 10:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192324]
+[2023-08-06 10:39:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gender-detection-local
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mykit
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: translate-shell
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upload-machine
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iotPervasiveServiceSDK
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jag-panzer
+[2023-08-06 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trilium-alchemy
+[2023-08-06 10:39:17] INFO root fetch - processPackages [jag-panzer]: New version: [0.1.31] Old Version: [0.1.24]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [gender-detection-local]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.76]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [mykit]: New version: [7.0.0] Old Version: [6.2.0]
+[2023-08-06 10:39:18] WARNING root fetch - processPackages [trilium-alchemy]: Skipping, unable to determine old version
+[2023-08-06 10:39:18] INFO root fetch - main [MainThread]: End processing [trilium-alchemy] error
+[2023-08-06 10:39:18] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/c9/b9/ff36ccaff6485d32df143701ff8a4900e3c7d8a5171dbcdc1193ffd5876a/jag-panzer-0.1.24.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/f8/99/853fd906968574695d5f713e712f1666adceeec611928c632eb6d60a04cc/gender-detection-local-0.1.8.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [iotPervasiveServiceSDK]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 10:39:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-08-06 10:39:18] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/ad/2d/91532f61dbadf8afbd9a6204d735691c21be1b1bf93029276e00cc4ffabb/upload_machine-0.0.76.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/82/76/79a4796cc6d87b4c36f49b464dceefe4397d3c5bed2600d977440528b557/mykit-6.2.0.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/5f/e2/a91db216b6585773e98daed9b6003c62f6513d187091c3c16103f9e260ef/iotPervasiveServiceSDK-0.0.6.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/dd/73/bf3830cd3b4ffe32b166630c0579a3e92217cb344d7cbfe5101e9d9958b8/jag-panzer-0.1.31.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-08-06 10:39:18] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-08-06 10:39:18] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.1.24.tar.gz tmp/jag-panzer-0.1.31.tar.gz --markdown 20230806/j/jag-panzer/0.1.24-0.1.31/diff.md --exclude *.pyd
+[2023-08-06 10:39:18] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 10:39:18] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.76.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.76-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 10:39:18] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/8a/1b/20a10a247dc4cc823efa426a989c8da71918e3f9a3bdff2016a6777e0364/mykit-7.0.0.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/b8/81/f1325e13e39a28509d52cb6fe43789f9279618a2e5d82c4fd1e273d844d7/gender-detection-local-0.1.9.tar.gz
+[2023-08-06 10:39:18] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-08-06 10:39:18] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230806/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-08-06 10:39:18] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Downloading https://files.pythonhosted.org/packages/3a/4d/6d8e1c875751f984a2a0a299a3ff98a30a544afe9a170122e4663162364f/iotPervasiveServiceSDK-0.0.7.tar.gz
+[2023-08-06 10:39:19] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-08-06 10:39:19] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-6.2.0.tar.gz tmp/mykit-7.0.0.tar.gz --markdown 20230806/m/mykit/6.2.0-7.0.0/diff.md --exclude *.pyd
+[2023-08-06 10:39:19] INFO root fetch - processPackages [iotPervasiveServiceSDK]: executing diffoscope
+[2023-08-06 10:39:19] INFO root fetch - processPackages [iotPervasiveServiceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotPervasiveServiceSDK-0.0.6.tar.gz tmp/iotPervasiveServiceSDK-0.0.7.tar.gz --markdown 20230806/i/iotPervasiveServiceSDK/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 10:39:19] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-08-06 10:39:19] INFO root fetch - processPackages [gender-detection-local]: executing diffoscope
+[2023-08-06 10:39:19] INFO root fetch - processPackages [gender-detection-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-detection-local-0.1.8.tar.gz tmp/gender-detection-local-0.1.9.tar.gz --markdown 20230806/g/gender-detection-local/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 10:39:19] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-08-06 10:39:19] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230806/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 10:39:20] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.24.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.31.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.76.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-6.2.0.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-7.0.0.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.6.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [iotPervasiveServiceSDK]: Remove: archive file [/home/abi/fetcher/tmp/iotPervasiveServiceSDK-0.0.7.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [iotPervasiveServiceSDK]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.1.8.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.1.9.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [gender-detection-local]: success
+[2023-08-06 10:39:20] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.8.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-08-06 10:39:20] INFO root fetch - main [MainThread]: Store serial: [19192363]
