@@ -7724,3 +7724,40 @@
 [2023-08-06 13:00:36] INFO root fetch - processPackages [devpi-server]: Remove: archive file [/home/abi/fetcher/tmp/devpi-server-6.9.2.tar.gz]
 [2023-08-06 13:00:36] INFO root fetch - main [MainThread]: End processing [devpi-server]: success
 [2023-08-06 13:00:36] INFO root fetch - main [MainThread]: Store serial: [19193160]
+[2023-08-06 13:05:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193160]
+[2023-08-06 13:05:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 13:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-08-06 13:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2023-08-06 13:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lc-checkpoint
+[2023-08-06 13:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gopro-overlay
+[2023-08-06 13:05:45] INFO root fetch - processPackages [pih]: New version: [1.48046] Old Version: [1.48045]
+[2023-08-06 13:05:45] INFO root fetch - processPackages [pih]: New version: [1.48046] Old Version: [1.48045]
+[2023-08-06 13:05:45] INFO root fetch - processPackages [lc-checkpoint]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-06 13:05:45] INFO root fetch - processPackages [gopro-overlay]: New version: [0.98.0] Old Version: [0.97.0]
+[2023-08-06 13:05:45] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/f6/61/53a4d6456b273ab37675eed7cd71a5279085a3c0d45319e7368f58241742/pih-1.48045.tar.gz
+[2023-08-06 13:05:45] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/f6/61/53a4d6456b273ab37675eed7cd71a5279085a3c0d45319e7368f58241742/pih-1.48045.tar.gz
+[2023-08-06 13:05:45] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/2d/b1/bbb1e1708df1c8366fe69fab1a511129ace85fd2e0725becd791b29b873c/lc-checkpoint-0.5.1.tar.gz
+[2023-08-06 13:05:45] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/f4/ed/2f0c1ccd392cc81133edfeff7cc7d37b8b26fc8e0c0684699dc5c24fe61d/gopro-overlay-0.97.0.tar.gz
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/bc/85/6453fd2ace1f57a2a18e0c6a81bf6fec083495c12bc9992eff0f3d7ea2cf/pih-1.48047-py3-none-any.whl
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/bc/85/6453fd2ace1f57a2a18e0c6a81bf6fec083495c12bc9992eff0f3d7ea2cf/pih-1.48047-py3-none-any.whl
+[2023-08-06 13:05:46] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/fa/0a/7ac86c51cc2ff188627404dfcbca58ce54fae9a37b883354e12d92136f80/lc-checkpoint-0.5.2.tar.gz
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48045.tar.gz tmp/pih-1.48047-py3-none-any.whl.zip --markdown 20230806/p/pih/1.48045-1.48046/diff.md --exclude *.pyd
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-06 13:05:46] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48045.tar.gz tmp/pih-1.48047-py3-none-any.whl.zip --markdown 20230806/p/pih/1.48045-1.48046/diff.md --exclude *.pyd
+[2023-08-06 13:05:46] INFO root fetch - processPackages [lc-checkpoint]: executing diffoscope
+[2023-08-06 13:05:46] INFO root fetch - processPackages [lc-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lc-checkpoint-0.5.1.tar.gz tmp/lc-checkpoint-0.5.2.tar.gz --markdown 20230806/l/lc-checkpoint/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-06 13:05:46] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/92/3d/ae0a217ac566717cf61951a5d2dfb9e41f722ecfda7d22f6e6256a086202/gopro-overlay-0.98.0.tar.gz
+[2023-08-06 13:05:46] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-08-06 13:05:46] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.97.0.tar.gz tmp/gopro-overlay-0.98.0.tar.gz --markdown 20230806/g/gopro-overlay/0.97.0-0.98.0/diff.md --exclude *.pyd
+[2023-08-06 13:05:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48045.tar.gz]
+[2023-08-06 13:05:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48047-py3-none-any.whl.zip]
+[2023-08-06 13:05:47] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-06 13:05:47] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.5.1.tar.gz]
+[2023-08-06 13:05:47] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.5.2.tar.gz]
+[2023-08-06 13:05:47] INFO root fetch - main [MainThread]: End processing [lc-checkpoint]: success
+[2023-08-06 13:05:47] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-06 13:05:47] INFO root fetch - processPackages [gopro-overlay]: Remove: archive file [/home/abi/fetcher/tmp/gopro-overlay-0.97.0.tar.gz]
+[2023-08-06 13:05:47] INFO root fetch - processPackages [gopro-overlay]: Remove: archive file [/home/abi/fetcher/tmp/gopro-overlay-0.98.0.tar.gz]
+[2023-08-06 13:05:47] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-08-06 13:05:47] INFO root fetch - main [MainThread]: Store serial: [19193171]
