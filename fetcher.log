@@ -15839,3 +15839,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 21:46:09] INFO root fetch - processPackages [naruno]: Remove: archive file [/home/abi/fetcher/tmp/naruno-0.60.4.tar.gz]
 [2023-08-06 21:46:09] INFO root fetch - main [MainThread]: End processing [naruno]: success
 [2023-08-06 21:46:09] INFO root fetch - main [MainThread]: Store serial: [19196800]
+[2023-08-06 21:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196800]
+[2023-08-06 21:51:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naruno-tests
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-ci
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monsterapi-v2
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starplot
+[2023-08-06 21:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-interpreter
+[2023-08-06 21:51:19] INFO root fetch - processPackages [naruno-tests]: New version: [0.60.4] Old Version: [0.60.3]
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.265] Old Version: [0.0.264]
+[2023-08-06 21:51:19] INFO root fetch - processPackages [starplot]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.265] Old Version: [0.0.264]
+[2023-08-06 21:51:19] WARNING root fetch - processPackages [monsterapi-v2]: Skipping, unable to determine old version
+[2023-08-06 21:51:19] INFO root fetch - main [MainThread]: End processing [monsterapi-v2] error
+[2023-08-06 21:51:19] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/a9/01/a62d6731f8a484545fa8880b6d2bb5de51ba973ed1b65353902c78207cb1/naruno_tests-0.60.3.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/72/8b/034fa2753b618a89de38578f39eb42da86d4a24e38d3bf5b8f573e487d4a/open_interpreter-0.0.264.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.5] Old Version: [0.0.4b25]
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/72/8b/034fa2753b618a89de38578f39eb42da86d4a24e38d3bf5b8f573e487d4a/open_interpreter-0.0.264.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/be/5c/f04496aaa6f69e1f5039f2e21c951f370b7c6cccd8c9d3574f4bdd53f11e/starplot-0.2.0.tar.gz
+[2023-08-06 21:51:19] WARNING root fetch - processPackages [starplot]: Skipping package: exceeds size limit 19169081>=10485760
+[2023-08-06 21:51:19] INFO root fetch - main [MainThread]: End processing [starplot] error
+[2023-08-06 21:51:19] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/d1/95/5f8528796e6b8cf08ddd765c39ce50b31b02b5e6290ec9324b6228d24046/hatch_ci-0.0.4b25.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/37/e5/a0789c52d97f461774b6ef0c16617d514af6edb908f14d5510e1aab56819/naruno_tests-0.60.4.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/17/11/84bbdf0e83d383243930d27917efd2188b79c0523578877f97caab8aa3c8/open_interpreter-0.0.265.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/17/11/84bbdf0e83d383243930d27917efd2188b79c0523578877f97caab8aa3c8/open_interpreter-0.0.265.tar.gz
+[2023-08-06 21:51:19] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-08-06 21:51:19] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.60.3.tar.gz tmp/naruno_tests-0.60.4.tar.gz --markdown 20230806/n/naruno-tests/0.60.3-0.60.4/diff.md --exclude *.pyd
+[2023-08-06 21:51:19] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/22/e6/365565672bfb20c14159f61b76558ee085efb4b14a388734247dc6220625/hatch_ci-0.0.5-py3-none-any.whl
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.264.tar.gz tmp/open_interpreter-0.0.265.tar.gz --markdown 20230806/o/open-interpreter/0.0.264-0.0.265/diff.md --exclude *.pyd
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 21:51:19] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.264.tar.gz tmp/open_interpreter-0.0.265.tar.gz --markdown 20230806/o/open-interpreter/0.0.264-0.0.265/diff.md --exclude *.pyd
+[2023-08-06 21:51:19] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-06 21:51:19] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.4b25.tar.gz tmp/hatch_ci-0.0.5-py3-none-any.whl.zip --markdown 20230806/h/hatch-ci/0.0.4b25-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 21:51:20] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.3.tar.gz]
+[2023-08-06 21:51:20] INFO root fetch - processPackages [naruno-tests]: Remove: archive file [/home/abi/fetcher/tmp/naruno_tests-0.60.4.tar.gz]
+[2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-08-06 21:51:20] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.4b25.tar.gz]
+[2023-08-06 21:51:20] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.5-py3-none-any.whl.zip]
+[2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-06 21:51:20] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.264.tar.gz]
+[2023-08-06 21:51:20] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.265.tar.gz]
+[2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:51:20] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 21:51:20] INFO root fetch - main [MainThread]: Store serial: [19196820]
