@@ -3539,3 +3539,34 @@
 [2023-08-06 05:48:45] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-5.1.0.tar.gz]
 [2023-08-06 05:48:45] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
 [2023-08-06 05:48:45] INFO root fetch - main [MainThread]: Store serial: [19191088]
+[2023-08-06 05:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191088]
+[2023-08-06 05:53:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicebox-pytorch
+[2023-08-06 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voicebox-pytorch
+[2023-08-06 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcshus
+[2023-08-06 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linearwavetheory
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 05:53:55] INFO root fetch - processPackages [gcshus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/96/91/7a02499a95ac9160552a08b3e28c0671bebda12a63c0ee9f011dfb7a40d2/voicebox-pytorch-0.0.6.tar.gz
+[2023-08-06 05:53:55] INFO root fetch - processPackages [gcshus]: Downloading https://files.pythonhosted.org/packages/70/6c/c46ab5d6d807e133b0870336626f219e24849e94ecb5761548a5c564c1c9/gcshus-0.0.1.tar.gz
+[2023-08-06 05:53:55] WARNING root fetch - processPackages [linearwavetheory]: Skipping, unable to determine old version
+[2023-08-06 05:53:55] INFO root fetch - main [MainThread]: End processing [linearwavetheory] error
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/96/91/7a02499a95ac9160552a08b3e28c0671bebda12a63c0ee9f011dfb7a40d2/voicebox-pytorch-0.0.6.tar.gz
+[2023-08-06 05:53:55] INFO root fetch - processPackages [gcshus]: Downloading https://files.pythonhosted.org/packages/0b/34/f52b9acd1c2699892d467e71bf6b7f2f6d6eb75285bc598d921bfd98098d/gcshus-0.0.2.tar.gz
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/9b/4d/40346e1f547bcde882396864981964238ea917567128bdcd8f5d172a5225/voicebox-pytorch-0.0.7.tar.gz
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/9b/4d/40346e1f547bcde882396864981964238ea917567128bdcd8f5d172a5225/voicebox-pytorch-0.0.7.tar.gz
+[2023-08-06 05:53:55] INFO root fetch - processPackages [gcshus]: executing diffoscope
+[2023-08-06 05:53:55] INFO root fetch - processPackages [gcshus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcshus-0.0.1.tar.gz tmp/gcshus-0.0.2.tar.gz --markdown 20230806/g/gcshus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.6.tar.gz tmp/voicebox-pytorch-0.0.7.tar.gz --markdown 20230806/v/voicebox-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-06 05:53:55] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.6.tar.gz tmp/voicebox-pytorch-0.0.7.tar.gz --markdown 20230806/v/voicebox-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 05:53:56] INFO root fetch - processPackages [gcshus]: Remove: archive file [/home/abi/fetcher/tmp/gcshus-0.0.1.tar.gz]
+[2023-08-06 05:53:56] INFO root fetch - processPackages [gcshus]: Remove: archive file [/home/abi/fetcher/tmp/gcshus-0.0.2.tar.gz]
+[2023-08-06 05:53:56] INFO root fetch - main [MainThread]: End processing [gcshus]: success
+[2023-08-06 05:53:56] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.6.tar.gz]
+[2023-08-06 05:53:56] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.7.tar.gz]
+[2023-08-06 05:53:56] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-06 05:53:56] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-06 05:53:56] INFO root fetch - main [MainThread]: Store serial: [19191101]
