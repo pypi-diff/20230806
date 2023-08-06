@@ -6395,3 +6395,87 @@
 [2023-08-06 11:05:20] INFO root fetch - processPackages [python-bitget]: Remove: archive file [/home/abi/fetcher/tmp/python-bitget-1.0.7.tar.gz]
 [2023-08-06 11:05:20] INFO root fetch - main [MainThread]: End processing [python-bitget]: success
 [2023-08-06 11:05:20] INFO root fetch - main [MainThread]: Store serial: [19192518]
+[2023-08-06 11:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192518]
+[2023-08-06 11:10:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: areixio
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curl-cffi
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaylib
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upload-machine
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hades-core
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tkintertools
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: janus-client
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-interpreter
+[2023-08-06 11:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-upgrade
+[2023-08-06 11:10:29] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.77]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [areixio]: New version: [0.2.98] Old Version: [0.2.97]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [hades-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [tkintertools]: New version: [2.6.9.dev0] Old Version: [2.6.8.dev1]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [janus-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [mypy-upgrade]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.251] Old Version: [0.0.250]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [yaylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [curl-cffi]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-08-06 11:10:29] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/56/bd/336b145789ccc1207b27312c540b2d395a38059f6091f1eb51a29f623a7e/upload_machine-0.0.77.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/65/46/c648a1e0023f09b47a544f202fdc169a5d7b5802ddc4c2f17438b3b13457/open_interpreter-0.0.250.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/44/b0/2ed1434c1ed49a23e1da7fdf84de1e1ca38c65ff703fb211db4e617999a7/areixio-0.2.97.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/77/68/2090cd12d1db84097019f4b459bd014a2593083bae21bebd5106a200a0f6/tkintertools-2.6.8.dev1.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [hades-core]: Downloading https://files.pythonhosted.org/packages/3e/03/f6bdd529bcd06f4861e84f00e216ead0bfc5cbaee75d11743097ae677ae2/hades-core-0.0.2.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/34/dd/0b63eec41b9f5cb501b4b4beaf769a8f0388136eba24dd308ca628249a9d/mypy_upgrade-0.0.1a3.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/1d/05/e401bebd5ece20d6c90034c99cb429d322ee8eda89e2718c1f786ad41c74/yaylib-1.0.8.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/c7/e3/698c1373806d4cc48475f7dc25374f69fe695459e9e925fba1d6180be236/curl_cffi-0.5.7.tar.gz
+[2023-08-06 11:10:29] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/4e/1c/e00002ea53d3bdf656c3afbe2eccbdd29f96be322331c9bcba4ab81223e7/janus_client-0.3.0.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/c9/06/d241fa51d0588c4e9a449f84af2d6b262e2b87156e2f0df193ac5ec7f3de/open_interpreter-0.0.251.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/01/56/2a2339212346df013b5d4388eb863f4aae47f30e08da330e4991828a4549/tkintertools-2.6.9.dev0.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/5e/02/caa3bdf6eeb39d851cb4faeb326e5649a5b4375924cf050c5494a4d6c4bd/yaylib-1.0.9.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [hades-core]: Downloading https://files.pythonhosted.org/packages/6e/29/06357f5057894dc455f21f0e1474ed42a66eefc68fd52916e059f026e756/hades-core-0.0.3.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/22/f5/cebc834b98c3dfffe8afb41abaca71a14505880c14bf5c8acd6a4036f21b/mypy_upgrade-0.0.1a4.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.77.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230806/u/upload-machine/0.0.77-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/25/69/1e1a6f0edfb071d0743abdb2ad5a130009b877975e57a0a8f3c032dc78bb/curl_cffi-0.5.8-cp37-abi3-macosx_11_0_arm64.whl
+[2023-08-06 11:10:30] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/aa/9d/ba351126a5b6395c7b46db1c59469be833e5c1fa1ab42c25fbff4248a917/janus_client-0.4.0.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.250.tar.gz tmp/open_interpreter-0.0.251.tar.gz --markdown 20230806/o/open-interpreter/0.0.250-0.0.251/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.8.tar.gz tmp/yaylib-1.0.9.tar.gz --markdown 20230806/y/yaylib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [hades-core]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [hades-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hades-core-0.0.2.tar.gz tmp/hades-core-0.0.3.tar.gz --markdown 20230806/h/hades-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.8.dev1.tar.gz tmp/tkintertools-2.6.9.dev0.tar.gz --markdown 20230806/t/tkintertools/2.6.8.dev1-2.6.9.dev0/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [mypy-upgrade]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [mypy-upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_upgrade-0.0.1a3.tar.gz tmp/mypy_upgrade-0.0.1a4.tar.gz --markdown 20230806/m/mypy-upgrade/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/22/21/cf0e88e7d0e687c0e07eb58e5e742d0c8bb14ccdd4aaeb5c772ebb771296/areixio-0.2.98.tar.gz
+[2023-08-06 11:10:30] INFO root fetch - processPackages [janus-client]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [janus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_client-0.3.0.tar.gz tmp/janus_client-0.4.0.tar.gz --markdown 20230806/j/janus-client/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [curl-cffi]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [curl-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curl_cffi-0.5.7.tar.gz tmp/curl_cffi-0.5.8-cp37-abi3-macosx_11_0_arm64.whl.zip --markdown 20230806/c/curl-cffi/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-08-06 11:10:30] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-08-06 11:10:30] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.97.tar.gz tmp/areixio-0.2.98.tar.gz --markdown 20230806/a/areixio/0.2.97-0.2.98/diff.md --exclude *.pyd
+[2023-08-06 11:10:31] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.250.tar.gz]
+[2023-08-06 11:10:31] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.251.tar.gz]
+[2023-08-06 11:10:31] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.8.dev1.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.9.dev0.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.3.0.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.4.0.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [janus-client]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [hades-core]: Remove: archive file [/home/abi/fetcher/tmp/hades-core-0.0.2.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [hades-core]: Remove: archive file [/home/abi/fetcher/tmp/hades-core-0.0.3.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [hades-core]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a3.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a4.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [mypy-upgrade]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.5.7.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.5.8-cp37-abi3-macosx_11_0_arm64.whl.zip]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [curl-cffi]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.77.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 11:10:32] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.8.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.9.tar.gz]
+[2023-08-06 11:10:32] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-08-06 11:10:45] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.97.tar.gz]
+[2023-08-06 11:10:45] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.98.tar.gz]
+[2023-08-06 11:10:45] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-08-06 11:10:45] INFO root fetch - main [MainThread]: Store serial: [19192550]
