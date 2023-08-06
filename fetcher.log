@@ -1070,3 +1070,67 @@
 [2023-08-06 02:09:05] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
 [2023-08-06 02:09:05] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
 [2023-08-06 02:09:05] INFO root fetch - main [MainThread]: Store serial: [19190022]
+[2023-08-06 02:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190022]
+[2023-08-06 02:14:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archive-hocr-tools
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-nightly
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpsvis
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aws-discord-notifiers
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdf
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanoSQLite
+[2023-08-06 02:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-06 02:14:14] INFO root fetch - processPackages [nanoSQLite]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230805.post1053] Old Version: [1.2.0.20230804.post1049]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:14:14] WARNING root fetch - processPackages [cpsvis]: Skipping, unable to determine old version
+[2023-08-06 02:14:14] INFO root fetch - main [MainThread]: End processing [cpsvis] error
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-06 02:14:14] WARNING root fetch - processPackages [gdf]: Skipping, unable to determine old version
+[2023-08-06 02:14:14] INFO root fetch - main [MainThread]: End processing [gdf] error
+[2023-08-06 02:14:14] INFO root fetch - processPackages [archive-hocr-tools]: New version: [1.1.9] Old Version: [1.1.53]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230806] Old Version: [3.2.0.dev20230805]
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-06 02:14:14] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-06 02:14:14] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-06 02:14:14] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/49/c6/d7ce1fb4621c0b84349542230a421a270da0650cbf2d67b387f6d51bded3/nanoSQLite-0.1.tar.gz
+[2023-08-06 02:14:14] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/e4/61/edf58582b7bb90fb100f1b36125d56dde16f0f6060017d74eee3417f8372/mct-quantizers-nightly-1.2.0.20230804.post1049.tar.gz
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-06 02:14:14] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/92/75/980253fbf3cb6b5573c878f6219939c0babc54b68ced74fec657cefed808/archive-hocr-tools-1.1.53.tar.gz
+[2023-08-06 02:14:14] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/66/e9/794339b1e9a41ea1182561f28c18add8cb1ddbcd0d4449a010507156204f/openbb_nightly-3.2.0.dev20230805.tar.gz
+[2023-08-06 02:14:14] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20908129>=10485760
+[2023-08-06 02:14:14] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-08-06 02:14:14] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/5f/e3/226a8960e97956683cc435f9b2dc84a031d8adbd69d29f4784083259543d/nanoSQLite-0.1.1.tar.gz
+[2023-08-06 02:14:14] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-06 02:14:15] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/74/84/d61c89f64fb210581b31dbf50761a409f49c0d36a61e3299f7f627139dc6/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz
+[2023-08-06 02:14:15] INFO root fetch - processPackages [nanoSQLite]: executing diffoscope
+[2023-08-06 02:14:15] INFO root fetch - processPackages [nanoSQLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoSQLite-0.1.tar.gz tmp/nanoSQLite-0.1.1.tar.gz --markdown 20230806/n/nanoSQLite/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 02:14:15] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-06 02:14:15] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230804.post1049.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz --markdown 20230806/m/mct-quantizers-nightly/1.2.0.20230804.post1049-1.2.0.20230805.post1053/diff.md --exclude *.pyd
+[2023-08-06 02:14:15] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-06 02:14:15] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/175062dc61f6a2a9e54da920691e617e4bec55f8b34eb0bdbdbd7e5eb345/archive-hocr-tools-1.1.9.tar.gz
+[2023-08-06 02:14:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-06 02:14:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230806/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:14:15] INFO root fetch - processPackages [archive-hocr-tools]: executing diffoscope
+[2023-08-06 02:14:15] INFO root fetch - processPackages [archive-hocr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-hocr-tools-1.1.53.tar.gz tmp/archive-hocr-tools-1.1.9.tar.gz --markdown 20230806/a/archive-hocr-tools/1.1.53-1.1.9/diff.md --exclude *.pyd
+[2023-08-06 02:14:15] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-06 02:14:15] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230806/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:14:16] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-0.1.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-0.1.1.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [nanoSQLite]: success
+[2023-08-06 02:14:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-06 02:14:16] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.53.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.9.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [archive-hocr-tools]: success
+[2023-08-06 02:14:16] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230804.post1049.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230805.post1053.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-06 02:14:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-06 02:14:16] INFO root fetch - main [MainThread]: Store serial: [19190056]
