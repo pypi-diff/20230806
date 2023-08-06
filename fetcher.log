@@ -7821,3 +7821,79 @@
 [2023-08-06 13:10:58] INFO root fetch - processPackages [openapi3-parser]: Remove: archive file [/home/abi/fetcher/tmp/openapi3-parser-1.1.9.tar.gz]
 [2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [openapi3-parser]: success
 [2023-08-06 13:10:58] INFO root fetch - main [MainThread]: Store serial: [19193202]
+[2023-08-06 13:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193202]
+[2023-08-06 13:16:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survey-report-generator
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avijit1996iiti-basic-calculator
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logic-processes-layer
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: algodojo
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bili-eta
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jlogr
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiggler-studiorabota
+[2023-08-06 13:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bili-eta
+[2023-08-06 13:16:07] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 13:16:07] WARNING root fetch - processPackages [avijit1996iiti-basic-calculator]: Skipping, unable to determine old version
+[2023-08-06 13:16:07] INFO root fetch - main [MainThread]: End processing [avijit1996iiti-basic-calculator] error
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/77/4d/68e19f226a0375012d6300c8985b79ece49c3eb3e31c67736aa4474163dc/bili_eta-0.2.5.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/77/4d/68e19f226a0375012d6300c8985b79ece49c3eb3e31c67736aa4474163dc/bili_eta-0.2.5.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [jlogr]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [logic-processes-layer]: New version: [1.1.1] Old Version: [1.1]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [algodojo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 13:16:07] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/b6/d7/eba653fced70e2a3864a0c218b0dd3eb14c1c6fca55a7ed99074059b1100/jlogr-0.1.12.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/5b/a3/66092896ca461223fdeeaeea7b6cda9865170a87e4400b1c353ab30c7450/survey_report_generator-0.0.1.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/f0/0e/ac462b2496e9a357d79b729930cd03c681de8c9bfb100e9d3536d7097c6c/bili_eta-0.2.6.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/f0/0e/ac462b2496e9a357d79b729930cd03c681de8c9bfb100e9d3536d7097c6c/bili_eta-0.2.6.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-08-06 13:16:07] INFO root fetch - processPackages [logic-processes-layer]: Downloading https://files.pythonhosted.org/packages/87/99/233f9d0893b5023f789f0d77aab5927e61587831c26577b3b8e113fd6734/logic_processes_layer-1.1.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/ab/ce/864368251b672b5e8d865f3a526db39d17f5c489cb47dbe41ab91d9c2a08/algodojo-0.2.1.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.5.tar.gz tmp/bili_eta-0.2.6.tar.gz --markdown 20230806/b/bili-eta/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.5.tar.gz tmp/bili_eta-0.2.6.tar.gz --markdown 20230806/b/bili-eta/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230806/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/f5/82/eb7501dc4f57f04d59f3974da8046fb0cd0e0277834bf1615f7150f10647/jlogr-0.1.13.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [logic-processes-layer]: Downloading https://files.pythonhosted.org/packages/60/85/208f5a5aed511f0044bd24877eaedcc82134b0cf4a7236365ce107404c26/logic_processes_layer-1.1.1.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/b2/9b/0e521bdfea1a746743864c5f6f639affa0bd6cf895d8211d9d621f1c21f1/survey_report_generator-0.0.2.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.12.tar.gz tmp/jlogr-0.1.13.tar.gz --markdown 20230806/j/jlogr/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [logic-processes-layer]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [logic-processes-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logic_processes_layer-1.1.tar.gz tmp/logic_processes_layer-1.1.1.tar.gz --markdown 20230806/l/logic-processes-layer/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20230806/H/HawaData/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/e5/a4/d3b30a3aaf79f8ab2c69b23236f4d08fbf3169f7e660f7026ad1c933a405/algodojo-0.2.2.tar.gz
+[2023-08-06 13:16:08] INFO root fetch - processPackages [algodojo]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [algodojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algodojo-0.2.1.tar.gz tmp/algodojo-0.2.2.tar.gz --markdown 20230806/a/algodojo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 13:16:08] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-06 13:16:08] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.1.tar.gz tmp/survey_report_generator-0.0.2.tar.gz --markdown 20230806/s/survey-report-generator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 13:16:09] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.5.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.6.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-08-06 13:16:09] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-08-06 13:16:09] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.12.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.13.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 13:16:09] INFO root fetch - processPackages [logic-processes-layer]: Remove: archive file [/home/abi/fetcher/tmp/logic_processes_layer-1.1.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [logic-processes-layer]: Remove: archive file [/home/abi/fetcher/tmp/logic_processes_layer-1.1.1.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [logic-processes-layer]: success
+[2023-08-06 13:16:09] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-08-06 13:16:09] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.1.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.2.tar.gz]
+[2023-08-06 13:16:09] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-06 13:16:29] INFO root fetch - processPackages [algodojo]: Remove: archive file [/home/abi/fetcher/tmp/algodojo-0.2.1.tar.gz]
+[2023-08-06 13:16:29] INFO root fetch - processPackages [algodojo]: Remove: archive file [/home/abi/fetcher/tmp/algodojo-0.2.2.tar.gz]
+[2023-08-06 13:16:29] INFO root fetch - main [MainThread]: End processing [algodojo]: success
+[2023-08-06 13:16:29] INFO root fetch - main [MainThread]: Store serial: [19193232]
