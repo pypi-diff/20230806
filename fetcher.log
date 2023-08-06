@@ -2295,3 +2295,126 @@
 [2023-08-06 03:31:07] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.95.tar.gz]
 [2023-08-06 03:31:07] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-08-06 03:31:07] INFO root fetch - main [MainThread]: Store serial: [19190552]
+[2023-08-06 03:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190552]
+[2023-08-06 03:36:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-html
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-html
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-utils-sqlite-html
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aptos-sdk-zzf
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DyGraph
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linepost
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweetrpg-model-core
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-08-06 03:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apollo11log
+[2023-08-06 03:36:19] INFO root fetch - processPackages [apollo11log]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:36:19] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.3a1] Old Version: [0.1.3]
+[2023-08-06 03:36:19] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/fb/75/45cedb6f2c3fbe6c194446b35b6495bf9808b43332ee7bbc387999792660/apollo11log-0.1.0.tar.gz
+[2023-08-06 03:36:19] WARNING root fetch - processPackages [linepost]: Skipping, unable to determine old version
+[2023-08-06 03:36:19] INFO root fetch - processPackages [linepost]: Start processing: sweetrpg-library-objects
+[2023-08-06 03:36:19] INFO root fetch - main [MainThread]: End processing [linepost] error
+[2023-08-06 03:36:19] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: New version: [0.1.3a1] Old Version: [0.1.3]
+[2023-08-06 03:36:19] INFO root fetch - processPackages [aptos-sdk-zzf]: New version: [0.7.0] Old Version: [0.1.0]
+[2023-08-06 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [DyGraph]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 03:36:20] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.3a1] Old Version: [0.1.3]
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-model-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Downloading https://files.pythonhosted.org/packages/3a/0c/5c4f4ef577003b6c7d7602dcbacc9680b560f9010f3b75efe9e1eb4952a9/sqlite_utils_sqlite_html-0.1.3-py3-none-any.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/0f/73/ace3a6910688e00487890854eadbcd56882cb262021b118983e82b8cf338/sqlite_html-0.1.3-py3-none-win_amd64.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/ee/7e/28a9a03c829c089893a7db4f2c1c0b3c648021b8954c9d063ffa5ab1fabc/datasette_sqlite_html-0.1.3-py3-none-any.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/2b/a9/f6d12795fc3f52981f5476c74fd485c2b56fe1911b278640171d94d92bc1/sweetrpg-model-core-0.0.98.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [aptos-sdk-zzf]: Downloading https://files.pythonhosted.org/packages/cb/72/77c27d3f9f9d6f6f547972b517826984e6e89d42ffe3f5527b421d3718d8/aptos_sdk_zzf-0.1.0.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/33/98/f1856c864ecaed923335e4c81306d5104bd7994d09483da08003b51c0b92/DyGraph-0.0.2.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/af/25/c32717d934f2f39caba06825ddfcd02e0ad571244723a03c9a9237397d4c/apollo11log-0.1.1.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230806/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Downloading https://files.pythonhosted.org/packages/56/30/908228e63b678332a4592f8422294cc2e5b1befb02ae0231595fc057a277/sqlite_utils_sqlite_html-0.1.3a1-py3-none-any.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [apollo11log]: executing diffoscope
+[2023-08-06 03:36:20] INFO root fetch - processPackages [apollo11log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo11log-0.1.0.tar.gz tmp/apollo11log-0.1.1.tar.gz --markdown 20230806/a/apollo11log/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/61/07/a07b007142d9f1f94438e70b7e1df3fd9535a2b5ca79afdadff8785f8f99/datasette_sqlite_html-0.1.3a1-py3-none-any.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [DyGraph]: Downloading https://files.pythonhosted.org/packages/f8/78/1fd37b16f2d94595a076940038fa06ce6f2828d56f019c88763e55f920d9/DyGraph-0.0.3.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: executing diffoscope
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_html-0.1.3-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_html-0.1.3a1-py3-none-any.whl.zip --markdown 20230806/s/sqlite-utils-sqlite-html/0.1.3-0.1.3a1/diff.md --exclude *.pyd
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230806/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-08-06 03:36:20] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/30/a7/77fd1372e54925720c1159d8c4643dd99c520e4a6faadba3408e7f01353e/sqlite_html-0.1.3a1-py3-none-win_amd64.whl
+[2023-08-06 03:36:20] INFO root fetch - processPackages [aptos-sdk-zzf]: Downloading https://files.pythonhosted.org/packages/32/2b/114d6ce3056f1f587efbf0f39fc32d00ac6a43bd7255119186de89828c11/aptos_sdk_zzf-0.7.0.tar.gz
+[2023-08-06 03:36:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-06 03:36:21] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/45/2f/72ea3ec101547d659b6522d0efd329d98807f3f70bd531b7c55e48836946/sweetrpg-model-core-0.0.99.tar.gz
+[2023-08-06 03:36:21] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.3-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.3a1-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-html/0.1.3-0.1.3a1/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [DyGraph]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [DyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DyGraph-0.0.2.tar.gz tmp/DyGraph-0.0.3.tar.gz --markdown 20230806/D/DyGraph/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [aptos-sdk-zzf]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [aptos-sdk-zzf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_sdk_zzf-0.1.0.tar.gz tmp/aptos_sdk_zzf-0.7.0.tar.gz --markdown 20230806/a/aptos-sdk-zzf/0.1.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230806/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [sweetrpg-model-core]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [sweetrpg-model-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-model-core-0.0.98.tar.gz tmp/sweetrpg-model-core-0.0.99.tar.gz --markdown 20230806/s/sweetrpg-model-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-08-06 03:36:21] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.3-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-html/0.1.3-0.1.3a1/diff.md --exclude *.pyd
+[2023-08-06 03:36:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pandas
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.0.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.1.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [apollo11log]: Start processing: nton
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [apollo11log]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nton]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_html-0.1.3-py3-none-any.whl.zip]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_html-0.1.3a1-py3-none-any.whl.zip]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sqlite-utils-sqlite-html]: Start processing: nbdev-pytorch
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-html]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.3-py3-none-any.whl.zip]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.3a1-py3-none-any.whl.zip]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nton]: Downloading https://files.pythonhosted.org/packages/40/cb/1f62099bcd85715fedfbb7e0c83059edda2aea4c81984a132192b9ab6e76/nton-1.2.2.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.2.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [DyGraph]: Remove: archive file [/home/abi/fetcher/tmp/DyGraph-0.0.3.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [DyGraph]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.98.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.99.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [sweetrpg-model-core]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [aptos-sdk-zzf]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk_zzf-0.1.0.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - processPackages [aptos-sdk-zzf]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk_zzf-0.7.0.tar.gz]
+[2023-08-06 03:36:22] INFO root fetch - main [MainThread]: End processing [aptos-sdk-zzf]: success
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230806/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230806/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nton]: Downloading https://files.pythonhosted.org/packages/8b/15/a06a138519f08c6f969cf4c44e02fc6195200b12f621eba803ef0b0cf1aa/nton-1.2.3.tar.gz
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nton]: executing diffoscope
+[2023-08-06 03:36:22] INFO root fetch - processPackages [nton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nton-1.2.2.tar.gz tmp/nton-1.2.3.tar.gz --markdown 20230806/n/nton/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nton]: Remove: archive file [/home/abi/fetcher/tmp/nton-1.2.2.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - processPackages [nton]: Remove: archive file [/home/abi/fetcher/tmp/nton-1.2.3.tar.gz]
+[2023-08-06 03:36:23] INFO root fetch - main [MainThread]: End processing [nton]: success
+[2023-08-06 03:38:11] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.3-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:38:11] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.3a1-py3-none-win_amd64.whl.zip]
+[2023-08-06 03:38:11] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-08-06 03:38:11] INFO root fetch - main [MainThread]: Store serial: [19190599]
