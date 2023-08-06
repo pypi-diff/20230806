@@ -2714,3 +2714,72 @@
 [2023-08-06 04:09:16] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
 [2023-08-06 04:09:16] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-08-06 04:09:16] INFO root fetch - main [MainThread]: Store serial: [19190740]
+[2023-08-06 04:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190740]
+[2023-08-06 04:14:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BeyotekTools
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypimaker
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shaped-target-clickhouse
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetrpg-library-objects
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thedoppler
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monai-weekly
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gazekit
+[2023-08-06 04:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BeyotekTools
+[2023-08-06 04:14:24] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [shaped-target-clickhouse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [pypimaker]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [gazekit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-08-06 04:14:24] INFO root fetch - processPackages [thedoppler]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [shaped-target-clickhouse]: Downloading https://files.pythonhosted.org/packages/6e/97/fe49f705ef85c1b62715b1e9d3c66e3070a6e2149626f33a236b4dd97f44/shaped_target_clickhouse-0.0.5.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2332] Old Version: [1.3.dev2331]
+[2023-08-06 04:14:25] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/83/b9/fd991f6578f23370c71ac542fbf7a36a0474d690fed1341a1f21dbf5229d/pypimaker-0.1.9.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [gazekit]: Downloading https://files.pythonhosted.org/packages/5c/f9/7dfa645c79754dd74502e39cdf9268f9a411cece6145475087fbcf5eb221/gazekit-0.0.1-py3-none-any.whl
+[2023-08-06 04:14:25] INFO root fetch - processPackages [thedoppler]: Downloading https://files.pythonhosted.org/packages/b9/d9/473006bf33485c7262c3e67bee584647e947d75959c5cfd17556e23631fd/thedoppler-1.1.8.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/9b/e9/742f4bca5a9b8e586f04aa985e49568c3fe7cc63251179d90eeedcfe817c/monai-weekly-1.3.dev2331.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [shaped-target-clickhouse]: Downloading https://files.pythonhosted.org/packages/53/11/64fa3689cf3e616586e7d3ee42def17e173bdb0598e6c56abfbd935649ae/shaped_target_clickhouse-0.0.6.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/d3/e1/5ceeae4e5c81bfc77aeef6681ca4a97dbd87a0395471a7bc997eb61cefe2/pypimaker-1.0.0.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/09/ef/a98758404738ea04053d7cf6e5a0e1e9ea2d8ec03858cb451e800e832dfa/BeyotekTools-0.0.9.tar.gz
+[2023-08-06 04:14:25] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230806/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [shaped-target-clickhouse]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [shaped-target-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaped_target_clickhouse-0.0.5.tar.gz tmp/shaped_target_clickhouse-0.0.6.tar.gz --markdown 20230806/s/shaped-target-clickhouse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [gazekit]: Downloading https://files.pythonhosted.org/packages/26/c4/2642b0fd20c03067495226395e7e5b0a20a498b647b962a94a4026837e43/gazekit-0.0.2-py3-none-any.whl
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.8.tar.gz tmp/BeyotekTools-0.0.9.tar.gz --markdown 20230806/B/BeyotekTools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [pypimaker]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [pypimaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypimaker-0.1.9.tar.gz tmp/pypimaker-1.0.0.tar.gz --markdown 20230806/p/pypimaker/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [gazekit]: executing diffoscope
+[2023-08-06 04:14:25] INFO root fetch - processPackages [gazekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gazekit-0.0.1-py3-none-any.whl.zip tmp/gazekit-0.0.2-py3-none-any.whl.zip --markdown 20230806/g/gazekit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-06 04:14:25] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/da/29/5ca2ada227856f63d263fdb3e3dc6f814305ccc841f0d1e9582a2cd7d623/monai-weekly-1.3.dev2332.tar.gz
+[2023-08-06 04:14:26] WARNING root fetch - processPackages [thedoppler]: Skipping package: exceeds size limit 46033344>=10485760
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [thedoppler] error
+[2023-08-06 04:14:26] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-08-06 04:14:26] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.3.dev2331.tar.gz tmp/monai-weekly-1.3.dev2332.tar.gz --markdown 20230806/m/monai-weekly/1.3.dev2331-1.3.dev2332/diff.md --exclude *.pyd
+[2023-08-06 04:14:26] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 04:14:26] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-0.1.9.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-1.0.0.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [pypimaker]: success
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 04:14:26] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-08-06 04:14:26] INFO root fetch - processPackages [gazekit]: Remove: archive file [/home/abi/fetcher/tmp/gazekit-0.0.1-py3-none-any.whl.zip]
+[2023-08-06 04:14:26] INFO root fetch - processPackages [gazekit]: Remove: archive file [/home/abi/fetcher/tmp/gazekit-0.0.2-py3-none-any.whl.zip]
+[2023-08-06 04:14:26] INFO root fetch - main [MainThread]: End processing [gazekit]: success
+[2023-08-06 04:14:27] INFO root fetch - processPackages [shaped-target-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/shaped_target_clickhouse-0.0.5.tar.gz]
+[2023-08-06 04:14:27] INFO root fetch - processPackages [shaped-target-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/shaped_target_clickhouse-0.0.6.tar.gz]
+[2023-08-06 04:14:27] INFO root fetch - main [MainThread]: End processing [shaped-target-clickhouse]: success
+[2023-08-06 04:14:33] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2331.tar.gz]
+[2023-08-06 04:14:33] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2332.tar.gz]
+[2023-08-06 04:14:33] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-08-06 04:14:33] INFO root fetch - main [MainThread]: Store serial: [19190765]
