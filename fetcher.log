@@ -12332,3 +12332,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 17:44:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.1.tar.gz]
 [2023-08-06 17:44:50] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-08-06 17:44:50] INFO root fetch - main [MainThread]: Store serial: [19195205]
+[2023-08-06 17:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195205]
+[2023-08-06 17:49:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creart-graia
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autorunpy
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutual
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: requests-selenium
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dispCal
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytexutils
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spear-tts-pytorch
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmux-conf
+[2023-08-06 17:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lino-welfare
+[2023-08-06 17:49:59] INFO root fetch - processPackages [autorunpy]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [tmux-conf]: New version: [0.16.4] Old Version: [0.16.3]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [creart-graia]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [requests-selenium]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/b5/c2/de5b4e67722880104e1bb46e2509ff0f0be8b8daecbe9328296f57e234c1/tmux_conf-0.16.3.tar.gz
+[2023-08-06 17:49:59] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [dispCal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [lino-welfare]: New version: [23.8.0] Old Version: [23.6.0]
+[2023-08-06 17:49:59] WARNING root fetch - processPackages [pytexutils]: Skipping, unable to determine old version
+[2023-08-06 17:49:59] INFO root fetch - processPackages [pytexutils]: Start processing: port-ocean
+[2023-08-06 17:49:59] INFO root fetch - main [MainThread]: End processing [pytexutils] error
+[2023-08-06 17:49:59] INFO root fetch - processPackages [mutual]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230806.9.12.969399] Old Version: [20230806.15.45.796354]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/72/33/1d3d6817ed2eda24f5311a25bc3cd7181e98989996f40481273b3cd692d2/requests_selenium-0.0.4.tar.gz
+[2023-08-06 17:49:59] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/ea/c5/eb422dc0b0515de25d2259136e0fd7ad6fe4c11e7aafeae268a8fa189dd6/autorunpy-6.0.0.tar.gz
+[2023-08-06 17:49:59] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/0e/523bc24bbc6074743e169af3e4a33366468176732ac0d38193a8d7e0c4e6/spear-tts-pytorch-0.0.8.tar.gz
+[2023-08-06 17:49:59] INFO root fetch - processPackages [creart-graia]: Downloading https://files.pythonhosted.org/packages/ae/dc/fb2be2948fce2e39c08fcd1ba53a8476055b1050cda30c765bd7bb7c8a6d/creart-graia-0.1.4.tar.gz
+[2023-08-06 17:49:59] INFO root fetch - processPackages [port-ocean]: New version: [0.1.4.dev1] Old Version: [0.1.3rc4]
+[2023-08-06 17:49:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/dd/bd/dd27d4ef74399f02dffa0eb6901229d005ea92e376e4d86c5eccf79e75e6/certora-cli-alpha-master-20230806.15.45.796354.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/84/4d/9851d638305f85507fbb79c5599f6c0790311dfbf329c9815845a711c1f1/lino-welfare-23.6.0.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/fc/c5/5c51a06ce37988c4298d464d6f1e57a5a638694b178b7a562b4036542be8/dispCal-0.1.8.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/f5/e4/bb02dd3d0765595076dd0350d25691ea259b8b2f44ea0d1202b8e9495ef2/mutual-0.3.4.tar.gz
+[2023-08-06 17:50:00] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37845673>=10485760
+[2023-08-06 17:50:00] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: amplify-bench
+[2023-08-06 17:50:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-06 17:50:00] INFO root fetch - processPackages [tmux-conf]: Downloading https://files.pythonhosted.org/packages/2a/a0/32b26cfcd7b81050254b4db409b1464a4eb8900f0c40baa133dea31ffae7/tmux_conf-0.16.4.tar.gz
+[2023-08-06 17:50:00] WARNING root fetch - processPackages [amplify-bench]: Skipping, unable to determine old version
+[2023-08-06 17:50:00] INFO root fetch - processPackages [amplify-bench]: Start processing: dispCal
+[2023-08-06 17:50:00] INFO root fetch - main [MainThread]: End processing [amplify-bench] error
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 17:50:00] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/29/8c/c3ba945055c388c01f69c8be13e3bcde6a3cf31f0febdd5751142dbdf9a0/spear-tts-pytorch-0.0.9.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/af/f2/e534061d0f9c276ac06c01accaa13afc90772d8601128ae5ee0c2cf3ae16/port_ocean-0.1.3rc4.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/13/66/0c8ac940fd0cee8cf633cd851d206bf15b72721a94dac344047a00b7d022/autorunpy-6.0.1.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/e8/a9/162163fc134f242bbb5e8d9284a4a93672bdf0c69b0af1000c4ff05097bb/requests_selenium-0.0.5.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [tmux-conf]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [tmux-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmux_conf-0.16.3.tar.gz tmp/tmux_conf-0.16.4.tar.gz --markdown 20230806/t/tmux-conf/0.16.3-0.16.4/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [creart-graia]: Downloading https://files.pythonhosted.org/packages/be/2a/33cda419e58c6cce564c3fa7e1a5f954c8db9ff109ed8d0a3a075669a13d/creart-graia-0.1.5.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.8.tar.gz tmp/spear-tts-pytorch-0.0.9.tar.gz --markdown 20230806/s/spear-tts-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-6.0.0.tar.gz tmp/autorunpy-6.0.1.tar.gz --markdown 20230806/a/autorunpy/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/87/52/9bf2dcc64756d8a175655926d802a0e67c0ffaa299b305eb84ddce1cfd61/dispCal-0.1.9.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: Downloading https://files.pythonhosted.org/packages/87/52/9bf2dcc64756d8a175655926d802a0e67c0ffaa299b305eb84ddce1cfd61/dispCal-0.1.9.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/7e/a2/a8f2800ee4d54896441c5178189aef252a2eeae6ec5afb8ed16fc7c846c8/mutual-0.4.0.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [creart-graia]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [creart-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creart-graia-0.1.4.tar.gz tmp/creart-graia-0.1.5.tar.gz --markdown 20230806/c/creart-graia/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [requests-selenium]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [requests-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_selenium-0.0.4.tar.gz tmp/requests_selenium-0.0.5.tar.gz --markdown 20230806/r/requests-selenium/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/26/0b/77e6eb713a54030415f5672f4fa71af92dc7dc56c4de81ccbda13a04e5b2/port_ocean-0.1.4.dev1.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispCal-0.1.8.tar.gz tmp/dispCal-0.1.9.tar.gz --markdown 20230806/d/dispCal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [dispCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispCal-0.1.8.tar.gz tmp/dispCal-0.1.9.tar.gz --markdown 20230806/d/dispCal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.3.4.tar.gz tmp/mutual-0.4.0.tar.gz --markdown 20230806/m/mutual/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 17:50:00] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-08-06 17:50:00] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/d4/b4/3a749c643da48ee1722c087d971946f07856e9e82db2e9d64e22e56790ee/lino-welfare-23.8.0.tar.gz
+[2023-08-06 17:50:00] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.3rc4.tar.gz tmp/port_ocean-0.1.4.dev1.tar.gz --markdown 20230806/p/port-ocean/0.1.3rc4-0.1.4.dev1/diff.md --exclude *.pyd
+[2023-08-06 17:50:01] INFO root fetch - processPackages [lino-welfare]: executing diffoscope
+[2023-08-06 17:50:01] INFO root fetch - processPackages [lino-welfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welfare-23.6.0.tar.gz tmp/lino-welfare-23.8.0.tar.gz --markdown 20230806/l/lino-welfare/23.6.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-06 17:50:02] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.8.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.9.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [spear-tts-pytorch]: Start processing: policyengine-us
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-6.0.0.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-6.0.1.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [autorunpy]: Start processing: loggingx-py
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.3.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [tmux-conf]: Remove: archive file [/home/abi/fetcher/tmp/tmux_conf-0.16.4.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [tmux-conf]: Start processing: lino-welcht
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [tmux-conf]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [policyengine-us]: New version: [0.409.1] Old Version: [0.409.0]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [creart-graia]: Remove: archive file [/home/abi/fetcher/tmp/creart-graia-0.1.4.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [creart-graia]: Remove: archive file [/home/abi/fetcher/tmp/creart-graia-0.1.5.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [creart-graia]: Start processing: typetype
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [creart-graia]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [loggingx-py]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b7/f3/98c6eb177b70e6701a7071f99b00849858a59aa64fa956d3b8d33a224d7d/policyengine-us-0.409.0.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.4.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.5.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [requests-selenium]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [lino-welcht]: New version: [23.8.0] Old Version: [23.6.0]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [typetype]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.8.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [dispCal]: Remove: archive file [/home/abi/fetcher/tmp/dispCal-0.1.9.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [dispCal]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.4.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.4.0.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/11/ad/df83e4f27a414e9ecb1359d64ac546651a3604ded3a4a20198f3847d525a/loggingx-py-0.3.1.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [dispCal]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/ef/c1/1e1e7bb23f12ef8ae7e090372c79ffd40bc7c10fdd6e2c587481a1765e84/lino-welcht-23.6.0.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/f6/e2/24c69a94c8093230199613f64ad0aca36702acc7d11eddbc9efcaef20037/typetype-1.2.2.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc4.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.4.dev1.tar.gz]
+[2023-08-06 17:50:02] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-08-06 17:50:02] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b9/53/a30dd76975811ea5a5172d1b8e67f5a661a011b4eada627f32034b6262a4/policyengine-us-0.409.1.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [loggingx-py]: Downloading https://files.pythonhosted.org/packages/5c/41/7a3bc70942b2ee783d06b1d18cf0dc985478396007401859d836f8876bc3/loggingx-py-0.4.0.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/77/37/eb2f1b558387c808181e845e6350e38e061d14d31dba73c90d0c9c64109a/lino-welcht-23.8.0.tar.gz
+[2023-08-06 17:50:02] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-06 17:50:02] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.409.0.tar.gz tmp/policyengine-us-0.409.1.tar.gz --markdown 20230806/p/policyengine-us/0.409.0-0.409.1/diff.md --exclude *.pyd
+[2023-08-06 17:50:02] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/02/11/f3f944cf973ea5508922e2191a20199c907b525e93e9f89d4adb6c5bf7c4/typetype-1.2.3.tar.gz
+[2023-08-06 17:50:03] INFO root fetch - processPackages [loggingx-py]: executing diffoscope
+[2023-08-06 17:50:03] INFO root fetch - processPackages [loggingx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggingx-py-0.3.1.tar.gz tmp/loggingx-py-0.4.0.tar.gz --markdown 20230806/l/loggingx-py/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 17:50:03] INFO root fetch - processPackages [lino-welcht]: executing diffoscope
+[2023-08-06 17:50:03] INFO root fetch - processPackages [lino-welcht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welcht-23.6.0.tar.gz tmp/lino-welcht-23.8.0.tar.gz --markdown 20230806/l/lino-welcht/23.6.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-06 17:50:03] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-08-06 17:50:03] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.2.2.tar.gz tmp/typetype-1.2.3.tar.gz --markdown 20230806/t/typetype/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-06 17:50:03] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx-py-0.3.1.tar.gz]
+[2023-08-06 17:50:03] INFO root fetch - processPackages [loggingx-py]: Remove: archive file [/home/abi/fetcher/tmp/loggingx-py-0.4.0.tar.gz]
+[2023-08-06 17:50:03] INFO root fetch - main [MainThread]: End processing [loggingx-py]: success
+[2023-08-06 17:50:04] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-23.6.0.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-23.8.0.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - main [MainThread]: End processing [lino-welcht]: success
+[2023-08-06 17:50:04] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.2.2.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.2.3.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-08-06 17:50:04] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-23.6.0.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-23.8.0.tar.gz]
+[2023-08-06 17:50:04] INFO root fetch - main [MainThread]: End processing [lino-welfare]: success
+[2023-08-06 17:50:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.0.tar.gz]
+[2023-08-06 17:50:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.1.tar.gz]
+[2023-08-06 17:50:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-06 17:50:33] INFO root fetch - main [MainThread]: Store serial: [19195255]
