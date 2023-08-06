@@ -1604,3 +1604,97 @@
 [2023-08-06 02:35:45] INFO root fetch - processPackages [uhugo]: Remove: archive file [/home/abi/fetcher/tmp/uhugo-1.1.9-py3-none-any.whl.zip]
 [2023-08-06 02:35:45] INFO root fetch - main [MainThread]: End processing [uhugo]: success
 [2023-08-06 02:35:45] INFO root fetch - main [MainThread]: Store serial: [19190225]
+[2023-08-06 02:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190225]
+[2023-08-06 02:40:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdf
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medisearch-client
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfl-data
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-jsonschema
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-jsonschema
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-utils-sqlite-jsonschema
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accentnotifications
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: state-machine-semaphore
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette-sqlite-fastrand
+[2023-08-06 02:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-fastrand
+[2023-08-06 02:40:54] WARNING root fetch - processPackages [sqlite-utils-sqlite-jsonschema]: Skipping, unable to determine old version
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-utils-sqlite-jsonschema]: Start processing: sqlite-utils-sqlite-fastrand
+[2023-08-06 02:40:54] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-jsonschema] error
+[2023-08-06 02:40:54] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: New version: [0.2.3a7] Old Version: [0.2.3a6]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [zfl-data]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-jsonschema]: New version: [0.2.3a7] Old Version: [0.2.3a6]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [datasette-sqlite-fastrand]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-08-06 02:40:54] WARNING root fetch - processPackages [sqlite-utils-sqlite-fastrand]: Skipping, unable to determine old version
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-utils-sqlite-fastrand]: Start processing: BeyotekTools
+[2023-08-06 02:40:54] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-fastrand] error
+[2023-08-06 02:40:54] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [accentnotifications]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 02:40:54] WARNING root fetch - processPackages [gdf]: Skipping, unable to determine old version
+[2023-08-06 02:40:54] INFO root fetch - processPackages [gdf]: Start processing: BeyotekTools
+[2023-08-06 02:40:54] INFO root fetch - main [MainThread]: End processing [gdf] error
+[2023-08-06 02:40:54] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 02:40:54] WARNING root fetch - processPackages [medisearch-client]: Skipping, unable to determine old version
+[2023-08-06 02:40:54] INFO root fetch - main [MainThread]: End processing [medisearch-client] error
+[2023-08-06 02:40:54] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/d5/c3/ac8d465c51b153ab9ca41c8eb17cc5f485816a116799d9ad729a974f77d8/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl
+[2023-08-06 02:40:54] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/80/52/58ba6af126b8d4511b2e7fe5c9be36390876aa13a09c0ef06e247b501a0d/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl
+[2023-08-06 02:40:54] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/36/9b/b399eb72bb3bfef3cec61a12ecd8039bbd15e7118122b99815bf69fe2a01/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl
+[2023-08-06 02:40:54] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/2f/63/847917af61ab314a77e6001a5a031a2565231f5abba4dc694a1333388c94/zfl_data-0.0.2.tar.gz
+[2023-08-06 02:40:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-08-06 02:40:54] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/02/8b/c548eca77b1609b0705a2a62ac74dc85a30edd9aefe663f46e207a2ba40a/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl
+[2023-08-06 02:40:54] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/4c/1f/f019739be9179970c83fbab42d121ba579d63b9100ad3250ad36db9c8940/BeyotekTools-0.0.4.tar.gz
+[2023-08-06 02:40:54] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/4c/1f/f019739be9179970c83fbab42d121ba579d63b9100ad3250ad36db9c8940/BeyotekTools-0.0.4.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/b7/d2/b7a5a0ce87660cc6b4d084170f02eeeed2a8c6087afd746a0c459726b7be/accentnotifications-0.0.3.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/ee/10/773640531eeaeb78e8ec82092fe28559221e447e41955d79e86a39e7ec66/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl
+[2023-08-06 02:40:55] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/3c/6e/ce8f2bcc325f3fac97e122779f8c31aa2d98da0e1d3fac1fc32c6c1df7d0/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Downloading https://files.pythonhosted.org/packages/59/a7/1f9b3dc45fd0c3e59a2d2014b1e475a4d9cd5ad94be2efd884665cc73301/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/31/ea/a4a8045c46fc5489722e5a72544344eb896058003c828ffa638ce3371a58/zfl_data-0.0.3.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip tmp/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-jsonschema/0.2.3a6-0.2.3a7/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/79/3e/6ab108a8c9b11a2e944b7c75219a5cad1360378522786c02e9b2ec1218b7/BeyotekTools-0.0.5.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/79/3e/6ab108a8c9b11a2e944b7c75219a5cad1360378522786c02e9b2ec1218b7/BeyotekTools-0.0.5.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-jsonschema]: Downloading https://files.pythonhosted.org/packages/80/3c/088952b43f715b95a11986e3a4d5b8c330a111dc5b6f8436816be6d6f6a1/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl
+[2023-08-06 02:40:55] INFO root fetch - processPackages [accentnotifications]: Downloading https://files.pythonhosted.org/packages/97/13/dd0c9cd5abef1381727e519063b8aa238adbb8d841543e80718bb1e7307c/accentnotifications-0.0.4.tar.gz
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-fastrand]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [datasette-sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230806/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-fastrand]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-fastrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-fastrand/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [zfl-data]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [zfl-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfl_data-0.0.2.tar.gz tmp/zfl_data-0.0.3.tar.gz --markdown 20230806/z/zfl-data/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [accentnotifications]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [accentnotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accentnotifications-0.0.3.tar.gz tmp/accentnotifications-0.0.4.tar.gz --markdown 20230806/a/accentnotifications/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.4.tar.gz tmp/BeyotekTools-0.0.5.tar.gz --markdown 20230806/B/BeyotekTools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.4.tar.gz tmp/BeyotekTools-0.0.5.tar.gz --markdown 20230806/B/BeyotekTools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-jsonschema]: executing diffoscope
+[2023-08-06 02:40:55] INFO root fetch - processPackages [sqlite-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip tmp/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl.zip --markdown 20230806/s/sqlite-jsonschema/0.2.3a6-0.2.3a7/diff.md --exclude *.pyd
+[2023-08-06 02:40:56] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a6-py3-none-any.whl.zip]
+[2023-08-06 02:40:56] INFO root fetch - processPackages [datasette-sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_jsonschema-0.2.3a7-py3-none-any.whl.zip]
+[2023-08-06 02:40:56] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-jsonschema]: success
+[2023-08-06 02:40:56] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a8-py3-none-any.whl.zip]
+[2023-08-06 02:40:56] INFO root fetch - processPackages [datasette-sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_fastrand-0.2.1a9-py3-none-any.whl.zip]
+[2023-08-06 02:40:56] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-fastrand]: success
+[2023-08-06 02:40:56] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-08-06 02:40:56] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-08-06 02:40:56] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-08-06 02:40:56] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.3.tar.gz]
+[2023-08-06 02:40:56] INFO root fetch - processPackages [accentnotifications]: Remove: archive file [/home/abi/fetcher/tmp/accentnotifications-0.0.4.tar.gz]
+[2023-08-06 02:40:56] INFO root fetch - main [MainThread]: End processing [accentnotifications]: success
+[2023-08-06 02:40:57] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.2.tar.gz]
+[2023-08-06 02:40:57] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.3.tar.gz]
+[2023-08-06 02:40:57] INFO root fetch - main [MainThread]: End processing [zfl-data]: success
+[2023-08-06 02:40:57] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.4.tar.gz]
+[2023-08-06 02:40:57] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.5.tar.gz]
+[2023-08-06 02:40:57] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 02:40:57] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 02:40:58] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:40:58] INFO root fetch - processPackages [sqlite-fastrand]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_fastrand-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:40:58] INFO root fetch - main [MainThread]: End processing [sqlite-fastrand]: success
+[2023-08-06 02:41:05] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a6-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:41:05] INFO root fetch - processPackages [sqlite-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_jsonschema-0.2.3a7-py3-none-win_amd64.whl.zip]
+[2023-08-06 02:41:05] INFO root fetch - main [MainThread]: End processing [sqlite-jsonschema]: success
+[2023-08-06 02:41:05] INFO root fetch - main [MainThread]: Store serial: [19190266]
