@@ -5113,3 +5113,117 @@
 [2023-08-06 09:16:04] INFO root fetch - processPackages [datazen]: Remove: archive file [/home/abi/fetcher/tmp/datazen-3.1.3.tar.gz]
 [2023-08-06 09:16:04] INFO root fetch - main [MainThread]: End processing [datazen]: success
 [2023-08-06 09:16:04] INFO root fetch - main [MainThread]: Store serial: [19191860]
+[2023-08-06 09:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191860]
+[2023-08-06 09:21:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runtimepy
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svgen
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bandolier
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atksh-utils
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: userfs
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tech-spec
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minecraft-python
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django_tableaux
+[2023-08-06 09:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cougar
+[2023-08-06 09:21:13] INFO root fetch - processPackages [atksh-utils]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [tech-spec]: New version: [1.0.34] Old Version: [1.0.33]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [cougar]: New version: [0.3.1] Old Version: [0.2.22]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [django_tableaux]: New version: [0.5] Old Version: [0.4]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [svgen]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [userfs]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-06 09:21:13] WARNING root fetch - processPackages [bandolier]: Skipping, unable to determine old version
+[2023-08-06 09:21:13] INFO root fetch - processPackages [bandolier]: Start processing: freeoptionschain
+[2023-08-06 09:21:13] INFO root fetch - processPackages [minecraft-python]: New version: [160052] Old Version: [132328]
+[2023-08-06 09:21:13] INFO root fetch - main [MainThread]: End processing [bandolier] error
+[2023-08-06 09:21:13] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/79/35/6d95d5e69c584c9b6385f8cac774ab13ddceb9b90b192c6f1e0bec5ffcf2/tech-spec-1.0.33.tar.gz
+[2023-08-06 09:21:13] INFO root fetch - processPackages [runtimepy]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-08-06 09:21:13] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/78/28/1a507fe7175f64f9a0aec88ef635acddcad992ee0551757c318578e1e72e/cougar-0.2.22.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/9d/ef/4e426ca0f84b7cad7255a8263439c751cf7934909b83ea4876d90c7e9f7a/atksh-utils-0.3.2.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/57/8f/1267a400b2e5eae9ffe4d9348e7fa56d5bf481a7683ed9bae9f8eedbed8f/django_tableaux-0.4.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [freeoptionschain]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-06 09:21:14] INFO root fetch - processPackages [svgen]: Downloading https://files.pythonhosted.org/packages/1f/e5/fe931fe421d413e7ea8090f7726db1d4c4c9392598d5480e5ff5ae3ea071/svgen-0.4.5.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/35/7b/3fb3d5a4b0c144ca92315164c6d9e45a867b0da11c3e0c4ff61e1f86022c/minecraft-python-132328.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/fb/be/cc7e778eda86c6b3ed2d9bff34e1c358747a4eeeface37bb8eb92a015d80/userfs-1.1.1.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/18/62/e1b326eaa8c7c56381b0fce38ac25cd096d8e2b17eefec51909d770765a6/runtimepy-1.7.2.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/75/27/494edb84a9e83a21dd57eedfe63a1e5d887d41f5826b8744393d49e33109/cougar-0.3.1.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/30/ba/98c69dd97c1a230461a9b9e3a3d042e92bce50e7d84879fd65d0b6bbe589/tech-spec-1.0.34.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [freeoptionschain]: Downloading https://files.pythonhosted.org/packages/09/0e/4f95b375083e12a543ea0f31265e6844f85bfc790416b1d32b62a563494b/freeoptionschain-0.0.0.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.2.22.tar.gz tmp/cougar-0.3.1.tar.gz --markdown 20230806/c/cougar/0.2.22-0.3.1/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d9/4d/1a3159436e6b1672dfe4e201e1516d4dab358170e8115b8dd188f746f86b/atksh-utils-0.3.3.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/16/f2/8adaa826c6fb6785e5535d28d0f11e951ee01c061470c9cb5374e63b3ab2/django_tableaux-0.5.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.33.tar.gz tmp/tech-spec-1.0.34.tar.gz --markdown 20230806/t/tech-spec/1.0.33-1.0.34/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [svgen]: Downloading https://files.pythonhosted.org/packages/fd/46/b642d54f36309f68c25c77771f212f0c14ec870a6065c6eb1856655b0404/svgen-0.4.6.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/f3/29/6fe98b00bc5df9e14ee05ab5f7f111b60efb80594392df87f78893c7330b/minecraft-python-160052.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [userfs]: Downloading https://files.pythonhosted.org/packages/37/81/48622cbfb30800362227fc7833f42c738ac125a611cdbbd20196711ba01d/userfs-1.1.2.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.3.2.tar.gz tmp/atksh-utils-0.3.3.tar.gz --markdown 20230806/a/atksh-utils/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/75/0c/f7e990a5818e2d7ec16beb78d28fb9f85837a78a7e7fedf5708f9c211e60/runtimepy-1.7.3.tar.gz
+[2023-08-06 09:21:14] INFO root fetch - processPackages [django_tableaux]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [django_tableaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tableaux-0.4.tar.gz tmp/django_tableaux-0.5.tar.gz --markdown 20230806/d/django_tableaux/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-132328.tar.gz tmp/minecraft-python-160052.tar.gz --markdown 20230806/m/minecraft-python/132328-160052/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [svgen]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [svgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgen-0.4.5.tar.gz tmp/svgen-0.4.6.tar.gz --markdown 20230806/s/svgen/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-06 09:21:14] INFO root fetch - processPackages [userfs]: executing diffoscope
+[2023-08-06 09:21:14] INFO root fetch - processPackages [userfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userfs-1.1.1.tar.gz tmp/userfs-1.1.2.tar.gz --markdown 20230806/u/userfs/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-06 09:21:15] INFO root fetch - processPackages [freeoptionschain]: Downloading https://files.pythonhosted.org/packages/44/28/714aa0f3cba8eff0de8039681ccc2f42fd91c71e68ef0ac7ed6a964818db/freeoptionschain-0.0.1.tar.gz
+[2023-08-06 09:21:15] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2023-08-06 09:21:15] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-1.7.2.tar.gz tmp/runtimepy-1.7.3.tar.gz --markdown 20230806/r/runtimepy/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-08-06 09:21:15] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-08-06 09:21:15] INFO root fetch - processPackages [freeoptionschain]: executing diffoscope
+[2023-08-06 09:21:15] INFO root fetch - processPackages [freeoptionschain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeoptionschain-0.0.0.tar.gz tmp/freeoptionschain-0.0.1.tar.gz --markdown 20230806/f/freeoptionschain/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-06 09:21:15] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-08-06 09:21:15] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230806/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-08-06 09:21:15] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.33.tar.gz]
+[2023-08-06 09:21:15] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.34.tar.gz]
+[2023-08-06 09:21:15] INFO root fetch - processPackages [tech-spec]: Start processing: heatmap_cli
+[2023-08-06 09:21:15] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-06 09:21:15] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.22.tar.gz]
+[2023-08-06 09:21:15] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.1.tar.gz]
+[2023-08-06 09:21:15] INFO root fetch - processPackages [cougar]: Start processing: yambs
+[2023-08-06 09:21:15] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 09:21:15] INFO root fetch - processPackages [heatmap_cli]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [yambs]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/56/ad/caba4f062538ac3edd5d20f7bb4704148524de8b0b57d0cfedd16092618b/heatmap_cli-0.2.2.tar.gz
+[2023-08-06 09:21:16] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.2.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.3.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bb/13/d8193d6a821d9d18ebeec98308c702731343722076ec3c7c5f92bbec97b6/yambs-2.3.1.tar.gz
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-06 09:21:16] INFO root fetch - processPackages [userfs]: Remove: archive file [/home/abi/fetcher/tmp/userfs-1.1.1.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [userfs]: Remove: archive file [/home/abi/fetcher/tmp/userfs-1.1.2.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [userfs]: success
+[2023-08-06 09:21:16] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/81/cd/47cdae2195b54b2079571f2655fe897e1d3e0c1045ffdb6b4fdc15a7664a/heatmap_cli-0.3.0.tar.gz
+[2023-08-06 09:21:16] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/35/a3/3ba61a66aacb27a54d76bb4431024ebeebbb066d8a28ad08d05f8674eab8/yambs-2.3.2.tar.gz
+[2023-08-06 09:21:16] INFO root fetch - processPackages [freeoptionschain]: Remove: archive file [/home/abi/fetcher/tmp/freeoptionschain-0.0.0.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [freeoptionschain]: Remove: archive file [/home/abi/fetcher/tmp/freeoptionschain-0.0.1.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [freeoptionschain]: success
+[2023-08-06 09:21:16] INFO root fetch - processPackages [svgen]: Remove: archive file [/home/abi/fetcher/tmp/svgen-0.4.5.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [svgen]: Remove: archive file [/home/abi/fetcher/tmp/svgen-0.4.6.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [svgen]: success
+[2023-08-06 09:21:16] INFO root fetch - processPackages [heatmap_cli]: executing diffoscope
+[2023-08-06 09:21:16] INFO root fetch - processPackages [heatmap_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatmap_cli-0.2.2.tar.gz tmp/heatmap_cli-0.3.0.tar.gz --markdown 20230806/h/heatmap_cli/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 09:21:16] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-08-06 09:21:16] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.3.1.tar.gz tmp/yambs-2.3.2.tar.gz --markdown 20230806/y/yambs/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-08-06 09:21:16] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-132328.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2023-08-06 09:21:16] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.4.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.5.tar.gz]
+[2023-08-06 09:21:16] INFO root fetch - main [MainThread]: End processing [django_tableaux]: success
+[2023-08-06 09:21:17] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-1.7.2.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-1.7.3.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2023-08-06 09:21:17] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.2.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.3.0.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
+[2023-08-06 09:21:17] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.1.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.3.2.tar.gz]
+[2023-08-06 09:21:17] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-08-06 09:21:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-08-06 09:21:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-08-06 09:21:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-08-06 09:21:24] INFO root fetch - main [MainThread]: Store serial: [19191975]
