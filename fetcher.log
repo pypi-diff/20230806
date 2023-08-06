@@ -4507,3 +4507,45 @@
 [2023-08-06 08:18:53] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.6.tar.gz]
 [2023-08-06 08:18:53] INFO root fetch - main [MainThread]: End processing [pydt3]: success
 [2023-08-06 08:18:53] INFO root fetch - main [MainThread]: Store serial: [19191556]
+[2023-08-06 08:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191556]
+[2023-08-06 08:24:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ch347api
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwer-python
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokotime
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: report-dh
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ch347api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 08:24:02] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 08:24:02] INFO root fetch - processPackages [tokotime]: New version: [0.141] Old Version: [0.14]
+[2023-08-06 08:24:02] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/2d/c3/0ca785b75e764bddfc642e592271f8a6394c32608fc68d88ca757e2f78ba/tokotime-0.14.tar.gz
+[2023-08-06 08:24:02] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 08:24:02] WARNING root fetch - processPackages [qwer-python]: Skipping, unable to determine old version
+[2023-08-06 08:24:02] INFO root fetch - main [MainThread]: End processing [qwer-python] error
+[2023-08-06 08:24:02] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-06 08:24:02] INFO root fetch - processPackages [ch347api]: Downloading https://files.pythonhosted.org/packages/26/66/d2655d4a8602d7e5a6ff1a00c882e3508d901352925b221b1c4dd3b554a4/ch347api-0.0.3.tar.gz
+[2023-08-06 08:24:02] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-06 08:24:02] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-08-06 08:24:03] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-06 08:24:03] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230806/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 08:24:03] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/ec/3f/d8f6bac84c0d06e0e33ba5ea3b4d251b9c1cd2375aba70cc69d336d0d43e/tokotime-0.141.tar.gz
+[2023-08-06 08:24:03] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 08:24:03] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.14.tar.gz tmp/tokotime-0.141.tar.gz --markdown 20230806/t/tokotime/0.14-0.141/diff.md --exclude *.pyd
+[2023-08-06 08:24:03] INFO root fetch - processPackages [ch347api]: Downloading https://files.pythonhosted.org/packages/e4/e3/64ad0ad24d03fbad9e8674a6443ac4c2bbbbb25ffc2959bf40b2537f1255/ch347api-0.0.4.tar.gz
+[2023-08-06 08:24:03] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-08-06 08:24:03] INFO root fetch - processPackages [ch347api]: executing diffoscope
+[2023-08-06 08:24:03] INFO root fetch - processPackages [ch347api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ch347api-0.0.3.tar.gz tmp/ch347api-0.0.4.tar.gz --markdown 20230806/c/ch347api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 08:24:03] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-08-06 08:24:03] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230806/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 08:24:03] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-06 08:24:03] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-06 08:24:03] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-06 08:24:04] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.14.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.141.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 08:24:04] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-08-06 08:24:04] INFO root fetch - processPackages [ch347api]: Remove: archive file [/home/abi/fetcher/tmp/ch347api-0.0.3.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - processPackages [ch347api]: Remove: archive file [/home/abi/fetcher/tmp/ch347api-0.0.4.tar.gz]
+[2023-08-06 08:24:04] INFO root fetch - main [MainThread]: End processing [ch347api]: success
+[2023-08-06 08:24:04] INFO root fetch - main [MainThread]: Store serial: [19191571]
