@@ -14583,3 +14583,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:22:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
 [2023-08-06 20:22:48] INFO root fetch - main [MainThread]: End processing [mimesis]: success
 [2023-08-06 20:22:48] INFO root fetch - main [MainThread]: Store serial: [19196280]
+[2023-08-06 20:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196280]
+[2023-08-06 20:27:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signxml
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-core
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyecs
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grimoirelab
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nebulae
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: networkx-gdf
+[2023-08-06 20:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [easyecs]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [pypomes-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/4e/12/2b42ba67244131de18ede191580cee99b67b0b7aed78c4997d2a351301cb/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.4.tar.gz
+[2023-08-06 20:27:57] WARNING root fetch - processPackages [networkx-gdf]: Skipping, unable to determine old version
+[2023-08-06 20:27:57] INFO root fetch - processPackages [networkx-gdf]: Start processing: gplugins
+[2023-08-06 20:27:57] INFO root fetch - main [MainThread]: End processing [networkx-gdf] error
+[2023-08-06 20:27:57] INFO root fetch - processPackages [modal]: New version: [0.50.2930] Old Version: [0.50.2927]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [signxml]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/df/79/de75e268ced8265f0236fc0c57a53bb8c2d88d4e90b3c3e0a0b87f048615/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [modal-client]: New version: [0.50.2930] Old Version: [0.50.2927]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [nebulae]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [grimoirelab]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/d5/94/9150da31631029ada70feae291f2c4179e55f5974690e7f6ac5314c4bd38/easyecs-0.5.1.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gplugins]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-06 20:27:57] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/84/63/16fd95f63152f43c1594c454dfddebff68639fbb1dcb87c005908c1cbc8a/pypomes_core-0.2.3.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/80/9d/507ac9bb2200b6cd60f96a41e0d244b2c38e2f29cc124e2a7d4dc4313f83/modal_client-0.50.2927-py3-none-any.whl
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/c7/e3/724d40f647e0f9c9266676d8e0a5644d591def8f3febf064538d3d138e4e/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f5/70/b2c46e0d87018983e42088df745f6db90bf87f831c77cbf44638204c6d83/modal-0.50.2927-py3-none-any.whl
+[2023-08-06 20:27:57] INFO root fetch - processPackages [signxml]: Downloading https://files.pythonhosted.org/packages/46/f3/6910019f60efba3d76e42540013cb27203a41eaa9bc2ec9edbb2e0d7623f/signxml-3.2.0.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2b/e7/c4b4906f6cac9f1702d4049b7d069a0d4fc72649eeab1e78fab7a8115567/grimoirelab-0.9.1.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/31/ec/d0ad768c60e8a9e72e49b076af162124b61d4058729dc38043250f17847d/nebulae-0.6.7.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/8e/fb/e3cbb60e9c8f2d932de90a2eadaf51b57c0ce014d043913065b4e9195d75/gplugins-0.0.3.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz --markdown 20230806/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-06 20:27:57] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/2e/64/2a9e0c2bd5fae264c623e59c3b38e3688587eae71f5abfb1586038636ade/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.5.tar.gz
+[2023-08-06 20:27:57] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/36/67/41f2f89a7201dd702d82add01be8291c698b77a1313fe560bad607d34fca/easyecs-0.6.0.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a5/10/901a2e3a10490308465c746a164b155e5d74f145ba92da8e3cc49c6bd290/modal_client-0.50.2930-py3-none-any.whl
+[2023-08-06 20:27:58] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/91/d8/2ee6336f59a487ffd149164e2f939ac0e7b549b15567e8bbb67354973bf7/pypomes_core-0.2.4.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/2a/096dc9ea058549e4d2a365752322bc02e64b943a442ca10bcd4d7c04e7ea/modal-0.50.2930-py3-none-any.whl
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.4.tar.gz tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.5.tar.gz --markdown 20230806/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.5.1.tar.gz tmp/easyecs-0.6.0.tar.gz --markdown 20230806/e/easyecs/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [signxml]: Downloading https://files.pythonhosted.org/packages/a4/72/d6abb506a18e03fc0439eeb438145cee640cfb7465a5ccdfb9650c92cbf3/signxml-3.2.1.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/78/70/4bd28f4decec4246ca4cd9c39f41ba8d42c047aee1a9915973ce65759c62/gplugins-0.1.0.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2927-py3-none-any.whl.zip tmp/modal_client-0.50.2930-py3-none-any.whl.zip --markdown 20230806/m/modal-client/0.50.2927-0.50.2930/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.2.3.tar.gz tmp/pypomes_core-0.2.4.tar.gz --markdown 20230806/p/pypomes-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/a4/9d/62c04d68afc7b0e5d049f5579c4703bf49fef4cd096ef1f34b9e3272573b/nebulae-0.6.9.tar.gz
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2927-py3-none-any.whl.zip tmp/modal-0.50.2930-py3-none-any.whl.zip --markdown 20230806/m/modal/0.50.2927-0.50.2930/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.1.tar.gz tmp/grimoirelab-0.9.2.tar.gz --markdown 20230806/g/grimoirelab/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [signxml]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [signxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxml-3.2.0.tar.gz tmp/signxml-3.2.1.tar.gz --markdown 20230806/s/signxml/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [nebulae]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [nebulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulae-0.6.7.tar.gz tmp/nebulae-0.6.9.tar.gz --markdown 20230806/n/nebulae/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gplugins]: executing diffoscope
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplugins-0.0.3.tar.gz tmp/gplugins-0.1.0.tar.gz --markdown 20230806/g/gplugins/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz]
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz]
+[2023-08-06 20:27:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Start processing: chainsyncer
+[2023-08-06 20:27:58] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-08-06 20:27:58] INFO root fetch - processPackages [chainsyncer]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/e1/12/97ead885735e4eadb10e8c15f79106523da9a40ddb4d9a0ed9acab09605f/chainsyncer-0.7.2.tar.gz
+[2023-08-06 20:27:59] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/e4/c7/09786e109c9569c3e4fc94c975cba88f46aafc55fe2cea0bdc3f3e6800ff/chainsyncer-0.8.0.tar.gz
+[2023-08-06 20:27:59] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.4.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.5.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2023-08-06 20:27:59] INFO root fetch - processPackages [chainsyncer]: executing diffoscope
+[2023-08-06 20:27:59] INFO root fetch - processPackages [chainsyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsyncer-0.7.2.tar.gz tmp/chainsyncer-0.8.0.tar.gz --markdown 20230806/c/chainsyncer/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 20:27:59] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.5.1.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.6.0.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-06 20:27:59] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2927-py3-none-any.whl.zip]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2930-py3-none-any.whl.zip]
+[2023-08-06 20:27:59] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-06 20:27:59] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.3.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.4.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-08-06 20:27:59] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.1.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.2.tar.gz]
+[2023-08-06 20:27:59] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2023-08-06 20:28:00] INFO root fetch - processPackages [signxml]: Remove: archive file [/home/abi/fetcher/tmp/signxml-3.2.0.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - processPackages [signxml]: Remove: archive file [/home/abi/fetcher/tmp/signxml-3.2.1.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [signxml]: success
+[2023-08-06 20:28:00] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.7.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.9.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [nebulae]: success
+[2023-08-06 20:28:00] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2927-py3-none-any.whl.zip]
+[2023-08-06 20:28:00] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2930-py3-none-any.whl.zip]
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-06 20:28:00] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.7.2.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.8.0.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [chainsyncer]: success
+[2023-08-06 20:28:00] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.0.3.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.1.0.tar.gz]
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: End processing [gplugins]: success
+[2023-08-06 20:28:00] INFO root fetch - main [MainThread]: Store serial: [19196317]
