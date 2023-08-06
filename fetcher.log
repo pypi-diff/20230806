@@ -2974,3 +2974,47 @@
 [2023-08-06 04:35:49] INFO root fetch - processPackages [pytest-asyncio-cooperative]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-cooperative-0.9.0.tar.gz]
 [2023-08-06 04:35:49] INFO root fetch - main [MainThread]: End processing [pytest-asyncio-cooperative]: success
 [2023-08-06 04:35:49] INFO root fetch - main [MainThread]: Store serial: [19190841]
+[2023-08-06 04:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190841]
+[2023-08-06 04:40:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nton
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-vss
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-vss
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-vss
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiomath
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IABT
+[2023-08-06 04:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcshus
+[2023-08-06 04:40:58] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2023-08-06 04:40:58] WARNING root fetch - processPackages [IABT]: Skipping, unable to determine old version
+[2023-08-06 04:40:58] INFO root fetch - main [MainThread]: End processing [IABT] error
+[2023-08-06 04:40:58] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2023-08-06 04:40:58] INFO root fetch - processPackages [nton]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-06 04:40:58] WARNING root fetch - processPackages [sqlite-utils-sqlite-vss]: Skipping, unable to determine old version
+[2023-08-06 04:40:58] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-vss] error
+[2023-08-06 04:40:58] INFO root fetch - processPackages [nton]: Downloading https://files.pythonhosted.org/packages/40/cb/1f62099bcd85715fedfbb7e0c83059edda2aea4c81984a132192b9ab6e76/nton-1.2.2.tar.gz
+[2023-08-06 04:40:58] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/9a/ce/3ab986926bfbb842dd3fa4cd92f99fad2dd7d51764eaf825262563b65803/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl
+[2023-08-06 04:40:58] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/5b/26/f31e3f7124d5f39a8afda75cc145980139a0873d7f4e70a925c419d2d590/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 04:40:58] WARNING root fetch - processPackages [gcshus]: Skipping, unable to determine old version
+[2023-08-06 04:40:58] INFO root fetch - main [MainThread]: End processing [gcshus] error
+[2023-08-06 04:40:58] INFO root fetch - processPackages [audiomath]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-06 04:40:58] INFO root fetch - processPackages [nton]: Downloading https://files.pythonhosted.org/packages/8b/15/a06a138519f08c6f969cf4c44e02fc6195200b12f621eba803ef0b0cf1aa/nton-1.2.3.tar.gz
+[2023-08-06 04:40:58] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/17/49/c965bd81de7ca2d99093081422f633c64e3f004c8ad874592358217912e0/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl
+[2023-08-06 04:40:58] INFO root fetch - processPackages [audiomath]: Downloading https://files.pythonhosted.org/packages/60/0e/a7ce72deb4beb674d57e4600a147d625e6f503f1cca4618db441eecdb33f/audiomath-1.8.0-py2.py3-none-any.whl
+[2023-08-06 04:40:58] WARNING root fetch - processPackages [audiomath]: Skipping package: exceeds size limit 15430174>=10485760
+[2023-08-06 04:40:58] INFO root fetch - main [MainThread]: End processing [audiomath] error
+[2023-08-06 04:40:58] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-08-06 04:40:58] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl.zip --markdown 20230806/d/datasette-sqlite-vss/0.1.2a2-0.1.2a3/diff.md --exclude *.pyd
+[2023-08-06 04:40:58] INFO root fetch - processPackages [nton]: executing diffoscope
+[2023-08-06 04:40:58] INFO root fetch - processPackages [nton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nton-1.2.2.tar.gz tmp/nton-1.2.3.tar.gz --markdown 20230806/n/nton/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-06 04:40:59] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/60/56/2c54209ce2d38590818816805dbf73d2be79c85795847c09a2219d265ae7/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-06 04:40:59] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.2a2-py3-none-any.whl.zip]
+[2023-08-06 04:40:59] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.2a3-py3-none-any.whl.zip]
+[2023-08-06 04:40:59] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-08-06 04:40:59] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-08-06 04:40:59] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230806/s/sqlite-vss/0.1.2a2-0.1.2a3/diff.md --exclude *.pyd
+[2023-08-06 04:40:59] INFO root fetch - processPackages [nton]: Remove: archive file [/home/abi/fetcher/tmp/nton-1.2.2.tar.gz]
+[2023-08-06 04:40:59] INFO root fetch - processPackages [nton]: Remove: archive file [/home/abi/fetcher/tmp/nton-1.2.3.tar.gz]
+[2023-08-06 04:40:59] INFO root fetch - main [MainThread]: End processing [nton]: success
+[2023-08-06 04:41:22] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.2a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 04:41:22] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.2a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-06 04:41:22] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-08-06 04:41:22] INFO root fetch - main [MainThread]: Store serial: [19190863]
