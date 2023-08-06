@@ -2684,3 +2684,21 @@
 [2023-08-06 03:58:56] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.9.tar.gz]
 [2023-08-06 03:58:56] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
 [2023-08-06 03:58:56] INFO root fetch - main [MainThread]: Store serial: [19190715]
+[2023-08-06 04:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190715]
+[2023-08-06 04:04:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypimaker
+[2023-08-06 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inxio
+[2023-08-06 04:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentcomms
+[2023-08-06 04:04:04] INFO root fetch - processPackages [pypimaker]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-08-06 04:04:04] WARNING root fetch - processPackages [inxio]: Skipping, unable to determine old version
+[2023-08-06 04:04:04] INFO root fetch - main [MainThread]: End processing [inxio] error
+[2023-08-06 04:04:04] WARNING root fetch - processPackages [agentcomms]: Skipping, unable to determine old version
+[2023-08-06 04:04:04] INFO root fetch - main [MainThread]: End processing [agentcomms] error
+[2023-08-06 04:04:04] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/83/b9/fd991f6578f23370c71ac542fbf7a36a0474d690fed1341a1f21dbf5229d/pypimaker-0.1.9.tar.gz
+[2023-08-06 04:04:05] INFO root fetch - processPackages [pypimaker]: Downloading https://files.pythonhosted.org/packages/d3/e1/5ceeae4e5c81bfc77aeef6681ca4a97dbd87a0395471a7bc997eb61cefe2/pypimaker-1.0.0.tar.gz
+[2023-08-06 04:04:05] INFO root fetch - processPackages [pypimaker]: executing diffoscope
+[2023-08-06 04:04:05] INFO root fetch - processPackages [pypimaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypimaker-0.1.9.tar.gz tmp/pypimaker-1.0.0.tar.gz --markdown 20230806/p/pypimaker/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 04:04:06] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-0.1.9.tar.gz]
+[2023-08-06 04:04:06] INFO root fetch - processPackages [pypimaker]: Remove: archive file [/home/abi/fetcher/tmp/pypimaker-1.0.0.tar.gz]
+[2023-08-06 04:04:06] INFO root fetch - main [MainThread]: End processing [pypimaker]: success
+[2023-08-06 04:04:06] INFO root fetch - main [MainThread]: Store serial: [19190736]
