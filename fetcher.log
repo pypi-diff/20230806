@@ -13830,3 +13830,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 19:19:54] INFO root fetch - processPackages [chython]: Remove: archive file [/home/abi/fetcher/tmp/chython-1.8.tar.gz]
 [2023-08-06 19:19:54] INFO root fetch - main [MainThread]: End processing [chython]: success
 [2023-08-06 19:19:54] INFO root fetch - main [MainThread]: Store serial: [19195890]
+[2023-08-06 19:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195890]
+[2023-08-06 19:25:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 19:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-08-06 19:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezmapper
+[2023-08-06 19:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-08-06 19:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarer.aws-secure-bucket
+[2023-08-06 19:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graal
+[2023-08-06 19:25:03] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-06 19:25:03] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 19:25:03] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-08-06 19:25:03] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/dc/f5/207dc67e30ee985a9e84e45f7d5f07803cf1db7c933fe9e65aa3419071b4/scoda-tk-0.4.6.tar.gz
+[2023-08-06 19:25:03] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-08-06 19:25:03] WARNING root fetch - processPackages [ezmapper]: Skipping, unable to determine old version
+[2023-08-06 19:25:03] INFO root fetch - main [MainThread]: End processing [ezmapper] error
+[2023-08-06 19:25:03] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/e5/38/5b420860f93794e18802eacf479e833a4db9e09459fe2a4186487210f680/gammarer.aws-secure-bucket-0.9.8.tar.gz
+[2023-08-06 19:25:03] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-08-06 19:25:04] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-08-06 19:25:04] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-08-06 19:25:04] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-08-06 19:25:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/36/90/e611ddc1c76866489b8236c7bc76c65f47dd2d74abf84c84dc89478cee6c/gammarer.aws-secure-bucket-0.9.9.tar.gz
+[2023-08-06 19:25:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-08-06 19:25:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz --markdown 20230806/g/gammarer.aws-secure-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 19:25:04] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/d5/a0/8488ec23b411544e1ff26aeb469360658afcc630243c0fba00a91216223a/scoda-tk-0.4.7.tar.gz
+[2023-08-06 19:25:04] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 19:25:04] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.6.tar.gz tmp/scoda-tk-0.4.7.tar.gz --markdown 20230806/s/scoda-tk/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-06 19:25:04] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-08-06 19:25:04] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-08-06 19:25:04] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230806/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-08-06 19:25:05] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz]
+[2023-08-06 19:25:05] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz]
+[2023-08-06 19:25:05] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-08-06 19:25:05] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-08-06 19:25:05] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-08-06 19:25:05] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-08-06 19:25:06] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.6.tar.gz]
+[2023-08-06 19:25:06] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.7.tar.gz]
+[2023-08-06 19:25:06] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 19:25:06] INFO root fetch - main [MainThread]: Store serial: [19195908]
