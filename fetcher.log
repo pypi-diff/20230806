@@ -4600,3 +4600,51 @@
 [2023-08-06 08:29:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230806.tar.gz]
 [2023-08-06 08:29:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-08-06 08:29:18] INFO root fetch - main [MainThread]: Store serial: [19191596]
+[2023-08-06 08:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191596]
+[2023-08-06 08:34:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 08:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: first-zawakin-package
+[2023-08-06 08:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-ts
+[2023-08-06 08:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tokotime
+[2023-08-06 08:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysqlx
+[2023-08-06 08:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmcloud
+[2023-08-06 08:34:30] INFO root fetch - processPackages [simple-ts]: New version: [0.9] Old Version: [0.8]
+[2023-08-06 08:34:30] INFO root fetch - processPackages [tokotime]: New version: [0.142] Old Version: [0.141]
+[2023-08-06 08:34:30] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-06 08:34:30] INFO root fetch - processPackages [first-zawakin-package]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 08:34:31] INFO root fetch - processPackages [mysqlx]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-08-06 08:34:31] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/03/5f/9c94f799cd2edd38c0ce7c3768d4c3329f4753f4fc0122766016419c64ad/simple_ts-0.8.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/ec/3f/d8f6bac84c0d06e0e33ba5ea3b4d251b9c1cd2375aba70cc69d336d0d43e/tokotime-0.141.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [first-zawakin-package]: Downloading https://files.pythonhosted.org/packages/6f/d4/c5b3a30aba9aad2a5aeb196a41903c7eb37d82140e0161fb1783a9f5ef0d/first_zawakin_package-0.0.4.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/6d/18/d45f63b51a49576fef7232cd6c21ae9bc75e0cf04af68d5030c2cac4b665/mysqlx-1.7.2.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/0a/89/dcd483208318b061f8007b82b1baaa06c078d8176aefb07c26a04f9533bf/simple_ts-0.9.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/8c/85/884d266105e48d91e29d183b6ea1d68c6029154c68559f2e5d8602b95e07/tokotime-0.142.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [first-zawakin-package]: Downloading https://files.pythonhosted.org/packages/7f/60/b9d8a6b73097d258385022e1d2260a4688ee2d7b4cc2d9837c45adf438d7/first_zawakin_package-0.0.5.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-06 08:34:31] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230806/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-06 08:34:31] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-08-06 08:34:31] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.8.tar.gz tmp/simple_ts-0.9.tar.gz --markdown 20230806/s/simple-ts/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-06 08:34:31] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 08:34:31] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.141.tar.gz tmp/tokotime-0.142.tar.gz --markdown 20230806/t/tokotime/0.141-0.142/diff.md --exclude *.pyd
+[2023-08-06 08:34:31] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/e2/ed/66fa2baa6cc89e80a00c00ee8dc2e978e0f56381f71b835268191dad0273/mysqlx-1.7.3.tar.gz
+[2023-08-06 08:34:31] INFO root fetch - processPackages [first-zawakin-package]: executing diffoscope
+[2023-08-06 08:34:31] INFO root fetch - processPackages [first-zawakin-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_zawakin_package-0.0.4.tar.gz tmp/first_zawakin_package-0.0.5.tar.gz --markdown 20230806/f/first-zawakin-package/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 08:34:31] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-08-06 08:34:31] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.7.2.tar.gz tmp/mysqlx-1.7.3.tar.gz --markdown 20230806/m/mysqlx/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-08-06 08:34:32] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-06 08:34:32] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.8.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.9.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-08-06 08:34:32] INFO root fetch - processPackages [first-zawakin-package]: Remove: archive file [/home/abi/fetcher/tmp/first_zawakin_package-0.0.4.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - processPackages [first-zawakin-package]: Remove: archive file [/home/abi/fetcher/tmp/first_zawakin_package-0.0.5.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: End processing [first-zawakin-package]: success
+[2023-08-06 08:34:32] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.141.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.142.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 08:34:32] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.7.2.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.7.3.tar.gz]
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-08-06 08:34:32] INFO root fetch - main [MainThread]: Store serial: [19191607]
