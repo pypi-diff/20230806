@@ -4339,3 +4339,54 @@
 [2023-08-06 08:03:19] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.12.tar.gz]
 [2023-08-06 08:03:19] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
 [2023-08-06 08:03:19] INFO root fetch - main [MainThread]: Store serial: [19191490]
+[2023-08-06 08:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191490]
+[2023-08-06 08:08:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydanja
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokotime
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typerconf
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcentrapi
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-redis
+[2023-08-06 08:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metar-taf-parser-mivek
+[2023-08-06 08:08:28] INFO root fetch - processPackages [tokotime]: New version: [0.13] Old Version: [0.12]
+[2023-08-06 08:08:28] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-06 08:08:28] WARNING root fetch - processPackages [pydanja]: Skipping, unable to determine old version
+[2023-08-06 08:08:28] INFO root fetch - main [MainThread]: End processing [pydanja] error
+[2023-08-06 08:08:28] INFO root fetch - processPackages [typerconf]: New version: [2.3] Old Version: [2.2]
+[2023-08-06 08:08:28] INFO root fetch - processPackages [metar-taf-parser-mivek]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-08-06 08:08:28] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/00/18/a88fa76a6039e4375055f6d2844ee446a57df59d6072ea24c8ec6b3dbf68/tokotime-0.12.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [dcentrapi]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 08:08:28] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/54/67/637c0b5f7c7ddc3bcf66faab309a9f3f3d8af94e8ea9428edefbe40ec0b3/typerconf-2.2.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [metar-taf-parser-mivek]: Downloading https://files.pythonhosted.org/packages/e9/eb/1420e6eb319c8daa7dde94432a306646a73094e2a69346402bd3256f4a82/metar-taf-parser-mivek-1.6.4.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/3b/95/c24a9c07f927690152130e935244b85937beef8e6216f8d41be6043e3b3e/dcentrapi-0.3.3.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [tokotime]: Downloading https://files.pythonhosted.org/packages/8a/1d/6c367124de4c1c4e1bc93b0d9c53800bbca0e76b902ea8f77c1ef967183a/tokotime-0.13.tar.gz
+[2023-08-06 08:08:28] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-06 08:08:28] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230806/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-06 08:08:28] INFO root fetch - processPackages [tokotime]: executing diffoscope
+[2023-08-06 08:08:28] INFO root fetch - processPackages [tokotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokotime-0.12.tar.gz tmp/tokotime-0.13.tar.gz --markdown 20230806/t/tokotime/0.12-0.13/diff.md --exclude *.pyd
+[2023-08-06 08:08:28] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/f5/f0/9142255e6166175aa7b3087ecff82cc6ac11a02c3194ccba81a3b3798b48/dcentrapi-0.3.4.tar.gz
+[2023-08-06 08:08:29] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/77/c4/be7e0a3c7be2d479127fbe5b82357a7cdba59b29fe1a5eb087abfbb7c321/typerconf-2.3.tar.gz
+[2023-08-06 08:08:29] INFO root fetch - processPackages [metar-taf-parser-mivek]: Downloading https://files.pythonhosted.org/packages/99/39/0636f95266caa5f44a16628d124f4ef1c0a2a5f7d95018db3f89fe796887/metar-taf-parser-mivek-1.6.5.tar.gz
+[2023-08-06 08:08:29] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-08-06 08:08:29] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.3.3.tar.gz tmp/dcentrapi-0.3.4.tar.gz --markdown 20230806/d/dcentrapi/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 08:08:29] INFO root fetch - processPackages [typerconf]: executing diffoscope
+[2023-08-06 08:08:29] INFO root fetch - processPackages [typerconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typerconf-2.2.tar.gz tmp/typerconf-2.3.tar.gz --markdown 20230806/t/typerconf/2.2-2.3/diff.md --exclude *.pyd
+[2023-08-06 08:08:29] INFO root fetch - processPackages [metar-taf-parser-mivek]: executing diffoscope
+[2023-08-06 08:08:29] INFO root fetch - processPackages [metar-taf-parser-mivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar-taf-parser-mivek-1.6.4.tar.gz tmp/metar-taf-parser-mivek-1.6.5.tar.gz --markdown 20230806/m/metar-taf-parser-mivek/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-08-06 08:08:29] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-06 08:08:29] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.12.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - processPackages [tokotime]: Remove: archive file [/home/abi/fetcher/tmp/tokotime-0.13.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - main [MainThread]: End processing [tokotime]: success
+[2023-08-06 08:08:29] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.3.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.4.tar.gz]
+[2023-08-06 08:08:29] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-08-06 08:08:30] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-2.2.tar.gz]
+[2023-08-06 08:08:30] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-2.3.tar.gz]
+[2023-08-06 08:08:30] INFO root fetch - main [MainThread]: End processing [typerconf]: success
+[2023-08-06 08:08:30] INFO root fetch - processPackages [metar-taf-parser-mivek]: Remove: archive file [/home/abi/fetcher/tmp/metar-taf-parser-mivek-1.6.4.tar.gz]
+[2023-08-06 08:08:30] INFO root fetch - processPackages [metar-taf-parser-mivek]: Remove: archive file [/home/abi/fetcher/tmp/metar-taf-parser-mivek-1.6.5.tar.gz]
+[2023-08-06 08:08:30] INFO root fetch - main [MainThread]: End processing [metar-taf-parser-mivek]: success
+[2023-08-06 08:08:30] INFO root fetch - main [MainThread]: Store serial: [19191508]
