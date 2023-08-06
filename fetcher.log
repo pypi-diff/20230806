@@ -8832,3 +8832,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:25:24] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-6.0.0-py3-none-any.whl.zip]
 [2023-08-06 14:25:24] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-08-06 14:25:24] INFO root fetch - main [MainThread]: Store serial: [19193609]
+[2023-08-06 14:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193609]
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: louxia
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revwhox
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beet
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyre-check-nightly
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chongdazi
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: louxiachong
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiaoyun
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kukie
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oneincloud
+[2023-08-06 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xycloud
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [chongdazi]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - processPackages [chongdazi]: Start processing: jlogr
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [chongdazi] error
+[2023-08-06 14:30:33] INFO root fetch - processPackages [beet]: New version: [0.90.0] Old Version: [0.9.4]
+[2023-08-06 14:30:33] INFO root fetch - processPackages [jlogr]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [xiaoyun]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - processPackages [xiaoyun]: Start processing: tablate
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [xiaoyun] error
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [louxia]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - processPackages [louxia]: Start processing: zcloud
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [louxia] error
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [louxiachong]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - processPackages [louxiachong]: Start processing: sgw-tools
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [louxiachong] error
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [xycloud]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [revwhox]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [oneincloud]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [kukie]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [xycloud] error
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [revwhox] error
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [oneincloud] error
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [kukie] error
+[2023-08-06 14:30:33] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:30:33] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101691320258] Old Version: [0.0.101691233985]
+[2023-08-06 14:30:33] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/fc/a6/2d9edfc0c2dcad26e01f949cf0b2b0200d25b04d3705d2f10002649c6679/jlogr-0.1.16.tar.gz
+[2023-08-06 14:30:33] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/5f/82/25a5f91b6637a12511ea929ecd269e5ed8d81db04a4f558ae40c43492fc7/beet-0.9.4.tar.gz
+[2023-08-06 14:30:33] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:30:33] WARNING root fetch - processPackages [zcloud]: Skipping, unable to determine old version
+[2023-08-06 14:30:33] INFO root fetch - main [MainThread]: End processing [zcloud] error
+[2023-08-06 14:30:34] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/61/7d/f8b8a6dbcfed443a875dc5873383b02c8e8f565a7759933d9b5caf44e61b/pyre-check-nightly-0.0.101691233985.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [sgw-tools]: New version: [1.97] Old Version: [1.96]
+[2023-08-06 14:30:34] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/e5/4c/f621376457120360e0a4a6b873bd1472c27821c6140e30ccf8fbfe2028ea/jlogr-0.1.17.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/56/0c/b6bb7a68e9bef7f84d830f4dcb2c69fca9b4776783aea533f387d8f01208/beet-0.90.0.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/96/8b/a51a69ad72ff80a0b2f5b6158698f1d2e8579b6dd620da27469cbc9af223/sgw_tools-1.96.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:30:34] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:30:34] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 14:30:34] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.16.tar.gz tmp/jlogr-0.1.17.tar.gz --markdown 20230806/j/jlogr/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-08-06 14:30:34] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23743720>=10485760
+[2023-08-06 14:30:34] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-08-06 14:30:34] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-08-06 14:30:34] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.9.4.tar.gz tmp/beet-0.90.0.tar.gz --markdown 20230806/b/beet/0.9.4-0.90.0/diff.md --exclude *.pyd
+[2023-08-06 14:30:34] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/ec/2e/73b71432d1fa5040fa9957ed50102905efdbba11750675d7c13a2baeb39c/sgw_tools-1.97.tar.gz
+[2023-08-06 14:30:34] INFO root fetch - processPackages [sgw-tools]: executing diffoscope
+[2023-08-06 14:30:34] INFO root fetch - processPackages [sgw-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgw_tools-1.96.tar.gz tmp/sgw_tools-1.97.tar.gz --markdown 20230806/s/sgw-tools/1.96-1.97/diff.md --exclude *.pyd
+[2023-08-06 14:30:35] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.16.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.17.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 14:30:35] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.4.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.90.0.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-08-06 14:30:35] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:30:35] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.96.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.97.tar.gz]
+[2023-08-06 14:30:35] INFO root fetch - main [MainThread]: End processing [sgw-tools]: success
+[2023-08-06 14:30:35] INFO root fetch - main [MainThread]: Store serial: [19193663]
