@@ -9826,3 +9826,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:23:08] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
 [2023-08-06 15:23:08] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-06 15:23:08] INFO root fetch - main [MainThread]: Store serial: [19194090]
+[2023-08-06 15:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194090]
+[2023-08-06 15:28:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-llm
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-serving
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airthings-ble
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaylib
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dabbas
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vector-lake
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hypermat
+[2023-08-06 15:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-contract-ui
+[2023-08-06 15:28:17] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [yaylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-08-06 15:28:17] WARNING root fetch - processPackages [vector-lake]: Skipping, unable to determine old version
+[2023-08-06 15:28:17] INFO root fetch - processPackages [vector-lake]: Start processing: corcli
+[2023-08-06 15:28:17] INFO root fetch - main [MainThread]: End processing [vector-lake] error
+[2023-08-06 15:28:17] WARNING root fetch - processPackages [hypermat]: Skipping, unable to determine old version
+[2023-08-06 15:28:17] INFO root fetch - main [MainThread]: End processing [hypermat] error
+[2023-08-06 15:28:17] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/1d/05/e401bebd5ece20d6c90034c99cb429d322ee8eda89e2718c1f786ad41c74/yaylib-1.0.8.tar.gz
+[2023-08-06 15:28:17] WARNING root fetch - processPackages [py-contract-ui]: Skipping, unable to determine old version
+[2023-08-06 15:28:17] INFO root fetch - main [MainThread]: End processing [py-contract-ui] error
+[2023-08-06 15:28:17] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [corcli]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [airthings-ble]: New version: [0.5.6.post1] Old Version: [0.5.6]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:28:17] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/db/d5/1f0a571475c6e89df743eb699dbde3299e64f0d42b5b805c869eca523122/airthings_ble-0.5.6.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/e9/24/0b910f3aab87ab52d3eada1a62d4700b7e031f2234beab86dd89db049a4b/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a7/5f/8a5787f97abf1a9414cb87cac45820dbd137e5b2c0fac9851179ae21bcdd/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [corcli]: Downloading https://files.pythonhosted.org/packages/11/5d/76f4bc151b1c54e2b15ab5dc03d86e9f7692e5afb0d17da9c27250ba7171/corcli-0.0.7.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/4c/73/271dd33235ff96793553e3093167a01148340f1c15e46a8ce0f54a1b7e00/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/5e/02/caa3bdf6eeb39d851cb4faeb326e5649a5b4375924cf050c5494a4d6c4bd/yaylib-1.0.9.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/3b/e7/1b493943016777260d239cfc153b9c40cadf7079ab7e47d7688351079970/bigdl_serving-2.4.0b20230805-py2.py3-none-any.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230806/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.8.tar.gz tmp/yaylib-1.0.9.tar.gz --markdown 20230806/y/yaylib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [airthings-ble]: Downloading https://files.pythonhosted.org/packages/d5/c2/d695dd3052fd4dd73d9b27f7380f399abff2babe4486afd22388bcc07af9/airthings_ble-0.5.6.post1.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/d3/b9/15f20edda918ecce72b1e1a1b0ea45f2ab0d4de58499deab7f4a0fa92711/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [corcli]: Downloading https://files.pythonhosted.org/packages/f2/a1/7177a88bd0a2ab7c49ac7395ee65248a7ca21c807fb19fb0f94ca0560922/corcli-1.0.0.tar.gz
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5f/41/e9ead61230ad13a9e6627253fe9b653fc876794e8765bda2f38caf7ae28e/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl
+[2023-08-06 15:28:18] INFO root fetch - processPackages [airthings-ble]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [airthings-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airthings_ble-0.5.6.tar.gz tmp/airthings_ble-0.5.6.post1.tar.gz --markdown 20230806/a/airthings-ble/0.5.6-0.5.6.post1/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [corcli]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [corcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corcli-0.0.7.tar.gz tmp/corcli-1.0.0.tar.gz --markdown 20230806/c/corcli/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230805-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl.zip --markdown 20230806/b/bigdl-serving/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230806/b/bigdl-chronos/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:28:18] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/4c/b4/086386aa3e84538689dc931a8a050dc41144d4fce872671253ea61e5a5d8/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b6/47/51a286c4b897f75579af426bf1654d89877c2842a9b55d7641ac45c23dca/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl
+[2023-08-06 15:28:19] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230806/b/bigdl-nano/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:28:19] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.post1.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - main [MainThread]: End processing [airthings-ble]: success
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230805-py2.py3-none-any.whl.zip]
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230806-py2.py3-none-any.whl.zip]
+[2023-08-06 15:28:19] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-08-06 15:28:19] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.8.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.9.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-08-06 15:28:19] INFO root fetch - processPackages [corcli]: Remove: archive file [/home/abi/fetcher/tmp/corcli-0.0.7.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - processPackages [corcli]: Remove: archive file [/home/abi/fetcher/tmp/corcli-1.0.0.tar.gz]
+[2023-08-06 15:28:19] INFO root fetch - main [MainThread]: End processing [corcli]: success
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-08-06 15:28:19] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip --markdown 20230806/b/bigdl-llm/2.4.0b20230805-2.4.0b20230806/diff.md --exclude *.pyd
+[2023-08-06 15:28:20] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:20] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:20] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-08-06 15:28:21] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:21] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:21] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-08-06 15:28:34] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230805-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:34] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230806-py3-none-win_amd64.whl.zip]
+[2023-08-06 15:28:34] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-08-06 15:28:34] INFO root fetch - main [MainThread]: Store serial: [19194125]
