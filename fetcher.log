@@ -9967,3 +9967,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:33:44] INFO root fetch - processPackages [airthings-ble]: Remove: archive file [/home/abi/fetcher/tmp/airthings_ble-0.5.6.post2.tar.gz]
 [2023-08-06 15:33:44] INFO root fetch - main [MainThread]: End processing [airthings-ble]: success
 [2023-08-06 15:33:44] INFO root fetch - main [MainThread]: Store serial: [19194152]
+[2023-08-06 15:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194152]
+[2023-08-06 15:38:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: z-units
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vf-flags
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chienkun
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: segretini-matplottini
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: segretini-matplottini
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paaster
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graia-scheduler
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bili-eta
+[2023-08-06 15:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rdpy3
+[2023-08-06 15:38:53] INFO root fetch - processPackages [rdpy3]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [bili-eta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [z-units]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.8.6] Old Version: [2023.8.5]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [segretini-matplottini]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/46/ef/b550ffee2aabb1177a7135de7c75f47fa7737ca788587ae2f942e4b60e9c/rdpy3-1.3.8.tar.gz
+[2023-08-06 15:38:53] WARNING root fetch - processPackages [chienkun]: Skipping, unable to determine old version
+[2023-08-06 15:38:53] INFO root fetch - processPackages [chienkun]: Start processing: py-contract-ui
+[2023-08-06 15:38:53] INFO root fetch - main [MainThread]: End processing [chienkun] error
+[2023-08-06 15:38:53] INFO root fetch - processPackages [graia-scheduler]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [paaster]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [vf-flags]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/2f/58/7cad257d8489a0380aa4dbf5ae939e3c0ca26424af385198d0500866776b/bili_eta-0.2.8.tar.gz
+[2023-08-06 15:38:53] WARNING root fetch - processPackages [py-contract-ui]: Skipping, unable to determine old version
+[2023-08-06 15:38:53] INFO root fetch - processPackages [py-contract-ui]: Start processing: bili-eta
+[2023-08-06 15:38:53] INFO root fetch - main [MainThread]: End processing [py-contract-ui] error
+[2023-08-06 15:38:53] INFO root fetch - processPackages [bili-eta]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-06 15:38:53] INFO root fetch - processPackages [z-units]: Downloading https://files.pythonhosted.org/packages/e4/ca/6f9c9c27d9c0d7c2263185cb4d027cc24387815ea25af87f26a8e4b926e7/z_units-0.1.3.tar.gz
+[2023-08-06 15:38:53] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/b7/04/ecc1825f9b552989549c3fe597a82c9fd498700e897cbd9ff24da9abe725/segretini-matplottini-0.2.0.tar.gz
+[2023-08-06 15:38:53] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/b7/04/ecc1825f9b552989549c3fe597a82c9fd498700e897cbd9ff24da9abe725/segretini-matplottini-0.2.0.tar.gz
+[2023-08-06 15:38:53] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/3e/15/ce3b38fcafb699bdad5778e9dab63c445846bb0fcac5a2e0bf2d77b780e5/fbgemm_gpu_nightly-2023.8.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-06 15:38:53] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/7e/52/0234bb366847488d6ec28b235a0e86f6770d5ebc4b1f17df9897660e1e0d/bili_eta-0.3.0.tar.gz
+[2023-08-06 15:38:53] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/e7/e8/1db1106f69daa87f4bccdaf09d745a1f44159e22487513785dad943d71c7/paaster-1.0.7.tar.gz
+[2023-08-06 15:38:53] INFO root fetch - processPackages [vf-flags]: Downloading https://files.pythonhosted.org/packages/72/65/657fedf87701f8aef686f7218a87baad597420c811864fdc1c652617d2cd/vf-flags-0.2.4.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [graia-scheduler]: Downloading https://files.pythonhosted.org/packages/d4/20/dbf53682ca80fc31cc7326d9f1705a1a673ee668a4b86b3775aacf7b60e7/graia_scheduler-0.2.0.tar.gz
+[2023-08-06 15:38:54] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 220811262>=10485760
+[2023-08-06 15:38:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: spotify-recommender-api
+[2023-08-06 15:38:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-08-06 15:38:54] WARNING root fetch - processPackages [bili-eta]: Skipping package: exceeds size limit 12699721>=10485760
+[2023-08-06 15:38:54] INFO root fetch - processPackages [bili-eta]: Start processing: bigdl-dllib-spark3
+[2023-08-06 15:38:54] INFO root fetch - main [MainThread]: End processing [bili-eta] error
+[2023-08-06 15:38:54] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/d4/56/b34b2522a2857e966ee31c52c8969e124db190e4257de3fab75878218f1a/bili_eta-0.2.9.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/bc/8d/2f7b3ae7644782451195705d744349d864ea9a985fdaeac92e0d0cd5199c/rdpy3-1.3.9.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [spotify-recommender-api]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-08-06 15:38:54] INFO root fetch - processPackages [z-units]: Downloading https://files.pythonhosted.org/packages/a1/0d/267d94237b852cbab6629758e0dfcee0e0765681566f593693d80a970855/z_units-0.1.4.tar.gz
+[2023-08-06 15:38:54] WARNING root fetch - processPackages [bili-eta]: Skipping package: exceeds size limit 45457075>=10485760
+[2023-08-06 15:38:54] INFO root fetch - main [MainThread]: End processing [bili-eta] error
+[2023-08-06 15:38:54] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230806] Old Version: [2.4.0b20230805]
+[2023-08-06 15:38:54] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-06 15:38:54] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.8.tar.gz tmp/rdpy3-1.3.9.tar.gz --markdown 20230806/r/rdpy3/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-06 15:38:54] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/ad/7c/f4a96b369c097c3be95acdccc7edba4b5e5ff465f9fb5691c230c82e1e1f/paaster-1.1.0.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [vf-flags]: Downloading https://files.pythonhosted.org/packages/75/fa/0ec82c128172a43f4f5fa256b8b9c9cccc12dff490744c16f4946802f0b8/vf-flags-0.2.5.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [z-units]: executing diffoscope
+[2023-08-06 15:38:54] INFO root fetch - processPackages [z-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z_units-0.1.3.tar.gz tmp/z_units-0.1.4.tar.gz --markdown 20230806/z/z-units/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-06 15:38:54] INFO root fetch - processPackages [graia-scheduler]: Downloading https://files.pythonhosted.org/packages/3b/89/ecb21413bee61697ffbc75c5ab9d7e35dd92173cf6d2da570c9690c6a47d/graia_scheduler-0.3.0.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/7d/bf/684ea154ba9f264435fb4a1f4a13c78a928caa2434953d04e7625ea84442/spotify_recommender_api-5.0.2-py3-none-any.whl
+[2023-08-06 15:38:54] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/58/df/27d0f438a326a81c05c9e45696ae5556a62a707c80937f85644d3e693488/bigdl-dllib-spark3-2.4.0b20230805.tar.gz
+[2023-08-06 15:38:54] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2023-08-06 15:38:54] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.0.7.tar.gz tmp/paaster-1.1.0.tar.gz --markdown 20230806/p/paaster/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:38:54] INFO root fetch - processPackages [vf-flags]: executing diffoscope
+[2023-08-06 15:38:54] INFO root fetch - processPackages [vf-flags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vf-flags-0.2.4.tar.gz tmp/vf-flags-0.2.5.tar.gz --markdown 20230806/v/vf-flags/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 15:38:54] INFO root fetch - processPackages [graia-scheduler]: executing diffoscope
+[2023-08-06 15:38:54] INFO root fetch - processPackages [graia-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia_scheduler-0.2.0.tar.gz tmp/graia_scheduler-0.3.0.tar.gz --markdown 20230806/g/graia-scheduler/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 15:38:54] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 63830684>=10485760
+[2023-08-06 15:38:54] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-08-06 15:38:54] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/45/bf/451d834a056472435dbf6485263463736cf395968e19a9584542f7b62135/spotify_recommender_api-5.0.3-py3-none-any.whl
+[2023-08-06 15:38:55] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-08-06 15:38:55] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-5.0.2-py3-none-any.whl.zip tmp/spotify_recommender_api-5.0.3-py3-none-any.whl.zip --markdown 20230806/s/spotify-recommender-api/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-08-06 15:38:55] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/c9/f0/04abd7305d6d0c1a8924bc925fc2e16a6a1f2dd2d39173f6e387cf1e8488/segretini-matplottini-0.2.1.tar.gz
+[2023-08-06 15:38:55] INFO root fetch - processPackages [segretini-matplottini]: Downloading https://files.pythonhosted.org/packages/c9/f0/04abd7305d6d0c1a8924bc925fc2e16a6a1f2dd2d39173f6e387cf1e8488/segretini-matplottini-0.2.1.tar.gz
+[2023-08-06 15:38:55] INFO root fetch - processPackages [z-units]: Remove: archive file [/home/abi/fetcher/tmp/z_units-0.1.3.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - processPackages [z-units]: Remove: archive file [/home/abi/fetcher/tmp/z_units-0.1.4.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - main [MainThread]: End processing [z-units]: success
+[2023-08-06 15:38:55] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.0.7.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.0.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2023-08-06 15:38:55] INFO root fetch - processPackages [graia-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graia_scheduler-0.2.0.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - processPackages [graia-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graia_scheduler-0.3.0.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - main [MainThread]: End processing [graia-scheduler]: success
+[2023-08-06 15:38:55] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.8.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.9.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-06 15:38:55] INFO root fetch - processPackages [vf-flags]: Remove: archive file [/home/abi/fetcher/tmp/vf-flags-0.2.4.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - processPackages [vf-flags]: Remove: archive file [/home/abi/fetcher/tmp/vf-flags-0.2.5.tar.gz]
+[2023-08-06 15:38:55] INFO root fetch - main [MainThread]: End processing [vf-flags]: success
+[2023-08-06 15:38:56] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.2-py3-none-any.whl.zip]
+[2023-08-06 15:38:56] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-5.0.3-py3-none-any.whl.zip]
+[2023-08-06 15:38:56] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-08-06 15:38:56] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 15:38:56] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.0.tar.gz tmp/segretini-matplottini-0.2.1.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 15:38:56] INFO root fetch - processPackages [segretini-matplottini]: executing diffoscope
+[2023-08-06 15:38:56] INFO root fetch - processPackages [segretini-matplottini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segretini-matplottini-0.2.0.tar.gz tmp/segretini-matplottini-0.2.1.tar.gz --markdown 20230806/s/segretini-matplottini/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-06 15:38:58] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.0.tar.gz]
+[2023-08-06 15:38:58] INFO root fetch - processPackages [segretini-matplottini]: Remove: archive file [/home/abi/fetcher/tmp/segretini-matplottini-0.2.1.tar.gz]
+[2023-08-06 15:38:58] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 15:38:58] INFO root fetch - main [MainThread]: End processing [segretini-matplottini]: success
+[2023-08-06 15:38:58] INFO root fetch - main [MainThread]: Store serial: [19194196]
