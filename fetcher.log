@@ -3418,3 +3418,48 @@
 [2023-08-06 05:38:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
 [2023-08-06 05:38:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-08-06 05:38:23] INFO root fetch - main [MainThread]: Store serial: [19191026]
+[2023-08-06 05:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191026]
+[2023-08-06 05:43:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokotime
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcytestlib
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaboatrace.models
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: untanglepyut
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotscanner
+[2023-08-06 05:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IABT
+[2023-08-06 05:43:32] INFO root fetch - processPackages [IABT]: New version: [1.3] Old Version: [1.2]
+[2023-08-06 05:43:32] INFO root fetch - processPackages [dotscanner]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-06 05:43:32] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/47/fe/9f34d4f10ccdc0c23907719dec31dcbcbcfc844cd2c7c7c5ecc1f89a46df/IABT-1.2.tar.gz
+[2023-08-06 05:43:32] WARNING root fetch - processPackages [tokotime]: Skipping, unable to determine old version
+[2023-08-06 05:43:32] INFO root fetch - main [MainThread]: End processing [tokotime] error
+[2023-08-06 05:43:32] WARNING root fetch - processPackages [zcytestlib]: Skipping, unable to determine old version
+[2023-08-06 05:43:32] INFO root fetch - main [MainThread]: End processing [zcytestlib] error
+[2023-08-06 05:43:32] INFO root fetch - processPackages [untanglepyut]: New version: [1.1.0] Old Version: [0.7.0]
+[2023-08-06 05:43:32] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/11/46/9523e384be79941a9a960cb436208c54b2d152e07f6d6a1e929e745d6a5b/dotscanner-1.4.0.tar.gz
+[2023-08-06 05:43:32] INFO root fetch - processPackages [metaboatrace.models]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-06 05:43:32] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/1e/e4/d079869f94d5fa06b41c23618e99e46d9ec69cd5f751e3ca011ec2a5f313/metaboatrace_models-0.6.0.tar.gz
+[2023-08-06 05:43:32] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/cb/9f/c63776cb003ea581d65ecc52b375574ee5f1bf55e674ec83036850f0dc76/untanglepyut-0.7.0.tar.gz
+[2023-08-06 05:43:32] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/51/d5/a39660ba5990fc4125002b9f8a093291dff1e0036770c2cce5af5019b316/dotscanner-1.4.1.tar.gz
+[2023-08-06 05:43:32] INFO root fetch - processPackages [IABT]: Downloading https://files.pythonhosted.org/packages/8d/4b/ce0b4314d34e484243b415290bbff3719f993dd091bf7bfcc508fb6b1485/IABT-1.3.tar.gz
+[2023-08-06 05:43:32] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-08-06 05:43:32] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.4.0.tar.gz tmp/dotscanner-1.4.1.tar.gz --markdown 20230806/d/dotscanner/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-06 05:43:32] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/c5/eb/5ff05534ff58e5e5934291b76f1264ab8d8f5e7b287e7e78c496a05f5549/metaboatrace_models-0.7.0.tar.gz
+[2023-08-06 05:43:33] INFO root fetch - processPackages [IABT]: executing diffoscope
+[2023-08-06 05:43:33] INFO root fetch - processPackages [IABT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IABT-1.2.tar.gz tmp/IABT-1.3.tar.gz --markdown 20230806/I/IABT/1.2-1.3/diff.md --exclude *.pyd
+[2023-08-06 05:43:33] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/58/49/dc8107e56124b06f7a3f0d6b458695b75f911061ef99a0f0086ff9e7b850/untanglepyut-1.1.0.tar.gz
+[2023-08-06 05:43:33] INFO root fetch - processPackages [metaboatrace.models]: executing diffoscope
+[2023-08-06 05:43:33] INFO root fetch - processPackages [metaboatrace.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaboatrace_models-0.6.0.tar.gz tmp/metaboatrace_models-0.7.0.tar.gz --markdown 20230806/m/metaboatrace.models/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-06 05:43:33] INFO root fetch - processPackages [untanglepyut]: executing diffoscope
+[2023-08-06 05:43:33] INFO root fetch - processPackages [untanglepyut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untanglepyut-0.7.0.tar.gz tmp/untanglepyut-1.1.0.tar.gz --markdown 20230806/u/untanglepyut/0.7.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 05:43:33] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.6.0.tar.gz]
+[2023-08-06 05:43:33] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.7.0.tar.gz]
+[2023-08-06 05:43:33] INFO root fetch - main [MainThread]: End processing [metaboatrace.models]: success
+[2023-08-06 05:43:33] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.4.0.tar.gz]
+[2023-08-06 05:43:33] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.4.1.tar.gz]
+[2023-08-06 05:43:33] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-08-06 05:43:34] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.2.tar.gz]
+[2023-08-06 05:43:34] INFO root fetch - processPackages [IABT]: Remove: archive file [/home/abi/fetcher/tmp/IABT-1.3.tar.gz]
+[2023-08-06 05:43:34] INFO root fetch - main [MainThread]: End processing [IABT]: success
+[2023-08-06 05:43:34] INFO root fetch - processPackages [untanglepyut]: Remove: archive file [/home/abi/fetcher/tmp/untanglepyut-0.7.0.tar.gz]
+[2023-08-06 05:43:34] INFO root fetch - processPackages [untanglepyut]: Remove: archive file [/home/abi/fetcher/tmp/untanglepyut-1.1.0.tar.gz]
+[2023-08-06 05:43:34] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
+[2023-08-06 05:43:34] INFO root fetch - main [MainThread]: Store serial: [19191048]
