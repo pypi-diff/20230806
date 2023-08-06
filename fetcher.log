@@ -11218,3 +11218,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 16:47:00] INFO root fetch - processPackages [syscolouringspackageV1]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringspackageV1-1.1.0.tar.gz]
 [2023-08-06 16:47:00] INFO root fetch - main [MainThread]: End processing [syscolouringspackageV1]: success
 [2023-08-06 16:47:00] INFO root fetch - main [MainThread]: Store serial: [19194711]
+[2023-08-06 16:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19194711]
+[2023-08-06 16:52:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlit
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolibri-ml
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affinder
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: not1mm
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Fletxible
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuki
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: useq-schema
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starco-pkl
+[2023-08-06 16:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TheSilent
+[2023-08-06 16:52:09] INFO root fetch - processPackages [scoda-tk]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [Fletxible]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kuki]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chainlit]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [not1mm]: New version: [23.8.5] Old Version: [23.7.5]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [affinder]: New version: [0.3.2] Old Version: [0.2.3]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [useq-schema]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-06 16:52:10] WARNING root fetch - processPackages [starco-pkl]: Skipping, unable to determine old version
+[2023-08-06 16:52:10] INFO root fetch - processPackages [starco-pkl]: Start processing: chatlab
+[2023-08-06 16:52:10] INFO root fetch - main [MainThread]: End processing [starco-pkl] error
+[2023-08-06 16:52:10] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/21/b1/3161f4cd3469887d662a3a0c7c0ce88bf040b000c36d7a2ae8fc91061206/scoda-tk-0.4.2.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.86] Old Version: [1.1.85]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/66/04/7f8de5cf3716c402255d042666d61a44eb9664077fd730fd91850e069dfc/Fletxible-0.6.7-py3-none-any.whl
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/da/99/218fc648c722848d38c1d8f4a5f2a525ea8d43a6184076cb1ad88f60778b/kuki-0.9.8.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a9] Old Version: [1.0.0a7]
+[2023-08-06 16:52:10] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [affinder]: Downloading https://files.pythonhosted.org/packages/bc/85/832c3e5a5e1d9414b47f08ab3229dc9c59dd4c65da8d51e2cd79800a6088/affinder-0.2.3.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/2c/76242c5ad0339db6943f4b5d88de7420393a617d4d3b3464b3fdb4a8937c/chatlab-1.0.0a7.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0f/74/bcd01321629495c1cb7e8955b07622e3b31ffe00e23020de1b8e98cea136/not1mm-23.7.5.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/14/28/5f85dbcb8d23a1a0295ca22b019b49d92385343c17a603cc12b893c8f3fb/chainlit-0.6.1.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/75/97/5b6c337393087ea27239c2464133c109fc016e4ad3733d713f4ac428b4bc/useq_schema-0.4.2.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/32/27/eb72e060813bd837b45255ee6e9736fc77eb8ad1a17b61a3cbc3188522a7/kolibri_ml-1.1.85-py3-none-any.whl
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/40/78/c6dc6dc08631a7f7078269d05a6492604f923e324c4c0b013e8ed3ecb538/kuki-0.9.9.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-08-06 16:52:10] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.8.tar.gz tmp/kuki-0.9.9.tar.gz --markdown 20230806/k/kuki/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-06 16:52:10] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/fc/1b/50c432a2fafc00e85d44dfe4b893a0533731cc77c9f4ab09c7d2fdea1cc8/Fletxible-0.6.8.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 16:52:10] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 16:52:10] INFO root fetch - processPackages [affinder]: Downloading https://files.pythonhosted.org/packages/e6/04/80c60ce0a0da8966b883c969f4b08893e8c85982dbea9d992953af3c431f/affinder-0.3.2.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9e/64/cd7bef9a71080dc8f8efafff7e54fa539fd6f57f71e98d32eb464fca020d/chatlab-1.0.0a9.tar.gz
+[2023-08-06 16:52:10] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/74/df/42a014f91102629c284b111f9c741c3feec5e98e6c5c1a3866e0bfbea915/chainlit-0.6.2.tar.gz
+[2023-08-06 16:52:11] INFO root fetch - processPackages [useq-schema]: Downloading https://files.pythonhosted.org/packages/94/e5/7029329b27aeb99ae1bfcc5b3524b8686c966659a63f9e3bd7139eb7f6e1/useq_schema-0.4.3.tar.gz
+[2023-08-06 16:52:11] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/5e/07/f76c6bc5d00efcffbe2f6c31d01721a91624e4af4b98a07e0c13c86c3509/scoda-tk-0.4.3.tar.gz
+[2023-08-06 16:52:11] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.7-py3-none-any.whl.zip tmp/Fletxible-0.6.8.tar.gz --markdown 20230806/F/Fletxible/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [affinder]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [affinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinder-0.2.3.tar.gz tmp/affinder-0.3.2.tar.gz --markdown 20230806/a/affinder/0.2.3-0.3.2/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a7.tar.gz tmp/chatlab-1.0.0a9.tar.gz --markdown 20230806/c/chatlab/1.0.0a7-1.0.0a9/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/3c/de/d18d8649a9603277fbec23db765305f02b4ee42a8aa8a909fb0602939038/kolibri_ml-1.1.86-py3-none-any.whl
+[2023-08-06 16:52:11] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.6.1.tar.gz tmp/chainlit-0.6.2.tar.gz --markdown 20230806/c/chainlit/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [useq-schema]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [useq-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useq_schema-0.4.2.tar.gz tmp/useq_schema-0.4.3.tar.gz --markdown 20230806/u/useq-schema/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.85-py3-none-any.whl.zip tmp/kolibri_ml-1.1.86-py3-none-any.whl.zip --markdown 20230806/k/kolibri-ml/1.1.85-1.1.86/diff.md --exclude *.pyd
+[2023-08-06 16:52:11] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/03/39/1453e687a08fb19ee98bb4759f1e775a368d94816a1c2a4a2126a0380aab/not1mm-23.8.5.tar.gz
+[2023-08-06 16:52:11] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-06 16:52:11] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.4.2.tar.gz tmp/scoda-tk-0.4.3.tar.gz --markdown 20230806/s/scoda-tk/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-06 16:52:12] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.8.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.9.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [kuki]: Start processing: examon-core
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [TheSilent]: Start processing: tcia-utils
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [examon-core]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/9e/9d/8c77957461b03475e0c622a810e95382ca57bcb1b0e56f7ca18c0e861ac4/tcia_utils-1.6.2.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-08-06 16:52:12] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.7.5.tar.gz tmp/not1mm-23.8.5.tar.gz --markdown 20230806/n/not1mm/23.7.5-23.8.5/diff.md --exclude *.pyd
+[2023-08-06 16:52:12] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.7-py3-none-any.whl.zip]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.8.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [Fletxible]: Start processing: oszsave
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/54/24/47ac35c0df0f2f4f13f23f0a667ad5f3eb06b5b3888e649c81db89f3fb70/examon_core-1.2.0.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [oszsave]: New version: [1.2.0] Old Version: [1.0.1]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a7.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a9.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [chatlab]: Start processing: examon-core
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [affinder]: Remove: archive file [/home/abi/fetcher/tmp/affinder-0.2.3.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [affinder]: Remove: archive file [/home/abi/fetcher/tmp/affinder-0.3.2.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [affinder]: Start processing: dhapi
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [affinder]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [examon-core]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/02/f8/f8a6733442b061b20388488209a8287abb0b280792ee3c573a0e34f6cdff/tcia_utils-1.6.3.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.2.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [useq-schema]: Remove: archive file [/home/abi/fetcher/tmp/useq_schema-0.4.3.tar.gz]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [useq-schema]: Start processing: requests-selenium
+[2023-08-06 16:52:12] INFO root fetch - main [MainThread]: End processing [useq-schema]: success
+[2023-08-06 16:52:12] INFO root fetch - processPackages [oszsave]: Downloading https://files.pythonhosted.org/packages/49/3f/c2575c3eb473870520a5be28c0532a11153b571ed3a097b7d221fa0c4742/oszsave-1.0.1.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [requests-selenium]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [dhapi]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-08-06 16:52:12] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/73/09/46bae2fb91e66f4a3648eacd822937b50428bc786d3a7fd801a18b03e6c6/examon_core-1.2.1.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/73/09/46bae2fb91e66f4a3648eacd822937b50428bc786d3a7fd801a18b03e6c6/examon_core-1.2.1.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/a3/1f/ce58e6a3e56ff6a91278325b19f04befd36e98131b88e3c40635dba70649/requests_selenium-0.0.2.tar.gz
+[2023-08-06 16:52:12] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-08-06 16:52:12] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.2.tar.gz tmp/tcia_utils-1.6.3.tar.gz --markdown 20230806/t/tcia-utils/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-08-06 16:52:13] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/f2/8a/29e579d9fbfff5984b2cbdac86b612bedb24c930897157ca495693e2a4be/dhapi-2.0.0.tar.gz
+[2023-08-06 16:52:13] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-08-06 16:52:13] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.2.0.tar.gz tmp/examon_core-1.2.1.tar.gz --markdown 20230806/e/examon-core/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-06 16:52:13] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-08-06 16:52:13] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.2.0.tar.gz tmp/examon_core-1.2.1.tar.gz --markdown 20230806/e/examon-core/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-06 16:52:13] INFO root fetch - processPackages [oszsave]: Downloading https://files.pythonhosted.org/packages/d4/83/300df3b4ad3e6e5cecbb8739c5dc1a2c91475c567fdaa2af0ee865b2bf76/oszsave-1.2.0.tar.gz
+[2023-08-06 16:52:13] INFO root fetch - processPackages [requests-selenium]: Downloading https://files.pythonhosted.org/packages/ba/a2/b430d8ba6a29c7a262d6fb5656a575755f705c69a01ae35b5f4910775d86/requests_selenium-0.0.3.tar.gz
+[2023-08-06 16:52:13] INFO root fetch - processPackages [oszsave]: executing diffoscope
+[2023-08-06 16:52:13] INFO root fetch - processPackages [oszsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oszsave-1.0.1.tar.gz tmp/oszsave-1.2.0.tar.gz --markdown 20230806/o/oszsave/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-06 16:52:13] INFO root fetch - processPackages [requests-selenium]: executing diffoscope
+[2023-08-06 16:52:13] INFO root fetch - processPackages [requests-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_selenium-0.0.2.tar.gz tmp/requests_selenium-0.0.3.tar.gz --markdown 20230806/r/requests-selenium/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-06 16:52:13] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/67/c9/1cb2b8bc40f9e4f89792ed7d62b6fb6406a50482ea0b27615375ef6ff4d8/dhapi-2.0.2.tar.gz
+[2023-08-06 16:52:13] INFO root fetch - processPackages [dhapi]: executing diffoscope
+[2023-08-06 16:52:13] INFO root fetch - processPackages [dhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhapi-2.0.0.tar.gz tmp/dhapi-2.0.2.tar.gz --markdown 20230806/d/dhapi/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-08-06 16:52:14] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.2.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.3.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-08-06 16:52:14] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.2.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.4.3.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-06 16:52:14] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.2.0.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.2.1.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-08-06 16:52:14] INFO root fetch - processPackages [oszsave]: Remove: archive file [/home/abi/fetcher/tmp/oszsave-1.0.1.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [oszsave]: Remove: archive file [/home/abi/fetcher/tmp/oszsave-1.2.0.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [oszsave]: success
+[2023-08-06 16:52:14] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.2.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [requests-selenium]: Remove: archive file [/home/abi/fetcher/tmp/requests_selenium-0.0.3.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [requests-selenium]: success
+[2023-08-06 16:52:14] INFO root fetch - processPackages [dhapi]: Remove: archive file [/home/abi/fetcher/tmp/dhapi-2.0.0.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - processPackages [dhapi]: Remove: archive file [/home/abi/fetcher/tmp/dhapi-2.0.2.tar.gz]
+[2023-08-06 16:52:14] INFO root fetch - main [MainThread]: End processing [dhapi]: success
+[2023-08-06 16:52:15] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
+[2023-08-06 16:52:15] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.8.5.tar.gz]
+[2023-08-06 16:52:15] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-08-06 16:52:16] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.85-py3-none-any.whl.zip]
+[2023-08-06 16:52:16] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.86-py3-none-any.whl.zip]
+[2023-08-06 16:52:16] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-06 16:52:27] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.6.1.tar.gz]
+[2023-08-06 16:52:27] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.6.2.tar.gz]
+[2023-08-06 16:52:27] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-08-06 16:52:27] INFO root fetch - main [MainThread]: Store serial: [19194766]
