@@ -4800,3 +4800,24 @@
 [2023-08-06 08:50:06] INFO root fetch - main [MainThread]: End processing [cougar]: success
 [2023-08-06 08:50:06] INFO root fetch - main [MainThread]: End processing [cougar]: success
 [2023-08-06 08:50:06] INFO root fetch - main [MainThread]: Store serial: [19191690]
+[2023-08-06 08:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191690]
+[2023-08-06 08:55:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 08:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cougar
+[2023-08-06 08:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2023-08-06 08:55:15] INFO root fetch - processPackages [atksh-utils]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-06 08:55:15] INFO root fetch - processPackages [cougar]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-08-06 08:55:15] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/16/6f/c2b46260742d0cba9e434b6a77bc2507acc85a7733e413e7d5aa9492487f/atksh-utils-0.2.1.tar.gz
+[2023-08-06 08:55:15] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/c9/03/9cd9095f3b56f89aef465b0c771ff09b69de4970158d41767bec2c29f163/cougar-0.2.18-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-06 08:55:16] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/50/7a/4dc0ed66c8d7290a5496ac043b3976247f6303eedb3c671e929e98f94612/atksh-utils-0.3.0.tar.gz
+[2023-08-06 08:55:16] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/ab/ff/b4ac474a62d7009eed4140c158a674270a612028b3a6ddd401c45cce68c3/cougar-0.2.19-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-06 08:55:16] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-06 08:55:16] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.2.1.tar.gz tmp/atksh-utils-0.3.0.tar.gz --markdown 20230806/a/atksh-utils/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-06 08:55:16] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 08:55:16] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.2.18-cp39-cp39-manylinux1_x86_64.whl.zip tmp/cougar-0.2.19-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230806/c/cougar/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-08-06 08:55:17] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.2.1.tar.gz]
+[2023-08-06 08:55:17] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.0.tar.gz]
+[2023-08-06 08:55:17] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-06 08:55:17] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.18-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-08-06 08:55:17] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.19-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-08-06 08:55:17] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 08:55:17] INFO root fetch - main [MainThread]: Store serial: [19191713]
