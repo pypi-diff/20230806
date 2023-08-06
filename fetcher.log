@@ -7761,3 +7761,63 @@
 [2023-08-06 13:05:47] INFO root fetch - processPackages [gopro-overlay]: Remove: archive file [/home/abi/fetcher/tmp/gopro-overlay-0.98.0.tar.gz]
 [2023-08-06 13:05:47] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
 [2023-08-06 13:05:47] INFO root fetch - main [MainThread]: Store serial: [19193171]
+[2023-08-06 13:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193171]
+[2023-08-06 13:10:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bili-eta
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fletxible
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiggler-studiorabota
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bili-eta
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-lexorank
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi3-parser
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crx3
+[2023-08-06 13:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sounderpy
+[2023-08-06 13:10:56] INFO root fetch - processPackages [sounderpy]: New version: [2.1.0] Old Version: [1.0.1]
+[2023-08-06 13:10:56] INFO root fetch - processPackages [Fletxible]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-06 13:10:56] WARNING root fetch - processPackages [django-lexorank]: Skipping, unable to determine old version
+[2023-08-06 13:10:56] INFO root fetch - main [MainThread]: End processing [django-lexorank] error
+[2023-08-06 13:10:56] INFO root fetch - processPackages [openapi3-parser]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-06 13:10:56] INFO root fetch - processPackages [bili-eta]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 13:10:56] INFO root fetch - processPackages [bili-eta]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-06 13:10:56] WARNING root fetch - processPackages [crx3]: Skipping, unable to determine old version
+[2023-08-06 13:10:56] INFO root fetch - main [MainThread]: End processing [crx3] error
+[2023-08-06 13:10:56] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 13:10:56] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/ae/cc/715cc1d80c3bd5160c738ab736b8739da5be8ec604a24d61023f32941666/Fletxible-0.6.1.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/77/4d/68e19f226a0375012d6300c8985b79ece49c3eb3e31c67736aa4474163dc/bili_eta-0.2.5.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/77/4d/68e19f226a0375012d6300c8985b79ece49c3eb3e31c67736aa4474163dc/bili_eta-0.2.5.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [openapi3-parser]: Downloading https://files.pythonhosted.org/packages/c5/b3/d60544303f99464a07f098bee7b1949e3a54a58b2da5ef204cb25b8a0ea2/openapi3-parser-1.1.8.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/53/53/91a45c612aa24be1813b7a4798703821745baa6db2456ce95e13a6111288/sounderpy-2.1.0.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/be/8d/7fcc6c2e418be2ff89fa8f4b06f1a59df90c78d4c4e70b560327b8ebfbe9/Fletxible-0.6.2.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-1.0.1.tar.gz tmp/sounderpy-2.1.0.tar.gz --markdown 20230806/s/sounderpy/1.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-08-06 13:10:57] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.1.tar.gz tmp/Fletxible-0.6.2.tar.gz --markdown 20230806/F/Fletxible/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/f0/0e/ac462b2496e9a357d79b729930cd03c681de8c9bfb100e9d3536d7097c6c/bili_eta-0.2.6.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/f0/0e/ac462b2496e9a357d79b729930cd03c681de8c9bfb100e9d3536d7097c6c/bili_eta-0.2.6.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [openapi3-parser]: Downloading https://files.pythonhosted.org/packages/6c/64/74b9c707ae20014b03d9af82f69c85e2057e6e44b5be7b2c2f339c47505b/openapi3-parser-1.1.9.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.5.tar.gz tmp/bili_eta-0.2.6.tar.gz --markdown 20230806/b/bili-eta/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 13:10:57] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.5.tar.gz tmp/bili_eta-0.2.6.tar.gz --markdown 20230806/b/bili-eta/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-06 13:10:57] INFO root fetch - processPackages [openapi3-parser]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [openapi3-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi3-parser-1.1.8.tar.gz tmp/openapi3-parser-1.1.9.tar.gz --markdown 20230806/o/openapi3-parser/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-06 13:10:57] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-08-06 13:10:57] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-08-06 13:10:57] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230806/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 13:10:58] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-1.0.1.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.1.0.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 13:10:58] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.1.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.2.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 13:10:58] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.5.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.6.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-08-06 13:10:58] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-08-06 13:10:58] INFO root fetch - processPackages [openapi3-parser]: Remove: archive file [/home/abi/fetcher/tmp/openapi3-parser-1.1.8.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - processPackages [openapi3-parser]: Remove: archive file [/home/abi/fetcher/tmp/openapi3-parser-1.1.9.tar.gz]
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: End processing [openapi3-parser]: success
+[2023-08-06 13:10:58] INFO root fetch - main [MainThread]: Store serial: [19193202]
