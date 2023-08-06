@@ -8642,3 +8642,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 14:09:47] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.3.0.tar.gz]
 [2023-08-06 14:09:47] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
 [2023-08-06 14:09:47] INFO root fetch - main [MainThread]: Store serial: [19193520]
+[2023-08-06 14:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193520]
+[2023-08-06 14:14:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amniotic
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kandinsky
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablate
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latest-torch
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablate
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitxt
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arcana-bids
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dl2050utils
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s
+[2023-08-06 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s
+[2023-08-06 14:14:56] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-06 14:14:56] WARNING root fetch - processPackages [latest-torch]: Skipping, unable to determine old version
+[2023-08-06 14:14:56] INFO root fetch - processPackages [latest-torch]: Start processing: tf-nightly-intel
+[2023-08-06 14:14:56] INFO root fetch - main [MainThread]: End processing [latest-torch] error
+[2023-08-06 14:14:56] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [kandinsky]: New version: [2.5.dev1] Old Version: [2.5]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [arcana-bids]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-08-06 14:14:56] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-06 14:14:56] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [kandinsky]: Downloading https://files.pythonhosted.org/packages/c0/f7/2c82cb5cc9f6d5c97f7c423ecdcd861f5cbbfc09a519e38d0b821952d946/kandinsky-2.5.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [arcana-bids]: Downloading https://files.pythonhosted.org/packages/71/98/76ff7a83b391f529e2614a59404d0e0efc1992336603e3f303a367fbd3e4/arcana_bids-0.2.4.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/44/89/add817b3f3364f3adfacdcf9e22774f010640a36b19a9455689b49ff41f9/tf_nightly_intel-2.15.0.dev20230805-cp39-cp39-win_amd64.whl
+[2023-08-06 14:14:57] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 185149953>=10485760
+[2023-08-06 14:14:57] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230806/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230806/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [arcana-bids]: Downloading https://files.pythonhosted.org/packages/f7/ba/f328156318de823e4409d36e81cccb34aff9ca4881bedcbdd5405599c60b/arcana_bids-0.2.5.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230806/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230806/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [kandinsky]: Downloading https://files.pythonhosted.org/packages/1c/4a/369da42c3d721c98602ba5ffb99a40c96601fcadcc3475a6e4fe896f6756/kandinsky-2.5.dev1.tar.gz
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [arcana-bids]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [arcana-bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana_bids-0.2.4.tar.gz tmp/arcana_bids-0.2.5.tar.gz --markdown 20230806/a/arcana-bids/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-06 14:14:57] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230806/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:14:58] INFO root fetch - processPackages [kandinsky]: executing diffoscope
+[2023-08-06 14:14:58] INFO root fetch - processPackages [kandinsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kandinsky-2.5.tar.gz tmp/kandinsky-2.5.dev1.tar.gz --markdown 20230806/k/kandinsky/2.5-2.5.dev1/diff.md --exclude *.pyd
+[2023-08-06 14:14:58] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-08-06 14:14:58] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230806/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-08-06 14:14:59] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [arcana-bids]: Remove: archive file [/home/abi/fetcher/tmp/arcana_bids-0.2.4.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [arcana-bids]: Remove: archive file [/home/abi/fetcher/tmp/arcana_bids-0.2.5.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [arcana-bids]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [kandinsky]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky-2.5.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [kandinsky]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky-2.5.dev1.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [kandinsky]: success
+[2023-08-06 14:14:59] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-06 14:14:59] INFO root fetch - main [MainThread]: Store serial: [19193553]
