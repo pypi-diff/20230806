@@ -14392,3 +14392,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:06:54] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
 [2023-08-06 20:06:54] INFO root fetch - main [MainThread]: End processing [mimesis]: success
 [2023-08-06 20:06:54] INFO root fetch - main [MainThread]: Store serial: [19196193]
+[2023-08-06 20:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196193]
+[2023-08-06 20:12:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 20:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: i18nice
+[2023-08-06 20:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-08-06 20:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-tx-utils-core
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfuse3
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirmordred
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bebi103
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytrafikverket
+[2023-08-06 20:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-08-06 20:12:03] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.255] Old Version: [0.0.254]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [pytrafikverket]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [sirmordred]: New version: [0.9.3rc1] Old Version: [0.9.2rc1]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [pyfuse3]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [i18nice]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-06 20:12:03] WARNING root fetch - processPackages [tendril-tx-utils-core]: Skipping, unable to determine old version
+[2023-08-06 20:12:03] INFO root fetch - main [MainThread]: End processing [tendril-tx-utils-core] error
+[2023-08-06 20:12:03] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/12/6e/547458d1fcbf591ed11696e5294a626187f1ec27e704831dea30fb691b57/open_interpreter-0.0.254.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [bebi103]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 20:12:03] INFO root fetch - processPackages [pytrafikverket]: Downloading https://files.pythonhosted.org/packages/1a/6d/e1e80a946a08e21d9e38c731aa30527f5550545dc9c3a23a8ad8fb8b7559/pytrafikverket-0.3.3.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/48/e0/9d87ca4ccf905c49a05db2c273dbdff140581b75121b4d019c3b615e7963/sirmordred-0.9.2rc1.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [pyfuse3]: Downloading https://files.pythonhosted.org/packages/8f/49/e56c292f83941c525d4fee2f74dffeb20340004bb62faf54c906bda0893f/pyfuse3-3.2.3.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/48/42/6518dbfa30c3cd1f4995cde58b9cea0c433445b5b2231dc3bb85dd3b5da1/i18nice-0.7.0.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [bebi103]: Downloading https://files.pythonhosted.org/packages/a1/63/5383ba08aa789177b879586c04734f5d6c84ba5a123a729d0082a46dabd9/bebi103-0.1.8.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [pytrafikverket]: Downloading https://files.pythonhosted.org/packages/f1/1a/59c02105403be3a6fde325f010f99d49435e20a3dcb9887cdf89ac0a8efd/pytrafikverket-0.3.4.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/1c/ab/70e5817af8d16086a8c74662201ef76dc786d31822789f557fce466c3e7a/open_interpreter-0.0.255.tar.gz
+[2023-08-06 20:12:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [pytrafikverket]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [pytrafikverket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrafikverket-0.3.3.tar.gz tmp/pytrafikverket-0.3.4.tar.gz --markdown 20230806/p/pytrafikverket/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.254.tar.gz tmp/open_interpreter-0.0.255.tar.gz --markdown 20230806/o/open-interpreter/0.0.254-0.0.255/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230806/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/c0/d8/1db7cb170e630f7b158dc7d3213bc502f56a407d3468b3d906f9089693a9/i18nice-0.8.0.tar.gz
+[2023-08-06 20:12:04] INFO root fetch - processPackages [pyfuse3]: Downloading https://files.pythonhosted.org/packages/7c/67/c045eca0938c75c609ba9200f474e3b8b13a5c813e119bf3ab2d1fa37ac4/pyfuse3-3.3.0.tar.gz
+[2023-08-06 20:12:04] INFO root fetch - processPackages [i18nice]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [i18nice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18nice-0.7.0.tar.gz tmp/i18nice-0.8.0.tar.gz --markdown 20230806/i/i18nice/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [pyfuse3]: executing diffoscope
+[2023-08-06 20:12:04] INFO root fetch - processPackages [pyfuse3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfuse3-3.2.3.tar.gz tmp/pyfuse3-3.3.0.tar.gz --markdown 20230806/p/pyfuse3/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-08-06 20:12:04] INFO root fetch - processPackages [bebi103]: Downloading https://files.pythonhosted.org/packages/37/07/ca5aad732a2d92923557b1c8e84d664e47edf7acb92ddf546303d2b962b7/bebi103-0.1.9.tar.gz
+[2023-08-06 20:12:05] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 20:12:05] INFO root fetch - processPackages [pytrafikverket]: Remove: archive file [/home/abi/fetcher/tmp/pytrafikverket-0.3.3.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - processPackages [pytrafikverket]: Remove: archive file [/home/abi/fetcher/tmp/pytrafikverket-0.3.4.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [pytrafikverket]: success
+[2023-08-06 20:12:05] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.254.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.255.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 20:12:05] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/7f/98/0ce9ccedc40718ac4eaa8b08d199606a7d9f378ce970565cae46d161e50b/sirmordred-0.9.3rc1.tar.gz
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-06 20:12:05] INFO root fetch - processPackages [bebi103]: executing diffoscope
+[2023-08-06 20:12:05] INFO root fetch - processPackages [bebi103]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bebi103-0.1.8.tar.gz tmp/bebi103-0.1.9.tar.gz --markdown 20230806/b/bebi103/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 20:12:05] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.7.0.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.8.0.tar.gz]
+[2023-08-06 20:12:05] INFO root fetch - main [MainThread]: End processing [i18nice]: success
+[2023-08-06 20:12:05] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-08-06 20:12:05] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.9.2rc1.tar.gz tmp/sirmordred-0.9.3rc1.tar.gz --markdown 20230806/s/sirmordred/0.9.2rc1-0.9.3rc1/diff.md --exclude *.pyd
+[2023-08-06 20:12:07] INFO root fetch - processPackages [pyfuse3]: Remove: archive file [/home/abi/fetcher/tmp/pyfuse3-3.2.3.tar.gz]
+[2023-08-06 20:12:07] INFO root fetch - processPackages [pyfuse3]: Remove: archive file [/home/abi/fetcher/tmp/pyfuse3-3.3.0.tar.gz]
+[2023-08-06 20:12:07] INFO root fetch - main [MainThread]: End processing [pyfuse3]: success
+[2023-08-06 20:12:08] INFO root fetch - processPackages [bebi103]: Remove: archive file [/home/abi/fetcher/tmp/bebi103-0.1.8.tar.gz]
+[2023-08-06 20:12:08] INFO root fetch - processPackages [bebi103]: Remove: archive file [/home/abi/fetcher/tmp/bebi103-0.1.9.tar.gz]
+[2023-08-06 20:12:08] INFO root fetch - main [MainThread]: End processing [bebi103]: success
+[2023-08-06 20:12:10] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.2rc1.tar.gz]
+[2023-08-06 20:12:10] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.3rc1.tar.gz]
+[2023-08-06 20:12:10] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-08-06 20:12:10] INFO root fetch - main [MainThread]: Store serial: [19196230]
