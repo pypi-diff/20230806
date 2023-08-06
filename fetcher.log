@@ -15998,3 +15998,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 22:01:44] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.3.4.tar.gz]
 [2023-08-06 22:01:44] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
 [2023-08-06 22:01:44] INFO root fetch - main [MainThread]: Store serial: [19196857]
+[2023-08-06 22:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196857]
+[2023-08-06 22:06:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 22:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeoSAM-Image-Encoder
+[2023-08-06 22:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taxfilingfusion
+[2023-08-06 22:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexikanon
+[2023-08-06 22:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esentity
+[2023-08-06 22:06:53] WARNING root fetch - processPackages [GeoSAM-Image-Encoder]: Skipping, unable to determine old version
+[2023-08-06 22:06:53] INFO root fetch - main [MainThread]: End processing [GeoSAM-Image-Encoder] error
+[2023-08-06 22:06:53] WARNING root fetch - processPackages [taxfilingfusion]: Skipping, unable to determine old version
+[2023-08-06 22:06:53] INFO root fetch - main [MainThread]: End processing [taxfilingfusion] error
+[2023-08-06 22:06:53] INFO root fetch - processPackages [lexikanon]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-06 22:06:53] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-06 22:06:54] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/ff/82/0ddb6495851154eb7e9022fa763da407fdea964722e73c06903b59c63dfb/lexikanon-0.5.1.tar.gz
+[2023-08-06 22:06:54] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-08-06 22:06:54] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/48/88/1bb06ce5cb614445a4a1ec9fa7909bf46623b998b4a267f6eab737cb9cba/lexikanon-0.5.2.tar.gz
+[2023-08-06 22:06:54] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-08-06 22:06:54] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-08-06 22:06:54] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.5.1.tar.gz tmp/lexikanon-0.5.2.tar.gz --markdown 20230806/l/lexikanon/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-06 22:06:55] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-08-06 22:06:55] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230806/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-06 22:06:55] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.5.1.tar.gz]
+[2023-08-06 22:06:55] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.5.2.tar.gz]
+[2023-08-06 22:06:55] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-08-06 22:06:55] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-08-06 22:06:55] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-08-06 22:06:55] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-08-06 22:06:55] INFO root fetch - main [MainThread]: Store serial: [19196872]
