@@ -4258,3 +4258,18 @@
 [2023-08-06 07:47:47] INFO root fetch - processPackages [pyp2rpm]: Remove: archive file [/home/abi/fetcher/tmp/pyp2rpm-3.3.9.tar.gz]
 [2023-08-06 07:47:47] INFO root fetch - main [MainThread]: End processing [pyp2rpm]: success
 [2023-08-06 07:47:47] INFO root fetch - main [MainThread]: Store serial: [19191456]
+[2023-08-06 07:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191456]
+[2023-08-06 07:52:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spirits
+[2023-08-06 07:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcorelib
+[2023-08-06 07:52:56] WARNING root fetch - processPackages [spirits]: Skipping, unable to determine old version
+[2023-08-06 07:52:56] INFO root fetch - main [MainThread]: End processing [spirits] error
+[2023-08-06 07:52:56] INFO root fetch - processPackages [vcorelib]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-08-06 07:52:56] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/f7/f0/a3e8690f06c930311265f1d381a721efd17ecfb3a39de25a4e768ea2fb49/vcorelib-2.4.2.tar.gz
+[2023-08-06 07:52:56] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/b8/0a/61de85b1e3f2dd214ed4af632ebcfc4913edc374455bf27f90d1541c6c97/vcorelib-2.4.3.tar.gz
+[2023-08-06 07:52:57] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-08-06 07:52:57] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.4.2.tar.gz tmp/vcorelib-2.4.3.tar.gz --markdown 20230806/v/vcorelib/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-08-06 07:52:58] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.2.tar.gz]
+[2023-08-06 07:52:58] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.3.tar.gz]
+[2023-08-06 07:52:58] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-08-06 07:52:58] INFO root fetch - main [MainThread]: Store serial: [19191465]
