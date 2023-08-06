@@ -5584,3 +5584,24 @@
 [2023-08-06 09:52:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-08-06 09:52:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-08-06 09:52:35] INFO root fetch - main [MainThread]: Store serial: [19192137]
+[2023-08-06 09:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192137]
+[2023-08-06 09:57:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 09:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdk-openapi
+[2023-08-06 09:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toui
+[2023-08-06 09:57:44] INFO root fetch - processPackages [sdk-openapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 09:57:44] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/cd/72/c6a4613e8134efe18d9c4fcfc7a84eeae886268a3c6a45c17548c7d9b058/sdk-openapi-0.0.6.tar.gz
+[2023-08-06 09:57:44] INFO root fetch - processPackages [toui]: New version: [3.3.0b0] Old Version: [3.2.0]
+[2023-08-06 09:57:44] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/4f/da/d763d9a9ae09622394ecb96a0ba0d8e50f9decf235390dd68ece91d9a197/sdk-openapi-0.0.7.tar.gz
+[2023-08-06 09:57:44] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/35/89/d6996783f75df07db8de7f285de7c02e69c8896f65131f81ca35c33935e0/toui-3.2.0.tar.gz
+[2023-08-06 09:57:44] INFO root fetch - processPackages [sdk-openapi]: executing diffoscope
+[2023-08-06 09:57:44] INFO root fetch - processPackages [sdk-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk-openapi-0.0.6.tar.gz tmp/sdk-openapi-0.0.7.tar.gz --markdown 20230806/s/sdk-openapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 09:57:44] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/57/90/00b4411b078ad2afd37310ef694e5c5548ca122974865efd658f72a253a7/toui-3.3.0b0.tar.gz
+[2023-08-06 09:57:45] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-08-06 09:57:45] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.2.0.tar.gz tmp/toui-3.3.0b0.tar.gz --markdown 20230806/t/toui/3.2.0-3.3.0b0/diff.md --exclude *.pyd
+[2023-08-06 09:57:45] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk-openapi-0.0.6.tar.gz]
+[2023-08-06 09:57:45] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk-openapi-0.0.7.tar.gz]
+[2023-08-06 09:57:45] INFO root fetch - main [MainThread]: End processing [sdk-openapi]: success
+[2023-08-06 09:57:45] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.2.0.tar.gz]
+[2023-08-06 09:57:45] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.3.0b0.tar.gz]
+[2023-08-06 09:57:45] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-08-06 09:57:45] INFO root fetch - main [MainThread]: Store serial: [19192143]
