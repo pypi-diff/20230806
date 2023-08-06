@@ -6479,3 +6479,92 @@
 [2023-08-06 11:10:45] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.98.tar.gz]
 [2023-08-06 11:10:45] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-08-06 11:10:45] INFO root fetch - main [MainThread]: Store serial: [19192550]
+[2023-08-06 11:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192550]
+[2023-08-06 11:15:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: badi-users
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devtools-cli
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anonfiles-uploader
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyecosystem
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minecraft-python
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: janus-client
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: randog
+[2023-08-06 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-vite-plugin
+[2023-08-06 11:15:59] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.251] Old Version: [0.0.250]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [janus-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [minecraft-python]: New version: [160052.post1] Old Version: [160052]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230805.19.33.352226] Old Version: [20230805.10.39.482907]
+[2023-08-06 11:15:59] WARNING root fetch - processPackages [anonfiles-uploader]: Skipping, unable to determine old version
+[2023-08-06 11:15:59] INFO root fetch - processPackages [anonfiles-uploader]: Start processing: random-regex
+[2023-08-06 11:15:59] INFO root fetch - main [MainThread]: End processing [anonfiles-uploader] error
+[2023-08-06 11:15:59] WARNING root fetch - processPackages [pyecosystem]: Skipping, unable to determine old version
+[2023-08-06 11:15:59] INFO root fetch - processPackages [pyecosystem]: Start processing: maturin
+[2023-08-06 11:15:59] INFO root fetch - main [MainThread]: End processing [pyecosystem] error
+[2023-08-06 11:15:59] INFO root fetch - processPackages [badi-users]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [django-vite-plugin]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [devtools-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [randog]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 11:15:59] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/65/46/c648a1e0023f09b47a544f202fdc169a5d7b5802ddc4c2f17438b3b13457/open_interpreter-0.0.250.tar.gz
+[2023-08-06 11:15:59] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/4e/1c/e00002ea53d3bdf656c3afbe2eccbdd29f96be322331c9bcba4ab81223e7/janus_client-0.3.0.tar.gz
+[2023-08-06 11:15:59] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/96/81/be3f2da60b06e36c7a692111712d1c57db1e72c6eed387428dddd0e806f4/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-06 11:15:59] WARNING root fetch - processPackages [random-regex]: Skipping, unable to determine old version
+[2023-08-06 11:15:59] INFO root fetch - main [MainThread]: End processing [random-regex] error
+[2023-08-06 11:15:59] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/84/56/7d5b4d28cee897f8a2d7a6cb61314c507b0c8a627282f5392c1743b9c6b0/badi_users-1.1.5.tar.gz
+[2023-08-06 11:15:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/12/72/820588d3c8a03bea75fd5c3eb8d479670d02a29a8cd399af7005f0ff3d49/certora-cli-alpha-master-20230805.10.39.482907.tar.gz
+[2023-08-06 11:15:59] INFO root fetch - processPackages [devtools-cli]: Downloading https://files.pythonhosted.org/packages/06/d1/637286fb26e3e34c56ab58250e8a6bbfa141c5973316653dae216d332899/devtools_cli-0.1.2.tar.gz
+[2023-08-06 11:15:59] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37830350>=10485760
+[2023-08-06 11:15:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-06 11:15:59] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/df/8f/a0f5c7bcda3a1fb9cbd76ad259eb0a432cb04a74576fa8bcbfba38cf7575/randog-0.8.0.tar.gz
+[2023-08-06 11:15:59] INFO root fetch - processPackages [maturin]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-06 11:16:00] INFO root fetch - processPackages [django-vite-plugin]: Downloading https://files.pythonhosted.org/packages/42/23/a39f854b5ed6d7bb369216c71dfea4d0d618b0f547586f2a8e41c72c3819/django_vite_plugin-1.3.0.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/aa/9d/ba351126a5b6395c7b46db1c59469be833e5c1fa1ab42c25fbff4248a917/janus_client-0.4.0.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/c9/06/d241fa51d0588c4e9a449f84af2d6b262e2b87156e2f0df193ac5ec7f3de/open_interpreter-0.0.251.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [janus-client]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [janus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_client-0.3.0.tar.gz tmp/janus_client-0.4.0.tar.gz --markdown 20230806/j/janus-client/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.250.tar.gz tmp/open_interpreter-0.0.251.tar.gz --markdown 20230806/o/open-interpreter/0.0.250-0.0.251/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [devtools-cli]: Downloading https://files.pythonhosted.org/packages/68/82/15697d96be6d297328397fa8c2db7f3f6f68622144da616c6b9b631b5aeb/devtools_cli-0.1.3.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl.zip tmp/minecraft-python-160052.post1.tar.gz --markdown 20230806/m/minecraft-python/160052-160052.post1/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [maturin]: Downloading https://files.pythonhosted.org/packages/7b/78/2814bc0e46a96861aab337fd0404e7937acdb4ce187da239224ab4560d35/maturin-1.1.0.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/eb/24/a9abfda396572eb5b7156c03339b5b8e5723c8fca05211db25fe55b694ad/badi_users-1.1.6.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [devtools-cli]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [devtools-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devtools_cli-0.1.2.tar.gz tmp/devtools_cli-0.1.3.tar.gz --markdown 20230806/d/devtools-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [django-vite-plugin]: Downloading https://files.pythonhosted.org/packages/e6/7e/04d1e699ce0f4d65df7601b620fd07e84204a7e8a4fd814e9feb787872c7/django_vite_plugin-1.3.1.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/96/c4/579c41879f6cf64c0264a477ec851c4e68c39681281c4c9ed0a4cf178134/randog-0.9.0.tar.gz
+[2023-08-06 11:16:00] INFO root fetch - processPackages [django-vite-plugin]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [django-vite-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_vite_plugin-1.3.0.tar.gz tmp/django_vite_plugin-1.3.1.tar.gz --markdown 20230806/d/django-vite-plugin/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [randog]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [randog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randog-0.8.0.tar.gz tmp/randog-0.9.0.tar.gz --markdown 20230806/r/randog/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 11:16:00] INFO root fetch - processPackages [maturin]: Downloading https://files.pythonhosted.org/packages/73/a9/dc280978c737e3926c017e5525c8ad3a32a5e37a84514e9b94a75501d152/maturin-1.2.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl
+[2023-08-06 11:16:00] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-08-06 11:16:00] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.1.5.tar.gz tmp/badi_users-1.1.6.tar.gz --markdown 20230806/b/badi-users/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-08-06 11:16:01] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.3.0.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.4.0.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.250.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.251.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [janus-client]: success
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 11:16:01] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_python-160052-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2023-08-06 11:16:01] INFO root fetch - processPackages [devtools-cli]: Remove: archive file [/home/abi/fetcher/tmp/devtools_cli-0.1.2.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [devtools-cli]: Remove: archive file [/home/abi/fetcher/tmp/devtools_cli-0.1.3.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [devtools-cli]: success
+[2023-08-06 11:16:01] INFO root fetch - processPackages [django-vite-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_vite_plugin-1.3.0.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [django-vite-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_vite_plugin-1.3.1.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [django-vite-plugin]: success
+[2023-08-06 11:16:01] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.8.0.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.9.0.tar.gz]
+[2023-08-06 11:16:01] INFO root fetch - main [MainThread]: End processing [randog]: success
+[2023-08-06 11:16:02] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.5.tar.gz]
+[2023-08-06 11:16:02] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.6.tar.gz]
+[2023-08-06 11:16:02] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-08-06 11:16:04] INFO root fetch - processPackages [maturin]: executing diffoscope
+[2023-08-06 11:16:04] INFO root fetch - processPackages [maturin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maturin-1.1.0.tar.gz tmp/maturin-1.2.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl.zip --markdown 20230806/m/maturin/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-06 11:16:05] INFO root fetch - processPackages [maturin]: Remove: archive file [/home/abi/fetcher/tmp/maturin-1.1.0.tar.gz]
+[2023-08-06 11:16:05] INFO root fetch - processPackages [maturin]: Remove: archive file [/home/abi/fetcher/tmp/maturin-1.2.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl.zip]
+[2023-08-06 11:16:05] INFO root fetch - main [MainThread]: End processing [maturin]: success
+[2023-08-06 11:16:05] INFO root fetch - main [MainThread]: Store serial: [19192653]
