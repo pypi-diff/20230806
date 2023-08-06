@@ -9360,3 +9360,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 15:02:17] INFO root fetch - processPackages [launart]: Remove: archive file [/home/abi/fetcher/tmp/launart-0.7.0.tar.gz]
 [2023-08-06 15:02:17] INFO root fetch - main [MainThread]: End processing [launart]: success
 [2023-08-06 15:02:17] INFO root fetch - main [MainThread]: Store serial: [19193888]
+[2023-08-06 15:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19193888]
+[2023-08-06 15:07:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanoSQLite
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-redis-session-store
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainsyncer
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythoncolouringsmodsV2
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kate-vscode-snippetconverter
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-astrolab
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jlogr
+[2023-08-06 15:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-constant
+[2023-08-06 15:07:26] INFO root fetch - processPackages [jlogr]: New version: [0.1.200] Old Version: [0.1.19]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [nanoSQLite]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-06 15:07:26] WARNING root fetch - processPackages [pythoncolouringsmodsV2]: Skipping, unable to determine old version
+[2023-08-06 15:07:26] INFO root fetch - processPackages [pythoncolouringsmodsV2]: Start processing: sylk
+[2023-08-06 15:07:26] INFO root fetch - main [MainThread]: End processing [pythoncolouringsmodsV2] error
+[2023-08-06 15:07:26] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 15:07:26] WARNING root fetch - processPackages [django-redis-session-store]: Skipping, unable to determine old version
+[2023-08-06 15:07:26] INFO root fetch - processPackages [django-redis-session-store]: Start processing: Fletxible
+[2023-08-06 15:07:26] INFO root fetch - main [MainThread]: End processing [django-redis-session-store] error
+[2023-08-06 15:07:26] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/ad/fb/da47fdd6e21cb36a92ae4bc759beb7b4e9ca24ebc97adb295781986658d7/nanoSQLite-0.1.2.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [kate-vscode-snippetconverter]: New version: [0.3] Old Version: [0.2]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0f/ff/debe2060d9d8a0b24284e3d29f7cc372aac7d02ff27a3bc69cf9aa889b9b/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl
+[2023-08-06 15:07:26] WARNING root fetch - processPackages [django-constant]: Skipping, unable to determine old version
+[2023-08-06 15:07:26] INFO root fetch - processPackages [django-constant]: Start processing: YandexHome
+[2023-08-06 15:07:26] INFO root fetch - main [MainThread]: End processing [django-constant] error
+[2023-08-06 15:07:26] INFO root fetch - processPackages [chainsyncer]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/af/ff/8c673eda639902391bdaea8f0c7307f72a749cdece4f139ffa7cea0e2048/jlogr-0.1.19.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [sylk]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [Fletxible]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [YandexHome]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-06 15:07:26] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/78/99/af4c98505732a8286efa6cfde69280a34e576c567deddd1b5b8b08b43dd0/Fletxible-0.6.4.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/ff/d6/7dce86b80d592e594c294c792a1043ce1c64c034f1b02566fec98d898db6/YandexHome-0.0.3.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/e1/12/97ead885735e4eadb10e8c15f79106523da9a40ddb4d9a0ed9acab09605f/chainsyncer-0.7.2.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [kate-vscode-snippetconverter]: Downloading https://files.pythonhosted.org/packages/58/f3/99f039fbbd26bd5b52900370b5c1df380e08561828738287f95101672a33/kate-vscode-snippetconverter-0.2.tar.gz
+[2023-08-06 15:07:26] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/fe/f1/6e67effa532ced389f33e09a9ebc8d9b39b41fe61e5bdd9199b6e1e7c762/sylk-0.3.3-py3-none-any.whl
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nanoSQLite]: Downloading https://files.pythonhosted.org/packages/32/45/15989f826de26d86c4369036485821e652b9bf76f2a11b044b3dd4d1790f/nanoSQLite-1.0.0.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [jlogr]: Downloading https://files.pythonhosted.org/packages/de/9c/04a1386ad450c3e2d50eaf3e5a34c81fa0132dfeb4527080f5049917baf7/jlogr-0.1.200.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [YandexHome]: Downloading https://files.pythonhosted.org/packages/1d/f9/cdbaeca5d2798e1a5539f474374e8a9206a94aac588dd8b421d2d5bcbd99/YandexHome-0.1.0.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230806/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/f7/f7/efbd2ecf3e0bbcb43095c9293c55502451830ccf3022b8050ff8bdd73abf/Fletxible-0.6.5.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nanoSQLite]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nanoSQLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoSQLite-0.1.2.tar.gz tmp/nanoSQLite-1.0.0.tar.gz --markdown 20230806/n/nanoSQLite/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [chainsyncer]: Downloading https://files.pythonhosted.org/packages/e4/c7/09786e109c9569c3e4fc94c975cba88f46aafc55fe2cea0bdc3f3e6800ff/chainsyncer-0.8.0.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [kate-vscode-snippetconverter]: Downloading https://files.pythonhosted.org/packages/a7/bd/42cb6ad165be8ff691fe8d87123c4faeaa0cb0d0ba6d6946f8f924632866/kate-vscode-snippetconverter-0.3.tar.gz
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230806/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/00/3a/de59011abd0dc7540da13e46d6847a17fc381a30421b23b6c6b99b2f8064/fbgemm_gpu_nightly_cpu-2023.8.5-cp39-cp39-manylinux2014_aarch64.whl
+[2023-08-06 15:07:27] INFO root fetch - processPackages [jlogr]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [jlogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlogr-0.1.19.tar.gz tmp/jlogr-0.1.200.tar.gz --markdown 20230806/j/jlogr/0.1.19-0.1.200/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/9c/98/5e34f84bb7702fbae3c3ac3f5274395d156cce02726e9de18ead96f973d5/sylk-0.3.4-py3-none-any.whl
+[2023-08-06 15:07:27] INFO root fetch - processPackages [YandexHome]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [YandexHome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YandexHome-0.0.3.tar.gz tmp/YandexHome-0.1.0.tar.gz --markdown 20230806/Y/YandexHome/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.6.4.tar.gz tmp/Fletxible-0.6.5.tar.gz --markdown 20230806/F/Fletxible/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [chainsyncer]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [chainsyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainsyncer-0.7.2.tar.gz tmp/chainsyncer-0.8.0.tar.gz --markdown 20230806/c/chainsyncer/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [kate-vscode-snippetconverter]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [kate-vscode-snippetconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kate-vscode-snippetconverter-0.2.tar.gz tmp/kate-vscode-snippetconverter-0.3.tar.gz --markdown 20230806/k/kate-vscode-snippetconverter/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.3.3-py3-none-any.whl.zip tmp/sylk-0.3.4-py3-none-any.whl.zip --markdown 20230806/s/sylk/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 15:07:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-08-06 15:07:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.8.5-cp39-cp39-manylinux2014_aarch64.whl.zip --markdown 20230806/f/fbgemm-gpu-nightly-cpu/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-06 15:07:28] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-0.1.2.tar.gz]
+[2023-08-06 15:07:28] INFO root fetch - processPackages [nanoSQLite]: Remove: archive file [/home/abi/fetcher/tmp/nanoSQLite-1.0.0.tar.gz]
+[2023-08-06 15:07:28] INFO root fetch - processPackages [nanoSQLite]: Start processing: mqttasgi
+[2023-08-06 15:07:28] INFO root fetch - main [MainThread]: End processing [nanoSQLite]: success
+[2023-08-06 15:07:28] INFO root fetch - processPackages [mqttasgi]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-06 15:07:28] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-06 15:07:28] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-06 15:07:28] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [mqttasgi]: Downloading https://files.pythonhosted.org/packages/01/f8/bd8934d41728ccec2c32ce45e6f34f046c6ea63ead6768a263bac3457a0b/mqttasgi-1.2.2.tar.gz
+[2023-08-06 15:07:29] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.19.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [jlogr]: Remove: archive file [/home/abi/fetcher/tmp/jlogr-0.1.200.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [jlogr]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.4.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.6.5.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.7.2.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [chainsyncer]: Remove: archive file [/home/abi/fetcher/tmp/chainsyncer-0.8.0.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [chainsyncer]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.0.3.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [YandexHome]: Remove: archive file [/home/abi/fetcher/tmp/YandexHome-0.1.0.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [YandexHome]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [kate-vscode-snippetconverter]: Remove: archive file [/home/abi/fetcher/tmp/kate-vscode-snippetconverter-0.2.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [kate-vscode-snippetconverter]: Remove: archive file [/home/abi/fetcher/tmp/kate-vscode-snippetconverter-0.3.tar.gz]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [kate-vscode-snippetconverter]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2023-08-06 15:07:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.5-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2023-08-06 15:07:29] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-08-06 15:07:29] INFO root fetch - processPackages [mqttasgi]: Downloading https://files.pythonhosted.org/packages/34/25/c5ae2ae9caa89e3c6b14541644916957ace706899ca2e15bdf8aac46e873/mqttasgi-1.2.3.tar.gz
+[2023-08-06 15:07:29] INFO root fetch - processPackages [mqttasgi]: executing diffoscope
+[2023-08-06 15:07:29] INFO root fetch - processPackages [mqttasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttasgi-1.2.2.tar.gz tmp/mqttasgi-1.2.3.tar.gz --markdown 20230806/m/mqttasgi/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-06 15:07:30] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.3-py3-none-any.whl.zip]
+[2023-08-06 15:07:30] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.4-py3-none-any.whl.zip]
+[2023-08-06 15:07:30] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-08-06 15:07:30] INFO root fetch - processPackages [mqttasgi]: Remove: archive file [/home/abi/fetcher/tmp/mqttasgi-1.2.2.tar.gz]
+[2023-08-06 15:07:30] INFO root fetch - processPackages [mqttasgi]: Remove: archive file [/home/abi/fetcher/tmp/mqttasgi-1.2.3.tar.gz]
+[2023-08-06 15:07:30] INFO root fetch - main [MainThread]: End processing [mqttasgi]: success
+[2023-08-06 15:07:30] INFO root fetch - main [MainThread]: Store serial: [19193937]
