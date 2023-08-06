@@ -4549,3 +4549,54 @@
 [2023-08-06 08:24:04] INFO root fetch - processPackages [ch347api]: Remove: archive file [/home/abi/fetcher/tmp/ch347api-0.0.4.tar.gz]
 [2023-08-06 08:24:04] INFO root fetch - main [MainThread]: End processing [ch347api]: success
 [2023-08-06 08:24:04] INFO root fetch - main [MainThread]: Store serial: [19191571]
+[2023-08-06 08:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191571]
+[2023-08-06 08:29:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-ts
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noonbekhar
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cougar
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-batis
+[2023-08-06 08:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tftui
+[2023-08-06 08:29:13] INFO root fetch - processPackages [cougar]: New version: [0.2.14] Old Version: [0.2.0]
+[2023-08-06 08:29:13] INFO root fetch - processPackages [simple-ts]: New version: [0.8] Old Version: [0.7]
+[2023-08-06 08:29:13] INFO root fetch - processPackages [sqlx-batis]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-06 08:29:13] WARNING root fetch - processPackages [noonbekhar]: Skipping, unable to determine old version
+[2023-08-06 08:29:13] INFO root fetch - main [MainThread]: End processing [noonbekhar] error
+[2023-08-06 08:29:13] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/32/82/02714d464122b9091f3b7d9d387fa2b13b4cdd167adc9bf6486caf0041ea/cougar-0.2.0.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [tftui]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-06 08:29:13] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/46/27/bddde694d305e3c654ea9a7d2069605c3ad57c29abf4f167eecc9a789091/simple_ts-0.7.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230806] Old Version: [20230805]
+[2023-08-06 08:29:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/60/4e/473ef30fc700757b94fa6eed47652693e64de9b39ee7b86bb088a3b50818/fake-bpy-module-latest-20230805.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/c4/1d/96cc15af023a17604816da8a57274aea1fbe8a1d21ece5506d79dd69fbc2/sqlx-batis-1.1.1.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/84/72/62e976489b738c41a22a33d23db4eaca56ce47677fcf2fcef1422ff33ada/tftui-0.3.0.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/03/5f/9c94f799cd2edd38c0ce7c3768d4c3329f4753f4fc0122766016419c64ad/simple_ts-0.8.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/e2/6a/4a71ad0df34f3aea47fdfceeedefc4a9692e4cffb0d7e325f1fb9c1514a0/cougar-0.2.14-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-06 08:29:13] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-08-06 08:29:13] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.7.tar.gz tmp/simple_ts-0.8.tar.gz --markdown 20230806/s/simple-ts/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-06 08:29:13] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/15/ee/5100fb6554dbcdcc558fdf4d14a5ee84bd96d991ca4a96ff8f0f697d4e2f/sqlx-batis-1.1.2.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/bc/ba/66a5e471f8c18ad49fcc6e643f08df0e9bcb062a7631da481e61941cb6ed/fake-bpy-module-latest-20230806.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/6c/fa/8867c0ab110b55b7ca9bdb8d6073485af2ebbcb671ad7e94a605b5abe97b/tftui-0.3.1.tar.gz
+[2023-08-06 08:29:13] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 08:29:13] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.2.0.tar.gz tmp/cougar-0.2.14-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230806/c/cougar/0.2.0-0.2.14/diff.md --exclude *.pyd
+[2023-08-06 08:29:13] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-08-06 08:29:13] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-1.1.1.tar.gz tmp/sqlx-batis-1.1.2.tar.gz --markdown 20230806/s/sqlx-batis/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-06 08:29:14] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2023-08-06 08:29:14] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.3.0.tar.gz tmp/tftui-0.3.1.tar.gz --markdown 20230806/t/tftui/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-06 08:29:14] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-08-06 08:29:14] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230805.tar.gz tmp/fake-bpy-module-latest-20230806.tar.gz --markdown 20230806/f/fake-bpy-module-latest/20230805-20230806/diff.md --exclude *.pyd
+[2023-08-06 08:29:14] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.7.tar.gz]
+[2023-08-06 08:29:14] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.8.tar.gz]
+[2023-08-06 08:29:14] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-08-06 08:29:14] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.0.tar.gz]
+[2023-08-06 08:29:14] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.14-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-08-06 08:29:14] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 08:29:14] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-1.1.1.tar.gz]
+[2023-08-06 08:29:14] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-1.1.2.tar.gz]
+[2023-08-06 08:29:14] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-08-06 08:29:15] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.0.tar.gz]
+[2023-08-06 08:29:15] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.3.1.tar.gz]
+[2023-08-06 08:29:15] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2023-08-06 08:29:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230805.tar.gz]
+[2023-08-06 08:29:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230806.tar.gz]
+[2023-08-06 08:29:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-08-06 08:29:18] INFO root fetch - main [MainThread]: Store serial: [19191596]
