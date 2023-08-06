@@ -6278,3 +6278,15 @@
 [2023-08-06 10:54:57] INFO root fetch - processPackages [stdf-tamer]: Remove: archive file [/home/abi/fetcher/tmp/stdf_tamer-1.0.4.tar.gz]
 [2023-08-06 10:54:57] INFO root fetch - main [MainThread]: End processing [stdf-tamer]: success
 [2023-08-06 10:54:57] INFO root fetch - main [MainThread]: Store serial: [19192473]
+[2023-08-06 11:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192473]
+[2023-08-06 11:00:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-06 11:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsondatasave
+[2023-08-06 11:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noteblock-generator
+[2023-08-06 11:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rethge-torch
+[2023-08-06 11:00:07] WARNING root fetch - processPackages [jsondatasave]: Skipping, unable to determine old version
+[2023-08-06 11:00:07] INFO root fetch - main [MainThread]: End processing [jsondatasave] error
+[2023-08-06 11:00:07] WARNING root fetch - processPackages [rethge-torch]: Skipping, unable to determine old version
+[2023-08-06 11:00:07] INFO root fetch - main [MainThread]: End processing [rethge-torch] error
+[2023-08-06 11:00:07] WARNING root fetch - processPackages [noteblock-generator]: Skipping, unable to determine old version
+[2023-08-06 11:00:07] INFO root fetch - main [MainThread]: End processing [noteblock-generator] error
+[2023-08-06 11:00:07] INFO root fetch - main [MainThread]: Store serial: [19192481]
