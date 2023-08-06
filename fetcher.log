@@ -4306,3 +4306,36 @@
 [2023-08-06 07:58:08] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python_configuration-0.9.1.tar.gz]
 [2023-08-06 07:58:08] INFO root fetch - main [MainThread]: End processing [python-configuration]: success
 [2023-08-06 07:58:08] INFO root fetch - main [MainThread]: Store serial: [19191477]
+[2023-08-06 08:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191477]
+[2023-08-06 08:03:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 08:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjptools
+[2023-08-06 08:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wiz-craft
+[2023-08-06 08:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagworks-sdk
+[2023-08-06 08:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-ts
+[2023-08-06 08:03:17] INFO root fetch - processPackages [simple-ts]: New version: [0.8] Old Version: [0.7]
+[2023-08-06 08:03:17] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/46/27/bddde694d305e3c654ea9a7d2069605c3ad57c29abf4f167eecc9a789091/simple_ts-0.7.tar.gz
+[2023-08-06 08:03:17] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-08-06 08:03:17] INFO root fetch - processPackages [cjptools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-06 08:03:17] WARNING root fetch - processPackages [wiz-craft]: Skipping, unable to determine old version
+[2023-08-06 08:03:17] INFO root fetch - main [MainThread]: End processing [wiz-craft] error
+[2023-08-06 08:03:17] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/07/39/346581caa3bc8d0d53b5a25202cb0e384abdc9e82fee7f9421ba3f9f37e1/cjptools-0.1.6.tar.gz
+[2023-08-06 08:03:17] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/fd/40/19355c55af9a867c0821bbbb2f36b97df211d7886d248e68d8a8c68beaab/dagworks-sdk-0.0.11.tar.gz
+[2023-08-06 08:03:17] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/03/5f/9c94f799cd2edd38c0ce7c3768d4c3329f4753f4fc0122766016419c64ad/simple_ts-0.8.tar.gz
+[2023-08-06 08:03:17] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-08-06 08:03:17] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.7.tar.gz tmp/simple_ts-0.8.tar.gz --markdown 20230806/s/simple-ts/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-06 08:03:18] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/36/88/3d1bcd2e8c1a25ee41ad2a52e0975452e1d06344ae3a19a5c38efb819bb6/cjptools-0.1.7.tar.gz
+[2023-08-06 08:03:18] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/22/fa/aeb5fbd6e09ac1f9dbb37954f4f35866a82b1f4d21a43bd9f4868b5f06a8/dagworks-sdk-0.0.12.tar.gz
+[2023-08-06 08:03:18] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-06 08:03:18] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.6.tar.gz tmp/cjptools-0.1.7.tar.gz --markdown 20230806/c/cjptools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-06 08:03:18] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2023-08-06 08:03:18] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.0.11.tar.gz tmp/dagworks-sdk-0.0.12.tar.gz --markdown 20230806/d/dagworks-sdk/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-08-06 08:03:18] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.7.tar.gz]
+[2023-08-06 08:03:18] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.8.tar.gz]
+[2023-08-06 08:03:18] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-08-06 08:03:18] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.6.tar.gz]
+[2023-08-06 08:03:18] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.7.tar.gz]
+[2023-08-06 08:03:19] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-06 08:03:19] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.11.tar.gz]
+[2023-08-06 08:03:19] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.12.tar.gz]
+[2023-08-06 08:03:19] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2023-08-06 08:03:19] INFO root fetch - main [MainThread]: Store serial: [19191490]
