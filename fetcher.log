@@ -16830,3 +16830,41 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
 [2023-08-06 23:14:27] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
 [2023-08-06 23:14:27] INFO root fetch - main [MainThread]: Store serial: [19197251]
+[2023-08-06 23:19:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197251]
+[2023-08-06 23:19:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 23:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtviz
+[2023-08-06 23:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: highcharts-core
+[2023-08-06 23:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esentity
+[2023-08-06 23:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb_setup
+[2023-08-06 23:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: durkinza.cdk-networkfirewall-l2
+[2023-08-06 23:19:36] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-06 23:19:36] WARNING root fetch - processPackages [dtviz]: Skipping, unable to determine old version
+[2023-08-06 23:19:36] INFO root fetch - main [MainThread]: End processing [dtviz] error
+[2023-08-06 23:19:36] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-08-06 23:19:36] INFO root fetch - processPackages [lamindb_setup]: New version: [0.49.5] Old Version: [0.49.4]
+[2023-08-06 23:19:36] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 23:19:36] INFO root fetch - processPackages [highcharts-core]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-08-06 23:19:37] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/f9/e5/e80bac0fa7e4b0e8c19021d6d98f1697fe5d520d33b5f73eda730f3dbc56/lamindb_setup-0.49.4.tar.gz
+[2023-08-06 23:19:37] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/54/eb/72c0d2d280875a7ea5243584b10fbd7005384b6a6302ec7e450c59b8fdee/durkinza.cdk-networkfirewall-l2-0.0.4.tar.gz
+[2023-08-06 23:19:37] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-08-06 23:19:37] INFO root fetch - processPackages [highcharts-core]: Downloading https://files.pythonhosted.org/packages/54/94/7be8eb635ac9f85c0718f3308c47f14edcb5418a7293274180a2dbbb7c7c/highcharts_core-1.2.6.tar.gz
+[2023-08-06 23:19:37] WARNING root fetch - processPackages [highcharts-core]: Skipping package: exceeds size limit 11568384>=10485760
+[2023-08-06 23:19:37] INFO root fetch - main [MainThread]: End processing [highcharts-core] error
+[2023-08-06 23:19:37] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-08-06 23:19:37] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230806/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-06 23:19:37] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/2f/11/d9c64a4d380a56f319ec18828f98bc47f107625860c30121f34e0e48906f/lamindb_setup-0.49.5.tar.gz
+[2023-08-06 23:19:37] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/3c/66/78dd7414b9c3bac82baf2d7bf19b96fc72727b6ea8fd471e333ebd5f9f42/durkinza.cdk-networkfirewall-l2-0.0.5.tar.gz
+[2023-08-06 23:19:37] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-08-06 23:19:37] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.49.4.tar.gz tmp/lamindb_setup-0.49.5.tar.gz --markdown 20230806/l/lamindb_setup/0.49.4-0.49.5/diff.md --exclude *.pyd
+[2023-08-06 23:19:37] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: executing diffoscope
+[2023-08-06 23:19:37] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durkinza.cdk-networkfirewall-l2-0.0.4.tar.gz tmp/durkinza.cdk-networkfirewall-l2-0.0.5.tar.gz --markdown 20230806/d/durkinza.cdk-networkfirewall-l2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 23:19:38] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-08-06 23:19:38] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.4.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.5.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - main [MainThread]: End processing [durkinza.cdk-networkfirewall-l2]: success
+[2023-08-06 23:19:38] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.4.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.5.tar.gz]
+[2023-08-06 23:19:38] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-08-06 23:19:38] INFO root fetch - main [MainThread]: Store serial: [19197267]
