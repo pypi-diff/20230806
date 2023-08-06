@@ -12954,3 +12954,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 18:21:48] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.1.tar.gz]
 [2023-08-06 18:21:48] INFO root fetch - main [MainThread]: End processing [pyoverkiz]: success
 [2023-08-06 18:21:48] INFO root fetch - main [MainThread]: Store serial: [19195476]
+[2023-08-06 18:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19195476]
+[2023-08-06 18:26:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoclk
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seisfwi
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluezero
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: happy-python
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hapanapi
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceprob
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-interpreter
+[2023-08-06 18:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aporia
+[2023-08-06 18:26:56] INFO root fetch - processPackages [aporia]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-08-06 18:26:56] INFO root fetch - processPackages [happy-python]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-08-06 18:26:56] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.253] Old Version: [0.0.252]
+[2023-08-06 18:26:56] WARNING root fetch - processPackages [seisfwi]: Skipping, unable to determine old version
+[2023-08-06 18:26:56] INFO root fetch - main [MainThread]: End processing [seisfwi] error
+[2023-08-06 18:26:56] WARNING root fetch - processPackages [spaceprob]: Skipping, unable to determine old version
+[2023-08-06 18:26:56] INFO root fetch - main [MainThread]: End processing [spaceprob] error
+[2023-08-06 18:26:56] INFO root fetch - processPackages [happy-python]: Downloading https://files.pythonhosted.org/packages/24/52/ae0e952f0c4d58fc2128e5b7158d6b9a46d7e48016e2a42a3b1b149b7673/happy_python-0.3.6-py3-none-any.whl
+[2023-08-06 18:26:56] INFO root fetch - processPackages [bluezero]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-06 18:26:56] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/4b/35/e217fa7cd9ea63ee631aa0651f0e86d87c2e9ffaea30121f682cc59c1703/open_interpreter-0.0.252.tar.gz
+[2023-08-06 18:26:56] WARNING root fetch - processPackages [hapanapi]: Skipping, unable to determine old version
+[2023-08-06 18:26:56] INFO root fetch - main [MainThread]: End processing [hapanapi] error
+[2023-08-06 18:26:57] WARNING root fetch - processPackages [pyoclk]: Skipping, unable to determine old version
+[2023-08-06 18:26:57] INFO root fetch - main [MainThread]: End processing [pyoclk] error
+[2023-08-06 18:26:57] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/71/37/2fa5ab425dbdd474c5f6c78e7a9c1f3489f332a5a854f817cd5445e4a25e/aporia-3.4.0.tar.gz
+[2023-08-06 18:26:57] INFO root fetch - processPackages [bluezero]: Downloading https://files.pythonhosted.org/packages/9a/66/d4a92869ed2afd9483a65aff200b2ba0ca4365429bc9a836c5803ab876a5/bluezero-0.7.1.tar.gz
+[2023-08-06 18:26:57] INFO root fetch - processPackages [happy-python]: Downloading https://files.pythonhosted.org/packages/80/a0/c0416ac1c29d62f6236968411d8b85618e5e58c7e9211cfb85fbbe39b225/happy_python-0.4.0-py3-none-any.whl
+[2023-08-06 18:26:57] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/b2/c2/296e7e333b99dc5e4786ac8583cb4dd20c947b6ff29ad8f3b73ada609d88/open_interpreter-0.0.253.tar.gz
+[2023-08-06 18:26:57] INFO root fetch - processPackages [happy-python]: executing diffoscope
+[2023-08-06 18:26:57] INFO root fetch - processPackages [happy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_python-0.3.6-py3-none-any.whl.zip tmp/happy_python-0.4.0-py3-none-any.whl.zip --markdown 20230806/h/happy-python/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 18:26:57] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 18:26:57] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.252.tar.gz tmp/open_interpreter-0.0.253.tar.gz --markdown 20230806/o/open-interpreter/0.0.252-0.0.253/diff.md --exclude *.pyd
+[2023-08-06 18:26:57] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/74/19/34137c1a82c66ce7e19c872cc7fa6058e6254bd27dc0a1ff4179a617f397/aporia-3.5.0.tar.gz
+[2023-08-06 18:26:57] INFO root fetch - processPackages [bluezero]: Downloading https://files.pythonhosted.org/packages/67/e1/15fc417b9828d38aa8e09ba06df61d6889740fe45867510a781df9a8ba35/bluezero-0.8.0.tar.gz
+[2023-08-06 18:26:57] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-08-06 18:26:57] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.4.0.tar.gz tmp/aporia-3.5.0.tar.gz --markdown 20230806/a/aporia/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-08-06 18:26:57] INFO root fetch - processPackages [bluezero]: executing diffoscope
+[2023-08-06 18:26:57] INFO root fetch - processPackages [bluezero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluezero-0.7.1.tar.gz tmp/bluezero-0.8.0.tar.gz --markdown 20230806/b/bluezero/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-06 18:26:58] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.252.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.253.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 18:26:58] INFO root fetch - processPackages [happy-python]: Remove: archive file [/home/abi/fetcher/tmp/happy_python-0.3.6-py3-none-any.whl.zip]
+[2023-08-06 18:26:58] INFO root fetch - processPackages [happy-python]: Remove: archive file [/home/abi/fetcher/tmp/happy_python-0.4.0-py3-none-any.whl.zip]
+[2023-08-06 18:26:58] INFO root fetch - main [MainThread]: End processing [happy-python]: success
+[2023-08-06 18:26:58] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.4.0.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.5.0.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-08-06 18:26:58] INFO root fetch - processPackages [bluezero]: Remove: archive file [/home/abi/fetcher/tmp/bluezero-0.7.1.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - processPackages [bluezero]: Remove: archive file [/home/abi/fetcher/tmp/bluezero-0.8.0.tar.gz]
+[2023-08-06 18:26:58] INFO root fetch - main [MainThread]: End processing [bluezero]: success
+[2023-08-06 18:26:58] INFO root fetch - main [MainThread]: Store serial: [19195507]
