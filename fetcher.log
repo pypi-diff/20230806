@@ -6689,3 +6689,36 @@
 [2023-08-06 11:31:39] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
 [2023-08-06 11:31:39] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
 [2023-08-06 11:31:39] INFO root fetch - main [MainThread]: Store serial: [19192717]
+[2023-08-06 11:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192717]
+[2023-08-06 11:36:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 11:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YandexHome
+[2023-08-06 11:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upload-machine
+[2023-08-06 11:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: win-basic-tools
+[2023-08-06 11:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-08-06 11:36:48] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 11:36:48] WARNING root fetch - processPackages [YandexHome]: Skipping, unable to determine old version
+[2023-08-06 11:36:48] INFO root fetch - main [MainThread]: End processing [YandexHome] error
+[2023-08-06 11:36:48] INFO root fetch - processPackages [win-basic-tools]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-08-06 11:36:48] INFO root fetch - processPackages [upload-machine]: New version: [0.0.80] Old Version: [0.0.8]
+[2023-08-06 11:36:48] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 11:36:48] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-06 11:36:48] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 11:36:49] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/70/87/57580ba95ae0135ffa068800564775315436cede71a9dd4d8ebef18bd48c/win-basic-tools-0.3.4.tar.gz
+[2023-08-06 11:36:49] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 11:36:49] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 11:36:49] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/fa/c6/d9fb53d0680fc6f4bc3dc9dac355591ad171851910e94c1f55322baf82ce/upload_machine-0.0.80.tar.gz
+[2023-08-06 11:36:49] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/66/b7/81f1836bea1096bd7f3e518709f6314cb53cd6ddf9da857a47a304a28d92/win-basic-tools-0.4.0.tar.gz
+[2023-08-06 11:36:49] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 11:36:49] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.8.tar.gz tmp/upload_machine-0.0.80.tar.gz --markdown 20230806/u/upload-machine/0.0.8-0.0.80/diff.md --exclude *.pyd
+[2023-08-06 11:36:49] INFO root fetch - processPackages [win-basic-tools]: executing diffoscope
+[2023-08-06 11:36:49] INFO root fetch - processPackages [win-basic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win-basic-tools-0.3.4.tar.gz tmp/win-basic-tools-0.4.0.tar.gz --markdown 20230806/w/win-basic-tools/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-08-06 11:36:49] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 11:36:49] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 11:36:49] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 11:36:50] INFO root fetch - processPackages [win-basic-tools]: Remove: archive file [/home/abi/fetcher/tmp/win-basic-tools-0.3.4.tar.gz]
+[2023-08-06 11:36:50] INFO root fetch - processPackages [win-basic-tools]: Remove: archive file [/home/abi/fetcher/tmp/win-basic-tools-0.4.0.tar.gz]
+[2023-08-06 11:36:50] INFO root fetch - main [MainThread]: End processing [win-basic-tools]: success
+[2023-08-06 11:36:50] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-06 11:36:50] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.80.tar.gz]
+[2023-08-06 11:36:50] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 11:36:50] INFO root fetch - main [MainThread]: Store serial: [19192730]
