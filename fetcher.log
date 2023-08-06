@@ -3170,3 +3170,42 @@
 [2023-08-06 05:02:06] INFO root fetch - processPackages [pyLDLE2]: Remove: archive file [/home/abi/fetcher/tmp/pyLDLE2-0.1.9.tar.gz]
 [2023-08-06 05:02:06] INFO root fetch - main [MainThread]: End processing [pyLDLE2]: success
 [2023-08-06 05:02:06] INFO root fetch - main [MainThread]: Store serial: [19190933]
+[2023-08-06 05:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190933]
+[2023-08-06 05:07:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databroker
+[2023-08-06 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msplotter
+[2023-08-06 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hci-framework
+[2023-08-06 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sounderpy
+[2023-08-06 05:07:15] INFO root fetch - processPackages [hci-framework]: New version: [0.1a6] Old Version: [0.1a5]
+[2023-08-06 05:07:15] INFO root fetch - processPackages [sounderpy]: New version: [2.0] Old Version: [1.0.1]
+[2023-08-06 05:07:15] INFO root fetch - processPackages [msplotter]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-08-06 05:07:15] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/8e/35/eb4aa29a78d2a93245b697fe3ba7acfc4f50fa05a792069f4d7343abd7d7/msplotter-0.1.35.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/2a/22/04432516186858bd57e086c5a0567028b7029989d1a0581552fbfe3730e4/sounderpy-1.0.1.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [databroker]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-08-06 05:07:15] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/4a/fc/e864c4b73444abaff9a741bff146db881aa03013eb2fe04e6bb56515d03f/hci-framework-0.1a5.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [databroker]: Downloading https://files.pythonhosted.org/packages/80/1c/5a87734fbf67cac1c8e34133e8739152d55c2c8b22f99ef283532313c682/databroker-2.0.0b8.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/f5/ee/9d43f300989c53693b4394f7b9d5ccc34fe75d1b17d67623fb1c8160b822/msplotter-0.1.36.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [sounderpy]: Downloading https://files.pythonhosted.org/packages/ba/70/6b932e04847976eca1226658a63221e54dc3a8197a5b0ad142700feed850/sounderpy-2.0.tar.gz
+[2023-08-06 05:07:15] INFO root fetch - processPackages [msplotter]: executing diffoscope
+[2023-08-06 05:07:15] INFO root fetch - processPackages [msplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msplotter-0.1.35.tar.gz tmp/msplotter-0.1.36.tar.gz --markdown 20230806/m/msplotter/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-08-06 05:07:15] INFO root fetch - processPackages [sounderpy]: executing diffoscope
+[2023-08-06 05:07:15] INFO root fetch - processPackages [sounderpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sounderpy-1.0.1.tar.gz tmp/sounderpy-2.0.tar.gz --markdown 20230806/s/sounderpy/1.0.1-2.0/diff.md --exclude *.pyd
+[2023-08-06 05:07:16] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/4b/d2/d620587ab3b791dfd4e8d63c1b14175c28d4e5a7fc94edc239bac6ac5352/hci-framework-0.1a6.tar.gz
+[2023-08-06 05:07:16] INFO root fetch - processPackages [databroker]: Downloading https://files.pythonhosted.org/packages/10/e8/c5d012931f9841aee1a229e6e6fa9a63d305d74596cf6f8aa9b070cc1972/databroker-2.0.0b9.tar.gz
+[2023-08-06 05:07:16] INFO root fetch - processPackages [databroker]: executing diffoscope
+[2023-08-06 05:07:16] INFO root fetch - processPackages [databroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databroker-2.0.0b8.tar.gz tmp/databroker-2.0.0b9.tar.gz --markdown 20230806/d/databroker/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-08-06 05:07:16] INFO root fetch - processPackages [hci-framework]: executing diffoscope
+[2023-08-06 05:07:16] INFO root fetch - processPackages [hci-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hci-framework-0.1a5.tar.gz tmp/hci-framework-0.1a6.tar.gz --markdown 20230806/h/hci-framework/0.1a5-0.1a6/diff.md --exclude *.pyd
+[2023-08-06 05:07:16] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-1.0.1.tar.gz]
+[2023-08-06 05:07:16] INFO root fetch - processPackages [sounderpy]: Remove: archive file [/home/abi/fetcher/tmp/sounderpy-2.0.tar.gz]
+[2023-08-06 05:07:16] INFO root fetch - main [MainThread]: End processing [sounderpy]: success
+[2023-08-06 05:07:16] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.35.tar.gz]
+[2023-08-06 05:07:16] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.36.tar.gz]
+[2023-08-06 05:07:16] INFO root fetch - main [MainThread]: End processing [msplotter]: success
+[2023-08-06 05:07:17] INFO root fetch - processPackages [databroker]: Remove: archive file [/home/abi/fetcher/tmp/databroker-2.0.0b8.tar.gz]
+[2023-08-06 05:07:17] INFO root fetch - processPackages [databroker]: Remove: archive file [/home/abi/fetcher/tmp/databroker-2.0.0b9.tar.gz]
+[2023-08-06 05:07:17] INFO root fetch - main [MainThread]: End processing [databroker]: success
+[2023-08-06 05:07:19] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a5.tar.gz]
+[2023-08-06 05:07:19] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a6.tar.gz]
+[2023-08-06 05:07:19] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
+[2023-08-06 05:07:19] INFO root fetch - main [MainThread]: Store serial: [19190946]
