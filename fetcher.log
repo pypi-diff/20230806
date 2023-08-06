@@ -941,3 +941,45 @@
 [2023-08-06 01:58:40] INFO root fetch - processPackages [pytorch-ie]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ie-0.9.0.tar.gz]
 [2023-08-06 01:58:40] INFO root fetch - main [MainThread]: End processing [pytorch-ie]: success
 [2023-08-06 01:58:40] INFO root fetch - main [MainThread]: Store serial: [19189960]
+[2023-08-06 02:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189960]
+[2023-08-06 02:03:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audioldm2
+[2023-08-06 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanoSQLite
+[2023-08-06 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text2text
+[2023-08-06 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaraco.functools
+[2023-08-06 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-08-06 02:03:49] INFO root fetch - processPackages [audioldm2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 02:03:49] INFO root fetch - processPackages [text2text]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-08-06 02:03:49] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1691193763] Old Version: [1691107387]
+[2023-08-06 02:03:49] WARNING root fetch - processPackages [nanoSQLite]: Skipping, unable to determine old version
+[2023-08-06 02:03:49] INFO root fetch - main [MainThread]: End processing [nanoSQLite] error
+[2023-08-06 02:03:49] INFO root fetch - processPackages [jaraco.functools]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-08-06 02:03:49] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/9b/a2/74546f5d5bacc9fa5c9dc0028403d1c6ca86e1580bbff2b77901a1cf1b47/torchdatasets-nightly-1691107387.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/59/f2/5c9cfd0e79715653674241204719bd8882e98cf7bc89a3f9387dcd170883/text2text-1.2.7.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/77/0f/87b9f4d957469efe6d09542e956b1bd7bd3be01c89b638770e6a1132f286/audioldm2-0.0.7.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [jaraco.functools]: Downloading https://files.pythonhosted.org/packages/99/62/3c214a2a6143701690af6a6687f324af93f6cb0222eee6dddd8196fcfd05/jaraco.functools-3.8.0.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/8c/f3/779f1bd2243979f887b4587ffe21c69684832d648a40c4f9bc2a84f73303/torchdatasets-nightly-1691193763.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-06 02:03:49] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1691107387.tar.gz tmp/torchdatasets-nightly-1691193763.tar.gz --markdown 20230806/t/torchdatasets-nightly/1691107387-1691193763/diff.md --exclude *.pyd
+[2023-08-06 02:03:49] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/91/0f/f2d6d1c8b76fea8a518ff04b46f5382156082a414eb3aed6815e9b025ba9/text2text-1.2.8.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [jaraco.functools]: Downloading https://files.pythonhosted.org/packages/7f/52/1192cd48a506cd8da5d4db77eeb91c16c717eec0325fd2f83f8bdca50dfd/jaraco.functools-3.8.1.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-08-06 02:03:49] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.7.tar.gz tmp/text2text-1.2.8.tar.gz --markdown 20230806/t/text2text/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-08-06 02:03:49] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/2b/41/dddbe585addacebabfe6c1927428c6da5487d9efbbaa20842ab6411786cd/audioldm2-0.0.8.tar.gz
+[2023-08-06 02:03:49] INFO root fetch - processPackages [jaraco.functools]: executing diffoscope
+[2023-08-06 02:03:49] INFO root fetch - processPackages [jaraco.functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.functools-3.8.0.tar.gz tmp/jaraco.functools-3.8.1.tar.gz --markdown 20230806/j/jaraco.functools/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-08-06 02:03:50] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1691107387.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1691193763.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-06 02:03:50] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-06 02:03:50] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.7.tar.gz tmp/audioldm2-0.0.8.tar.gz --markdown 20230806/a/audioldm2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 02:03:50] INFO root fetch - processPackages [jaraco.functools]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.functools-3.8.0.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - processPackages [jaraco.functools]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.functools-3.8.1.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - main [MainThread]: End processing [jaraco.functools]: success
+[2023-08-06 02:03:50] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.7.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.8.tar.gz]
+[2023-08-06 02:03:50] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-08-06 02:03:51] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.7.tar.gz]
+[2023-08-06 02:03:51] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.8.tar.gz]
+[2023-08-06 02:03:51] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-06 02:03:51] INFO root fetch - main [MainThread]: Store serial: [19189979]
