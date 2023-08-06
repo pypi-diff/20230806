@@ -1565,3 +1565,42 @@
 [2023-08-06 02:30:35] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
 [2023-08-06 02:30:35] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-08-06 02:30:35] INFO root fetch - main [MainThread]: Store serial: [19190213]
+[2023-08-06 02:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190213]
+[2023-08-06 02:35:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-06 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-proxmox
+[2023-08-06 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accentdatabase
+[2023-08-06 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uhugo
+[2023-08-06 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specialist
+[2023-08-06 02:35:44] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 02:35:44] INFO root fetch - processPackages [uhugo]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-08-06 02:35:44] INFO root fetch - processPackages [accentdatabase]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 02:35:44] INFO root fetch - processPackages [specialist]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-06 02:35:44] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/33/c9/8ed833c22bffc245d9888e131af51f49ba1af619de80ce2889d07a4cd876/uhugo-1.1.7-py3-none-any.whl
+[2023-08-06 02:35:44] INFO root fetch - processPackages [specialist]: Downloading https://files.pythonhosted.org/packages/bb/69/3aeab1f908372be9a028bebbc16fe7a6d6f5ac69daf9f2d6a386231b06e6/specialist-0.5.1.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [accentdatabase]: Downloading https://files.pythonhosted.org/packages/29/1c/7db01a143ddbdc66d9e9b339262e8fbe68c0ade6bac32c98c64c5b7a3f36/accentdatabase-0.0.7.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [accentdatabase]: Downloading https://files.pythonhosted.org/packages/55/d2/1b1176955215a1fe975bc134a04e545d056735593391a187047f267afdd6/accentdatabase-0.0.8.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-08-06 02:35:44] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230806/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:35:44] INFO root fetch - processPackages [specialist]: Downloading https://files.pythonhosted.org/packages/72/a2/a7c777bf0866c34f5abb486c7e5c688a553da0e8a8b0cb75f0b85d5b8422/specialist-0.6.0.tar.gz
+[2023-08-06 02:35:44] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/b1/16/0951e63ca85ad019fd0315d2f5e2ac03eee77c298568d91080236e9b695d/uhugo-1.1.9-py3-none-any.whl
+[2023-08-06 02:35:44] INFO root fetch - processPackages [accentdatabase]: executing diffoscope
+[2023-08-06 02:35:44] INFO root fetch - processPackages [accentdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accentdatabase-0.0.7.tar.gz tmp/accentdatabase-0.0.8.tar.gz --markdown 20230806/a/accentdatabase/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 02:35:45] INFO root fetch - processPackages [specialist]: executing diffoscope
+[2023-08-06 02:35:45] INFO root fetch - processPackages [specialist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specialist-0.5.1.tar.gz tmp/specialist-0.6.0.tar.gz --markdown 20230806/s/specialist/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-06 02:35:45] INFO root fetch - processPackages [uhugo]: executing diffoscope
+[2023-08-06 02:35:45] INFO root fetch - processPackages [uhugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhugo-1.1.7-py3-none-any.whl.zip tmp/uhugo-1.1.9-py3-none-any.whl.zip --markdown 20230806/u/uhugo/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-08-06 02:35:45] INFO root fetch - processPackages [accentdatabase]: Remove: archive file [/home/abi/fetcher/tmp/accentdatabase-0.0.7.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - processPackages [accentdatabase]: Remove: archive file [/home/abi/fetcher/tmp/accentdatabase-0.0.8.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - main [MainThread]: End processing [accentdatabase]: success
+[2023-08-06 02:35:45] INFO root fetch - processPackages [specialist]: Remove: archive file [/home/abi/fetcher/tmp/specialist-0.5.1.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - processPackages [specialist]: Remove: archive file [/home/abi/fetcher/tmp/specialist-0.6.0.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - main [MainThread]: End processing [specialist]: success
+[2023-08-06 02:35:45] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-08-06 02:35:45] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-08-06 02:35:45] INFO root fetch - processPackages [uhugo]: Remove: archive file [/home/abi/fetcher/tmp/uhugo-1.1.7-py3-none-any.whl.zip]
+[2023-08-06 02:35:45] INFO root fetch - processPackages [uhugo]: Remove: archive file [/home/abi/fetcher/tmp/uhugo-1.1.9-py3-none-any.whl.zip]
+[2023-08-06 02:35:45] INFO root fetch - main [MainThread]: End processing [uhugo]: success
+[2023-08-06 02:35:45] INFO root fetch - main [MainThread]: Store serial: [19190225]
