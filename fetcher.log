@@ -3570,3 +3570,48 @@
 [2023-08-06 05:53:56] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
 [2023-08-06 05:53:56] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
 [2023-08-06 05:53:56] INFO root fetch - main [MainThread]: Store serial: [19191101]
+[2023-08-06 05:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191101]
+[2023-08-06 05:59:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HDRezka
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyrik
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcytestlib
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dukeai-lib
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huza
+[2023-08-06 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datclass
+[2023-08-06 05:59:05] INFO root fetch - processPackages [HDRezka]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-06 05:59:05] INFO root fetch - processPackages [dukeai-lib]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-06 05:59:05] WARNING root fetch - processPackages [zcytestlib]: Skipping, unable to determine old version
+[2023-08-06 05:59:05] INFO root fetch - main [MainThread]: End processing [zcytestlib] error
+[2023-08-06 05:59:05] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/12/06/cb5bc8332eb242bba69f2359786abd3b3fe113b92105a7a325ed68b420f1/HDRezka-3.0.1.tar.gz
+[2023-08-06 05:59:05] WARNING root fetch - processPackages [lyrik]: Skipping, unable to determine old version
+[2023-08-06 05:59:05] INFO root fetch - main [MainThread]: End processing [lyrik] error
+[2023-08-06 05:59:05] INFO root fetch - processPackages [datclass]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-06 05:59:05] INFO root fetch - processPackages [huza]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-08-06 05:59:05] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/69/51/0ce3c376cb50db2a42334309b1c457cdc444e8a5e4c9fac7e7d64791eed9/dukeai_lib-0.1.9.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/e7/bb/318c9c56e060332e7ef0510e65eae2a40a2dbb4b0174f04a8f0afb711348/HDRezka-3.0.2.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/a8/ca/a465baa3029d3198562a7b613cbebd2f07586b4649a4d6d11e48e448b015/datclass-0.2.3.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [HDRezka]: executing diffoscope
+[2023-08-06 05:59:06] INFO root fetch - processPackages [HDRezka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HDRezka-3.0.1.tar.gz tmp/HDRezka-3.0.2.tar.gz --markdown 20230806/H/HDRezka/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-06 05:59:06] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/c5/1a/6d6974ee7e40f139d02f12b26a71df41bd2af963d13fd149a63e2270cd91/dukeai_lib-0.2.0.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [dukeai-lib]: executing diffoscope
+[2023-08-06 05:59:06] INFO root fetch - processPackages [dukeai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukeai_lib-0.1.9.tar.gz tmp/dukeai_lib-0.2.0.tar.gz --markdown 20230806/d/dukeai-lib/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-06 05:59:06] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/91/0f/62c2d3fb4026fb6483ecc9384c67d834fde4ad4777974734144e79b89ebd/datclass-0.2.4.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [datclass]: executing diffoscope
+[2023-08-06 05:59:06] INFO root fetch - processPackages [datclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datclass-0.2.3.tar.gz tmp/datclass-0.2.4.tar.gz --markdown 20230806/d/datclass/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-06 05:59:06] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/1b/71/6fdb8c8dd57d5b83d26af79da72db27a539abf678b94fd33c6bdc001b7a4/huza-0.3.1.tar.gz
+[2023-08-06 05:59:06] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-08-06 05:59:06] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.9.tar.gz tmp/huza-0.3.1.tar.gz --markdown 20230806/h/huza/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-08-06 05:59:07] INFO root fetch - processPackages [HDRezka]: Remove: archive file [/home/abi/fetcher/tmp/HDRezka-3.0.1.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - processPackages [HDRezka]: Remove: archive file [/home/abi/fetcher/tmp/HDRezka-3.0.2.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - main [MainThread]: End processing [HDRezka]: success
+[2023-08-06 05:59:07] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.1.9.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.0.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - main [MainThread]: End processing [dukeai-lib]: success
+[2023-08-06 05:59:07] INFO root fetch - processPackages [datclass]: Remove: archive file [/home/abi/fetcher/tmp/datclass-0.2.3.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - processPackages [datclass]: Remove: archive file [/home/abi/fetcher/tmp/datclass-0.2.4.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - main [MainThread]: End processing [datclass]: success
+[2023-08-06 05:59:07] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.9.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.3.1.tar.gz]
+[2023-08-06 05:59:07] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-08-06 05:59:07] INFO root fetch - main [MainThread]: Store serial: [19191122]
