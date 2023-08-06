@@ -6626,3 +6626,45 @@
 [2023-08-06 11:21:18] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-08-06 11:21:18] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-08-06 11:21:18] INFO root fetch - main [MainThread]: Store serial: [19192691]
+[2023-08-06 11:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192691]
+[2023-08-06 11:26:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2023-08-06 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bandolier
+[2023-08-06 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-events
+[2023-08-06 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorshare
+[2023-08-06 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-08-06 11:26:27] INFO root fetch - processPackages [pypomes-events]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 11:26:27] INFO root fetch - processPackages [bandolier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-06 11:26:27] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/a9/88/ec7df88befc14a81fd38839b79469202e7991b95a432c4b0c0b95ff0128e/bandolier-0.0.8.tar.gz
+[2023-08-06 11:26:27] WARNING root fetch - processPackages [tensorshare]: Skipping, unable to determine old version
+[2023-08-06 11:26:27] INFO root fetch - main [MainThread]: End processing [tensorshare] error
+[2023-08-06 11:26:27] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-08-06 11:26:27] INFO root fetch - processPackages [pypomes-events]: Downloading https://files.pythonhosted.org/packages/06/a8/30dd1162ddde4b8d8e8ae1961b73f7eeb04f408541bdb21b6c371bba6fe5/pypomes_events-0.1.0.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/e5/b0/3e9bdaf3bd7a94d5ff16ff85b9255bf3500a66b592fd53ca7c076f4eda1d/bandolier-0.0.9.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [bandolier]: executing diffoscope
+[2023-08-06 11:26:27] INFO root fetch - processPackages [bandolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandolier-0.0.8.tar.gz tmp/bandolier-0.0.9.tar.gz --markdown 20230806/b/bandolier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-06 11:26:27] INFO root fetch - processPackages [pypomes-events]: Downloading https://files.pythonhosted.org/packages/30/b1/0a0733a67b6e01852dec6b7a279bac13c5e8a57c0787b928c45c2b5875cb/pypomes_events-0.1.1.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-06 11:26:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-08-06 11:26:27] INFO root fetch - processPackages [pypomes-events]: executing diffoscope
+[2023-08-06 11:26:27] INFO root fetch - processPackages [pypomes-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_events-0.1.0.tar.gz tmp/pypomes_events-0.1.1.tar.gz --markdown 20230806/p/pypomes-events/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 11:26:27] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-08-06 11:26:27] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230806/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-08-06 11:26:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-06 11:26:28] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-06 11:26:28] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230806/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-06 11:26:28] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.8.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.9.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - main [MainThread]: End processing [bandolier]: success
+[2023-08-06 11:26:28] INFO root fetch - processPackages [pypomes-events]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_events-0.1.0.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - processPackages [pypomes-events]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_events-0.1.1.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - main [MainThread]: End processing [pypomes-events]: success
+[2023-08-06 11:26:28] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-06 11:26:28] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-06 11:26:29] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-08-06 11:26:29] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-08-06 11:26:29] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-08-06 11:26:29] INFO root fetch - main [MainThread]: Store serial: [19192712]
