@@ -5527,3 +5527,60 @@
 [2023-08-06 09:47:22] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-08-06 09:47:22] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-08-06 09:47:22] INFO root fetch - main [MainThread]: Store serial: [19192118]
+[2023-08-06 09:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192118]
+[2023-08-06 09:52:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amdgpu-stats
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gyoza
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-08-06 09:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dprox
+[2023-08-06 09:52:30] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:52:30] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:52:30] INFO root fetch - processPackages [gyoza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 09:52:30] INFO root fetch - processPackages [dprox]: New version: [0.2] Old Version: [0.1.3]
+[2023-08-06 09:52:30] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 09:52:30] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-06 09:52:30] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-06 09:52:31] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/2e/09/ff40bc97909fbf5a75b0436219aea6a898dc334fa2c7f53105451297037a/gyoza-0.0.7.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [dprox]: Downloading https://files.pythonhosted.org/packages/44/ff/ba5ec947aaf6d20559607535db9376afead628b88fef553db8a3f31aac63/dprox-0.1.3.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/53/e6/b122ed912f1ef3d0228aaed34ffabced48ad4ee45c5ed02b9275d10c6e40/amdgpu_stats-0.1.8.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ab/5a/8579ad9897b0b47d8d06e44edcc38ef1fe10142f7401e433e54936cf92f5/tf_nightly_cpu-2.15.0.dev20230805-cp39-cp39-win_amd64.whl
+[2023-08-06 09:52:31] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-06 09:52:31] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:52:31] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:52:31] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/f9/78/6e904ef3866f600967d8b45048ec6d579f0fa7d92ba95564fbbb2616b827/gyoza-0.0.8.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [dprox]: Downloading https://files.pythonhosted.org/packages/e0/39/e6d922a92aeb542eae477b9b099c03eb5ab2eb77eca83bf4e0d5bbb1dee4/dprox-0.2.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d8/93/0c7928ecbb9b62a6a84d3232bab424ae9c19dee2f9251a5be6ff6cd54b41/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl
+[2023-08-06 09:52:31] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/9f/f4/e27175fd77494c3165056152232c389c88abedd5192b50b1426e5c1f004b/amdgpu_stats-0.1.9.tar.gz
+[2023-08-06 09:52:31] INFO root fetch - processPackages [gyoza]: executing diffoscope
+[2023-08-06 09:52:31] INFO root fetch - processPackages [gyoza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyoza-0.0.7.tar.gz tmp/gyoza-0.0.8.tar.gz --markdown 20230806/g/gyoza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 09:52:31] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-06 09:52:31] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-06 09:52:31] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.15.0.dev20230805-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip --markdown 20230806/t/tf-nightly-cpu/2.15.0.dev20230805-2.15.0.dev20230806/diff.md --exclude *.pyd
+[2023-08-06 09:52:31] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-08-06 09:52:31] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.8.tar.gz tmp/amdgpu_stats-0.1.9.tar.gz --markdown 20230806/a/amdgpu-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 09:52:31] INFO root fetch - processPackages [dprox]: executing diffoscope
+[2023-08-06 09:52:31] INFO root fetch - processPackages [dprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dprox-0.1.3.tar.gz tmp/dprox-0.2.tar.gz --markdown 20230806/d/dprox/0.1.3-0.2/diff.md --exclude *.pyd
+[2023-08-06 09:52:32] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-06 09:52:32] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230806/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-06 09:52:32] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.7.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.8.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - main [MainThread]: End processing [gyoza]: success
+[2023-08-06 09:52:32] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:52:32] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230805-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 09:52:32] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip]
+[2023-08-06 09:52:32] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-06 09:52:32] INFO root fetch - processPackages [amdgpu-stats]: Remove: archive file [/home/abi/fetcher/tmp/amdgpu_stats-0.1.8.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - processPackages [amdgpu-stats]: Remove: archive file [/home/abi/fetcher/tmp/amdgpu_stats-0.1.9.tar.gz]
+[2023-08-06 09:52:32] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-08-06 09:52:33] INFO root fetch - processPackages [dprox]: Remove: archive file [/home/abi/fetcher/tmp/dprox-0.1.3.tar.gz]
+[2023-08-06 09:52:33] INFO root fetch - processPackages [dprox]: Remove: archive file [/home/abi/fetcher/tmp/dprox-0.2.tar.gz]
+[2023-08-06 09:52:33] INFO root fetch - main [MainThread]: End processing [dprox]: success
+[2023-08-06 09:52:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-06 09:52:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-06 09:52:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-06 09:52:35] INFO root fetch - main [MainThread]: Store serial: [19192137]
