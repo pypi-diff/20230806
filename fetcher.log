@@ -14547,3 +14547,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:17:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-06 20:17:36] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-06 20:17:36] INFO root fetch - main [MainThread]: Store serial: [19196265]
+[2023-08-06 20:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196265]
+[2023-08-06 20:22:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playht
+[2023-08-06 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enterprise-platform-runtime
+[2023-08-06 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimesis
+[2023-08-06 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superagent-py
+[2023-08-06 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wordpress-markdown-blog-loader
+[2023-08-06 20:22:45] WARNING root fetch - processPackages [enterprise-platform-runtime]: Skipping, unable to determine old version
+[2023-08-06 20:22:45] INFO root fetch - main [MainThread]: End processing [enterprise-platform-runtime] error
+[2023-08-06 20:22:45] INFO root fetch - processPackages [mimesis]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-08-06 20:22:45] WARNING root fetch - processPackages [playht]: Skipping, unable to determine old version
+[2023-08-06 20:22:45] INFO root fetch - main [MainThread]: End processing [playht] error
+[2023-08-06 20:22:45] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/11/c3/63f9ae346af2a23876aba1aab2b65934ac4b9c65ddf6af5e89c93c492cf4/mimesis-8.0.0.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [superagent-py]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-08-06 20:22:45] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-06 20:22:45] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/a4/bf/e8462dc29daf25ff370ed151bbfd795bb6233e8d49275b21e05f2575252a/superagent_py-0.0.42.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/ab/34/8236b2ded49f5e28d7c4dfd35b840643841d2e6421b73c1943c53a6ce1b8/wordpress-markdown-blog-loader-1.1.0.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/74/f4/34b8f193a24f5ed60e1c38836a3d3ff7fc7f321c0a3e00340f7070ea1a5c/mimesis-9.0.0.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/c7/ef/bd750739dc48bef65480e68c5797438f4953e8d7cb7a54bb5f679208e6ed/superagent_py-0.0.43.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Downloading https://files.pythonhosted.org/packages/23/42/9e40933ca2cbd98ff10f9ad9ccbc6f5cca19df581f6389d0e9b520b9c7d6/wordpress-markdown-blog-loader-1.1.1.tar.gz
+[2023-08-06 20:22:45] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-06 20:22:45] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.42.tar.gz tmp/superagent_py-0.0.43.tar.gz --markdown 20230806/s/superagent-py/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-08-06 20:22:46] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: executing diffoscope
+[2023-08-06 20:22:46] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordpress-markdown-blog-loader-1.1.0.tar.gz tmp/wordpress-markdown-blog-loader-1.1.1.tar.gz --markdown 20230806/w/wordpress-markdown-blog-loader/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-06 20:22:46] INFO root fetch - processPackages [mimesis]: executing diffoscope
+[2023-08-06 20:22:46] INFO root fetch - processPackages [mimesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimesis-8.0.0.tar.gz tmp/mimesis-9.0.0.tar.gz --markdown 20230806/m/mimesis/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-08-06 20:22:46] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.42.tar.gz]
+[2023-08-06 20:22:46] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.43.tar.gz]
+[2023-08-06 20:22:46] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-06 20:22:46] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.0.tar.gz]
+[2023-08-06 20:22:46] INFO root fetch - processPackages [wordpress-markdown-blog-loader]: Remove: archive file [/home/abi/fetcher/tmp/wordpress-markdown-blog-loader-1.1.1.tar.gz]
+[2023-08-06 20:22:46] INFO root fetch - main [MainThread]: End processing [wordpress-markdown-blog-loader]: success
+[2023-08-06 20:22:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-8.0.0.tar.gz]
+[2023-08-06 20:22:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
+[2023-08-06 20:22:48] INFO root fetch - main [MainThread]: End processing [mimesis]: success
+[2023-08-06 20:22:48] INFO root fetch - main [MainThread]: Store serial: [19196280]
