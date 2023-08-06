@@ -5325,3 +5325,94 @@
 [2023-08-06 09:31:46] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
 [2023-08-06 09:31:46] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
 [2023-08-06 09:31:46] INFO root fetch - main [MainThread]: Store serial: [19192025]
+[2023-08-06 09:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192025]
+[2023-08-06 09:36:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjptools
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-macos
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atksh-utils
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bandolier
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-unity
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyimporters-csv
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lalsuite
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypdf
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pwnic
+[2023-08-06 09:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stigg-api-client-v2
+[2023-08-06 09:36:54] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pypdf]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [atksh-utils]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [cjptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 09:36:55] WARNING root fetch - processPackages [flask-unity]: Skipping, unable to determine old version
+[2023-08-06 09:36:55] INFO root fetch - processPackages [flask-unity]: Start processing: stigg-api-client
+[2023-08-06 09:36:55] INFO root fetch - main [MainThread]: End processing [flask-unity] error
+[2023-08-06 09:36:55] WARNING root fetch - processPackages [bandolier]: Skipping, unable to determine old version
+[2023-08-06 09:36:55] INFO root fetch - processPackages [bandolier]: Start processing: bandolier
+[2023-08-06 09:36:55] INFO root fetch - main [MainThread]: End processing [bandolier] error
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.523.0] Old Version: [0.522.0]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pwnic]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [bandolier]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/d0/c7/4ed3eddc40b2fefc6efde395709fc9103bfbe68a0416d2050314ed45cd6d/cjptools-0.1.8.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client]: New version: [0.523.0] Old Version: [0.522.0]
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/45/60/901e3d41bcfeb8e34a95861cf8f51e97c9f7f88d4bbcc562b33e5fd6aa88/stigg_api_client_v2-0.522.0.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d9/4d/1a3159436e6b1672dfe4e201e1516d4dab358170e8115b8dd188f746f86b/atksh-utils-0.3.3.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/58/b7/63717fa462e8f54e66e460d95092e242d66d628e885773f4348e50faf0dd/pypdf-3.9.0.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/35/68/ef65fb6d05cc7f77f2200ec30cd418d2177ac1a435bc63e839c290c1502b/stigg_api_client-0.522.0.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/8a/e3/caa76eccf8c8e8646311ca0f3099f0ce7dfed0290b0261e98e495ce16786/tf_nightly_macos-2.15.0.dev20230804-cp39-cp39-macosx_12_0_arm64.whl
+[2023-08-06 09:36:55] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 09:36:55] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/73/5a/c4ff1f4dd09871ca476dfeddb74be9f155c76aad93d8fca426836f1fcffc/bandolier-0.0.6.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/6d/73/14ae9ea69ac7b4f9ddf3683f29f9a65c9b5d112175b174a33ae3512ebf3e/stigg_api_client_v2-0.523.0.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pwnic]: Downloading https://files.pythonhosted.org/packages/6f/08/657aeafc7d33112eb626593af4f5eae422f2bf9cd5907794112943b8a539/pwnic-0.4.0.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/de/8c/5830ba89cd52df7c6a083133fe74269696910ad12c3d1b523ad87497eda5/atksh-utils-0.3.4.tar.gz
+[2023-08-06 09:36:55] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-06 09:36:55] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/e7/94/6bfb795d2f5af7e98a2cc7efe63d96b1a1cf0918182facde384cf57a1d13/cjptools-0.1.9.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/a8/7e/3487e242c5e0d3992c2e79107a0e3cc49bdb811afd8147c3e8efd9b04b10/stigg_api_client-0.523.0.tar.gz
+[2023-08-06 09:36:55] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199976229>=10485760
+[2023-08-06 09:36:55] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/84/46/50c317477ccd23979b7e18847d2c58c8fca89b0db41670bc819710aab26a/pypdf-3.9.1.tar.gz
+[2023-08-06 09:36:55] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.522.0.tar.gz tmp/stigg_api_client_v2-0.523.0.tar.gz --markdown 20230806/s/stigg-api-client-v2/0.522.0-0.523.0/diff.md --exclude *.pyd
+[2023-08-06 09:36:55] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-08-06 09:36:55] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.3.3.tar.gz tmp/atksh-utils-0.3.4.tar.gz --markdown 20230806/a/atksh-utils/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:36:55] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:36:55] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-08-06 09:36:55] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.8.tar.gz tmp/cjptools-0.1.9.tar.gz --markdown 20230806/c/cjptools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 09:36:56] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/d6/2d/e55bf164e956c2f297bd3c81fa05cc328080fab36fae73ea0084df771002/bandolier-0.0.7.tar.gz
+[2023-08-06 09:36:56] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-08-06 09:36:56] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.522.0.tar.gz tmp/stigg_api_client-0.523.0.tar.gz --markdown 20230806/s/stigg-api-client/0.522.0-0.523.0/diff.md --exclude *.pyd
+[2023-08-06 09:36:56] INFO root fetch - processPackages [pwnic]: Downloading https://files.pythonhosted.org/packages/66/b1/01ad6cb878a2cc886badeed4269897e7ec987d8d8f5cbe55a3a8377b7d81/pwnic-0.5.0.tar.gz
+[2023-08-06 09:36:56] INFO root fetch - processPackages [pypdf]: executing diffoscope
+[2023-08-06 09:36:56] INFO root fetch - processPackages [pypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdf-3.9.0.tar.gz tmp/pypdf-3.9.1.tar.gz --markdown 20230806/p/pypdf/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-06 09:36:56] INFO root fetch - processPackages [bandolier]: executing diffoscope
+[2023-08-06 09:36:56] INFO root fetch - processPackages [bandolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandolier-0.0.6.tar.gz tmp/bandolier-0.0.7.tar.gz --markdown 20230806/b/bandolier/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-06 09:36:56] INFO root fetch - processPackages [pwnic]: executing diffoscope
+[2023-08-06 09:36:56] INFO root fetch - processPackages [pwnic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwnic-0.4.0.tar.gz tmp/pwnic-0.5.0.tar.gz --markdown 20230806/p/pwnic/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-06 09:36:57] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.8.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.9.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.3.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.3.4.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pwnic]: Remove: archive file [/home/abi/fetcher/tmp/pwnic-0.4.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pwnic]: Remove: archive file [/home/abi/fetcher/tmp/pwnic-0.5.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [pwnic]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.522.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.523.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.522.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.523.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.6.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.0.7.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [bandolier]: success
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.0.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: End processing [pypdf]: success
+[2023-08-06 09:36:57] INFO root fetch - main [MainThread]: Store serial: [19192073]
