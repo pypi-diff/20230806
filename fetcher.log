@@ -1947,3 +1947,70 @@
 [2023-08-06 02:54:25] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip]
 [2023-08-06 02:54:25] INFO root fetch - main [MainThread]: End processing [pycde]: success
 [2023-08-06 02:54:25] INFO root fetch - main [MainThread]: Store serial: [19190367]
+[2023-08-06 02:59:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19190367]
+[2023-08-06 02:59:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BeyotekTools
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aemcmc-nightly
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voicebox-pytorch
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satdigitalinvoice
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: search-youtube-url
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satdigitalinvoice
+[2023-08-06 02:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medisearch-client
+[2023-08-06 02:59:47] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [medisearch-client]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/cd/4e/1a3608a032410ffcc4fa8f894611569b1bec6ed4883a0fbe1b4141b68045/voicebox-pytorch-0.0.4.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [BeyotekTools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-06 02:59:47] WARNING root fetch - processPackages [search-youtube-url]: Skipping, unable to determine old version
+[2023-08-06 02:59:47] INFO root fetch - main [MainThread]: End processing [search-youtube-url] error
+[2023-08-06 02:59:47] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230806] Old Version: [0.0.8.dev20230805]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/c7/d1/0c1ee4b45b9b010f069c54411fe3adda8fb64dcba14081a6997ffdbf833a/medisearch_client-0.1.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-06 02:59:47] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/68/48/28fb03049a59fd81f1dfc906135b7dd4421018de716aaf9a9c0026430bc1/BeyotekTools-0.0.7.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/c3/1d/8727ec15ee21153a0a1790c9b0691f7436e30bd7a5b3ed548972aeb7df8a/aemcmc-nightly-0.0.8.dev20230805.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/2f/e2/6c46a63a03246e0a07d75c5bf3380ec1edb09f8d58dc7defa13bee4aea63/voicebox-pytorch-0.0.5.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-06 02:59:47] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.4.tar.gz tmp/voicebox-pytorch-0.0.5.tar.gz --markdown 20230806/v/voicebox-pytorch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-06 02:59:47] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/28/92/f5f6ed2c62cc856a12dde9c7bcb481aaf904dceffb7e2dbe1735122657c9/satdigitalinvoice-4.0.8.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/28/92/f5f6ed2c62cc856a12dde9c7bcb481aaf904dceffb7e2dbe1735122657c9/satdigitalinvoice-4.0.8.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/7b/bd/043f8fe4b7e6bb115179a2bef62fd7e11886c3037edd7f071de34cddd61f/medisearch_client-0.1.1.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/94/5f/5a4a26aa12e6e724c00a3323fd0b70a8909079c3e5c35f513ea366a36334/aemcmc-nightly-0.0.8.dev20230806.tar.gz
+[2023-08-06 02:59:47] INFO root fetch - processPackages [medisearch-client]: executing diffoscope
+[2023-08-06 02:59:47] INFO root fetch - processPackages [medisearch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisearch_client-0.1.tar.gz tmp/medisearch_client-0.1.1.tar.gz --markdown 20230806/m/medisearch-client/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 02:59:47] INFO root fetch - processPackages [BeyotekTools]: Downloading https://files.pythonhosted.org/packages/b3/5e/7d81c95b19493893be169c4cd699cbb2af0a119214a9bc53bf6320a8464c/BeyotekTools-0.0.8.tar.gz
+[2023-08-06 02:59:48] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-08-06 02:59:48] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230805.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230806.tar.gz --markdown 20230806/a/aemcmc-nightly/0.0.8.dev20230805-0.0.8.dev20230806/diff.md --exclude *.pyd
+[2023-08-06 02:59:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-06 02:59:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230806/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-06 02:59:48] INFO root fetch - processPackages [BeyotekTools]: executing diffoscope
+[2023-08-06 02:59:48] INFO root fetch - processPackages [BeyotekTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeyotekTools-0.0.7.tar.gz tmp/BeyotekTools-0.0.8.tar.gz --markdown 20230806/B/BeyotekTools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/1a/07/18499f0fbdff5f82557c963b927665a23d3c386ead777422ab7b32937dcd/satdigitalinvoice-4.0.9.tar.gz
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/1a/07/18499f0fbdff5f82557c963b927665a23d3c386ead777422ab7b32937dcd/satdigitalinvoice-4.0.9.tar.gz
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.8.tar.gz tmp/satdigitalinvoice-4.0.9.tar.gz --markdown 20230806/s/satdigitalinvoice/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-08-06 02:59:48] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.8.tar.gz tmp/satdigitalinvoice-4.0.9.tar.gz --markdown 20230806/s/satdigitalinvoice/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-06 02:59:48] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.4.tar.gz]
+[2023-08-06 02:59:48] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.5.tar.gz]
+[2023-08-06 02:59:48] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-06 02:59:48] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.tar.gz]
+[2023-08-06 02:59:48] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.1.tar.gz]
+[2023-08-06 02:59:48] INFO root fetch - main [MainThread]: End processing [medisearch-client]: success
+[2023-08-06 02:59:49] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.7.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - processPackages [BeyotekTools]: Remove: archive file [/home/abi/fetcher/tmp/BeyotekTools-0.0.8.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [BeyotekTools]: success
+[2023-08-06 02:59:49] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230805.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230806.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-08-06 02:59:49] INFO root fetch - processPackages [satdigitalinvoice]: Remove: archive file [/home/abi/fetcher/tmp/satdigitalinvoice-4.0.8.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - processPackages [satdigitalinvoice]: Remove: archive file [/home/abi/fetcher/tmp/satdigitalinvoice-4.0.9.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-08-06 02:59:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-06 02:59:49] INFO root fetch - main [MainThread]: Store serial: [19190398]
