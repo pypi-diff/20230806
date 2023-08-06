@@ -16809,3 +16809,24 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-06 23:09:16] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.4.tar.gz]
 [2023-08-06 23:09:16] INFO root fetch - main [MainThread]: End processing [sdr]: success
 [2023-08-06 23:09:16] INFO root fetch - main [MainThread]: Store serial: [19197245]
+[2023-08-06 23:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19197245]
+[2023-08-06 23:14:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-06 23:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-interpreter
+[2023-08-06 23:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_bionty
+[2023-08-06 23:14:26] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.269] Old Version: [0.0.268]
+[2023-08-06 23:14:26] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/68/fe/a7ed3b88f0b28433c7f300b2431a143a9691da3256def50f905f0f7dbe3c/open_interpreter-0.0.268.tar.gz
+[2023-08-06 23:14:26] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-06 23:14:26] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-08-06 23:14:26] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/43/96/481993b45fbbe9926c7ee412a04b4cf0704db5795306d34fb898f07328d6/open_interpreter-0.0.269.tar.gz
+[2023-08-06 23:14:26] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-06 23:14:26] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.268.tar.gz tmp/open_interpreter-0.0.269.tar.gz --markdown 20230806/o/open-interpreter/0.0.268-0.0.269/diff.md --exclude *.pyd
+[2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230806/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 23:14:27] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.268.tar.gz]
+[2023-08-06 23:14:27] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.269.tar.gz]
+[2023-08-06 23:14:27] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-08-06 23:14:27] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-08-06 23:14:27] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-08-06 23:14:27] INFO root fetch - main [MainThread]: Store serial: [19197251]
