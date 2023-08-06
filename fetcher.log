@@ -3777,3 +3777,51 @@
 [2023-08-06 06:25:00] INFO root fetch - processPackages [ghast-scanner]: Remove: archive file [/home/abi/fetcher/tmp/ghast_scanner-1.6.7.tar.gz]
 [2023-08-06 06:25:00] INFO root fetch - main [MainThread]: End processing [ghast-scanner]: success
 [2023-08-06 06:25:00] INFO root fetch - main [MainThread]: Store serial: [19191181]
+[2023-08-06 06:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191181]
+[2023-08-06 06:30:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-06 06:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auth-lib-profcomff
+[2023-08-06 06:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-onebot
+[2023-08-06 06:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medisearch-client
+[2023-08-06 06:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-kanonbot
+[2023-08-06 06:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: option-trader
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-08-06 06:30:09] INFO root fetch - processPackages [medisearch-client]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-08-06 06:30:09] INFO root fetch - processPackages [option-trader]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Downloading https://files.pythonhosted.org/packages/3b/24/02e9384b45fa87f9757249be52eea20caef2639226fc44d1e074544b7ccd/nonebot_plugin_kanonbot-0.0.1b1.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-adapter-onebot]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-08-06 06:30:09] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2023.8.6] Old Version: [2023.7.9.1]
+[2023-08-06 06:30:09] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/a1/02/e56fa73ed4166520c44b443394054fafffc770b8e0dd1526a89799330538/medisearch_client-0.1.5.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/de/85/57ddc1ed1461fa342b54c9e048301b9bc75d2af50f6d45a09e31edaec02f/option_trader-0.2.1.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/9e/53/031e7992ac7947f96322f25acf9bfcb83948ce1fe54ac3d061e7da1bad32/auth_lib_profcomff-2023.7.9.1.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Downloading https://files.pythonhosted.org/packages/5b/f0/4b26c18f81ae50c222d216c124008c2bc21e5d72a5eeb46679a582f88216/nonebot_plugin_kanonbot-0.0.1b2.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-adapter-onebot]: Downloading https://files.pythonhosted.org/packages/60/12/253510c7c117cad35d3c5edc50b6e85898ee7dbf7b25850f9787229e59c0/nonebot_adapter_onebot-2.2.3.tar.gz
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: executing diffoscope
+[2023-08-06 06:30:09] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kanonbot-0.0.1b1.tar.gz tmp/nonebot_plugin_kanonbot-0.0.1b2.tar.gz --markdown 20230806/n/nonebot-plugin-kanonbot/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-08-06 06:30:09] INFO root fetch - processPackages [medisearch-client]: Downloading https://files.pythonhosted.org/packages/dc/cd/9a8eb518ed6fa5cc438a2e8450717987f028e51ca6610e935f9f8f57e426/medisearch_client-0.1.7.tar.gz
+[2023-08-06 06:30:10] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/c9/6c/d69dfc6c6bfc3ca225d842e19ba518b66b3fbd3f31d7aaab947a5418c1c9/auth_lib_profcomff-2023.8.6.tar.gz
+[2023-08-06 06:30:10] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/88/c4/98ec828ad7bccb95dd66d5aab5412b4603165eb57f2e3d2b52322f085e85/option_trader-0.2.2.tar.gz
+[2023-08-06 06:30:10] INFO root fetch - processPackages [medisearch-client]: executing diffoscope
+[2023-08-06 06:30:10] INFO root fetch - processPackages [medisearch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisearch_client-0.1.5.tar.gz tmp/medisearch_client-0.1.7.tar.gz --markdown 20230806/m/medisearch-client/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-08-06 06:30:10] INFO root fetch - processPackages [nonebot-adapter-onebot]: Downloading https://files.pythonhosted.org/packages/fd/67/b86e942c3d1c940fadc66d86ecfea1c44c778e3adcc16614967a416fa006/nonebot_adapter_onebot-2.2.4.tar.gz
+[2023-08-06 06:30:10] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2023-08-06 06:30:10] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2023.7.9.1.tar.gz tmp/auth_lib_profcomff-2023.8.6.tar.gz --markdown 20230806/a/auth-lib-profcomff/2023.7.9.1-2023.8.6/diff.md --exclude *.pyd
+[2023-08-06 06:30:10] INFO root fetch - processPackages [nonebot-adapter-onebot]: executing diffoscope
+[2023-08-06 06:30:10] INFO root fetch - processPackages [nonebot-adapter-onebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_onebot-2.2.3.tar.gz tmp/nonebot_adapter_onebot-2.2.4.tar.gz --markdown 20230806/n/nonebot-adapter-onebot/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-08-06 06:30:10] INFO root fetch - processPackages [option-trader]: executing diffoscope
+[2023-08-06 06:30:10] INFO root fetch - processPackages [option-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/option_trader-0.2.1.tar.gz tmp/option_trader-0.2.2.tar.gz --markdown 20230806/o/option-trader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-06 06:30:10] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kanonbot-0.0.1b1.tar.gz]
+[2023-08-06 06:30:10] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kanonbot-0.0.1b2.tar.gz]
+[2023-08-06 06:30:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kanonbot]: success
+[2023-08-06 06:30:10] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.5.tar.gz]
+[2023-08-06 06:30:10] INFO root fetch - processPackages [medisearch-client]: Remove: archive file [/home/abi/fetcher/tmp/medisearch_client-0.1.7.tar.gz]
+[2023-08-06 06:30:10] INFO root fetch - main [MainThread]: End processing [medisearch-client]: success
+[2023-08-06 06:30:11] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.7.9.1.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.8.6.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2023-08-06 06:30:11] INFO root fetch - processPackages [nonebot-adapter-onebot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_onebot-2.2.3.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - processPackages [nonebot-adapter-onebot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_onebot-2.2.4.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-onebot]: success
+[2023-08-06 06:30:11] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.1.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.2.tar.gz]
+[2023-08-06 06:30:11] INFO root fetch - main [MainThread]: End processing [option-trader]: success
+[2023-08-06 06:30:11] INFO root fetch - main [MainThread]: Store serial: [19191196]
