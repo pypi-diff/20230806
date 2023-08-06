@@ -7243,3 +7243,86 @@
 [2023-08-06 12:18:53] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.5.tar.gz]
 [2023-08-06 12:18:53] INFO root fetch - main [MainThread]: End processing [pyPPG]: success
 [2023-08-06 12:18:53] INFO root fetch - main [MainThread]: Store serial: [19192969]
+[2023-08-06 12:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19192969]
+[2023-08-06 12:24:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitgrade
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitgrade-devel
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statham-schema
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntcli
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsynth
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cliffy
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wwwgetpy
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wwwgetpy
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezsynth
+[2023-08-06 12:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upload-machine
+[2023-08-06 12:24:03] INFO root fetch - processPackages [ezsynth]: New version: [0.21] Old Version: [0.2]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [cliffy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [ezsynth]: New version: [0.21] Old Version: [0.2]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [upload-machine]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [pyntcli]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade-devel]: New version: [0.1.9] Old Version: [0.1.7a0]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [statham-schema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-06 12:24:03] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/5c/e7/01573a307dba244bd1ee1c9478dbcd9352f9698217e6b6a2821c473c1404/pyntcli-0.1.56-py3-none-any.whl
+[2023-08-06 12:24:03] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/fa/c6/d9fb53d0680fc6f4bc3dc9dac355591ad171851910e94c1f55322baf82ce/upload_machine-0.0.80.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/ad/4d/9e235f005560e9bc39eb3e4654805d1da0876a5b16cdeb13e921264217be/unitgrade-devel-0.1.7a0.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/f8/e1/95f240015efe3dc965438781c459ebfb4cc25c4a3d064f3b6b2553418149/ezsynth-0.2.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [ezsynth]: Downloading https://files.pythonhosted.org/packages/f8/e1/95f240015efe3dc965438781c459ebfb4cc25c4a3d064f3b6b2553418149/ezsynth-0.2.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/93/22/72319532e5dda45930697ac25d27a06ef5c2a7761ecd9ee3b7a47a803314/cliffy-0.3.2.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: Downloading https://files.pythonhosted.org/packages/e9/83/7e3b6b1d98427c5f03fa686ed928351995e9e38badde6acee2bfa544cec4/wwwgetpy-0.1.0.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: Downloading https://files.pythonhosted.org/packages/e9/83/7e3b6b1d98427c5f03fa686ed928351995e9e38badde6acee2bfa544cec4/wwwgetpy-0.1.0.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [statham-schema]: Downloading https://files.pythonhosted.org/packages/64/c2/a556ea4e331757319d62cb818058f822dc6e1f62efc9afb4ac915f571308/statham-schema-0.8.0.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade]: Downloading https://files.pythonhosted.org/packages/22/a5/425d2adc5d373ddfb2c1bb3d2f77d46a07254625b8ecc95b2c531726e9ad/unitgrade-0.1.8.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/55/4f/775f222494f79444abd033e2fede5a6bc8f305c6ad06f49b2bdf65f87fd4/upload_machine-0.0.81.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/b7/a6/a42210f19788d738fd28078251afa1042d45adaaf6ee7b0545aa761dd2ab/pyntcli-0.1.57-py3-none-any.whl
+[2023-08-06 12:24:03] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-06 12:24:03] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.80.tar.gz tmp/upload_machine-0.0.81.tar.gz --markdown 20230806/u/upload-machine/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/8e/51/b73b3be691b9860b252c7ae440f19334b0c132b61249a634e2d38db27f2e/unitgrade-devel-0.1.9.tar.gz
+[2023-08-06 12:24:03] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103499>=10485760
+[2023-08-06 12:24:03] WARNING root fetch - processPackages [ezsynth]: Skipping package: exceeds size limit 17103499>=10485760
+[2023-08-06 12:24:03] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:24:03] INFO root fetch - main [MainThread]: End processing [ezsynth] error
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade-devel]: executing diffoscope
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitgrade-devel-0.1.7a0.tar.gz tmp/unitgrade-devel-0.1.9.tar.gz --markdown 20230806/u/unitgrade-devel/0.1.7a0-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 12:24:03] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/35/c9/d0dfeea52993a53ca22866629d9dcb7ed5bc52467984eb2d50ed699fe124/cliffy-0.3.3.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [unitgrade]: Downloading https://files.pythonhosted.org/packages/9c/88/135bf2cdcfe308a82a6079e034e5744598174a4297e11c54a599a55c6b43/unitgrade-0.1.9.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: Downloading https://files.pythonhosted.org/packages/05/fb/b0b14755a6448a055b3e1884d9963000fd72b14074fe09b362d5327c6db3/wwwgetpy-0.1.1.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [wwwgetpy]: Downloading https://files.pythonhosted.org/packages/05/fb/b0b14755a6448a055b3e1884d9963000fd72b14074fe09b362d5327c6db3/wwwgetpy-0.1.1.tar.gz
+[2023-08-06 12:24:03] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-08-06 12:24:03] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.56-py3-none-any.whl.zip tmp/pyntcli-0.1.57-py3-none-any.whl.zip --markdown 20230806/p/pyntcli/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-08-06 12:24:04] INFO root fetch - processPackages [statham-schema]: Downloading https://files.pythonhosted.org/packages/da/b9/5aa7ad9db36e6fcb4e163faf2df352ac4b1d03493590b4e785bd9308be95/statham-schema-0.9.0.tar.gz
+[2023-08-06 12:24:04] INFO root fetch - processPackages [cliffy]: executing diffoscope
+[2023-08-06 12:24:04] INFO root fetch - processPackages [cliffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliffy-0.3.2.tar.gz tmp/cliffy-0.3.3.tar.gz --markdown 20230806/c/cliffy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-06 12:24:04] INFO root fetch - processPackages [unitgrade]: executing diffoscope
+[2023-08-06 12:24:04] INFO root fetch - processPackages [unitgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitgrade-0.1.8.tar.gz tmp/unitgrade-0.1.9.tar.gz --markdown 20230806/u/unitgrade/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-06 12:24:04] INFO root fetch - processPackages [wwwgetpy]: executing diffoscope
+[2023-08-06 12:24:04] INFO root fetch - processPackages [wwwgetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwwgetpy-0.1.0.tar.gz tmp/wwwgetpy-0.1.1.tar.gz --markdown 20230806/w/wwwgetpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 12:24:04] INFO root fetch - processPackages [wwwgetpy]: executing diffoscope
+[2023-08-06 12:24:04] INFO root fetch - processPackages [wwwgetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwwgetpy-0.1.0.tar.gz tmp/wwwgetpy-0.1.1.tar.gz --markdown 20230806/w/wwwgetpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 12:24:04] INFO root fetch - processPackages [statham-schema]: executing diffoscope
+[2023-08-06 12:24:04] INFO root fetch - processPackages [statham-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statham-schema-0.8.0.tar.gz tmp/statham-schema-0.9.0.tar.gz --markdown 20230806/s/statham-schema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 12:24:05] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.7a0.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.9.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [unitgrade-devel]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.2.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.3.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [cliffy]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [wwwgetpy]: Remove: archive file [/home/abi/fetcher/tmp/wwwgetpy-0.1.0.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [wwwgetpy]: Remove: archive file [/home/abi/fetcher/tmp/wwwgetpy-0.1.1.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [wwwgetpy]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.80.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.81.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [unitgrade]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-0.1.8.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [unitgrade]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-0.1.9.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [unitgrade]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.56-py3-none-any.whl.zip]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.57-py3-none-any.whl.zip]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [wwwgetpy]: success
+[2023-08-06 12:24:05] INFO root fetch - processPackages [statham-schema]: Remove: archive file [/home/abi/fetcher/tmp/statham-schema-0.8.0.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - processPackages [statham-schema]: Remove: archive file [/home/abi/fetcher/tmp/statham-schema-0.9.0.tar.gz]
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: End processing [statham-schema]: success
+[2023-08-06 12:24:05] INFO root fetch - main [MainThread]: Store serial: [19192999]
