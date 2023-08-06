@@ -5278,3 +5278,50 @@
 [2023-08-06 09:26:35] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
 [2023-08-06 09:26:35] INFO root fetch - main [MainThread]: End processing [vmklib]: success
 [2023-08-06 09:26:35] INFO root fetch - main [MainThread]: Store serial: [19191995]
+[2023-08-06 09:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19191995]
+[2023-08-06 09:31:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QoolTabs
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cougar
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npc-session
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-08-06 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parol
+[2023-08-06 09:31:44] INFO root fetch - processPackages [cougar]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-06 09:31:44] INFO root fetch - processPackages [npc-session]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 09:31:44] WARNING root fetch - processPackages [QoolTabs]: Skipping, unable to determine old version
+[2023-08-06 09:31:44] INFO root fetch - main [MainThread]: End processing [QoolTabs] error
+[2023-08-06 09:31:44] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-06 09:31:44] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/75/27/494edb84a9e83a21dd57eedfe63a1e5d887d41f5826b8744393d49e33109/cougar-0.3.1.tar.gz
+[2023-08-06 09:31:44] INFO root fetch - processPackages [parol]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-06 09:31:44] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230806] Old Version: [0.7.3.dev20230805]
+[2023-08-06 09:31:45] INFO root fetch - processPackages [npc-session]: Downloading https://files.pythonhosted.org/packages/0c/57/94cb41e2b8f2c8ce84c31956c521b9ad446a2ee4b1fa560d81d3a8ffa5ee/npc_session-0.1.0.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [parol]: Downloading https://files.pythonhosted.org/packages/21/a9/46e3fc8a48d262922a4e11f6ba54ffebeb4353f2b00fad73646d3629a490/parol-1.0.1.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/5b/6f/5f46e727e649275e984f6f9b1a9436a87cfebaaed44d8ea3b2cbee7deb68/cougar-0.3.2.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/fd/a1/0a7deb268ea61de0ae45e2115964e7c4c4f7ee983d790807da6dec38f8e4/tfq_nightly-0.7.3.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-06 09:31:45] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-08-06 09:31:45] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-06 09:31:45] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-08-06 09:31:45] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.3.1.tar.gz tmp/cougar-0.3.2.tar.gz --markdown 20230806/c/cougar/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-06 09:31:45] INFO root fetch - processPackages [npc-session]: Downloading https://files.pythonhosted.org/packages/49/5d/b6e2d14468f6f17d7fe1ebac90cc1e49b91dbac86ba611e99a7bbe9ac39e/npc_session-0.1.1.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [parol]: Downloading https://files.pythonhosted.org/packages/54/30/0abeed9eba0214f58e38b9fd32cf25421f39932ddef38187a11b07d5234f/parol-1.1.0.tar.gz
+[2023-08-06 09:31:45] INFO root fetch - processPackages [npc-session]: executing diffoscope
+[2023-08-06 09:31:45] INFO root fetch - processPackages [npc-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_session-0.1.0.tar.gz tmp/npc_session-0.1.1.tar.gz --markdown 20230806/n/npc-session/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 09:31:45] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-06 09:31:45] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230806/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-06 09:31:45] INFO root fetch - processPackages [parol]: executing diffoscope
+[2023-08-06 09:31:45] INFO root fetch - processPackages [parol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parol-1.0.1.tar.gz tmp/parol-1.1.0.tar.gz --markdown 20230806/p/parol/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-06 09:31:46] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.1.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.3.2.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-08-06 09:31:46] INFO root fetch - processPackages [parol]: Remove: archive file [/home/abi/fetcher/tmp/parol-1.0.1.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - processPackages [parol]: Remove: archive file [/home/abi/fetcher/tmp/parol-1.1.0.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - main [MainThread]: End processing [parol]: success
+[2023-08-06 09:31:46] INFO root fetch - processPackages [npc-session]: Remove: archive file [/home/abi/fetcher/tmp/npc_session-0.1.0.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - processPackages [npc-session]: Remove: archive file [/home/abi/fetcher/tmp/npc_session-0.1.1.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - main [MainThread]: End processing [npc-session]: success
+[2023-08-06 09:31:46] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-06 09:31:46] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-06 09:31:46] INFO root fetch - main [MainThread]: Store serial: [19192025]
