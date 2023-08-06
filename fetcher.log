@@ -14904,3 +14904,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-08-06 20:43:38] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.1.tar.gz]
 [2023-08-06 20:43:38] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
 [2023-08-06 20:43:38] INFO root fetch - main [MainThread]: Store serial: [19196419]
+[2023-08-06 20:48:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19196419]
+[2023-08-06 20:48:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyfilter
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forum
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyschlage
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hierarqcal
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sscred-fork
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyenphase
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HaploDynamics
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyxavi
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marginaleffects
+[2023-08-06 20:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graal
+[2023-08-06 20:48:47] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [pyenphase]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [pyschlage]: New version: [2023.8.0] Old Version: [2023.7.0]
+[2023-08-06 20:48:47] WARNING root fetch - processPackages [HaploDynamics]: Skipping, unable to determine old version
+[2023-08-06 20:48:47] INFO root fetch - processPackages [HaploDynamics]: Start processing: superagent-py
+[2023-08-06 20:48:47] INFO root fetch - main [MainThread]: End processing [HaploDynamics] error
+[2023-08-06 20:48:47] WARNING root fetch - processPackages [forum]: Skipping, unable to determine old version
+[2023-08-06 20:48:47] INFO root fetch - main [MainThread]: End processing [forum] error
+[2023-08-06 20:48:47] INFO root fetch - processPackages [sscred-fork]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [superagent-py]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [marginaleffects]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/84/80/0edde31c4b51049bed922bf3315ee4450f7e49f4f697b59d443d2d3093c9/tinyfilter-0.1.0.tar.gz
+[2023-08-06 20:48:47] WARNING root fetch - processPackages [pyxavi]: Skipping, unable to determine old version
+[2023-08-06 20:48:47] INFO root fetch - main [MainThread]: End processing [pyxavi] error
+[2023-08-06 20:48:47] INFO root fetch - processPackages [hierarqcal]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-06 20:48:47] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/d9/d2/2caa17d92a500499c45882e4aa16d39876b20736fa83106f5a9893b981cf/pyenphase-0.8.0.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/c7/ef/bd750739dc48bef65480e68c5797438f4953e8d7cb7a54bb5f679208e6ed/superagent_py-0.0.43.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/15/42/586d6eb76b2616f2e5628bfa97c808c510330eb45c1d515200435356c65a/pyschlage-2023.7.0.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [sscred-fork]: Downloading https://files.pythonhosted.org/packages/02/7e/34e0c484601dbd839b4017de5715cffb35b25f8e86155d5fdab72d51512d/sscred_fork-0.2.14.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/8e/20/c2a7931299a1cd78815770ea7722d1e39bd0b366bab7e6898e0e67520153/marginaleffects-0.0.3.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [hierarqcal]: Downloading https://files.pythonhosted.org/packages/f9/ea/6f3914db157dcda9cb24745a7fd152f73814698ea6ca03f567da44fd6878/hierarqcal-0.4.0.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-08-06 20:48:47] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/e4/b9/1abb3e675308142f65000e175d6a8dec44c11e223fc07644fc7bd3fe6c19/pyenphase-0.9.0.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/27/a1/da8fbcbe8e741f83d44c537f1c6275c5cb293d563540a9b31a33da7bed23/superagent_py-0.0.44.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/16/2e/fd3287e6475f8e12b8858177dd42af7ebf1eaf638ac21c3c91120698d03b/pyschlage-2023.8.0.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.8.0.tar.gz tmp/pyenphase-0.9.0.tar.gz --markdown 20230806/p/pyenphase/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230806/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [sscred-fork]: Downloading https://files.pythonhosted.org/packages/3e/e6/cd2f0dd3cff80709bb8e42cffde1df46c377d0df771af38c5ebf66554775/sscred_fork-0.2.15.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/74/86/b0728c2cdda17532982656b7d8b4e2d5bad5f605a54ac1e5118ea33ec4ef/tinyfilter-0.1.1.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [pyschlage]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [pyschlage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschlage-2023.7.0.tar.gz tmp/pyschlage-2023.8.0.tar.gz --markdown 20230806/p/pyschlage/2023.7.0-2023.8.0/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [hierarqcal]: Downloading https://files.pythonhosted.org/packages/5e/a1/c653b047211b05377c90506148a4cdbb950bd05bf9ea06568fe2c0f699e1/hierarqcal-0.5.0.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/21/44/af4ee100339270c0fba1b2b7a025e670b4b8fcbcf9e51c114cc6008b5920/marginaleffects-0.0.4.tar.gz
+[2023-08-06 20:48:48] INFO root fetch - processPackages [sscred-fork]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [sscred-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sscred_fork-0.2.14.tar.gz tmp/sscred_fork-0.2.15.tar.gz --markdown 20230806/s/sscred-fork/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [hierarqcal]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [hierarqcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierarqcal-0.4.0.tar.gz tmp/hierarqcal-0.5.0.tar.gz --markdown 20230806/h/hierarqcal/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.43.tar.gz tmp/superagent_py-0.0.44.tar.gz --markdown 20230806/s/superagent-py/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [marginaleffects]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [marginaleffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marginaleffects-0.0.3.tar.gz tmp/marginaleffects-0.0.4.tar.gz --markdown 20230806/m/marginaleffects/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-06 20:48:48] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-06 20:48:48] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230806:/home/abi/fetcher/20230806:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.0.tar.gz tmp/tinyfilter-0.1.1.tar.gz --markdown 20230806/t/tinyfilter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-06 20:48:49] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.8.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.9.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [sscred-fork]: Remove: archive file [/home/abi/fetcher/tmp/sscred_fork-0.2.14.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [sscred-fork]: Remove: archive file [/home/abi/fetcher/tmp/sscred_fork-0.2.15.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [sscred-fork]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.7.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.8.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [pyschlage]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [hierarqcal]: Remove: archive file [/home/abi/fetcher/tmp/hierarqcal-0.4.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [hierarqcal]: Remove: archive file [/home/abi/fetcher/tmp/hierarqcal-0.5.0.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [hierarqcal]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.43.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.44.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-06 20:48:49] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.3.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.4.tar.gz]
+[2023-08-06 20:48:49] INFO root fetch - main [MainThread]: End processing [marginaleffects]: success
+[2023-08-06 20:48:50] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.0.tar.gz]
+[2023-08-06 20:48:50] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.1.tar.gz]
+[2023-08-06 20:48:50] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-06 20:48:50] INFO root fetch - main [MainThread]: Store serial: [19196455]
